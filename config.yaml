@@ -41,7 +41,8 @@ assumptions:
   sale_marketing_days: 30      # list -> accepted offer
   sale_close_days: 75          # accepted offer -> proceeds (incl. ROFR)
   harpta_pct: 0.0725           # Hawaii withholding on non-resident sellers (Aulani only; refunded at tax filing)
-  stripped_discount_per_point: 10   # resale discount if contract sells with no current-year points
+  max_hold_months_after_trip: 12   # never plan to hold longer than this after the trip
+  opportunity_rate_pct: 4.5    # what tied-up cash could earn elsewhere (shown, not added to net cost)
   dues_growth_pct: 5.5         # default annual dues growth if resort-specific unknown
 
 alerts:

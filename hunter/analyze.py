@@ -24,6 +24,9 @@ from datetime import date, datetime, timedelta
 import yaml
 
 from .resorts import display, is_legacy
+from .market_model import stripped_discount, fit as fit_market
+
+MODEL: dict = {}
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REF = os.path.join(ROOT, "reference")
@@ -226,29 +229,42 @@ def plan(d: dict, trip: dict, nights: int, scenario: dict, cfg: dict, periods, r
     def annual_dues(y):
         return pts * rate26 * (1 + g) ** (y - 2026)
 
-    # sale options
-    trip_uy_end = s_next
+    # ---- resale baseline ($/pt for a fully loaded contract)
     harpta = A["harpta_pct"] if aulani_home else 0
     if (rref.get("resale_avg_price_per_point") or {}).get("trailing_6mo_avg_2026-04_to_2026-09"):
         market = float(rref["resale_avg_price_per_point"]["trailing_6mo_avg_2026-04_to_2026-09"])
     else:
         market = float(d.get("price_per_point") or 0)
-    # Conservative exit: resell at what we paid, or the market average if that's lower.
-    # (A below-market ask is often below market for a reason; don't bank on a gain.)
+    if d.get("subsidized_dues") and aulani_home:
+        market += 15  # subsidized Aulani contracts trade at a premium (approx.)
+    # What we pay, translated to a loaded-equivalent: if the listing is stripped today,
+    # its ask already reflects that discount.
     ppt_paid = float(d.get("price_per_point") or market)
-    exit_ppt = min(ppt_paid, market + (15 if d.get("subsidized_dues") and aulani_home else 0))
+    t_cur = uy_start(today, uy)
+    c_now, _, _ = bucket_points(bk, t_cur, pts)
+    n_now, _, _ = bucket_points(bk, add_months(t_cur, 12), pts)
+    now_disc = stripped_discount(MODEL, c_now / pts if pts else 1, (add_months(t_cur, 12) - today).days / 365,
+                                 n_now / pts if pts else 1)
+    loaded_equiv = ppt_paid + now_disc
+    # Conservative: resell at the lower of our loaded-equivalent price and the market average.
+    base_exit = min(loaded_equiv, market)
     comm = A["seller_commission_pct"]
     estoppel = float(((fees.get("seller_costs") or {}).get("disney_estoppel_fee_usd")) or 150)
+    buy_total = price + closing_cost + caf
+    rent_cost = need * A["rent_rate_per_point"]
+    tat = need * 0.82  # est. 2027 Aulani occupancy tax, paid whether owned or rented
+    opp_rate = A.get("opportunity_rate_pct", 4.5) / 100
+    cap = add_months(co, int(A.get("max_hold_months_after_trip", 12)))
 
     def dues_between(a: date, b: date):
         """buyer-borne dues for ownership from a to b (calendar-year billing, prorated)."""
         total, rows = 0.0, []
         for y in range(a.year, b.year + 1):
             ys, ye = date(y, 1, 1), date(y, 12, 31)
-            s, e = max(a, ys), min(b, ye)
-            if e < s:
+            s_, e_ = max(a, ys), min(b, ye)
+            if e_ < s_:
                 continue
-            frac = ((e - s).days + 1) / 365
+            frac = ((e_ - s_).days + 1) / 365
             payer = who_pays(d.get("dues_terms"), y)
             amt = annual_dues(y) * frac
             if payer == "seller" and y <= closing.year + 1:
@@ -257,85 +273,87 @@ def plan(d: dict, trip: dict, nights: int, scenario: dict, cfg: dict, periods, r
             rows.append((y, round(amt), payer))
         return total, rows
 
-    options = []
-    # A: sell soon after the trip (current UY partly used -> stripped discount)
-    list_a = co + timedelta(days=7)
-    disc_a = 0.0
-    remaining_cur = max(0, cur + bank_used - need) if fit == "yes" else 0
-    if remaining_cur < 0.5 * pts:
-        disc_a += A["stripped_discount_per_point"]
-    if borrow:
-        disc_a += A["stripped_discount_per_point"]
-    if list_a >= trip_uy_end and not borrow:
-        disc_a = 0
-    options.append(("sell after trip", list_a, disc_a))
-    # B: wait for a fully loaded use year, sell loaded
-    list_b = add_months(s0, 24 if borrow else 12)
-    options.append(("sell when reloaded", list_b, 0.0))
-
-    best = None
-    for name, list_on, disc in options:
+    def build_exit(key: str, label: str, list_on: date, disc: float) -> dict:
         sale_close = list_on + timedelta(days=A["sale_marketing_days"] + A["sale_close_days"])
         dues_total, dues_rows = dues_between(closing, sale_close)
-        gross = max(0.0, (exit_ppt - disc) * pts)
+        exit_ppt = max(0.0, base_exit - disc)
+        gross = exit_ppt * pts
         net_sale = gross * (1 - comm) - estoppel
-        buy_total = price + closing_cost + caf
         net_cost = buy_total + dues_total - net_sale
-        o = {"exit": name, "list_on": list_on, "sale_close": sale_close, "discount_ppt": disc,
-             "exit_ppt": exit_ppt - disc, "gross_sale": gross, "net_sale": net_sale,
-             "dues_total": dues_total, "dues_rows": dues_rows, "buy_total": buy_total,
-             "net_cost": net_cost}
-        if best is None or net_cost < best["net_cost"]:
-            best = o
+        withheld = gross * harpta
+        # cash timeline
+        dep = price * A["deposit_pct"]
+        cash = [
+            {"date": today, "what": "Offer accepted: deposit", "amount": -dep},
+            {"date": today + timedelta(days=A["rofr_days"]), "what": "Disney ROFR decision (deposit back if Disney buys it)", "amount": 0},
+        ]
+        at_close = price - dep + closing_cost + caf
+        cy = [r for r in dues_rows if r[0] == closing.year]
+        if cy and cy[0][1]:
+            at_close += cy[0][1]
+        pay_next_at_close = closing >= date(closing.year, 11, 20)
+        cash.append({"date": closing, "what": "Closing: balance, closing costs, Disney fee" +
+                     (", prorated dues" if cy and cy[0][1] else ""), "amount": -at_close})
+        for y, amt, payer in dues_rows:
+            if y == closing.year or amt == 0:
+                continue
+            when = closing if (pay_next_at_close and y == closing.year + 1) else date(y, 1, 15)
+            if y == sale_close.year and when >= sale_close:
+                cash.append({"date": sale_close, "what": f"{y} dues prorated to the sale date (settled at closing)", "amount": -amt})
+                continue
+            lbl = f"{y} annual dues" + (" (due at closing)" if when == closing else "")
+            cash.append({"date": when, "what": lbl, "amount": -annual_dues(y)})
+            if y == sale_close.year:
+                cash.append({"date": sale_close, "what": f"Buyer reimburses unused {y} dues",
+                             "amount": annual_dues(y) - amt})
+        cash.append({"date": book_on, "what": f"Book {scenario['name'].lower()} ({'home 11-mo' if aulani_home else '7-mo'} window)", "amount": 0})
+        cash.append({"date": ci, "what": f"Check in ({need} pts; ~${tat:,.0f} Hawaii occupancy tax at checkout)", "amount": -tat})
+        cash.append({"date": list_on, "what": f"List for sale — {label}" + (f" (~${disc:.0f}/pt discount for missing points)" if disc >= 0.5 else ""), "amount": 0})
+        cash.append({"date": sale_close, "what": "Sale closes: proceeds after commission" + (" and Hawaii withholding" if harpta else ""),
+                     "amount": net_sale - withheld})
+        if harpta:
+            cash.append({"date": date(sale_close.year + 1, 4, 15), "what": "Hawaii withholding refunded via tax return (est.)", "amount": withheld})
+        cash.sort(key=lambda c: c["date"])
+        # money tied up: peak outstanding, how long, and what it would have earned
+        run_bal, peak, opp, last = 0.0, 0.0, 0.0, cash[0]["date"]
+        for c in cash:
+            if c["amount"] == 0:
+                continue
+            opp += max(0.0, -run_bal) * opp_rate * (c["date"] - last).days / 365
+            last = c["date"]
+            run_bal += c["amount"]
+            peak = min(peak, run_bal)
+        tied_end = sale_close if not harpta else date(sale_close.year + 1, 4, 15)
+        months = round((sale_close - today).days / 30.4)
+        savings = rent_cost - net_cost
+        denom = pts * (1 - comm)
+        breakeven = ((buy_total + dues_total - rent_cost + estoppel) / denom + disc) if denom else None
+        return {
+            "key": key, "label": label, "list_on": list_on.isoformat(), "sale_close": sale_close.isoformat(),
+            "discount_ppt": round(disc, 1), "exit_ppt": round(exit_ppt, 1), "gross_sale": round(gross),
+            "net_sale": round(net_sale), "dues_total": round(dues_total), "dues_rows": dues_rows,
+            "net_cost": round(net_cost), "savings": round(savings),
+            "savings_pct": round(100 * savings / rent_cost, 1) if rent_cost else 0,
+            "breakeven_exit_ppt": round(breakeven, 1) if breakeven else None,
+            "peak_cash_out": round(-peak), "months_tied": months, "opp_cost": round(opp),
+            "harpta_withheld": round(withheld), "within_cap": list_on <= cap,
+            "cash": [{**c, "date": c["date"].isoformat(), "amount": round(c["amount"])} for c in cash],
+        }
 
-    rent_cost = need * A["rent_rate_per_point"]
-    leftover_value = leftover * A["owner_rent_out_rate"]
-    savings = rent_cost - best["net_cost"]
-    # break-even: sale $/pt at which owning == renting
-    denom = pts * (1 - comm)
-    breakeven = (best["buy_total"] + best["dues_total"] - rent_cost + estoppel) / denom + best["discount_ppt"] if denom else None
-    tat = need * 0.82 if True else 0  # 2027 Aulani occupancy tax est. ($/pt), same whether owned or rented
-
-    # cash timeline
-    dep = price * A["deposit_pct"]
-    cash = [
-        {"date": today, "what": "Offer accepted: deposit", "amount": -dep},
-        {"date": today + timedelta(days=A["rofr_days"]), "what": "Disney ROFR decision (deposit refunded if Disney buys)", "amount": 0},
-    ]
-    at_close = price - dep + closing_cost + caf
-    cy_rows = [r for r in best["dues_rows"] if r[0] == closing.year]
-    if cy_rows and cy_rows[0][1] and cy_rows[0][2] != "seller":
-        at_close += cy_rows[0][1]
-    pay_next_at_close = closing >= date(closing.year, 11, 20)
-    cash.append({"date": closing, "what": "Closing: balance, closing costs, Disney fee" +
-                 (", prorated current-year dues" if cy_rows and cy_rows[0][1] else ""), "amount": -at_close})
-    for y, amt, payer in best["dues_rows"]:
-        if y == closing.year or amt == 0:
-            continue
-        when = closing if (pay_next_at_close and y == closing.year + 1) else date(y, 1, 15)
-        lbl = f"{y} annual dues" + (" (Disney requires at closing)" if when == closing else "")
-        if y == best["sale_close"].year:
-            lbl += " — buyer reimburses unused months at sale"
-        cash.append({"date": when, "what": lbl, "amount": -annual_dues(y) if y != best["sale_close"].year else -annual_dues(y)})
-    # refund of the unused part of the sale-year dues
-    sy = [r for r in best["dues_rows"] if r[0] == best["sale_close"].year]
-    if sy and sy[0][0] != closing.year:
-        cash.append({"date": best["sale_close"], "what": "Dues reimbursement from buyer (unused months)",
-                     "amount": annual_dues(sy[0][0]) - sy[0][1]})
-    cash.append({"date": book_on, "what": f"Book {scenario['name'].lower()} ({'home 11-mo' if aulani_home else '7-mo'} window)", "amount": 0})
-    cash.append({"date": ci, "what": f"Check in ({need} pts; est. Hawaii occupancy tax ${tat:,.0f} paid at checkout)", "amount": -tat})
-    cash.append({"date": best["list_on"], "what": f"List for sale ({best['exit']})", "amount": 0})
-    withheld = best["gross_sale"] * harpta
-    cash.append({"date": best["sale_close"], "what": "Sale closes: proceeds after commission" + (" and HARPTA withholding" if harpta else ""),
-                 "amount": best["net_sale"] - withheld})
-    if harpta:
-        cash.append({"date": date(best["sale_close"].year + 1, 4, 15), "what": "HARPTA refund via Hawaii tax return (est.)",
-                     "amount": withheld})
-    cash.sort(key=lambda c: c["date"])
-    peak_out, run = 0.0, 0.0
-    for c in cash:
-        run += c["amount"]
-        peak_out = min(peak_out, run)
+    # Exit 1: sell right after the trip, with whatever points are left
+    list_s = co + timedelta(days=7)
+    remaining = max(0, usable_nb - need) if fit == "yes" else 0
+    if list_s < s_next:
+        cur_frac = min(1.0, remaining / pts) if pts else 1
+        disc_s = stripped_discount(MODEL, cur_frac, (s_next - list_s).days / 365, 1 - borrow / pts if pts else 1)
+    else:
+        disc_s = stripped_discount(MODEL, 1, 0, 1 - borrow / pts if pts else 1)
+    strip = build_exit("strip", "right after the trip", list_s, disc_s)
+    # Exit 2: wait until a full year of points loads, sell loaded
+    list_r = add_months(s0, 24 if borrow else 12)
+    reload = build_exit("reload", "when points reload", list_r, 0.0)
+    choices = [strip] + ([reload] if reload["within_cap"] else [])
+    best = min(choices, key=lambda e: e["net_cost"])
 
     return {
         "trip": trip["id"], "trip_name": trip["name"], "nights": nights, "scenario": scenario["id"],
@@ -348,50 +366,46 @@ def plan(d: dict, trip: dict, nights: int, scenario: dict, cfg: dict, periods, r
         "closing_est": closing.isoformat(), "member_ready": ready.isoformat(),
         "window_opens": window.isoformat(), "book_on": book_on.isoformat(), "days_late": max(0, late),
         "booking_risk": brisk,
-        "price": price, "closing_cost": closing_cost, "caf": caf, "dues_rate_2026": rate26,
-        "exit": best["exit"], "list_on": best["list_on"].isoformat(), "sale_close": best["sale_close"].isoformat(),
-        "exit_ppt": round(best["exit_ppt"], 1), "market_ppt": market, "gross_sale": round(best["gross_sale"]),
-        "net_sale": round(best["net_sale"]), "dues_total": round(best["dues_total"]),
-        "dues_rows": best["dues_rows"], "buy_total": round(best["buy_total"]),
-        "net_cost": round(best["net_cost"]), "rent_cost": round(rent_cost), "savings": round(savings),
-        "savings_pct": round(100 * savings / rent_cost, 1) if rent_cost else 0,
-        "breakeven_exit_ppt": round(breakeven, 1) if breakeven else None,
-        "leftover_value": round(leftover_value), "harpta_withheld": round(withheld),
-        "peak_cash_out": round(-peak_out), "tat_est": round(tat),
-        "cash": [{**c, "date": c["date"].isoformat(), "amount": round(c["amount"])} for c in cash],
+        "price": price, "closing_cost": closing_cost, "caf": caf, "buy_total": round(buy_total),
+        "dues_rate_2026": rate26, "market_ppt": round(market, 1), "loaded_equiv_ppt": round(loaded_equiv, 1),
+        "now_discount_ppt": round(now_disc, 1), "rent_cost": round(rent_cost), "tat_est": round(tat),
+        "leftover_value": round(leftover * A["owner_rent_out_rate"]),
+        "cap_date": cap.isoformat(), "best_exit": best["key"],
+        "exits": {"strip": strip, "reload": reload},
     }
 
 
-def score(d: dict, plans: list[dict], rofr: str, cfg: dict) -> tuple[float, dict]:
-    trip_w = {t["id"]: (1.0 if i == 0 else 0.85) for i, t in enumerate(cfg["trips"])}
-    best_cov, best_val, best_time, best_plan = 0, 0, 0, None
-    for p in plans:
-        w = trip_w.get(p["trip"], 0.8)
-        if p["fit"] == "no":
-            continue
-        cov = (35 if p["scenario"] == "both" else 20) * (1 if p["fit"] == "yes" else 0.8) * (1 if p["nights"] == 6 else 0.95) * w
-        val = max(0, min(35, (p["savings_pct"] + 40) / 100 * 35))  # -40% -> 0, +60% -> 35
-        tim = {"low": 10, "medium": 5, "high": 0}[p["booking_risk"]]
-        total = cov + val + tim
-        if best_plan is None or total > best_cov + best_val + best_time:
-            best_cov, best_val, best_time, best_plan = cov, val, tim, p
-    risk = {"low": 10, "medium": 5, "high": 0}[rofr]
-    conf = 0
-    conf += 3 if d.get("detail_fetched") else 0
+TIMING = {"low": 10, "medium": 5, "high": 0}
+RISK = {"low": 10, "medium": 5, "high": 0}
+
+
+def data_parts(d: dict) -> tuple[int, int]:
+    conf = (3 if d.get("detail_fetched") else 0)
     conf += 2 if not (d.get("extra") or {}).get("availability_incomplete") and d.get("points_available") else 0
     conf += 1 if d.get("dues_terms") else 0
-    stale = 0 if (d.get("stale") or (d.get("extra") or {}).get("aggregator_only")) else 4
-    s = best_cov + best_val + best_time + risk + conf + stale
-    return round(s, 1), {"coverage": round(best_cov, 1), "value": round(best_val, 1), "timing": best_time,
-                         "rofr": risk, "data": conf, "freshness": stale,
-                         "best": best_plan and f"{best_plan['trip']}/{best_plan['nights']}n/{best_plan['scenario']}"}
+    fresh = 0 if (d.get("stale") or (d.get("extra") or {}).get("aggregator_only")) else 4
+    return conf, fresh
+
+
+def combo_score(p: dict, e: dict, rofr: str, conf: int, fresh: int, over_budget: bool) -> float:
+    """0-100 for one trip/nights/family choice and one exit."""
+    if p["fit"] == "no":
+        return 0.0
+    cov = 35 if p["fit"] == "yes" else 28
+    val = max(0.0, min(35.0, (e["savings_pct"] + 40) / 100 * 35))   # -40% -> 0, +60% -> 35
+    s = cov + val + TIMING[p["booking_risk"]] + RISK[rofr] + conf + fresh
+    return round(s * (0.5 if over_budget else 1), 1)
 
 
 def run(today: date | None = None) -> dict:
+    global MODEL
     today = today or date.today()
     cfg = yaml.safe_load(open(os.path.join(ROOT, "config.yaml")))
     periods, resorts, fees = load_ref()
     L = json.load(open(os.path.join(ROOT, "data", "listings.json")))
+    MODEL = fit_market(L["listings"], today)
+    trip_w = {t["id"]: (1.0 if i == 0 else 0.9) for i, t in enumerate(cfg["trips"])}
+    sc_w = {s["id"]: (1.0 if i == len(cfg["scenarios"]) - 1 else 0.9) for i, s in enumerate(cfg["scenarios"])}
     out = []
     for d in L["listings"]:
         if not d.get("active") or d.get("availability") != "available":
@@ -403,20 +417,27 @@ def run(today: date | None = None) -> dict:
         if d["points"] < cfg.get("min_points", 0):
             continue
         rref = resorts.get(d["resort"], {})
+        rofr, rofr_why = rofr_risk(d, rref)
+        conf, fresh = data_parts(d)
         plans = []
         for t in cfg["trips"]:
             for n in t["nights"]:
-                for sc in cfg["scenarios"]:
+                for scn in cfg["scenarios"]:
                     try:
-                        plans.append(plan(d, t, n, sc, cfg, periods, rref, fees, today))
+                        plans.append(plan(d, t, n, scn, cfg, periods, rref, fees, today))
                     except Exception as e:  # never let one bad listing kill the run
-                        plans.append({"trip": t["id"], "nights": n, "scenario": sc["id"], "fit": "no", "error": str(e)})
-        rofr, rofr_why = rofr_risk(d, rref)
-        sc, parts = score(d, plans, rofr, cfg)
-        good = [p for p in plans if p.get("fit") != "no" and "error" not in p]
-        if good and good[0].get("buy_total", 0) > cfg.get("max_total_cost", 1e9):
-            sc = round(sc * 0.5, 1)
-            parts["over_budget"] = True
+                        print("plan error", d.get("uid"), e)
+        if not plans:
+            continue
+        over = plans[0]["buy_total"] > cfg.get("max_total_cost", 1e9)
+        best_score, best_label = 0.0, None
+        for p in plans:
+            for k, e in p["exits"].items():
+                e["score"] = combo_score(p, e, rofr, conf, fresh, over)
+            p["score"] = p["exits"][p["best_exit"]]["score"]
+            w = p["score"] * trip_w.get(p["trip"], 0.9) * sc_w.get(p["scenario"], 0.9)
+            if w > best_score:
+                best_score, best_label = w, f"{p['trip']}/{p['nights']}n/{p['scenario']}/{p['best_exit']}"
         out.append({
             "uid": d["uid"], "source": d["source"], "url": d.get("url"), "listing_id": d["listing_id"],
             "resort": d["resort"], "resort_name": display(d["resort"]), "points": d["points"],
@@ -426,25 +447,39 @@ def run(today: date | None = None) -> dict:
             "dues_terms": d.get("dues_terms"), "dues_per_point": d.get("dues_per_point"),
             "subsidized": bool(d.get("subsidized_dues")), "expiration": d.get("expiration"),
             "detail_fetched": d.get("detail_fetched"), "broker": (d.get("extra") or {}).get("broker"),
+            "broker_url": (d.get("extra") or {}).get("broker_url"),
             "aggregator_only": bool((d.get("extra") or {}).get("aggregator_only")),
             "history": d.get("history", [])[-6:],
-            "rofr": rofr, "rofr_why": rofr_why, "score": sc, "score_parts": parts,
-            "plans": [p for p in plans if "error" not in p],
+            "rofr": rofr, "rofr_why": rofr_why, "score": round(best_score, 1), "best": best_label,
+            "score_parts": {"data": conf, "freshness": fresh, "rofr": RISK[rofr], "over_budget": over},
+            "plans": plans,
         })
     out.sort(key=lambda x: -x["score"])
     for i, x in enumerate(out, 1):
         x["rank"] = i
     write_outputs(out, cfg, today)
-    return {"listings": out}
+    return {"listings": out, "model": MODEL}
 
 
-SUMMARY_KEYS = ("trip", "nights", "scenario", "need", "fit", "borrow", "usable_no_borrow", "usable_with_borrow",
-                "book_on", "booking_risk", "net_cost", "rent_cost", "savings", "savings_pct", "exit",
-                "breakeven_exit_ppt", "peak_cash_out", "leftover")
+BASE_KEYS = ("trip", "nights", "scenario", "need", "fit", "borrow", "book_on", "booking_risk", "best_exit",
+             "rent_cost", "leftover")
+EXIT_KEYS = ("net_cost", "savings", "savings_pct", "peak_cash_out", "months_tied", "opp_cost", "list_on",
+             "within_cap", "score", "discount_ppt")
+
+
+def plan_keys() -> list[str]:
+    return list(BASE_KEYS) + [f"{e}_{k}" for e in ("strip", "reload") for k in EXIT_KEYS]
+
+
+def summarize(p: dict) -> list:
+    row = [p.get(k) for k in BASE_KEYS]
+    for e in ("strip", "reload"):
+        row += [p["exits"][e].get(k) for k in EXIT_KEYS]
+    return row
 
 
 def write_outputs(out: list[dict], cfg: dict, today: date) -> None:
-    """index.json: compact rows for the table. l/<id>.json: full plans + cash timelines."""
+    """index.json: compact rows for the list. l/<id>.json: full plans + cash timelines."""
     base = os.path.join(ROOT, "docs", "data")
     ldir = os.path.join(base, "l")
     os.makedirs(ldir, exist_ok=True)
@@ -456,7 +491,7 @@ def write_outputs(out: list[dict], cfg: dict, today: date) -> None:
         row["fid"] = fid
         prices = [h.get("price") for h in x.get("history") or [] if h.get("price")]
         row["prev_price"] = max(prices) if prices and max(prices) > (x["price"] or 0) else None
-        row["plans"] = [[p.get(k) for k in SUMMARY_KEYS] for p in x["plans"]]
+        row["plans"] = [summarize(p) for p in x["plans"]]
         rows.append(row)
         detail = {k: x[k] for k in ("uid", "history", "availability_text", "dues_terms", "plans")}
         with open(os.path.join(ldir, fid + ".json"), "w") as f:
@@ -465,12 +500,13 @@ def write_outputs(out: list[dict], cfg: dict, today: date) -> None:
         if fn not in keep:
             os.remove(os.path.join(ldir, fn))
     with open(os.path.join(base, "index.json"), "w") as f:
-        json.dump({"today": today.isoformat(), "config": cfg, "plan_keys": SUMMARY_KEYS,
+        json.dump({"today": today.isoformat(), "config": cfg, "market_model": MODEL, "plan_keys": plan_keys(),
                    "count": len(rows), "listings": rows},
                   f, default=str, separators=(",", ":"))
 
 
 if __name__ == "__main__":
     doc = run()
-    for x in doc["listings"][:15]:
-        print(x["rank"], x["score"], x["uid"], x["resort"], x["points"], x["ppt"], x["score_parts"]["best"], x["rofr"])
+    print("market model:", doc["model"])
+    for x in doc["listings"][:12]:
+        print(x["rank"], x["score"], x["uid"], x["resort"], x["points"], x["ppt"], x["best"], x["rofr"])

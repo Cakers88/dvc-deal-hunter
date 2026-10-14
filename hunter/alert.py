@@ -23,8 +23,10 @@ def _best(x: dict, keys: list[str]) -> dict | None:
     ok = [p for p in plans if p["fit"] != "no"]
     if not ok:
         return None
-    pref = {"both": 0, "one": 1}
-    return sorted(ok, key=lambda p: (pref.get(p["scenario"], 2), p["fit"] != "yes", -p["savings"]))[0]
+    for p in ok:
+        b = p["best_exit"]
+        p.update({k[len(b) + 1:]: v for k, v in p.items() if k.startswith(b + "_")})
+    return max(ok, key=lambda p: p["score"])
 
 
 def message(x: dict, keys: list[str], dash: str | None) -> tuple[str, str]:
@@ -36,9 +38,10 @@ def message(x: dict, keys: list[str], dash: str | None) -> tuple[str, str]:
         trip = "Sept" if p["trip"].startswith("sep") else "July"
         lines.append(f"Covers {who}, {trip} {p['nights']}n ({p['need']} pts)"
                      + (" with borrowing" if p["fit"] == "borrow" else ""))
-        lines.append(f"Net cost after resale ${p['net_cost']:,} vs renting ${p['rent_cost']:,}"
-                     f" ({'saves' if p['savings'] >= 0 else 'costs'} ${abs(p['savings']):,})")
-        lines.append(f"Book on {p['book_on']} · ROFR risk {x['rofr']}")
+        how = "sell right after trip" if p["best_exit"] == "strip" else "sell when points reload"
+        lines.append(f"Net ${p['net_cost']:,} vs renting ${p['rent_cost']:,}"
+                     f" ({'saves' if p['savings'] >= 0 else 'costs'} ${abs(p['savings']):,}, {how})")
+        lines.append(f"${p['peak_cash_out']:,} tied up ~{p['months_tied']} mo · book {p['book_on']} · ROFR {x['rofr']}")
     return title, "\n".join(lines)
 
 
