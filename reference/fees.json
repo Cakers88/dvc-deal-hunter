@@ -1,0 +1,306 @@
+{
+  "as_of": "2026-10-13",
+  "buyer_closing_costs": {
+    "disney_admin_fee_caf_usd": 500,
+    "disney_admin_fee_notes": "Flat $500 per resale transfer, paid by buyer (dvcmarket.com closing-costs guide; disneyblog.com describes it as new in 2026). Not independently verified on a Disney page.",
+    "title_search_and_insurance_usd": [
+      150,
+      300
+    ],
+    "closing_company_fee_usd": [
+      150,
+      250
+    ],
+    "typical_total_excl_caf_usd": [
+      500,
+      1000
+    ],
+    "typical_total_incl_caf_usd": [
+      850,
+      1200
+    ],
+    "prorated_current_year_dues": "Buyer reimburses seller for dues already paid for the remainder of the calendar year (pro-rated by closing date).",
+    "fidelity_buyer_admin_fee_usd": 250,
+    "florida_doc_stamps": {
+      "rate": "$0.70 per $100 of price",
+      "payer": "buyer (per dvcmarket.com)"
+    },
+    "south_carolina_deed_recording_fee": {
+      "rate": "$1.85 per $500 of value",
+      "payer": null
+    },
+    "hawaii_conveyance_tax": {
+      "rate_per_100": null,
+      "notes": "dvcmarket.com claims $0.10/$100 'up to certain thresholds' \u2014 Hawaii's actual schedule distinguishes homeowner-exemption-eligible vs not-eligible (non-owner-occupied typically $0.15/$100 under $600k). Could not reach tax.hawaii.gov to verify; customarily a seller cost in Hawaii (Old Republic Title allocation sheet). Immaterial on a typical contract (<$40)."
+    },
+    "financed_vs_cash": {
+      "cash_extra_usd": 0,
+      "financed_extra": null,
+      "notes": "DVC resale loans are typically unsecured/personal-style loans; no verified per-broker financed closing-cost schedule found. dvcmarket.com says to add lender origination fees (if any) on top of the $500-$1,000 closing + $500 CAF; bestdvcbroker.com lists lenders from 11.99% APR (no origination fee) and 13.9% APR. Treat financed_extra as lender-specific."
+    },
+    "by_broker": null,
+    "by_broker_notes": "Brokers do not publish itemized buyer closing-cost schedules; only Fidelity's $250 buyer admin fee is a known broker-specific add-on."
+  },
+  "seller_costs": {
+    "commission_pct_by_broker": {
+      "DVC Resale Market": 9.5,
+      "Fidelity Real Estate": 8.5,
+      "The Timeshare Store (DVC Store)": 8.5,
+      "DVC Resale Experts": 9.0,
+      "DVC Sales (dvcsales.com)": 6.9,
+      "DVC Shop": 10.0
+    },
+    "commission_notes": "DVCRM 9.5% and Fidelity 8.5% per bestdvcbroker.com and dvcmarket.com broker comparison (2026); DVC Resale Experts 9% is a 'reduced' listing rate stated on its own homepage; DVC Sales 6.9% per its own (dvcmarket.com is owned by DVC Sales \u2014 biased source). Confirm before listing.",
+    "disney_estoppel_fee_usd": 150,
+    "hawaii_harpta": {
+      "withholding_pct": 7.25,
+      "applies_to": "Non-resident (of Hawaii) sellers of Hawaii real property, incl. Aulani; withheld from gross amount realized at closing",
+      "recovery": "Refundable via Hawaii non-resident income tax return; can apply for reduced withholding with Form N-288B/N-288C",
+      "notes": "7.25% verified in official Hawaii Form N-288 instructions (2025). Fidelity's glossary still says 5% \u2014 that was the pre-Sept-2018 rate and is outdated."
+    },
+    "firpta": "Federal FIRPTA withholding applies only to foreign-person sellers; not applicable for US-resident sellers."
+  },
+  "aulani_transient_accommodations_tax": {
+    "applies_to": "All points stays at Aulani regardless of home resort; paid at check-out, not included in dues",
+    "formula": "nightly_tax = nightly_points x (annual_dues_per_point_for_stay_year x 0.5) x (state_TAT + Honolulu_TAT)",
+    "state_tat_pct_2026": 11.0,
+    "honolulu_county_tat_pct_2026": 3.0,
+    "combined_pct_2026": 14.0,
+    "state_tat_pct_2025": 10.25,
+    "per_point_2026_usd": 0.767,
+    "per_point_2026_verification": {
+      "hotel S 16pt": {
+        "points": 16,
+        "chart_usd": 12.27,
+        "formula_usd": 12.27
+      },
+      "studio S 17pt": {
+        "points": 17,
+        "chart_usd": 13.04,
+        "formula_usd": 13.04
+      },
+      "1br S 34pt": {
+        "points": 34,
+        "chart_usd": 26.08,
+        "formula_usd": 26.08
+      },
+      "3br O 184pt": {
+        "points": 184,
+        "chart_usd": 141.13,
+        "formula_usd": 141.13
+      }
+    },
+    "per_point_2027_usd": null,
+    "per_point_2027_notes": "2027 TAT chart not yet published (2027 dues set ~Nov/Dec 2026). Estimate = 0.5 x 2027 Aulani dues x 14% if rates unchanged (e.g. +6-8% dues -> ~$0.81-0.83/pt).",
+    "per_night_2026_chart_usd": {
+      "travel_period_1": {
+        "hotel": {
+          "S": 12.27
+        },
+        "studio": {
+          "S": 13.04,
+          "I": 14.57,
+          "P": 17.64,
+          "O": 19.18
+        },
+        "1br": {
+          "S": 26.08,
+          "I": 26.85,
+          "P": 33.75,
+          "O": 35.28
+        },
+        "2br": {
+          "S": 36.05,
+          "I": 37.58,
+          "P": 45.25,
+          "O": 47.55
+        },
+        "3br": {
+          "S": 72.87,
+          "O": 93.57
+        }
+      },
+      "travel_period_2": {
+        "hotel": {
+          "S": 13.04
+        },
+        "studio": {
+          "S": 14.57,
+          "I": 16.11,
+          "P": 18.41,
+          "O": 19.94
+        },
+        "1br": {
+          "S": 28.38,
+          "I": 33.75,
+          "P": 35.28,
+          "O": 38.35
+        },
+        "2br": {
+          "S": 39.12,
+          "I": 45.25,
+          "P": 47.55,
+          "O": 52.92
+        },
+        "3br": {
+          "S": 79.0,
+          "O": 102.78
+        }
+      },
+      "travel_period_3": {
+        "hotel": {
+          "S": 13.81
+        },
+        "studio": {
+          "S": 16.87,
+          "I": 19.18,
+          "P": 19.94,
+          "O": 22.24
+        },
+        "1br": {
+          "S": 33.75,
+          "I": 35.28,
+          "P": 38.35,
+          "O": 44.49
+        },
+        "2br": {
+          "S": 46.02,
+          "I": 47.55,
+          "P": 53.69,
+          "O": 60.59
+        },
+        "3br": {
+          "S": 92.81,
+          "O": 120.42
+        }
+      },
+      "travel_period_4": {
+        "hotel": {
+          "S": 16.11
+        },
+        "studio": {
+          "S": 18.41,
+          "I": 20.71,
+          "P": 22.24,
+          "O": 23.78
+        },
+        "1br": {
+          "S": 35.28,
+          "I": 38.35,
+          "P": 44.49,
+          "O": 47.55
+        },
+        "2br": {
+          "S": 49.09,
+          "I": 54.46,
+          "P": 60.59,
+          "O": 64.43
+        },
+        "3br": {
+          "S": 107.38,
+          "O": 141.13
+        }
+      }
+    },
+    "cash_stays_note": "Cash (non-points) reservations additionally pay Hawaii GET 4.712% (not points stays)."
+  },
+  "offer_and_closing": {
+    "typical_deposit_pct": 10,
+    "typical_deposit_notes": "~10% of purchase price into escrow, varies by broker (dvcmarket.com closing-timeline article). Not verified on DVCRM/Fidelity sites.",
+    "rofr_review_days_max": 30,
+    "rofr_review_days_avg_dvcrm_sep_2026": 24,
+    "closing_timeline_days_total": {
+      "dvc_resale_market": [
+        60,
+        90
+      ],
+      "fidelity": [
+        60,
+        90
+      ],
+      "dvc_resale_experts": [
+        56,
+        84
+      ],
+      "dvcmarket_claim": 35
+    },
+    "closing_timeline_florida_days": null,
+    "closing_timeline_hawaii_days": null,
+    "closing_timeline_notes": "No source publishes separate FL vs HI timelines. Plan 60-90 days from signed contract to points in account (DVCRM/Fidelity). Aulani closings involve HARPTA withholding paperwork for non-resident sellers which may add time \u2014 unverified.",
+    "deposit_refund_if_rofr_exercised": true
+  },
+  "dvc_rules": {
+    "booking_window_home_resort_months": 11,
+    "booking_window_other_resorts_months": 7,
+    "resale_restriction": "Resale contracts bought after Jan 19, 2019 (from non-Disney sellers) cannot book some or all non-home resorts: legacy-resort resale points book only the 14 original resorts (Riviera, Disneyland Hotel, Fort Wilderness Cabins and later resorts excluded).",
+    "banking_deadline": "Must bank within the first 8 months of the Use Year (i.e., at least 4 months before Use Year ends); bank only from current UY into next UY; banked points cannot be re-banked or borrowed; banking final.",
+    "banking_deadline_months_into_use_year": 8,
+    "borrowing": "May borrow up to 100% of next Use Year's points into the current Use Year (restored July 2022 after COVID-era 50% cap).",
+    "borrowing_max_pct": 100,
+    "cancellation_holding": "Cancel 31+ days before arrival: points returned to UY normally. Cancel 30-1 days: points go to Holding account (rebookable only within 60 days of arrival, no further banking). Same-day cancel: points forfeited.",
+    "rci_deposit_deadline": "Deposit for RCI at least 45 days before end of Use Year."
+  },
+  "dues_billing": {
+    "basis": "Calendar year (Jan-Dec), regardless of Use Year",
+    "rates_published": "~late November for the following year; boards approve at association meetings in early-mid December; balances posted mid-December",
+    "due_date": "January 15",
+    "grace_period_end": "February 15",
+    "monthly_option": "Auto-pay: 12 interest-free monthly installments from a US bank account; must be enrolled by Feb 14/15 or full balance due. Gift cards not allowed while on auto-pay; credit card allowed only for full payment by deadline.",
+    "property_tax_true_up": "Annual statement includes prior-year property-tax over/under estimate adjustment."
+  },
+  "rental_market": {
+    "aulani_2026": {
+      "guest_price_per_point_usd": {
+        "davids_premium_7_11mo": 26.0,
+        "davids_regular_0_7mo": 24.0
+      },
+      "owner_payout_per_point_usd": {
+        "davids_premium_7_11mo": 20.0,
+        "davids_regular_0_7mo_or_expiring": 18.0
+      },
+      "dvc_rental_store": {
+        "owner_payout_max_usd": 24.0,
+        "notes": "'Up to $24/pt' paid to members (all resorts); confirmed Aulani reservation listed at $24/pt (414 pts 2BR, Nov 1-7 2026) on the David's site."
+      },
+      "bestdvcbroker_avg_guest_price_usd": [
+        21,
+        23
+      ],
+      "notes": "Aulani is a 'Premium' tier at David's. Use ~$18-20/pt as realistic owner net and ~$24-26/pt as guest price."
+    }
+  },
+  "sources": [
+    "https://dvcmarket.com/blog/dvc-closing-costs-guide",
+    "https://dvcmarket.com/blog/dvc-resale-closing-timeline-what-really-happens-week-by-week",
+    "https://dvcmarket.com/blog/financing-a-dvc-resale-contract-your-options-and-the-real-numbers",
+    "https://dvcmarket.com/blog/best-dvc-resale-broker",
+    "https://dvcmarket.com/blog/aulani-dvc-resale-prices-2026",
+    "https://disneyblog.com/faq/dvc/closing-costs-buying-dvc/",
+    "https://bestdvcbroker.com/",
+    "https://www.dvcresaleexperts.com/",
+    "https://www.fidelityrealestate.com/sell-dvc/",
+    "https://www.fidelityrealestate.com/?p=3424",
+    "https://www.dvcresalemarket.com/selling/",
+    "https://www.dvcresalemarket.com/buying/",
+    "https://www.dvcresalemarket.com/blog/dvc-right-of-first-refusal-report-rofr-september-2026/",
+    "https://files.hawaii.gov/tax/forms/2025/n288_i.pdf",
+    "https://www.oldrepublictitle.com/media/stsoll2w/hawaii__buyer_vs_seller_costs_standard_allocation_of_closing_fees.pdf",
+    "https://cdn1.parksmedia.wdprapps.disney.com/vision-dam/digital/parks-platform/parks-standard-assets/disney-vacation-club/vacation-planning/2026-HI-TAT-Web-Cht.pdf",
+    "https://dvcnews.com/other-resorts/aulani-villas/6228-price-of-aulani-stay-rises-for-2026-as-hawaii-tax-hits-new-high",
+    "https://www.wdwinfo.com/?p=253156",
+    "https://tax.hawaii.gov/geninfo/get/",
+    "https://disneyvacationclub.disney.go.com/media/dvc/en/points/Banking_rules_final.pdf",
+    "https://dvcnews.com/dvc-program/policies-a-procedures/news-70636/4976-standard-point-management-policies-reinstated-effective-may-1",
+    "https://dvcnews.com/dvc-program-menu/policies-a-procedures/dvc-policy-news/5350-dvc-reinstates-100-point-borrowing",
+    "https://dvcnews.com/dvc-program-menu/financial/financial-news/6319-members-2026-disney-vacation-club-annual-dues-statement-now-available",
+    "https://dvcnews.com/dvc-program-menu/policies-a-procedures/dvc-policy-news/6069-annual-dues-payment-option-eliminated-for-2025",
+    "https://www.dvcrequest.com/dvc-guests/cost-calculator",
+    "https://www.dvcrequest.com/dvc-owners/information",
+    "https://dvcrentalstore.com/members/rent-my-points/"
+  ],
+  "notes": [
+    "Many closing-cost figures come from dvcmarket.com, which is owned by a competing broker (DVC Sales) \u2014 ranges are reasonable but not authoritative.",
+    "Official DVC FAQ pages (disneyvacationclub.disney.go.com) are JS-rendered and could not be fetched; banking rule taken from Disney's official Banking rules PDF, booking windows from DVCRM.",
+    "Florida-vs-Hawaii closing timelines, per-broker financed closing costs, and 2027 Aulani TAT are not published: left null."
+  ]
+}

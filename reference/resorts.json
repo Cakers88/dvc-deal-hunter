@@ -1,0 +1,1220 @@
+{
+  "as_of": "2026-10-13",
+  "resorts": {
+    "aulani": {
+      "name": "Aulani, Disney Vacation Club Villas",
+      "state": "HI",
+      "dues_per_point_2026": 10.9572,
+      "dues_per_point_2025": 10.1219,
+      "dues_yoy_2026_pct": 8.25,
+      "dues_cagr_5yr_2021_2026_pct": 5.59,
+      "dues_cagr_10yr_2016_2026_pct": 4.9,
+      "dues_history_rounded": {
+        "2016": 6.79,
+        "2021": 8.35,
+        "2025": 10.12,
+        "2026": 10.96
+      },
+      "deed_expiration": "2062-01-31",
+      "deed_expiration_year": 2062,
+      "direct_price_per_point_oct_2026": 243,
+      "resale_avg_price_per_point": {
+        "basis": "DVC Resale Market average SOLD (closed-deal) price per point, by month the contract sold",
+        "latest_month": "2026-09",
+        "latest": 101,
+        "trailing_12mo_avg_2025-10_to_2026-09": 96.4,
+        "trailing_6mo_avg_2026-04_to_2026-09": 96.8,
+        "monthly": {
+          "2025-09": 96,
+          "2025-10": 89,
+          "2025-11": 92,
+          "2025-12": 98,
+          "2026-01": 99,
+          "2026-02": 100,
+          "2026-03": 98,
+          "2026-04": 94,
+          "2026-05": 95,
+          "2026-06": 98,
+          "2026-07": 96,
+          "2026-08": 97,
+          "2026-09": 101
+        }
+      },
+      "rofr_recent": {
+        "source_basis": "DVC Resale Market contracts only (not market-wide)",
+        "ytd_2026_buybacks": 4,
+        "ytd_2026_contracts_sold": 224,
+        "ytd_2026_buyback_rate_pct": 1.8,
+        "highest_buyback_price_by_month": {
+          "2025-09": null,
+          "2025-10": null,
+          "2025-11": null,
+          "2025-12": null,
+          "2026-01": null,
+          "2026-02": 101,
+          "2026-03": null,
+          "2026-04": null,
+          "2026-05": 84,
+          "2026-06": null,
+          "2026-07": null,
+          "2026-08": 85,
+          "2026-09": null
+        },
+        "max_buyback_price_13mo": 101,
+        "most_recent_buyback": {
+          "month": "2026-08",
+          "highest_price": 85
+        },
+        "threshold_note": "Disney does not publish a ROFR threshold. 'Highest buyback price' is the max $/pt Disney paid that month; contracts priced below these levels carry elevated ROFR risk. Treat as an indicator, not a rule."
+      },
+      "liquidity": {
+        "days_on_market": null,
+        "notes": "Per-resort days-on-market not published. DVCRM and Fidelity both state >90% of listings sell within 30 days (marketplace-wide). Use ytd_2026_contracts_sold as a relative volume/liquidity proxy (DVCRM only)."
+      },
+      "sources": [
+        "https://dvcnews.com/dvc-program-menu/financial/financial-news/6303-disney-vacation-club-annual-dues-published-for-2026",
+        "https://dvcnews.com/dvc-program-menu/financial/annual-dues-by-resort",
+        "https://www.dvcresalemarket.com/blog/dvc-resale-average-sales-prices-for-september-2026/",
+        "https://www.dvcresalemarket.com/blog/dvc-right-of-first-refusal-report-rofr-september-2026/",
+        "https://dvcnews.com/dvc-program/financial/pricing-a-promotions",
+        "https://cdn1.parksmedia.wdprapps.disney.com/media/dvc/catalog/resorts/dvc-resorts/AUL-2026.pdf",
+        "https://www.dvcresalemarket.com/blog/dvc-right-of-first-refusal-report-rofr-august-2026/"
+      ],
+      "dues_per_point_2026_subsidized": 8.2369,
+      "dues_per_point_2025_subsidized": 7.609,
+      "dues_cagr_5yr_subsidized_pct": 5.52,
+      "dues_cagr_10yr_subsidized_pct": 4.91,
+      "notes": [
+        "Subsidized-dues Aulani contracts (developer-subsidized, from early sales) pay $8.2369/pt in 2026 vs $10.9572 standard; confirm subsidy status on any listing.",
+        "Aug 2026: Disney bought back a SUBSIDIZED Aulani contract (1,200+ pts) at $85/pt; DVCRM speculates subsidy elimination motivated it. Rolling-year Aulani ROFR high $101 (Feb 2026).",
+        "dvcmarket.com blog cites Aulani dues ~$8.04/pt for 2026 \u2014 that conflicts with DVCNews' published figures and is NOT used.",
+        "Deed expiration verified on the official 2026 point chart PDF footer."
+      ]
+    },
+    "akv": {
+      "name": "Disney's Animal Kingdom Villas",
+      "state": "FL",
+      "dues_per_point_2026": 10.1608,
+      "dues_per_point_2025": 9.647,
+      "dues_yoy_2026_pct": 5.33,
+      "dues_cagr_5yr_2021_2026_pct": 4.71,
+      "dues_cagr_10yr_2016_2026_pct": 4.7,
+      "dues_history_rounded": {
+        "2016": 6.42,
+        "2021": 8.07,
+        "2025": 9.65,
+        "2026": 10.16
+      },
+      "deed_expiration": "2057-01-31",
+      "deed_expiration_year": 2057,
+      "direct_price_per_point_oct_2026": 215,
+      "resale_avg_price_per_point": {
+        "basis": "DVC Resale Market average SOLD (closed-deal) price per point, by month the contract sold",
+        "latest_month": "2026-09",
+        "latest": 119,
+        "trailing_12mo_avg_2025-10_to_2026-09": 110.0,
+        "trailing_6mo_avg_2026-04_to_2026-09": 113.7,
+        "monthly": {
+          "2025-09": 105,
+          "2025-10": 106,
+          "2025-11": 103,
+          "2025-12": 107,
+          "2026-01": 108,
+          "2026-02": 107,
+          "2026-03": 107,
+          "2026-04": 111,
+          "2026-05": 113,
+          "2026-06": 112,
+          "2026-07": 113,
+          "2026-08": 114,
+          "2026-09": 119
+        }
+      },
+      "rofr_recent": {
+        "source_basis": "DVC Resale Market contracts only (not market-wide)",
+        "ytd_2026_buybacks": 10,
+        "ytd_2026_contracts_sold": 339,
+        "ytd_2026_buyback_rate_pct": 2.9,
+        "highest_buyback_price_by_month": {
+          "2025-09": 97,
+          "2025-10": 102,
+          "2025-11": 100,
+          "2025-12": 100,
+          "2026-01": null,
+          "2026-02": 97,
+          "2026-03": 95,
+          "2026-04": 98,
+          "2026-05": 87,
+          "2026-06": 81,
+          "2026-07": 100,
+          "2026-08": null,
+          "2026-09": 100
+        },
+        "max_buyback_price_13mo": 102,
+        "most_recent_buyback": {
+          "month": "2026-09",
+          "highest_price": 100
+        },
+        "threshold_note": "Disney does not publish a ROFR threshold. 'Highest buyback price' is the max $/pt Disney paid that month; contracts priced below these levels carry elevated ROFR risk. Treat as an indicator, not a rule."
+      },
+      "liquidity": {
+        "days_on_market": null,
+        "notes": "Per-resort days-on-market not published. DVCRM and Fidelity both state >90% of listings sell within 30 days (marketplace-wide). Use ytd_2026_contracts_sold as a relative volume/liquidity proxy (DVCRM only)."
+      },
+      "sources": [
+        "https://dvcnews.com/dvc-program-menu/financial/financial-news/6303-disney-vacation-club-annual-dues-published-for-2026",
+        "https://dvcnews.com/dvc-program-menu/financial/annual-dues-by-resort",
+        "https://www.dvcresalemarket.com/blog/dvc-resale-average-sales-prices-for-september-2026/",
+        "https://www.dvcresalemarket.com/blog/dvc-right-of-first-refusal-report-rofr-september-2026/",
+        "https://dvcnews.com/dvc-program/financial/pricing-a-promotions",
+        "https://fidelityrealestate.com/blog/do-you-know-your-dvc-contract-end-dates"
+      ],
+      "notes": [
+        "Deed expiration from DVCNews direct-pricing page and Fidelity end-dates article (both agree); official 2026 chart PDF for this resort not retrieved."
+      ]
+    },
+    "blt": {
+      "name": "Bay Lake Tower at Disney's Contemporary Resort",
+      "state": "FL",
+      "dues_per_point_2026": 8.7415,
+      "dues_per_point_2025": 8.015,
+      "dues_yoy_2026_pct": 9.06,
+      "dues_cagr_5yr_2021_2026_pct": 4.84,
+      "dues_cagr_10yr_2016_2026_pct": 5.17,
+      "dues_history_rounded": {
+        "2016": 5.28,
+        "2021": 6.9,
+        "2025": 8.02,
+        "2026": 8.74
+      },
+      "deed_expiration": "2060-01-31",
+      "deed_expiration_year": 2060,
+      "direct_price_per_point_oct_2026": 275,
+      "resale_avg_price_per_point": {
+        "basis": "DVC Resale Market average SOLD (closed-deal) price per point, by month the contract sold",
+        "latest_month": "2026-09",
+        "latest": 140,
+        "trailing_12mo_avg_2025-10_to_2026-09": 137.2,
+        "trailing_6mo_avg_2026-04_to_2026-09": 138.0,
+        "monthly": {
+          "2025-09": 142,
+          "2025-10": 137,
+          "2025-11": 131,
+          "2025-12": 136,
+          "2026-01": 139,
+          "2026-02": 138,
+          "2026-03": 138,
+          "2026-04": 138,
+          "2026-05": 136,
+          "2026-06": 138,
+          "2026-07": 137,
+          "2026-08": 139,
+          "2026-09": 140
+        }
+      },
+      "rofr_recent": {
+        "source_basis": "DVC Resale Market contracts only (not market-wide)",
+        "ytd_2026_buybacks": 5,
+        "ytd_2026_contracts_sold": 217,
+        "ytd_2026_buyback_rate_pct": 2.3,
+        "highest_buyback_price_by_month": {
+          "2025-09": null,
+          "2025-10": null,
+          "2025-11": null,
+          "2025-12": 120,
+          "2026-01": 139,
+          "2026-02": null,
+          "2026-03": null,
+          "2026-04": null,
+          "2026-05": null,
+          "2026-06": null,
+          "2026-07": null,
+          "2026-08": 122,
+          "2026-09": null
+        },
+        "max_buyback_price_13mo": 139,
+        "most_recent_buyback": {
+          "month": "2026-08",
+          "highest_price": 122
+        },
+        "threshold_note": "Disney does not publish a ROFR threshold. 'Highest buyback price' is the max $/pt Disney paid that month; contracts priced below these levels carry elevated ROFR risk. Treat as an indicator, not a rule."
+      },
+      "liquidity": {
+        "days_on_market": null,
+        "notes": "Per-resort days-on-market not published. DVCRM and Fidelity both state >90% of listings sell within 30 days (marketplace-wide). Use ytd_2026_contracts_sold as a relative volume/liquidity proxy (DVCRM only)."
+      },
+      "sources": [
+        "https://dvcnews.com/dvc-program-menu/financial/financial-news/6303-disney-vacation-club-annual-dues-published-for-2026",
+        "https://dvcnews.com/dvc-program-menu/financial/annual-dues-by-resort",
+        "https://www.dvcresalemarket.com/blog/dvc-resale-average-sales-prices-for-september-2026/",
+        "https://www.dvcresalemarket.com/blog/dvc-right-of-first-refusal-report-rofr-september-2026/",
+        "https://dvcnews.com/dvc-program/financial/pricing-a-promotions",
+        "https://fidelityrealestate.com/blog/do-you-know-your-dvc-contract-end-dates"
+      ],
+      "notes": [
+        "Deed expiration from DVCNews direct-pricing page and Fidelity end-dates article (both agree); official 2026 chart PDF for this resort not retrieved."
+      ]
+    },
+    "bcv": {
+      "name": "Disney's Beach Club Villas",
+      "state": "FL",
+      "dues_per_point_2026": 9.8113,
+      "dues_per_point_2025": 9.1207,
+      "dues_yoy_2026_pct": 7.57,
+      "dues_cagr_5yr_2021_2026_pct": 5.69,
+      "dues_cagr_10yr_2016_2026_pct": 4.81,
+      "dues_history_rounded": {
+        "2016": 6.13,
+        "2021": 7.44,
+        "2025": 9.12,
+        "2026": 9.81
+      },
+      "deed_expiration": "2042-01-31",
+      "deed_expiration_year": 2042,
+      "direct_price_per_point_oct_2026": 275,
+      "resale_avg_price_per_point": {
+        "basis": "DVC Resale Market average SOLD (closed-deal) price per point, by month the contract sold",
+        "latest_month": "2026-09",
+        "latest": 144,
+        "trailing_12mo_avg_2025-10_to_2026-09": 138.8,
+        "trailing_6mo_avg_2026-04_to_2026-09": 140.3,
+        "monthly": {
+          "2025-09": 139,
+          "2025-10": 134,
+          "2025-11": 136,
+          "2025-12": 140,
+          "2026-01": 129,
+          "2026-02": 145,
+          "2026-03": 139,
+          "2026-04": 140,
+          "2026-05": 137,
+          "2026-06": 143,
+          "2026-07": 137,
+          "2026-08": 141,
+          "2026-09": 144
+        }
+      },
+      "rofr_recent": {
+        "source_basis": "DVC Resale Market contracts only (not market-wide)",
+        "ytd_2026_buybacks": 2,
+        "ytd_2026_contracts_sold": 136,
+        "ytd_2026_buyback_rate_pct": 1.5,
+        "highest_buyback_price_by_month": {
+          "2025-09": 137,
+          "2025-10": null,
+          "2025-11": null,
+          "2025-12": 116,
+          "2026-01": null,
+          "2026-02": 129,
+          "2026-03": null,
+          "2026-04": null,
+          "2026-05": 137,
+          "2026-06": null,
+          "2026-07": null,
+          "2026-08": 110,
+          "2026-09": null
+        },
+        "max_buyback_price_13mo": 137,
+        "most_recent_buyback": {
+          "month": "2026-08",
+          "highest_price": 110
+        },
+        "threshold_note": "Disney does not publish a ROFR threshold. 'Highest buyback price' is the max $/pt Disney paid that month; contracts priced below these levels carry elevated ROFR risk. Treat as an indicator, not a rule."
+      },
+      "liquidity": {
+        "days_on_market": null,
+        "notes": "Per-resort days-on-market not published. DVCRM and Fidelity both state >90% of listings sell within 30 days (marketplace-wide). Use ytd_2026_contracts_sold as a relative volume/liquidity proxy (DVCRM only)."
+      },
+      "sources": [
+        "https://dvcnews.com/dvc-program-menu/financial/financial-news/6303-disney-vacation-club-annual-dues-published-for-2026",
+        "https://dvcnews.com/dvc-program-menu/financial/annual-dues-by-resort",
+        "https://www.dvcresalemarket.com/blog/dvc-resale-average-sales-prices-for-september-2026/",
+        "https://www.dvcresalemarket.com/blog/dvc-right-of-first-refusal-report-rofr-september-2026/",
+        "https://dvcnews.com/dvc-program/financial/pricing-a-promotions",
+        "https://cdn1.parksmedia.wdprapps.disney.com/media/dvc/catalog/resorts/dvc-resorts/BCV-2026.pdf"
+      ],
+      "notes": [
+        "Deed expiration verified on the official 2026 point chart PDF footer."
+      ]
+    },
+    "bwv": {
+      "name": "Disney's BoardWalk Villas",
+      "state": "FL",
+      "dues_per_point_2026": 9.6717,
+      "dues_per_point_2025": 9.057,
+      "dues_yoy_2026_pct": 6.79,
+      "dues_cagr_5yr_2021_2026_pct": 4.37,
+      "dues_cagr_10yr_2016_2026_pct": 4.58,
+      "dues_history_rounded": {
+        "2016": 6.18,
+        "2021": 7.81,
+        "2025": 9.06,
+        "2026": 9.67
+      },
+      "deed_expiration": "2042-01-31",
+      "deed_expiration_year": 2042,
+      "direct_price_per_point_oct_2026": 240,
+      "resale_avg_price_per_point": {
+        "basis": "DVC Resale Market average SOLD (closed-deal) price per point, by month the contract sold",
+        "latest_month": "2026-09",
+        "latest": 131,
+        "trailing_12mo_avg_2025-10_to_2026-09": 125.7,
+        "trailing_6mo_avg_2026-04_to_2026-09": 126.5,
+        "monthly": {
+          "2025-09": 127,
+          "2025-10": 124,
+          "2025-11": 114,
+          "2025-12": 128,
+          "2026-01": 123,
+          "2026-02": 130,
+          "2026-03": 130,
+          "2026-04": 125,
+          "2026-05": 125,
+          "2026-06": 124,
+          "2026-07": 123,
+          "2026-08": 131,
+          "2026-09": 131
+        }
+      },
+      "rofr_recent": {
+        "source_basis": "DVC Resale Market contracts only (not market-wide)",
+        "ytd_2026_buybacks": 0,
+        "ytd_2026_contracts_sold": null,
+        "ytd_2026_buyback_rate_pct": 0.0,
+        "highest_buyback_price_by_month": {
+          "2025-09": 123,
+          "2025-10": null,
+          "2025-11": null,
+          "2025-12": null,
+          "2026-01": null,
+          "2026-02": null,
+          "2026-03": null,
+          "2026-04": null,
+          "2026-05": null,
+          "2026-06": null,
+          "2026-07": null,
+          "2026-08": null,
+          "2026-09": null
+        },
+        "max_buyback_price_13mo": 123,
+        "most_recent_buyback": {
+          "month": "2025-09",
+          "highest_price": 123
+        },
+        "threshold_note": "Disney does not publish a ROFR threshold. 'Highest buyback price' is the max $/pt Disney paid that month; contracts priced below these levels carry elevated ROFR risk. Treat as an indicator, not a rule."
+      },
+      "liquidity": {
+        "days_on_market": null,
+        "notes": "Per-resort days-on-market not published. DVCRM and Fidelity both state >90% of listings sell within 30 days (marketplace-wide). Use ytd_2026_contracts_sold as a relative volume/liquidity proxy (DVCRM only)."
+      },
+      "sources": [
+        "https://dvcnews.com/dvc-program-menu/financial/financial-news/6303-disney-vacation-club-annual-dues-published-for-2026",
+        "https://dvcnews.com/dvc-program-menu/financial/annual-dues-by-resort",
+        "https://www.dvcresalemarket.com/blog/dvc-resale-average-sales-prices-for-september-2026/",
+        "https://www.dvcresalemarket.com/blog/dvc-right-of-first-refusal-report-rofr-september-2026/",
+        "https://dvcnews.com/dvc-program/financial/pricing-a-promotions",
+        "https://cdn1.parksmedia.wdprapps.disney.com/media/dvc/catalog/resorts/dvc-resorts/BWALK-2026.pdf"
+      ],
+      "notes": [
+        "No BWV buybacks in 2026 YTD; last DVCRM-reported buyback Sept 2025 at $123/pt. 2026 contracts-sold count for BWV not given in the report (only resorts with buybacks listed).",
+        "Deed expiration verified on the official 2026 point chart PDF footer."
+      ]
+    },
+    "brv": {
+      "name": "Boulder Ridge Villas at Disney's Wilderness Lodge",
+      "state": "FL",
+      "dues_per_point_2026": 9.7672,
+      "dues_per_point_2025": 9.1885,
+      "dues_yoy_2026_pct": 6.3,
+      "dues_cagr_5yr_2021_2026_pct": 3.79,
+      "dues_cagr_10yr_2016_2026_pct": 4.62,
+      "dues_history_rounded": {
+        "2016": 6.22,
+        "2021": 8.11,
+        "2025": 9.19,
+        "2026": 9.77
+      },
+      "deed_expiration": "2042-01-31",
+      "deed_expiration_year": 2042,
+      "direct_price_per_point_oct_2026": 215,
+      "resale_avg_price_per_point": {
+        "basis": "DVC Resale Market average SOLD (closed-deal) price per point, by month the contract sold",
+        "latest_month": "2026-09",
+        "latest": 110,
+        "trailing_12mo_avg_2025-10_to_2026-09": 101.6,
+        "trailing_6mo_avg_2026-04_to_2026-09": 105.2,
+        "monthly": {
+          "2025-09": 112,
+          "2025-10": 92,
+          "2025-11": 101,
+          "2025-12": 102,
+          "2026-01": 99,
+          "2026-02": 96,
+          "2026-03": 98,
+          "2026-04": 101,
+          "2026-05": 96,
+          "2026-06": 107,
+          "2026-07": 98,
+          "2026-08": 119,
+          "2026-09": 110
+        }
+      },
+      "rofr_recent": {
+        "source_basis": "DVC Resale Market contracts only (not market-wide)",
+        "ytd_2026_buybacks": 2,
+        "ytd_2026_contracts_sold": 83,
+        "ytd_2026_buyback_rate_pct": 2.4,
+        "highest_buyback_price_by_month": {
+          "2025-09": null,
+          "2025-10": null,
+          "2025-11": null,
+          "2025-12": null,
+          "2026-01": null,
+          "2026-02": null,
+          "2026-03": null,
+          "2026-04": 105,
+          "2026-05": null,
+          "2026-06": null,
+          "2026-07": null,
+          "2026-08": 90,
+          "2026-09": null
+        },
+        "max_buyback_price_13mo": 105,
+        "most_recent_buyback": {
+          "month": "2026-08",
+          "highest_price": 90
+        },
+        "threshold_note": "Disney does not publish a ROFR threshold. 'Highest buyback price' is the max $/pt Disney paid that month; contracts priced below these levels carry elevated ROFR risk. Treat as an indicator, not a rule."
+      },
+      "liquidity": {
+        "days_on_market": null,
+        "notes": "Per-resort days-on-market not published. DVCRM and Fidelity both state >90% of listings sell within 30 days (marketplace-wide). Use ytd_2026_contracts_sold as a relative volume/liquidity proxy (DVCRM only)."
+      },
+      "sources": [
+        "https://dvcnews.com/dvc-program-menu/financial/financial-news/6303-disney-vacation-club-annual-dues-published-for-2026",
+        "https://dvcnews.com/dvc-program-menu/financial/annual-dues-by-resort",
+        "https://www.dvcresalemarket.com/blog/dvc-resale-average-sales-prices-for-september-2026/",
+        "https://www.dvcresalemarket.com/blog/dvc-right-of-first-refusal-report-rofr-september-2026/",
+        "https://dvcnews.com/dvc-program/financial/pricing-a-promotions",
+        "https://fidelityrealestate.com/blog/do-you-know-your-dvc-contract-end-dates"
+      ],
+      "notes": [
+        "Deed expiration from DVCNews direct-pricing page and Fidelity end-dates article (both agree); official 2026 chart PDF for this resort not retrieved."
+      ]
+    },
+    "ccv": {
+      "name": "Copper Creek Villas & Cabins at Disney's Wilderness Lodge",
+      "state": "FL",
+      "dues_per_point_2026": 9.02,
+      "dues_per_point_2025": 8.4914,
+      "dues_yoy_2026_pct": 6.23,
+      "dues_cagr_5yr_2021_2026_pct": 3.51,
+      "dues_cagr_10yr_2016_2026_pct": null,
+      "dues_history_rounded": {
+        "2016": null,
+        "2021": 7.59,
+        "2025": 8.49,
+        "2026": 9.02
+      },
+      "deed_expiration": "2068-01-31",
+      "deed_expiration_year": 2068,
+      "direct_price_per_point_oct_2026": 255,
+      "resale_avg_price_per_point": {
+        "basis": "DVC Resale Market average SOLD (closed-deal) price per point, by month the contract sold",
+        "latest_month": "2026-09",
+        "latest": 145,
+        "trailing_12mo_avg_2025-10_to_2026-09": 139.3,
+        "trailing_6mo_avg_2026-04_to_2026-09": 141.3,
+        "monthly": {
+          "2025-09": 138,
+          "2025-10": 135,
+          "2025-11": 139,
+          "2025-12": 139,
+          "2026-01": 138,
+          "2026-02": 134,
+          "2026-03": 139,
+          "2026-04": 137,
+          "2026-05": 140,
+          "2026-06": 141,
+          "2026-07": 141,
+          "2026-08": 144,
+          "2026-09": 145
+        }
+      },
+      "rofr_recent": {
+        "source_basis": "DVC Resale Market contracts only (not market-wide)",
+        "ytd_2026_buybacks": 0,
+        "ytd_2026_contracts_sold": null,
+        "ytd_2026_buyback_rate_pct": 0.0,
+        "highest_buyback_price_by_month": {
+          "2025-09": null,
+          "2025-10": null,
+          "2025-11": null,
+          "2025-12": null,
+          "2026-01": null,
+          "2026-02": null,
+          "2026-03": null,
+          "2026-04": null,
+          "2026-05": null,
+          "2026-06": null,
+          "2026-07": null,
+          "2026-08": null,
+          "2026-09": null
+        },
+        "max_buyback_price_13mo": null,
+        "most_recent_buyback": null,
+        "threshold_note": "Disney does not publish a ROFR threshold. 'Highest buyback price' is the max $/pt Disney paid that month; contracts priced below these levels carry elevated ROFR risk. Treat as an indicator, not a rule."
+      },
+      "liquidity": {
+        "days_on_market": null,
+        "notes": "Per-resort days-on-market not published. DVCRM and Fidelity both state >90% of listings sell within 30 days (marketplace-wide). Use ytd_2026_contracts_sold as a relative volume/liquidity proxy (DVCRM only)."
+      },
+      "sources": [
+        "https://dvcnews.com/dvc-program-menu/financial/financial-news/6303-disney-vacation-club-annual-dues-published-for-2026",
+        "https://dvcnews.com/dvc-program-menu/financial/annual-dues-by-resort",
+        "https://www.dvcresalemarket.com/blog/dvc-resale-average-sales-prices-for-september-2026/",
+        "https://www.dvcresalemarket.com/blog/dvc-right-of-first-refusal-report-rofr-september-2026/",
+        "https://dvcnews.com/dvc-program/financial/pricing-a-promotions",
+        "https://fidelityrealestate.com/blog/do-you-know-your-dvc-contract-end-dates"
+      ],
+      "notes": [
+        "CCV 5-yr CAGR is 2021-2026; CCV launched 2017 so no 2016 value. No CCV buybacks Sep 2025-Sep 2026.",
+        "2026 contracts-sold count not given in the ROFR report (only resorts with >=1 buyback are listed).",
+        "Deed expiration from DVCNews direct-pricing page and Fidelity end-dates article (both agree); official 2026 chart PDF for this resort not retrieved."
+      ]
+    },
+    "gfv": {
+      "name": "The Villas at Disney's Grand Floridian Resort & Spa",
+      "state": "FL",
+      "dues_per_point_2026": 8.3142,
+      "dues_per_point_2025": 7.9298,
+      "dues_yoy_2026_pct": 4.85,
+      "dues_cagr_5yr_2021_2026_pct": 4.06,
+      "dues_cagr_10yr_2016_2026_pct": 3.82,
+      "dues_history_rounded": {
+        "2016": 5.71,
+        "2021": 6.81,
+        "2025": 7.93,
+        "2026": 8.31
+      },
+      "deed_expiration": "2064-01-31",
+      "deed_expiration_year": 2064,
+      "direct_price_per_point_oct_2026": 265,
+      "resale_avg_price_per_point": {
+        "basis": "DVC Resale Market average SOLD (closed-deal) price per point, by month the contract sold",
+        "latest_month": "2026-09",
+        "latest": 171,
+        "trailing_12mo_avg_2025-10_to_2026-09": 160.9,
+        "trailing_6mo_avg_2026-04_to_2026-09": 164.7,
+        "monthly": {
+          "2025-09": 158,
+          "2025-10": 155,
+          "2025-11": 161,
+          "2025-12": 157,
+          "2026-01": 154,
+          "2026-02": 159,
+          "2026-03": 157,
+          "2026-04": 160,
+          "2026-05": 160,
+          "2026-06": 165,
+          "2026-07": 165,
+          "2026-08": 167,
+          "2026-09": 171
+        }
+      },
+      "rofr_recent": {
+        "source_basis": "DVC Resale Market contracts only (not market-wide)",
+        "ytd_2026_buybacks": 24,
+        "ytd_2026_contracts_sold": 206,
+        "ytd_2026_buyback_rate_pct": 11.7,
+        "highest_buyback_price_by_month": {
+          "2025-09": 150,
+          "2025-10": 135,
+          "2025-11": 148,
+          "2025-12": 145,
+          "2026-01": 149,
+          "2026-02": 170,
+          "2026-03": 165,
+          "2026-04": 167,
+          "2026-05": 142,
+          "2026-06": 152,
+          "2026-07": 148,
+          "2026-08": 157,
+          "2026-09": null
+        },
+        "max_buyback_price_13mo": 170,
+        "most_recent_buyback": {
+          "month": "2026-08",
+          "highest_price": 157
+        },
+        "threshold_note": "Disney does not publish a ROFR threshold. 'Highest buyback price' is the max $/pt Disney paid that month; contracts priced below these levels carry elevated ROFR risk. Treat as an indicator, not a rule."
+      },
+      "liquidity": {
+        "days_on_market": null,
+        "notes": "Per-resort days-on-market not published. DVCRM and Fidelity both state >90% of listings sell within 30 days (marketplace-wide). Use ytd_2026_contracts_sold as a relative volume/liquidity proxy (DVCRM only)."
+      },
+      "sources": [
+        "https://dvcnews.com/dvc-program-menu/financial/financial-news/6303-disney-vacation-club-annual-dues-published-for-2026",
+        "https://dvcnews.com/dvc-program-menu/financial/annual-dues-by-resort",
+        "https://www.dvcresalemarket.com/blog/dvc-resale-average-sales-prices-for-september-2026/",
+        "https://www.dvcresalemarket.com/blog/dvc-right-of-first-refusal-report-rofr-september-2026/",
+        "https://dvcnews.com/dvc-program/financial/pricing-a-promotions",
+        "https://cdn1.parksmedia.wdprapps.disney.com/media/dvc/catalog/resorts/dvc-resorts/VGF-2026.pdf"
+      ],
+      "notes": [
+        "GFV 24 buybacks YTD (11.7%); buyback highs $135-$170/pt.",
+        "Deed expiration verified on the official 2026 point chart PDF footer."
+      ]
+    },
+    "okw": {
+      "name": "Disney's Old Key West Resort",
+      "state": "FL",
+      "dues_per_point_2026": 11.2054,
+      "dues_per_point_2025": 10.5049,
+      "dues_yoy_2026_pct": 6.67,
+      "dues_cagr_5yr_2021_2026_pct": 6.04,
+      "dues_cagr_10yr_2016_2026_pct": 6.43,
+      "dues_history_rounded": {
+        "2016": 6.01,
+        "2021": 8.36,
+        "2025": 10.5,
+        "2026": 11.21
+      },
+      "deed_expiration": "2042-01-31 (original) / 2057-01-31 (extended)",
+      "deed_expiration_year": 2042,
+      "direct_price_per_point_oct_2026": 215,
+      "resale_avg_price_per_point": {
+        "basis": "DVC Resale Market average SOLD (closed-deal) price per point, by month the contract sold",
+        "latest_month": "2026-09",
+        "latest": 97,
+        "trailing_12mo_avg_2025-10_to_2026-09": 90.7,
+        "trailing_6mo_avg_2026-04_to_2026-09": 92.2,
+        "monthly": {
+          "2025-09": 89,
+          "2025-10": 88,
+          "2025-11": 90,
+          "2025-12": 92,
+          "2026-01": 89,
+          "2026-02": 87,
+          "2026-03": 89,
+          "2026-04": 89,
+          "2026-05": 85,
+          "2026-06": 90,
+          "2026-07": 91,
+          "2026-08": 101,
+          "2026-09": 97
+        }
+      },
+      "rofr_recent": {
+        "source_basis": "DVC Resale Market contracts only (not market-wide)",
+        "ytd_2026_buybacks": 27,
+        "ytd_2026_contracts_sold": 232,
+        "ytd_2026_buyback_rate_pct": 11.6,
+        "highest_buyback_price_by_month": {
+          "2025-09": 84,
+          "2025-10": 85,
+          "2025-11": 84,
+          "2025-12": 89,
+          "2026-01": null,
+          "2026-02": 77,
+          "2026-03": 94,
+          "2026-04": 86,
+          "2026-05": 83,
+          "2026-06": 85,
+          "2026-07": 85,
+          "2026-08": 90,
+          "2026-09": 91
+        },
+        "max_buyback_price_13mo": 94,
+        "most_recent_buyback": {
+          "month": "2026-09",
+          "highest_price": 91
+        },
+        "threshold_note": "Disney does not publish a ROFR threshold. 'Highest buyback price' is the max $/pt Disney paid that month; contracts priced below these levels carry elevated ROFR risk. Treat as an indicator, not a rule."
+      },
+      "liquidity": {
+        "days_on_market": null,
+        "notes": "Per-resort days-on-market not published. DVCRM and Fidelity both state >90% of listings sell within 30 days (marketplace-wide). Use ytd_2026_contracts_sold as a relative volume/liquidity proxy (DVCRM only)."
+      },
+      "sources": [
+        "https://dvcnews.com/dvc-program-menu/financial/financial-news/6303-disney-vacation-club-annual-dues-published-for-2026",
+        "https://dvcnews.com/dvc-program-menu/financial/annual-dues-by-resort",
+        "https://www.dvcresalemarket.com/blog/dvc-resale-average-sales-prices-for-september-2026/",
+        "https://www.dvcresalemarket.com/blog/dvc-right-of-first-refusal-report-rofr-september-2026/",
+        "https://dvcnews.com/dvc-program/financial/pricing-a-promotions",
+        "https://fidelityrealestate.com/blog/do-you-know-your-dvc-contract-end-dates"
+      ],
+      "resale_avg_price_per_point_extended": {
+        "latest": 114,
+        "trailing_12mo_avg": 104.8,
+        "monthly": {
+          "2025-09": 117,
+          "2025-10": 108,
+          "2025-11": 104,
+          "2025-12": 109,
+          "2026-01": 105,
+          "2026-02": 98,
+          "2026-03": 108,
+          "2026-04": 105,
+          "2026-05": 106,
+          "2026-06": 99,
+          "2026-07": 101,
+          "2026-08": 101,
+          "2026-09": 114
+        }
+      },
+      "notes": [
+        "OKW contracts expire 2042 unless the 'extended' (2057) option was purchased; check the listing. Price stats above are for 2042 contracts; extended contracts listed separately.",
+        "OKW is the 2026 ROFR volume leader (27 buybacks YTD, 11.6%); buybacks every month but Jan 2026, at $77-$94/pt.",
+        "Deed expiration from DVCNews direct-pricing page and Fidelity end-dates article (both agree); official 2026 chart PDF for this resort not retrieved."
+      ]
+    },
+    "pvb": {
+      "name": "Disney's Polynesian Villas & Bungalows",
+      "state": "FL",
+      "dues_per_point_2026": 8.3334,
+      "dues_per_point_2025": 7.9263,
+      "dues_yoy_2026_pct": 5.14,
+      "dues_cagr_5yr_2021_2026_pct": 3.39,
+      "dues_cagr_10yr_2016_2026_pct": 3.18,
+      "dues_history_rounded": {
+        "2016": 6.09,
+        "2021": 7.05,
+        "2025": 7.93,
+        "2026": 8.33
+      },
+      "deed_expiration": "2066-01-31",
+      "deed_expiration_year": 2066,
+      "direct_price_per_point_oct_2026": 243,
+      "resale_avg_price_per_point": {
+        "basis": "DVC Resale Market average SOLD (closed-deal) price per point, by month the contract sold",
+        "latest_month": "2026-09",
+        "latest": 179,
+        "trailing_12mo_avg_2025-10_to_2026-09": 166.9,
+        "trailing_6mo_avg_2026-04_to_2026-09": 171.2,
+        "monthly": {
+          "2025-09": 166,
+          "2025-10": 164,
+          "2025-11": 163,
+          "2025-12": 162,
+          "2026-01": 161,
+          "2026-02": 162,
+          "2026-03": 164,
+          "2026-04": 164,
+          "2026-05": 172,
+          "2026-06": 171,
+          "2026-07": 169,
+          "2026-08": 172,
+          "2026-09": 179
+        }
+      },
+      "rofr_recent": {
+        "source_basis": "DVC Resale Market contracts only (not market-wide)",
+        "ytd_2026_buybacks": 0,
+        "ytd_2026_contracts_sold": null,
+        "ytd_2026_buyback_rate_pct": 0.0,
+        "highest_buyback_price_by_month": {
+          "2025-09": null,
+          "2025-10": null,
+          "2025-11": null,
+          "2025-12": null,
+          "2026-01": null,
+          "2026-02": null,
+          "2026-03": null,
+          "2026-04": null,
+          "2026-05": null,
+          "2026-06": null,
+          "2026-07": null,
+          "2026-08": null,
+          "2026-09": null
+        },
+        "max_buyback_price_13mo": null,
+        "most_recent_buyback": null,
+        "threshold_note": "Disney does not publish a ROFR threshold. 'Highest buyback price' is the max $/pt Disney paid that month; contracts priced below these levels carry elevated ROFR risk. Treat as an indicator, not a rule."
+      },
+      "liquidity": {
+        "days_on_market": null,
+        "notes": "Per-resort days-on-market not published. DVCRM and Fidelity both state >90% of listings sell within 30 days (marketplace-wide). Use ytd_2026_contracts_sold as a relative volume/liquidity proxy (DVCRM only)."
+      },
+      "sources": [
+        "https://dvcnews.com/dvc-program-menu/financial/financial-news/6303-disney-vacation-club-annual-dues-published-for-2026",
+        "https://dvcnews.com/dvc-program-menu/financial/annual-dues-by-resort",
+        "https://www.dvcresalemarket.com/blog/dvc-resale-average-sales-prices-for-september-2026/",
+        "https://www.dvcresalemarket.com/blog/dvc-right-of-first-refusal-report-rofr-september-2026/",
+        "https://dvcnews.com/dvc-program/financial/pricing-a-promotions",
+        "https://fidelityrealestate.com/blog/do-you-know-your-dvc-contract-end-dates"
+      ],
+      "notes": [
+        "No PVB buybacks Sep 2025-Sep 2026 in DVCRM data.",
+        "2026 contracts-sold count not given in the ROFR report (only resorts with >=1 buyback are listed).",
+        "Deed expiration from DVCNews direct-pricing page and Fidelity end-dates article (both agree); official 2026 chart PDF for this resort not retrieved."
+      ]
+    },
+    "ssr": {
+      "name": "Disney's Saratoga Springs Resort & Spa",
+      "state": "FL",
+      "dues_per_point_2026": 9.1877,
+      "dues_per_point_2025": 8.5394,
+      "dues_yoy_2026_pct": 7.59,
+      "dues_cagr_5yr_2021_2026_pct": 5.27,
+      "dues_cagr_10yr_2016_2026_pct": 5.38,
+      "dues_history_rounded": {
+        "2016": 5.44,
+        "2021": 7.11,
+        "2025": 8.54,
+        "2026": 9.19
+      },
+      "deed_expiration": "2054-01-31",
+      "deed_expiration_year": 2054,
+      "direct_price_per_point_oct_2026": 215,
+      "resale_avg_price_per_point": {
+        "basis": "DVC Resale Market average SOLD (closed-deal) price per point, by month the contract sold",
+        "latest_month": "2026-09",
+        "latest": 108,
+        "trailing_12mo_avg_2025-10_to_2026-09": 102.3,
+        "trailing_6mo_avg_2026-04_to_2026-09": 104.8,
+        "monthly": {
+          "2025-09": 102,
+          "2025-10": 98,
+          "2025-11": 97,
+          "2025-12": 102,
+          "2026-01": 103,
+          "2026-02": 100,
+          "2026-03": 99,
+          "2026-04": 103,
+          "2026-05": 103,
+          "2026-06": 104,
+          "2026-07": 103,
+          "2026-08": 108,
+          "2026-09": 108
+        }
+      },
+      "rofr_recent": {
+        "source_basis": "DVC Resale Market contracts only (not market-wide)",
+        "ytd_2026_buybacks": 11,
+        "ytd_2026_contracts_sold": 488,
+        "ytd_2026_buyback_rate_pct": 2.3,
+        "highest_buyback_price_by_month": {
+          "2025-09": null,
+          "2025-10": null,
+          "2025-11": null,
+          "2025-12": 87,
+          "2026-01": null,
+          "2026-02": null,
+          "2026-03": 94,
+          "2026-04": 98,
+          "2026-05": null,
+          "2026-06": null,
+          "2026-07": null,
+          "2026-08": 98,
+          "2026-09": null
+        },
+        "max_buyback_price_13mo": 98,
+        "most_recent_buyback": {
+          "month": "2026-08",
+          "highest_price": 98
+        },
+        "threshold_note": "Disney does not publish a ROFR threshold. 'Highest buyback price' is the max $/pt Disney paid that month; contracts priced below these levels carry elevated ROFR risk. Treat as an indicator, not a rule."
+      },
+      "liquidity": {
+        "days_on_market": null,
+        "notes": "Per-resort days-on-market not published. DVCRM and Fidelity both state >90% of listings sell within 30 days (marketplace-wide). Use ytd_2026_contracts_sold as a relative volume/liquidity proxy (DVCRM only)."
+      },
+      "sources": [
+        "https://dvcnews.com/dvc-program-menu/financial/financial-news/6303-disney-vacation-club-annual-dues-published-for-2026",
+        "https://dvcnews.com/dvc-program-menu/financial/annual-dues-by-resort",
+        "https://www.dvcresalemarket.com/blog/dvc-resale-average-sales-prices-for-september-2026/",
+        "https://www.dvcresalemarket.com/blog/dvc-right-of-first-refusal-report-rofr-september-2026/",
+        "https://dvcnews.com/dvc-program/financial/pricing-a-promotions",
+        "https://cdn1.parksmedia.wdprapps.disney.com/media/dvc/catalog/resorts/dvc-resorts/SSR-2026.pdf"
+      ],
+      "notes": [
+        "Deed expiration verified on the official 2026 point chart PDF footer."
+      ]
+    },
+    "vgc": {
+      "name": "The Villas at Disney's Grand Californian Hotel & Spa",
+      "state": "CA",
+      "dues_per_point_2026": 9.5203,
+      "dues_per_point_2025": 8.7974,
+      "dues_yoy_2026_pct": 8.22,
+      "dues_cagr_5yr_2021_2026_pct": 6.37,
+      "dues_cagr_10yr_2016_2026_pct": 5.89,
+      "dues_history_rounded": {
+        "2016": 5.37,
+        "2021": 6.99,
+        "2025": 8.8,
+        "2026": 9.52
+      },
+      "deed_expiration": "2060-01-31",
+      "deed_expiration_year": 2060,
+      "direct_price_per_point_oct_2026": 330,
+      "resale_avg_price_per_point": {
+        "basis": "DVC Resale Market average SOLD (closed-deal) price per point, by month the contract sold",
+        "latest_month": "2026-09",
+        "latest": 265,
+        "trailing_12mo_avg_2025-10_to_2026-09": 255.5,
+        "trailing_6mo_avg_2026-04_to_2026-09": 256.8,
+        "monthly": {
+          "2025-09": 265,
+          "2025-10": 250,
+          "2025-11": 254,
+          "2025-12": 264,
+          "2026-01": 253,
+          "2026-02": 257,
+          "2026-03": 247,
+          "2026-04": 254,
+          "2026-05": 251,
+          "2026-06": 258,
+          "2026-07": 254,
+          "2026-08": 259,
+          "2026-09": 265
+        }
+      },
+      "rofr_recent": {
+        "source_basis": "DVC Resale Market contracts only (not market-wide)",
+        "ytd_2026_buybacks": 12,
+        "ytd_2026_contracts_sold": 61,
+        "ytd_2026_buyback_rate_pct": 19.7,
+        "highest_buyback_price_by_month": {
+          "2025-09": 230,
+          "2025-10": 241,
+          "2025-11": 238,
+          "2025-12": 235,
+          "2026-01": null,
+          "2026-02": null,
+          "2026-03": null,
+          "2026-04": null,
+          "2026-05": 254,
+          "2026-06": 244,
+          "2026-07": 245,
+          "2026-08": 238,
+          "2026-09": 249
+        },
+        "max_buyback_price_13mo": 254,
+        "most_recent_buyback": {
+          "month": "2026-09",
+          "highest_price": 249
+        },
+        "threshold_note": "Disney does not publish a ROFR threshold. 'Highest buyback price' is the max $/pt Disney paid that month; contracts priced below these levels carry elevated ROFR risk. Treat as an indicator, not a rule."
+      },
+      "liquidity": {
+        "days_on_market": null,
+        "notes": "Per-resort days-on-market not published. DVCRM and Fidelity both state >90% of listings sell within 30 days (marketplace-wide). Use ytd_2026_contracts_sold as a relative volume/liquidity proxy (DVCRM only)."
+      },
+      "sources": [
+        "https://dvcnews.com/dvc-program-menu/financial/financial-news/6303-disney-vacation-club-annual-dues-published-for-2026",
+        "https://dvcnews.com/dvc-program-menu/financial/annual-dues-by-resort",
+        "https://www.dvcresalemarket.com/blog/dvc-resale-average-sales-prices-for-september-2026/",
+        "https://www.dvcresalemarket.com/blog/dvc-right-of-first-refusal-report-rofr-september-2026/",
+        "https://dvcnews.com/dvc-program/financial/pricing-a-promotions",
+        "https://fidelityrealestate.com/blog/do-you-know-your-dvc-contract-end-dates"
+      ],
+      "notes": [
+        "VGC has the highest 2026 buyback rate (19.7% YTD) and buybacks most months at $230-$254/pt \u2014 roughly anything below ~$250 carries real ROFR risk.",
+        "Deed expiration from DVCNews direct-pricing page and Fidelity end-dates article (both agree); official 2026 chart PDF for this resort not retrieved."
+      ]
+    },
+    "vb": {
+      "name": "Disney's Vero Beach Resort",
+      "state": "FL",
+      "dues_per_point_2026": 14.8939,
+      "dues_per_point_2025": 14.3026,
+      "dues_yoy_2026_pct": 4.13,
+      "dues_cagr_5yr_2021_2026_pct": 5.8,
+      "dues_cagr_10yr_2016_2026_pct": 6.3,
+      "dues_history_rounded": {
+        "2016": 8.08,
+        "2021": 11.23,
+        "2025": 14.3,
+        "2026": 14.89
+      },
+      "deed_expiration": "2042-01-31",
+      "deed_expiration_year": 2042,
+      "direct_price_per_point_oct_2026": 150,
+      "resale_avg_price_per_point": {
+        "basis": "DVC Resale Market average SOLD (closed-deal) price per point, by month the contract sold",
+        "latest_month": "2026-09",
+        "latest": 60,
+        "trailing_12mo_avg_2025-10_to_2026-09": 51.0,
+        "trailing_6mo_avg_2026-04_to_2026-09": 53.0,
+        "monthly": {
+          "2025-09": 53,
+          "2025-10": 48,
+          "2025-11": 48,
+          "2025-12": 49,
+          "2026-01": 55,
+          "2026-02": 49,
+          "2026-03": 45,
+          "2026-04": 48,
+          "2026-05": 50,
+          "2026-06": 49,
+          "2026-07": 53,
+          "2026-08": 58,
+          "2026-09": 60
+        }
+      },
+      "rofr_recent": {
+        "source_basis": "DVC Resale Market contracts only (not market-wide)",
+        "ytd_2026_buybacks": 3,
+        "ytd_2026_contracts_sold": 113,
+        "ytd_2026_buyback_rate_pct": 2.7,
+        "highest_buyback_price_by_month": {
+          "2025-09": null,
+          "2025-10": null,
+          "2025-11": null,
+          "2025-12": null,
+          "2026-01": null,
+          "2026-02": null,
+          "2026-03": null,
+          "2026-04": null,
+          "2026-05": null,
+          "2026-06": null,
+          "2026-07": null,
+          "2026-08": null,
+          "2026-09": 63
+        },
+        "max_buyback_price_13mo": 63,
+        "most_recent_buyback": {
+          "month": "2026-09",
+          "highest_price": 63
+        },
+        "threshold_note": "Disney does not publish a ROFR threshold. 'Highest buyback price' is the max $/pt Disney paid that month; contracts priced below these levels carry elevated ROFR risk. Treat as an indicator, not a rule."
+      },
+      "liquidity": {
+        "days_on_market": null,
+        "notes": "Per-resort days-on-market not published. DVCRM and Fidelity both state >90% of listings sell within 30 days (marketplace-wide). Use ytd_2026_contracts_sold as a relative volume/liquidity proxy (DVCRM only)."
+      },
+      "sources": [
+        "https://dvcnews.com/dvc-program-menu/financial/financial-news/6303-disney-vacation-club-annual-dues-published-for-2026",
+        "https://dvcnews.com/dvc-program-menu/financial/annual-dues-by-resort",
+        "https://www.dvcresalemarket.com/blog/dvc-resale-average-sales-prices-for-september-2026/",
+        "https://www.dvcresalemarket.com/blog/dvc-right-of-first-refusal-report-rofr-september-2026/",
+        "https://dvcnews.com/dvc-program/financial/pricing-a-promotions",
+        "https://cdn1.parksmedia.wdprapps.disney.com/media/dvc/catalog/resorts/dvc-resorts/VERO-2026.pdf"
+      ],
+      "dues_per_point_2026_subsidized": 11.6859,
+      "notes": [
+        "Vero Beach also has subsidized-dues contracts ($11.6859/pt 2026). First 2026 buybacks in Sep 2026: three 50-pt contracts, high $63/pt.",
+        "Deed expiration verified on the official 2026 point chart PDF footer."
+      ]
+    },
+    "hh": {
+      "name": "Disney's Hilton Head Island Resort",
+      "state": "SC",
+      "dues_per_point_2026": 12.8621,
+      "dues_per_point_2025": 11.9207,
+      "dues_yoy_2026_pct": 7.9,
+      "dues_cagr_5yr_2021_2026_pct": 5.22,
+      "dues_cagr_10yr_2016_2026_pct": 6.55,
+      "dues_history_rounded": {
+        "2016": 6.82,
+        "2021": 9.97,
+        "2025": 11.92,
+        "2026": 12.86
+      },
+      "deed_expiration": "2042-01-31",
+      "deed_expiration_year": 2042,
+      "direct_price_per_point_oct_2026": 165,
+      "resale_avg_price_per_point": {
+        "basis": "DVC Resale Market average SOLD (closed-deal) price per point, by month the contract sold",
+        "latest_month": "2026-09",
+        "latest": 73,
+        "trailing_12mo_avg_2025-10_to_2026-09": 69.0,
+        "trailing_6mo_avg_2026-04_to_2026-09": 71.2,
+        "monthly": {
+          "2025-09": 64,
+          "2025-10": 65,
+          "2025-11": 64,
+          "2025-12": 68,
+          "2026-01": 67,
+          "2026-02": 66,
+          "2026-03": 71,
+          "2026-04": 69,
+          "2026-05": 67,
+          "2026-06": 80,
+          "2026-07": 67,
+          "2026-08": 71,
+          "2026-09": 73
+        }
+      },
+      "rofr_recent": {
+        "source_basis": "DVC Resale Market contracts only (not market-wide)",
+        "ytd_2026_buybacks": 2,
+        "ytd_2026_contracts_sold": 78,
+        "ytd_2026_buyback_rate_pct": 2.6,
+        "highest_buyback_price_by_month": {
+          "2025-09": null,
+          "2025-10": null,
+          "2025-11": null,
+          "2025-12": 65,
+          "2026-01": null,
+          "2026-02": null,
+          "2026-03": null,
+          "2026-04": 70,
+          "2026-05": null,
+          "2026-06": null,
+          "2026-07": null,
+          "2026-08": 64,
+          "2026-09": null
+        },
+        "max_buyback_price_13mo": 70,
+        "most_recent_buyback": {
+          "month": "2026-08",
+          "highest_price": 64
+        },
+        "threshold_note": "Disney does not publish a ROFR threshold. 'Highest buyback price' is the max $/pt Disney paid that month; contracts priced below these levels carry elevated ROFR risk. Treat as an indicator, not a rule."
+      },
+      "liquidity": {
+        "days_on_market": null,
+        "notes": "Per-resort days-on-market not published. DVCRM and Fidelity both state >90% of listings sell within 30 days (marketplace-wide). Use ytd_2026_contracts_sold as a relative volume/liquidity proxy (DVCRM only)."
+      },
+      "sources": [
+        "https://dvcnews.com/dvc-program-menu/financial/financial-news/6303-disney-vacation-club-annual-dues-published-for-2026",
+        "https://dvcnews.com/dvc-program-menu/financial/annual-dues-by-resort",
+        "https://www.dvcresalemarket.com/blog/dvc-resale-average-sales-prices-for-september-2026/",
+        "https://www.dvcresalemarket.com/blog/dvc-right-of-first-refusal-report-rofr-september-2026/",
+        "https://dvcnews.com/dvc-program/financial/pricing-a-promotions",
+        "https://cdn1.parksmedia.wdprapps.disney.com/media/dvc/catalog/resorts/dvc-resorts/HH-2026.pdf"
+      ],
+      "notes": [
+        "Deed expiration verified on the official 2026 point chart PDF footer."
+      ]
+    }
+  },
+  "sources": [
+    "https://dvcnews.com/dvc-program-menu/financial/financial-news/6303-disney-vacation-club-annual-dues-published-for-2026",
+    "https://dvcnews.com/dvc-program-menu/financial/annual-dues-by-resort",
+    "https://www.dvcresalemarket.com/blog/dvc-resale-average-sales-prices-for-september-2026/",
+    "https://www.dvcresalemarket.com/blog/dvc-right-of-first-refusal-report-rofr-september-2026/",
+    "https://www.dvcresalemarket.com/blog/dvc-right-of-first-refusal-report-rofr-august-2026/",
+    "https://dvcnews.com/dvc-program/financial/pricing-a-promotions",
+    "https://fidelityrealestate.com/blog/do-you-know-your-dvc-contract-end-dates",
+    "https://cdn1.parksmedia.wdprapps.disney.com/media/dvc/catalog/resorts/dvc-resorts/AUL-2026.pdf",
+    "https://cdn1.parksmedia.wdprapps.disney.com/media/dvc/catalog/resorts/dvc-resorts/BCV-2026.pdf",
+    "https://cdn1.parksmedia.wdprapps.disney.com/media/dvc/catalog/resorts/dvc-resorts/BWALK-2026.pdf",
+    "https://cdn1.parksmedia.wdprapps.disney.com/media/dvc/catalog/resorts/dvc-resorts/SSR-2026.pdf",
+    "https://cdn1.parksmedia.wdprapps.disney.com/media/dvc/catalog/resorts/dvc-resorts/VGF-2026.pdf",
+    "https://cdn1.parksmedia.wdprapps.disney.com/media/dvc/catalog/resorts/dvc-resorts/HH-2026.pdf",
+    "https://cdn1.parksmedia.wdprapps.disney.com/media/dvc/catalog/resorts/dvc-resorts/VERO-2026.pdf"
+  ],
+  "market_context": {
+    "dvcrm_2026_ytd_rofr": {
+      "buybacks": 107,
+      "contracts_sold": 2895,
+      "buyback_rate_pct": 3.7,
+      "waiver_rate_pct": 96.3,
+      "through": "2026-09"
+    },
+    "dvcrm_avg_rofr_review_days_sep_2026": 24,
+    "blended_avg_resale_price_sep_2026": 132,
+    "blended_avg_resale_price_aug_2026": 128,
+    "dvcrm_active_listings_2026-10-05": 244
+  },
+  "notes": [
+    "Dues values are the 2026 per-point rates published by DVC (via DVCNews, Nov 20 2025; finalized by the boards Dec 2025). The official per-resort budgets are on the member site, not publicly fetchable.",
+    "CAGR computed from DVCNews historical table (rounded to cents) for 2016/2021 and exact 2026 values rounded to cents.",
+    "Resale prices and ROFR data are from a single broker (DVC Resale Market, the largest). They reflect closed DVCRM sales, not asking prices or the whole market.",
+    "Direct prices are DVC list prices as of 2026-10-07 (before incentives)."
+  ]
+}

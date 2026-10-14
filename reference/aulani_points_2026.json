@@ -1,0 +1,331 @@
+{
+  "resort": "Aulani, Disney Vacation Club Villas, Ko Olina, Hawai'i",
+  "resort_key": "aulani",
+  "year": 2026,
+  "as_of": "2026-10-13",
+  "sources": [
+    "https://cdn1.parksmedia.wdprapps.disney.com/vision-dam/digital/parks-platform/parks-standard-assets/disney-vacation-club/points/2026-AULV-Updated-2-11-26.pdf",
+    "https://cdn1.parksmedia.wdprapps.disney.com/media/dvc/catalog/resorts/dvc-resorts/AUL-2026.pdf",
+    "https://www.dvcresalemarket.com/point-chart/2026-aulani/"
+  ],
+  "room_types": {
+    "hotel": "Hotel Room (sleeps 4)",
+    "studio": "Deluxe Studio (sleeps 4)",
+    "1br": "One-Bedroom Villa (sleeps 5)",
+    "2br": "Two-Bedroom Villa (sleeps 9)",
+    "3br": "Three-Bedroom Grand Villa (sleeps 12)"
+  },
+  "view_codes": {
+    "S": "Standard View (conference center, parking lot or garage)",
+    "I": "Island Gardens View (mountains, spa or landscaping)",
+    "P": "Poolside Gardens View (pool, courtyards, water features)",
+    "O": "Ocean View (at least partial ocean view)"
+  },
+  "weekday_weekend_differ": false,
+  "travel_periods": [
+    {
+      "name": "Travel Period 1",
+      "date_ranges": [
+        [
+          "2026-01-04",
+          "2026-02-28"
+        ],
+        [
+          "2026-09-06",
+          "2026-10-10"
+        ],
+        [
+          "2026-11-10",
+          "2026-11-23"
+        ],
+        [
+          "2026-11-29",
+          "2026-12-17"
+        ]
+      ],
+      "nightly": {
+        "hotel": {
+          "S": 16
+        },
+        "studio": {
+          "S": 17,
+          "I": 19,
+          "P": 23,
+          "O": 25
+        },
+        "1br": {
+          "S": 34,
+          "I": 35,
+          "P": 44,
+          "O": 46
+        },
+        "2br": {
+          "S": 47,
+          "I": 49,
+          "P": 59,
+          "O": 62
+        },
+        "3br": {
+          "S": 95,
+          "O": 122
+        }
+      },
+      "weekly": {
+        "hotel": {
+          "S": 112
+        },
+        "studio": {
+          "S": 119,
+          "I": 133,
+          "P": 161,
+          "O": 175
+        },
+        "1br": {
+          "S": 238,
+          "I": 245,
+          "P": 308,
+          "O": 322
+        },
+        "2br": {
+          "S": 329,
+          "I": 343,
+          "P": 413,
+          "O": 434
+        },
+        "3br": {
+          "S": 665,
+          "O": 854
+        }
+      }
+    },
+    {
+      "name": "Travel Period 2",
+      "date_ranges": [
+        [
+          "2026-04-12",
+          "2026-04-28"
+        ],
+        [
+          "2026-05-06",
+          "2026-06-28"
+        ],
+        [
+          "2026-10-11",
+          "2026-11-09"
+        ]
+      ],
+      "nightly": {
+        "hotel": {
+          "S": 17
+        },
+        "studio": {
+          "S": 19,
+          "I": 21,
+          "P": 24,
+          "O": 26
+        },
+        "1br": {
+          "S": 37,
+          "I": 44,
+          "P": 46,
+          "O": 50
+        },
+        "2br": {
+          "S": 51,
+          "I": 59,
+          "P": 62,
+          "O": 69
+        },
+        "3br": {
+          "S": 103,
+          "O": 134
+        }
+      },
+      "weekly": {
+        "hotel": {
+          "S": 119
+        },
+        "studio": {
+          "S": 133,
+          "I": 147,
+          "P": 168,
+          "O": 182
+        },
+        "1br": {
+          "S": 259,
+          "I": 308,
+          "P": 322,
+          "O": 350
+        },
+        "2br": {
+          "S": 357,
+          "I": 413,
+          "P": 434,
+          "O": 483
+        },
+        "3br": {
+          "S": 721,
+          "O": 938
+        }
+      }
+    },
+    {
+      "name": "Travel Period 3",
+      "date_ranges": [
+        [
+          "2026-03-01",
+          "2026-03-24"
+        ],
+        [
+          "2026-04-29",
+          "2026-05-05"
+        ],
+        [
+          "2026-08-10",
+          "2026-09-05"
+        ]
+      ],
+      "nightly": {
+        "hotel": {
+          "S": 18
+        },
+        "studio": {
+          "S": 22,
+          "I": 25,
+          "P": 26,
+          "O": 29
+        },
+        "1br": {
+          "S": 44,
+          "I": 46,
+          "P": 50,
+          "O": 58
+        },
+        "2br": {
+          "S": 60,
+          "I": 62,
+          "P": 70,
+          "O": 79
+        },
+        "3br": {
+          "S": 121,
+          "O": 157
+        }
+      },
+      "weekly": {
+        "hotel": {
+          "S": 126
+        },
+        "studio": {
+          "S": 154,
+          "I": 175,
+          "P": 182,
+          "O": 203
+        },
+        "1br": {
+          "S": 308,
+          "I": 322,
+          "P": 350,
+          "O": 406
+        },
+        "2br": {
+          "S": 420,
+          "I": 434,
+          "P": 490,
+          "O": 553
+        },
+        "3br": {
+          "S": 847,
+          "O": 1099
+        }
+      }
+    },
+    {
+      "name": "Travel Period 4",
+      "date_ranges": [
+        [
+          "2026-01-01",
+          "2026-01-03"
+        ],
+        [
+          "2026-03-25",
+          "2026-04-11"
+        ],
+        [
+          "2026-06-29",
+          "2026-08-09"
+        ],
+        [
+          "2026-11-24",
+          "2026-11-28"
+        ],
+        [
+          "2026-12-18",
+          "2026-12-31"
+        ]
+      ],
+      "nightly": {
+        "hotel": {
+          "S": 21
+        },
+        "studio": {
+          "S": 24,
+          "I": 27,
+          "P": 29,
+          "O": 31
+        },
+        "1br": {
+          "S": 46,
+          "I": 50,
+          "P": 58,
+          "O": 62
+        },
+        "2br": {
+          "S": 64,
+          "I": 71,
+          "P": 79,
+          "O": 84
+        },
+        "3br": {
+          "S": 140,
+          "O": 184
+        }
+      },
+      "weekly": {
+        "hotel": {
+          "S": 147
+        },
+        "studio": {
+          "S": 168,
+          "I": 189,
+          "P": 203,
+          "O": 217
+        },
+        "1br": {
+          "S": 322,
+          "I": 350,
+          "P": 406,
+          "O": 434
+        },
+        "2br": {
+          "S": 448,
+          "I": 497,
+          "P": 553,
+          "O": 588
+        },
+        "3br": {
+          "S": 980,
+          "O": 1288
+        }
+      }
+    }
+  ],
+  "deed_expiration": "2062-01-31",
+  "notes": [
+    "Aulani charts list a single SUN-SAT nightly value; there is NO weekday/weekend differential, so nightly applies to every night and weekly = 7 x nightly (verified against the WEEKLY row in the PDF).",
+    "Hawaii transient accommodations tax is charged per night on points stays and paid at check-out (see fees.json).",
+    "Members who bought resale (non-Disney) after Jan 19, 2019 cannot book some or all non-home resorts (per chart footer).",
+    "Uses the UPDATED 2026 PDF (2-11-26). The older AUL-2026.pdf listed Travel Period 4 as 'Mar 25 - Apr 11' and 'Apr 11 - Apr 26', overlapping Travel Period 2 (Apr 12-28); the updated chart corrects this to Mar 25 - Apr 11 only. DVCRM's 2026 web page still shows the old overlapping text.",
+    "Every date in 2026 is covered exactly once (validated programmatically)."
+  ]
+}
