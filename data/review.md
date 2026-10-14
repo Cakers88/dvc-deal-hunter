@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-14 20:45 UTC (data commit `967437a`, scrape 20:42 UTC from a manual dispatch; the cron hadn't fired since 19:41). Two scrapes since the last review (19:42, 20:42): 3 new, 1 price drop, 2 gone, **nothing reaches a top list**. All three tables are the same contracts in the same order as at 19:40 (net costs moved ≤$12). Verified AKV 616182 on the broker page (2BR #1).
+**Run:** 2026-10-14 21:40 UTC (data commit `fff66ce`, scrape 21:37 UTC). One scrape since the last review: 2 price drops, 1 going pending, 1 gone, **nothing reaches a top list**. All three tables are the same contracts in the same order as at 20:45 (net costs moved ≤$11). Verified BR243 on the broker page (the only changed listing scoring ≥70).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,11 @@ Gone this run: **SSR 615511** (Fidelity, 110 pts, $104, was #1). Next: HH HHI264
 
 ## Market notes
 
+- 21:37 scrape: 2 price drops, 1 status change, 1 gone. Nothing reaches a top list.
+  - Price drop: **BRV BR243** ([DVC Sales, 300 pts, Mar UY](https://dvcsales.com/dvc-resale/boulder-ridge/300-points/1804)), $97→$95/pt, $28.5k. It's rank #53 (score 73.6). ✔ The broker page matches: 0 points in 2026, then 376 in the Mar-2027 UY (76 banked), 300 in 2028. Dues are $9.77, the deed runs to **2042**, and it closes about Dec 1. **The page doesn't say who pays the 2026/2027 dues.** For 1BR+2BR it borrows 110 and saves only ~$2.3k, so it's not a fit.
+  - Price drop: BWV BW430 (DVC Sales, 150 pts) $122→$121/pt, rank #224. It has only 139 points in 2027.
+  - Going pending: DVC Store SS050-12-1013 (SSR, 50 pts). Gone: DVC Store AR115-03-0910 (AKV, $85, already marked sold).
+  - Market model n=876, unchanged.
 - 20:42 scrape (manual dispatch): 2 new, 1 price drop, 1 gone. Nothing reaches a top list.
   - New: OKW OK65077 (DVC Resale Market, 85 pts, Apr UY, $124, 170 in Apr-2027 incl. 85 banked, 2057 deed) and OKW OKWE95806 (DVC Resale Experts, 25 pts, $127). Both too small for any Sept setup and pricey, so unranked.
   - Price drop: SSR SS1281 (DVC Sales, 230 pts, Dec UY) $102→$100/pt, $23k. Still rank #224: only 95 points left in the Dec-2026 UY.
@@ -82,6 +87,7 @@ Gone this run: **SSR 615511** (Fidelity, 110 pts, $104, was #1). Next: HH HHI264
 
 ## Scraper health
 
+- 21:37: **all 10 sources OK.** dvcstore recovered with 142 listings; the API answered in about 1 s when I checked at 21:36, so the 20:42 failure was transient and the adapter is untouched. The cron had fired nothing since 20:42, so I dispatched `hunt` manually at 21:37.
 - 20:42: 9 of 10 sources OK. **dvcstore failed** (its WordPress API timed out after retries). It worked at 19:42 (143 listings), and a manual request at 20:44 returned 200 but took 89 s, so it's the site being slow, not a parser break. No bogus "gone" events came from it. I'll only touch the adapter if it fails again next run.
 - 19:42 (push-triggered): all 10 OK. The cron then went quiet again; I dispatched manually at 20:37.
 - 19:37: **all 10 sources OK** (dvcmarket 721, dvcresalemarket 377, dvcshop 243, dvcstore 143, dvcresaleexperts 99, vacationclublife 92, dvcsales 74, dvcbyresale 26, buyandselldvc 24, magicresales 4). I dispatched it manually at 19:36 (the cron had been silent since 15:33). A `schedule` run then queued at 19:41, so the cron is still alive but sparse.
@@ -98,13 +104,13 @@ Gone this run: **SSR 615511** (Fidelity, 110 pts, $104, was #1). Next: HH HHI264
 
 ## Fixes made this run
 
-- None this run. Manually dispatched the `hunt` workflow at 20:37.
+- None. Manually dispatched the `hunt` workflow at 21:37 (and at 20:37 last run).
 
-## Fixes made last run (19:40)
+## Fixes made at 19:40
 
 - `fix(dvcresaleexperts)`: when Webflow publishes a row with blanked fields, the adapter now recovers the listing ID from the URL slug, and it skips a row that has no price (logging a warning) instead of publishing it unpriced. That stops the empty-ID "new" listing and lets BWV35220 return under its own ID once the broker fixes the record. Tested against the live index: 98 of 99 rows parse, and the 1 skipped is BWV35220.
 - Manually dispatched the `hunt` workflow at 19:36.
 
 ## Broker emails
 
-- Gmail, last 2 h: no broker alert emails (checked 20:45).
+- Gmail, last 2 h: no broker alert emails (checked 21:40).
