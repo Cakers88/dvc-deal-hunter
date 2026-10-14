@@ -2,7 +2,7 @@ name: hunt
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # GitHub may delay scheduled runs a few minutes under load
+    - cron: "7,22,37,52 * * * *"   # off the :00/:15 rush; GitHub may still delay or drop scheduled runs under load
   workflow_dispatch:
   push:
     branches: [main]
