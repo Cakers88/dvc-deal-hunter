@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-14 04:45 UTC (data commit `82bb72d`, scrape 04:37 UTC; rankings recomputed with this run's parser fixes applied)
+**Run:** 2026-10-14 05:40 UTC (data commit `bb3141f`, scrape 05:37 UTC). Rankings unchanged from 04:45; savings figures drift by ≤$50 as the interest clock moves, so the tables below are carried over.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -45,22 +45,18 @@ For a 1BR alone, buying still barely beats renting.
 
 ## Market notes
 
-- 4 new listings at 04:37, none in the top 25: VB VBE2645 ($48, 240 pts, 2042, "Certified Hot Price", score 71, **high ROFR**, likely a Disney buyback), BLT BL73820 ($155), AKV AK86513/AK86514 ($126). No price changes or pendings since the last review.
-- The 24 status changes at 03:41 were the one-time cleanup from the dvcsales fix; they aren't real changes.
-- Market model unchanged (n≈890): −$4.3/pt per missing current year, −$8.8/pt when next year is missing, about $4.7/pt accepted below ask.
+- 05:37: no new listings, no price changes. 3 DVC Resale Market listings dropped off after showing pending (AKV AK86478 and AK86479 at $113, SSR SSF8632 at $120). None were in any top list.
+- Market model steady (n=871): −$4.1/pt per missing current year, −$8.7/pt when next year is missing, about $4.5/pt accepted below ask.
 
 ## Scraper health
 
-- All 10 sources ok:true at 04:37 (dvcmarket 702, dvcresalemarket 377, dvcshop 243, dvcstore 146, dvcresaleexperts 101, vacationclublife 92, dvcsales 74, dvcbyresale 26, buyandselldvc 24, magicresales 4).
-- ⚠ **The 15-minute cron has still never fired**, more than 2 h after the workflow went live. All 6 hunt runs were push or manual. Between 03:43 and 04:37 nothing scraped at all, so no ntfy alerts could go out. The cron syntax is valid and the workflow is active. I dispatched one manual run (#6, success) for this review. If it still hasn't started next hour: in the Actions tab, disable and re-enable the "hunt" workflow, or make any small commit to `.github/workflows/hunt.yml` on main to re-register the schedule.
+- All 10 sources ok:true at 04:45 and 05:37 (dvcmarket 702, dvcresalemarket 377, dvcshop 243, dvcstore 146, dvcresaleexperts 101, vacationclublife 92, dvcsales 74, dvcbyresale 26, buyandselldvc 24, magicresales 4).
+- ⚠ **The scheduled cron still had not fired** after ~3 h. Nothing scraped between 04:45 and 05:37, so no ntfy alerts went out in that window.
 
 ## Fixes made this run
 
-- `fix(dvcresalemarket)` (shared parser in `model.py`): the banked-points regex captured the *year* in "276 points as of Feb. 2027 (36 points banked from Feb. 2026…" and marked every point as banked. That hit 20 DVC Resale Market listings (VBE2645, OK95068, AUE3552, VBC2604 …), so their current-year points looked un-bankable.
-- `fix(dvcresaleexperts)`: "N points are in Holding" is now treated as non-bankable (OKW88090, OKW18680, AUL48932).
-- `scrape`: banked counts are re-derived on carried-over listings, so these fixes, and last run's seller-comment fix (HHI26452 etc.), apply on the next Action run instead of waiting up to 3 days for a detail refresh.
-- Ranking impact: OKW88090 moves out of the 1BR+2BR top 5. Nothing else in the top 5 changed.
+- `fix(workflow)` (`e4f3f8a`): changed the cron from `*/15` to `7,22,37,52 * * * *`. This moves it off the congested quarter-hour marks and re-registers the schedule. The push also ran a scrape (05:37, success). Next hour I'll check whether a `schedule` run appears. If none has by then, disable and re-enable the "hunt" workflow in the Actions tab.
 
 ## Broker emails
 
-- Gmail, last 2 h: no broker alert emails.
+- Gmail, last 2 h: no broker alert emails (checked 05:40).
