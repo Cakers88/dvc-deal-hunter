@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-14 12:40 UTC (data commit `4f170c8`, scrape 12:37 UTC, manual dispatch). All top lists unchanged since 06:45; savings move by a few dollars as the interest clock advances.
+**Run:** 2026-10-14 13:45 UTC (data commit `7394efc`, scrape 13:39 UTC, manual dispatch). All top lists unchanged since 06:45; savings move by a few dollars as the interest clock advances.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,7 @@ Dropped out: HH HHI26452 (now #4, $1,426) and SSR SS1262 (#6+).
 
 ## Market notes
 
+- 13:39 scrape: 2 new, neither in any top list. **SSR SS1261** (DVC Sales, [500 pts, Aug UY, $101](https://dvcsales.com/dvc-resale/saratoga-springs/500-points/1617), $50.5k): 0 points in the 2026 UY, 500 arrive Aug 1, 2027, so a Sept stay has to come from the 2027 UY; score 68.9, rank #126; listed Aug 31 (page 1617 is new to the scraper, not a renumbering). **GFV GFB3365** (DVC Resale Market, 75 pts, Oct UY, $185, 2064 deed): unranked (75 pts is too small for any Sept setup, and $185 is too high). Market model unchanged apart from n=869.
 - 12:37 scrape: 1 new, 1 gone, both **Riviera** (not Aulani-eligible on resale, so excluded from ranking): new RIV RV354 (DVC Sales, 200 pts, Dec UY, $120); gone RIV 613351 (Fidelity via DVC Market, 200 pts, $125). Market model unchanged (n=867).
 - 10:37, 10:40 and 11:36 scrapes: quiet. No new listings, no price or status changes, nothing gone. Market model unchanged (n=867: −$3.6/pt per missing current year, −$8.6/pt missing next year, ~$4.2/pt accepted below ask).
 - 09:37 scrape: 1 new, 1 price change, 1 status change, 2 gone, but **almost all of it is DVC Sales renumbering its own listings**, not real market movement. Its page 496 (SSR 160 pts, Aug UY, $118) used to be SS1258 and now shows code SS1301 with "listed 0 days ago". Its page 1595 (BWV 261 pts, $119) used to be BW425 and now carries code **BW434**, the code of a different, already-gone 200-pt contract. Because the adapter keys on the code, that shows up as a bogus BW434 "price change" from $106 to $119. Neither is in any top list (SS1301 is #33 overall, score 76.5; ✔ checked: 235 in the 2026 UY, of which 75 are banked and expire Jul 31, 2027; buyer reimburses 2027 dues of $1,470; closes Feb 7, 2027; deed 2054). If DVC Sales keeps doing this, I'll switch the adapter key to the page id. I haven't done it yet because that would turn every DVC Sales listing into a one-time "new" event.
@@ -58,6 +59,8 @@ Dropped out: HH HHI26452 (now #4, $1,426) and SSR SS1262 (#6+).
 
 ## Scraper health
 
+- 13:39: **dvcshop ok:false** (`GET failed after retries` on its WP JSON listing endpoint). That's one failed run; 12:37 was fine. The endpoint answered 200 when I checked at 13:45, so it looks transient. No DVC Shop listings were marked gone. All other 9 sources OK (dvcmarket 717 raw, dvcresalemarket 375, dvcstore 146, dvcresaleexperts 101, vacationclublife 92, dvcsales 75, dvcbyresale 26, buyandselldvc 24, magicresales 4). I'll investigate if it fails again on the next run.
+- The scheduled cron still hasn't fired since 10:39 (3 h). Every run since then has been a manual dispatch.
 - 12:37: all 10 sources OK.
 - All 10 sources returned listings at 07:37, 08:36 and 09:37 (active at 09:37: dvcresalemarket 363, dvcshop 237, dvcmarket 144 after de-dup, dvcstore 141, dvcresaleexperts 99, vacationclublife 89, dvcsales 70, dvcbyresale 26, buyandselldvc 24, magicresales 3).
 - ✅ **The scheduled cron has fired**: run 14 at 10:39 UTC was a `schedule` event, its first. But it hasn't fired again in the following hour (cron is set for every 15 min). GitHub often delays or skips scheduled runs on low-activity repos, so expect gaps. If it still looks sparse tomorrow, a disable/enable of the workflow (Actions → hunt → ⋯) is the usual fix.
@@ -65,8 +68,8 @@ Dropped out: HH HHI26452 (now #4, $1,426) and SSR SS1262 (#6+).
 
 ## Fixes made this run
 
-- None to code. Triggered one manual `hunt` dispatch (12:37) to get fresh data; the scheduled cron still hasn't fired since 10:39.
+- None to code. Triggered one manual `hunt` dispatch (13:39) to get fresh data, because the scheduled cron still hasn't fired since 10:39.
 
 ## Broker emails
 
-- Gmail, last 2 h: no broker alert emails (checked 12:40).
+- Gmail, last 2 h: no broker alert emails (checked 13:45).
