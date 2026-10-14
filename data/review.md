@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-14 06:45 UTC (data commit `3710c7f`, scrape 06:37 UTC — a manual dispatch I triggered; the schedule still hasn't fired).
+**Run:** 2026-10-14 08:40 UTC (data commit `c339348`, scrape 08:36 UTC — a manual dispatch I triggered; the schedule still hasn't fired). Rankings unchanged since 06:45; savings figures move by a few dollars as the interest clock advances.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,19 +47,20 @@ Dropped out: HH HHI26452 (now #4, $1,426) and SSR SS1262 (#6+).
 
 ## Market notes
 
+- 07:37 and 08:36 scrapes: quiet. No new listings and no price changes. One listing gone: BWV BW434 (DVC Sales, 200 pts, $106), which wasn't in any top list. The market model is essentially unchanged (n=867).
 - 06:37: burst of **11 new Fidelity listings** on DVC Market (616158–616168), 2 price drops, 5 Fidelity listings gone. Only AKV 616164 and SSR 616162 reach a top list (2BR #2/#3). BLT 616160 (220 pts, 440 in 2027 incl. 220 banked, $145) ranks #22 overall; BRV 616159 (282 pts, $105, Dec UY) #191.
 - Price drops: Aulani 614498 (385 pts, Aug UY) $98→$96/pt — not a new Aulani low (DVC Shop AUL899YM at $85 is); Vero Beach 615509 $56→$49 (not Aulani-eligible for this plan's ranking).
 - Market model refit (n=873) now includes a contract-size term (−$8.9/pt per ln-point): −$3.6/pt per missing current year (was −$4.1), −$8.6/pt when next year is missing, ~$4.2/pt accepted below ask (was $4.5). Small shift; rankings unaffected.
 
 ## Scraper health
 
-- All 10 sources ok:true at 05:37 and 06:37 (dvcmarket 719, dvcresalemarket 374, dvcshop 243, dvcstore 146, dvcresaleexperts 101, vacationclublife 92, dvcsales 74, dvcbyresale 26, buyandselldvc 24, magicresales 4).
-- ⚠ **The scheduled cron has still never fired** — not even after the 05:37 change to `7,22,37,52 * * * *` (no `schedule` run at 05:52, 06:07, 06:22). Every scrape so far came from a push or manual dispatch, so ntfy alerts only go out when someone (or this review) triggers a run. **Fix needs Corey:** in GitHub → Actions → "hunt" → ⋯ → Disable workflow, then Enable workflow. If that doesn't help, check Settings → Actions → General that Actions are allowed and that the repo isn't flagged for scheduled-run suspension.
+- All 10 sources ok:true at 07:37 and 08:36 (dvcmarket 717, dvcresalemarket 374, dvcshop 243, dvcstore 146, dvcresaleexperts 101, vacationclublife 92, dvcsales 73, dvcbyresale 26, buyandselldvc 24, magicresales 4).
+- ⚠ **The scheduled cron still has never fired.** Runs 9–11 were all `workflow_dispatch` (05:37, 06:36, 07:36, 08:36), and there have been no `schedule` events. So ntfy alerts only go out when a run is triggered by hand. **Fix needs Corey:** go to GitHub → Actions → "hunt" → ⋯, click Disable workflow, then Enable workflow. If that doesn't help, check Settings → Actions → General.
 
 ## Fixes made this run
 
-- None to code. Triggered one manual `hunt` dispatch (06:37) to get fresh data.
+- None to code. Triggered one manual `hunt` dispatch (08:36) to get fresh data.
 
 ## Broker emails
 
-- Gmail, last 2 h: no broker alert emails (checked 06:45).
+- Gmail, last 2 h: no broker alert emails (checked 08:40).
