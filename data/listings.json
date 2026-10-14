@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T02:32:37+00:00",
+ "updated": "2026-10-14T02:43:41+00:00",
  "count": 1190,
  "listings": [
   {
@@ -1318,7 +1318,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 22660.0,
     "broker": "Buy And Sell DVC",
     "reduced": true,
@@ -1907,16 +1907,41 @@
    ],
    "availability_text": "All 230 points coming in 2028 or borrow for a trip after 06/27. Seller will credit buyer $2,578 towards 2027 dues.",
    "dues_terms": "seller credits buyer $2,578 toward 2027 dues",
-   "dues_per_point": null,
+   "dues_per_point": 11.21,
    "subsidized_dues": null,
    "expiration": 2042,
-   "detail_fetched": false,
+   "detail_fetched": true,
    "extra": {
     "broker": "DVC By Resale",
     "listid": "1875144569585022",
     "availability_from": "index",
     "okw_2057": false,
-    "also_on": "dvcmarket"
+    "also_on": "dvcmarket",
+    "detail_uy_table": [
+     [
+      "2025",
+      [
+       "230",
+       "0"
+      ]
+     ],
+     [
+      "2026",
+      [
+       "230",
+       "0"
+      ]
+     ],
+     [
+      "2027",
+      [
+       "230",
+       "0"
+      ]
+     ]
+    ],
+    "closing_cost": 635.0,
+    "title_company": "Closing title company: Mason Title Insurance Agency. Your 10% deposit may be sent by credit card (up to $7,500), wire, or check. Closing costs: $635.00"
    },
    "uid": "dvcbyresale:K2306FO3",
    "active": true,
@@ -1930,7 +1955,8 @@
      "availability": "available",
      "status_raw": "Available"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcbyresale",
@@ -3162,11 +3188,11 @@
     }
    ],
    "availability_text": "2026-03: 0 | 2027-03: 0",
-   "dues_terms": null,
+   "dues_terms": "$12.86/pt, $1,929.00/yr",
    "dues_per_point": 12.86,
    "subsidized_dues": null,
    "expiration": null,
-   "detail_fetched": false,
+   "detail_fetched": true,
    "extra": {
     "availability_incomplete": true,
     "broker": "Vacatia",
@@ -3191,7 +3217,10 @@
      2027,
      2028
     ],
-    "via_aggregator": true
+    "via_aggregator": true,
+    "schema_availability": "InStock",
+    "total_due_at_closing": 11701.0,
+    "contract_point_status": "Missing points"
    },
    "uid": "dvcmarket:612756",
    "active": true,
@@ -3205,7 +3234,8 @@
      "availability": "available",
      "status_raw": "active"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcmarket",
@@ -3380,11 +3410,11 @@
     }
    ],
    "availability_text": "2026-12: 129 | 2027-12: 230",
-   "dues_terms": null,
+   "dues_terms": "$11.21/pt, $2,578.30/yr; buyer reimburses 2026 dues $1,446.09",
    "dues_per_point": 11.21,
    "subsidized_dues": null,
    "expiration": null,
-   "detail_fetched": false,
+   "detail_fetched": true,
    "extra": {
     "availability_incomplete": true,
     "broker": "Fidelity Real Estate",
@@ -3410,7 +3440,14 @@
      2027,
      2028
     ],
-    "via_aggregator": true
+    "via_aggregator": true,
+    "schema_availability": "InStock",
+    "dues_reimbursement": {
+     "year": 2026,
+     "amount": 1446.09
+    },
+    "total_due_at_closing": 21386.09,
+    "contract_point_status": "Missing points"
    },
    "uid": "dvcmarket:613300",
    "active": true,
@@ -3424,7 +3461,8 @@
      "availability": "available",
      "status_raw": "active"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcmarket",
@@ -3608,11 +3646,11 @@
     }
    ],
    "availability_text": "2026-12: 106 | 2027-12: 220 | 2028-12: 220",
-   "dues_terms": null,
+   "dues_terms": "$11.21/pt, $2,466.20/yr; buyer reimburses 2026 dues $1,188.26",
    "dues_per_point": 11.21,
    "subsidized_dues": null,
    "expiration": null,
-   "detail_fetched": false,
+   "detail_fetched": true,
    "extra": {
     "broker": "Fidelity Real Estate",
     "broker_key": "fidelityrealestate",
@@ -3637,7 +3675,14 @@
      2027,
      2028
     ],
-    "via_aggregator": true
+    "via_aggregator": true,
+    "schema_availability": "InStock",
+    "dues_reimbursement": {
+     "year": 2026,
+     "amount": 1188.26
+    },
+    "total_due_at_closing": 20538.26,
+    "contract_point_status": "Missing points"
    },
    "uid": "dvcmarket:613315",
    "active": true,
@@ -3651,7 +3696,8 @@
      "availability": "available",
      "status_raw": "active"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcmarket",
@@ -6361,11 +6407,11 @@
     }
    ],
    "availability_text": "2026-06: 92 | 2027-06: 460 | 2028-06: 460",
-   "dues_terms": null,
+   "dues_terms": "$11.21/pt, $5,156.60/yr; buyer reimburses 2026 dues $1,031.32",
    "dues_per_point": 11.21,
    "subsidized_dues": null,
    "expiration": null,
-   "detail_fetched": false,
+   "detail_fetched": true,
    "extra": {
     "broker": "Fidelity Real Estate",
     "broker_key": "fidelityrealestate",
@@ -6390,7 +6436,14 @@
      2027,
      2028
     ],
-    "via_aggregator": true
+    "via_aggregator": true,
+    "schema_availability": "InStock",
+    "dues_reimbursement": {
+     "year": 2026,
+     "amount": 1031.32
+    },
+    "total_due_at_closing": 39402.32,
+    "contract_point_status": "Missing points"
    },
    "uid": "dvcmarket:614426",
    "active": true,
@@ -6404,7 +6457,8 @@
      "availability": "available",
      "status_raw": "active"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcmarket",
@@ -7065,11 +7119,11 @@
     }
    ],
    "availability_text": "2026-12: 50 | 2027-12: 50 | 2028-12: 50",
-   "dues_terms": null,
+   "dues_terms": "$14.89/pt, $744.50/yr; buyer reimburses 2026 dues $744.50",
    "dues_per_point": 14.89,
    "subsidized_dues": null,
    "expiration": null,
-   "detail_fetched": false,
+   "detail_fetched": true,
    "extra": {
     "broker": "Fidelity Real Estate",
     "broker_key": "fidelityrealestate",
@@ -7093,7 +7147,14 @@
      2027,
      2028
     ],
-    "via_aggregator": true
+    "via_aggregator": true,
+    "schema_availability": "InStock",
+    "dues_reimbursement": {
+     "year": 2026,
+     "amount": 744.5
+    },
+    "total_due_at_closing": 4899.5,
+    "contract_point_status": "Full points"
    },
    "uid": "dvcmarket:614748",
    "active": true,
@@ -7107,7 +7168,8 @@
      "availability": "available",
      "status_raw": "active"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcmarket",
@@ -7514,11 +7576,11 @@
     }
    ],
    "availability_text": "2026-04: 0 | 2027-04: 250",
-   "dues_terms": null,
+   "dues_terms": "$11.21/pt, $2,802.50/yr",
    "dues_per_point": 11.21,
    "subsidized_dues": null,
    "expiration": null,
-   "detail_fetched": false,
+   "detail_fetched": true,
    "extra": {
     "availability_incomplete": true,
     "broker": "Vacatia",
@@ -7544,7 +7606,10 @@
      2027,
      2028
     ],
-    "via_aggregator": true
+    "via_aggregator": true,
+    "schema_availability": "InStock",
+    "total_due_at_closing": 22333.0,
+    "contract_point_status": "Missing points"
    },
    "uid": "dvcmarket:614980",
    "active": true,
@@ -7558,7 +7623,8 @@
      "availability": "available",
      "status_raw": "active"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcmarket",
@@ -11411,11 +11477,11 @@
     }
    ],
    "availability_text": "2026-03: 120 | 2027-03: 90 | 2028-03: 90",
-   "dues_terms": null,
+   "dues_terms": "$11.21/pt, $1,008.90/yr; buyer reimburses 2026 dues $1,345.20",
    "dues_per_point": 11.21,
    "subsidized_dues": null,
    "expiration": null,
-   "detail_fetched": false,
+   "detail_fetched": true,
    "extra": {
     "broker": "DVC Resale Experts",
     "broker_key": "dvcresaleexperts",
@@ -11441,7 +11507,14 @@
      2028
     ],
     "via_aggregator": true,
-    "aggregator_only": true
+    "aggregator_only": true,
+    "schema_availability": "InStock",
+    "dues_reimbursement": {
+     "year": 2026,
+     "amount": 1345.2
+    },
+    "total_due_at_closing": 10088.2,
+    "contract_point_status": "Some extra"
    },
    "uid": "dvcmarket:616043",
    "active": true,
@@ -11455,7 +11528,8 @@
      "availability": "available",
      "status_raw": "active"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcmarket",
@@ -12017,11 +12091,11 @@
     }
    ],
    "availability_text": "2026-02: 0 | 2027-02: 58 | 2028-02: 50",
-   "dues_terms": null,
+   "dues_terms": "$14.89/pt, $744.50/yr",
    "dues_per_point": 14.89,
    "subsidized_dues": null,
    "expiration": null,
-   "detail_fetched": false,
+   "detail_fetched": true,
    "extra": {
     "broker": "Fidelity Real Estate",
     "broker_key": "fidelityrealestate",
@@ -12045,7 +12119,10 @@
      2027,
      2028
     ],
-    "via_aggregator": true
+    "via_aggregator": true,
+    "schema_availability": "InStock",
+    "total_due_at_closing": 4210.0,
+    "contract_point_status": "Missing points"
    },
    "uid": "dvcmarket:616075",
    "active": true,
@@ -12059,7 +12136,8 @@
      "availability": "available",
      "status_raw": "active"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcmarket",
@@ -12251,11 +12329,11 @@
     }
    ],
    "availability_text": "2026-06: 0 | 2027-06: 600 | 2028-06: 300",
-   "dues_terms": null,
+   "dues_terms": "$12.86/pt, $3,858.00/yr",
    "dues_per_point": 12.86,
    "subsidized_dues": null,
    "expiration": null,
-   "detail_fetched": false,
+   "detail_fetched": true,
    "extra": {
     "broker": "Fidelity Real Estate",
     "broker_key": "fidelityrealestate",
@@ -12279,7 +12357,10 @@
      2027,
      2028
     ],
-    "via_aggregator": true
+    "via_aggregator": true,
+    "schema_availability": "InStock",
+    "total_due_at_closing": 22333.0,
+    "contract_point_status": "Full points"
    },
    "uid": "dvcmarket:616109",
    "active": true,
@@ -12293,7 +12374,8 @@
      "availability": "available",
      "status_raw": "active"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcmarket",
@@ -13163,11 +13245,11 @@
     }
    ],
    "availability_text": "2026-06: 420 | 2027-06: 210 | 2028-06: 210",
-   "dues_terms": null,
+   "dues_terms": "$11.21/pt, $2,354.10/yr; buyer reimburses 2026 dues $4,708.20",
    "dues_per_point": 11.21,
    "subsidized_dues": null,
    "expiration": null,
-   "detail_fetched": false,
+   "detail_fetched": true,
    "extra": {
     "broker": "Fidelity Real Estate",
     "broker_key": "fidelityrealestate",
@@ -13192,7 +13274,14 @@
      2027,
      2028
     ],
-    "via_aggregator": true
+    "via_aggregator": true,
+    "schema_availability": "InStock",
+    "dues_reimbursement": {
+     "year": 2026,
+     "amount": 4708.2
+    },
+    "total_due_at_closing": 21739.2,
+    "contract_point_status": "Some extra"
    },
    "uid": "dvcmarket:616140",
    "active": true,
@@ -13206,7 +13295,8 @@
      "availability": "available",
      "status_raw": "active"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcresaleexperts",
@@ -13637,7 +13727,7 @@
    "expiration": 2062,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 6550.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 548.0,
@@ -14183,7 +14273,7 @@
    "expiration": 2062,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 6550.0,
     "duplicates": [
      "dvcmarket:613907"
@@ -14305,7 +14395,7 @@
    "expiration": 2062,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 5400.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 438.4,
@@ -14608,7 +14698,7 @@
    "expiration": 2062,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 6750.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 548.0,
@@ -15026,7 +15116,7 @@
    "expiration": 2062,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 42350.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 2884.0,
@@ -15086,7 +15176,7 @@
    "expiration": 2062,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 25740.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 1592.8,
@@ -15858,15 +15948,19 @@
     }
    ],
    "availability_text": "2026: 144 | 2027: 280 | 2028: 280",
-   "dues_terms": null,
-   "dues_per_point": null,
+   "dues_terms": "Not stated; negotiable in offer (Buyer Pays / Seller Pays / Pro-rate on available points)",
+   "dues_per_point": 12.86,
    "subsidized_dues": null,
    "expiration": 2042,
-   "detail_fetched": false,
+   "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "savings_vs_direct": 27160.0,
-    "also_on": "dvcmarket"
+    "also_on": "dvcmarket",
+    "annual_dues_total": 3600.8,
+    "closing_cost": 747.0,
+    "caf": 500.0,
+    "comments": "Enjoy years of Disney vacation magic and memories as Members when you buy this DVC Resale Hilton Head contract!\n\nThis sale can close on or after December 7, 2026."
    },
    "uid": "dvcresaleexperts:HHI15190",
    "active": true,
@@ -15880,7 +15974,8 @@
      "availability": "available",
      "status_raw": "New"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcresaleexperts",
@@ -15913,15 +16008,19 @@
     }
    ],
    "availability_text": "2026: 291 | 2027: 150 | 2028: 150",
-   "dues_terms": null,
-   "dues_per_point": null,
+   "dues_terms": "Not stated; negotiable in offer (Buyer Pays / Seller Pays / Pro-rate on available points)",
+   "dues_per_point": 12.86,
    "subsidized_dues": null,
    "expiration": 2042,
-   "detail_fetched": false,
+   "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "savings_vs_direct": 13950.0,
-    "also_on": "dvcmarket"
+    "also_on": "dvcmarket",
+    "annual_dues_total": 1929.0,
+    "closing_cost": 739.0,
+    "caf": 500.0,
+    "comments": "Enjoy even more Disney vacation magic when you purchase this DVC Resale Hilton Head contract with nearly double points your first year as Members!\n\n150 points were banked from June 2025 to 2026, and need to be used by May 31, 2027.\n\n141 points are allotted in June 2026, and can be used or banked forward to June 2027."
    },
    "uid": "dvcresaleexperts:HHI26452",
    "active": true,
@@ -15935,7 +16034,8 @@
      "availability": "available",
      "status_raw": "Nearly Double Points"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcresaleexperts",
@@ -15968,15 +16068,19 @@
     }
    ],
    "availability_text": "2026: 250 | 2027: 250 | 2028: 250",
-   "dues_terms": null,
-   "dues_per_point": null,
+   "dues_terms": "Not stated; negotiable in offer (Buyer Pays / Seller Pays / Pro-rate on available points)",
+   "dues_per_point": 12.86,
    "subsidized_dues": null,
    "expiration": 2042,
-   "detail_fetched": false,
+   "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "savings_vs_direct": 24000.0,
-    "also_on": "dvcmarket"
+    "also_on": "dvcmarket",
+    "annual_dues_total": 3215.0,
+    "closing_cost": 762.0,
+    "caf": 500.0,
+    "comments": "Enjoy years of magical Disney vacations with the whole family when you purchase this DVC Resale Hilton Head contract!\n\nThis sale can close on or after December 14, 2026."
    },
    "uid": "dvcresaleexperts:HHI44341",
    "active": true,
@@ -15990,7 +16094,8 @@
      "availability": "available",
      "status_raw": "New"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcresaleexperts",
@@ -16023,15 +16128,19 @@
     }
    ],
    "availability_text": "2026: 0 | 2027: 55 | 2028: 50",
-   "dues_terms": null,
-   "dues_per_point": null,
+   "dues_terms": "Not stated; negotiable in offer (Buyer Pays / Seller Pays / Pro-rate on available points)",
+   "dues_per_point": 12.86,
    "subsidized_dues": null,
    "expiration": 2042,
-   "detail_fetched": false,
+   "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "savings_vs_direct": 4050.0,
-    "also_on": "dvcmarket"
+    "also_on": "dvcmarket",
+    "annual_dues_total": 643.0,
+    "closing_cost": 717.0,
+    "caf": 500.0,
+    "comments": "Share the perfect amount of Disney vacation magic as Members when you purchase this small DVC Resale Hilton Head contract!\n\n5 points were banked from April 2026 to 2027, and need to be used by March 31, 2028."
    },
    "uid": "dvcresaleexperts:HHI87930",
    "active": true,
@@ -16045,7 +16154,8 @@
      "availability": "available",
      "status_raw": "Small Contract"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcresaleexperts",
@@ -16078,15 +16188,19 @@
     }
    ],
    "availability_text": "2026: 16 | 2027: 2 | 2028: 370",
-   "dues_terms": null,
-   "dues_per_point": null,
+   "dues_terms": "Not stated; negotiable in offer (Buyer Pays / Seller Pays / Pro-rate on available points)",
+   "dues_per_point": 11.21,
    "subsidized_dues": null,
    "expiration": 2042,
-   "detail_fetched": false,
+   "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "savings_vs_direct": 48470.0,
-    "also_on": "dvcmarket"
+    "also_on": "dvcmarket",
+    "annual_dues_total": 4147.7,
+    "closing_cost": 866.0,
+    "caf": 500.0,
+    "comments": "Experience years of magical Disney vacations for the whole family when you purchase this DVC Resale Old Key West contract!\n\nThe seller will provide a credit toward the 2027 Annual Dues for the points that were used from that allotment.\n\nFull allotments of 230 points per Use Year are available starting in April 2028.\n\n16 points are in Holding for April 2026, and need to be used by March 31, 2027."
    },
    "uid": "dvcresaleexperts:OKW18680",
    "active": true,
@@ -16100,7 +16214,8 @@
      "availability": "available",
      "status_raw": "Reduced"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcresaleexperts",
@@ -16133,15 +16248,19 @@
     }
    ],
    "availability_text": "2026: 0 | 2027: 20 | 2028: 230",
-   "dues_terms": null,
-   "dues_per_point": null,
+   "dues_terms": "Not stated; negotiable in offer (Buyer Pays / Seller Pays / Pro-rate on available points)",
+   "dues_per_point": 11.21,
    "subsidized_dues": null,
    "expiration": 2042,
-   "detail_fetched": false,
+   "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "savings_vs_direct": 29440.0,
-    "also_on": "dvcmarket"
+    "also_on": "dvcmarket",
+    "annual_dues_total": 2578.3,
+    "closing_cost": 729.0,
+    "caf": 500.0,
+    "comments": "Share years of magical Disney vacations as Members when you purchase this DVC Resale Old Key West contract!\n\nThe seller will provide a credit toward the 2027 Annual Dues for the points that were used from that allotment.\n\nFull allotments of 230 points per Use Year are available starting in April 2028."
    },
    "uid": "dvcresaleexperts:OKW18681",
    "active": true,
@@ -16155,7 +16274,8 @@
      "availability": "available",
      "status_raw": "New"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcresaleexperts",
@@ -16188,15 +16308,19 @@
     }
    ],
    "availability_text": "2026: 0 | 2027: 0 | 2028: 100",
-   "dues_terms": null,
-   "dues_per_point": null,
+   "dues_terms": "Not stated; negotiable in offer (Buyer Pays / Seller Pays / Pro-rate on available points)",
+   "dues_per_point": 11.21,
    "subsidized_dues": null,
    "expiration": 2042,
-   "detail_fetched": false,
+   "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "savings_vs_direct": 12500.0,
-    "also_on": "dvcmarket"
+    "also_on": "dvcmarket",
+    "annual_dues_total": 1121.0,
+    "closing_cost": 618.0,
+    "caf": 500.0,
+    "comments": "Enjoy years of magical Disney vacations as Members when you purchase this DVC Resale Old Key West contract!\n\nThe seller will provide a credit toward the 2027 Annual Dues for the points that were used from that allotment.\n\nFull allotments of 100 points per Use Year are available starting in April 2028."
    },
    "uid": "dvcresaleexperts:OKW18685",
    "active": true,
@@ -16210,7 +16334,8 @@
      "availability": "available",
      "status_raw": "New"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcresaleexperts",
@@ -16298,14 +16423,18 @@
     }
    ],
    "availability_text": "2026: 0 | 2027: 11 | 2028: 270",
-   "dues_terms": null,
-   "dues_per_point": null,
+   "dues_terms": "Not stated; negotiable in offer (Buyer Pays / Seller Pays / Pro-rate on available points)",
+   "dues_per_point": 11.21,
    "subsidized_dues": null,
    "expiration": 2042,
-   "detail_fetched": false,
+   "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
-    "savings_vs_direct": 35100.0
+    "availability_from": "detail",
+    "savings_vs_direct": 35100.0,
+    "annual_dues_total": 3026.7,
+    "closing_cost": 762.0,
+    "caf": 500.0,
+    "comments": "Share years of magical Disney vacations with the whole family when you buy this DVC Resale Old Key West contract!\n\nThe seller will provide a credit toward the 2027 Annual Dues for the points that were used from that allotment."
    },
    "uid": "dvcresaleexperts:OKW20900",
    "active": true,
@@ -16319,7 +16448,8 @@
      "availability": "available",
      "status_raw": "New"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcresaleexperts",
@@ -16352,15 +16482,19 @@
     }
    ],
    "availability_text": "2026: 100 | 2027: 22 | 2028: 150",
-   "dues_terms": null,
-   "dues_per_point": null,
+   "dues_terms": "Not stated; negotiable in offer (Buyer Pays / Seller Pays / Pro-rate on available points)",
+   "dues_per_point": 11.21,
    "subsidized_dues": null,
    "expiration": 2042,
-   "detail_fetched": false,
+   "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "savings_vs_direct": 18150.0,
-    "also_on": "dvcmarket"
+    "also_on": "dvcmarket",
+    "annual_dues_total": 1681.5,
+    "closing_cost": 896.0,
+    "caf": 500.0,
+    "comments": "Experience years of magical Disney vacations as Members when you buy this DVC Resale Old Key West contract!\n\n100 points were banked from February 2026 to 2027, and need to be used by January 31, 2028.\n\n22 points are allotted in February 2027, and can be used or banked forward to February 2028.\n\nThe seller will provide a credit toward the 2027 Annual Dues for the points that were used from that allotment."
    },
    "uid": "dvcresaleexperts:OKW21680",
    "active": true,
@@ -16374,7 +16508,8 @@
      "availability": "available",
      "status_raw": "New"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcresaleexperts",
@@ -16462,15 +16597,19 @@
     }
    ],
    "availability_text": "2026: 0 | 2027: 0 | 2028: 230",
-   "dues_terms": null,
-   "dues_per_point": null,
+   "dues_terms": "Not stated; negotiable in offer (Buyer Pays / Seller Pays / Pro-rate on available points)",
+   "dues_per_point": 11.21,
    "subsidized_dues": null,
    "expiration": 2042,
-   "detail_fetched": false,
+   "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "savings_vs_direct": 28290.0,
-    "also_on": "dvcmarket"
+    "also_on": "dvcmarket",
+    "annual_dues_total": 2578.3,
+    "closing_cost": 744.0,
+    "caf": 500.0,
+    "comments": "Share years of magical Disney vacations as Members when you buy this DVC Resale Old Key West contract!\n\nThe seller will provide a credit toward the 2027 Annual Dues for the points that were used from that allotment."
    },
    "uid": "dvcresaleexperts:OKW58000",
    "active": true,
@@ -16484,7 +16623,8 @@
      "availability": "available",
      "status_raw": "New"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcresaleexperts",
@@ -16682,15 +16822,19 @@
     }
    ],
    "availability_text": "2026: 226 | 2027: 210 | 2028: 210",
-   "dues_terms": null,
-   "dues_per_point": null,
+   "dues_terms": "Not stated; negotiable in offer (Buyer Pays / Seller Pays / Pro-rate on available points)",
+   "dues_per_point": 11.21,
    "subsidized_dues": null,
    "expiration": 2042,
-   "detail_fetched": false,
+   "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "savings_vs_direct": 26250.0,
-    "also_on": "dvcmarket"
+    "also_on": "dvcmarket",
+    "annual_dues_total": 2354.1,
+    "closing_cost": 717.0,
+    "caf": 500.0,
+    "comments": "Experience years of magical Disney vacations as Members when you purchase this DVC Resale Old Key West contract!\n\n70 points are in Holding for June 2026, and need to be used by May 31, 2027.\n\n156 points are allotted in June 2026, and can be used or banked forward to June 2027."
    },
    "uid": "dvcresaleexperts:OKW88090",
    "active": true,
@@ -16704,7 +16848,8 @@
      "availability": "available",
      "status_raw": "New"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcresaleexperts",
@@ -17842,15 +17987,19 @@
     }
    ],
    "availability_text": "2026: 0 | 2027: 300 | 2028: 300",
-   "dues_terms": null,
-   "dues_per_point": null,
+   "dues_terms": "Not stated; negotiable in offer (Buyer Pays / Seller Pays / Pro-rate on available points)",
+   "dues_per_point": 14.89,
    "subsidized_dues": null,
    "expiration": 2042,
-   "detail_fetched": false,
+   "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "savings_vs_direct": 27000.0,
-    "also_on": "dvcmarket"
+    "also_on": "dvcmarket",
+    "annual_dues_total": 4467.0,
+    "closing_cost": 732.0,
+    "caf": 500.0,
+    "comments": "Experience magical Disney vacations along Florida's Atlantic Coast with the entire family when you buy this DVC Resale Vero Beach contract!"
    },
    "uid": "dvcresaleexperts:VBR01540",
    "active": true,
@@ -17864,7 +18013,8 @@
      "availability": "available",
      "status_raw": "New"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcresaleexperts",
@@ -17897,15 +18047,19 @@
     }
    ],
    "availability_text": "2026: 25 | 2027: 25 | 2028: 25",
-   "dues_terms": null,
-   "dues_per_point": null,
+   "dues_terms": "Not stated; negotiable in offer (Buyer Pays / Seller Pays / Pro-rate on available points)",
+   "dues_per_point": 14.89,
    "subsidized_dues": null,
    "expiration": 2042,
-   "detail_fetched": false,
+   "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "savings_vs_direct": 2025.0,
-    "also_on": "dvcmarket"
+    "also_on": "dvcmarket",
+    "annual_dues_total": 372.25,
+    "closing_cost": 597.0,
+    "caf": 500.0,
+    "comments": "Enjoy the perfect amount of magical Disney vacations as Members when you buy this small DVC Resale Vero Beach contract!"
    },
    "uid": "dvcresaleexperts:VBR04061",
    "active": true,
@@ -17919,7 +18073,8 @@
      "availability": "available",
      "status_raw": "Small Contract"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcresaleexperts",
@@ -17958,7 +18113,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 15000.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 2233.5,
@@ -18012,15 +18167,19 @@
     }
    ],
    "availability_text": "2026: 0 | 2027: 440 | 2028: 220",
-   "dues_terms": null,
-   "dues_per_point": null,
+   "dues_terms": "Not stated; negotiable in offer (Buyer Pays / Seller Pays / Pro-rate on available points)",
+   "dues_per_point": 14.89,
    "subsidized_dues": null,
    "expiration": 2042,
-   "detail_fetched": false,
+   "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "savings_vs_direct": 19580.0,
-    "also_on": "dvcmarket"
+    "also_on": "dvcmarket",
+    "annual_dues_total": 3275.8,
+    "closing_cost": 674.0,
+    "caf": 500.0,
+    "comments": "Experience even more Disney vacation magic when you buy this DVC Resale Vero Beach contract with double points your first year as Members!\n\n220 points were banked from February 2026 to 2027, and need to be used by January 31, 2028."
    },
    "uid": "dvcresaleexperts:VBR28910",
    "active": true,
@@ -18034,7 +18193,8 @@
      "availability": "available",
      "status_raw": "Double Points"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcresaleexperts",
@@ -18073,7 +18233,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 23100.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 3275.8,
@@ -18133,7 +18293,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 13950.0,
     "annual_dues_total": 2233.5,
     "closing_cost": 623.0,
@@ -18192,7 +18352,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 4700.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 744.5,
@@ -18252,7 +18412,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 15000.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 2233.5,
@@ -18312,7 +18472,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 24250.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 3722.5,
@@ -21089,7 +21249,7 @@
    "expiration": 2062,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 1080.0
    },
@@ -21145,7 +21305,7 @@
    "expiration": 2062,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 1080.0
    },
@@ -21201,7 +21361,7 @@
    "expiration": 2062,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 1080.0
    },
@@ -21257,7 +21417,7 @@
    "expiration": 2062,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 1080.0
    },
@@ -21640,7 +21800,7 @@
    "expiration": 2062,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 1080.0
    },
@@ -21864,7 +22024,7 @@
    "expiration": 2062,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "can_close_after": "11/2/2026",
     "closing_cost": 1080.0
@@ -28753,7 +28913,7 @@
    "use_year": 2,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": null,
+   "date_listed": "2026-09-18",
    "points_available": [
     {
      "uy": "2026-02",
@@ -28771,17 +28931,18 @@
      "banked": 0
     }
    ],
-   "availability_text": null,
-   "dues_terms": null,
-   "dues_per_point": null,
+   "availability_text": "February 2026 - 0 points\nFebruary 2027 - 100 points\nFebruary 2028 - 100 points\nThere are 100 points coming Feb. 2027 + 100 points coming Feb. 2028 + 100 points coming Feb. 2029",
+   "dues_terms": "Seller Pays 2026 Annual Dues, Buyer pays 2027 Dues (For closings after Nov. 20th Disney will require the 2027 Dues be paid at closing). Dues based on the current 2026 values are $1,287 however Disney has not released 2027 Dues figures yet so actual 2027 Dues may be different.",
+   "dues_per_point": 12.86,
    "subsidized_dues": null,
-   "expiration": null,
-   "detail_fetched": false,
+   "expiration": 2042,
+   "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "duplicates": [
      "dvcresalemarket:HHC1815"
-    ]
+    ],
+    "closing_cost": 721.0
    },
    "uid": "dvcresalemarket:HH21817",
    "active": true,
@@ -28795,7 +28956,8 @@
      "availability": "available",
      "status_raw": "New"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -28809,33 +28971,35 @@
    "use_year": 12,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": null,
+   "date_listed": "2026-09-30",
    "points_available": [
     {
-     "uy": "2025-12",
-     "points": 91,
-     "banked": 0
-    },
-    {
      "uy": "2026-12",
-     "points": 250,
+     "points": 91,
      "banked": 0
     },
     {
      "uy": "2027-12",
      "points": 250,
      "banked": 0
+    },
+    {
+     "uy": "2028-12",
+     "points": 250,
+     "banked": 0
     }
    ],
-   "availability_text": null,
-   "dues_terms": null,
-   "dues_per_point": null,
+   "availability_text": "December 2026 - 91 points\nDecember 2027 - 250 points\nDecember 2028 - 250 points\nThere are 91 points coming Dec. 2026 + 250 points coming Dec. 2027 + 250 points coming Dec. 2028 + 250 points coming Dec. 2029",
+   "dues_terms": "Seller Pays 2026 Annual Dues, Buyer pays 2027 Dues (For closings after Nov. 20th Disney will require the 2027 Dues be paid at closing). Dues based on the current 2026 values are $3,216 however Disney has not released 2027 Dues figures yet so actual 2027 Dues may be different.",
+   "dues_per_point": 12.86,
    "subsidized_dues": null,
-   "expiration": null,
-   "detail_fetched": false,
+   "expiration": 2042,
+   "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
-    "also_on": "dvcmarket"
+    "availability_from": "detail",
+    "also_on": "dvcmarket",
+    "can_close_after": "2/5/2027",
+    "closing_cost": 762.0
    },
    "uid": "dvcresalemarket:HH81820",
    "active": true,
@@ -28849,7 +29013,8 @@
      "availability": "available",
      "status_raw": "New"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -28863,7 +29028,7 @@
    "use_year": 4,
    "status_raw": "Reduced",
    "availability": "available",
-   "date_listed": null,
+   "date_listed": "2026-10-08",
    "points_available": [
     {
      "uy": "2026-04",
@@ -28881,15 +29046,16 @@
      "banked": 0
     }
    ],
-   "availability_text": null,
-   "dues_terms": null,
-   "dues_per_point": null,
+   "availability_text": "April 2026 - 0 points\nApril 2027 - 72 points\nApril 2028 - 200 points\nThere are 72 points coming April 2027 + 200 points coming April 2028 + 200 points coming April 2029",
+   "dues_terms": "Seller Pays 2026 Annual Dues + Seller pays 2027 Dues on 128 points, Buyer pays prorated 2027 Dues on 72 points (For closings after Nov. 20th Disney will require the 2027 Dues be paid at closing). Prorated Dues on 72 points based on the current 2026 values are $927 however Disney has not released 2027 Dues figures yet so actual 2027 Dues may be different.",
+   "dues_per_point": 12.86,
    "subsidized_dues": null,
-   "expiration": null,
-   "detail_fetched": false,
+   "expiration": 2042,
+   "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
-    "also_on": "dvcmarket"
+    "availability_from": "detail",
+    "also_on": "dvcmarket",
+    "closing_cost": 743.0
    },
    "uid": "dvcresalemarket:HH91823",
    "active": true,
@@ -28903,7 +29069,8 @@
      "availability": "available",
      "status_raw": "Reduced"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -28970,7 +29137,7 @@
    "use_year": 3,
    "status_raw": "Small Contract",
    "availability": "available",
-   "date_listed": null,
+   "date_listed": "2026-10-02",
    "points_available": [
     {
      "uy": "2026-03",
@@ -28980,7 +29147,7 @@
     {
      "uy": "2027-03",
      "points": 106,
-     "banked": 0
+     "banked": 106
     },
     {
      "uy": "2028-03",
@@ -28988,15 +29155,16 @@
      "banked": 0
     }
    ],
-   "availability_text": null,
-   "dues_terms": null,
-   "dues_per_point": null,
+   "availability_text": "March 2026 - 0 points\nMarch 2027 - 106 points\nMarch 2028 - 45 points\nThere are 106 points as of March 2027 (61 points banked from March 2026 & 15 points from March 2027 & 30 points borrowed into March 2027 from the March 2028 Use Year) + 45 points coming March 2028 + 75 points coming March 2029",
+   "dues_terms": "Seller Pays 2026 Annual Dues + Seller pays 2027 Dues on 60 points, Buyer pays prorated 2027 Dues on 15 points (For closings after Nov. 20th Disney will require the 2027 Dues be paid at closing) + Seller provides a credit of $386 towards the 2028 Annual Dues at closing. Prorated Dues on 15 points based on the current 2026 values are $193 however Disney has not released 2027 Dues figures yet so actual 2027 Dues may be different.",
+   "dues_per_point": 12.86,
    "subsidized_dues": null,
-   "expiration": null,
-   "detail_fetched": false,
+   "expiration": 2042,
+   "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
-    "also_on": "dvcmarket"
+    "availability_from": "detail",
+    "also_on": "dvcmarket",
+    "closing_cost": 714.0
    },
    "uid": "dvcresalemarket:HHE1822",
    "active": true,
@@ -29010,7 +29178,8 @@
      "availability": "available",
      "status_raw": "Small Contract"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -29292,7 +29461,7 @@
    "use_year": 3,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": null,
+   "date_listed": "2026-08-31",
    "points_available": [
     {
      "uy": "2026-03",
@@ -29310,15 +29479,16 @@
      "banked": 0
     }
    ],
-   "availability_text": null,
-   "dues_terms": null,
-   "dues_per_point": null,
+   "availability_text": "March 2026 - 0 points\nMarch 2027 - 0 points\nMarch 2028 - 150 points\nThere are 150 points coming March 2028 (which can be borrowed to use for stays beginning as early as March 1, 2027) + 150 points coming March 2029",
+   "dues_terms": "Seller Pays 2026 Annual Dues + If closing occurs prior to Nov. 20th the Seller will Provide the Buyer a Credit of $1,681 towards the 2027 Annual Dues. If closing occurs after Nov. 20th the Seller will pay the 2027 Dues to Disney at closing instead.",
+   "dues_per_point": 11.21,
    "subsidized_dues": null,
-   "expiration": null,
-   "detail_fetched": false,
+   "expiration": 2042,
+   "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
-    "also_on": "dvcmarket"
+    "availability_from": "detail",
+    "also_on": "dvcmarket",
+    "closing_cost": 809.0
    },
    "uid": "dvcresalemarket:OK25018",
    "active": true,
@@ -29332,7 +29502,8 @@
      "availability": "available",
      "status_raw": "New"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -30804,7 +30975,7 @@
    "use_year": 4,
    "status_raw": "Certified Hot Price",
    "availability": "available",
-   "date_listed": null,
+   "date_listed": "2026-08-24",
    "points_available": [
     {
      "uy": "2026-04",
@@ -30822,15 +30993,17 @@
      "banked": 0
     }
    ],
-   "availability_text": null,
-   "dues_terms": null,
-   "dues_per_point": null,
+   "availability_text": "April 2026 - 0 points\nApril 2027 - 126 points\nApril 2028 - 220 points\nThere are 126 points coming April 2027 + 220 points coming April 2028 + 220 points coming April 2029",
+   "dues_terms": "Seller Pays 2026 Annual Dues + Seller pays 2027 Dues on 94 points, Buyer pays prorated 2027 Dues on 126 points (For closings after Nov. 20th Disney will require the 2027 Dues be paid at closing). Prorated Dues on 126 points based on the current 2026 values are $1,412 however Disney has not released 2027 Dues figures yet so actual 2027 Dues may be different.",
+   "dues_per_point": 11.21,
    "subsidized_dues": null,
-   "expiration": null,
-   "detail_fetched": false,
+   "expiration": 2042,
+   "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
-    "also_on": "dvcmarket"
+    "availability_from": "detail",
+    "also_on": "dvcmarket",
+    "can_close_after": "11/1/2026",
+    "closing_cost": 889.0
    },
    "uid": "dvcresalemarket:OKB5004",
    "active": true,
@@ -30844,7 +31017,8 @@
      "availability": "available",
      "status_raw": "Certified Hot Price"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -30911,7 +31085,7 @@
    "use_year": 3,
    "status_raw": "Certified Hot Price",
    "availability": "available",
-   "date_listed": null,
+   "date_listed": "2026-10-09",
    "points_available": [
     {
      "uy": "2026-03",
@@ -30929,18 +31103,19 @@
      "banked": 0
     }
    ],
-   "availability_text": null,
-   "dues_terms": null,
-   "dues_per_point": null,
+   "availability_text": "March 2026 - 0 points\nMarch 2027 - 0 points\nMarch 2028 - 100 points\nThere are 100 points coming March 2028 (which can be borrowed to use for stays beginning as early as March 1, 2027) + 100 points coming March 2029",
+   "dues_terms": "Seller Pays 2027 Annual Dues at closing; Buyer Pays NO Annual Dues until 2028.",
+   "dues_per_point": 11.21,
    "subsidized_dues": null,
-   "expiration": null,
-   "detail_fetched": false,
+   "expiration": 2042,
+   "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "duplicates": [
      "dvcresalemarket:OKC5080"
-    ]
+    ],
+    "closing_cost": 719.0
    },
    "uid": "dvcresalemarket:OKC5079",
    "active": true,
@@ -30954,7 +31129,8 @@
      "availability": "available",
      "status_raw": "Certified Hot Price"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -37359,7 +37535,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "can_close_after": "10/30/2026",
     "closing_cost": 769.0
@@ -37469,7 +37645,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 879.0
    },
@@ -37500,7 +37676,7 @@
    "use_year": 10,
    "status_raw": "Reduced",
    "availability": "available",
-   "date_listed": null,
+   "date_listed": "2026-09-12",
    "points_available": [
     {
      "uy": "2026-10",
@@ -37518,15 +37694,17 @@
      "banked": 0
     }
    ],
-   "availability_text": null,
-   "dues_terms": null,
-   "dues_per_point": null,
+   "availability_text": "October 2026 - 0 points\nOctober 2027 - 100 points\nOctober 2028 - 100 points\nThere are 100 points coming Oct. 2027 + 100 points coming Oct. 2028 + 100 points coming Oct. 2029",
+   "dues_terms": "Seller Pays 2026 Annual Dues, Buyer pays 2027 Dues (For closings after Nov. 20th Disney will require the 2027 Dues be paid at closing). Dues based on the current 2026 values are $1,490 however Disney has not released 2027 Dues figures yet so actual 2027 Dues may be different.",
+   "dues_per_point": 14.89,
    "subsidized_dues": null,
-   "expiration": null,
-   "detail_fetched": false,
+   "expiration": 2042,
+   "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
-    "also_on": "dvcmarket"
+    "availability_from": "detail",
+    "also_on": "dvcmarket",
+    "can_close_after": "11/28/2026",
+    "closing_cost": 659.0
    },
    "uid": "dvcresalemarket:VB32590",
    "active": true,
@@ -37540,7 +37718,8 @@
      "availability": "available",
      "status_raw": "Reduced"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -37554,7 +37733,7 @@
    "use_year": 4,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": null,
+   "date_listed": "2026-09-16",
    "points_available": [
     {
      "uy": "2026-04",
@@ -37564,7 +37743,7 @@
     {
      "uy": "2027-04",
      "points": 125,
-     "banked": 0
+     "banked": 125
     },
     {
      "uy": "2028-04",
@@ -37572,15 +37751,16 @@
      "banked": 0
     }
    ],
-   "availability_text": null,
-   "dues_terms": null,
-   "dues_per_point": null,
+   "availability_text": "April 2026 - 0 points\nApril 2027 - 125 points\nApril 2028 - 200 points\nThere are 125 points as of April 2027 (18 points banked from April 2026 & 107 points from April 2027) + 200 points coming April 2028 + 200 points coming April 2029 (There are an additional 236 points (143 points banked from April 2025 & 93 points borrowed into April 2026 from the April 2027 Use Year) which will expire March 31, 2027 shortly after closing & transfer)",
+   "dues_terms": "Seller Pays 2026 Annual Dues + Seller pays 2027 Dues on 93 points, Buyer pays prorated 2027 Dues on 107 points (For closings after Nov. 20th Disney will require the 2027 Dues be paid at closing). Prorated Dues on 107 points based on the current 2026 values are $1,594 however Disney has not released 2027 Dues figures yet so actual 2027 Dues may be different.",
+   "dues_per_point": 14.89,
    "subsidized_dues": null,
-   "expiration": null,
-   "detail_fetched": false,
+   "expiration": 2042,
+   "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
-    "also_on": "dvcmarket"
+    "availability_from": "detail",
+    "also_on": "dvcmarket",
+    "closing_cost": 789.0
    },
    "uid": "dvcresalemarket:VB32625",
    "active": true,
@@ -37594,7 +37774,8 @@
      "availability": "available",
      "status_raw": "New"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -37608,7 +37789,7 @@
    "use_year": 6,
    "status_raw": "BONUS! FULL POINTS FOR 2026 WITH NO DUES!",
    "availability": "available",
-   "date_listed": null,
+   "date_listed": "2026-08-10",
    "points_available": [
     {
      "uy": "2026-06",
@@ -37626,15 +37807,16 @@
      "banked": 0
     }
    ],
-   "availability_text": null,
-   "dues_terms": null,
-   "dues_per_point": null,
+   "availability_text": "June 2026 - 225 points\nJune 2027 - 225 points\nJune 2028 - 225 points\nThere are 225 points from June 2026 + 225 points coming June 2027 + 225 points coming June 2028 + 225 points coming June 2029",
+   "dues_terms": "Seller Pays 2026 Annual Dues, Buyer pays 2027 Dues (For closings after Nov. 20th Disney will require the 2027 Dues be paid at closing). Dues based on the current 2026 values are $3,352 however Disney has not released 2027 Dues figures yet so actual 2027 Dues may be different.",
+   "dues_per_point": 14.89,
    "subsidized_dues": null,
-   "expiration": null,
-   "detail_fetched": false,
+   "expiration": 2042,
+   "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
-    "also_on": "dvcmarket"
+    "availability_from": "detail",
+    "also_on": "dvcmarket",
+    "closing_cost": 839.0
    },
    "uid": "dvcresalemarket:VB62600",
    "active": true,
@@ -37648,7 +37830,8 @@
      "availability": "available",
      "status_raw": "BONUS! FULL POINTS FOR 2026 WITH NO DUES!"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -37662,7 +37845,7 @@
    "use_year": 6,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": null,
+   "date_listed": "2026-07-25",
    "points_available": [
     {
      "uy": "2026-06",
@@ -37680,15 +37863,16 @@
      "banked": 0
     }
    ],
-   "availability_text": null,
-   "dues_terms": null,
-   "dues_per_point": null,
+   "availability_text": "June 2026 - 0 points\nJune 2027 - 230 points\nJune 2028 - 230 points\nThere are 230 points coming June 2027 + 230 points coming June 2028 + 230 points coming June 2029",
+   "dues_terms": "Seller Pays 2026 Annual Dues, Buyer pays 2027 Dues (For closings after Nov. 20th Disney will require the 2027 Dues be paid at closing). Dues based on the current 2026 values are $3,426 however Disney has not released 2027 Dues figures yet so actual 2027 Dues may be different.",
+   "dues_per_point": 14.89,
    "subsidized_dues": null,
-   "expiration": null,
-   "detail_fetched": false,
+   "expiration": 2042,
+   "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
-    "also_on": "dvcmarket"
+    "availability_from": "detail",
+    "also_on": "dvcmarket",
+    "closing_cost": 829.0
    },
    "uid": "dvcresalemarket:VB82581",
    "active": true,
@@ -37702,7 +37886,8 @@
      "availability": "available",
      "status_raw": "New"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -37769,7 +37954,7 @@
    "use_year": 2,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": null,
+   "date_listed": "2026-10-02",
    "points_available": [
     {
      "uy": "2026-02",
@@ -37779,7 +37964,7 @@
     {
      "uy": "2027-02",
      "points": 140,
-     "banked": 0
+     "banked": 140
     },
     {
      "uy": "2028-02",
@@ -37787,15 +37972,17 @@
      "banked": 0
     }
    ],
-   "availability_text": null,
-   "dues_terms": null,
-   "dues_per_point": null,
+   "availability_text": "February 2026 - 0 points\nFebruary 2027 - 140 points\nFebruary 2028 - 100 points\nThere are 140 points as of Feb. 2027 (40 points banked from Feb. 2026 & 100 points from Feb. 2027) + 100 points coming Feb. 2028 + 100 points coming Feb. 2029",
+   "dues_terms": "Seller Pays 2026 Annual Dues, Buyer pays 2027 Dues (For closings after Nov. 20th Disney will require the 2027 Dues be paid at closing). Dues based on the current 2026 values are $1,490 however Disney has not released 2027 Dues figures yet so actual 2027 Dues may be different.",
+   "dues_per_point": 14.89,
    "subsidized_dues": null,
-   "expiration": null,
-   "detail_fetched": false,
+   "expiration": 2042,
+   "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
-    "also_on": "dvcmarket"
+    "availability_from": "detail",
+    "also_on": "dvcmarket",
+    "can_close_after": "12/17/2026",
+    "closing_cost": 679.0
    },
    "uid": "dvcresalemarket:VB92638",
    "active": true,
@@ -37809,7 +37996,8 @@
      "availability": "available",
      "status_raw": "New"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -37902,7 +38090,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "duplicates": [
      "vacationclublife:4301740000134407021"
@@ -37961,7 +38149,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 829.0
    },
@@ -38070,7 +38258,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 939.0
    },
@@ -38126,7 +38314,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 679.0
    },
@@ -38263,13 +38451,8 @@
    "use_year": 12,
    "status_raw": "BONUS! FULL POINTS FOR 2026 WITH NO DUES!",
    "availability": "available",
-   "date_listed": null,
+   "date_listed": "2026-09-16",
    "points_available": [
-    {
-     "uy": "2025-12",
-     "points": 300,
-     "banked": 0
-    },
     {
      "uy": "2026-12",
      "points": 300,
@@ -38279,17 +38462,23 @@
      "uy": "2027-12",
      "points": 300,
      "banked": 0
+    },
+    {
+     "uy": "2028-12",
+     "points": 300,
+     "banked": 0
     }
    ],
-   "availability_text": null,
-   "dues_terms": null,
-   "dues_per_point": null,
+   "availability_text": "December 2026 - 300 points\nDecember 2027 - 300 points\nDecember 2028 - 300 points\nThere are 300 points coming Dec. 2026 + 300 points coming Dec. 2027 + 300 points coming Dec. 2028 + 300 points coming Dec. 2029",
+   "dues_terms": "Seller Pays 2026 Annual Dues, Buyer pays 2027 Dues (For closings after Nov. 20th Disney will require the 2027 Dues be paid at closing). Dues based on the current 2026 values are $4,469 however Disney has not released 2027 Dues figures yet so actual 2027 Dues may be different.",
+   "dues_per_point": 14.89,
    "subsidized_dues": null,
-   "expiration": null,
-   "detail_fetched": false,
+   "expiration": 2042,
+   "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
-    "also_on": "dvcmarket"
+    "availability_from": "detail",
+    "also_on": "dvcmarket",
+    "closing_cost": 879.0
    },
    "uid": "dvcresalemarket:VBG2626",
    "active": true,
@@ -38303,7 +38492,8 @@
      "availability": "available",
      "status_raw": "BONUS! FULL POINTS FOR 2026 WITH NO DUES!"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcsales",
@@ -38748,9 +38938,13 @@
     {
      "t": "2026-10-14T02:32:37+00:00",
      "status_raw": "Live"
+    },
+    {
+     "t": "2026-10-14T02:43:41+00:00",
+     "status_raw": "Live"
     }
    ],
-   "detail_at": "2026-10-14T02:32:37+00:00"
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcsales",
@@ -38847,9 +39041,13 @@
     {
      "t": "2026-10-14T02:32:37+00:00",
      "status_raw": "Live"
+    },
+    {
+     "t": "2026-10-14T02:43:41+00:00",
+     "status_raw": "Live"
     }
    ],
-   "detail_at": "2026-10-14T02:32:37+00:00"
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcsales",
@@ -38942,9 +39140,13 @@
     {
      "t": "2026-10-14T02:32:37+00:00",
      "status_raw": "Live"
+    },
+    {
+     "t": "2026-10-14T02:43:41+00:00",
+     "status_raw": "Live"
     }
    ],
-   "detail_at": "2026-10-14T02:32:37+00:00"
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcsales",
@@ -39043,9 +39245,13 @@
     {
      "t": "2026-10-14T02:32:37+00:00",
      "status_raw": "Live"
+    },
+    {
+     "t": "2026-10-14T02:43:41+00:00",
+     "status_raw": "Live"
     }
    ],
-   "detail_at": "2026-10-14T02:32:37+00:00"
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcsales",
@@ -39142,9 +39348,13 @@
     {
      "t": "2026-10-14T02:32:37+00:00",
      "status_raw": "Live"
+    },
+    {
+     "t": "2026-10-14T02:43:41+00:00",
+     "status_raw": "Live"
     }
    ],
-   "detail_at": "2026-10-14T02:32:37+00:00"
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcsales",
@@ -39242,9 +39452,13 @@
     {
      "t": "2026-10-14T02:32:37+00:00",
      "status_raw": "Live"
+    },
+    {
+     "t": "2026-10-14T02:43:41+00:00",
+     "status_raw": "Live"
     }
    ],
-   "detail_at": "2026-10-14T02:32:37+00:00"
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcsales",
@@ -39338,9 +39552,13 @@
     {
      "t": "2026-10-14T02:32:37+00:00",
      "status_raw": "Live"
+    },
+    {
+     "t": "2026-10-14T02:43:41+00:00",
+     "status_raw": "Live"
     }
    ],
-   "detail_at": "2026-10-14T02:32:37+00:00"
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcsales",
@@ -39433,9 +39651,13 @@
     {
      "t": "2026-10-14T02:32:37+00:00",
      "status_raw": "Live"
+    },
+    {
+     "t": "2026-10-14T02:43:41+00:00",
+     "status_raw": "Live"
     }
    ],
-   "detail_at": "2026-10-14T02:32:37+00:00"
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcsales",
@@ -39528,9 +39750,13 @@
     {
      "t": "2026-10-14T02:32:37+00:00",
      "status_raw": "Live"
+    },
+    {
+     "t": "2026-10-14T02:43:41+00:00",
+     "status_raw": "Live"
     }
    ],
-   "detail_at": "2026-10-14T02:32:37+00:00"
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcsales",
@@ -39620,9 +39846,13 @@
      "price_per_point": 106.0,
      "availability": "available",
      "status_raw": "Live"
+    },
+    {
+     "t": "2026-10-14T02:43:41+00:00",
+     "status_raw": "Live"
     }
    ],
-   "detail_at": "2026-10-14T02:32:37+00:00"
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcsales",
@@ -41206,9 +41436,9 @@
    "price": 17000.0,
    "price_per_point": 68.0,
    "use_year": 2,
-   "status_raw": "Live",
+   "status_raw": "Live | listed 3 days ago, still available",
    "availability": "available",
-   "date_listed": "2026-10-11",
+   "date_listed": "2026-10-10",
    "points_available": [
     {
      "uy": "2026-02",
@@ -41226,19 +41456,51 @@
      "banked": 0
     }
    ],
-   "availability_text": "2026: 0 | 2027: 193 | 2028: 250",
-   "dues_terms": null,
-   "dues_per_point": null,
+   "availability_text": "There are 193 points available for the 2027 Use Year . The 193 points for this year will be deposited on February 1, 2027 . Going forward, your yearly points arrive on February 1st each year.",
+   "dues_terms": "No dues reimbursement listed in buyer's schedule of fees (seller pays current-year dues)",
+   "dues_per_point": 12.86,
    "subsidized_dues": null,
-   "expiration": null,
-   "detail_fetched": false,
+   "expiration": 2042,
+   "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "days_on_market": 3,
-    "date_listed_from": "index_days",
+    "date_listed_from": "detail",
     "internal_id": "1815",
     "value_score": 30,
-    "also_on": "dvcmarket"
+    "also_on": "dvcmarket",
+    "availability_table": [
+     {
+      "year": 2026,
+      "banked": 0,
+      "borrowed": 0,
+      "holding": 0,
+      "available": 0,
+      "bankable": 0
+     },
+     {
+      "year": 2027,
+      "banked": 0,
+      "borrowed": 0,
+      "holding": 0,
+      "available": 193,
+      "bankable": 193
+     },
+     {
+      "year": 2028,
+      "banked": 0,
+      "borrowed": 0,
+      "holding": 0,
+      "available": 250,
+      "bankable": 250
+     }
+    ],
+    "dues_year": 2027,
+    "closing_cost": 719.0,
+    "caf": 500.0,
+    "total_due_at_closing": 17486.0,
+    "est_closing_date": "2026-11-30",
+    "us_seller": true
    },
    "uid": "dvcsales:HH381",
    "active": true,
@@ -41252,7 +41514,8 @@
      "availability": "available",
      "status_raw": "Live"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcsales",
@@ -42676,9 +42939,13 @@
      "price_per_point": 50.0,
      "availability": "available",
      "status_raw": "Live"
+    },
+    {
+     "t": "2026-10-14T02:43:41+00:00",
+     "status_raw": "Live"
     }
    ],
-   "detail_at": "2026-10-14T02:32:37+00:00"
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcsales",
@@ -42767,9 +43034,13 @@
      "price_per_point": 52.0,
      "availability": "available",
      "status_raw": "Live"
+    },
+    {
+     "t": "2026-10-14T02:43:41+00:00",
+     "status_raw": "Live"
     }
    ],
-   "detail_at": "2026-10-14T02:32:37+00:00"
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcsales",
@@ -42859,9 +43130,13 @@
      "price_per_point": 48.0,
      "availability": "available",
      "status_raw": "Live"
+    },
+    {
+     "t": "2026-10-14T02:43:41+00:00",
+     "status_raw": "Live"
     }
    ],
-   "detail_at": "2026-10-14T02:32:37+00:00"
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcsales",
@@ -42951,9 +43226,13 @@
      "price_per_point": 42.0,
      "availability": "available",
      "status_raw": "Live"
+    },
+    {
+     "t": "2026-10-14T02:43:41+00:00",
+     "status_raw": "Live"
     }
    ],
-   "detail_at": "2026-10-14T02:32:37+00:00"
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcshop",
@@ -43061,7 +43340,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 20790,
-    "modified": "2026-10-13 22:30:05",
+    "modified": "2026-10-13 22:40:03",
     "resort_abbr": "AK",
     "low_but_firm": true
    },
@@ -45168,7 +45447,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 21830,
-    "modified": "2026-10-13 22:30:06",
+    "modified": "2026-10-13 22:40:03",
     "resort_abbr": "AUL",
     "low_but_firm": true
    },
@@ -46765,7 +47044,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 21477,
-    "modified": "2026-10-13 22:30:05",
+    "modified": "2026-10-13 22:40:03",
     "resort_abbr": "AUL",
     "can_close_after": "11/8/26",
     "also_on": "dvcmarket"
@@ -50874,7 +51153,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 21799,
-    "modified": "2026-10-13 22:30:06",
+    "modified": "2026-10-13 22:40:03",
     "resort_abbr": "BW",
     "low_but_firm": true
    },
@@ -52938,7 +53217,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 20412,
-    "modified": "2026-10-13 22:30:06",
+    "modified": "2026-10-13 22:40:04",
     "resort_abbr": "RR",
     "low_but_firm": true
    },
@@ -54925,7 +55204,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 21814,
-    "modified": "2026-10-13 22:30:07",
+    "modified": "2026-10-13 22:40:04",
     "resort_abbr": "SSR",
     "low_but_firm": true
    },
@@ -61182,10 +61461,10 @@
    ],
    "availability_text": "3 points currently available and 210 points coming on 4/1/27. NO ANNUAL DUES UNTIL 2027.",
    "dues_terms": "Annual dues at closing (buyer): $0.00; No annual dues until 2027",
-   "dues_per_point": null,
+   "dues_per_point": 12.8621,
    "subsidized_dues": null,
-   "expiration": null,
-   "detail_fetched": false,
+   "expiration": 2042,
+   "detail_fetched": true,
    "extra": {
     "availability_from": "index",
     "no_dues_until": 2027,
@@ -61198,7 +61477,8 @@
     "annual_dues_closing": 0.0,
     "notes": "2026- 3 points currently available\n2027- 210 points coming on 4/1/27\n2028- 210 points coming on 4/1/28\nNo Annual Dues Until 2027",
     "modified": "2026-10-07T14:29:07",
-    "also_on": "dvcmarket"
+    "also_on": "dvcmarket",
+    "dues_per_point_page": 12.8621
    },
    "uid": "dvcstore:HH210-04-0921",
    "active": true,
@@ -61212,7 +61492,8 @@
      "availability": "available",
      "status_raw": "active"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcstore",
@@ -62568,10 +62849,10 @@
    ],
    "availability_text": "103 points currently available and 240 points coming on 8/1/27. NO ANNUAL DUES UNTIL 2027. CANNOT CLOSE BEFORE 1/7/27",
    "dues_terms": "Annual dues at closing (buyer): $0.00; No annual dues until 2027",
-   "dues_per_point": null,
+   "dues_per_point": 11.2054,
    "subsidized_dues": null,
-   "expiration": null,
-   "detail_fetched": false,
+   "expiration": 2042,
+   "detail_fetched": true,
    "extra": {
     "availability_from": "index",
     "no_dues_until": 2027,
@@ -62585,7 +62866,8 @@
     "can_close_after": "1/7/27",
     "notes": "2026- 103 points currently available\n2027- 240 points coming on 8/1/27\n2028- 240 points coming on 8/1/28",
     "modified": "2026-10-07T14:32:33",
-    "also_on": "dvcmarket"
+    "also_on": "dvcmarket",
+    "dues_per_point_page": 11.2054
    },
    "uid": "dvcstore:OKW240-08-0831",
    "active": true,
@@ -62599,7 +62881,8 @@
      "availability": "available",
      "status_raw": "active"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcstore",
@@ -62885,10 +63168,10 @@
    ],
    "availability_text": "0 points coming on 12/1/26, 0 points coming on 12/1/27, and 300 points coming on 12/1/28.",
    "dues_terms": "Annual dues at closing (buyer): $0.00",
-   "dues_per_point": null,
+   "dues_per_point": 11.2054,
    "subsidized_dues": null,
-   "expiration": null,
-   "detail_fetched": false,
+   "expiration": 2042,
+   "detail_fetched": true,
    "extra": {
     "availability_from": "index",
     "post_id": 136513,
@@ -62900,7 +63183,8 @@
     "annual_dues_closing": 0.0,
     "notes": "2026- 0 points\n2027- 0 points\n2028- 300 points coming on 12/1/28",
     "modified": "2026-10-07T14:30:24",
-    "also_on": "dvcmarket"
+    "also_on": "dvcmarket",
+    "dues_per_point_page": 11.2054
    },
    "uid": "dvcstore:OKW300-12-0518",
    "active": true,
@@ -62914,7 +63198,8 @@
      "availability": "available",
      "status_raw": "active"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcstore",
@@ -65072,10 +65357,10 @@
    ],
    "availability_text": "45 points currently available, and 100 points coming on 3/1/27.",
    "dues_terms": "Annual dues at closing (buyer): $670.05",
-   "dues_per_point": null,
+   "dues_per_point": 14.8939,
    "subsidized_dues": null,
-   "expiration": null,
-   "detail_fetched": false,
+   "expiration": 2042,
+   "detail_fetched": true,
    "extra": {
     "availability_from": "index",
     "post_id": 137117,
@@ -65088,7 +65373,8 @@
     "current_banked": 0,
     "notes": "2025 - 0 points available\n2026 - 45 points currently available\n2027 - 100 points coming on 3/1/27",
     "modified": "2026-08-26T13:03:20",
-    "also_on": "dvcmarket"
+    "also_on": "dvcmarket",
+    "dues_per_point_page": 14.8939
    },
    "uid": "dvcstore:VB100-03-0707",
    "active": true,
@@ -65102,7 +65388,8 @@
      "availability": "available",
      "status_raw": "active"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcstore",
@@ -65617,10 +65904,10 @@
    ],
    "availability_text": "0 points currently available, 230 points coming on 3/1/27 and 230 points coming on 3/1/28.",
    "dues_terms": "Annual dues at closing (buyer): $0.00",
-   "dues_per_point": null,
+   "dues_per_point": 14.8939,
    "subsidized_dues": null,
-   "expiration": null,
-   "detail_fetched": false,
+   "expiration": 2042,
+   "detail_fetched": true,
    "extra": {
     "availability_from": "index",
     "post_id": 138335,
@@ -65632,7 +65919,8 @@
     "annual_dues_closing": 0.0,
     "notes": "2026- 0 points currently available\n2027- 230 points coming on 3/1/27\n2028- 230 points coming on 3/1/28",
     "modified": "2026-10-01T19:23:04",
-    "also_on": "dvcmarket"
+    "also_on": "dvcmarket",
+    "dues_per_point_page": 14.8939
    },
    "uid": "dvcstore:VB230-03-1001",
    "active": true,
@@ -65646,7 +65934,8 @@
      "availability": "available",
      "status_raw": "active"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "dvcstore",
@@ -69395,15 +69684,18 @@
    ],
    "availability_text": "238 points coming Apr 1, 2027 (230 + 8 banked) + 230 points for 2028",
    "dues_terms": null,
-   "dues_per_point": null,
+   "dues_per_point": 11.21,
    "subsidized_dues": null,
-   "expiration": null,
-   "detail_fetched": false,
+   "expiration": 2042,
+   "detail_fetched": true,
    "extra": {
     "web_id": "6OK148W",
     "broker": "Vacation Club Life",
     "availability_from": "index",
-    "also_on": "dvcmarket"
+    "also_on": "dvcmarket",
+    "yearly_dues": 2578.0,
+    "closing_cost": 1278.0,
+    "listing_number": "02677"
    },
    "uid": "vacationclublife:4301740000152953001",
    "active": true,
@@ -69417,7 +69709,8 @@
      "availability": "available",
      "status_raw": "Reduced"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "vacationclublife",
@@ -71075,15 +71368,18 @@
    ],
    "availability_text": "239 points coming Feb 1, 2027 (220 + 19 banked) + 220 points for 2028",
    "dues_terms": null,
-   "dues_per_point": null,
+   "dues_per_point": 14.89,
    "subsidized_dues": null,
-   "expiration": null,
-   "detail_fetched": false,
+   "expiration": 2042,
+   "detail_fetched": true,
    "extra": {
     "web_id": "6VB181W",
     "broker": "Vacation Club Life",
     "availability_from": "index",
-    "also_on": "dvcmarket"
+    "also_on": "dvcmarket",
+    "yearly_dues": 3276.0,
+    "closing_cost": 1170.0,
+    "listing_number": "02716"
    },
    "uid": "vacationclublife:4301740000155223001",
    "active": true,
@@ -71097,7 +71393,8 @@
      "availability": "available",
      "status_raw": "Active"
     }
-   ]
+   ],
+   "detail_at": "2026-10-14T02:43:41+00:00"
   }
  ]
 }
