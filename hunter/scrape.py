@@ -12,6 +12,7 @@ import json
 import logging
 import os
 import pkgutil
+import re
 import time
 from datetime import datetime, timezone
 
@@ -77,6 +78,17 @@ def fingerprint(d: dict):
     return (d["resort"], d["points"], d["use_year"], round(d["price"] / 50))
 
 
+def _distinct_same_source(a: dict, b: dict) -> bool:
+    """Two rows from the same broker with unrelated ids are separate contracts
+    (brokers often list a seller's identical contracts side by side), not mirrors.
+    Ids where one is a prefix of the other (e.g. X-1 / X-2 page variants) still dedupe."""
+    if a.get("source") != b.get("source"):
+        return False
+    x, y = str(a.get("listing_id", "")).upper(), str(b.get("listing_id", "")).upper()
+    base = lambda s: re.sub(r"-\d{1,2}$", "", s)
+    return base(x) != base(y)
+
+
 def dedupe(by_source: dict[str, list[dict]]) -> list[dict]:
     direct = {k: v for k, v in by_source.items() if k != AGGREGATOR}
     ids = {}
@@ -110,7 +122,7 @@ def dedupe(by_source: dict[str, list[dict]]) -> list[dict]:
     final = []
     for d in out:
         fp = fingerprint(d)
-        if fp and d["availability"] == "available" and fp in seen:
+        if fp and d["availability"] == "available" and fp in seen and not _distinct_same_source(seen[fp], d):
             keep = seen[fp]
             keep.setdefault("extra", {}).setdefault("duplicates", []).append(uid(d))
             continue
