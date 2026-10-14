@@ -16,7 +16,7 @@ including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same 
 | 4 | [Aulani AUL247LBF1 (DVC Shop)](https://resales.dvcshop.com/listings/aulani-hawaii-aul247lbf1/) Apr UY | 200 | $95 | $19,000 | $7,935 ($4,215) | $23.2k / 15 | sell stripped | 2027-01-22 | medium | ✔ 400 in the Apr-2027 UY (200 of them banked from 2026), 2062 deed, dues $10.96. The home-resort 11-month window is a real plus for Aulani in Sept. **Dues terms aren't stated** and it's "Low But Firm"; borrows 86. |
 | 5 | [SSR SS1286 (DVC Sales)](https://dvcsales.com/dvc-resale/saratoga-springs/220-points/1747) Jun UY | 220 | $104 | $22,880 | $8,005 ($4,145) | $26.8k / 15 | sell stripped | 2027-02-12 | low | ✔ 328 now = 108 banked (expire May 31, 2027, useless for Sept) + 220 bankable. Buyer reimburses 2026 dues ($2,022), closes Dec 1, deed 2054. **Smallest borrow (46)** and lowest ROFR risk in the top 5. Catch: you must bank by Jan 31, 2027. The cleanest pick if cash allows. |
 
-Dropped out: OKW88090 (DVC Resale Experts) was #4 on the raw data. Its 70 "Holding" points can't be banked, so it actually needs to borrow 120, not 66. That's now fixed and it falls to about #9 ($4,094 savings), with a 2042 deed on top.
+Dropped out: OKW88090 (DVC Resale Experts) was #4 on the raw data. Its 70 "Holding" points can't be banked, so it actually needs to borrow 120, not 66. That's now fixed and it falls to #7 ($4,094 savings), with a 2042 deed on top.
 Also worth a look: HH HHI44341 ($69, 250 pts, no borrowing, 2042 deed) and HH 616109 (best 3BR, see previous review).
 
 ## 1-bedroom, Sept, 6 nights (needs 204 pts; renting would cost $5,100)
