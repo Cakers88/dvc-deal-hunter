@@ -132,6 +132,21 @@ def _sidebar(page: str, label: str) -> str | None:
     return " ".join(x.strip() for x in re.findall(r">([^<]+)<", m.group(1) + "<") if x.strip())
 
 
+_BANKED = re.compile(r"([\d,]+) points (?:were|are|have been) banked from [A-Z][a-z]+ 20\d\d to (20\d\d)")
+
+
+def _apply_banked(d: dict, comments: str) -> None:
+    """Seller comments say e.g. "150 points were banked from June 2025 to 2026";
+    the availability columns don't separate banked points, so mark them on the
+    bucket they were banked INTO (only when that bucket visibly holds them)."""
+    buckets = {b["uy"][:4]: b for b in d.get("points_available") or []}
+    for n, into in _BANKED.findall(comments):
+        n = int(n.replace(",", ""))
+        b = buckets.get(into)
+        if b and b["points"] >= n and (not d.get("points") or b["points"] > d["points"]):
+            b["banked"] = n
+
+
 def fetch_detail(session, d: dict) -> dict:
     page = session.text(d["url"])
     # Cut off the "similar contracts" table at the bottom.
@@ -168,6 +183,7 @@ def fetch_detail(session, d: dict) -> dict:
     comments = H.unescape(re.sub(r"<[^>]+>", " ", cm.group(1))).strip() if cm else ""
     if comments:
         d["extra"]["comments"] = comments
+        _apply_banked(d, comments)
     # Dues terms are not stated per listing; the offer form lets the buyer propose
     # Buyer Pays / Seller Pays / Pro-rate on available points.
     d["dues_terms"] = "Not stated; negotiable in offer (Buyer Pays / Seller Pays / Pro-rate on available points)"
