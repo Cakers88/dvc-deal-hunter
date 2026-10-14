@@ -132,6 +132,7 @@ def _sidebar(page: str, label: str) -> str | None:
     return " ".join(x.strip() for x in re.findall(r">([^<]+)<", m.group(1) + "<") if x.strip())
 
 
+_HOLDING = re.compile(r"([\d,]+) points are in Holding (?:for |in )?[A-Z][a-z]+\.? (20\d\d)", re.I)
 _BANKED = re.compile(r"([\d,]+) points (?:were|are|have been) banked from [A-Z][a-z]+ 20\d\d to (20\d\d)")
 
 
@@ -145,6 +146,21 @@ def _apply_banked(d: dict, comments: str) -> None:
         b = buckets.get(into)
         if b and b["points"] >= n and (not d.get("points") or b["points"] > d["points"]):
             b["banked"] = n
+    # "70 points are in Holding for June 2026, and need to be used by May 31, 2027":
+    # holding points can't be banked, so for planning they behave like banked-in points
+    for n, yr in _HOLDING.findall(comments):
+        n = int(n.replace(",", ""))
+        b = buckets.get(yr)
+        if b and b["points"] >= n:
+            b["banked"] = max(b["banked"], n)
+
+
+def reapply(d: dict) -> None:
+    """Re-run comment parsing on a carried-over listing (lets parser fixes apply before
+    the next detail refresh)."""
+    comments = (d.get("extra") or {}).get("comments")
+    if comments:
+        _apply_banked(d, comments)
 
 
 def fetch_detail(session, d: dict) -> dict:

@@ -34,6 +34,21 @@ AGG_BROKER_MAP = {  # dvcmarket broker_key -> our adapter name
 DETAIL_MAX_PER_RUN = 60
 DETAIL_CAP_PER_SOURCE = {"vacationclublife": 4}  # its robots.txt asks for a 10s crawl delay
 DETAIL_REFRESH_DAYS = 3
+
+
+def _reparse_banked(d: dict) -> None:
+    """Re-derive banked counts from the stored availability text so parser fixes apply to
+    carried-over listings without waiting for the next detail refresh. Only the banked split
+    is touched, and only when the re-parse yields the same use-year buckets and points."""
+    from .model import parse_availability_lines
+    pa, text = d.get("points_available") or [], d.get("availability_text")
+    if not pa or not text:
+        return
+    new = parse_availability_lines(text)
+    if [(b["uy"], b["points"]) for b in new] == [(b["uy"], b["points"]) for b in pa]:
+        for b, n in zip(pa, new):
+            if n["banked"]:  # never wipe a banked count another source (e.g. seller comments) set
+                b["banked"] = n["banked"]
 SKIP_DETAIL = {"dvcshop"}  # index already has everything
 TRACKED_FIELDS = ("price", "price_per_point", "availability", "status_raw")
 
@@ -170,6 +185,9 @@ def run() -> dict:
                 d["detail_at"] = old.get("detail_at")
                 for ek, ev in (old.get("extra") or {}).items():
                     d["extra"].setdefault(ek, ev)
+                _reparse_banked(d)
+                if hasattr(mods.get(d["source"]), "reapply"):
+                    mods[d["source"]].reapply(d)
         else:
             d["first_seen"] = ts
             d["history"] = [{"t": ts, **{f: d.get(f) for f in TRACKED_FIELDS}}]

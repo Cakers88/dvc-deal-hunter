@@ -90,7 +90,7 @@ def parse_availability_lines(text: str) -> list[dict]:
             out[key] = {"uy": key, "points": int(pts.replace(",", "")), "banked": 0}
     # banked hints: "these 111 points were banked from Oct. 2025"
     for n, mon, yr in re.findall(
-        r"(\d[\d,]*)\s*(?:points|pts)?[^.]{0,40}?banked\s+(?:from|in)\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s*(20\d\d)",
+        r"(?<![\d,])(\d[\d,]*)\s*(?:points?|pts)?[^.\d]{0,40}?banked\s+(?:from|in)\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s*(20\d\d)",
         text or "", re.I,
     ):
         m = month_num(mon)
