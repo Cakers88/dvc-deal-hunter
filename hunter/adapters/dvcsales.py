@@ -198,7 +198,12 @@ def fetch_detail(session, d: dict) -> dict:
     # Status line: "Live | listed 3 days ago, still available"
     m = re.search(r"\n(Live|Pending|Under Contract|Sold|In ROFR)[^\n]*\|[^\n]*", t)
     if m:
-        d["status_raw"] = m.group(0).strip()
+        # Keep the index's plain "Live" for live listings: storing the detail line
+        # ("Live | listed 3 days ago ...") made status_raw flip every run, which logged
+        # a bogus status_change and dropped carried-over detail fields.
+        d["extra"]["status_line"] = m.group(0).strip()
+        if m.group(1) != "Live":
+            d["status_raw"] = m.group(0).strip()
         d["availability"] = classify_status(m.group(1) if m.group(1) != "Live" else None)
     if d.get("resort") == "aulani" and re.search(r"subsidi[sz]ed\s+(annual\s+)?dues", t, re.I):
         d["subsidized_dues"] = True
