@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-14 08:40 UTC (data commit `c339348`, scrape 08:36 UTC — a manual dispatch I triggered; the schedule still hasn't fired). Rankings unchanged since 06:45; savings figures move by a few dollars as the interest clock advances.
+**Run:** 2026-10-14 09:40 UTC (data commit `dfaa463`, scrape 09:37 UTC — another manual dispatch; the schedule still hasn't fired). All top lists unchanged since 06:45; savings move by a few dollars as the interest clock advances.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,8 @@ Dropped out: HH HHI26452 (now #4, $1,426) and SSR SS1262 (#6+).
 
 ## Market notes
 
+- 09:37 scrape: 1 new, 1 price change, 1 status change, 2 gone, but **almost all of it is DVC Sales renumbering its own listings**, not real market movement. Its page 496 (SSR 160 pts, Aug UY, $118) used to be SS1258 and now shows code SS1301 with "listed 0 days ago". Its page 1595 (BWV 261 pts, $119) used to be BW425 and now carries code **BW434**, the code of a different, already-gone 200-pt contract. Because the adapter keys on the code, that shows up as a bogus BW434 "price change" from $106 to $119. Neither is in any top list (SS1301 is #33 overall, score 76.5; ✔ checked: 235 in the 2026 UY, of which 75 are banked and expire Jul 31, 2027; buyer reimburses 2027 dues of $1,470; closes Feb 7, 2027; deed 2054). If DVC Sales keeps doing this, I'll switch the adapter key to the page id. I haven't done it yet because that would turn every DVC Sales listing into a one-time "new" event.
+- BCV BC82559 (DVC Resale Market) went from Offer Accepted to Sale Pending. It wasn't in any top list.
 - 07:37 and 08:36 scrapes: quiet. No new listings and no price changes. One listing gone: BWV BW434 (DVC Sales, 200 pts, $106), which wasn't in any top list. The market model is essentially unchanged (n=867).
 - 06:37: burst of **11 new Fidelity listings** on DVC Market (616158–616168), 2 price drops, 5 Fidelity listings gone. Only AKV 616164 and SSR 616162 reach a top list (2BR #2/#3). BLT 616160 (220 pts, 440 in 2027 incl. 220 banked, $145) ranks #22 overall; BRV 616159 (282 pts, $105, Dec UY) #191.
 - Price drops: Aulani 614498 (385 pts, Aug UY) $98→$96/pt — not a new Aulani low (DVC Shop AUL899YM at $85 is); Vero Beach 615509 $56→$49 (not Aulani-eligible for this plan's ranking).
@@ -54,13 +56,13 @@ Dropped out: HH HHI26452 (now #4, $1,426) and SSR SS1262 (#6+).
 
 ## Scraper health
 
-- All 10 sources ok:true at 07:37 and 08:36 (dvcmarket 717, dvcresalemarket 374, dvcshop 243, dvcstore 146, dvcresaleexperts 101, vacationclublife 92, dvcsales 73, dvcbyresale 26, buyandselldvc 24, magicresales 4).
-- ⚠ **The scheduled cron still has never fired.** Runs 9–11 were all `workflow_dispatch` (05:37, 06:36, 07:36, 08:36), and there have been no `schedule` events. So ntfy alerts only go out when a run is triggered by hand. **Fix needs Corey:** go to GitHub → Actions → "hunt" → ⋯, click Disable workflow, then Enable workflow. If that doesn't help, check Settings → Actions → General.
+- All 10 sources returned listings at 07:37, 08:36 and 09:37 (active at 09:37: dvcresalemarket 363, dvcshop 237, dvcmarket 144 after de-dup, dvcstore 141, dvcresaleexperts 99, vacationclublife 89, dvcsales 70, dvcbyresale 26, buyandselldvc 24, magicresales 3).
+- ⚠ **The scheduled cron still has never fired.** Runs 9–12 were all `workflow_dispatch` (06:36, 07:36, 08:36, 09:36), and there have been no `schedule` events. So ntfy alerts only go out when a run is triggered by hand. **Fix needs Corey:** go to GitHub → Actions → "hunt" → ⋯, click Disable workflow, then Enable workflow. If that doesn't help, check Settings → Actions → General.
 
 ## Fixes made this run
 
-- None to code. Triggered one manual `hunt` dispatch (08:36) to get fresh data.
+- None to code. Triggered one manual `hunt` dispatch (09:36) to get fresh data.
 
 ## Broker emails
 
-- Gmail, last 2 h: no broker alert emails (checked 08:40).
+- Gmail, last 2 h: no broker alert emails (checked 09:40).
