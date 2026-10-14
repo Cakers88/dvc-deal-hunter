@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-14 19:40 UTC (data commit `e280da9`, scrape 19:37 UTC from a manual dispatch; a scheduled run then queued at 19:41). 4 new, 1 price drop, 2 gone. **No top list changed**: all three tables below are the same contracts in the same order as at 18:40 (net costs moved ≤$30 from the date roll). Fixed a DVC Resale Experts parser gap (blank CMS record, see Fixes).
+**Run:** 2026-10-14 20:45 UTC (data commit `967437a`, scrape 20:42 UTC from a manual dispatch; the cron hadn't fired since 19:41). Two scrapes since the last review (19:42, 20:42): 3 new, 1 price drop, 2 gone, **nothing reaches a top list**. All three tables are the same contracts in the same order as at 19:40 (net costs moved ≤$12). Verified AKV 616182 on the broker page (2BR #1).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -32,7 +32,7 @@ Gone this run: **OKW 616140** (Fidelity, $75, was #3). At that price it was prob
 
 | # | Contract | Pts | $/pt | Price | Net cost (saves) | Cash / months | Book on | ROFR | Judgment |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 | **NEW** [AKV 616182 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/animal-kingdom/100-points/616182) Aug UY | 100 | $108 | $10,800 | $5,041 ($2,009) | $13.4k / 15 | 2027-02-12 | low | ⚠ Listed today. Scraped 100/100/100 (Aug-2026 UY full), dues $10.16. Bank 2026's 100 by Mar 31, 2027 + 100 = 200, so it **borrows 82**. It's $7/pt cheaper than its twin 616164 (same layout). **Who pays 2026 dues isn't parsed.** Fidelity's other listings had the buyer reimburse 2026 dues (~$1k here), so confirm before relying on it. Small, cheap and low ROFR risk. The best 2BR now. |
+| 1 | **NEW** [AKV 616182 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/animal-kingdom/100-points/616182) Aug UY | 100 | $108 | $10,800 | $5,041 ($2,009) | $13.4k / 15 | 2027-02-12 | low | ✔ Checked 20:45: 100 in the Aug-2026 UY + 100 Aug-2027, still available. **Buyer reimburses 2026 dues ($1,016)**; total due at closing $13,017. Bank 2026's 100 by Mar 31, 2027, then **borrow 82**. $7/pt cheaper than its twin 616164. Small, cheap and low ROFR risk. The best 2BR now. |
 | 2 | [AKV 616164 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/animal-kingdom/100-points/616164) Jun UY | 100 | $115 | $11,500 | $5,202 ($1,848) | $14.1k / 15 | 2027-02-12 | low | ✔ Full points, buyer reimburses 2026 dues ($1,016), borrows 82. 616182 beats it on price. |
 | 3 | [SSR 616162 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/saratoga-springs/150-points/616162) Jun UY | 150 | $100 | $15,000 | $5,499 ($1,551) | $18.0k / 15 | 2027-02-12 | medium | ✔ 150/150, buyer reimburses 2026 dues, **no borrowing** (bank by Jan 31, 2027), 2054 deed. Cleaner but more cash. |
 
@@ -46,6 +46,12 @@ Gone this run: **SSR 615511** (Fidelity, 110 pts, $104, was #1). Next: HH HHI264
 
 ## Market notes
 
+- 20:42 scrape (manual dispatch): 2 new, 1 price drop, 1 gone. Nothing reaches a top list.
+  - New: OKW OK65077 (DVC Resale Market, 85 pts, Apr UY, $124, 170 in Apr-2027 incl. 85 banked, 2057 deed) and OKW OKWE95806 (DVC Resale Experts, 25 pts, $127). Both too small for any Sept setup and pricey, so unranked.
+  - Price drop: SSR SS1281 (DVC Sales, 230 pts, Dec UY) $102→$100/pt, $23k. Still rank #224: only 95 points left in the Dec-2026 UY.
+  - Gone: OKW OK95067 (DVC Resale Market, 50 pts, $130, was pending, so likely sold).
+  - Market model n=876: −$3.95/pt per missing current year, −$8.77 missing next year, ~$4.63 accepted below ask. Flat.
+- 19:42 run (push-triggered by the adapter fix): the blank DVC Resale Experts row is gone as intended. "New" **BWV 615888** is DVC Market's aggregator mirror of BWV35220 ($117, 175 pts, 0 points until Feb 2027, rank #322). The broker's own page for BWV35220 now returns 404, so the contract was most likely sold or pulled and the mirror is stale.
 - 19:37 scrape (manual dispatch): 4 new, 1 price drop, 2 gone. **Nothing reaches a top list.**
   - New: **SSR SSA8666** (DVC Resale Market, 250 pts, Sep UY, $126, $31.5k, rank #63, score 72.5). ✔ Broker page matches: 500 now (250 banked from Sep 2025, so they expire Aug 31, 2027, just before a Sep 12 stay), seller pays 2026 dues, buyer pays 2027 ($2,297 at 2026 rates), 2054 deed. $126 is ~$20 above the SSR pack, so skip.
   - New: BWV BW73379 (60 pts, $151) and PVB PLE4681 (50 pts, $198): too small for any Sept setup, so unranked.
@@ -76,6 +82,8 @@ Gone this run: **SSR 615511** (Fidelity, 110 pts, $104, was #1). Next: HH HHI264
 
 ## Scraper health
 
+- 20:42: 9 of 10 sources OK. **dvcstore failed** (its WordPress API timed out after retries). It worked at 19:42 (143 listings), and a manual request at 20:44 returned 200 but took 89 s, so it's the site being slow, not a parser break. No bogus "gone" events came from it. I'll only touch the adapter if it fails again next run.
+- 19:42 (push-triggered): all 10 OK. The cron then went quiet again; I dispatched manually at 20:37.
 - 19:37: **all 10 sources OK** (dvcmarket 721, dvcresalemarket 377, dvcshop 243, dvcstore 143, dvcresaleexperts 99, vacationclublife 92, dvcsales 74, dvcbyresale 26, buyandselldvc 24, magicresales 4). I dispatched it manually at 19:36 (the cron had been silent since 15:33). A `schedule` run then queued at 19:41, so the cron is still alive but sparse.
 - 18:37: **all 10 sources OK.** The cron had been silent for 3 h after the 15:33 run, so I dispatched the workflow manually at 18:36. GitHub's schedule for this repo keeps firing only every few hours. A disable/enable of the `hunt` workflow (Actions → hunt → ⋯) is the usual fix, but it needs Corey.
 - 17:40: **no Action run since 15:33** (2 h gap; last run was `schedule`, all 10 sources OK). Not a scraper failure — GitHub's cron for this repo is firing sparsely. If gaps keep exceeding ~2 h, disable/enable the `hunt` workflow or trigger it manually.
@@ -90,9 +98,13 @@ Gone this run: **SSR 615511** (Fidelity, 110 pts, $104, was #1). Next: HH HHI264
 
 ## Fixes made this run
 
+- None this run. Manually dispatched the `hunt` workflow at 20:37.
+
+## Fixes made last run (19:40)
+
 - `fix(dvcresaleexperts)`: when Webflow publishes a row with blanked fields, the adapter now recovers the listing ID from the URL slug, and it skips a row that has no price (logging a warning) instead of publishing it unpriced. That stops the empty-ID "new" listing and lets BWV35220 return under its own ID once the broker fixes the record. Tested against the live index: 98 of 99 rows parse, and the 1 skipped is BWV35220.
 - Manually dispatched the `hunt` workflow at 19:36.
 
 ## Broker emails
 
-- Gmail, last 2 h: no broker alert emails (checked 19:40).
+- Gmail, last 2 h: no broker alert emails (checked 20:45).
