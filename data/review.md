@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-14 18:40 UTC (data commit `60650b6`, scrape 18:37 UTC). The scheduled cron hadn't fired since 15:33 (3 h), so I dispatched the `hunt` workflow manually. That run brought 9 new listings, 1 price drop, 4 status changes and 7 gone. **Two top picks are gone** (OKW 616140 and SSR 615511), and a new **AKV 616182** is now the best 2-bedroom.
+**Run:** 2026-10-14 19:40 UTC (data commit `e280da9`, scrape 19:37 UTC from a manual dispatch; a scheduled run then queued at 19:41). 4 new, 1 price drop, 2 gone. **No top list changed**: all three tables below are the same contracts in the same order as at 18:40 (net costs moved ≤$30 from the date roll). Fixed a DVC Resale Experts parser gap (blank CMS record, see Fixes).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,12 @@ Gone this run: **SSR 615511** (Fidelity, 110 pts, $104, was #1). Next: HH HHI264
 
 ## Market notes
 
+- 19:37 scrape (manual dispatch): 4 new, 1 price drop, 2 gone. **Nothing reaches a top list.**
+  - New: **SSR SSA8666** (DVC Resale Market, 250 pts, Sep UY, $126, $31.5k, rank #63, score 72.5). ✔ Broker page matches: 500 now (250 banked from Sep 2025, so they expire Aug 31, 2027, just before a Sep 12 stay), seller pays 2026 dues, buyer pays 2027 ($2,297 at 2026 rates), 2054 deed. $126 is ~$20 above the SSR pack, so skip.
+  - New: BWV BW73379 (60 pts, $151) and PVB PLE4681 (50 pts, $198): too small for any Sept setup, so unranked.
+  - Price drop: **Vero Beach VBG2626** (DVC Resale Market, 300 pts, Dec UY) $58→$53/pt, $15.9k, "full 2026 points with no dues". Rank #155. For 1BR+2BR it has to borrow 186 points and saves only ~$1.6k. ROFR risk is high at $53, and it has a 2042 deed. Cheap, but not a fit.
+  - Gone: DVC Store SS210-10-0808 (SSR $100, was pending, so likely sold). **BWV35220** (DVC Resale Experts, $117) shows as gone plus a bogus "new" listing with no ID. The broker's page currently has the ID, price and use year blanked (probably mid price-edit). It was never in a top list. Fixed so it comes back under its own ID (see Fixes).
+  - Market model n=875: −$4.09/pt per missing current year (was −$3.95), −$8.77 missing next year, ~$4.56 accepted below ask. It's still drifting slowly toward stripped contracts being discounted more.
 - 18:37 scrape (manual dispatch): 9 new, 1 price drop, 4 status changes, 7 gone.
   - New: AKV 616182 (2BR #1, see above).
   - New: SSR 616187 (Fidelity, 300 pts, Jun UY, $102, $30.6k, rank #13, score 81.3). ⚠ It has only 244 points in 2026 (56 already used), dues $9.19. It's in no top list because 300 points over-buys a 1BR+2BR when bought alone.
@@ -70,6 +76,7 @@ Gone this run: **SSR 615511** (Fidelity, 110 pts, $104, was #1). Next: HH HHI264
 
 ## Scraper health
 
+- 19:37: **all 10 sources OK** (dvcmarket 721, dvcresalemarket 377, dvcshop 243, dvcstore 143, dvcresaleexperts 99, vacationclublife 92, dvcsales 74, dvcbyresale 26, buyandselldvc 24, magicresales 4). I dispatched it manually at 19:36 (the cron had been silent since 15:33). A `schedule` run then queued at 19:41, so the cron is still alive but sparse.
 - 18:37: **all 10 sources OK.** The cron had been silent for 3 h after the 15:33 run, so I dispatched the workflow manually at 18:36. GitHub's schedule for this repo keeps firing only every few hours. A disable/enable of the `hunt` workflow (Actions → hunt → ⋯) is the usual fix, but it needs Corey.
 - 17:40: **no Action run since 15:33** (2 h gap; last run was `schedule`, all 10 sources OK). Not a scraper failure — GitHub's cron for this repo is firing sparsely. If gaps keep exceeding ~2 h, disable/enable the `hunt` workflow or trigger it manually.
 - 15:33: **all 10 sources OK** (dvcmarket 716, dvcresalemarket 373, dvcshop 243, dvcstore 144, dvcresaleexperts 101, vacationclublife 92, dvcsales 73, dvcbyresale 26, buyandselldvc 24, magicresales 4). This was a **`schedule` run**, the cron's first firing since 10:39. It's still sparse (about hourly-to-5-hourly rather than every 15 min), but it's alive.
@@ -83,9 +90,9 @@ Gone this run: **SSR 615511** (Fidelity, 110 pts, $104, was #1). Next: HH HHI264
 
 ## Fixes made this run
 
-- None to code. Manually dispatched the `hunt` workflow because of the 3 h cron gap.
-- This run couldn't open broker pages, so the new listings (616182, 616187, 616185) are marked ⚠ (not checked on the broker page).
+- `fix(dvcresaleexperts)`: when Webflow publishes a row with blanked fields, the adapter now recovers the listing ID from the URL slug, and it skips a row that has no price (logging a warning) instead of publishing it unpriced. That stops the empty-ID "new" listing and lets BWV35220 return under its own ID once the broker fixes the record. Tested against the live index: 98 of 99 rows parse, and the 1 skipped is BWV35220.
+- Manually dispatched the `hunt` workflow at 19:36.
 
 ## Broker emails
 
-- Gmail, last 2 h: no broker alert emails (checked 18:40).
+- Gmail, last 2 h: no broker alert emails (checked 19:40).

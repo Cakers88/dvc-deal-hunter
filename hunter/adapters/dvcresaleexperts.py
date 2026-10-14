@@ -50,6 +50,14 @@ def _parse_row(body: str, years: list[int]) -> dict | None:
     if not href or not cells:
         return None
     lid = cells[0]
+    if not lid:
+        # Webflow sometimes publishes a CMS item with its fields blanked (seen mid price
+        # edit: id, $/pt, price, use year and availability all empty). Recover the id from
+        # the slug ("/dvc-listing/bwv35220-february-175" -> "BWV35220") so the uid stays stable.
+        m = re.match(r"/dvc-listing/([a-z]+\d+)-", href.group(1))
+        lid = m.group(1).upper() if m else ""
+    if not lid:
+        return None
     status = field("status") or ""
     resort_raw = field("resort") or (cells[1] if len(cells) > 1 else "")
     uy = month_num(field("use-year"))
@@ -90,6 +98,11 @@ def _parse_row(body: str, years: list[int]) -> dict | None:
         d["extra"]["savings_vs_direct"] = money(sav)
     if d["price"] is None and d["points"] and d["price_per_point"]:
         d["price"] = d["points"] * d["price_per_point"]
+    if d["price"] is None:
+        # Blank CMS record (no price anywhere, the detail page title reads "$ |"): skip it
+        # rather than publish an unpriced contract; it comes back when the broker fixes it.
+        log.warning("%s: %s has no price on the index, skipping", NAME, lid)
+        return None
     return d
 
 
