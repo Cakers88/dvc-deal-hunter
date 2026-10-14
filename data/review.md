@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-14 21:40 UTC (data commit `fff66ce`, scrape 21:37 UTC). One scrape since the last review: 2 price drops, 1 going pending, 1 gone, **nothing reaches a top list**. All three tables are the same contracts in the same order as at 20:45 (net costs moved ≤$11). Verified BR243 on the broker page (the only changed listing scoring ≥70).
+**Run:** 2026-10-14 22:46 UTC (data commit `8688c03`, scrapes 22:39 and 22:44 UTC). Two scrapes since the last review: 3 listings going pending, 1 "gone" that's really a de-dup artifact, **nothing reaches a top list**. All three tables are unchanged from 21:40. Verified AK812 on the broker page.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,8 @@ Gone this run: **SSR 615511** (Fidelity, 110 pts, $104, was #1). Next: HH HHI264
 
 ## Market notes
 
+- 22:44 scrape (schedule): **AKV AK812** (DVC Sales, 160 pts, Sep UY, $115) shows as "gone" and its DVC Market mirror **615821** as "new" (aggregator-only, rank #26). ✔ DVC Sales' own page still says "Live, listed 12 days ago, still available" (checked 22:46). It just dropped off their index table, the same pattern BL513 showed before going under contract. It's not new inventory. It's in no top list: 180 in the Sep-2026 UY (20 banked), buyer reimburses 2026 dues ($1,626), 2057 deed.
+- 22:39 scrape (manual dispatch): 3 status changes, none in a top list. AKV AK96501 (DVC Resale Market, 160 pts, $130, "full 2026 points, no dues") and BLT BLE3802 (100 pts, $136) went to Offer Accepted. Vero Beach VBB2607 ($46) went from Offer Accepted to Sale Pending. Market model n=876, flat (−$3.96/pt per missing current year, −$8.79 missing next year, ~$4.60 accepted below ask).
 - 21:37 scrape: 2 price drops, 1 status change, 1 gone. Nothing reaches a top list.
   - Price drop: **BRV BR243** ([DVC Sales, 300 pts, Mar UY](https://dvcsales.com/dvc-resale/boulder-ridge/300-points/1804)), $97→$95/pt, $28.5k. It's rank #53 (score 73.6). ✔ The broker page matches: 0 points in 2026, then 376 in the Mar-2027 UY (76 banked), 300 in 2028. Dues are $9.77, the deed runs to **2042**, and it closes about Dec 1. **The page doesn't say who pays the 2026/2027 dues.** For 1BR+2BR it borrows 110 and saves only ~$2.3k, so it's not a fit.
   - Price drop: BWV BW430 (DVC Sales, 150 pts) $122→$121/pt, rank #224. It has only 139 points in 2027.
@@ -87,6 +89,7 @@ Gone this run: **SSR 615511** (Fidelity, 110 pts, $104, was #1). Next: HH HHI264
 
 ## Scraper health
 
+- 22:44: **all 10 sources OK** (dvcmarket 721, dvcresalemarket 377, dvcshop 243, dvcstore 142, dvcresaleexperts 99, vacationclublife 92, dvcsales 73, dvcbyresale 26, buyandselldvc 24, magicresales 4). No run had fired since 21:37, so I dispatched `hunt` manually at 22:37; a `schedule` run followed at 22:44.
 - 21:37: **all 10 sources OK.** dvcstore recovered with 142 listings; the API answered in about 1 s when I checked at 21:36, so the 20:42 failure was transient and the adapter is untouched. The cron had fired nothing since 20:42, so I dispatched `hunt` manually at 21:37.
 - 20:42: 9 of 10 sources OK. **dvcstore failed** (its WordPress API timed out after retries). It worked at 19:42 (143 listings), and a manual request at 20:44 returned 200 but took 89 s, so it's the site being slow, not a parser break. No bogus "gone" events came from it. I'll only touch the adapter if it fails again next run.
 - 19:42 (push-triggered): all 10 OK. The cron then went quiet again; I dispatched manually at 20:37.
@@ -104,7 +107,7 @@ Gone this run: **SSR 615511** (Fidelity, 110 pts, $104, was #1). Next: HH HHI264
 
 ## Fixes made this run
 
-- None. Manually dispatched the `hunt` workflow at 21:37 (and at 20:37 last run).
+- None. Manually dispatched the `hunt` workflow at 22:37.
 
 ## Fixes made at 19:40
 
@@ -113,4 +116,4 @@ Gone this run: **SSR 615511** (Fidelity, 110 pts, $104, was #1). Next: HH HHI264
 
 ## Broker emails
 
-- Gmail, last 2 h: no broker alert emails (checked 21:40).
+- Gmail, last 2 h: no broker alert emails (checked 22:40).
