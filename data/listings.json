@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-14T19:41:27+00:00",
- "count": 1239,
+ "updated": "2026-10-14T19:42:11+00:00",
+ "count": 1240,
  "listings": [
   {
    "source": "buyandselldvc",
@@ -10852,6 +10852,86 @@
   },
   {
    "source": "dvcmarket",
+   "listing_id": "615888",
+   "url": "https://dvcmarket.com/dvc-resale/boardwalk/175-points/615888",
+   "resort_raw": "Disney's BoardWalk Villas",
+   "resort": "bwv",
+   "points": 175,
+   "price": 20475.0,
+   "price_per_point": 117.0,
+   "use_year": 2,
+   "status_raw": "active",
+   "availability": "available",
+   "date_listed": "2026-10-05",
+   "points_available": [
+    {
+     "uy": "2026-02",
+     "points": 0,
+     "banked": 0
+    },
+    {
+     "uy": "2027-02",
+     "points": 175,
+     "banked": 0
+    },
+    {
+     "uy": "2028-02",
+     "points": 175,
+     "banked": 0
+    }
+   ],
+   "availability_text": "2026-02: 0 | 2027-02: 175 | 2028-02: 175",
+   "dues_terms": "$9.67/pt, $1,692.25/yr",
+   "dues_per_point": 9.67,
+   "subsidized_dues": null,
+   "expiration": null,
+   "detail_fetched": true,
+   "extra": {
+    "broker": "DVC Resale Experts",
+    "broker_key": "dvcresaleexperts",
+    "broker_url": "https://www.dvcresaleexperts.com/dvc-listing/bwv35220-february-175",
+    "broker_listing_id": "bwv35220-february-175",
+    "dvcmarket_listing_id": "dvcs-ext-16013",
+    "dvcmarket_source": "external",
+    "closing_cost": 833.0,
+    "yearly_dues": 1692.25,
+    "days_on_market": 9,
+    "deal_score": 52,
+    "star_rating": 3,
+    "rvc_ppp": 118.0,
+    "resort_short_name": "BoardWalk",
+    "synced_at": "2026-10-14 19:00:11",
+    "updated_at": "2026-10-14 02:00:13",
+    "sync_hash": "e9336a180f0b558197125f991d7f281e",
+    "availability_from": "index",
+    "availability_years": [
+     2026,
+     2027,
+     2028
+    ],
+    "via_aggregator": true,
+    "aggregator_only": true,
+    "schema_availability": "InStock",
+    "total_due_at_closing": 21808.0,
+    "contract_point_status": "Missing points"
+   },
+   "uid": "dvcmarket:615888",
+   "active": true,
+   "stale": false,
+   "first_seen": "2026-10-14T19:42:11+00:00",
+   "history": [
+    {
+     "t": "2026-10-14T19:42:11+00:00",
+     "price": 20475.0,
+     "price_per_point": 117.0,
+     "availability": "available",
+     "status_raw": "active"
+    }
+   ],
+   "detail_at": "2026-10-14T19:42:11+00:00"
+  },
+  {
+   "source": "dvcmarket",
    "listing_id": "615931",
    "url": "https://dvcmarket.com/dvc-resale/grand-floridian/150-points/615931",
    "resort_raw": "Disney's Grand Floridian Resort",
@@ -15306,7 +15386,7 @@
     "comments": "Enjoy years of magical Disney vacations while staying in the middle of it all when you purchase this DVC Resale Boardwalk Villas contract!\n\n175 points were banked from February 2025 to 2026, and need to be used by January 31, 2027."
    },
    "uid": "dvcresaleexperts:",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-14T19:37:00+00:00",
    "history": [
@@ -15318,7 +15398,8 @@
      "status_raw": "Reduced"
     }
    ],
-   "detail_at": "2026-10-14T19:37:00+00:00"
+   "detail_at": "2026-10-14T19:37:00+00:00",
+   "gone_at": "2026-10-14T19:42:11+00:00"
   },
   {
    "source": "dvcresaleexperts",
@@ -73108,7 +73189,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-14T19:41:27+00:00"
+   "detail_at": "2026-10-14T19:42:11+00:00"
   },
   {
    "source": "magicresales",
@@ -73166,7 +73247,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-14T19:41:27+00:00"
+   "detail_at": "2026-10-14T19:42:11+00:00"
   },
   {
    "source": "magicresales",
@@ -73224,7 +73305,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-14T19:41:27+00:00"
+   "detail_at": "2026-10-14T19:42:11+00:00"
   },
   {
    "source": "vacationclublife",
