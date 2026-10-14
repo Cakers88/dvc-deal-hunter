@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-14 15:40 UTC (data commit `9c1862f`, scrape 15:33 UTC, **scheduled cron**). All top lists unchanged since 06:45; savings move by a few dollars as the interest clock advances. The 14:43 batch of 13 "new" listings is the expected one-off from the de-dup fix (restored same-broker twins), and none of them reaches a top list.
+**Run:** 2026-10-14 17:40 UTC (data commit `9c1862f`, scrape 15:33 UTC — **no scrape since**). No new events, so all top lists are unchanged from the 15:40 review below; savings move by a few dollars as the interest clock advances.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -62,6 +62,7 @@ Dropped out: HH HHI26452 (now #4, $1,426) and SSR SS1262 (#6+).
 
 ## Scraper health
 
+- 17:40: **no Action run since 15:33** (2 h gap; last run was `schedule`, all 10 sources OK). Not a scraper failure — GitHub's cron for this repo is firing sparsely. If gaps keep exceeding ~2 h, disable/enable the `hunt` workflow or trigger it manually.
 - 15:33: **all 10 sources OK** (dvcmarket 716, dvcresalemarket 373, dvcshop 243, dvcstore 144, dvcresaleexperts 101, vacationclublife 92, dvcsales 73, dvcbyresale 26, buyandselldvc 24, magicresales 4). This was a **`schedule` run**, the cron's first firing since 10:39. It's still sparse (about hourly-to-5-hourly rather than every 15 min), but it's alive.
 - 14:37: **all 10 sources OK**; dvcshop recovered (243 raw). The scheduled cron still hasn't fired since 10:39 (4 h now); this run was again a manual dispatch.
 - 13:39: **dvcshop ok:false** (`GET failed after retries` on its WP JSON listing endpoint). That's one failed run; 12:37 was fine. The endpoint answered 200 when I checked at 13:45, so it looks transient. No DVC Shop listings were marked gone. All other 9 sources OK (dvcmarket 717 raw, dvcresalemarket 375, dvcstore 146, dvcresaleexperts 101, vacationclublife 92, dvcsales 75, dvcbyresale 26, buyandselldvc 24, magicresales 4). I'll investigate if it fails again on the next run.
@@ -77,4 +78,4 @@ Dropped out: HH HHI26452 (now #4, $1,426) and SSR SS1262 (#6+).
 
 ## Broker emails
 
-- Gmail, last 2 h: no broker alert emails (checked 15:40).
+- Gmail, last 2 h: no broker alert emails (checked 17:40).
