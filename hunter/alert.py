@@ -34,7 +34,7 @@ def message(x: dict, keys: list[str], dash: str | None) -> tuple[str, str]:
     title = f"{x['score']:.0f} · {x['resort_name']} {x['points']} pts @ ${x['ppt']:.0f}"
     lines = [f"${x['price']:,.0f} · UY {x['use_year']} · {x['source']}"]
     if p:
-        who = "both families" if p["scenario"] == "both" else "your family"
+        who = {"1br": "a 1-bedroom", "2br": "a 2-bedroom", "1br2br": "a 1BR + 2BR", "3br": "a 3BR grand villa"}.get(p["scenario"], p["scenario"])
         trip = "Sept" if p["trip"].startswith("sep") else "July"
         lines.append(f"Covers {who}, {trip} {p['nights']}n ({p['need']} pts)"
                      + (" with borrowing" if p["fit"] == "borrow" else ""))

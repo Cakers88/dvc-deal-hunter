@@ -23,7 +23,8 @@ from datetime import date, datetime, timedelta
 
 import yaml
 
-from .resorts import display, is_legacy
+from .resorts import display, is_legacy, MONTHS
+MON = [""] + [m[:3] for m in MONTHS]
 from .market_model import stripped_discount, fit as fit_market
 
 MODEL: dict = {}
@@ -279,7 +280,7 @@ def plan(d: dict, trip: dict, nights: int, scenario: dict, cfg: dict, periods, r
         exit_ppt = max(0.0, base_exit - disc)
         gross = exit_ppt * pts
         net_sale = gross * (1 - comm) - estoppel
-        net_cost = buy_total + dues_total - net_sale
+        net_ex = buy_total + dues_total - net_sale
         withheld = gross * harpta
         # cash timeline
         dep = price * A["deposit_pct"]
@@ -325,14 +326,15 @@ def plan(d: dict, trip: dict, nights: int, scenario: dict, cfg: dict, periods, r
             peak = min(peak, run_bal)
         tied_end = sale_close if not harpta else date(sale_close.year + 1, 4, 15)
         months = round((sale_close - today).days / 30.4)
+        net_cost = net_ex + opp
         savings = rent_cost - net_cost
         denom = pts * (1 - comm)
-        breakeven = ((buy_total + dues_total - rent_cost + estoppel) / denom + disc) if denom else None
+        breakeven = ((buy_total + dues_total + opp - rent_cost + estoppel) / denom + disc) if denom else None
         return {
             "key": key, "label": label, "list_on": list_on.isoformat(), "sale_close": sale_close.isoformat(),
             "discount_ppt": round(disc, 1), "exit_ppt": round(exit_ppt, 1), "gross_sale": round(gross),
             "net_sale": round(net_sale), "dues_total": round(dues_total), "dues_rows": dues_rows,
-            "net_cost": round(net_cost), "savings": round(savings),
+            "net_before_interest": round(net_ex), "net_cost": round(net_cost), "savings": round(savings),
             "savings_pct": round(100 * savings / rent_cost, 1) if rent_cost else 0,
             "breakeven_exit_ppt": round(breakeven, 1) if breakeven else None,
             "peak_cash_out": round(-peak), "months_tied": months, "opp_cost": round(opp),
@@ -375,6 +377,129 @@ def plan(d: dict, trip: dict, nights: int, scenario: dict, cfg: dict, periods, r
     }
 
 
+# ---------------------------------------------------------------- rent-out flip
+def rental_plans(d: dict, cfg: dict, rref: dict, fees: dict, today: date) -> list[dict]:
+    """Buy, rent out 1 or 2 use years of points through a broker, then resell."""
+    A, R = cfg["assumptions"], cfg["rental"]
+    pts, uy = int(d["points"]), int(d["use_year"])
+    bk = buckets(d)
+    aul = d.get("resort") == "aulani"
+    closing = today + timedelta(days=A["close_days_aulani"] if aul else A["close_days_other"])
+    cca = parse_date((d.get("extra") or {}).get("can_close_after"))
+    if cca and cca > closing:
+        closing = cca
+    ready = closing + timedelta(days=A["membership_setup_days"])
+    price = float(d.get("price") or 0)
+    ex = d.get("extra") or {}
+    closing_cost = float(ex.get("closing_cost") or ex.get("closing_costs") or A["closing_cost"])
+    caf = float(ex.get("caf") or A["caf_fee"])
+    buy_total = price + closing_cost + caf
+    rate26 = dues_rate(d, rref)
+    g = (rref.get("dues_cagr_5yr_2021_2026_pct") or A["dues_growth_pct"]) / 100
+    annual = lambda y: pts * rate26 * (1 + g) ** (y - 2026)
+    payouts = R["owner_payout_per_point"]
+    payout = float(payouts.get(d.get("resort"), payouts["default"]))
+    per_pt = R["fill_pct"] * payout + (1 - R["fill_pct"]) * R["leftover_rate"]
+    window_m = 11 if aul else 7
+    comm = A["seller_commission_pct"]
+    estoppel = float(((fees.get("seller_costs") or {}).get("disney_estoppel_fee_usd")) or 150)
+    harpta = A["harpta_pct"] if aul else 0
+    rate = A.get("opportunity_rate_pct", 4.5) / 100
+    market = float((rref.get("resale_avg_price_per_point") or {}).get("trailing_6mo_avg_2026-04_to_2026-09")
+                   or d.get("price_per_point") or 0)
+    if d.get("subsidized_dues") and aul:
+        market += 15
+    t_cur = uy_start(today, uy)
+    c_now, _, _ = bucket_points(bk, t_cur, pts)
+    n_now, _, _ = bucket_points(bk, add_months(t_cur, 12), pts)
+    loaded_equiv = float(d.get("price_per_point") or market) + stripped_discount(
+        MODEL, c_now / pts, (add_months(t_cur, 12) - today).days / 365, n_now / pts)
+    base_exit = min(loaded_equiv, market)
+
+    t0 = uy_start(ready, uy)
+    first_ok = (add_months(t0, 12) - ready).days >= R["min_lead_days"]
+    start_k = 0 if first_ok else 1
+    out = []
+    for H in R.get("horizons", [1, 2]):
+        ks = list(range(start_k, start_k + H))
+        rented, income = 0, []
+        for k in ks:
+            tk = add_months(t0, 12 * k)
+            p_k, _, assumed = bucket_points(bk, tk, pts)
+            rented += p_k
+            booked = max(ready, add_months(tk, -window_m)) + timedelta(days=R["booking_to_list_days"])
+            income.append({"date": booked, "what": f"Rent out {MON[uy]} {tk.year} points ({p_k} pts{' assumed' if assumed else ''})",
+                           "amount": p_k * per_pt})
+        last = add_months(t0, 12 * ks[-1])
+        list_on = max(ready, add_months(last, -window_m)) + timedelta(days=R["booking_to_list_days"])
+        cur_s = uy_start(list_on, uy)
+        nxt_s = add_months(cur_s, 12)
+        rented_starts = {add_months(t0, 12 * k) for k in ks}
+        cur_frac = 0.0 if cur_s in rented_starts else min(1.0, bucket_points(bk, cur_s, pts)[0] / pts)
+        nxt_frac = 0.0 if nxt_s in rented_starts else 1.0
+        disc = stripped_discount(MODEL, cur_frac, (nxt_s - list_on).days / 365, nxt_frac)
+        sale_close = list_on + timedelta(days=A["sale_marketing_days"] + A["sale_close_days"])
+        # dues while owned
+        dues_total, dues_rows = 0.0, []
+        for y in range(closing.year, sale_close.year + 1):
+            a, b = max(closing, date(y, 1, 1)), min(sale_close, date(y, 12, 31))
+            if b < a:
+                continue
+            amt = annual(y) * (((b - a).days + 1) / 365)
+            if who_pays(d.get("dues_terms"), y) == "seller" and y <= closing.year + 1:
+                amt = 0.0
+            dues_total += amt
+            dues_rows.append((y, round(amt)))
+        exit_ppt = max(0.0, base_exit - disc)
+        gross = exit_ppt * pts
+        net_sale = gross * (1 - comm) - estoppel
+        withheld = gross * harpta
+        revenue = sum(i["amount"] for i in income)
+        dep = price * A["deposit_pct"]
+        cash = [{"date": today, "what": "Offer accepted: deposit", "amount": -dep},
+                {"date": closing, "what": "Closing: balance, closing costs, Disney fee", "amount": -(price - dep + closing_cost + caf)}]
+        for y, amt in dues_rows:
+            when = closing if (y == closing.year + 1 and closing >= date(closing.year, 11, 20)) else date(y, 1, 15)
+            if y == closing.year:
+                cash.append({"date": closing, "what": f"{y} dues prorated at closing", "amount": -amt})
+            elif when >= sale_close:
+                cash.append({"date": sale_close, "what": f"{y} dues prorated to sale", "amount": -amt})
+            else:
+                cash.append({"date": when, "what": f"{y} annual dues", "amount": -annual(y)})
+                if y == sale_close.year:
+                    cash.append({"date": sale_close, "what": f"Buyer reimburses unused {y} dues", "amount": annual(y) - amt})
+        cash += income
+        cash.append({"date": list_on, "what": f"List for sale (points rented out, ~${disc:.0f}/pt discount)", "amount": 0})
+        cash.append({"date": sale_close, "what": "Sale closes: proceeds after commission" + (" and Hawaii withholding" if harpta else ""),
+                     "amount": net_sale - withheld})
+        if harpta:
+            cash.append({"date": date(sale_close.year + 1, 4, 15), "what": "Hawaii withholding refunded (est.)", "amount": withheld})
+        cash.sort(key=lambda c: c["date"])
+        bal, peak, opp, prev = 0.0, 0.0, 0.0, cash[0]["date"]
+        for c in cash:
+            if not c["amount"]:
+                continue
+            opp += max(0.0, -bal) * rate * (c["date"] - prev).days / 365
+            prev = c["date"]
+            bal += c["amount"]
+            peak = min(peak, bal)
+        profit_ex = revenue + net_sale - buy_total - dues_total
+        profit = profit_ex - opp
+        months = max(1, round((sale_close - today).days / 30.4))
+        roi = (profit / -peak) / (months / 12) * 100 if peak < 0 else 0
+        out.append({
+            "years": H, "rented": rented, "payout": payout, "per_point": round(per_pt, 2), "revenue": round(revenue),
+            "list_on": list_on.isoformat(), "sale_close": sale_close.isoformat(), "discount_ppt": round(disc, 1),
+            "exit_ppt": round(exit_ppt, 1), "net_sale": round(net_sale), "buy_total": round(buy_total),
+            "dues_total": round(dues_total), "opp_cost": round(opp), "profit_before_interest": round(profit_ex),
+            "profit": round(profit), "peak_cash_out": round(-peak), "months_tied": months, "roi_annual_pct": round(roi, 1),
+            "harpta_withheld": round(withheld), "closing_est": closing.isoformat(), "member_ready": ready.isoformat(),
+            "market_ppt": round(market, 1), "loaded_equiv_ppt": round(loaded_equiv, 1),
+            "cash": [{**c, "date": c["date"].isoformat(), "amount": round(c["amount"])} for c in cash],
+        })
+    return out
+
+
 TIMING = {"low": 10, "medium": 5, "high": 0}
 RISK = {"low": 10, "medium": 5, "high": 0}
 
@@ -405,7 +530,7 @@ def run(today: date | None = None) -> dict:
     L = json.load(open(os.path.join(ROOT, "data", "listings.json")))
     MODEL = fit_market(L["listings"], today)
     trip_w = {t["id"]: (1.0 if i == 0 else 0.9) for i, t in enumerate(cfg["trips"])}
-    sc_w = {s["id"]: (1.0 if i == len(cfg["scenarios"]) - 1 else 0.9) for i, s in enumerate(cfg["scenarios"])}
+    sc_w = {s["id"]: s.get("weight", 1.0) for s in cfg["scenarios"]}
     out = []
     for d in L["listings"]:
         if not d.get("active") or d.get("availability") != "available":
@@ -438,7 +563,13 @@ def run(today: date | None = None) -> dict:
             w = p["score"] * trip_w.get(p["trip"], 0.9) * sc_w.get(p["scenario"], 0.9)
             if w > best_score:
                 best_score, best_label = w, f"{p['trip']}/{p['nights']}n/{p['scenario']}/{p['best_exit']}"
+        try:
+            rentals = rental_plans(d, cfg, rref, fees, today)
+        except Exception as e:
+            print("rental error", d.get("uid"), e)
+            rentals = []
         out.append({
+            "rentals": rentals,
             "uid": d["uid"], "source": d["source"], "url": d.get("url"), "listing_id": d["listing_id"],
             "resort": d["resort"], "resort_name": display(d["resort"]), "points": d["points"],
             "price": d["price"], "ppt": d.get("price_per_point"), "use_year": d["use_year"],
@@ -467,6 +598,10 @@ EXIT_KEYS = ("net_cost", "savings", "savings_pct", "peak_cash_out", "months_tied
              "within_cap", "score", "discount_ppt")
 
 
+RENT_KEYS = ("years", "rented", "revenue", "profit", "profit_before_interest", "opp_cost", "peak_cash_out",
+             "months_tied", "roi_annual_pct", "list_on", "discount_ppt")
+
+
 def plan_keys() -> list[str]:
     return list(BASE_KEYS) + [f"{e}_{k}" for e in ("strip", "reload") for k in EXIT_KEYS]
 
@@ -487,13 +622,14 @@ def write_outputs(out: list[dict], cfg: dict, today: date) -> None:
     for x in out:
         fid = re.sub(r"[^A-Za-z0-9_-]", "_", x["uid"])
         keep.add(fid + ".json")
-        row = {k: v for k, v in x.items() if k not in ("plans", "history", "availability_text", "dues_terms")}
+        row = {k: v for k, v in x.items() if k not in ("plans", "rentals", "history", "availability_text", "dues_terms")}
+        row["R"] = [[r.get(k) for k in RENT_KEYS] for r in x["rentals"]]
         row["fid"] = fid
         prices = [h.get("price") for h in x.get("history") or [] if h.get("price")]
         row["prev_price"] = max(prices) if prices and max(prices) > (x["price"] or 0) else None
         row["plans"] = [summarize(p) for p in x["plans"]]
         rows.append(row)
-        detail = {k: x[k] for k in ("uid", "history", "availability_text", "dues_terms", "plans")}
+        detail = {k: x[k] for k in ("uid", "history", "availability_text", "dues_terms", "plans", "rentals")}
         with open(os.path.join(ldir, fid + ".json"), "w") as f:
             json.dump(detail, f, default=str, separators=(",", ":"))
     for fn in os.listdir(ldir):
@@ -501,6 +637,7 @@ def write_outputs(out: list[dict], cfg: dict, today: date) -> None:
             os.remove(os.path.join(ldir, fn))
     with open(os.path.join(base, "index.json"), "w") as f:
         json.dump({"today": today.isoformat(), "config": cfg, "market_model": MODEL, "plan_keys": plan_keys(),
+                   "rent_keys": RENT_KEYS,
                    "count": len(rows), "listings": rows},
                   f, default=str, separators=(",", ":"))
 

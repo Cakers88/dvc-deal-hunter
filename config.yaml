@@ -14,13 +14,24 @@ trips:
 # Scoring uses this view; the dashboard also shows the others.
 view: S
 
+# Room setups to price. weight = how much push alerts care about each.
 scenarios:
-  - id: one
-    name: "Our family (1-bedroom)"
+  - id: 1br
+    name: "1-bedroom villa"
     rooms: ["1br"]
-  - id: both
-    name: "Both families (1-bedroom + 2-bedroom)"
+    weight: 0.9
+  - id: 2br
+    name: "2-bedroom villa"
+    rooms: ["2br"]
+    weight: 1.0
+  - id: 1br2br
+    name: "1-bedroom + 2-bedroom"
     rooms: ["1br", "2br"]
+    weight: 1.0
+  - id: 3br
+    name: "3-bedroom grand villa"
+    rooms: ["3br"]
+    weight: 0.95
 
 # Only resorts whose resale points can book Aulani (the 14 legacy resorts).
 legacy_only: true
@@ -42,10 +53,32 @@ assumptions:
   sale_close_days: 75          # accepted offer -> proceeds (incl. ROFR)
   harpta_pct: 0.0725           # Hawaii withholding on non-resident sellers (Aulani only; refunded at tax filing)
   max_hold_months_after_trip: 12   # never plan to hold longer than this after the trip
-  opportunity_rate_pct: 4.5    # what tied-up cash could earn elsewhere (shown, not added to net cost)
+  opportunity_rate_pct: 4.5    # what tied-up cash could earn elsewhere; counted as a cost (adjustable on the dashboard)
   dues_growth_pct: 5.5         # default annual dues growth if resort-specific unknown
 
 alerts:
   ntfy_min_score: 75           # push for new/price-dropped listings at or above this score
   ntfy_priority_score: 85      # "urgent" priority at or above this
   max_alerts_per_run: 5
+
+# Rent-out flip: buy, rent the points through a broker, resell.
+rental:
+  owner_payout_per_point:      # what an owner nets per point from a rental broker (2026 market; less-popular resorts rent for less)
+    default: 18
+    aulani: 20
+    blt: 20
+    bcv: 20
+    bwv: 19
+    pvb: 21
+    gfv: 21
+    vgc: 21
+    ccv: 20
+    ssr: 17
+    okw: 16
+    vb: 14
+    hh: 14
+  fill_pct: 0.9               # share of points that rent at the full rate
+  leftover_rate: 12            # $/pt for points dumped close to expiring
+  min_lead_days: 60            # need at least this long before points expire to rent them
+  booking_to_list_days: 45     # time to book the rentals before listing the contract
+  horizons: [1, 2]             # use years of points to rent before selling

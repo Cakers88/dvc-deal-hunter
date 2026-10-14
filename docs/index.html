@@ -83,6 +83,11 @@ details.card summary{cursor:pointer;font-weight:600}
 .cmp td,.cmp th{padding:5px 8px}
 .help{display:inline-block;width:16px;height:16px;border-radius:50%;background:var(--line);color:var(--ink);font-size:11px;text-align:center;line-height:16px;cursor:help;margin-left:3px}
 @media (max-width:600px){.money{flex-wrap:wrap}.money .tied{width:100%}}
+.tabs{display:flex;gap:6px;margin-top:16px}
+.tabs button{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:8px 16px;cursor:pointer;font-weight:600}
+.tabs button.on{background:var(--sea-deep);color:#fff;border-color:var(--sea-deep)}
+.warnbox{background:var(--warn-bg);border-color:transparent;font-size:14px}
+.big.pos{color:var(--good)}.big.neg{color:var(--bad)}
 </style>
 </head>
 <body>
@@ -93,17 +98,27 @@ details.card summary{cursor:pointer;font-weight:600}
 </div></header>
 
 <div class="wrap">
+  <div class="tabs" id="mode"><button data-v="trip">Family trip</button><button data-v="rent">Rent-out flip</button></div>
   <div class="controls">
+    <div id="tripControls">
     <div class="row">
       <div class="seg" id="trip"></div>
       <div class="seg" id="nights"><button data-v="5">5 nights</button><button data-v="6">6 nights</button></div>
-      <div class="seg" id="who"><button data-v="one">Our family</button><button data-v="both">Both families</button></div>
     </div>
+    <div class="row" style="margin-top:8px"><div class="seg" id="room"></div></div>
     <div class="row" style="margin-top:8px">
       <div class="seg" id="exit"><button data-v="best">Cheapest exit</button><button data-v="strip">Sell right after trip</button><button data-v="reload">Sell when reloaded</button></div>
     </div>
+    </div>
+    <div id="rentControls" class="row" style="display:none">
+      <div class="seg" id="horizon"><button data-v="1">Rent 1 year of points</button><button data-v="2">Rent 2 years</button></div>
+      <select id="rsort"><option value="profit">Sort: profit</option><option value="roi">Sort: yearly return</option><option value="tied">Sort: least cash tied up</option></select>
+      <label class="chk"><input type="checkbox" id="profitonly" checked>Profitable only</label>
+    </div>
     <div class="row" style="margin-top:8px">
       <select id="resort"><option value="">All legacy resorts</option></select>
+      <label class="chk">Interest on tied-up cash <input type="number" id="rate" step="0.25" min="0" max="15" style="width:70px">%</label>
+      <span id="tripOnly" style="display:contents">
       <select id="sort">
         <option value="score">Sort: score</option>
         <option value="savings">Sort: savings vs renting</option>
@@ -117,8 +132,12 @@ details.card summary{cursor:pointer;font-weight:600}
       <label class="chk"><input type="checkbox" id="noborrow">No borrowing</label>
       <label class="chk"><input type="checkbox" id="norofr">Hide high ROFR risk</label>
       <label class="chk"><input type="checkbox" id="fresh">New / dropped (48h)</label>
+      </span>
       <span class="count" id="count"></span>
     </div>
+  </div>
+  <div class="card warnbox" id="renthelp" style="display:none;margin-top:12px">
+    <b>Before renting out points:</b> Disney allows renting "on occasion" but bans frequent or regular renting. Its commercial-use policy (updated March 31, 2026) flags owners with 20+ reservations a year or reservations mostly used by non-owners, and can cancel reservations or restrict booking. In September 2026 it also ended "walking" reservations at the 11-month window. One contract rented through a broker for a year or two is typically a handful of reservations, but buying contracts mainly to rent them is the pattern Disney is targeting. Treat these profits as optimistic.
   </div>
   <div class="list" id="list"></div>
 
@@ -144,28 +163,36 @@ details.card summary{cursor:pointer;font-weight:600}
 
 <script>
 const $=s=>document.querySelector(s);
-const fmt=n=>n==null?'—':'$'+Math.round(n).toLocaleString();
-const fk=n=>n==null?'—':(Math.abs(n)>=1000?'$'+(n/1000).toFixed(n>=10000?0:1)+'K':fmt(n));
+const fmt=n=>n==null?'—':(n<0?'−':'')+'$'+Math.abs(Math.round(n)).toLocaleString();
+const fk=n=>n==null?'—':(Math.abs(n)>=1000?'$'+(n/1000).toFixed(Math.abs(n)>=10000?0:1)+'K':fmt(n));
 const fdate=s=>{if(!s)return'—';const d=new Date(String(s).slice(0,10)+'T12:00:00');return d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})};
 const MON=['','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 const RISK={low:'good',medium:'warn',high:'bad'};
 const EXITNAME={strip:'sell right after the trip',reload:'sell when points reload'};
 const SRC={dvcresalemarket:'DVC Resale Market',dvcstore:'The DVC Store',dvcshop:'DVC Shop',dvcresaleexperts:'DVC Resale Experts',dvcsales:'DVCSales.com',dvcmarket:'DVC Market',vacationclublife:'Vacation Club Life',buyandselldvc:'Buy and Sell DVC',dvcbyresale:'DVC by Resale',magicresales:'Magic Resales'};
-let D,H,KEYS,state=load();
-function load(){try{return JSON.parse(localStorage.getItem('dvc-state2'))||{}}catch(e){return{}}}
-function save(){try{localStorage.setItem('dvc-state2',JSON.stringify(state))}catch(e){}}
+let D,H,KEYS,RK,BASE,state=load();
+function load(){try{return JSON.parse(localStorage.getItem('dvc-state3'))||{}}catch(e){return{}}}
+function save(){try{localStorage.setItem('dvc-state3',JSON.stringify(state))}catch(e){}}
+// interest on tied-up cash is computed at the configured rate; rescale linearly for the rate you type
+const rk=()=>(+state.rate||0)/BASE;
+const adjNet=(net,opp)=>net-opp+opp*rk();
+const adjProfit=(p,opp)=>p+opp-opp*rk();
 
 async function init(){
   try{[D,H]=await Promise.all([fetch('data/index.json').then(r=>r.json()),fetch('data/health.json').then(r=>r.json()).catch(()=>null)])}
   catch(e){$('#sub').textContent='Could not load data yet — the first run may still be in progress.';return}
-  KEYS=D.plan_keys;
-  D.listings.forEach(x=>x.P=x.plans.map(p=>Object.fromEntries(KEYS.map((k,i)=>[k,p[i]]))));
+  KEYS=D.plan_keys; RK=D.rent_keys; BASE=D.config.assumptions.opportunity_rate_pct;
+  D.listings.forEach(x=>{x.P=x.plans.map(p=>Object.fromEntries(KEYS.map((k,i)=>[k,p[i]])));x.RR=(x.R||[]).map(r=>Object.fromEntries(RK.map((k,i)=>[k,r[i]])))});
+  const sc=D.config.scenarios;
+  if(!sc.find(s=>s.id===state.room))state.room=(sc.find(s=>s.id==='1br2br')||sc[0]).id;
   state.trip=state.trip||D.config.trips[0].id; state.nights=state.nights||Math.max(...D.config.trips[0].nights);
-  state.who=state.who||'both'; state.exit=state.exit||'best';
+  state.exit=state.exit||'best'; state.mode=state.mode||'trip'; state.horizon=state.horizon||1;
+  if(state.rate==null)state.rate=BASE;
   $('#trip').innerHTML=D.config.trips.map(t=>`<button data-v="${t.id}">${t.name}</button>`).join('');
+  $('#room').innerHTML=sc.map(s=>`<button data-v="${s.id}">${s.name}</button>`).join('');
   $('#resort').innerHTML+=[...new Set(D.listings.map(x=>x.resort_name))].sort().map(r=>`<option>${r}</option>`).join('');
-  for(const id of ['trip','nights','who','exit'])$('#'+id).onclick=e=>{const b=e.target.closest('button');if(!b)return;state[id]=id==='nights'?+b.dataset.v:b.dataset.v;save();render()};
-  for(const id of ['resort','sort','maxprice','fitonly','noborrow','norofr','fresh']){
+  for(const id of ['mode','trip','nights','room','exit','horizon'])$('#'+id).onclick=e=>{const b=e.target.closest('button');if(!b)return;state[id]=['nights','horizon'].includes(id)?+b.dataset.v:b.dataset.v;save();render()};
+  for(const id of ['resort','sort','rsort','maxprice','fitonly','noborrow','norofr','fresh','profitonly','rate']){
     const el=$('#'+id); if(state[id]!=null){el.type==='checkbox'?el.checked=state[id]:el.value=state[id]}
     el.onchange=()=>{state[id]=el.type==='checkbox'?el.checked:el.value;save();render()};
   }
@@ -175,23 +202,37 @@ async function init(){
     (H.events?`<span class="pill">last check: ${H.events.new} new · ${H.events.price_change} price changes · ${H.events.gone} gone</span>`:'')}
   market(); method(); render();
 }
-// the plan for the current trip/nights/family, flattened for the chosen exit
 function sel(x){
-  const p=x.P.find(q=>q.trip===state.trip&&q.nights===state.nights&&q.scenario===state.who); if(!p)return null;
-  const e=state.exit==='best'?p.best_exit:state.exit;
-  const g=k=>p[e+'_'+k];
-  return {...p,exit:e,net:g('net_cost'),sav:g('savings'),savpct:g('savings_pct'),peak:g('peak_cash_out'),months:g('months_tied'),
-          opp:g('opp_cost'),list:g('list_on'),cap:g('within_cap'),score:g('score'),disc:g('discount_ppt')};
+  const p=x.P.find(q=>q.trip===state.trip&&q.nights===state.nights&&q.scenario===state.room); if(!p)return null;
+  let e=state.exit;
+  if(e==='best'){ // cheapest exit at the interest rate you've set, within the hold limit
+    const ns=adjNet(p.strip_net_cost,p.strip_opp_cost), nr=adjNet(p.reload_net_cost,p.reload_opp_cost);
+    e=(p.reload_within_cap&&nr<ns)?'reload':'strip';
+  }
+  const g=k=>p[e+'_'+k], net=adjNet(g('net_cost'),g('opp_cost'));
+  return {...p,exit:e,net,sav:p.rent_cost-net,peak:g('peak_cash_out'),months:g('months_tied'),
+          opp:g('opp_cost')*rk(),cap:g('within_cap'),score:g('score'),disc:g('discount_ppt')};
 }
 function isNew(x){return Date.now()-new Date(x.first_seen).getTime()<48*3600e3}
+function commonFilter(rows){
+  const rs=$('#resort').value; if(rs)rows=rows.filter(r=>r.x.resort_name===rs);
+  return rows;
+}
 function render(){
-  for(const id of ['trip','nights','who','exit'])$('#'+id).querySelectorAll('button').forEach(b=>b.classList.toggle('on',String(state[id])===b.dataset.v));
+  for(const id of ['mode','trip','nights','room','exit','horizon'])$('#'+id).querySelectorAll('button').forEach(b=>b.classList.toggle('on',String(state[id])===b.dataset.v));
+  const rent=state.mode==='rent';
+  $('#tripControls').style.display=rent?'none':''; $('#tripOnly').style.display=rent?'none':'contents';
+  $('#rentControls').style.display=rent?'flex':'none';
+  $('#renthelp').style.display=rent?'':'none';
+  rent?renderRent():renderTrip();
+}
+function renderTrip(){
   let rows=D.listings.map(x=>({x,p:sel(x)})).filter(r=>r.p);
   if($('#fitonly').checked)rows=rows.filter(r=>r.p.fit!=='no');
   if($('#noborrow').checked)rows=rows.filter(r=>r.p.fit==='yes');
   if($('#norofr').checked)rows=rows.filter(r=>r.x.rofr!=='high');
   if($('#fresh').checked)rows=rows.filter(r=>isNew(r.x)||r.x.prev_price);
-  const rs=$('#resort').value; if(rs)rows=rows.filter(r=>r.x.resort_name===rs);
+  rows=commonFilter(rows);
   const mp=+$('#maxprice').value; if(mp)rows=rows.filter(r=>r.x.price<=mp);
   const no=r=>r.p.fit==='no';
   const key={score:r=>-r.p.score,savings:r=>no(r)?1e9:-r.p.sav,net:r=>no(r)?1e9:r.p.net,tied:r=>no(r)?1e9:r.p.peak,ppt:r=>r.x.ppt,new:r=>-new Date(r.x.first_seen)}[$('#sort').value];
@@ -200,34 +241,51 @@ function render(){
   $('#list').innerHTML=rows.slice(0,150).map(card).join('')||'<div class="empty">Nothing matches these filters right now.</div>';
   $('#list').querySelectorAll('.top').forEach(t=>t.onclick=()=>toggle(t.parentElement));
 }
+function rsel(x){const r=x.RR.find(q=>q.years===state.horizon);if(!r)return null;const profit=adjProfit(r.profit,r.opp_cost);
+  return {...r,profit,opp:r.opp_cost*rk(),roi:r.peak_cash_out?profit/r.peak_cash_out/(r.months_tied/12)*100:0}}
+function renderRent(){
+  let rows=D.listings.map(x=>({x,r:rsel(x)})).filter(o=>o.r&&o.r.rented>0);
+  if($('#profitonly').checked)rows=rows.filter(o=>o.r.profit>0);
+  rows=commonFilter(rows);
+  const key={profit:o=>-o.r.profit,roi:o=>-o.r.roi,tied:o=>o.r.peak_cash_out}[$('#rsort').value];
+  rows.sort((a,b)=>key(a)-key(b));
+  $('#count').textContent=`${rows.length} shown`;
+  $('#list').innerHTML=rows.slice(0,150).map(rcard).join('')||'<div class="empty">No contract makes money renting out right now at these settings.</div>';
+  $('#list').querySelectorAll('.top').forEach(t=>t.onclick=()=>toggle(t.parentElement));
+}
 function links(x){
   const out=[`<a href="${x.url}" target="_blank" rel="noopener">View on ${SRC[x.source]||x.source} ↗</a>`];
   if(x.broker_url&&x.broker_url!==x.url)out.push(`<a href="${x.broker_url}" target="_blank" rel="noopener">Original listing at ${esc(x.broker||'broker')} ↗</a>`);
   return `<div class="links">${out.join('')}</div>`;
 }
+function head(x,scoreHtml,tags,money){
+  return `<div class="card" data-fid="${x.fid}"><div class="top">${scoreHtml}
+    <div><div class="ttl">${x.resort_name} · ${x.points} pts · $${x.ppt}/pt</div>
+     <div class="meta">${fmt(x.price)} · ${MON[x.use_year]} use year · ${x.listing_id}</div>
+     <div class="tags">${tags.join('')}</div></div>${money}</div>${links(x)}<div class="detail"></div></div>`;
+}
+function baseTags(x){const t=[];if(isNew(x))t.push('<span class="tag new">New</span>');if(x.prev_price)t.push(`<span class="tag new">Dropped from ${fmt(x.prev_price)}</span>`);
+  if(x.subsidized)t.push('<span class="tag">Subsidized dues</span>');if(x.aggregator_only)t.push('<span class="tag warn">Only on aggregator</span>');return t}
 function card({x,p}){
   const sc=p.score||0, cls=sc>=80?'':sc>=65?'s2':'s3';
   const fit=p.fit==='yes'?'<span class="tag good">Covers it</span>':p.fit==='borrow'?`<span class="tag warn">Covers with ${p.borrow} borrowed</span>`:'<span class="tag bad">Not enough points</span>';
-  const tags=[fit,`<span class="tag ${RISK[p.booking_risk]}">Book ${fdate(p.book_on)}</span>`,
+  const tags=[...baseTags(x),fit,`<span class="tag ${RISK[p.booking_risk]}">Book ${fdate(p.book_on)}</span>`,
     `<span class="tag ${RISK[x.rofr]}" title="Disney's right of first refusal: ${esc(x.rofr_why)}">ROFR ${x.rofr}</span>`,
     `<span class="tag">${EXITNAME[p.exit]}</span>`];
-  if(isNew(x))tags.unshift('<span class="tag new">New</span>');
-  if(x.prev_price)tags.unshift(`<span class="tag new">Dropped from ${fmt(x.prev_price)}</span>`);
-  if(x.subsidized)tags.push('<span class="tag">Subsidized dues</span>');
-  if(x.aggregator_only)tags.push('<span class="tag warn">Only on aggregator</span>');
-  if(p.exit==='reload'&&!p.cap)tags.push('<span class="tag warn">Hold beyond your 12-mo limit</span>');
+  if(p.exit==='reload'&&!p.cap)tags.push('<span class="tag warn">Hold beyond your limit</span>');
   const money=p.fit==='no'?'<div class="money"><div class="big">—</div><div class="small">doesn\'t cover this trip</div></div>':
    `<div class="money"><div><div class="big">${fmt(p.net)}</div><div class="small">net cost after resale</div></div>
     <div><div class="small ${p.sav>=0?'pos':'neg'}">${p.sav>=0?'saves':'costs'} ${fmt(Math.abs(p.sav))} vs renting</div>
-    <div class="tied">${fk(p.peak)} tied up for ~${p.months} mo<br>(≈${fk(p.opp)} it could have earned)</div></div></div>`;
-  return `<div class="card" data-fid="${x.fid}">
-   <div class="top">
-    <div class="score ${cls}">${Math.round(sc)}</div>
-    <div><div class="ttl">${x.resort_name} · ${x.points} pts · $${x.ppt}/pt</div>
-     <div class="meta">${fmt(x.price)} · ${MON[x.use_year]} use year · ${x.listing_id}</div>
-     <div class="tags">${tags.join('')}</div></div>
-    ${money}
-   </div>${links(x)}<div class="detail"></div></div>`;
+    <div class="tied">${fk(p.peak)} tied up for ~${p.months} mo<br>(${fk(p.opp)} lost interest, included)</div></div></div>`;
+  return head(x,`<div class="score ${cls}">${Math.round(sc)}</div>`,tags,money);
+}
+function rcard({x,r}){
+  const tags=[...baseTags(x),`<span class="tag">${r.rented} pts rented</span>`,`<span class="tag">list ${fdate(r.list_on)}</span>`,
+    `<span class="tag ${RISK[x.rofr]}" title="Disney's right of first refusal: ${esc(x.rofr_why)}">ROFR ${x.rofr}</span>`];
+  const roi=Math.round(r.roi), cls=roi>=20?'':roi>=8?'s2':'s3';
+  const money=`<div class="money"><div><div class="big ${r.profit>=0?'pos':'neg'}">${fmt(r.profit)}</div><div class="small">profit after interest</div></div>
+    <div><div class="small">${fmt(r.revenue)} rental income</div><div class="tied">${fk(r.peak_cash_out)} tied up ~${r.months_tied} mo<br>(${fk(r.opp)} lost interest, included)</div></div></div>`;
+  return head(x,`<div class="score ${cls}" title="Yearly return on cash tied up">${roi}%</div>`,tags,money);
 }
 async function toggle(c){
   c.classList.toggle('open'); const det=c.querySelector('.detail');
@@ -235,33 +293,35 @@ async function toggle(c){
   det.innerHTML='Loading…';
   const x=D.listings.find(l=>l.fid===c.dataset.fid);
   const L=await fetch(`data/l/${x.fid}.json`).then(r=>r.json());
-  const p=L.plans.find(q=>q.trip===state.trip&&q.nights===state.nights&&q.scenario===state.who);
+  if(state.mode==='rent'){det.innerHTML=rdetail(x,L);return}
+  const p=L.plans.find(q=>q.trip===state.trip&&q.nights===state.nights&&q.scenario===state.room);
   det.innerHTML=detail(x,L,p);
 }
-function cmpTable(p){
-  const ex=p.exits, cur=state.exit==='best'?p.best_exit:state.exit;
+function cashTable(cash){return `<table>${cash.map(c=>`<tr><td style="white-space:nowrap;padding-right:8px">${fdate(c.date)}</td><td>${esc(c.what)}</td><td class="r ${c.amount>0?'pos':''}">${c.amount?(c.amount>0?'+':'−')+'$'+Math.abs(c.amount).toLocaleString():''}</td></tr>`).join('')}</table>`}
+function cmpTable(p,cur){
+  const ex=p.exits;
+  const net=e=>adjNet(e.net_cost,e.opp_cost);
   const row=(lbl,f)=>`<tr><td>${lbl}</td>${['strip','reload'].map(k=>`<td class="r ${k===cur?'sel':''}">${f(ex[k])}</td>`).join('')}</tr>`;
-  return `<table class="cmp"><tr><th></th>${['strip','reload'].map(k=>`<th class="r ${k===cur?'sel':''}">${k==='strip'?'Sell right after trip':'Sell when points reload'}${k===p.best_exit?' ✓':''}</th>`).join('')}</tr>
+  return `<table class="cmp"><tr><th></th>${['strip','reload'].map(k=>`<th class="r ${k===cur?'sel':''}">${k==='strip'?'Sell right after trip':'Sell when points reload'}</th>`).join('')}</tr>
    ${row('List for sale',e=>fdate(e.list_on)+(e.within_cap?'':' ⚠'))}
    ${row('Money back',e=>fdate(e.sale_close))}
    ${row('Discount for missing points',e=>e.discount_ppt?'−$'+e.discount_ppt+'/pt':'none')}
    ${row('Expected resale',e=>'$'+e.exit_ppt+'/pt')}
    ${row('Sale after commission',e=>fmt(e.net_sale))}
    ${row('Dues while you own it',e=>fmt(e.dues_total))}
-   ${row('<b>Net cost of the trip</b>',e=>'<b>'+fmt(e.net_cost)+'</b>')}
-   ${row('vs renting '+fmt(p.rent_cost),e=>`<span class="${e.savings>=0?'pos':'neg'}">${e.savings>=0?'saves ':'costs '}${fmt(Math.abs(e.savings))}</span>`)}
+   ${row(`Lost interest at ${state.rate}%`,e=>fmt(e.opp_cost*rk()))}
+   ${row('<b>Net cost of the trip</b>',e=>'<b>'+fmt(net(e))+'</b>')}
+   ${row('vs renting '+fmt(p.rent_cost),e=>{const s=p.rent_cost-net(e);return `<span class="${s>=0?'pos':'neg'}">${s>=0?'saves ':'costs '}${fmt(Math.abs(s))}</span>`})}
    ${row('Most cash out at once',e=>fmt(e.peak_cash_out))}
    ${row('Months until money is back',e=>'~'+e.months_tied)}
-   ${row(`What that cash could earn (${D.config.assumptions.opportunity_rate_pct}%)`,e=>fmt(e.opp_cost))}
-   ${row('Break-even resale price',e=>'$'+e.breakeven_exit_ppt+'/pt')}
    ${row('Score',e=>e.score)}</table>
-   <div class="note">✓ = cheaper of the two within your ${D.config.assumptions.max_hold_months_after_trip}-month hold limit${ex.reload.within_cap?'':' (⚠ waiting for a reload goes past it, so it isn\'t picked)'}. Missing-point discounts come from the market model below: buyers currently knock off ~$${D.market_model.per_year_missing_current}/pt for each year until points reload and ~$${D.market_model.missing_next}/pt more if next year's points were borrowed.</div>`;
+   <div class="note">Highlighted column = the exit shown on the card. Waiting is only picked if it's cheaper and listing stays within your ${D.config.assumptions.max_hold_months_after_trip}-month hold limit${ex.reload.within_cap?'':' (⚠ it doesn\'t here)'}. Missing-point discounts come from the market model at the bottom of the page.</div>`;
 }
 function detail(x,L,p){
-  const e=p.exits[state.exit==='best'?p.best_exit:state.exit];
+  const cur=sel(x).exit, e=p.exits[cur];
   const pa=(x.points_available||[]).map(b=>`${MON[+b.uy.slice(5)]} ${b.uy.slice(0,4)}: ${b.points}${b.banked?` (${b.banked} banked in)`:''}`).join(' · ')||'not listed';
   const pts=`<div class="box"><h3>Points for this stay</h3><table>
-   <tr><td>Stay needs (${p.view}-view, ${p.periods.join(', ')})</td><td class="r">${p.need}</td></tr>
+   <tr><td>${esc(p.scenario_name)}, ${p.nights} nights (${p.view}-view, ${p.periods.join(', ')})</td><td class="r">${p.need}</td></tr>
    <tr><td>Use year holding the stay (starts ${fdate(p.uy_start)})</td><td class="r">${p.cur}${p.cur_assumed?'*':''}</td></tr>
    <tr><td>Bankable from prior year ${p.bankable?`(bank by ${fdate(p.bank_deadline)})`:''}</td><td class="r">${p.bankable}</td></tr>
    <tr><td>Usable without borrowing</td><td class="r"><b>${p.usable_no_borrow}</b></td></tr>
@@ -279,12 +339,33 @@ function detail(x,L,p){
    <div class="note">Resale baseline: lower of what you'd pay ($${p.loaded_equiv_ppt}/pt with full points) and the resort's recent average sale ($${p.market_ppt}/pt).${e.harpta_withheld?` Hawaii holds back ${fmt(e.harpta_withheld)} at sale until you file a Hawaii return.`:''}</div>
    <div class="note">ROFR ${x.rofr}: ${esc(x.rofr_why)}</div>
    ${L.dues_terms?`<div class="note">Dues terms: ${esc(L.dues_terms).slice(0,300)}</div>`:''}</div>`;
-  const cmp=`<div class="box" style="grid-column:1/-1"><h3>Two ways to sell it</h3>${cmpTable(p)}</div>`;
-  const cash=`<div class="box" style="grid-column:1/-1"><h3>Money in and out — ${EXITNAME[e.key]}</h3><table>${e.cash.map(c=>`<tr><td style="white-space:nowrap;padding-right:8px">${fdate(c.date)}</td><td>${esc(c.what)}</td><td class="r ${c.amount>0?'pos':''}">${c.amount?(c.amount>0?'+':'−')+fmt(Math.abs(c.amount)):''}</td></tr>`).join('')}</table></div>`;
-  const all=`<div class="box" style="grid-column:1/-1"><h3>Every trip option (cheapest exit)</h3><table class="plans"><tr><th>Trip</th><th>Who</th><th class="r">Needs</th><th>Fits</th><th class="r">Net cost</th><th class="r">vs rent</th><th class="r">Score</th></tr>${
-   L.plans.map(q=>{const b=q.exits[q.best_exit];return `<tr class="${q===p?'sel':''}"><td>${q.trip_name} ${q.nights}n</td><td>${q.scenario==='both'?'Both':'Ours'}</td><td class="r">${q.need}</td><td>${q.fit==='yes'?'✓':q.fit==='borrow'?'borrow '+q.borrow:'✗'}</td><td class="r">${q.fit==='no'?'—':fmt(b.net_cost)}</td><td class="r ${b.savings>=0?'pos':'neg'}">${q.fit==='no'?'':(b.savings>=0?'+':'−')+fmt(Math.abs(b.savings))}</td><td class="r">${b.score}</td></tr>`}).join('')}</table>
+  const cmp=`<div class="box" style="grid-column:1/-1"><h3>Two ways to sell it</h3>${cmpTable(p,cur)}</div>`;
+  const cash=`<div class="box" style="grid-column:1/-1"><h3>Money in and out — ${EXITNAME[cur]}</h3>${cashTable(e.cash)}</div>`;
+  const all=`<div class="box" style="grid-column:1/-1"><h3>Every trip option (cheapest exit)</h3><table class="plans"><tr><th>Trip</th><th>Rooms</th><th class="r">Needs</th><th>Fits</th><th class="r">Net cost</th><th class="r">vs rent</th><th class="r">Score</th></tr>${
+   L.plans.map(q=>{const b=q.exits[q.best_exit],n=adjNet(b.net_cost,b.opp_cost),s=q.rent_cost-n;return `<tr class="${q===p?'sel':''}"><td>${q.trip_name} ${q.nights}n</td><td>${esc(q.scenario_name)}</td><td class="r">${q.need}</td><td>${q.fit==='yes'?'✓':q.fit==='borrow'?'borrow '+q.borrow:'✗'}</td><td class="r">${q.fit==='no'?'—':fmt(n)}</td><td class="r ${s>=0?'pos':'neg'}">${q.fit==='no'?'':(s>=0?'+':'−')+fmt(Math.abs(s))}</td><td class="r">${b.score}</td></tr>`}).join('')}</table>
    <div class="note">Price history: ${(L.history||[]).map(h=>`${fdate(h.t)} ${h.price?fmt(h.price):''} ${h.availability||''}`).join(' → ')} · first seen ${fdate(x.first_seen)}${x.date_listed?` · listed ${fdate(x.date_listed)}`:''}${x.expiration?` · deed to ${x.expiration}`:''}</div></div>`;
   return `<div class="grid">${pts}${buy}${cmp}${cash}${all}</div>`;
+}
+function rdetail(x,L){
+  const rs=L.rentals||[], cur=rs.find(r=>r.years===state.horizon)||rs[0];
+  const pr=r=>adjProfit(r.profit,r.opp_cost);
+  const row=(lbl,f)=>`<tr><td>${lbl}</td>${rs.map(r=>`<td class="r ${r===cur?'sel':''}">${f(r)}</td>`).join('')}</tr>`;
+  const cmp=`<div class="box" style="grid-column:1/-1"><h3>Rent then sell</h3><table class="cmp"><tr><th></th>${rs.map(r=>`<th class="r ${r===cur?'sel':''}">Rent ${r.years} year${r.years>1?'s':''} of points</th>`).join('')}</tr>
+   ${row('Points rented',r=>r.rented)}
+   ${row('Rental income',r=>fmt(r.revenue)+` <span class="note">(~$${r.per_point}/pt)</span>`)}
+   ${row('Buy (price + closing + Disney fee)',r=>fmt(-r.buy_total))}
+   ${row('Dues while you own it',r=>fmt(-r.dues_total))}
+   ${row('Sale after commission',r=>fmt(r.net_sale)+` <span class="note">($${r.exit_ppt}/pt)</span>`)}
+   ${row('Discount for missing points',r=>r.discount_ppt?'−$'+r.discount_ppt+'/pt':'none')}
+   ${row(`Lost interest at ${state.rate}%`,r=>fmt(-r.opp_cost*rk()))}
+   ${row('<b>Profit</b>',r=>`<b class="${pr(r)>=0?'pos':'neg'}">${fmt(pr(r))}</b>`)}
+   ${row('Most cash out at once',r=>fmt(r.peak_cash_out))}
+   ${row('Months until money is back',r=>'~'+r.months_tied)}
+   ${row('Yearly return on that cash',r=>(r.peak_cash_out?(pr(r)/r.peak_cash_out/(r.months_tied/12)*100).toFixed(1):'0')+'%')}
+   ${row('List for sale',r=>fdate(r.list_on))}</table>
+   <div class="note">Owner payout assumed $${cur.payout}/pt for ${(D.config.rental.fill_pct*100).toFixed(0)}% of points and $${D.config.rental.leftover_rate}/pt for the rest (last-minute). Resale baseline: lower of what you'd pay ($${cur.loaded_equiv_ppt}/pt with full points) and the recent average sale ($${cur.market_ppt}/pt).${cur.harpta_withheld?` Hawaii holds back ${fmt(cur.harpta_withheld)} at sale until tax time.`:''}</div></div>`;
+  const cash=`<div class="box" style="grid-column:1/-1"><h3>Money in and out — rent ${cur.years} year${cur.years>1?'s':''}</h3>${cashTable(cur.cash)}</div>`;
+  return `<div class="grid">${cmp}${cash}</div>`;
 }
 function esc(s){return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
 function market(){
@@ -294,19 +375,18 @@ function market(){
   $('#market').innerHTML='<tr><th>Resort</th><th class="r">Available</th><th class="r">Median $/pt</th><th class="r">Lowest</th><th class="r">High ROFR</th></tr>'+
     Object.entries(by).sort((a,b)=>b[1].length-a[1].length).map(([r,a])=>`<tr><td>${r}</td><td class="r">${a.length}</td><td class="r">$${med(a.map(x=>x.ppt))}</td><td class="r">$${Math.min(...a.map(x=>x.ppt))}</td><td class="r">${a.filter(x=>x.rofr==='high').length}</td></tr>`).join('');
   const m=D.market_model;
-  $('#marketnote').innerHTML=`<b>Stripped vs. loaded pricing</b> (fitted today from ${m.n} live and under-contract listings${m.fallback?', using defaults — not enough data':''}): buyers pay about <b>$${m.per_year_missing_current}/pt less for each year</b> they'd wait for the current year's points to reload (±${m.se?m.se.per_year_missing_current:'?'}), about <b>$${m.missing_next}/pt less</b> when next year's points are also gone (±${m.se?m.se.missing_next:'?'}), and accepted offers sit about $${m.accepted_below_ask}/pt below asking. Smaller contracts sell for more per point. Based on asking prices, so treat it as a guide, not a guarantee.`;
+  $('#marketnote').innerHTML=`<b>Stripped vs. loaded pricing</b> (fitted today from ${m.n} live and under-contract listings${m.fallback?', using defaults — not enough data':''}): buyers pay about <b>$${m.per_year_missing_current}/pt less for each year</b> they'd wait for the current year's points to reload (±${m.se?m.se.per_year_missing_current:'?'}), about <b>$${m.missing_next}/pt less</b> when next year's points are also gone (±${m.se?m.se.missing_next:'?'}), and accepted offers sit about $${m.accepted_below_ask}/pt below asking. Based on asking prices, so treat it as a guide, not a guarantee.`;
 }
 function method(){
   const a=D.config.assumptions;
-  $('#method').innerHTML=`<p><b>Score (0–100)</b> follows the trip, nights, family and exit you've selected: covers the stay (35, or 28 if it needs borrowing), savings vs renting (35), booking timing (10), ROFR risk (10), data completeness (6), freshness (4). Push alerts use each contract's best combination, with September and both families weighted highest.</p>
-  <p><b>Points needed</b> come from Disney's official 2027 Aulani chart (${D.config.view}-view). Sept 5–Oct 9 is the cheapest season; late June–Aug 8 the most expensive.</p>
-  <p><b>Usable points</b>: points in the use year containing check-in, plus last year's points if you'd own the contract before the banking deadline (8 months into that use year). Points above the annual allotment are treated as already banked. Borrowing next year's points is flagged because it leaves the contract stripped when you sell.</p>
-  <p><b>Booking</b>: Aulani contracts book at 11 months, other legacy resorts at 7. Closing is estimated at ${a.close_days_aulani} days (Aulani) or ${a.close_days_other} days (others), plus ${a.membership_setup_days} days for the points to appear.</p>
-  <p><b>Resale price</b>: the lower of what you'd pay (adjusted to a full-points equivalent) and the resort's average actual sale price over the last 6 months (DVC Resale Market's monthly sold-price reports). Then the missing-points discount from the market model if you sell stripped. ${Math.round(a.seller_commission_pct*100)}% commission plus Disney's $150 estoppel fee. Hawaii withholds ${(a.harpta_pct*100).toFixed(2)}% of Aulani sale proceeds until you file a Hawaii return (shown in the cash timeline, not a cost).</p>
-  <p><b>Exits</b>: "right after the trip" lists a week after checkout. "When points reload" lists the day the next full year of points arrives (two years out if you borrowed). Holds longer than ${a.max_hold_months_after_trip} months after the trip are never picked as the cheapest exit.</p>
+  $('#method').innerHTML=`<p><b>Score (0–100)</b> follows the trip, nights, rooms and exit you've selected: covers the stay (35, or 28 with borrowing), savings vs renting after interest (35), booking timing (10), ROFR risk (10), data completeness (6), freshness (4). Scores use ${a.opportunity_rate_pct}% interest; changing the rate box updates the dollar figures and sorting, not the score. Push alerts use each contract's best combination.</p>
+  <p><b>Room setups</b> use Disney's official 2027 Aulani chart (${D.config.view}-view). 1-bedroom sleeps 5, 2-bedroom 9, 3-bedroom grand villa 12. Sept 5–Oct 9 is the cheapest season; late June–Aug 8 the most expensive.</p>
+  <p><b>Usable points</b>: points in the use year containing check-in, plus last year's points if you'd own the contract before the banking deadline (8 months into that use year). Points above the annual allotment are treated as already banked. Borrowing is flagged because it leaves the contract stripped when you sell.</p>
+  <p><b>Booking</b>: Aulani contracts book at 11 months, other legacy resorts at 7. Closing ~${a.close_days_aulani} days (Aulani) or ~${a.close_days_other} days (others) plus ${a.membership_setup_days} days for points to appear.</p>
+  <p><b>Resale price</b>: the lower of what you'd pay (adjusted to a full-points equivalent) and the resort's average actual sale price over the last 6 months, minus the missing-points discount from the market model if you sell stripped. ${Math.round(a.seller_commission_pct*100)}% commission plus Disney's $150 estoppel fee. Hawaii withholds ${(a.harpta_pct*100).toFixed(2)}% of Aulani sale proceeds until you file a Hawaii return.</p>
+  <p><b>Lost interest</b>: every dollar out of your pocket (deposit, closing, dues) is charged ${a.opportunity_rate_pct}% a year until the money comes back, and it's included in net cost and profit. It's a fixed assumption you can change with the rate box (e.g. your savings or T-bill rate).</p>
   <p><b>Dues</b>: listing's rate (or the resort's 2026 rate) grown at the resort's 5-year trend, prorated by calendar year while you own it; years the broker says the seller pays are excluded.</p>
-  <p><b>Money tied up</b>: the most cash you're out at any point (deposit, closing, dues) and how many months until the sale proceeds come back. "Could have earned" assumes ${a.opportunity_rate_pct}% a year on that cash; it's shown, not added to the net cost.</p>
-  <p><b>Renting comparison</b>: $${a.rent_rate_per_point}/pt. Hawaii's occupancy tax (~$0.82/pt) is paid either way so it's left out.</p>`;
+  <p><b>Rent-out flip</b>: rents the next 1 or 2 use years of points through a broker (owner payout per resort in the settings; less-popular resorts rent for less), books them as soon as the booking window allows, then lists the contract stripped. Points with under ${D.config.rental.min_lead_days} days left when you'd own them are treated as lost.</p>`;
 }
 init();
 </script>
