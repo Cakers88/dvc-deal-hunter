@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-14 09:40 UTC (data commit `dfaa463`, scrape 09:37 UTC — another manual dispatch; the schedule still hasn't fired). All top lists unchanged since 06:45; savings move by a few dollars as the interest clock advances.
+**Run:** 2026-10-14 11:40 UTC (data commit `22b6296`, scrape 11:36 UTC, manual dispatch). All top lists unchanged since 06:45; savings move by a few dollars as the interest clock advances.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,7 @@ Dropped out: HH HHI26452 (now #4, $1,426) and SSR SS1262 (#6+).
 
 ## Market notes
 
+- 10:37, 10:40 and 11:36 scrapes: quiet. No new listings, no price or status changes, nothing gone. Market model unchanged (n=867: −$3.6/pt per missing current year, −$8.6/pt missing next year, ~$4.2/pt accepted below ask).
 - 09:37 scrape: 1 new, 1 price change, 1 status change, 2 gone, but **almost all of it is DVC Sales renumbering its own listings**, not real market movement. Its page 496 (SSR 160 pts, Aug UY, $118) used to be SS1258 and now shows code SS1301 with "listed 0 days ago". Its page 1595 (BWV 261 pts, $119) used to be BW425 and now carries code **BW434**, the code of a different, already-gone 200-pt contract. Because the adapter keys on the code, that shows up as a bogus BW434 "price change" from $106 to $119. Neither is in any top list (SS1301 is #33 overall, score 76.5; ✔ checked: 235 in the 2026 UY, of which 75 are banked and expire Jul 31, 2027; buyer reimburses 2027 dues of $1,470; closes Feb 7, 2027; deed 2054). If DVC Sales keeps doing this, I'll switch the adapter key to the page id. I haven't done it yet because that would turn every DVC Sales listing into a one-time "new" event.
 - BCV BC82559 (DVC Resale Market) went from Offer Accepted to Sale Pending. It wasn't in any top list.
 - 07:37 and 08:36 scrapes: quiet. No new listings and no price changes. One listing gone: BWV BW434 (DVC Sales, 200 pts, $106), which wasn't in any top list. The market model is essentially unchanged (n=867).
@@ -57,12 +58,13 @@ Dropped out: HH HHI26452 (now #4, $1,426) and SSR SS1262 (#6+).
 ## Scraper health
 
 - All 10 sources returned listings at 07:37, 08:36 and 09:37 (active at 09:37: dvcresalemarket 363, dvcshop 237, dvcmarket 144 after de-dup, dvcstore 141, dvcresaleexperts 99, vacationclublife 89, dvcsales 70, dvcbyresale 26, buyandselldvc 24, magicresales 3).
-- ⚠ **The scheduled cron still has never fired.** Runs 9–12 were all `workflow_dispatch` (06:36, 07:36, 08:36, 09:36), and there have been no `schedule` events. So ntfy alerts only go out when a run is triggered by hand. **Fix needs Corey:** go to GitHub → Actions → "hunt" → ⋯, click Disable workflow, then Enable workflow. If that doesn't help, check Settings → Actions → General.
+- ✅ **The scheduled cron has fired**: run 14 at 10:39 UTC was a `schedule` event, its first. But it hasn't fired again in the following hour (cron is set for every 15 min). GitHub often delays or skips scheduled runs on low-activity repos, so expect gaps. If it still looks sparse tomorrow, a disable/enable of the workflow (Actions → hunt → ⋯) is the usual fix.
+- All 10 sources OK at 10:40 (health.json: dvcmarket 717 raw, dvcresalemarket 374, dvcshop 243, dvcstore 146, dvcresaleexperts 101, vacationclublife 92, dvcsales 73, dvcbyresale 26, buyandselldvc 24, magicresales 4).
 
 ## Fixes made this run
 
-- None to code. Triggered one manual `hunt` dispatch (09:36) to get fresh data.
+- None to code. Triggered one manual `hunt` dispatch (11:36) to get fresh data.
 
 ## Broker emails
 
-- Gmail, last 2 h: no broker alert emails (checked 09:40).
+- Gmail, last 2 h: no broker alert emails (checked 11:40).
