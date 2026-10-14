@@ -49,7 +49,7 @@ Gone this run: **SSR 615511** (Fidelity, 110 pts, $104, was #1). Next: HH HHI264
 - 18:37 scrape (manual dispatch): 9 new, 1 price drop, 4 status changes, 7 gone.
   - New: AKV 616182 (2BR #1, see above).
   - New: SSR 616187 (Fidelity, 300 pts, Jun UY, $102, $30.6k, rank #13, score 81.3). ⚠ It has only 244 points in 2026 (56 already used), dues $9.19. It's in no top list because 300 points over-buys a 1BR+2BR when bought alone.
-  - New: SSR 616185 (Fidelity, 160 pts, Sep UY, $97, rank #36, ROFR high). ⚠ 320 in 2026 (160 banked), but the Sept-UY bank deadline means the 2026 points end Aug 31, 2027, just before a Sep 12 stay.
+  - New: SSR 616185 (Fidelity, 160 pts, Sep UY, $97, rank #36, ROFR high). ⚠ 320 in the Sep-2026 UY, but the 160 banked points expire Aug 31, 2027, just before a Sep 12 stay. Only the 160 current points can be banked forward.
   - Other new listings are out of play: BCV 616184 (350 pts, $135), BLT 616186 (600 pts, $129), SSR SS1290 ($101), CCV CC93029 ($160), VDH DHB1101 ($154, not Aulani-eligible) and Riviera 616183 ($115, excluded).
   - Price drop: SSR SS1281 (DVC Sales, 230 pts) $103→$102/pt, rank #263.
   - Going pending: AKV AK26481 (DVC Resale Market, the "full 2026 points, no dues" bonus contract) is now Offer Accepted. BR21932, SS88634 and RRB2356 moved from Offer Accepted to Sale Pending.
