@@ -1,0 +1,50 @@
+# What we're hunting for. Edit and push; the next run uses it.
+
+trips:
+  - id: sep27
+    name: "September 2027"
+    check_in: 2027-09-12
+    nights: [5, 6]
+  - id: jul27
+    name: "Late July 2027"
+    check_in: 2027-07-25
+    nights: [5, 6]
+
+# Aulani room view codes: S=Standard, I=Island Gardens, P=Poolside Gardens, O=Ocean.
+# Scoring uses this view; the dashboard also shows the others.
+view: S
+
+scenarios:
+  - id: one
+    name: "Our family (1-bedroom)"
+    rooms: ["1br"]
+  - id: both
+    name: "Both families (1-bedroom + 2-bedroom)"
+    rooms: ["1br", "2br"]
+
+# Only resorts whose resale points can book Aulani (the 14 legacy resorts).
+legacy_only: true
+min_points: 100
+max_total_cost: 60000        # all-in purchase cost cap (price + fees + dues at closing)
+
+assumptions:
+  rent_rate_per_point: 25      # what renting Aulani points would cost (2026 broker market ~$24-26)
+  owner_rent_out_rate: 19      # what an owner nets renting out leftover points
+  closing_cost: 1000           # buyer closing if broker doesn't say
+  caf_fee: 500                 # Disney contract administration fee (resale)
+  deposit_pct: 0.10
+  rofr_days: 30
+  close_days_aulani: 90        # offer -> deed recorded (Hawaii closings are slower)
+  close_days_other: 65
+  membership_setup_days: 10    # deed recorded -> points show in member account
+  seller_commission_pct: 0.09
+  sale_marketing_days: 30      # list -> accepted offer
+  sale_close_days: 75          # accepted offer -> proceeds (incl. ROFR)
+  harpta_pct: 0.0725           # Hawaii withholding on non-resident sellers (Aulani only; refunded at tax filing)
+  stripped_discount_per_point: 10   # resale discount if contract sells with no current-year points
+  dues_growth_pct: 5.5         # default annual dues growth if resort-specific unknown
+
+alerts:
+  ntfy_min_score: 75           # push for new/price-dropped listings at or above this score
+  ntfy_priority_score: 85      # "urgent" priority at or above this
+  max_alerts_per_run: 5
