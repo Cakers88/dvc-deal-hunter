@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-14 23:40 UTC (data commit `7683d5a`, scrape 23:36 UTC). One scrape since the last review: 4 new, 1 price drop, 1 going pending, 1 gone, **nothing reaches a top list**. All three tables are unchanged apart from a few dollars of extra interest as the calendar moves. Two new listings score ≥ 70 (SSR SS38583, BWV BW33443) but fit no Sept setup well; this run's broker-page fetches were refused, so they're checked against the scraper's detail fetch only (⚠).
+**Run:** 2026-10-15 00:40 UTC (data commit `969b153`, scrape 00:36 UTC). One scrape since the last review (the 15-min cron still isn't firing between dispatches): 1 new, 2 status changes, **nothing touches a top list**. All three tables and the flips are unchanged from 23:40. Broker alert emails in the last 2 h: none.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,11 @@ Gone this run: **SSR 615511** (Fidelity, 110 pts, $104, was #1). Next: HH HHI264
 
 ## Market notes
 
+- 00:36 scrape: 1 new, 2 status changes. Nothing reaches a top list.
+  - New: BWV B3012NA0 ([DVC By Resale](https://www.dvcbyresale.com/buy.php?listid=1879040772963134), 30 pts, Dec UY, $146, 2042 deed, can close after Dec 11). Too small for any setup; overpriced. Skip.
+  - Going pending: SSR SS28592 (DVC Resale Market, 450 pts, $97, stripped until Mar 2028; never ranked) New → Offer Accepted. BLT BLE3811 Offer Accepted → Sale Pending.
+  - Market model n=878, flat (−$4.01/pt per missing current year, −$8.79 missing next year, ~$4.62 accepted below ask).
+  - Scraper health: all 10 sources ok at 23:36 (counts 4–721); no fixes needed.
 - 23:36 scrape (manual dispatch; the cron fired nothing after 22:44): 4 new, 1 price drop, 1 status change, 1 gone. **Nothing reaches a top list.**
   - New: **SSR SS38583** ([DVC Resale Market, 150 pts, Jun UY, $115](https://www.dvcresalemarket.com/listings/saratoga-springs/ss38583/), $17.3k, rank #21, score 78.9). ⚠ Scraper: "full 2026 points with no dues" (seller pays 2026 dues), 150 in the Jun-2026 UY + 150 in 2027, dues $9.19, 2054 deed, ROFR low. Even banking all 150 of 2026 and borrowing 2028, 450 < 486, so it can't cover 1BR+2BR alone; for a lone 1BR or 2BR it costs more than renting. $115 is ~$12 above the SSR pack. Skip.
   - New: **BWV BW33443** ([DVC Resale Market, 220 pts, Sep UY, $139](https://www.dvcresalemarket.com/listings/boardwalk/bw33443/), $30.6k, rank #45, score 74.1). ⚠ 336 in the Sep-2026 UY (116 banked, which expire Aug 31, 2027), seller pays 2026 dues, **2042 deed**. For 1BR+2BR it borrows 46 and saves only ~$100 vs renting on $34.8k of cash. Skip.
