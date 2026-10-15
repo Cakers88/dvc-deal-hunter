@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-15 21:36 UTC (no new scrape: the latest data is still the **19:23 UTC scrape**; the cron hasn't fired in ~2 h 15 min, a gap seen before). Scraper health: all 10 sources ok at 19:23 (counts 4–728); no fixes needed. Broker alert emails in the last 2 h: none. Tables below unchanged since the 19:36 review.
+**Run:** 2026-10-15 23:36 UTC (latest data: **22:40 UTC scrape**). Scraper health: all 10 sources ok at 22:40 (counts 4–728); no fixes needed. Broker alert emails in the last 2 h: none. **New: SSR SSR09680 enters the 2-bedroom top 3** (see below).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -16,7 +16,7 @@ including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same 
 | 4 | [SSR SS1286 (DVC Sales)](https://dvcsales.com/dvc-resale/saratoga-springs/220-points/1747) Jun UY | 220 | $104 | $22,880 | $8,053 ($4,097) | $26.8k / 15 | sell stripped | 2027-02-12 | low | ✔ 108 banked (expire May 31, 2027) + 220 bankable; buyer reimburses 2026 dues, closes Dec 1, deed 2054. **Smallest borrow (46)**, lowest ROFR risk. Must bank by Jan 31, 2027. Cleanest pick if cash allows. |
 | 5 | [BWV 615269 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/boardwalk/170-points/615269) Aug UY | 170 | $120 | $20,400 | $8,079 ($4,071) | $23.9k / 15 | sell stripped | 2027-02-12 | **high** | ⚠ Borrows 146, high ROFR risk, full price. Weak #5. |
 
-Gone this run: **OKW OKW88090** (DVC Resale Experts, $80, was #6; 2042 deed). Next in line: SSR 616056 (#6, $95, ROFR high) and SSR 190 pts at Vacation Club Life (#7, $105, ROFR low).
+Gone at 19:23: **OKW OKW88090** (DVC Resale Experts, $80, was #6; 2042 deed). Next in line: SSR 616056 (#6, $95, ROFR high) and SSR 190 pts at Vacation Club Life (#7, $105, ROFR low).
 
 ## 1-bedroom, Sept, 6 nights (needs 204 pts; renting would cost $5,100)
 
@@ -34,9 +34,10 @@ For a 1BR alone, buying still barely beats renting.
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | [AKV 616164 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/animal-kingdom/100-points/616164) Jun UY | 100 | $115 | $11,500 | $5,263 ($1,787) | $14.1k / 15 | 2027-02-12 | low | ✔ Full points, buyer reimburses 2026 dues ($1,016), borrows 82. Moves up because its twin 616182 sold. |
 | 2 | [SSR 616162 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/saratoga-springs/150-points/616162) Jun UY | 150 | $100 | $15,000 | $5,557 ($1,493) | $18.0k / 15 | 2027-02-12 | medium | ✔ 150/150, buyer reimburses 2026 dues, **no borrowing** (bank by Jan 31, 2027), 2054 deed. |
-| 3 | [SSR SS1262 (DVC Sales)](https://dvcsales.com/dvc-resale/saratoga-springs/170-points/1627) Feb UY | 170 | $103 | $17,510 | $5,704 ($1,346) | $20.7k / 15 | 2027-02-12 | medium | ✔ Checked 19:38: Live, 43 days on market; 0 in 2026, **295 in Feb-2027 (125 banked, use by Jan 31, 2028)**, 170 in 2028; buyer reimburses 2027 dues ($1,562); closes Dec 2; US seller; deed 2054. **No borrowing** and no banking deadline to hit. Long DOM → room to negotiate. |
+| 3 | [SSR SSR09680 (DVC Resale Experts)](https://www.dvcresaleexperts.com/dvc-listing/saratoga-springs-160-october-ssr09680) Mar UY | 160 | $104 | $16,640 | $5,600 ($1,450) | $19.7k / 15 | 2027-02-12 | low | ✔ **New 22:40.** Checked 23:38: available, **Use Year March** (the URL says "october"; ignore it), 0 in 2026, **291 in Mar-2027 (131 banked, use by Feb 28, 2028)**, 160 in 2028; deed 2054; dues $9.19 ($1,470/yr); closing $717 + $500 CAF. **No borrowing**, 9 pts spare, resell after the trip with 2028 intact. **Dues terms aren't stated**: the offer form lets you pick who pays 2026 dues, so ask for seller-pays (the 2026 UY has 0 points). ROFR low at $104. About as good as #2 at a lower ROFR risk. |
+| 4 | [SSR SS1262 (DVC Sales)](https://dvcsales.com/dvc-resale/saratoga-springs/170-points/1627) Feb UY | 170 | $103 | $17,510 | $5,704 ($1,346) | $20.7k / 15 | 2027-02-12 | medium | ✔ Checked 19:38: Live, 43 days on market; 0 in 2026, **295 in Feb-2027 (125 banked, use by Jan 31, 2028)**, 170 in 2028; buyer reimburses 2027 dues ($1,562); closes Dec 2; US seller; deed 2054. **No borrowing** and no banking deadline to hit. Long DOM → room to negotiate. |
 
-Gone this run: **AKV 616182** (Fidelity, $108, was #1). ✔ DVC Market's page now marks it SoldOut. Next: HH HHI26452 (#4, $1,336, no borrowing, 2042 deed).
+SS1262 slips to #4 (no change to the contract). Next: HH HHI26452 (#5, no borrowing, 2042 deed).
 
 ## Rent-out flips (secondary, a one-off at most; DVC bans regular renting)
 
@@ -46,6 +47,13 @@ Gone this run: **AKV 616182** (Fidelity, $108, was #1). ✔ DVC Market's page no
 
 ## Market notes
 
+- 22:40 scrape (schedule): 4 new, 0 price changes, 3 status changes, 20 gone.
+  - New: **SSR SSR09680** (DVC Resale Experts, 160 pts, Mar UY, $104, $16.6k): **2BR #3**, overall #2, score 86.2. Details in the 2BR table. 1BR #15. Can't cover 1BR+2BR (451 pts max).
+  - New with no top-list effect: BRV BR21939 (DVC Resale Market, 500 pts, Dec UY, $98, $49k, 2042 deed; loses money vs renting for every Sept setup) and VDH VDH03181 (200, $160). Aulani 613869 (DVC Market, 50 pts, $97) is a relist of DVC Resale Experts' AUL48932, which disappeared at the same price. Too small for any setup.
+  - Going pending: AKV AK36508 (New → Offer Accepted); SS88629 and AK26495 moved on to Sale Pending. None were in a top list.
+  - Gone: **SSR SS1304** (DVC Sales, $97, the 616185 relist; 1BR #25), probably sold. The rest had already gone pending: DVC Resale Market cleared 7 (Aulani AUF3500 $93 and AUB3414 $110, SSR SSB8443 $100), Vacation Club Life cleared 11 more (SSR $91 and $95 contracts), DVC Shop 2. None were in a top list. Cheap SSR and Aulani keep selling.
+  - Market model n=845 (was 856): −$4.64/pt per missing current year (was −$4.73), −$8.98 missing next year, ~$4.73 accepted below ask. Flat.
+  - Scraper health: all 10 sources ok; no fixes needed.
 - 19:23 scrape (schedule): 16 new, 4 price changes, 10 status changes, 54 gone. **Two top-list contracts sold**; no new contract reaches a top list.
   - Gone: **AKV 616182** (2BR #1; DVC Market page says SoldOut) and **OKW88090** (1BR+2BR #6). Also SSR 616185 ($97), OKW21680, SSR 615740.
   - **Vacation Club Life cleared 38 Pending listings** at once. ✔ Spot-checked two via VCL's API: status now "Sold". Not a scraper fault (adapter returns 55: 37 Active, 16 Pending, 2 Reduced).
