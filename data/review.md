@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-15 01:40 UTC (data commit `ca1bb10`, scrape 00:59 UTC). One scrape since the last review: 3 new, 1 status change, 3 gone, **nothing touches a top list**. All three tables and the flips are unchanged from 00:40 (modeled savings drift by ≤$15 as the interest clock moves). Broker alert emails in the last 2 h: none.
+**Run:** 2026-10-15 02:40 UTC (data commit `a77dd03`, scrape 02:36 UTC, manual dispatch — the cron fired nothing after 00:59). One scrape since the last review: 1 gone, **nothing touches a top list**. All three tables and the flips are unchanged from 01:40. Broker alert emails in the last 2 h: none.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,10 @@ Gone this run: **SSR 615511** (Fidelity, 110 pts, $104, was #1). Next: HH HHI264
 
 ## Market notes
 
+- 02:36 scrape (manual dispatch; no scheduled run since 00:59): 0 new, 0 price changes, 0 status changes, 1 gone. Nothing reaches a top list.
+  - Gone: GFV 616174 (Fidelity via DVC Market, 400 pts, Oct UY, $165, $66k; was "available", itself a relist of 616133). Never ranked.
+  - Market model n=878: −$4.00/pt per missing current year, −$8.76 missing next year, ~$4.73 accepted below ask. Flat.
+  - Scraper health: all 10 sources ok at 02:36 (counts 4–721); no fixes needed. The 15-minute cron is firing only sporadically (last scheduled runs 22:43 and 00:59); data stays fresh only through manual dispatches.
 - 00:59 scrape: 3 new, 1 status change, 3 gone. Nothing reaches a top list.
   - New: **AKV AK36508** ([DVC Resale Market](https://www.dvcresalemarket.com/listings/animal-kingdom-lodge/ak36508/), 100 pts, Jun UY, $125, $12.5k, rank #104, score 69.8). Scraper: only 62 left in the Jun-2026 UY, seller pays 2026 dues, buyer pays 2027 ($1,017 at 2026 rates), 2057 deed. Even banking 62 and borrowing 2028 it reaches 262 < 282, so it can't cover a 2BR, and $125 is ~$15 above the AKV twins at DVC Market. Skip.
   - New, unranked: AKV AK36521 (60 pts, $129, 0 points until Jun 2027) and Poly PL34673 (100 pts, $180). Too small or too pricey.
