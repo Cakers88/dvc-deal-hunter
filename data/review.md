@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-15 13:40 UTC (data commit `4a5c4d4`, scrape 13:37 UTC; I dispatched a run because nothing had been scraped since 10:54). 1 new, 2 price drops, 2 going pending. **None of it reaches a top list; all three tables and the flips keep the same order as 10:40** (savings moved by ≤$15 from the date rollover). Broker alert emails in the last 3 h: none.
+**Run:** 2026-10-15 14:40 UTC (data commit `e28d4b3`, scrape 14:37 UTC; I dispatched the run again because the cron hadn't fired since 13:37). 2 new, 3 going to Sale Pending, 3 gone. **None of it reaches a top list; all three tables and the flips keep the same order as 13:40.** Broker alert emails in the last 2 h: none.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,13 @@ Gone this run: **SSR 615511** (Fidelity, 110 pts, $104, was #1). Next: HH HHI264
 
 ## Market notes
 
+- 14:37 scrape (manual dispatch): 2 new, 3 status changes, 3 gone. Nothing reaches a top list.
+  - New: **BCV BCA2582** ([DVC Resale Market](https://www.dvcresalemarket.com/listings/beach-club/bca2582/), 250 pts, Feb UY, $152, $38k, overall #29, score 76.7). ✔ Checked on the broker page 14:39: 0 in the Feb-2026 UY, 500 in Feb-2027 (250 banked from 2026), 250 in 2028; seller pays 2026 dues, buyer pays 2027 ($2,453 at 2026 rates); dues $9.81; **2042 deed**; still available. At $152 it's #75 for 1BR+2BR and #291 for 2BR. Skip.
+  - New: SSR 6SS184W (Vacation Club Life, 50 pts, Sep UY, $125). Too small for any setup. Skip.
+  - Going to Sale Pending: Aulani AUB3357 (DVC Resale Market, 100 pts, $110), OKW OKA5025, SSR SS28592. None were in a top list.
+  - Gone (already pending, so likely sold): GFV GF73332 ($175) and PVB PLA4633 ($199). Gone: GFV 616133 (DVC Market, $165, the stale twin of the 616174 relist). None ranked.
+  - Market model n=878: −$4.14/pt per missing current year (was −$4.06), −$8.73 missing next year, ~$4.82 accepted below ask. Flat.
+  - Scraper health: all 10 sources ok at 13:37 and 14:37 (counts 4–730); no fixes needed. The cron still isn't firing on schedule.
 - 13:37 scrape (manual dispatch; the cron fired once, at 10:54, in the ~3 h after 10:37): 1 new, 2 price drops, 2 going pending. Nothing reaches a top list.
   - Price drop: **HH HH381** ([DVC Sales](https://dvcsales.com/dvc-resale/hilton-head/250-points/1815), 250 pts, Feb UY) $68→$66/pt, $16.5k, score 71.8 (overall #70). ✔ Checked on the broker page 13:40: 0 in the Feb-2026 UY, 193 in 2027, 250 in 2028; buyer reimburses 2027 dues for 193 pts ($2,482, less a $733 seller credit); closes Dec 2, 2026; US seller; still available. 2042 deed, ROFR medium ($66 is in Disney's buyback range). For Sept 6 nights it's #303 (1BR+2BR) and #106 (2BR); it loses money vs renting. Skip.
   - Price drop: GCV GC211 (DVC Sales, 50 pts) $295→$289/pt. Unranked. Skip.
