@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-15T00:36:46+00:00",
- "count": 1248,
+ "updated": "2026-10-15T00:59:44+00:00",
+ "count": 1251,
  "listings": [
   {
    "source": "buyandselldvc",
@@ -22500,6 +22500,116 @@
   },
   {
    "source": "dvcresalemarket",
+   "listing_id": "AK36508",
+   "url": "https://www.dvcresalemarket.com/listings/animal-kingdom-lodge/ak36508/",
+   "resort_raw": "Animal Kingdom",
+   "resort": "akv",
+   "points": 100,
+   "price": 12500.0,
+   "price_per_point": 125.0,
+   "use_year": 6,
+   "status_raw": "New",
+   "availability": "available",
+   "date_listed": "2026-10-14",
+   "points_available": [
+    {
+     "uy": "2026-06",
+     "points": 62,
+     "banked": 0
+    },
+    {
+     "uy": "2027-06",
+     "points": 100,
+     "banked": 0
+    },
+    {
+     "uy": "2028-06",
+     "points": 100,
+     "banked": 0
+    }
+   ],
+   "availability_text": "June 2026 - 62 points\nJune 2027 - 100 points\nJune 2028 - 100 points\nThere are 62 points from June 2026 + 100 points coming June 2027 + 100 points coming June 2028 + 100 points coming June 2029",
+   "dues_terms": "Seller Pays 2026 Annual Dues, Buyer pays 2027 Dues (For closings after Nov. 20th Disney will require the 2027 Dues be paid at closing). Dues based on the current 2026 values are $1,017 however Disney has not released 2027 Dues figures yet so actual 2027 Dues may be different.",
+   "dues_per_point": 10.16,
+   "subsidized_dues": null,
+   "expiration": 2057,
+   "detail_fetched": true,
+   "extra": {
+    "availability_from": "detail",
+    "closing_cost": 809.0
+   },
+   "uid": "dvcresalemarket:AK36508",
+   "active": true,
+   "stale": false,
+   "first_seen": "2026-10-15T00:59:44+00:00",
+   "history": [
+    {
+     "t": "2026-10-15T00:59:44+00:00",
+     "price": 12500.0,
+     "price_per_point": 125.0,
+     "availability": "available",
+     "status_raw": "New"
+    }
+   ],
+   "detail_at": "2026-10-15T00:59:44+00:00"
+  },
+  {
+   "source": "dvcresalemarket",
+   "listing_id": "AK36521",
+   "url": "https://www.dvcresalemarket.com/listings/animal-kingdom-lodge/ak36521/",
+   "resort_raw": "Animal Kingdom",
+   "resort": "akv",
+   "points": 60,
+   "price": 7740.0,
+   "price_per_point": 129.0,
+   "use_year": 6,
+   "status_raw": "Small Contract",
+   "availability": "available",
+   "date_listed": "2026-10-14",
+   "points_available": [
+    {
+     "uy": "2026-06",
+     "points": 0,
+     "banked": 0
+    },
+    {
+     "uy": "2027-06",
+     "points": 60,
+     "banked": 0
+    },
+    {
+     "uy": "2028-06",
+     "points": 60,
+     "banked": 0
+    }
+   ],
+   "availability_text": "June 2026 - 0 points\nJune 2027 - 60 points\nJune 2028 - 60 points\nThere are 60 points coming June 2027 + 60 points coming June 2028 + 60 points coming June 2029",
+   "dues_terms": "Seller Pays 2026 Annual Dues, Buyer pays 2027 Dues (For closings after Nov. 20th Disney will require the 2027 Dues be paid at closing). Dues based on the current 2026 values are $610 however Disney has not released 2027 Dues figures yet so actual 2027 Dues may be different.",
+   "dues_per_point": 10.16,
+   "subsidized_dues": null,
+   "expiration": 2057,
+   "detail_fetched": true,
+   "extra": {
+    "availability_from": "detail",
+    "closing_cost": 699.0
+   },
+   "uid": "dvcresalemarket:AK36521",
+   "active": true,
+   "stale": false,
+   "first_seen": "2026-10-15T00:59:44+00:00",
+   "history": [
+    {
+     "t": "2026-10-15T00:59:44+00:00",
+     "price": 7740.0,
+     "price_per_point": 129.0,
+     "availability": "available",
+     "status_raw": "Small Contract"
+    }
+   ],
+   "detail_at": "2026-10-15T00:59:44+00:00"
+  },
+  {
+   "source": "dvcresalemarket",
    "listing_id": "AK66499",
    "url": "https://www.dvcresalemarket.com/listings/animal-kingdom-lodge/ak66499/",
    "resort_raw": "Animal Kingdom",
@@ -22709,7 +22819,7 @@
     "availability_from": "index"
    },
    "uid": "dvcresalemarket:AK86475",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -22720,7 +22830,8 @@
      "availability": "pending",
      "status_raw": "Sale Pending"
     }
-   ]
+   ],
+   "gone_at": "2026-10-15T00:59:44+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -29905,7 +30016,7 @@
     "availability_from": "index"
    },
    "uid": "dvcresalemarket:CC73016",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -29916,7 +30027,8 @@
      "availability": "pending",
      "status_raw": "Sale Pending"
     }
-   ]
+   ],
+   "gone_at": "2026-10-15T00:59:44+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -35842,6 +35954,61 @@
   },
   {
    "source": "dvcresalemarket",
+   "listing_id": "PL34673",
+   "url": "https://www.dvcresalemarket.com/listings/polynesian/pl34673/",
+   "resort_raw": "Polynesian",
+   "resort": "pvb",
+   "points": 100,
+   "price": 18000.0,
+   "price_per_point": 180.0,
+   "use_year": 4,
+   "status_raw": "New",
+   "availability": "available",
+   "date_listed": "2026-10-14",
+   "points_available": [
+    {
+     "uy": "2026-04",
+     "points": 0,
+     "banked": 0
+    },
+    {
+     "uy": "2027-04",
+     "points": 119,
+     "banked": 19
+    },
+    {
+     "uy": "2028-04",
+     "points": 100,
+     "banked": 0
+    }
+   ],
+   "availability_text": "April 2026 - 0 points\nApril 2027 - 119 points\nApril 2028 - 100 points\nThere are 119 points as of April 2027 (19 points banked from April 2026 & 100 points from April 2027) + 100 points coming April 2028 + 100 points coming April 2029",
+   "dues_terms": "Seller Pays 2026 Annual Dues, Buyer pays 2027 Dues (For closings after Nov. 20th Disney will require the 2027 Dues be paid at closing). Dues based on the current 2026 values are $834 however Disney has not released 2027 Dues figures yet so actual 2027 Dues may be different.",
+   "dues_per_point": 8.33,
+   "subsidized_dues": null,
+   "expiration": 2066,
+   "detail_fetched": true,
+   "extra": {
+    "availability_from": "detail",
+    "closing_cost": 889.0
+   },
+   "uid": "dvcresalemarket:PL34673",
+   "active": true,
+   "stale": false,
+   "first_seen": "2026-10-15T00:59:44+00:00",
+   "history": [
+    {
+     "t": "2026-10-15T00:59:44+00:00",
+     "price": 18000.0,
+     "price_per_point": 180.0,
+     "availability": "available",
+     "status_raw": "New"
+    }
+   ],
+   "detail_at": "2026-10-15T00:59:44+00:00"
+  },
+  {
+   "source": "dvcresalemarket",
    "listing_id": "PL74530",
    "url": "https://www.dvcresalemarket.com/listings/polynesian/pl74530/",
    "resort_raw": "Polynesian",
@@ -39802,7 +39969,7 @@
     "availability_from": "index"
    },
    "uid": "dvcresalemarket:SS98613",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -39813,7 +39980,8 @@
      "availability": "pending",
      "status_raw": "Sale Pending"
     }
-   ]
+   ],
+   "gone_at": "2026-10-15T00:59:44+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -73730,7 +73898,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-15T00:36:46+00:00"
+   "detail_at": "2026-10-15T00:59:44+00:00"
   },
   {
    "source": "magicresales",
@@ -73788,7 +73956,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-15T00:36:46+00:00"
+   "detail_at": "2026-10-15T00:59:44+00:00"
   },
   {
    "source": "magicresales",
@@ -73846,7 +74014,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-15T00:36:46+00:00"
+   "detail_at": "2026-10-15T00:59:44+00:00"
   },
   {
    "source": "vacationclublife",
@@ -78355,8 +78523,8 @@
    "price": 21600.0,
    "price_per_point": 135.0,
    "use_year": 4,
-   "status_raw": "Active",
-   "availability": "available",
+   "status_raw": "Pending",
+   "availability": "pending",
    "date_listed": null,
    "points_available": [
     {
@@ -78372,18 +78540,15 @@
    ],
    "availability_text": "231 points coming Apr 1, 2027 (131 + 100 banked) + 160 points for 2028",
    "dues_terms": null,
-   "dues_per_point": 8.74,
+   "dues_per_point": null,
    "subsidized_dues": null,
-   "expiration": 2060,
-   "detail_fetched": true,
+   "expiration": null,
+   "detail_fetched": false,
    "extra": {
     "web_id": "6BL180W",
     "broker": "Vacation Club Life",
     "availability_from": "index",
-    "also_on": "dvcmarket",
-    "yearly_dues": 1398.0,
-    "closing_cost": 1315.0,
-    "listing_number": "02715"
+    "also_on": "dvcmarket"
    },
    "uid": "vacationclublife:4301740000155206002",
    "active": true,
@@ -78396,9 +78561,13 @@
      "price_per_point": 135.0,
      "availability": "available",
      "status_raw": "Active"
+    },
+    {
+     "t": "2026-10-15T00:59:44+00:00",
+     "availability": "pending",
+     "status_raw": "Pending"
     }
-   ],
-   "detail_at": "2026-10-14T05:37:11+00:00"
+   ]
   },
   {
    "source": "vacationclublife",
