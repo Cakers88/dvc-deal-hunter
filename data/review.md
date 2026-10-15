@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-15 04:40 UTC (data commit `dbe0a99`, scrape 04:36 UTC, manual dispatch — no scheduled run since 00:59). One scrape since the last review: 1 new, 2 price drops, **nothing touches a top list**. All three tables and the flips are unchanged from 02:40. Broker alert emails in the last 2 h: none.
+**Run:** 2026-10-15 08:40 UTC (data commit `9da0d81`, scrape 08:36 UTC, which I dispatched manually; the only cron run since 04:36 was a quiet `schedule` run at 05:51). This scrape had a Fidelity burst: 5 new, 2 price drops, 4 gone. **Nothing new reaches a top list**, and all three tables and the flips are unchanged from 04:40. Broker alert emails in the last 3 h: none.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -32,7 +32,7 @@ Gone this run: **OKW 616140** (Fidelity, $75, was #3). At that price it was prob
 
 | # | Contract | Pts | $/pt | Price | Net cost (saves) | Cash / months | Book on | ROFR | Judgment |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 | **NEW** [AKV 616182 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/animal-kingdom/100-points/616182) Aug UY | 100 | $108 | $10,800 | $5,053 ($1,997) | $13.4k / 15 | 2027-02-12 | low | ✔ Checked 20:45: 100 in the Aug-2026 UY + 100 Aug-2027, still available. **Buyer reimburses 2026 dues ($1,016)**; total due at closing $13,017. Bank 2026's 100 by Mar 31, 2027, then **borrow 82**. $7/pt cheaper than its twin 616164. Small, cheap and low ROFR risk. The best 2BR now. |
+| 1 | [AKV 616182 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/animal-kingdom/100-points/616182) Aug UY | 100 | $108 | $10,800 | $5,053 ($1,997) | $13.4k / 15 | 2027-02-12 | low | ✔ Checked 20:45: 100 in the Aug-2026 UY + 100 Aug-2027, still available. **Buyer reimburses 2026 dues ($1,016)**; total due at closing $13,017. Bank 2026's 100 by Mar 31, 2027, then **borrow 82**. $7/pt cheaper than its twin 616164. Small, cheap and low ROFR risk. The best 2BR now. |
 | 2 | [AKV 616164 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/animal-kingdom/100-points/616164) Jun UY | 100 | $115 | $11,500 | $5,214 ($1,836) | $14.1k / 15 | 2027-02-12 | low | ✔ Full points, buyer reimburses 2026 dues ($1,016), borrows 82. 616182 beats it on price. |
 | 3 | [SSR 616162 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/saratoga-springs/150-points/616162) Jun UY | 150 | $100 | $15,000 | $5,504 ($1,546) | $18.0k / 15 | 2027-02-12 | medium | ✔ 150/150, buyer reimburses 2026 dues, **no borrowing** (bank by Jan 31, 2027), 2054 deed. Cleaner but more cash. |
 
@@ -46,6 +46,14 @@ Gone this run: **SSR 615511** (Fidelity, 110 pts, $104, was #1). Next: HH HHI264
 
 ## Market notes
 
+- 08:36 scrape (manual dispatch): a burst of **5 new Fidelity listings on DVC Market**, 2 price drops and 4 gone. Nothing reaches a top list.
+  - New: **BWV 616201** ([Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/boardwalk/210-points/616201), 210 pts, Jun UY, $134, $28.1k). It's rank #17 overall (score 80.1, ROFR low). ⚠ Scraper: 420 in the Jun-2026 UY (210 banked, which expire May 31, 2027), 210 in 2027, dues $9.67. The deed (2042 for BWV) and the 2026/2027 dues terms aren't in the scraped data, and this run couldn't open the broker page. For 1BR+2BR it's only #44 (saves ~$1.8k), because $134 is ~$30/pt above the SSR pack. Skip.
+  - New: four BLT contracts from Fidelity at $132–133: 616202 (200 pts), 616203 (350), 616204 (220) and 616205 (385). All have **0 to 194 points before late 2027/2028**, so they're useless for Sept 2027 (ranks #354–500).
+  - Price drops: BCV 614916 (150 pts, Apr UY) $140→$130/pt and BLT 614239 (160 pts, Feb UY) $138→$133/pt. Both have 0 points in the 2026 UY. Ranks #149 and #158; no top list.
+  - Gone: AKV 616057 (210 pts, $110), BLT 616138 (380 pts, $145), Vero Beach 614453 ($56) and the stale BWV 615888 mirror of BWV35220 (sold, as expected). None were in a top list.
+  - Market model n=878: −$4.06/pt per missing current year, −$8.71 missing next year, ~$4.74 accepted below ask. Flat.
+  - Scraper health: all 10 sources ok at 05:51 and 08:36 (counts 4–721); no fixes needed. The cron fired once (05:51) in the 4 h after 04:36, so it's still sparse.
+- 05:51 scrape (schedule): 0 new, 0 changes. Quiet.
 - 04:36 scrape (manual dispatch; the cron has fired nothing since 00:59, so nothing ran between 02:36 and 04:36): 1 new, 2 price drops. Nothing reaches a top list.
   - Price drop: SSR SS1281 ([DVC Sales](https://dvcsales.com/dvc-resale/saratoga-springs/230-points/1729), 230 pts, Dec UY) $100→$98/pt, $22.5k, rank #281. Only 95 points left in the Dec-2026 UY, so it can't cover a Sept 2027 1BR+2BR without heavy borrowing. Skip.
   - Price drop: BWV BWB3430 (DVC Resale Market, 250 pts, Dec UY) $138→$136/pt, rank #308. 9 points in 2026, 2042 deed. Skip.
@@ -120,6 +128,8 @@ Gone this run: **SSR 615511** (Fidelity, 110 pts, $104, was #1). Next: HH HHI264
 
 ## Scraper health
 
+- 08:36: **all 10 sources OK** (dvcmarket 721, dvcresalemarket 382, dvcshop 243, dvcstore 142, dvcresaleexperts 99, vacationclublife 92, dvcsales 73, dvcbyresale 27, buyandselldvc 24, magicresales 4). No run since the 05:51 `schedule` run, so I dispatched `hunt` manually at 08:36.
+
 - 23:36: **all 10 sources OK** (dvcmarket 721, dvcresalemarket 381, dvcshop 243, dvcstore 142, dvcresaleexperts 99, vacationclublife 92, dvcsales 73, dvcbyresale 26, buyandselldvc 24, magicresales 4). No run had fired since 22:44, so I dispatched `hunt` manually at 23:36. The cron is still sparse.
 
 - 22:44: **all 10 sources OK** (dvcmarket 721, dvcresalemarket 377, dvcshop 243, dvcstore 142, dvcresaleexperts 99, vacationclublife 92, dvcsales 73, dvcbyresale 26, buyandselldvc 24, magicresales 4). No run had fired since 21:37, so I dispatched `hunt` manually at 22:37; a `schedule` run followed at 22:44.
@@ -140,7 +150,7 @@ Gone this run: **SSR 615511** (Fidelity, 110 pts, $104, was #1). Next: HH HHI264
 
 ## Fixes made this run
 
-- None. Manually dispatched the `hunt` workflow at 23:36.
+- None. Manually dispatched the `hunt` workflow at 08:36.
 
 ## Fixes made at 19:40
 
@@ -149,4 +159,4 @@ Gone this run: **SSR 615511** (Fidelity, 110 pts, $104, was #1). Next: HH HHI264
 
 ## Broker emails
 
-- Gmail, last 2 h: no broker alert emails (checked 23:37).
+- Gmail, last 3 h: no broker alert emails (checked 08:40).
