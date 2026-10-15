@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-15 14:40 UTC (data commit `e28d4b3`, scrape 14:37 UTC; I dispatched the run again because the cron hadn't fired since 13:37). 2 new, 3 going to Sale Pending, 3 gone. **None of it reaches a top list; all three tables and the flips keep the same order as 13:40.** Broker alert emails in the last 2 h: none.
+**Run:** 2026-10-15 15:40 UTC (data commit `5972f46`, scheduled scrape 15:35 UTC). 1 new, 3 going pending, 1 gone. **None of it reaches a top list; all three tables and the flips keep the same order as 14:40.** Broker alert emails in the last 2 h: none.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,12 @@ Gone this run: **SSR 615511** (Fidelity, 110 pts, $104, was #1). Next: HH HHI264
 
 ## Market notes
 
+- 15:35 scrape (schedule — the cron fired on its own this time): 1 new, 3 status changes, 1 gone. Nothing reaches a top list.
+  - New: **SSR SS1302** ([DVC Sales](https://dvcsales.com/dvc-resale/saratoga-springs/300-points/1845), 300 pts, Jun UY, $106, $31.8k, overall #59, score 72.9, ROFR low). ✔ Checked on the broker page 15:38: Live, listed today; 0 in the Jun-2026 UY, 302 in Jun-2027 (2 banked), 300 in 2028; buyer reimburses 2027 dues ($2,757); deed 2054; **non-US seller**. The page contradicts itself on closing (est. Dec 2, 2026 in one box, **Feb 14, 2027** in the cost breakdown). Feb 14 would miss the Feb 12 booking date for a Sept 12 check-in. For 1BR+2BR it must borrow 184 and saves only ~$300 vs renting on $36k of cash. Skip.
+  - Going pending: **Aulani AUA3518** (DVC Resale Market, 125 pts, Dec UY, $118) → Offer Accepted; Poly PL34599 ("full 2026 points, no dues") → Offer Accepted; Poly PL24644 → Sale Pending. None were in a top list.
+  - Gone: SSR 616187 (Fidelity via DVC Market, 300 pts, $102; only 244 points in 2026, never in a top list). Likely sold.
+  - Market model n=879: −$4.20/pt per missing current year (was −$4.14), −$8.78 missing next year, ~$4.76 accepted below ask. Flat.
+  - Scraper health: all 10 sources ok at 14:37 and 15:35 (counts 4–730); no fixes needed.
 - 14:37 scrape (manual dispatch): 2 new, 3 status changes, 3 gone. Nothing reaches a top list.
   - New: **BCV BCA2582** ([DVC Resale Market](https://www.dvcresalemarket.com/listings/beach-club/bca2582/), 250 pts, Feb UY, $152, $38k, overall #29, score 76.7). ✔ Checked on the broker page 14:39: 0 in the Feb-2026 UY, 500 in Feb-2027 (250 banked from 2026), 250 in 2028; seller pays 2026 dues, buyer pays 2027 ($2,453 at 2026 rates); dues $9.81; **2042 deed**; still available. At $152 it's #75 for 1BR+2BR and #291 for 2BR. Skip.
   - New: SSR 6SS184W (Vacation Club Life, 50 pts, Sep UY, $125). Too small for any setup. Skip.
@@ -174,4 +180,4 @@ Gone this run: **SSR 615511** (Fidelity, 110 pts, $104, was #1). Next: HH HHI264
 
 ## Broker emails
 
-- Gmail, last 3 h: no broker alert emails (checked 08:40).
+- Gmail, last 2 h: no broker alert emails (checked 15:40).
