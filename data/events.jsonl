@@ -1425,3 +1425,8 @@
 {"t": "2026-10-15T14:37:22+00:00", "uid": "dvcmarket:616133", "event": "gone", "last": {"price": 66000.0, "price_per_point": 165.0, "availability": "available"}}
 {"t": "2026-10-15T14:37:22+00:00", "uid": "dvcresalemarket:GF73332", "event": "gone", "last": {"price": 26250.0, "price_per_point": 175.0, "availability": "pending"}}
 {"t": "2026-10-15T14:37:22+00:00", "uid": "dvcresalemarket:PLA4633", "event": "gone", "last": {"price": 9950.0, "price_per_point": 199.0, "availability": "pending"}}
+{"t": "2026-10-15T15:35:03+00:00", "uid": "dvcresalemarket:AUA3518", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["New", "Offer Accepted"]}}
+{"t": "2026-10-15T15:35:03+00:00", "uid": "dvcsales:SS1302", "event": "new"}
+{"t": "2026-10-15T15:35:03+00:00", "uid": "dvcresalemarket:PL24644", "event": "status_change", "changes": {"status_raw": ["Offer Accepted", "Sale Pending"]}}
+{"t": "2026-10-15T15:35:03+00:00", "uid": "dvcresalemarket:PL34599", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["BONUS! FULL POINTS FOR 2026 WITH NO DUES!", "Offer Accepted"]}}
+{"t": "2026-10-15T15:35:03+00:00", "uid": "dvcmarket:616187", "event": "gone", "last": {"price": 30600.0, "price_per_point": 102.0, "availability": "available"}}
