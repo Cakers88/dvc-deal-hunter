@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-15 19:36 UTC, covering the **19:23 UTC scrape** (first since 15:35). Scraper health: all 10 sources ok (counts 4–728); no fixes needed. Broker alert emails in the last 2 h: none.
+**Run:** 2026-10-15 21:36 UTC (no new scrape: the latest data is still the **19:23 UTC scrape**; the cron hasn't fired in ~2 h 15 min, a gap seen before). Scraper health: all 10 sources ok at 19:23 (counts 4–728); no fixes needed. Broker alert emails in the last 2 h: none. Tables below unchanged since the 19:36 review.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
