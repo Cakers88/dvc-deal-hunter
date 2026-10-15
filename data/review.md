@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-15 08:40 UTC (data commit `9da0d81`, scrape 08:36 UTC, which I dispatched manually; the only cron run since 04:36 was a quiet `schedule` run at 05:51). This scrape had a Fidelity burst: 5 new, 2 price drops, 4 gone. **Nothing new reaches a top list**, and all three tables and the flips are unchanged from 04:40. Broker alert emails in the last 3 h: none.
+**Run:** 2026-10-15 10:40 UTC (data commit `ca04395`, scrape 10:37 UTC, which I dispatched manually; the cron fired nothing after 08:36). Quiet: 0 new, 0 price changes, 0 status changes, 0 gone. **All three tables and the flips are unchanged from 08:40.** Broker alert emails in the last 3 h: none.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,7 @@ Gone this run: **SSR 615511** (Fidelity, 110 pts, $104, was #1). Next: HH HHI264
 
 ## Market notes
 
+- 10:37 scrape (manual dispatch; no scheduled run in the 2 h after 08:36): 0 new, 0 changes. Quiet. Market model n=878 flat (−$4.06/pt per missing current year, −$8.71 missing next year, ~$4.74 accepted below ask). Scraper health: all 10 sources ok at 08:36 and 10:37 (counts 4–730); no fixes needed. The 15-minute cron is still effectively not running; data only refreshes on manual dispatch.
 - 08:36 scrape (manual dispatch): a burst of **5 new Fidelity listings on DVC Market**, 2 price drops and 4 gone. Nothing reaches a top list.
   - New: **BWV 616201** ([Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/boardwalk/210-points/616201), 210 pts, Jun UY, $134, $28.1k). It's rank #17 overall (score 80.1, ROFR low). ⚠ Scraper: 420 in the Jun-2026 UY (210 banked, which expire May 31, 2027), 210 in 2027, dues $9.67. The deed (2042 for BWV) and the 2026/2027 dues terms aren't in the scraped data, and this run couldn't open the broker page. For 1BR+2BR it's only #44 (saves ~$1.8k), because $134 is ~$30/pt above the SSR pack. Skip.
   - New: four BLT contracts from Fidelity at $132–133: 616202 (200 pts), 616203 (350), 616204 (220) and 616205 (385). All have **0 to 194 points before late 2027/2028**, so they're useless for Sept 2027 (ranks #354–500).
