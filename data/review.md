@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-15 02:40 UTC (data commit `a77dd03`, scrape 02:36 UTC, manual dispatch — the cron fired nothing after 00:59). One scrape since the last review: 1 gone, **nothing touches a top list**. All three tables and the flips are unchanged from 01:40. Broker alert emails in the last 2 h: none.
+**Run:** 2026-10-15 04:40 UTC (data commit `dbe0a99`, scrape 04:36 UTC, manual dispatch — no scheduled run since 00:59). One scrape since the last review: 1 new, 2 price drops, **nothing touches a top list**. All three tables and the flips are unchanged from 02:40. Broker alert emails in the last 2 h: none.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,12 @@ Gone this run: **SSR 615511** (Fidelity, 110 pts, $104, was #1). Next: HH HHI264
 
 ## Market notes
 
+- 04:36 scrape (manual dispatch; the cron has fired nothing since 00:59, so nothing ran between 02:36 and 04:36): 1 new, 2 price drops. Nothing reaches a top list.
+  - Price drop: SSR SS1281 ([DVC Sales](https://dvcsales.com/dvc-resale/saratoga-springs/230-points/1729), 230 pts, Dec UY) $100→$98/pt, $22.5k, rank #281. Only 95 points left in the Dec-2026 UY, so it can't cover a Sept 2027 1BR+2BR without heavy borrowing. Skip.
+  - Price drop: BWV BWB3430 (DVC Resale Market, 250 pts, Dec UY) $138→$136/pt, rank #308. 9 points in 2026, 2042 deed. Skip.
+  - New: GFV GFE3358 (DVC Resale Market, 100 pts, Jun UY, $174, $17.4k, rank #324). Too small and too expensive. Skip.
+  - Market model n=879: −$4.01/pt per missing current year, −$8.76 missing next year, ~$4.72 accepted below ask. Flat.
+  - Scraper health: all 10 sources ok at 04:36 (counts 4–721); no fixes needed. The cron is still not firing on schedule; data only refreshes on manual dispatch.
 - 02:36 scrape (manual dispatch; no scheduled run since 00:59): 0 new, 0 price changes, 0 status changes, 1 gone. Nothing reaches a top list.
   - Gone: GFV 616174 (Fidelity via DVC Market, 400 pts, Oct UY, $165, $66k; was "available", itself a relist of 616133). Never ranked.
   - Market model n=878: −$4.00/pt per missing current year, −$8.76 missing next year, ~$4.73 accepted below ask. Flat.
