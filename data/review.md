@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-15 15:40 UTC (data commit `5972f46`, scheduled scrape 15:35 UTC). 1 new, 3 going pending, 1 gone. **None of it reaches a top list; all three tables and the flips keep the same order as 14:40.** Broker alert emails in the last 2 h: none.
+**Run:** 2026-10-15 17:36 UTC. **No scrape since 15:35 UTC** (the 15-minute cron hasn't fired in 2 h and there was no manual dispatch), so the data, rankings and tables below are unchanged from the 15:40 review. Broker alert emails in the last 24 h: none.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,7 @@ Gone this run: **SSR 615511** (Fidelity, 110 pts, $104, was #1). Next: HH HHI264
 
 ## Market notes
 
+- 17:36 review: no new scrape since 15:35 (last Action run #40 at 15:34 UTC). Scraper health at 15:35: all 10 sources ok (counts 4–730); no fixes needed. The schedule gap is GitHub's cron, not an adapter failure.
 - 15:35 scrape (schedule — the cron fired on its own this time): 1 new, 3 status changes, 1 gone. Nothing reaches a top list.
   - New: **SSR SS1302** ([DVC Sales](https://dvcsales.com/dvc-resale/saratoga-springs/300-points/1845), 300 pts, Jun UY, $106, $31.8k, overall #59, score 72.9, ROFR low). ✔ Checked on the broker page 15:38: Live, listed today; 0 in the Jun-2026 UY, 302 in Jun-2027 (2 banked), 300 in 2028; buyer reimburses 2027 dues ($2,757); deed 2054; **non-US seller**. The page contradicts itself on closing (est. Dec 2, 2026 in one box, **Feb 14, 2027** in the cost breakdown). Feb 14 would miss the Feb 12 booking date for a Sept 12 check-in. For 1BR+2BR it must borrow 184 and saves only ~$300 vs renting on $36k of cash. Skip.
   - Going pending: **Aulani AUA3518** (DVC Resale Market, 125 pts, Dec UY, $118) → Offer Accepted; Poly PL34599 ("full 2026 points, no dues") → Offer Accepted; Poly PL24644 → Sale Pending. None were in a top list.
