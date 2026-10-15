@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-15 10:40 UTC (data commit `ca04395`, scrape 10:37 UTC, which I dispatched manually; the cron fired nothing after 08:36). Quiet: 0 new, 0 price changes, 0 status changes, 0 gone. **All three tables and the flips are unchanged from 08:40.** Broker alert emails in the last 3 h: none.
+**Run:** 2026-10-15 13:40 UTC (data commit `4a5c4d4`, scrape 13:37 UTC; I dispatched a run because nothing had been scraped since 10:54). 1 new, 2 price drops, 2 going pending. **None of it reaches a top list; all three tables and the flips keep the same order as 10:40** (savings moved by ≤$15 from the date rollover). Broker alert emails in the last 3 h: none.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,13 @@ Gone this run: **SSR 615511** (Fidelity, 110 pts, $104, was #1). Next: HH HHI264
 
 ## Market notes
 
+- 13:37 scrape (manual dispatch; the cron fired once, at 10:54, in the ~3 h after 10:37): 1 new, 2 price drops, 2 going pending. Nothing reaches a top list.
+  - Price drop: **HH HH381** ([DVC Sales](https://dvcsales.com/dvc-resale/hilton-head/250-points/1815), 250 pts, Feb UY) $68→$66/pt, $16.5k, score 71.8 (overall #70). ✔ Checked on the broker page 13:40: 0 in the Feb-2026 UY, 193 in 2027, 250 in 2028; buyer reimburses 2027 dues for 193 pts ($2,482, less a $733 seller credit); closes Dec 2, 2026; US seller; still available. 2042 deed, ROFR medium ($66 is in Disney's buyback range). For Sept 6 nights it's #303 (1BR+2BR) and #106 (2BR); it loses money vs renting. Skip.
+  - Price drop: GCV GC211 (DVC Sales, 50 pts) $295→$289/pt. Unranked. Skip.
+  - New: BWV 616207 (DVC Market, 30 pts, $146) is just the DVC Market mirror of DVC By Resale's B3012NA0, which went **Sale Pending** this run. Too small; ignore.
+  - Going pending: OKW OKA5025 (DVC Resale Market, "Certified Hot Price" → Offer Accepted). Never in a top list.
+  - Market model n=878: −$4.06/pt per missing current year, −$8.72 missing next year, ~$4.71 accepted below ask. Flat.
+  - Scraper health: all 10 sources ok at 10:54 and 13:37 (counts 4–730); no fixes needed. The 15-minute cron is still barely firing.
 - 10:37 scrape (manual dispatch; no scheduled run in the 2 h after 08:36): 0 new, 0 changes. Quiet. Market model n=878 flat (−$4.06/pt per missing current year, −$8.71 missing next year, ~$4.74 accepted below ask). Scraper health: all 10 sources ok at 08:36 and 10:37 (counts 4–730); no fixes needed. The 15-minute cron is still effectively not running; data only refreshes on manual dispatch.
 - 08:36 scrape (manual dispatch): a burst of **5 new Fidelity listings on DVC Market**, 2 price drops and 4 gone. Nothing reaches a top list.
   - New: **BWV 616201** ([Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/boardwalk/210-points/616201), 210 pts, Jun UY, $134, $28.1k). It's rank #17 overall (score 80.1, ROFR low). ⚠ Scraper: 420 in the Jun-2026 UY (210 banked, which expire May 31, 2027), 210 in 2027, dues $9.67. The deed (2042 for BWV) and the 2026/2027 dues terms aren't in the scraped data, and this run couldn't open the broker page. For 1BR+2BR it's only #44 (saves ~$1.8k), because $134 is ~$30/pt above the SSR pack. Skip.
