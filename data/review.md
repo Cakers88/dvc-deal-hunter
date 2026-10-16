@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-16 01:36 UTC (latest data: **00:50 UTC scrape**). Scraper health: all 10 sources ok at 00:50 (counts 4–727); no fixes needed. Broker alert emails in the last 2 h: none. **No top-list changes this run**; tables below are unchanged from 23:36 (re-checked against the rebuilt index).
+**Run:** 2026-10-16 04:40 UTC (latest data: **04:37 UTC scrape**). Scheduled scrapes skipped 00:50→04:37 (GitHub dropped the cron runs; a manual run was queued this hour). Scraper health: all 10 sources ok at 04:37; no fixes needed. Broker alert emails in the last 2 h: none. **No top-list changes this run**; tables below re-checked against the rebuilt index (savings moved by under $15).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,11 @@ SS1262 slips to #4 (no change to the contract). Next: HH HHI26452 (#5, no borrow
 
 ## Market notes
 
+- 04:37 scrape (first since 00:50; GitHub skipped the scheduled runs in between): 4 new, 0 price changes, 1 status change, 3 gone. Nothing reaches a top list or scores ≥ 70, so no broker-page checks were needed.
+  - New: Aulani AU73558 (DVC Resale Market, 100 pts, Feb UY, $105, $10.5k, 2062; 122 in Feb-2027 incl. 22 banked): 1BR #68, score 52.6. Aulani 613509 (DVC Market, 130 pts, Jun UY, $109, $14,170): same price as DVC Shop's AUL500DM, which disappeared this run, so a relist; 1BR #164. BLT BLE3794 (100, $151) and VDH DHE1139 (200, $150, not legacy) are irrelevant to Sept Aulani.
+  - Going pending: OKW OKG5072 (230 pts, $108, extended to 2057) → Offer Accepted. Gone: AKV 616174 ($165), GFV GF210LBF1 (was pending), AUL500DM (relisted above). None were in a top list.
+  - Market model n=844 (was 843): −$4.63/pt per missing current year, −$9.02 missing next year, ~$4.55 accepted below ask. Flat.
+  - Scraper health: all 10 sources ok; no fixes needed.
 - 00:50 scrape (schedule): 1 new, 2 price drops, 2 status changes, 2 gone. Nothing reaches a top list or scores ≥ 70, so no broker-page checks were needed.
   - Price drops: SSR SS1281 ([DVC Sales](https://dvcsales.com/dvc-resale/saratoga-springs/230-points/1729), 230 pts, Dec UY, 2054) $98→$97/pt, $22.3k; score 59.6, 2BR #79, 1BR #109. Only 95 points in the Dec-2026 UY and ROFR high at $97. Skip. BLT BLB3818 (DVC Resale Market, 320 pts, Feb UY) $149→$143 ("Reduced Again"), $45.8k; loses money vs renting for every Sept setup.
   - New: BWV B2512NA2 (DVC By Resale, 25 pts, $136, already "Offer Received"). Below the minimum size, not scored.
