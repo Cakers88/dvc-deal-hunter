@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-16 21:40 UTC (latest data: **21:36 UTC scrape**, dispatched by this review). Scraper health: **all 10 sources ok**. Broker alert emails in the last 2 h: none. No change to any top list this hour; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR.
+**Run:** 2026-10-16 22:40 UTC (latest data: **22:38 UTC scrape**, dispatched by this review; GitHub's 15-min schedule only fired at 18:30 and 21:41). Scraper health: **9/10 ok; DVC Sales failed this run only** (one-off: it was ok at 21:41 and answers 200 from here, so its listings are carried forward as stale; no fix needed unless it fails again). Broker alert emails in the last 2 h: none. No change to any top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,7 @@ Next: HH HHI26452 (#5, no borrowing, 2042 deed).
 
 ## Market notes
 
+- 22:38 scrape (dispatched by this review): 0 new, 0 price changes, 0 status changes, 0 gone. DVC Sales timed out (GET failed after retries); its 71 listings are held from the 21:41 scrape. Quiet Friday evening.
 - 21:36 scrape (dispatched by this review; no scheduled run since 18:30): 1 new, 0 price changes, 3 status changes, 2 gone. Nothing reaches a top-5/top-3 list.
   - New: **SSR SS150-12-1016** ([DVC Store](https://www.dvcstore.com/resort/saratoga-springs/ss150-12-1016-2/), 150 pts, Dec UY, $105, $15,750, 2054). Score 75.3 (#36 overall), so I checked the page 21:40: Available, listed today; 139 pts arriving 12/1/26, 150 in Dec-2027 and 2028; **no dues until 2027** ($0 at closing); closing $634 + $500 CAF; dues $9.19. Scraped data is correct. For a 2BR Sept 6n it borrows 143 and saves only ~$670; loses ~$650 for a 1BR; can't cover 1BR+2BR. ROFR low. Skip.
   - Going pending: SSR SSR583 (DVC Shop, New → Sale Pending); SSB8643 and BCE2566 (DVC Resale Market) moved on to Sale Pending. Gone: SSR 615863 (DVC Market, $98, 0 pts until Apr 2027) and SSR SSR572 (DVC Shop, was pending). None were in a top list.
