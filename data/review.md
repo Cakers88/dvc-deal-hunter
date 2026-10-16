@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-16 17:45 UTC (latest data: **17:37 UTC scrape**). Scraper health: **all 10 sources ok**. DVC Sales is back (72 listings; it failed at 16:38 and 16:49 with connection errors on the site's side, no parser change needed) and Vacation Club Life is back to 45, so the temporary DVC Market mirrors dropped out at 16:49 and the index again uses VCL's own data. Broker alert emails in the last 2 h: none. **Top lists below are unchanged** (savings moved by ≤ $20 as the date rolled).
+**Run:** 2026-10-16 18:40 UTC (latest data: **18:30 UTC scrape**). Scraper health: **all 10 sources ok** (DVC Sales 72, Vacation Club Life 45, DVC Market 730). Broker alert emails in the last 2 h: none. **Top lists below are unchanged** (savings moved by ≤ $25 as the market model refit).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,11 @@ SS1262 slips to #4 (no change to the contract). Next: HH HHI26452 (#5, no borrow
 
 ## Market notes
 
+- 18:30 scrape (schedule): 14 new, 0 price changes, 1 status change, 2 gone. Nothing new reaches a top-5/top-3 list.
+  - New: **OKW 616241 — Fidelity via DVC Market** ([link](https://dvcmarket.com/dvc-resale/old-key-west/220-points/616241), 220 pts, Apr UY, $93, $20.5k). Score 76.9 (#26 overall), so I checked the page: available, listed today, 7 pts in Apr-2026, **440 in Apr-2027** (220 banked), 220 in 2028; buyer reimburses 2026 dues ($78); dues $11.21; closing $833 + $500 CAF. Scraped data is correct. It's **#8 for 1BR+2BR Sept 6n** (saves ~$3.9k, borrows 46) and #4 for a 3BR GV, but **deed expiry not stated (OKW: likely 2042, a weak exit)** and **ROFR high** at $93. Watch, don't chase.
+  - Also new: SSR SSR61800 (DVC Resale Experts, 300 pts, Feb UY, $97, 2054; 0 pts until Feb 2027; #42 for 1BR+2BR, borrows 186; score 67), Aulani 616237 (Fidelity via DVC Market, 100 pts, Aug UY, $95; 0 pts until Aug 2027 → books only after Aug 1, too late for Sept; score 56.5), SSR SS78670 ($117), CCV 615626 ($135), GFV 616238/616239 ($170), GFV GF73369 ($185), OKW OK75084 ($135), plus 25-pt SSR/OKW stubs. None relevant.
+  - Gone: **Aulani 616110** (DVC Market, 320 pts, $90 — matched the Aulani $/pt low; was not in a Sept top list) and BRV 615343 (DVC Market mirror). CFW E2008JO0 (DVC By Resale) changed status.
+  - Market model n=858 (was 847): −$4.78/pt per missing current year (was −$4.81), −$8.94 missing next year, ~$4.50 accepted below ask. Flat.
 - 17:37 scrape (schedule): 6 new, 1 price drop, 3 status changes, 3 gone. Nothing new reaches a top list.
   - New: **BCV BC72584** ([DVC Resale Market](https://www.dvcresalemarket.com/listings/beach-club/bc72584/), 200 pts, Sep UY, $150, $30k, **2042 deed**). Score 71.4, so I checked the page: available, 90 in Sep-2026, 200 in Sep-2027 and 2028, seller pays 2026 dues, buyer pays 2027, can close after Dec 8, dues $9.81. Scraped data is correct. It loses vs renting for Sept 6 nights (−$5.3k 1BR, −$3.7k 2BR, −$195 1BR+2BR with 196 borrowed). Skip.
   - Also new: Aulani AU73573 (DVC Resale Market, 100 pts, Oct UY, $120; score 52), SSR 614691 (DVC Market mirror, $106, 0 pts until Dec 2027; score 0), BRV 615343 (DVC Market mirror of DVC Sales BR242, which dropped off DVC Sales the same run), RR RV200-06-0324 and BCV BC115-10-1016 (DVC Store, $130 / $141). None relevant.
