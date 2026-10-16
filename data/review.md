@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-16 08:38 UTC (latest data: **08:37 UTC scrape**). No scrape had run since 05:21 (GitHub skipped the cron for 3 h), so I dispatched `hunt` manually; it ran at 08:37. Scraper health: all 10 sources ok; no fixes needed. Broker alert emails in the last 2 h: none. **No top-list changes this run**: two Aulani price drops and four new BLT listings, none near a top list. Savings below moved by under $20 (market-model refit).
+**Run:** 2026-10-16 12:36 UTC (latest data: **11:37 UTC scrape**). Scrapes since the last review: 09:37, 10:02, 11:37 (none at 10:37). Scraper health: all 10 sources ok; no fixes needed. Broker alert emails in the last 2 h: none. **No top-list changes this run**: one RV contract gone and one BLT went pending, neither near a top list. Savings below are unchanged to within $2.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,9 @@ SS1262 slips to #4 (no change to the contract). Next: HH HHI26452 (#5, no borrow
 
 ## Market notes
 
+- 09:37 / 10:02 / 11:37 scrapes (schedule): 0 new, 0 price changes. Gone: RV RV353 (DVC Sales, $121). Going pending: BLT BLB3787 (DVC Resale Market, New → Offer Accepted). Neither was in a top list or scored ≥ 70, so no broker-page checks were needed.
+  - Market model n=841: −$4.71/pt per missing current year, −$8.84 missing next year, ~$4.53 accepted below ask. Flat.
+  - Scraper health: all 10 sources ok; no fixes needed.
 - 08:37 scrape (manual dispatch; nothing ran 05:21→08:37): 4 new, 2 price drops, 0 status changes, 8 gone. Nothing reaches a top list or scores ≥ 70, so no broker-page checks were needed.
   - Price drops: **Aulani AUB3543** ([DVC Resale Market](https://www.dvcresalemarket.com/listings/aulani/aub3543/), 300 pts, Oct UY, 2062) and **AUB3544** (150 pts, same UY) both $103→$99/pt ("Reduced Again"), $29.7k and $14.85k. Scores 66.8 / 65.5. Neither is a fit for Sept 2027: AUB3543 is #67 for 1BR+2BR (loses ~$80 vs renting, borrows 186), AUB3544 #74 for 2BR. Not a new Aulani low ($90 at DVC Market 616035; $95 at DVC Shop AUL247LBF1).
   - New: four Fidelity BLT contracts on DVC Market, all Feb UY with **0 points until Feb 2027**: 616227 (160 pts, $136), 616228 (120, $136), 616229 (80, $142), 616230 (40, $145). Best rank #26 (1BR). Skip.
