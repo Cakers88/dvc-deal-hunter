@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-15 23:36 UTC (latest data: **22:40 UTC scrape**). Scraper health: all 10 sources ok at 22:40 (counts 4–728); no fixes needed. Broker alert emails in the last 2 h: none. **New: SSR SSR09680 enters the 2-bedroom top 3** (see below).
+**Run:** 2026-10-16 01:36 UTC (latest data: **00:50 UTC scrape**). Scraper health: all 10 sources ok at 00:50 (counts 4–727); no fixes needed. Broker alert emails in the last 2 h: none. **No top-list changes this run**; tables below are unchanged from 23:36 (re-checked against the rebuilt index).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,12 @@ SS1262 slips to #4 (no change to the contract). Next: HH HHI26452 (#5, no borrow
 
 ## Market notes
 
+- 00:50 scrape (schedule): 1 new, 2 price drops, 2 status changes, 2 gone. Nothing reaches a top list or scores ≥ 70, so no broker-page checks were needed.
+  - Price drops: SSR SS1281 ([DVC Sales](https://dvcsales.com/dvc-resale/saratoga-springs/230-points/1729), 230 pts, Dec UY, 2054) $98→$97/pt, $22.3k; score 59.6, 2BR #79, 1BR #109. Only 95 points in the Dec-2026 UY and ROFR high at $97. Skip. BLT BLB3818 (DVC Resale Market, 320 pts, Feb UY) $149→$143 ("Reduced Again"), $45.8k; loses money vs renting for every Sept setup.
+  - New: BWV B2512NA2 (DVC By Resale, 25 pts, $136, already "Offer Received"). Below the minimum size, not scored.
+  - Going pending: SSR SS28652 ("full 2026 points, no dues") → Offer Accepted; BLT BLE3802 → Sale Pending. Gone: BWV BWA3337 (was pending) and **VB VB341** (DVC Sales, $48, was available). None were in a top list.
+  - Market model n=843 (was 845): −$4.69/pt per missing current year, −$8.98 missing next year, ~$4.70 accepted below ask. Flat.
+  - Scraper health: all 10 sources ok; no fixes needed.
 - 22:40 scrape (schedule): 4 new, 0 price changes, 3 status changes, 20 gone.
   - New: **SSR SSR09680** (DVC Resale Experts, 160 pts, Mar UY, $104, $16.6k): **2BR #3**, overall #2, score 86.2. Details in the 2BR table. 1BR #15. Can't cover 1BR+2BR (451 pts max).
   - New with no top-list effect: BRV BR21939 (DVC Resale Market, 500 pts, Dec UY, $98, $49k, 2042 deed; loses money vs renting for every Sept setup) and VDH VDH03181 (200, $160). Aulani 613869 (DVC Market, 50 pts, $97) is a relist of DVC Resale Experts' AUL48932, which disappeared at the same price. Too small for any setup.
