@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-16 12:36 UTC (latest data: **11:37 UTC scrape**). Scrapes since the last review: 09:37, 10:02, 11:37 (none at 10:37). Scraper health: all 10 sources ok; no fixes needed. Broker alert emails in the last 2 h: none. **No top-list changes this run**: one RV contract gone and one BLT went pending, neither near a top list. Savings below are unchanged to within $2.
+**Run:** 2026-10-16 14:38 UTC (latest data: **14:37 UTC scrape**, which this review dispatched after GitHub skipped every scheduled run 11:37→14:37). Scraper health: all 10 sources ok; no fixes needed. Broker alert emails in the last 2 h: none. **No top-list changes this run**: four contracts went (further) pending and one $165/pt contract is gone, none near a top list. Savings below are unchanged to within $2.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,10 @@ SS1262 slips to #4 (no change to the contract). Next: HH HHI26452 (#5, no borrow
 
 ## Market notes
 
+- 14:37 scrape (dispatched by this review; no scheduled runs fired 11:37→14:37): 0 new, 0 price changes, 4 status changes, 1 gone. Nothing in a top list or scoring ≥ 70, so no broker-page checks were needed.
+  - Going pending: VB VBE2635 (DVC Resale Market, New → Offer Accepted) and CCV700 (Buy and Sell DVC, → Sale Pending). Aulani AUA3555 and AUE3554 moved on from Offer Accepted to Sale Pending. Gone: dvcmarket 616133 (400 pts, $165).
+  - Market model n=842 (was 841): −$4.72/pt per missing current year, −$8.83 missing next year, ~$4.53 accepted below ask. Flat.
+  - Scraper health: all 10 sources ok; no fixes needed. GitHub's cron keeps dropping runs; dispatching manually covered the gap.
 - 09:37 / 10:02 / 11:37 scrapes (schedule): 0 new, 0 price changes. Gone: RV RV353 (DVC Sales, $121). Going pending: BLT BLB3787 (DVC Resale Market, New → Offer Accepted). Neither was in a top list or scored ≥ 70, so no broker-page checks were needed.
   - Market model n=841: −$4.71/pt per missing current year, −$8.84 missing next year, ~$4.53 accepted below ask. Flat.
   - Scraper health: all 10 sources ok; no fixes needed.
