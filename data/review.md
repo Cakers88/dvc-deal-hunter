@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-16 16:45 UTC (latest data: **16:38 UTC scrape**, which this review dispatched; no scheduled run fired after 14:48). Scraper health: **2 sources failed this run**: Vacation Club Life returned 0 listings (transient; it returns all 45 when re-tested) and DVC Sales refused connections (site-side; its listings are kept from the last good scrape). Fix: an empty result no longer marks a broker's whole inventory gone (see below). Broker alert emails in the last 2 h: none. **Top lists below are unchanged from 15:36**: the 16:38 index briefly shows VCL contracts via their DVC Market mirrors without VCL's closing costs, which inflates them (e.g. Aulani 115 pts @ $95 shows +$1,867 for a 2BR vs +$791 with VCL's data); that should clear on the next scrape.
+**Run:** 2026-10-16 17:45 UTC (latest data: **17:37 UTC scrape**). Scraper health: **all 10 sources ok**. DVC Sales is back (72 listings; it failed at 16:38 and 16:49 with connection errors on the site's side, no parser change needed) and Vacation Club Life is back to 45, so the temporary DVC Market mirrors dropped out at 16:49 and the index again uses VCL's own data. Broker alert emails in the last 2 h: none. **Top lists below are unchanged** (savings moved by ≤ $20 as the date rolled).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,13 @@ SS1262 slips to #4 (no change to the contract). Next: HH HHI26452 (#5, no borrow
 
 ## Market notes
 
+- 17:37 scrape (schedule): 6 new, 1 price drop, 3 status changes, 3 gone. Nothing new reaches a top list.
+  - New: **BCV BC72584** ([DVC Resale Market](https://www.dvcresalemarket.com/listings/beach-club/bc72584/), 200 pts, Sep UY, $150, $30k, **2042 deed**). Score 71.4, so I checked the page: available, 90 in Sep-2026, 200 in Sep-2027 and 2028, seller pays 2026 dues, buyer pays 2027, can close after Dec 8, dues $9.81. Scraped data is correct. It loses vs renting for Sept 6 nights (−$5.3k 1BR, −$3.7k 2BR, −$195 1BR+2BR with 196 borrowed). Skip.
+  - Also new: Aulani AU73573 (DVC Resale Market, 100 pts, Oct UY, $120; score 52), SSR 614691 (DVC Market mirror, $106, 0 pts until Dec 2027; score 0), BRV 615343 (DVC Market mirror of DVC Sales BR242, which dropped off DVC Sales the same run), RR RV200-06-0324 and BCV BC115-10-1016 (DVC Store, $130 / $141). None relevant.
+  - Price drop: SSR SS1290 (DVC Sales, 100 pts, Apr UY) $100→$98; 0 pts in 2026, score 55. Skip.
+  - Going pending: SSR SS68657 (→ Offer Accepted), RR RIV256 (→ Sale Pending), GFV GF83338 (→ Sale Pending). Gone: CCV265, SSR SS98522 ($106), BR242. None were in a top list.
+  - Market model n=847 (was 841 at 16:38): −$4.81/pt per missing current year (was −$5.05), −$8.89 missing next year, ~$4.52 accepted below ask. Back in line now that the VCL outage has cleared.
+- 16:49 scrape (schedule): 35 gone. All were DVC Market mirrors of Vacation Club Life contracts, de-duplicated again once VCL came back. Not market movement.
 - 16:38 scrape (dispatched by this review): 37 new, 0 price changes, 2 status changes, 43 gone, almost all from a Vacation Club Life outage.
   - **Vacation Club Life returned 0 listings**, so all 43 of its contracts were marked gone, and 35 of their DVC Market mirrors resurfaced as "new" (aggregator-only). Not real market movement. **Fixed** `hunter/scrape.py`: a source that returns 0 listings now keeps its last good data (flagged stale), the same as a source that errors.
   - **DVC Sales refused connections** (connection reset from GitHub and from here). Its listings, including 1BR+2BR picks #1, #2 and #4, are carried forward as stale. If it's still down next run, I'll look again; nothing to fix in the parser yet.
