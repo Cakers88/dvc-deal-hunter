@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-16 14:38 UTC (latest data: **14:37 UTC scrape**, which this review dispatched after GitHub skipped every scheduled run 11:37→14:37). Scraper health: all 10 sources ok; no fixes needed. Broker alert emails in the last 2 h: none. **No top-list changes this run**: four contracts went (further) pending and one $165/pt contract is gone, none near a top list. Savings below are unchanged to within $2.
+**Run:** 2026-10-16 15:36 UTC (latest data: **15:36 UTC scrape**, which this review dispatched; the only scheduled run since 14:37 fired at 14:48). Scraper health: all 10 sources ok; no fixes needed. Broker alert emails in the last 2 h: none. **No top-list changes this run**: 2 new OKW contracts (2042 deeds) and one SSR price drop, none near a top list. Savings below are unchanged to within $10.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,12 @@ SS1262 slips to #4 (no change to the contract). Next: HH HHI26452 (#5, no borrow
 
 ## Market notes
 
+- 15:36 scrape (dispatched by this review): 2 new, 1 price drop, 2 status changes, 0 gone. Nothing in a top list or scoring ≥ 70, so no broker-page checks were needed.
+  - Price drop: SSR SS38594 ([DVC Resale Market](https://www.dvcresalemarket.com/listings/saratoga-springs/ss38594/), 150 pts, Aug UY, 2054) $105→$94/pt, $14.1k ("Certified Hot Price"). **Stripped through Aug 2028** (1 pt in 2026, 0 in 2027), so it can't cover Sept 2027 at all; score 0. Skip.
+  - New: OKW OK65062 (DVC Resale Market, 210 pts, Aug UY, $95, $19.95k, 210 in Aug-2027) and OK65085 (164 pts, Dec UY, $105); both **2042 deeds**, seller pays 2026 dues. Scores 62.7 / 57.0; best Sept rank #171 (2BR). Skip.
+  - Going pending: AKV AK36508 and BLT BLB3787 moved on to Sale Pending. Neither was in a top list.
+  - Market model n=843 (was 842): −$4.75/pt per missing current year, −$8.87 missing next year, ~$4.51 accepted below ask. Flat.
+  - Scraper health: all 10 sources ok; no fixes needed.
 - 14:37 scrape (dispatched by this review; no scheduled runs fired 11:37→14:37): 0 new, 0 price changes, 4 status changes, 1 gone. Nothing in a top list or scoring ≥ 70, so no broker-page checks were needed.
   - Going pending: VB VBE2635 (DVC Resale Market, New → Offer Accepted) and CCV700 (Buy and Sell DVC, → Sale Pending). Aulani AUA3555 and AUE3554 moved on from Offer Accepted to Sale Pending. Gone: dvcmarket 616133 (400 pts, $165).
   - Market model n=842 (was 841): −$4.72/pt per missing current year, −$8.83 missing next year, ~$4.53 accepted below ask. Flat.
@@ -114,7 +120,7 @@ SS1262 slips to #4 (no change to the contract). Next: HH HHI26452 (#5, no borrow
 
 ## Scraper health
 
-- 08:37: **all 10 sources OK** (dvcmarket 728, dvcresalemarket 378, dvcshop 239, dvcstore 143, dvcresaleexperts 96, dvcsales 73, vacationclublife 45, dvcbyresale 27, buyandselldvc 23, magicresales 4). The 05:21 `schedule` run was the last before a 3 h gap; I dispatched `hunt` manually at 08:37.
+- 15:36: **all 10 sources OK** (14:48 counts: dvcmarket 727, dvcresalemarket 378, dvcshop 239, dvcstore 143, dvcresaleexperts 96, dvcsales 72, vacationclublife 45, dvcbyresale 27, buyandselldvc 23, magicresales 4). After the 14:48 `schedule` run nothing fired for ~48 min; I dispatched `hunt` manually at 15:36.
 - The 15-minute cron keeps firing only every few hours. Disabling and re-enabling the `hunt` workflow (Actions → hunt → ⋯) is the usual fix, but it needs Corey.
 - vacationclublife has stayed at ~45 listings since its sold purge on Oct 15 (spot-checked then; not a parser fault).
 
