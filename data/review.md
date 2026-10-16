@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-16 15:36 UTC (latest data: **15:36 UTC scrape**, which this review dispatched; the only scheduled run since 14:37 fired at 14:48). Scraper health: all 10 sources ok; no fixes needed. Broker alert emails in the last 2 h: none. **No top-list changes this run**: 2 new OKW contracts (2042 deeds) and one SSR price drop, none near a top list. Savings below are unchanged to within $10.
+**Run:** 2026-10-16 16:45 UTC (latest data: **16:38 UTC scrape**, which this review dispatched; no scheduled run fired after 14:48). Scraper health: **2 sources failed this run**: Vacation Club Life returned 0 listings (transient; it returns all 45 when re-tested) and DVC Sales refused connections (site-side; its listings are kept from the last good scrape). Fix: an empty result no longer marks a broker's whole inventory gone (see below). Broker alert emails in the last 2 h: none. **Top lists below are unchanged from 15:36**: the 16:38 index briefly shows VCL contracts via their DVC Market mirrors without VCL's closing costs, which inflates them (e.g. Aulani 115 pts @ $95 shows +$1,867 for a 2BR vs +$791 with VCL's data); that should clear on the next scrape.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,12 @@ SS1262 slips to #4 (no change to the contract). Next: HH HHI26452 (#5, no borrow
 
 ## Market notes
 
+- 16:38 scrape (dispatched by this review): 37 new, 0 price changes, 2 status changes, 43 gone, almost all from a Vacation Club Life outage.
+  - **Vacation Club Life returned 0 listings**, so all 43 of its contracts were marked gone, and 35 of their DVC Market mirrors resurfaced as "new" (aggregator-only). Not real market movement. **Fixed** `hunter/scrape.py`: a source that returns 0 listings now keeps its last good data (flagged stale), the same as a source that errors.
+  - **DVC Sales refused connections** (connection reset from GitHub and from here). Its listings, including 1BR+2BR picks #1, #2 and #4, are carried forward as stale. If it's still down next run, I'll look again; nothing to fix in the parser yet.
+  - New: SSR SSC8678 ([DVC Resale Market](https://www.dvcresalemarket.com/listings/saratoga-springs/ssc8678/), 160 pts, Dec UY, $115, $18.4k, 2054). Score 79 (#12), so I checked the page: available, 320 in Dec-2026 (160 banked from 2025), 160 in Dec-2027 and 2028, dues $9.19, dues terms not stated. All 320 Dec-2026 points are usable for Sept 2027 (they expire Nov 30, 2027), but at $115 it still loses vs renting: −$2.2k for a 1BR, −$345 for a 2BR; 1BR+2BR doesn't fit even with borrowing. Its score comes from 5-night plans. Skip. Also new: BCV BC92590 (220 pts, $145, 2042 deed), irrelevant.
+  - Going pending: SSR SS150-12-0924 (DVC Store) and CCV CC93029 (→ Sale Pending). Neither was in a top list.
+  - Market model n=841 (was 843): −$5.05/pt per missing current year (was −$4.75), −$8.91 missing next year, ~$4.72 accepted below ask. The shift is likely from the VCL outage, not the market.
 - 15:36 scrape (dispatched by this review): 2 new, 1 price drop, 2 status changes, 0 gone. Nothing in a top list or scoring ≥ 70, so no broker-page checks were needed.
   - Price drop: SSR SS38594 ([DVC Resale Market](https://www.dvcresalemarket.com/listings/saratoga-springs/ss38594/), 150 pts, Aug UY, 2054) $105→$94/pt, $14.1k ("Certified Hot Price"). **Stripped through Aug 2028** (1 pt in 2026, 0 in 2027), so it can't cover Sept 2027 at all; score 0. Skip.
   - New: OKW OK65062 (DVC Resale Market, 210 pts, Aug UY, $95, $19.95k, 210 in Aug-2027) and OK65085 (164 pts, Dec UY, $105); both **2042 deeds**, seller pays 2026 dues. Scores 62.7 / 57.0; best Sept rank #171 (2BR). Skip.

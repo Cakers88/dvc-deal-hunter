@@ -154,6 +154,11 @@ def run() -> dict:
             if not rows:
                 health[mod.NAME]["ok"] = False
                 health[mod.NAME]["error"] = "returned 0 listings"
+                # an empty page is almost always a transient/site problem, not a sell-out:
+                # keep last good data instead of marking the whole inventory gone
+                by_source[mod.NAME] = [r for r in prev.values() if r["source"] == mod.NAME and r.get("active")]
+                for r in by_source[mod.NAME]:
+                    r["stale"] = True
         except Exception as e:  # keep last good data for this source
             log.exception("adapter %s failed", mod.NAME)
             health[mod.NAME] = {"ok": False, "error": f"{type(e).__name__}: {e}"[:300]}
