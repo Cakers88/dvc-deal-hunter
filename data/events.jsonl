@@ -1729,3 +1729,18 @@
 {"t": "2026-10-16T18:30:16+00:00", "uid": "dvcresalemarket:GF73369", "event": "new"}
 {"t": "2026-10-16T18:30:16+00:00", "uid": "dvcmarket:615343", "event": "gone", "last": {"price": 12870.0, "price_per_point": 99.0, "availability": "available"}}
 {"t": "2026-10-16T18:30:16+00:00", "uid": "dvcmarket:616110", "event": "gone", "last": {"price": 28800.0, "price_per_point": 90.0, "availability": "available"}}
+{"t": "2026-10-16T19:37:10+00:00", "uid": "dvcresalemarket:AU73574", "event": "new"}
+{"t": "2026-10-16T19:37:10+00:00", "uid": "dvcresaleexperts:OKW95100", "event": "new"}
+{"t": "2026-10-16T19:37:10+00:00", "uid": "dvcresaleexperts:OKW95101", "event": "new"}
+{"t": "2026-10-16T19:37:10+00:00", "uid": "dvcresalemarket:AK76515", "event": "new"}
+{"t": "2026-10-16T19:37:10+00:00", "uid": "dvcresalemarket:BL73821", "event": "new"}
+{"t": "2026-10-16T19:37:10+00:00", "uid": "dvcresalemarket:CC73024", "event": "new"}
+{"t": "2026-10-16T19:37:10+00:00", "uid": "dvcresalemarket:CC73031", "event": "new"}
+{"t": "2026-10-16T19:37:10+00:00", "uid": "dvcresaleexperts:VGF92560", "event": "price_change", "changes": {"price": [51600.0, 51000.0], "price_per_point": [172.0, 170.0], "status_raw": ["New", "Reduced"]}}
+{"t": "2026-10-16T19:37:10+00:00", "uid": "dvcresaleexperts:POL02164", "event": "new"}
+{"t": "2026-10-16T19:37:10+00:00", "uid": "dvcresaleexperts:POL02166", "event": "new"}
+{"t": "2026-10-16T19:37:10+00:00", "uid": "dvcresalemarket:PLB4678", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["New", "Offer Accepted"]}}
+{"t": "2026-10-16T19:37:10+00:00", "uid": "dvcresalemarket:PLB4676", "event": "gone", "last": {"price": 26250.0, "price_per_point": 175.0, "availability": "available"}}
+{"t": "2026-10-16T19:37:10+00:00", "uid": "dvcresalemarket:PLB4677", "event": "gone", "last": {"price": 9250.0, "price_per_point": 185.0, "availability": "available"}}
+{"t": "2026-10-16T19:37:10+00:00", "uid": "dvcsales:CC279", "event": "gone", "last": {"price": 14800.0, "price_per_point": 148.0, "availability": "available"}}
+{"t": "2026-10-16T19:37:10+00:00", "uid": "vacationclublife:4301740000148295002", "event": "gone", "last": {"price": 16800.0, "price_per_point": 105.0, "availability": "available"}}
