@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T16:38:21+00:00",
+ "updated": "2026-10-16T16:49:53+00:00",
  "count": 1329,
  "listings": [
   {
@@ -2993,9 +2993,9 @@
     "sync_hash": "1361cdbb8a7bc14e2a6e945ebb3191e3",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -3072,9 +3072,9 @@
     "sync_hash": "7ad9479a53446f72959d2a03548eb1ae",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -3155,9 +3155,9 @@
     "sync_hash": "987ffc593a425d0833b53561fce14a2f",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -3194,22 +3194,22 @@
    "date_listed": "2026-06-23",
    "points_available": [
     {
-     "uy": "2026-12",
+     "uy": "2025-12",
      "points": 570,
+     "banked": 0
+    },
+    {
+     "uy": "2026-12",
+     "points": 600,
      "banked": 0
     },
     {
      "uy": "2027-12",
      "points": 600,
      "banked": 0
-    },
-    {
-     "uy": "2028-12",
-     "points": 600,
-     "banked": 0
     }
    ],
-   "availability_text": "2026-12: 570 | 2027-12: 600 | 2028-12: 600",
+   "availability_text": "2025-12: 570 | 2026-12: 600 | 2027-12: 600",
    "dues_terms": null,
    "dues_per_point": 9.46,
    "subsidized_dues": null,
@@ -3234,9 +3234,9 @@
     "sync_hash": "78736bf9b37a49dea7b232983bac6c9d",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true
    },
@@ -3269,22 +3269,22 @@
    "date_listed": "2026-06-23",
    "points_available": [
     {
-     "uy": "2026-09",
+     "uy": "2025-09",
      "points": 90,
+     "banked": 0
+    },
+    {
+     "uy": "2026-09",
+     "points": 125,
      "banked": 0
     },
     {
      "uy": "2027-09",
      "points": 125,
      "banked": 0
-    },
-    {
-     "uy": "2028-09",
-     "points": 125,
-     "banked": 0
     }
    ],
-   "availability_text": "2026-09: 90 | 2027-09: 125 | 2028-09: 125",
+   "availability_text": "2025-09: 90 | 2026-09: 125 | 2027-09: 125",
    "dues_terms": null,
    "dues_per_point": 9.46,
    "subsidized_dues": null,
@@ -3309,9 +3309,9 @@
     "sync_hash": "ae51d58fa50b07611072f7f44ca6c41f",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true
    },
@@ -3380,9 +3380,9 @@
     "sync_hash": "3617285c6d323731ad8664ab1ad149be",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -3419,17 +3419,17 @@
    "date_listed": "2026-07-06",
    "points_available": [
     {
-     "uy": "2026-06",
+     "uy": "2025-06",
      "points": 1,
      "banked": 0
     },
     {
-     "uy": "2027-06",
+     "uy": "2026-06",
      "points": 200,
      "banked": 0
     }
    ],
-   "availability_text": "2026-06: 1 | 2027-06: 200",
+   "availability_text": "2025-06: 1 | 2026-06: 200",
    "dues_terms": null,
    "dues_per_point": 9.46,
    "subsidized_dues": null,
@@ -3455,9 +3455,9 @@
     "sync_hash": "62d336f5d02e454dce0bf64ef994dbbb",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true
    },
@@ -3531,9 +3531,9 @@
     "sync_hash": "1e386510d4aebd0ad53dba9131e2b808",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -3607,9 +3607,9 @@
     "sync_hash": "688e779e2761f2f37dbe692444640209",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -3650,22 +3650,22 @@
    "date_listed": "2026-07-18",
    "points_available": [
     {
-     "uy": "2026-03",
+     "uy": "2025-03",
      "points": 25,
+     "banked": 0
+    },
+    {
+     "uy": "2026-03",
+     "points": 150,
      "banked": 0
     },
     {
      "uy": "2027-03",
      "points": 150,
      "banked": 0
-    },
-    {
-     "uy": "2028-03",
-     "points": 150,
-     "banked": 0
     }
    ],
-   "availability_text": "2026-03: 25 | 2027-03: 150 | 2028-03: 150",
+   "availability_text": "2025-03: 25 | 2026-03: 150 | 2027-03: 150",
    "dues_terms": null,
    "dues_per_point": 9.46,
    "subsidized_dues": null,
@@ -3690,9 +3690,9 @@
     "sync_hash": "390d53f6561844f5a2c3e4824ac964ea",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true
    },
@@ -3766,9 +3766,9 @@
     "sync_hash": "04db466a270b1b72806eaa5502bf38ac",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -3850,9 +3850,9 @@
     "sync_hash": "b7fb2cd99ae16bce79c3baeb71937783",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -3933,9 +3933,9 @@
     "sync_hash": "f5f255ee983522496a5b11b616faf6cc",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -4016,9 +4016,9 @@
     "sync_hash": "d32d8e77817ac5128aa938190086e83d",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -4172,9 +4172,9 @@
     "sync_hash": "d2b28639d2b9ce17660b8b7e51a764ec",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -4255,9 +4255,9 @@
     "sync_hash": "dd47aeb7bfbe5cd250eb215409aadab8",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -4335,9 +4335,9 @@
     "sync_hash": "454380667300ddc29130c6b4171fbcef",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -4419,9 +4419,9 @@
     "sync_hash": "620e97b6cd95cac2370882b89f231d1d",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -4574,9 +4574,9 @@
     "sync_hash": "61fb362fc2afc1ca82926d5e1c184b28",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -4742,9 +4742,9 @@
     "sync_hash": "ab32e07975b0b1bae2bf2132ee0c5330",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -4825,9 +4825,9 @@
     "sync_hash": "ebfe1f3aff610cd0061a8823af907a1c",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -4864,22 +4864,22 @@
    "date_listed": "2026-07-18",
    "points_available": [
     {
-     "uy": "2026-08",
+     "uy": "2025-08",
      "points": 0,
      "banked": 0
     },
     {
-     "uy": "2027-08",
+     "uy": "2026-08",
      "points": 184,
      "banked": 0
     },
     {
-     "uy": "2028-08",
+     "uy": "2027-08",
      "points": 300,
      "banked": 0
     }
    ],
-   "availability_text": "2026-08: 0 | 2027-08: 184 | 2028-08: 300",
+   "availability_text": "2025-08: 0 | 2026-08: 184 | 2027-08: 300",
    "dues_terms": null,
    "dues_per_point": 9.46,
    "subsidized_dues": null,
@@ -4904,9 +4904,9 @@
     "sync_hash": "17b8f5ef2c7008312bc6ba10c20eb94a",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true
    },
@@ -4979,9 +4979,9 @@
     "sync_hash": "035e5875bb66123f463ff378167172c6",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -5062,9 +5062,9 @@
     "sync_hash": "32833949e6978417c2fca44c53569d44",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -5141,9 +5141,9 @@
     "sync_hash": "1ed958dd16afc8373ef372f4fb9cacda",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -5224,9 +5224,9 @@
     "sync_hash": "26946e768e73f17facdec0beca69ff5c",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -5303,9 +5303,9 @@
     "sync_hash": "0cc38debf1af8c941b0db5af41f64af5",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -5346,17 +5346,17 @@
    "date_listed": "2026-07-18",
    "points_available": [
     {
-     "uy": "2026-03",
+     "uy": "2025-03",
      "points": 300,
      "banked": 0
     },
     {
-     "uy": "2027-03",
+     "uy": "2026-03",
      "points": 300,
      "banked": 0
     }
    ],
-   "availability_text": "2026-03: 300 | 2027-03: 300",
+   "availability_text": "2025-03: 300 | 2026-03: 300",
    "dues_terms": null,
    "dues_per_point": 9.46,
    "subsidized_dues": null,
@@ -5382,9 +5382,9 @@
     "sync_hash": "30d016d712f246b26b8780f9bb059201",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true
    },
@@ -5457,9 +5457,9 @@
     "sync_hash": "0a1b96f2f555e3c76e17b2165a63deee",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -5500,17 +5500,17 @@
    "date_listed": "2026-07-18",
    "points_available": [
     {
-     "uy": "2026-03",
+     "uy": "2025-03",
      "points": 200,
      "banked": 0
     },
     {
-     "uy": "2027-03",
+     "uy": "2026-03",
      "points": 200,
      "banked": 0
     }
    ],
-   "availability_text": "2026-03: 200 | 2027-03: 200",
+   "availability_text": "2025-03: 200 | 2026-03: 200",
    "dues_terms": null,
    "dues_per_point": 9.46,
    "subsidized_dues": null,
@@ -5536,9 +5536,9 @@
     "sync_hash": "5820db544cc2229535553ad24888696f",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true
    },
@@ -5707,7 +5707,7 @@
     "contract_point_status": "Missing points"
    },
    "uid": "dvcmarket:613517",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -5719,7 +5719,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -5787,7 +5788,7 @@
     "contract_point_status": "Full points"
    },
    "uid": "dvcmarket:613518",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -5799,7 +5800,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -5867,7 +5869,7 @@
     "contract_point_status": "Full points"
    },
    "uid": "dvcmarket:613521",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -5879,7 +5881,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -5947,7 +5950,7 @@
     "contract_point_status": "Missing points"
    },
    "uid": "dvcmarket:613536",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -5959,7 +5962,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -6027,7 +6031,7 @@
     "contract_point_status": "Full points"
    },
    "uid": "dvcmarket:613541",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -6039,7 +6043,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -6107,7 +6112,7 @@
     "contract_point_status": "Full points"
    },
    "uid": "dvcmarket:613545",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -6119,7 +6124,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -6184,7 +6190,7 @@
     "aggregator_only": true
    },
    "uid": "dvcmarket:613546",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -6195,7 +6201,8 @@
      "availability": "available",
      "status_raw": "active"
     }
-   ]
+   ],
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -6263,7 +6270,7 @@
     "contract_point_status": "Missing points"
    },
    "uid": "dvcmarket:613550",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -6275,7 +6282,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -6328,9 +6336,9 @@
     "sync_hash": "92b24e87f82e4d393d6c772517a9c125",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -6371,17 +6379,17 @@
    "date_listed": "2026-07-18",
    "points_available": [
     {
-     "uy": "2026-09",
+     "uy": "2025-09",
      "points": 15,
      "banked": 0
     },
     {
-     "uy": "2027-09",
+     "uy": "2026-09",
      "points": 150,
      "banked": 0
     }
    ],
-   "availability_text": "2026-09: 15 | 2027-09: 150",
+   "availability_text": "2025-09: 15 | 2026-09: 150",
    "dues_terms": null,
    "dues_per_point": 9.46,
    "subsidized_dues": null,
@@ -6407,9 +6415,9 @@
     "sync_hash": "1bbc6f37ee06257f8371c4707ba2628d",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true
    },
@@ -6442,22 +6450,22 @@
    "date_listed": "2026-07-22",
    "points_available": [
     {
-     "uy": "2026-03",
+     "uy": "2025-03",
      "points": 0,
+     "banked": 0
+    },
+    {
+     "uy": "2026-03",
+     "points": 200,
      "banked": 0
     },
     {
      "uy": "2027-03",
      "points": 200,
      "banked": 0
-    },
-    {
-     "uy": "2028-03",
-     "points": 200,
-     "banked": 0
     }
    ],
-   "availability_text": "2026-03: 0 | 2027-03: 200 | 2028-03: 200",
+   "availability_text": "2025-03: 0 | 2026-03: 200 | 2027-03: 200",
    "dues_terms": null,
    "dues_per_point": 9.46,
    "subsidized_dues": null,
@@ -6482,9 +6490,9 @@
     "sync_hash": "59124c381af9a0e874afdda1aa40ed56",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true
    },
@@ -6557,9 +6565,9 @@
     "sync_hash": "795cc91a0d7f75651bcd10a5e45d8904",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -6732,7 +6740,7 @@
     "contract_point_status": "Missing points"
    },
    "uid": "dvcmarket:613911",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -6744,7 +6752,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -6801,9 +6810,9 @@
     "sync_hash": "05f16ea95324a5562155c6b41295e19a",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -6880,9 +6889,9 @@
     "sync_hash": "37f94930a57c4ba84e0cafc41241d005",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -6919,22 +6928,22 @@
    "date_listed": "2026-07-31",
    "points_available": [
     {
-     "uy": "2026-06",
+     "uy": "2025-06",
      "points": 132,
+     "banked": 0
+    },
+    {
+     "uy": "2026-06",
+     "points": 150,
      "banked": 0
     },
     {
      "uy": "2027-06",
      "points": 150,
      "banked": 0
-    },
-    {
-     "uy": "2028-06",
-     "points": 150,
-     "banked": 0
     }
    ],
-   "availability_text": "2026-06: 132 | 2027-06: 150 | 2028-06: 150",
+   "availability_text": "2025-06: 132 | 2026-06: 150 | 2027-06: 150",
    "dues_terms": null,
    "dues_per_point": 9.46,
    "subsidized_dues": null,
@@ -6959,9 +6968,9 @@
     "sync_hash": "c9f61caed93c8f036f61900aebdff288",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true
    },
@@ -7045,7 +7054,7 @@
     "contract_point_status": "Full points"
    },
    "uid": "dvcmarket:614108",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -7057,7 +7066,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -7125,7 +7135,7 @@
     "contract_point_status": "Full points"
    },
    "uid": "dvcmarket:614195",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -7137,7 +7147,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -7194,9 +7205,9 @@
     "sync_hash": "f44a283cef0bfaccdb30a315827ab449",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -7278,9 +7289,9 @@
     "sync_hash": "8f5a9853f4835fad039beeec22143ea3",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -7361,9 +7372,9 @@
     "sync_hash": "9d0a6aef965d6b404ccf77886d04533c",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -7451,7 +7462,7 @@
     "contract_point_status": "Full points"
    },
    "uid": "dvcmarket:614320",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -7463,7 +7474,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -7531,7 +7543,7 @@
     "contract_point_status": "Missing points"
    },
    "uid": "dvcmarket:614340",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -7543,7 +7555,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -7560,22 +7573,22 @@
    "date_listed": "2026-08-09",
    "points_available": [
     {
-     "uy": "2026-06",
+     "uy": "2025-06",
      "points": 30,
+     "banked": 0
+    },
+    {
+     "uy": "2026-06",
+     "points": 300,
      "banked": 0
     },
     {
      "uy": "2027-06",
      "points": 300,
      "banked": 0
-    },
-    {
-     "uy": "2028-06",
-     "points": 300,
-     "banked": 0
     }
    ],
-   "availability_text": "2026-06: 30 | 2027-06: 300 | 2028-06: 300",
+   "availability_text": "2025-06: 30 | 2026-06: 300 | 2027-06: 300",
    "dues_terms": null,
    "dues_per_point": 9.46,
    "subsidized_dues": null,
@@ -7600,9 +7613,9 @@
     "sync_hash": "cb344ee4764c20fda402f0d8c69e0859",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true
    },
@@ -7635,6 +7648,11 @@
    "date_listed": "2026-08-12",
    "points_available": [
     {
+     "uy": "2025-08",
+     "points": 200,
+     "banked": 0
+    },
+    {
      "uy": "2026-08",
      "points": 200,
      "banked": 0
@@ -7643,14 +7661,9 @@
      "uy": "2027-08",
      "points": 200,
      "banked": 0
-    },
-    {
-     "uy": "2028-08",
-     "points": 200,
-     "banked": 0
     }
    ],
-   "availability_text": "2026-08: 200 | 2027-08: 200 | 2028-08: 200",
+   "availability_text": "2025-08: 200 | 2026-08: 200 | 2027-08: 200",
    "dues_terms": null,
    "dues_per_point": 9.46,
    "subsidized_dues": null,
@@ -7675,9 +7688,9 @@
     "sync_hash": "208e761f96a71e7824c9aa808ea6433d",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true
    },
@@ -7750,9 +7763,9 @@
     "sync_hash": "33b74a82fa7811d7174f2130e1806b4d",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -7829,9 +7842,9 @@
     "sync_hash": "7f673fdf173cf77712f2355c87bba2e7",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -7913,9 +7926,9 @@
     "sync_hash": "0b1e1d50c0901eb91d85694239e8c40d",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -7956,6 +7969,11 @@
    "date_listed": "2026-08-13",
    "points_available": [
     {
+     "uy": "2025-09",
+     "points": 400,
+     "banked": 0
+    },
+    {
      "uy": "2026-09",
      "points": 400,
      "banked": 0
@@ -7964,14 +7982,9 @@
      "uy": "2027-09",
      "points": 400,
      "banked": 0
-    },
-    {
-     "uy": "2028-09",
-     "points": 400,
-     "banked": 0
     }
    ],
-   "availability_text": "2026-09: 400 | 2027-09: 400 | 2028-09: 400",
+   "availability_text": "2025-09: 400 | 2026-09: 400 | 2027-09: 400",
    "dues_terms": null,
    "dues_per_point": 9.46,
    "subsidized_dues": null,
@@ -7996,9 +8009,9 @@
     "sync_hash": "b81232c8320aa5756be81eed5ebb42eb",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true
    },
@@ -8155,9 +8168,9 @@
     "sync_hash": "42cb98422c5ce3e521555167a7694fcb",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -8255,7 +8268,7 @@
     "contract_point_status": "Missing points"
    },
    "uid": "dvcmarket:614505",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -8267,7 +8280,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -8400,9 +8414,9 @@
     "sync_hash": "284c196fac112d350d04fd8be69659f7",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -8483,9 +8497,9 @@
     "sync_hash": "71d3869e390292211d8bffa427cb146b",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -8566,9 +8580,9 @@
     "sync_hash": "e3c9c975bfc9f2dc6e36f392dea2a05e",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -8645,9 +8659,9 @@
     "sync_hash": "1d5b8b0150fc355241434b33101762af",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -8728,9 +8742,9 @@
     "sync_hash": "c787a9adb0d2999d815df6309c709cd9",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -8811,9 +8825,9 @@
     "sync_hash": "f65e653701b23186d1025d6442a9c382",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -8902,7 +8916,7 @@
     "contract_point_status": "Missing points"
    },
    "uid": "dvcmarket:614790",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -8914,7 +8928,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -8971,9 +8986,9 @@
     "sync_hash": "d7a7bbd2625c985c8cbc14ebf6a83c01",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -9050,9 +9065,9 @@
     "sync_hash": "ff6fb0bf342fb67b516b9a5a87ca0462",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -9145,7 +9160,7 @@
     "contract_point_status": "Missing points"
    },
    "uid": "dvcmarket:614899",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -9157,7 +9172,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -9226,7 +9242,7 @@
     "contract_point_status": "Full points"
    },
    "uid": "dvcmarket:614900",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -9238,7 +9254,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -9295,9 +9312,9 @@
     "sync_hash": "96afc5d16572b321f0adfef716832fb7",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -9378,9 +9395,9 @@
     "sync_hash": "9f1c20cdd3543a07179ea125d652534e",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -9459,9 +9476,9 @@
     "sync_hash": "be77940afd3ab3ff701d0bc39865c261",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -9538,9 +9555,9 @@
     "sync_hash": "38e024b94b17d80f252fffb149797eb4",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -9617,9 +9634,9 @@
     "sync_hash": "eb61364f2e533a18db10951e51669da8",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -9711,7 +9728,7 @@
     "contract_point_status": "Missing points"
    },
    "uid": "dvcmarket:615097",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -9723,7 +9740,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -9791,7 +9809,7 @@
     "contract_point_status": "Missing points"
    },
    "uid": "dvcmarket:615103",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -9803,7 +9821,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -9860,9 +9879,9 @@
     "sync_hash": "bc095c4e7ca5e93298fe3c6021b07534",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -9939,9 +9958,9 @@
     "sync_hash": "4edef45ef4ee7e4cfbe24d4e92a4f41f",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -10018,9 +10037,9 @@
     "sync_hash": "aeaef3f8b3757fe98bcbc4b4f8c14743",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -10097,9 +10116,9 @@
     "sync_hash": "500c0a623a42e379abbfccb559db4c42",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -10187,7 +10206,7 @@
     "contract_point_status": "Some extra"
    },
    "uid": "dvcmarket:615209",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -10199,7 +10218,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -10267,7 +10287,7 @@
     "contract_point_status": "Some extra"
    },
    "uid": "dvcmarket:615267",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -10279,7 +10299,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -10332,9 +10353,9 @@
     "sync_hash": "c3bba6e4b4a16b751c6f8a132763faa6",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -10426,7 +10447,7 @@
     "contract_point_status": "Missing points"
    },
    "uid": "dvcmarket:615339",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -10438,7 +10459,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -10503,7 +10525,7 @@
     "contract_point_status": "Missing points"
    },
    "uid": "dvcmarket:615340",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -10515,7 +10537,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -10573,9 +10596,9 @@
     "sync_hash": "6892b5b1ae1e18e4e10f5068356e64c5",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -10667,7 +10690,7 @@
     "contract_point_status": "Missing points"
    },
    "uid": "dvcmarket:615355",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -10679,7 +10702,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -10736,9 +10760,9 @@
     "sync_hash": "a0474444e4187d8fb4d12cfa1a62cd0f",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -10815,9 +10839,9 @@
     "sync_hash": "3337e7861add907dba6c9f691dd3e6cd",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -10909,7 +10933,7 @@
     "contract_point_status": "Some extra"
    },
    "uid": "dvcmarket:615381",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -10921,7 +10945,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -11144,9 +11169,9 @@
     "sync_hash": "9e26a585d42ad453d2f201e906e8b082",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -11227,9 +11252,9 @@
     "sync_hash": "f354dbc7258e036217c04c91e716beac",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -11310,9 +11335,9 @@
     "sync_hash": "63b69dcd057b08b18ec62bd99efdabc6",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -11482,9 +11507,9 @@
     "sync_hash": "0ffc608db737ab55bc060a1cde3c3472",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -11605,17 +11630,17 @@
    "date_listed": "2026-09-23",
    "points_available": [
     {
-     "uy": "2026-09",
+     "uy": "2025-09",
      "points": 0,
      "banked": 0
     },
     {
-     "uy": "2027-09",
+     "uy": "2026-09",
      "points": 0,
      "banked": 0
     }
    ],
-   "availability_text": "2026-09: 0 | 2027-09: 0",
+   "availability_text": "2025-09: 0 | 2026-09: 0",
    "dues_terms": null,
    "dues_per_point": 10.54,
    "subsidized_dues": null,
@@ -11641,9 +11666,9 @@
     "sync_hash": "23339c0fa856b61a9e040d4ffa2c8aff",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true
    },
@@ -11716,9 +11741,9 @@
     "sync_hash": "b25ffebd1918688cef2469ab1d3668c5",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -11799,9 +11824,9 @@
     "sync_hash": "a35c71f5737f6017ece5c45c2862148c",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -11959,9 +11984,9 @@
     "sync_hash": "9946426f0d91ef8302a0b2670a78ee9e",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -12038,9 +12063,9 @@
     "sync_hash": "8d5fc01efc73dbd9382d7196d0ee0026",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -12112,9 +12137,9 @@
     "sync_hash": "5aee96307a61e74560d5105be8b45f36",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "availability_incomplete": true,
@@ -12188,9 +12213,9 @@
     "sync_hash": "2b6c19eee78bb05edbb91d445ccc5d04",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -12267,9 +12292,9 @@
     "sync_hash": "75be86e754b24eed27802e1e84d553cb",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -12388,22 +12413,22 @@
    "date_listed": "2026-09-26",
    "points_available": [
     {
-     "uy": "2026-08",
+     "uy": "2025-08",
      "points": 6,
+     "banked": 0
+    },
+    {
+     "uy": "2026-08",
+     "points": 175,
      "banked": 0
     },
     {
      "uy": "2027-08",
      "points": 175,
      "banked": 0
-    },
-    {
-     "uy": "2028-08",
-     "points": 175,
-     "banked": 0
     }
    ],
-   "availability_text": "2026-08: 6 | 2027-08: 175 | 2028-08: 175",
+   "availability_text": "2025-08: 6 | 2026-08: 175 | 2027-08: 175",
    "dues_terms": null,
    "dues_per_point": 9.46,
    "subsidized_dues": null,
@@ -12428,9 +12453,9 @@
     "sync_hash": "3fe5bdea0ab718d836cf3b3b1df39622",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true
    },
@@ -12503,9 +12528,9 @@
     "sync_hash": "d8235b38c9e31f2c4e5c756829287b9d",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -12582,9 +12607,9 @@
     "sync_hash": "a40bbe5947da6a3353cb81b7d34a733f",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -12669,7 +12694,7 @@
     "aggregator_only": true
    },
    "uid": "dvcmarket:615707",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -12680,7 +12705,8 @@
      "availability": "available",
      "status_raw": "active"
     }
-   ]
+   ],
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -12737,9 +12763,9 @@
     "sync_hash": "13ee009c8783ea9623b8e4bfa3355c42",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -12816,9 +12842,9 @@
     "sync_hash": "b1ee71d0c110ac60590083c33f10cf28",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -12979,9 +13005,9 @@
     "sync_hash": "cfe778a4cdbaff211839bc3645d5d165",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -13062,9 +13088,9 @@
     "sync_hash": "9097f4d03439d29ab6dbbd0997ab2344",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -13145,9 +13171,9 @@
     "sync_hash": "b9ef33e42d49da1182487afe87a76980",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -13188,6 +13214,11 @@
    "date_listed": "2026-10-01",
    "points_available": [
     {
+     "uy": "2025-12",
+     "points": 150,
+     "banked": 0
+    },
+    {
      "uy": "2026-12",
      "points": 150,
      "banked": 0
@@ -13196,14 +13227,9 @@
      "uy": "2027-12",
      "points": 150,
      "banked": 0
-    },
-    {
-     "uy": "2028-12",
-     "points": 150,
-     "banked": 0
     }
    ],
-   "availability_text": "2026-12: 150 | 2027-12: 150 | 2028-12: 150",
+   "availability_text": "2025-12: 150 | 2026-12: 150 | 2027-12: 150",
    "dues_terms": null,
    "dues_per_point": 12.28,
    "subsidized_dues": null,
@@ -13228,9 +13254,9 @@
     "sync_hash": "a0abf247892ad4aac300570dcedd1642",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true
    },
@@ -13389,9 +13415,9 @@
     "sync_hash": "53dbb12ca6256f1bd85dd85f5eb92f30",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -13468,9 +13494,9 @@
     "sync_hash": "f4e6e15ee40782751830409015249e13",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -13632,9 +13658,9 @@
     "sync_hash": "5dfe9c5a915a3cbefc9389fba7d8031f",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -13711,9 +13737,9 @@
     "sync_hash": "afd928c0ef21047294fc3ef6ea98dce5",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -13790,9 +13816,9 @@
     "sync_hash": "d4f76f067f40f959cdcec7c02996f3b2",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -13880,7 +13906,7 @@
     "contract_point_status": "Missing points"
    },
    "uid": "dvcmarket:615943",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -13892,7 +13918,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -13949,9 +13976,9 @@
     "sync_hash": "a67e7649e22510ff2eedfd33ceb1fd51",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -14028,9 +14055,9 @@
     "sync_hash": "8b492a4013f01b9a7152f766f3d49243",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -14111,9 +14138,9 @@
     "sync_hash": "eb66a4fcc4435c2917664e1027ebc997",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -14194,9 +14221,9 @@
     "sync_hash": "440712957d253180336f78a7d6400e14",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -14277,9 +14304,9 @@
     "sync_hash": "425baaca34d8d61c61aafa1a574924f5",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -14356,9 +14383,9 @@
     "sync_hash": "4f43f5e423ad653a12d9efe26d975bee",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -14435,9 +14462,9 @@
     "sync_hash": "7acb6e1c947f6fd2645ca71f92803df6",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -14518,9 +14545,9 @@
     "sync_hash": "9763109f5f873b4c5df28a77ee58869b",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -14612,7 +14639,7 @@
     "contract_point_status": "Missing points"
    },
    "uid": "dvcmarket:616015",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -14624,7 +14651,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -14692,7 +14720,7 @@
     "contract_point_status": "Missing points"
    },
    "uid": "dvcmarket:616016",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -14704,7 +14732,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -14765,7 +14794,7 @@
     "aggregator_only": true
    },
    "uid": "dvcmarket:616017",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -14776,7 +14805,8 @@
      "availability": "available",
      "status_raw": "active"
     }
-   ]
+   ],
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -14833,9 +14863,9 @@
     "sync_hash": "4c8c805818a5428f5ba9847205d33e35",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -14912,9 +14942,9 @@
     "sync_hash": "867341ea1b4f40f2106bb37f62c0403c",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -15162,9 +15192,9 @@
     "sync_hash": "1b0bacc598cf20e857ec4bddbbbd87a9",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -15245,9 +15275,9 @@
     "sync_hash": "f5d65e90bce62649f243adf927839248",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -15324,9 +15354,9 @@
     "sync_hash": "6414587ac3732e07e68b94221ac66688",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -15447,22 +15477,22 @@
    "date_listed": "2026-10-10",
    "points_available": [
     {
-     "uy": "2026-03",
+     "uy": "2025-03",
      "points": 104,
      "banked": 0
     },
     {
-     "uy": "2027-03",
+     "uy": "2026-03",
      "points": 563,
      "banked": 213
     },
     {
-     "uy": "2028-03",
+     "uy": "2027-03",
      "points": 350,
      "banked": 0
     }
    ],
-   "availability_text": "2026-03: 104 | 2027-03: 563 | 2028-03: 350",
+   "availability_text": "2025-03: 104 | 2026-03: 563 | 2027-03: 350",
    "dues_terms": null,
    "dues_per_point": 9.46,
    "subsidized_dues": null,
@@ -15487,9 +15517,9 @@
     "sync_hash": "40bbda366cc6dcc40ef86ea1c76640ec",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true
    },
@@ -15562,9 +15592,9 @@
     "sync_hash": "1c08adeaecba11975dd1771e542acb83",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -15645,9 +15675,9 @@
     "sync_hash": "e9473e344a637af1001aa52c65e6ed67",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -15724,9 +15754,9 @@
     "sync_hash": "4e00bd5525c5fa5c6a7e620d08867e39",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -15804,9 +15834,9 @@
     "sync_hash": "88b6c2821cdc6ff7cd2cf752c8a1ec60",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -15883,9 +15913,9 @@
     "sync_hash": "60b9eb9e4fab82fa52f3b4697ab6698d",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -15977,7 +16007,7 @@
     "contract_point_status": "Missing points"
    },
    "uid": "dvcmarket:616100",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -15989,7 +16019,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -16057,7 +16088,7 @@
     "contract_point_status": "Full points"
    },
    "uid": "dvcmarket:616101",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -16069,7 +16100,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -16126,9 +16158,9 @@
     "sync_hash": "13da443b4609cc95caba4a5361642c07",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -16205,9 +16237,9 @@
     "sync_hash": "24aec876a3c1acd3ff8975d3c63a30d7",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -16284,9 +16316,9 @@
     "sync_hash": "8cbad6a2d445ea841a5e44c25e7b8995",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -16374,7 +16406,7 @@
     "contract_point_status": "Missing points"
    },
    "uid": "dvcmarket:616114",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -16386,7 +16418,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -16454,7 +16487,7 @@
     "contract_point_status": "Missing points"
    },
    "uid": "dvcmarket:616115",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -16466,7 +16499,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -16523,9 +16557,9 @@
     "sync_hash": "4297aa1f0d386ebcf8a927fbdeeecd81",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -16602,9 +16636,9 @@
     "sync_hash": "dcc96fe4dea64a234e15a0f81b46ab35",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -16761,9 +16795,9 @@
     "sync_hash": "2d2aec25fede79c37de4f73d65f2f82a",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -16840,9 +16874,9 @@
     "sync_hash": "4f1eff9a8e98dc677f0cc397e687a08c",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -16915,9 +16949,9 @@
     "sync_hash": "81e10b86dc4b784a9e8a6fba03e5b4ad",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -16994,9 +17028,9 @@
     "sync_hash": "f91695949fd555ea2509e0b168fc3b6e",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -17157,9 +17191,9 @@
     "sync_hash": "c6a9caa9d5b6ea396d25e367e8d84357",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -17321,9 +17355,9 @@
     "sync_hash": "40d676603fd05c979de6788cdb98ee7b",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -17404,9 +17438,9 @@
     "sync_hash": "d5a5768b3f3cd3dc720fb3e63ff92a5a",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -17483,9 +17517,9 @@
     "sync_hash": "51d810c56b636f05052f7978bf14c565",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -17562,9 +17596,9 @@
     "sync_hash": "82194322eff5781b3105f76358ab3e61",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -17641,9 +17675,9 @@
     "sync_hash": "08cb5978c8389d3c4b2ac99fd854eb61",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -17724,9 +17758,9 @@
     "sync_hash": "7a8ca04dbe6629493ac6079a3bc0124c",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -17807,9 +17841,9 @@
     "sync_hash": "a46223a7ee7236c76888a1e518bbea28",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -18144,9 +18178,9 @@
     "sync_hash": "f9dc1e63a36b652236d37e5c020fc1f9",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -18223,9 +18257,9 @@
     "sync_hash": "d4b0ffb7ff8f66edc48b1892cd5c05cb",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -18346,17 +18380,17 @@
    "date_listed": "2026-10-14",
    "points_available": [
     {
-     "uy": "2026-06",
+     "uy": "2025-06",
      "points": 0,
      "banked": 0
     },
     {
-     "uy": "2027-06",
+     "uy": "2026-06",
      "points": 0,
      "banked": 0
     }
    ],
-   "availability_text": "2026-06: 0 | 2027-06: 0",
+   "availability_text": "2025-06: 0 | 2026-06: 0",
    "dues_terms": null,
    "dues_per_point": 9.46,
    "subsidized_dues": null,
@@ -18382,9 +18416,9 @@
     "sync_hash": "3cdcd0d802b6cd55aaf80205796b1e72",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true
    },
@@ -18453,9 +18487,9 @@
     "sync_hash": "85541c1bddfc5db55f3b39f3f0bb8c75",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -18620,9 +18654,9 @@
     "sync_hash": "e29584f373a4632efb180cfe3889f3f3",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -18783,9 +18817,9 @@
     "sync_hash": "2bdc9b8ae7fa5369a0faf36468930f64",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -18866,9 +18900,9 @@
     "sync_hash": "c92ef5122f18154c4908b871ce055905",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -18945,9 +18979,9 @@
     "sync_hash": "4b2c704adb5ea89d4f66b2b4747cdb37",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -19024,9 +19058,9 @@
     "sync_hash": "130add8dac917e331bebd7e7a395345d",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -19103,9 +19137,9 @@
     "sync_hash": "0262e5b4aba39f890ce4fb9ffea0857b",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -19263,9 +19297,9 @@
     "sync_hash": "59ad8371ed68ed781994f975c996303d",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -19426,9 +19460,9 @@
     "sync_hash": "5417ccabcf7ceb881a65e1900d67b97b",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -19465,22 +19499,22 @@
    "date_listed": "2026-10-15",
    "points_available": [
     {
+     "uy": "2025-06",
+     "points": 0,
+     "banked": 0
+    },
+    {
      "uy": "2026-06",
      "points": 0,
      "banked": 0
     },
     {
      "uy": "2027-06",
-     "points": 0,
-     "banked": 0
-    },
-    {
-     "uy": "2028-06",
      "points": 91,
      "banked": 0
     }
    ],
-   "availability_text": "2026-06: 0 | 2027-06: 0 | 2028-06: 91",
+   "availability_text": "2025-06: 0 | 2026-06: 0 | 2027-06: 91",
    "dues_terms": null,
    "dues_per_point": 9.46,
    "subsidized_dues": null,
@@ -19505,9 +19539,9 @@
     "sync_hash": "8258a00837fadc4ddbf2138a65cc9360",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true
    },
@@ -19580,9 +19614,9 @@
     "sync_hash": "29382c80bf9b966c4b98c8ccb8a0ec7e",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -19619,22 +19653,22 @@
    "date_listed": "2026-10-15",
    "points_available": [
     {
-     "uy": "2026-04",
+     "uy": "2025-04",
      "points": 0,
      "banked": 0
     },
     {
-     "uy": "2027-04",
+     "uy": "2026-04",
      "points": 800,
      "banked": 400
     },
     {
-     "uy": "2028-04",
+     "uy": "2027-04",
      "points": 400,
      "banked": 0
     }
    ],
-   "availability_text": "2026-04: 0 | 2027-04: 800 | 2028-04: 400",
+   "availability_text": "2025-04: 0 | 2026-04: 800 | 2027-04: 400",
    "dues_terms": null,
    "dues_per_point": 9.46,
    "subsidized_dues": null,
@@ -19659,9 +19693,9 @@
     "sync_hash": "540c83340033d9fb5ec13a46022daa72",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true
    },
@@ -19745,7 +19779,7 @@
     "contract_point_status": "Some extra"
    },
    "uid": "dvcmarket:616218",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-16T16:38:21+00:00",
    "history": [
@@ -19757,7 +19791,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:38:21+00:00",
+   "gone_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "dvcmarket",
@@ -19814,9 +19849,9 @@
     "sync_hash": "71818258cbce18c5489cc572fe2224db",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -19893,9 +19928,9 @@
     "sync_hash": "7a24116f5fb59fdb7f2d4c162e89ea73",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -19972,9 +20007,9 @@
     "sync_hash": "aab4f4c1666d19e6984d41cfd671ab21",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -20051,9 +20086,9 @@
     "sync_hash": "d7925b33665f424f074352f12dc79287",
     "availability_from": "index",
     "availability_years": [
+     2025,
      2026,
-     2027,
-     2028
+     2027
     ],
     "via_aggregator": true,
     "schema_availability": "InStock",
@@ -30782,7 +30817,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "closing_cost": 1099.0
    },
    "uid": "dvcresalemarket:BC92590",
@@ -47332,7 +47367,7 @@
    "expiration": 2054,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "closing_cost": 889.0
    },
    "uid": "dvcresalemarket:SSC8678",
@@ -48449,7 +48484,7 @@
     "availability_from": "index",
     "also_on": "dvcmarket",
     "duplicates": [
-     "dvcmarket:613519"
+     "vacationclublife:4301740000134407021"
     ],
     "closing_cost": 769.0
    },
@@ -49517,6 +49552,7 @@
     "value_score": 37,
     "also_on": "dvcmarket",
     "duplicates": [
+     "dvcshop:AUL907PM",
      "dvcshop:AUL907PM",
      "dvcshop:AUL907PM"
     ],
@@ -50938,6 +50974,7 @@
     "value_score": 55,
     "also_on": "dvcmarket",
     "duplicates": [
+     "vacationclublife:4301740000153298002",
      "vacationclublife:4301740000153298002"
     ],
     "availability_table": [
@@ -51034,6 +51071,7 @@
     "value_score": 53,
     "also_on": "dvcmarket",
     "duplicates": [
+     "magicresales:20263",
      "magicresales:20263",
      "magicresales:20263"
     ],
@@ -67495,7 +67533,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 21490,
-    "modified": "2026-10-16 12:25:06",
+    "modified": "2026-10-16 12:45:08",
     "resort_abbr": "SSR",
     "low_but_firm": true
    },
@@ -79856,7 +79894,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "magicresales",
@@ -79914,7 +79952,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "magicresales",
@@ -79972,7 +80010,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-16T16:49:53+00:00"
   },
   {
    "source": "vacationclublife",
@@ -80015,7 +80053,7 @@
     "listing_number": "01045"
    },
    "uid": "vacationclublife:4301740000076061235",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -80027,8 +80065,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-14T02:29:55+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T02:29:55+00:00"
   },
   {
    "source": "vacationclublife",
@@ -80122,7 +80159,7 @@
     "listing_number": "01603"
    },
    "uid": "vacationclublife:4301740000096578126",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -80134,8 +80171,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-14T02:29:55+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T02:29:55+00:00"
   },
   {
    "source": "vacationclublife",
@@ -80178,7 +80214,7 @@
     "listing_number": "01604"
    },
    "uid": "vacationclublife:4301740000096578137",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -80190,8 +80226,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-14T02:29:55+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T02:29:55+00:00"
   },
   {
    "source": "vacationclublife",
@@ -80336,7 +80371,7 @@
     "listing_number": "02239"
    },
    "uid": "vacationclublife:4301740000128934032",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -80348,8 +80383,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-14T02:23:20+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T02:23:20+00:00"
   },
   {
    "source": "vacationclublife",
@@ -80392,7 +80426,7 @@
     "listing_number": "02240"
    },
    "uid": "vacationclublife:4301740000128934043",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -80404,8 +80438,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-14T02:29:55+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T02:29:55+00:00"
   },
   {
    "source": "vacationclublife",
@@ -80499,7 +80532,7 @@
     "listing_number": "02354"
    },
    "uid": "vacationclublife:4301740000137029015",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -80511,8 +80544,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-14T02:29:55+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T02:29:55+00:00"
   },
   {
    "source": "vacationclublife",
@@ -81014,7 +81046,7 @@
     "listing_number": "02594"
    },
    "uid": "vacationclublife:4301740000148295002",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -81026,8 +81058,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-14T03:41:47+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T03:41:47+00:00"
   },
   {
    "source": "vacationclublife",
@@ -81167,7 +81198,7 @@
     "listing_number": "02620"
    },
    "uid": "vacationclublife:4301740000149633011",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -81179,8 +81210,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-14T02:29:55+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T02:29:55+00:00"
   },
   {
    "source": "vacationclublife",
@@ -81219,7 +81249,7 @@
     "availability_from": "index"
    },
    "uid": "vacationclublife:4301740000149640006",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -81230,8 +81260,7 @@
      "availability": "pending",
      "status_raw": "Pending"
     }
-   ],
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   ]
   },
   {
    "source": "vacationclublife",
@@ -81325,7 +81354,7 @@
     "listing_number": "02618"
    },
    "uid": "vacationclublife:4301740000149733003",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -81337,8 +81366,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-14T08:36:28+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T08:36:28+00:00"
   },
   {
    "source": "vacationclublife",
@@ -81379,7 +81407,7 @@
     "also_on": "dvcmarket"
    },
    "uid": "vacationclublife:4301740000149742001",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -81390,8 +81418,7 @@
      "availability": "available",
      "status_raw": "Active (Special Offer)"
     }
-   ],
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   ]
   },
   {
    "source": "vacationclublife",
@@ -81582,7 +81609,7 @@
     "listing_number": "02634"
    },
    "uid": "vacationclublife:4301740000150050030",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -81594,8 +81621,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-14T03:31:50+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T03:31:50+00:00"
   },
   {
    "source": "vacationclublife",
@@ -81736,7 +81762,7 @@
     "availability_from": "index"
    },
    "uid": "vacationclublife:4301740000150126001",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -81747,8 +81773,7 @@
      "availability": "available",
      "status_raw": "Active"
     }
-   ],
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   ]
   },
   {
    "source": "vacationclublife",
@@ -81946,7 +81971,7 @@
     "also_on": "dvcmarket"
    },
    "uid": "vacationclublife:4301740000150570001",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -81957,8 +81982,7 @@
      "availability": "available",
      "status_raw": "Active"
     }
-   ],
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   ]
   },
   {
    "source": "vacationclublife",
@@ -82303,7 +82327,7 @@
     "notes": "Can close after 1/23/27"
    },
    "uid": "vacationclublife:4301740000151297069",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -82319,8 +82343,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-15T19:23:05+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-15T19:23:05+00:00"
   },
   {
    "source": "vacationclublife",
@@ -82364,7 +82387,7 @@
     "notes": "Can close after 1/23/27"
    },
    "uid": "vacationclublife:4301740000151297077",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T14:43:22+00:00",
    "history": [
@@ -82380,8 +82403,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-15T19:23:05+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-15T19:23:05+00:00"
   },
   {
    "source": "vacationclublife",
@@ -82633,7 +82655,7 @@
     "notes": "Can close after 11/28/26"
    },
    "uid": "vacationclublife:4301740000152129059",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -82645,8 +82667,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-14T06:37:01+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T06:37:01+00:00"
   },
   {
    "source": "vacationclublife",
@@ -82888,7 +82909,7 @@
     "listing_number": "02674"
    },
    "uid": "vacationclublife:4301740000152322001",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -82900,8 +82921,7 @@
      "status_raw": "Reduced"
     }
    ],
-   "detail_at": "2026-10-14T03:09:28+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T03:09:28+00:00"
   },
   {
    "source": "vacationclublife",
@@ -82944,7 +82964,7 @@
     "listing_number": "02677"
    },
    "uid": "vacationclublife:4301740000152953001",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -82956,8 +82976,7 @@
      "status_raw": "Reduced"
     }
    ],
-   "detail_at": "2026-10-14T02:43:41+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "vacationclublife",
@@ -83051,7 +83070,7 @@
     "listing_number": "02679"
    },
    "uid": "vacationclublife:4301740000153113002",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -83063,8 +83082,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-14T03:09:28+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T03:09:28+00:00"
   },
   {
    "source": "vacationclublife",
@@ -83107,7 +83125,7 @@
     "listing_number": "02680"
    },
    "uid": "vacationclublife:4301740000153124004",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -83119,8 +83137,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-14T03:09:28+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T03:09:28+00:00"
   },
   {
    "source": "vacationclublife",
@@ -83163,7 +83180,7 @@
     "listing_number": "02686"
    },
    "uid": "vacationclublife:4301740000153305003",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -83175,8 +83192,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-14T05:37:11+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T05:37:11+00:00"
   },
   {
    "source": "vacationclublife",
@@ -83219,7 +83235,7 @@
     "listing_number": "02685"
    },
    "uid": "vacationclublife:4301740000153316008",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -83231,8 +83247,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-14T03:31:50+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T03:31:50+00:00"
   },
   {
    "source": "vacationclublife",
@@ -83275,7 +83290,7 @@
     "listing_number": "02687"
    },
    "uid": "vacationclublife:4301740000153573002",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -83287,8 +83302,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-14T02:32:37+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T02:32:37+00:00"
   },
   {
    "source": "vacationclublife",
@@ -83327,7 +83341,7 @@
     "notes": "Can close after 11/8/26"
    },
    "uid": "vacationclublife:4301740000153575001",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -83339,8 +83353,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-14T03:09:28+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T03:09:28+00:00"
   },
   {
    "source": "vacationclublife",
@@ -83435,7 +83448,7 @@
     "notes": "International Seller"
    },
    "uid": "vacationclublife:4301740000153576013",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -83447,8 +83460,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-14T02:29:55+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T02:29:55+00:00"
   },
   {
    "source": "vacationclublife",
@@ -83543,7 +83555,7 @@
     "notes": "International Seller"
    },
    "uid": "vacationclublife:4301740000153593001",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -83555,8 +83567,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-14T02:23:20+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T02:23:20+00:00"
   },
   {
    "source": "vacationclublife",
@@ -83651,7 +83662,7 @@
     "notes": "Can close after 1/26/27"
    },
    "uid": "vacationclublife:4301740000153726006",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -83663,8 +83674,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-14T05:37:11+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T05:37:11+00:00"
   },
   {
    "source": "vacationclublife",
@@ -83708,7 +83718,7 @@
     "notes": "International Seller"
    },
    "uid": "vacationclublife:4301740000153743001",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -83720,8 +83730,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-14T03:41:47+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T03:41:47+00:00"
   },
   {
    "source": "vacationclublife",
@@ -83760,7 +83769,7 @@
     "availability_from": "index"
    },
    "uid": "vacationclublife:4301740000153789006",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -83771,8 +83780,7 @@
      "availability": "pending",
      "status_raw": "Pending"
     }
-   ],
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   ]
   },
   {
    "source": "vacationclublife",
@@ -84068,7 +84076,7 @@
     "availability_from": "index"
    },
    "uid": "vacationclublife:4301740000154372004",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -84079,8 +84087,7 @@
      "availability": "pending",
      "status_raw": "Pending (Extended 2057)"
     }
-   ],
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   ]
   },
   {
    "source": "vacationclublife",
@@ -84120,7 +84127,7 @@
     "also_on": "dvcmarket"
    },
    "uid": "vacationclublife:4301740000154523001",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -84131,8 +84138,7 @@
      "availability": "available",
      "status_raw": "Active"
     }
-   ],
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   ]
   },
   {
    "source": "vacationclublife",
@@ -84217,7 +84223,7 @@
     "availability_from": "index"
    },
    "uid": "vacationclublife:4301740000154766047",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -84228,8 +84234,7 @@
      "availability": "pending",
      "status_raw": "Pending"
     }
-   ],
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   ]
   },
   {
    "source": "vacationclublife",
@@ -84272,7 +84277,7 @@
     "listing_number": "02710"
    },
    "uid": "vacationclublife:4301740000154863002",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -84284,8 +84289,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-14T07:37:11+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T07:37:11+00:00"
   },
   {
    "source": "vacationclublife",
@@ -84328,7 +84332,7 @@
     "listing_number": "02712"
    },
    "uid": "vacationclublife:4301740000154877003",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -84340,8 +84344,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-14T07:37:11+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T07:37:11+00:00"
   },
   {
    "source": "vacationclublife",
@@ -84384,7 +84387,7 @@
     "listing_number": "02711"
    },
    "uid": "vacationclublife:4301740000154886003",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -84396,8 +84399,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-14T04:44:55+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T04:44:55+00:00"
   },
   {
    "source": "vacationclublife",
@@ -84440,7 +84442,7 @@
     "listing_number": "02713"
    },
    "uid": "vacationclublife:4301740000154889008",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -84452,8 +84454,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-14T06:37:01+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T06:37:01+00:00"
   },
   {
    "source": "vacationclublife",
@@ -84492,7 +84493,7 @@
     "availability_from": "index"
    },
    "uid": "vacationclublife:4301740000155153006",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -84503,8 +84504,7 @@
      "availability": "pending",
      "status_raw": "Pending"
     }
-   ],
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   ]
   },
   {
    "source": "vacationclublife",
@@ -84548,7 +84548,7 @@
     "notes": "International Seller."
    },
    "uid": "vacationclublife:4301740000155165004",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -84560,8 +84560,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-14T02:23:20+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T02:23:20+00:00"
   },
   {
    "source": "vacationclublife",
@@ -84600,7 +84599,7 @@
     "availability_from": "index"
    },
    "uid": "vacationclublife:4301740000155206002",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -84616,8 +84615,7 @@
      "availability": "pending",
      "status_raw": "Pending"
     }
-   ],
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   ]
   },
   {
    "source": "vacationclublife",
@@ -84661,7 +84659,7 @@
     "notes": "International Seller"
    },
    "uid": "vacationclublife:4301740000155211004",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -84673,8 +84671,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-14T07:37:11+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T07:37:11+00:00"
   },
   {
    "source": "vacationclublife",
@@ -84717,7 +84714,7 @@
     "listing_number": "02716"
    },
    "uid": "vacationclublife:4301740000155223001",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -84729,8 +84726,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-14T02:43:41+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-14T02:43:41+00:00"
   },
   {
    "source": "vacationclublife",
@@ -84773,7 +84769,7 @@
     "listing_number": "02719"
    },
    "uid": "vacationclublife:4301740000155361001",
-   "active": false,
+   "active": true,
    "stale": false,
    "first_seen": "2026-10-15T14:37:22+00:00",
    "history": [
@@ -84785,8 +84781,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-10-15T14:37:22+00:00",
-   "gone_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-15T14:37:22+00:00"
   }
  ]
 }
