@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-16 20:40 UTC (latest data: **20:36 UTC scrape**, dispatched by this review). Scraper health: **all 10 sources ok**. Broker alert emails in the last 2 h: none. No change to any top list this hour; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR.
+**Run:** 2026-10-16 21:40 UTC (latest data: **21:36 UTC scrape**, dispatched by this review). Scraper health: **all 10 sources ok**. Broker alert emails in the last 2 h: none. No change to any top list this hour; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,10 @@ Next: HH HHI26452 (#5, no borrowing, 2042 deed).
 
 ## Market notes
 
+- 21:36 scrape (dispatched by this review; no scheduled run since 18:30): 1 new, 0 price changes, 3 status changes, 2 gone. Nothing reaches a top-5/top-3 list.
+  - New: **SSR SS150-12-1016** ([DVC Store](https://www.dvcstore.com/resort/saratoga-springs/ss150-12-1016-2/), 150 pts, Dec UY, $105, $15,750, 2054). Score 75.3 (#36 overall), so I checked the page 21:40: Available, listed today; 139 pts arriving 12/1/26, 150 in Dec-2027 and 2028; **no dues until 2027** ($0 at closing); closing $634 + $500 CAF; dues $9.19. Scraped data is correct. For a 2BR Sept 6n it borrows 143 and saves only ~$670; loses ~$650 for a 1BR; can't cover 1BR+2BR. ROFR low. Skip.
+  - Going pending: SSR SSR583 (DVC Shop, New → Sale Pending); SSB8643 and BCE2566 (DVC Resale Market) moved on to Sale Pending. Gone: SSR 615863 (DVC Market, $98, 0 pts until Apr 2027) and SSR SSR572 (DVC Shop, was pending). None were in a top list.
+  - Market model n=861 (was 863): −$4.90/pt per missing current year, −$8.93 missing next year, ~$4.56 accepted below ask. Flat. Aulani $/pt low unchanged ($90).
 - 20:36 scrape (dispatched by this review; nothing ran 19:37→20:36): 7 new, 2 price drops, 1 status change, 3 gone. Nothing reaches a top-5/top-3 list.
   - Price drop: **SSR SS1276** ([DVC Sales](https://dvcsales.com/dvc-resale/saratoga-springs/220-points/1717), 220 pts, Dec UY, 2054) $105→$103/pt, $22,660. Score 77.7 (#25 overall), so I checked the page 20:40: Live, listed 27 days ago; **313 in the Dec-2026 UY (93 banked; usable until Nov 30, 2027, so they cover Sept)**, 220 in 2027 and 2028; buyer reimburses 2027 dues ($2,022); closes Dec 3; US seller; closing $796 + $500 CAF. Scraped data is correct. For 1BR+2BR it's **#10** (saves ~$3.7k) but borrows 173 from Dec-2027, so you'd resell it stripped; #47 for a 2BR (break-even). Not better than SS1286 (#5, borrows 46). Watch.
   - Price drop: BLT BLT160-02-0816 (DVC Store) $142→$139; books only from late May 2027. Skip.
@@ -111,8 +115,8 @@ Next: HH HHI26452 (#5, no borrowing, 2042 deed).
 
 ## Scraper health
 
-- 20:36: **all 10 sources OK** (19:37 counts: dvcmarket 728, dvcresalemarket 391, dvcshop 239, dvcstore 144, dvcresaleexperts 105, dvcsales 72, vacationclublife 44, dvcbyresale 27, buyandselldvc 22, magicresales 4).
-- The 15-minute cron still fires only every hour or so (last scheduled run 18:30); I dispatched `hunt` at 20:36. Disabling and re-enabling the `hunt` workflow (Actions → hunt → ⋯) is the usual fix, but it needs Corey.
+- 21:36: **all 10 sources OK** (active after de-dup: dvcresalemarket 392, dvcshop 233, dvcmarket 156, dvcstore 142, dvcresaleexperts 106, dvcsales 65, vacationclublife 42, dvcbyresale 25, buyandselldvc 22, magicresales 3).
+- The 15-minute cron has not fired since 18:30; I dispatched `hunt` at 21:36 (and 20:36, 19:37). Disabling and re-enabling the `hunt` workflow (Actions → hunt → ⋯) is the usual fix, but it needs Corey.
 
 ## Fixes made
 
