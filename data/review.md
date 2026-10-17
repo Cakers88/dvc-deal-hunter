@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-17 14:40 UTC (latest data: **14:36 UTC scrape**, dispatched by this review). Scraper health: **all 10 sources ok**. Broker alert emails in the last 2 h: none. No change to any top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
+**Run:** 2026-10-17 15:40 UTC (latest data: **15:36 UTC scrape**, dispatched by this review). Scraper health: **all 10 sources ok**. Broker alert emails in the last 2 h: none. No change to any top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,10 @@ Next: HH HHI26452 (#5, no borrowing, 2042 deed).
 
 ## Market notes
 
+- 15:36 scrape (dispatched by this review; no scheduled run since 12:30): 2 new, 2 price changes, 0 status changes, 0 gone. Nothing reaches a top list.
+  - New: **SSR SSR13191** ([DVC Resale Experts](https://www.dvcresaleexperts.com/dvc-listing/ssr13191-june-225), 225 pts, Jun UY, $106, $23,850, 2054, "Double Points"). Score 86.2 (#2 overall, from a 5-night 1BR+2BR plan; it triggered the ntfy alert), so I checked the page 15:40: available; **450 in Jun-2026 (225 banked from 2025, use by May 31, 2027)**, 225 in 2027 and 2028; dues $9.19 ($2,068/yr); closing $806 + $500 CAF; **2026 dues terms not stated** (offer form: buyer / seller / pro-rate). Scraped data is correct. For Sept 2027 the 225 current 2026 points must be **banked by Jan 31, 2027** (tight if closing slips into January), giving 450 in the Jun-2027 UY; 1BR+2BR Sept 6n then borrows 36 and saves ~$3.7k → **#11**, behind SS1286 (#5, same resort, $104, borrows 46). ROFR low at $106. Good backup to SS1286, not a new pick. Its 50-pt sibling SSR13192 ($127) is below the 100-pt minimum.
+  - Price cuts (DVC Sales, $1/pt each): AKV AK817 $132 → $131 ($15,720) and BLT BL517 $159 → $158 ($23,700). Checked both pages: Live, listed 7 days ago, points match the scrape (AK817 216/120/120 Sep UY; BL517 300/150/150), buyer reimburses 2026 dues and prepays 2027. Both lose vs renting for every Sept 6-night setup (ranks #96 / #86 overall). Skip.
+  - Market model n=855 (was 853): −$5.23/pt per missing current year, −$8.82 missing next year, ~$4.74 accepted below ask. Flat.
 - 14:36 scrape (dispatched by this review): 4 new, 1 price change, 2 status changes, 3 gone. Nothing reaches a top list.
   - New: **BWV BW23453** ([DVC Resale Market](https://www.dvcresalemarket.com/listings/boardwalk/bw23453/), 150 pts, Aug UY, $135, $20,250) and **BWV BW23454** ([link](https://www.dvcresalemarket.com/listings/boardwalk/bw23454/), 100 pts, Aug UY, $139, $13,900). Scores 77.1 (#28) and 73.5 (#50), so I checked both pages 14:40: listed today, 150/150/150 and 100/100/100 (Aug 2026/27/28, matches the scrape), **seller pays 2026 dues** (promo "full 2026 points, no dues"), buyer pays 2027 dues (due at closing after Nov 20), dues $9.67, **2042 deed**. Scrape shows dues terms as unknown, which only understates them slightly. Neither alone covers 1BR+2BR Sept 6n; best is BW23454 at #38 for a 2BR (saves ~$300). Aug-2026 points must be banked by Mar 31, 2027 to reach Sept. Pricey, short deed. Skip.
   - New at DVC Market (Fidelity): OKW 614302 (218 pts, $114, $24,852) and PVB 616171 (100 pts, $174, $17,400) — same prices as DVC Resale Experts' OKWE27317 and POL92070, which went gone in the same scrape, so likely the same contracts moving broker. Neither is competitive (scores 50 / 0).
@@ -150,8 +154,8 @@ Next: HH HHI26452 (#5, no borrowing, 2042 deed).
 
 ## Scraper health
 
-- 09:36: **all 10 sources OK** (raw counts: dvcmarket 739, dvcresalemarket 390, dvcshop 237, dvcstore 145, dvcresaleexperts 106, dvcsales 71, vacationclublife 44, dvcbyresale 25, buyandselldvc 22, magicresales 4).
-- The 15-minute cron is still unreliable (no scheduled run since 04:17); this review dispatches `hunt` each hour to cover gaps. Disabling and re-enabling the `hunt` workflow (Actions → hunt → ⋯) is the usual fix, but it needs Corey.
+- 15:36: **all 10 sources OK** (raw counts: dvcmarket 739, dvcresalemarket 393, dvcshop 237, dvcstore 145, dvcresaleexperts 106, dvcsales 71, vacationclublife 44, dvcbyresale 25, buyandselldvc 22, magicresales 4).
+- The 15-minute cron is still unreliable (no scheduled run since 12:30); this review dispatches `hunt` each hour to cover gaps. Disabling and re-enabling the `hunt` workflow (Actions → hunt → ⋯) is the usual fix, but it needs Corey.
 
 ## Fixes made
 
