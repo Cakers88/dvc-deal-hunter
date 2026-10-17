@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-17 09:40 UTC (latest data: **09:36 UTC scrape**, dispatched by this review; still no scheduled run since 04:17). Scraper health: **all 10 sources ok**. Broker alert emails in the last 2 h: none. No change to any top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
+**Run:** 2026-10-17 10:40 UTC (latest data: **10:36 UTC scrape**). Scraper health: **all 10 sources ok**. Broker alert emails in the last 2 h: none. No change to any top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,7 @@ Next: HH HHI26452 (#5, no borrowing, 2042 deed).
 
 ## Market notes
 
+- 10:36 scrape: 0 new, 0 price changes, 0 status changes, 0 gone. Market model n=850 unchanged (−$5.14/pt per missing current year, −$8.90 missing next year, ~$4.69 accepted below ask). Quiet.
 - 09:36 scrape (dispatched by this review): 2 new, 0 price changes, 0 status changes, 2 gone (all DVC Sales). Looks like two relists under new IDs.
   - New: **BLT BL520** ([DVC Sales](https://dvcsales.com/dvc-resale/bay-lake-tower/160-points/1605), 160 pts, Jun UY, $140, $22,400, deed 2060). Score 75.4 (#35 overall), so I checked the page 09:40: Live, listed today; **160/160/160** (2026/2027/2028, matches the scrape); buyer reimburses 2026 dues ($1,398) and prepays 2027; closing $796 + $500 CAF; closes Dec 4, 2026; **non-US seller**. Same points/price as BL508, which disappeared in the same scrape, so it's almost certainly a relist. Only #45 for a 2BR Sept 6n (saves ~$150) and #92 for a 1BR; can't cover 1BR+2BR. Skip.
   - Also new: Riviera RV355 (DVC Sales; Riviera can't book Aulani, so it isn't scored). Gone: BL508 ($140, relisted as BL520) and RV342 ($170). Neither was in a top list.
