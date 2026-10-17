@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-17 18:36 UTC (latest data: **18:27 UTC scrape**). Scraper health: **all 10 sources ok**. Broker alert emails in the last 2 h: none. No change to any top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
+**Run:** 2026-10-17 19:38 UTC (latest data: **19:36 UTC scrape**). Scraper health: **all 10 sources ok**. Broker alert emails in the last 2 h: none. No change to any Sept top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Rent-out flips: SSR SSR13191 now #2 (corrected; it was missed earlier). Savings figures below drift by a few dollars a day as interest accrues.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -42,11 +42,16 @@ Next: HH HHI26452 (#5, no borrowing, 2042 deed).
 ## Rent-out flips (secondary, a one-off at most; DVC bans regular renting)
 
 1. [Aulani AU385 (DVC Sales)](https://dvcsales.com/dvc-resale/aulani/655-points/1687): +$11.1k modeled. **Don't trust it**: fixed-week contract (Wk 52), non-US seller, $62k cash out, and 1,500 rented points is commercial-use territory.
-2. [BCV BCB2578 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/beach-club/bcb2578/): +$3.7k over 13 months. Plausible, but the 2042 deed makes the exit price-sensitive.
-3. [Aulani 615585 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/aulani/200-points/615585): +$3.4k over 9 months, but it needs 554 rented points across two years on $22k cash. Not worth it.
+2. [SSR SSR13191 (DVC Resale Experts)](https://www.dvcresaleexperts.com/dvc-listing/ssr13191-june-225): +$3.8k over 2 use years on $27k cash (7 months tied). Sanity check: relies on renting 675 points (450 in Jun-2026 incl. 225 banked that expire May 31, 2027), so it's heavy renting with an expiry clock, and 2026 dues terms aren't stated. Plausible as a one-off, not more.
+3. [BCV BCB2578 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/beach-club/bcb2578/): +$3.7k over 13 months. Plausible, but the 2042 deed makes the exit price-sensitive.
 
 ## Market notes
 
+- 19:36 scrape (dispatched by this review): 8 new, 0 price changes, 3 status changes, 0 gone. Nothing scores ≥ 70 or reaches a top list, so no page checks needed.
+  - **Burst of 4 Bay Lake Tower contracts at DVC Resale Market** (BL73826–BL73829: 225/270/200/150 pts, Feb UY, $148–150, 2060 deed), all stripped in 2026 with full points from Feb-2027. Probably one seller splitting a big holding. At ~$149 they lose vs renting for every Sept 6-night setup (best: BL73827 #107 for 1BR+2BR). Skip.
+  - New **Aulani AU73578** ([DVC Resale Market](https://www.dvcresalemarket.com/listings/aulani/au73578/), 500 pts, Dec UY, $108, $54,000, 2062): 553 in Dec-2026, 500 after. Too big and too pricey for these trips (−$9.6k vs renting for 1BR+2BR) and a loser as a rent-out flip. Not a new Aulani low ($90 at 616035). Skip.
+  - Other new: GFV GF150-03-1016 (DVC Store, 150 pts, $167, ROFR high), AKV AKG6523 (140 pts, $114, stripped until Jun-2028; score 0), PVB PLA4684 (25 pts). Going pending: VB92638 (Vero Beach, $63) and PVB PLF4660 ($196), both DVC Resale Market. OKW 220-pt Vacation Club Life listing status "Reduced" → "Active", price unchanged. None were in a top list.
+  - Market model n=865 (was 858): −$4.83/pt per missing current year, −$8.82 missing next year, ~$4.61 accepted below ask. Flat.
 - 18:27 scrape (17:36 run had no changes): 6 new, 2 price changes, 2 status changes, 2 gone. Nothing reaches a top 3/5.
   - New at DVC Market (Fidelity, listed today): **BWV 616276** ([link](https://dvcmarket.com/dvc-resale/boardwalk/150-points/616276), 150 pts, Mar UY, $119, $17,850) and **BCV 616277** ([link](https://dvcmarket.com/dvc-resale/beach-club/150-points/616277), 150 pts, Mar UY, $132, $19,800). Scores 74.7 / 78.1, so I checked both pages 18:40: 150 in Mar-2026, 300 shown for Mar-2027, 150 after (matches the scrape); buyer reimburses 2026 dues ($1,451 / $1,472); closing ~$800 + $500 CAF; deed not stated (BWV/BCV 2042). **Red flag: the 300 in 2027 assumes the 150 Mar-2026 points get banked by Oct 31, 2026 — two weeks away, before any closing**, so the seller would have to bank them now; otherwise only 150 for Sept 2027. Best uses: 2BR Sept 6n #8 (616276, saves ~$1.2k, ROFR high at $119) and #15 (616277). Skip unless the banking is confirmed.
   - Price cut: **BRV BR21934** ([DVC Resale Market](https://www.dvcresalemarket.com/listings/wilderness-lodge/br21934/)) $107 → $103 ($27,810). Score 72.3; checked 18:40: Mar UY, 0 in 2026 (270 current-year points expire Feb 28, 2027), 270 in 2027 and 2028; seller pays 2026 dues, buyer pays 2027; closing $1,009 + $500 CAF; 2042 deed. Scrape correct. 1BR+2BR #43 (borrows 216). Skip.
@@ -164,8 +169,8 @@ Next: HH HHI26452 (#5, no borrowing, 2042 deed).
 
 ## Scraper health
 
-- 16:37: **all 10 sources OK** (no source with 0 listings or errors).
-- The 15-minute cron is still unreliable (only one scheduled run, 15:55, since 12:30); this review dispatches `hunt` each hour to cover gaps. Disabling and re-enabling the `hunt` workflow (Actions → hunt → ⋯) is the usual fix, but it needs Corey.
+- 19:36: **all 10 sources OK** (no source with 0 listings or errors).
+- The 15-minute cron is still unreliable (scheduled runs only at 15:55 and 18:26 since 12:30); this review dispatches `hunt` each hour to cover gaps. Disabling and re-enabling the `hunt` workflow (Actions → hunt → ⋯) is the usual fix, but it needs Corey.
 
 ## Fixes made
 
