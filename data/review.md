@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-17 19:38 UTC (latest data: **19:36 UTC scrape**). Scraper health: **all 10 sources ok**. Broker alert emails in the last 2 h: none. No change to any Sept top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Rent-out flips: SSR SSR13191 now #2 (corrected; it was missed earlier). Savings figures below drift by a few dollars a day as interest accrues.
+**Run:** 2026-10-17 20:40 UTC (latest data: **20:37 UTC scrape**, dispatched by this review; no scheduled run since 18:26). Scraper health: **all 10 sources ok**. Broker alert emails in the last 2 h: none. No change to any Sept top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,10 @@ Next: HH HHI26452 (#5, no borrowing, 2042 deed).
 
 ## Market notes
 
+- 20:37 scrape (dispatched by this review): 1 new, 0 price changes, 1 status change, 0 gone. Nothing reaches a top list.
+  - New: **AKV AK821** ([DVC Sales](https://dvcsales.com/dvc-resale/animal-kingdom/160-points/1854), 160 pts, Feb UY, $110, $17,600, 2057 deed). Score 72.4, so I checked the page 20:40: Live, listed today; 160/160/160 in 2026–2028 (matches the scrape); buyer reimburses 2026 dues ($1,626) **and** prepays 2027 dues ($1,626); closing $732 + $500 CAF; est. close Dec 4; non-US seller. **Red flag:** the broker shows the 2026 points as bankable, but the Feb-2026 banking deadline (Sep 30, 2026) has passed, so those 160 pts expire Jan 31, 2027 and you'd pay $1,626 of dues for points you can't use for Sept 2027. Best use: 2BR Sept 6n, borrows 122, saves ~$80 (rank #68). Skip.
+  - Going pending: SSR SS78575 (DVC Resale Market, 100 pts, $108, stripped until Apr-2028). Not in a top list.
+  - Market model n=866 (was 865): −$4.77/pt per missing current year, −$8.79 missing next year, ~$4.55 accepted below ask. Flat.
 - 19:36 scrape (dispatched by this review): 8 new, 0 price changes, 3 status changes, 0 gone. Nothing scores ≥ 70 or reaches a top list, so no page checks needed.
   - **Burst of 4 Bay Lake Tower contracts at DVC Resale Market** (BL73826–BL73829: 225/270/200/150 pts, Feb UY, $148–150, 2060 deed), all stripped in 2026 with full points from Feb-2027. Probably one seller splitting a big holding. At ~$149 they lose vs renting for every Sept 6-night setup (best: BL73827 #107 for 1BR+2BR). Skip.
   - New **Aulani AU73578** ([DVC Resale Market](https://www.dvcresalemarket.com/listings/aulani/au73578/), 500 pts, Dec UY, $108, $54,000, 2062): 553 in Dec-2026, 500 after. Too big and too pricey for these trips (−$9.6k vs renting for 1BR+2BR) and a loser as a rent-out flip. Not a new Aulani low ($90 at 616035). Skip.
