@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T20:37:15+00:00",
+ "updated": "2026-10-17T20:56:26+00:00",
  "count": 1398,
  "listings": [
   {
@@ -25948,7 +25948,7 @@
    "expiration": 2057,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "savings_vs_direct": 1950.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 280.25,
@@ -25969,7 +25969,7 @@
      "status_raw": "Small Contract"
     }
    ],
-   "detail_at": "2026-10-14T20:42:19+00:00"
+   "detail_at": "2026-10-17T20:56:26+00:00"
   },
   {
    "source": "dvcresaleexperts",
@@ -37100,7 +37100,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 739.0
    },
@@ -43219,7 +43219,7 @@
    "expiration": 2057,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "closing_cost": 769.0
    },
@@ -43236,7 +43236,7 @@
      "status_raw": "BONUS! FULL POINTS FOR 2026 WITH NO DUES!"
     }
    ],
-   "detail_at": "2026-10-14T20:42:19+00:00"
+   "detail_at": "2026-10-17T20:56:26+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -46474,7 +46474,7 @@
    "expiration": 2066,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 739.0
    },
@@ -50091,7 +50091,7 @@
    "expiration": 2054,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 1099.0
    },
@@ -52983,7 +52983,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 849.0
    },
@@ -53325,7 +53325,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 6,
+    "days_on_market": 7,
     "date_listed_from": "index_days",
     "internal_id": "1810",
     "value_score": 7,
@@ -53648,7 +53648,7 @@
     "status_line": "Live | listed 0 days ago, still available"
    },
    "uid": "dvcsales:AK821",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-17T20:37:15+00:00",
    "history": [
@@ -53660,7 +53660,8 @@
      "status_raw": "Live"
     }
    ],
-   "detail_at": "2026-10-17T20:37:15+00:00"
+   "detail_at": "2026-10-17T20:37:15+00:00",
+   "gone_at": "2026-10-17T20:56:26+00:00"
   },
   {
    "source": "dvcsales",
@@ -54278,7 +54279,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 28,
+    "days_on_market": 29,
     "date_listed_from": "index_days",
     "internal_id": "1713",
     "value_score": 32,
@@ -54508,7 +54509,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 13,
+    "days_on_market": 14,
     "date_listed_from": "index_days",
     "internal_id": "1778",
     "value_score": 28,
@@ -58586,7 +58587,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 44,
+    "days_on_market": 45,
     "date_listed_from": "index_days",
     "internal_id": "1627",
     "value_score": 62,
@@ -84507,7 +84508,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-17T20:37:15+00:00"
+   "detail_at": "2026-10-17T20:56:26+00:00"
   },
   {
    "source": "magicresales",
@@ -84565,7 +84566,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-17T20:37:15+00:00"
+   "detail_at": "2026-10-17T20:56:26+00:00"
   },
   {
    "source": "magicresales",
@@ -84623,7 +84624,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-17T20:37:15+00:00"
+   "detail_at": "2026-10-17T20:56:26+00:00"
   },
   {
    "source": "vacationclublife",
