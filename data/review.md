@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-17 12:36 UTC (latest data: **12:30 UTC scrape**). Scraper health: **all 10 sources ok**. Broker alert emails in the last 2 h: none. No change to any top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
+**Run:** 2026-10-17 13:40 UTC (latest data: **13:37 UTC scrape**, dispatched by this review). Scraper health: **all 10 sources ok**. Broker alert emails in the last 2 h: none. No change to any top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,7 @@ Next: HH HHI26452 (#5, no borrowing, 2042 deed).
 
 ## Market notes
 
+- 13:37 scrape (dispatched by this review): 0 new, 0 price changes, 0 status changes, 1 gone: BWV BWE3421 (DVC Resale Market, $125, already pending; not in a top list). Market model n=851: −$5.17/pt per missing current year, −$8.84 missing next year, ~$4.72 accepted below ask. Flat. Top lists unchanged. Quiet.
 - 12:30 scrape: 2 new, 0 price changes, 0 status changes, 0 gone (both DVC Resale Market). Neither scores ≥ 70 or reaches a top list.
   - New: GFV GFB3364 ([link](https://www.dvcresalemarket.com/listings/grand-floridian/gfb3364/), 150 pts, Feb UY, $169, $25,350, 2064). Checked the page 12:36: **0 in 2026, 7 in Feb-2027**, 150 from Feb-2028 (matches the scrape); seller pays 2026 dues and 2027 dues on 143 pts; ROFR high at $169. Stripped until 2028, so it can't cover Sept 2027 (score 0). Skip.
   - New: PVB PLB4679 (50 pts, Feb UY, $195, 2 pts before Feb-2028). Small, stripped, pricey. Skip.
