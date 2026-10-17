@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-17 01:40 UTC (latest data: **01:37 UTC scrape**, dispatched by this review; GitHub's cron last fired at 00:00). Scraper health: **all 10 sources ok**. Broker alert emails in the last 2 h: none. No change to any top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
+**Run:** 2026-10-17 02:40 UTC (latest data: **02:36 UTC scrape**, dispatched by this review; GitHub's cron last fired at 00:00). Scraper health: **all 10 sources ok**. Broker alert emails in the last 2 h: none. No change to any top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,7 @@ Next: HH HHI26452 (#5, no borrowing, 2042 deed).
 
 ## Market notes
 
+- 02:36 scrape (dispatched by this review): 0 new, 0 price changes, 0 status changes, 1 gone: AKV 616174 (DVC Market, $165, not in a top list). Market model unchanged (n=857). Quiet.
 - 01:37 scrape (dispatched by this review): 1 new, 0 price changes, 2 status changes, 5 gone. Nothing touches a top list or scores ≥ 70.
   - New: SSR SS88680 ([DVC Resale Market](https://www.dvcresalemarket.com/listings/saratoga-springs/ss88680/), 50 pts, Oct UY, $115, $5,750, 2054; "Certified Hot Price"). **0 points until Oct 2027**, too late for Sept. Skip.
   - Going pending: VCL SSR 50 pts ($125, Sep UY) → Pending; VB VBE2635 (DVC Resale Market) moved on to Sale Pending. Gone (all were already pending): AKV AK06449, BRV BR21935, GCV GCE1863, OKW OK64995 ($95), RR RRC2338. None were in a top list.
@@ -122,7 +123,7 @@ Next: HH HHI26452 (#5, no borrowing, 2042 deed).
 
 ## Scraper health
 
-- 01:37: **all 10 sources OK** (raw counts: dvcmarket 729, dvcresalemarket 392, dvcshop 237, dvcstore 145, dvcresaleexperts 106, dvcsales 71, vacationclublife 44, dvcbyresale 25, buyandselldvc 22, magicresales 4).
+- 02:36: **all 10 sources OK** (counts unchanged from 01:37) (raw counts: dvcmarket 729, dvcresalemarket 392, dvcshop 237, dvcstore 145, dvcresaleexperts 106, dvcsales 71, vacationclublife 44, dvcbyresale 25, buyandselldvc 22, magicresales 4).
 - The 15-minute cron is still unreliable (scheduled runs at 18:30, 21:41, 23:37, 00:00 only); this review dispatches `hunt` each hour to cover gaps. Disabling and re-enabling the `hunt` workflow (Actions → hunt → ⋯) is the usual fix, but it needs Corey.
 
 ## Fixes made
