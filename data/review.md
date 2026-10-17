@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-17 13:40 UTC (latest data: **13:37 UTC scrape**, dispatched by this review). Scraper health: **all 10 sources ok**. Broker alert emails in the last 2 h: none. No change to any top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
+**Run:** 2026-10-17 14:40 UTC (latest data: **14:36 UTC scrape**, dispatched by this review). Scraper health: **all 10 sources ok**. Broker alert emails in the last 2 h: none. No change to any top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,11 @@ Next: HH HHI26452 (#5, no borrowing, 2042 deed).
 
 ## Market notes
 
+- 14:36 scrape (dispatched by this review): 4 new, 1 price change, 2 status changes, 3 gone. Nothing reaches a top list.
+  - New: **BWV BW23453** ([DVC Resale Market](https://www.dvcresalemarket.com/listings/boardwalk/bw23453/), 150 pts, Aug UY, $135, $20,250) and **BWV BW23454** ([link](https://www.dvcresalemarket.com/listings/boardwalk/bw23454/), 100 pts, Aug UY, $139, $13,900). Scores 77.1 (#28) and 73.5 (#50), so I checked both pages 14:40: listed today, 150/150/150 and 100/100/100 (Aug 2026/27/28, matches the scrape), **seller pays 2026 dues** (promo "full 2026 points, no dues"), buyer pays 2027 dues (due at closing after Nov 20), dues $9.67, **2042 deed**. Scrape shows dues terms as unknown, which only understates them slightly. Neither alone covers 1BR+2BR Sept 6n; best is BW23454 at #38 for a 2BR (saves ~$300). Aug-2026 points must be banked by Mar 31, 2027 to reach Sept. Pricey, short deed. Skip.
+  - New at DVC Market (Fidelity): OKW 614302 (218 pts, $114, $24,852) and PVB 616171 (100 pts, $174, $17,400) — same prices as DVC Resale Experts' OKWE27317 and POL92070, which went gone in the same scrape, so likely the same contracts moving broker. Neither is competitive (scores 50 / 0).
+  - Price cut: BWV BW430 (DVC Sales) $121 → $119 ($17,850); stripped in 2026, #33 for a 2BR. Status: SSR SSR599SN (DVC Shop) → Sale Pending; B2512NA2 (DVC by Resale) Offer Received → Available. Gone: also Fidelity 616133 ($165). None were in a top list.
+  - Market model n=853 (was 851): −$5.21/pt per missing current year, −$8.82 missing next year, ~$4.73 accepted below ask. Flat.
 - 13:37 scrape (dispatched by this review): 0 new, 0 price changes, 0 status changes, 1 gone: BWV BWE3421 (DVC Resale Market, $125, already pending; not in a top list). Market model n=851: −$5.17/pt per missing current year, −$8.84 missing next year, ~$4.72 accepted below ask. Flat. Top lists unchanged. Quiet.
 - 12:30 scrape: 2 new, 0 price changes, 0 status changes, 0 gone (both DVC Resale Market). Neither scores ≥ 70 or reaches a top list.
   - New: GFV GFB3364 ([link](https://www.dvcresalemarket.com/listings/grand-floridian/gfb3364/), 150 pts, Feb UY, $169, $25,350, 2064). Checked the page 12:36: **0 in 2026, 7 in Feb-2027**, 150 from Feb-2028 (matches the scrape); seller pays 2026 dues and 2027 dues on 143 pts; ROFR high at $169. Stripped until 2028, so it can't cover Sept 2027 (score 0). Skip.
