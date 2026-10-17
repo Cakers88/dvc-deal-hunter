@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-17 05:40 UTC (latest data: **05:36 UTC scrape**, dispatched by this review; GitHub's cron last fired at 04:17). Scraper health: **all 10 sources ok**. Broker alert emails in the last 2 h: none. No change to any top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
+**Run:** 2026-10-17 06:40 UTC (latest data: **06:36 UTC scrape**, dispatched by this review; GitHub's cron last fired at 04:17). Scraper health: **all 10 sources ok**. Broker alert emails in the last 2 h: none. No change to any top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,11 @@ Next: HH HHI26452 (#5, no borrowing, 2042 deed).
 
 ## Market notes
 
+- 06:36 scrape (dispatched by this review): 3 new, 0 price changes, 0 status changes, 8 gone (all DVC Market/Fidelity). Nothing touches a top list.
+  - New: **AKV 616259 — Fidelity via DVC Market** ([link](https://dvcmarket.com/dvc-resale/animal-kingdom/270-points/616259), 270 pts, Dec UY, $116, $31,320). Score 81.5 (#8 overall), so I checked the page 06:40: available, listed today; **528 in the Dec-2026 UY** (258 banked; usable through Nov 2027, so they cover Sept), 270 in 2027 and 2028; dues $10.16; closing $910 + $500 CAF. Scraped points are correct, but the page also shows **buyer reimburses 2026 dues of $5,364 (all 528 pts)**, which the scrape doesn't capture (dues terms null), and the deed year isn't stated (AKV: 2057). Covers 1BR+2BR Sept 6n with no borrowing but needs ~$38k at closing and saves only ~$2.3k (#36); #20 for a 3BR GV. Too much cash for the saving. Skip.
+  - Also new: BLT 616260 (55 pts, $128, 0 pts until 2028) and GFV 616261 (160 pts, $169, score 51). Skip.
+  - Gone (DVC Market): SSR-area 614691 ($106), 615728 ($102), 616163 ($100), plus 614748, 615452, 615679, 616216, 616240. None were in a top list; AKV 616164 and SSR 616162 (2BR #1/#2) are still listed.
+  - Market model n=851 (was 854): −$5.22/pt per missing current year (was −$4.99), −$8.87 missing next year, ~$4.72 accepted below ask. Slightly steeper discount for stripped contracts; otherwise flat. Aulani $/pt low unchanged ($90).
 - 05:36 scrape (dispatched by this review): 0 new, 0 price changes, 1 status change (SSR SS28652, DVC Resale Market, Offer Accepted → Sale Pending; not in a top list), 0 gone. 04:17 scrape (schedule): no changes. Market model unchanged (n=854). Top lists unchanged. Quiet.
 - 03:36 scrape (dispatched by this review): 1 new, 0 price changes, 1 status change, 3 gone. Nothing touches a top list or scores ≥ 70.
   - New: Aulani AUB3567 ([DVC Resale Market](https://www.dvcresalemarket.com/listings/aulani/aub3567/), 150 pts, Dec UY, $95, $14,250, 2062; "Certified Hot Price"). Only **34 pts in Dec-2026**, 150 from Dec-2027, so it can't cover any Sept 6-night setup without heavy borrowing (score 47.7, #431). Skip.
