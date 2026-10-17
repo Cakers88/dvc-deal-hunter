@@ -50,7 +50,7 @@ Next: HH HHI26452 (#5, no borrowing, 2042 deed).
 - 03:36 scrape (dispatched by this review): 1 new, 0 price changes, 1 status change, 3 gone. Nothing touches a top list or scores ≥ 70.
   - New: Aulani AUB3567 ([DVC Resale Market](https://www.dvcresalemarket.com/listings/aulani/aub3567/), 150 pts, Dec UY, $95, $14,250, 2062; "Certified Hot Price"). Only **34 pts in Dec-2026**, 150 from Dec-2027, so it can't cover any Sept 6-night setup without heavy borrowing (score 47.7, #431). Skip.
   - Going pending: BCV BC22577 (DVC Resale Market) → Offer Accepted. Gone (all already pending): BWV BW93431, OKW OK65063 ($90), SSR SSB8363 ($103). None were in a top list.
-  - Market model n=854 (was 857): −$4.99/pt per missing current year, −$8.80 missing next year, ~$4.58 accepted below ask. Flat. Aulani available $/pt low unchanged ($90).
+  - Market model n=854 (was 857): −$4.99/pt per missing current year, −$8.80 missing next year, ~$4.58 accepted below ask. Flat. Aulani $/pt low among contracts with points before 2028 unchanged ($90); the cheaper asks (DVC Shop AUL899YM $85, AUL233LBF1 $88, both listed since Oct 14) are stripped until Dec 2027 or later.
 - 02:36 scrape (dispatched by this review): 0 new, 0 price changes, 0 status changes, 1 gone: AKV 616174 (DVC Market, $165, not in a top list). Market model unchanged (n=857). Quiet.
 - 01:37 scrape (dispatched by this review): 1 new, 0 price changes, 2 status changes, 5 gone. Nothing touches a top list or scores ≥ 70.
   - New: SSR SS88680 ([DVC Resale Market](https://www.dvcresalemarket.com/listings/saratoga-springs/ss88680/), 50 pts, Oct UY, $115, $5,750, 2054; "Certified Hot Price"). **0 points until Oct 2027**, too late for Sept. Skip.
