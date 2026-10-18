@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-18 18:38 UTC (latest data: **18:36 UTC scrape**, dispatched by this review; no scheduled run since 17:20). Scraper health: **all 10 sources ok**; no fix needed. Broker alert emails in the last 2 h: none. No change to any Sept top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
+**Run:** 2026-10-18 19:36 UTC (latest data: **19:31 UTC scrape**). Scraper health: **all 10 sources ok**; no fix needed. Broker alert emails in the last 2 h: none. No change to any Sept top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,10 @@ Next: HH HHI26452 ($72, no borrowing, 2042 deed): **tied** with SS1262 (saves $1
 
 ## Market notes
 
+- 19:31 scrape: 0 new, 1 price change, 2 status changes, 0 gone. Nothing touches a top list.
+  - Price cut: **SSR SSE8650** ([DVC Resale Market](https://www.dvcresalemarket.com/listings/saratoga-springs/sse8650/), 200 pts, Oct UY) $93 → **$90** ($18,000). Cheap, but **0 pts in Oct-2026 and Oct-2027** (first points Oct-2028), so it can't cover Sept or July 2027 (score 0). Seller pays 2027 dues, 2054 deed. Skip for this trip.
+  - Going pending: AKV AK160-10-1012 (DVC Store, 160 pts, $105) → Sale Pending; BWV BW23453 (DVC Resale Market, 150 pts, $135, full 2026 pts) → Offer Accepted. Neither was in a top list.
+  - Market model n=864: −$4.64/pt per missing current year, −$8.87 missing next year, ~$4.75 accepted below ask. Flat. Quiet.
 - 18:36 scrape (dispatched by this review): 0 new, 0 price changes, 2 status changes, 3 gone. Nothing touches a top list.
   - Gone: the three DVC Market mirrors that appeared earlier today (Aulani 614471, 50 pts $112; AKV 615682, 50 pts $120; SSR 615876, 130 pts $97 with 0 pts in Oct-2026). None were scored or useful; their originals had already left DVC Resale Experts, so presumably sold/withdrawn.
   - Status: BWV B2512NA2 (DVC by Resale, 25 pts, $136) → Offer Received; Poly PLB4678 (DVC Resale Market, $185) Offer Accepted → Sale Pending. Irrelevant.
