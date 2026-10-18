@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T23:37:00+00:00",
+ "updated": "2026-10-18T23:53:50+00:00",
  "count": 1415,
  "listings": [
   {
@@ -27596,7 +27596,7 @@
    "expiration": 2054,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 16160.0,
     "also_on": "dvcmarket",
     "duplicates": [
@@ -37584,7 +37584,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 1309.0
    },
@@ -37696,7 +37696,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "can_close_after": "1/1/2027",
     "closing_cost": 879.0
    },
@@ -43041,7 +43041,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "closing_cost": 714.0
    },
    "uid": "dvcresalemarket:HHF1827",
@@ -50561,7 +50561,7 @@
    "expiration": 2054,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "closing_cost": 699.0
    },
    "uid": "dvcresalemarket:SS88662",
@@ -52002,7 +52002,7 @@
    "expiration": 2054,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 919.0
    },
@@ -57575,9 +57575,9 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "days_on_market": 14,
-    "date_listed_from": "detail",
+    "date_listed_from": "index_days",
     "internal_id": "1782",
     "value_score": 44,
     "also_on": "dvcmarket",
@@ -85846,7 +85846,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-18T23:37:00+00:00"
+   "detail_at": "2026-10-18T23:53:50+00:00"
   },
   {
    "source": "magicresales",
@@ -85904,7 +85904,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-18T23:37:00+00:00"
+   "detail_at": "2026-10-18T23:53:50+00:00"
   },
   {
    "source": "magicresales",
@@ -85962,7 +85962,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-18T23:37:00+00:00"
+   "detail_at": "2026-10-18T23:53:50+00:00"
   },
   {
    "source": "vacationclublife",
