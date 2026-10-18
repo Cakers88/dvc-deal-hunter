@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-18 00:37 UTC (latest data: **00:36 UTC scrape**, dispatched by this review). Scraper health: **all 10 sources ok**. Broker alert emails in the last 2 h: none. No change to any Sept top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
+**Run:** 2026-10-18 03:38 UTC (latest data: **03:36 UTC scrape**). Scraper health: **all 10 sources ok**. Broker alert emails in the last 2 h: none. No change to any Sept top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,11 @@ Next: HH HHI26452 (#5, no borrowing, 2042 deed).
 
 ## Market notes
 
+- 03:36 scrape (no runs between 01:00 and 03:36; 01:00 had no changes): 1 new, 1 price change, 1 status change, 2 gone. Nothing touches a top list or scores ≥ 70, so no broker-page checks were needed.
+  - Gone: BLT BLB3818 (DVC Resale Market, 320 pts, $143) and AKV 616174 (DVC Market, $165). BLB3818 reappeared the same run as "new" DVC Market mirror **616079** (same 320 pts / $45,760, 0 pts in 2026), so it's an aggregator relist, not a new contract. Stripped in 2026 and loses vs renting for every Sept setup. Skip.
+  - Going pending: SSR SS38583 (DVC Resale Market, 150 pts, $115, "full 2026 points, no dues") → Offer Accepted. Not in a top list.
+  - Price cut: Riviera RV340 (DVC Sales) $118 → $117; Riviera can't book Aulani on resale. Irrelevant.
+  - Market model n=862: −$4.74/pt per missing current year, −$8.75 missing next year, ~$4.70 accepted below ask. Flat. Quiet.
 - 00:36 scrape (dispatched by this review; last scheduled run 23:05, no changes): 0 new, 0 price changes, 0 status changes, 3 gone, all DVC Resale Market contracts that were already pending (presumably sold): BCV BC32562 ($139), OKW OKB4990 ($132), Poly PLF4626 ($186). None were in a top list. Market model n=862: −$4.73/pt per missing current year, −$8.74 missing next year, ~$4.74 accepted below ask. Flat. Quiet.
 - 22:36 scrape (dispatched by this review; no scheduled run since 20:56): 0 new, 0 price changes, 1 status change, 0 gone. Going pending: SSR SSR576LBF1 (DVC Shop, 75 pts, $98). Not in a top list. Market model n=865: −$4.84/pt per missing current year, −$8.78 missing next year, ~$4.61 accepted below ask. Flat. Quiet.
 - 20:56 scrape: 0 new, 0 price changes, 0 status changes, 1 gone: **AKV AK821** (DVC Sales, $110), listed today and already off the site (listing URL now redirects). Wasn't in a top list (I'd flagged it as skip). Top lists unchanged.
@@ -176,8 +181,8 @@ Next: HH HHI26452 (#5, no borrowing, 2042 deed).
 
 ## Scraper health
 
-- 00:36: **all 10 sources OK** (no source with 0 listings or errors).
-- The 15-minute cron is still unreliable (scheduled runs only at 15:55 and 18:26 since 12:30); this review dispatches `hunt` each hour to cover gaps. Disabling and re-enabling the `hunt` workflow (Actions → hunt → ⋯) is the usual fix, but it needs Corey.
+- 03:36: **all 10 sources OK** (no source with 0 listings or errors).
+- The 15-minute cron is still unreliable (no scrape between 01:00 and 03:36 UTC); this review dispatches `hunt` each hour to cover gaps. Disabling and re-enabling the `hunt` workflow (Actions → hunt → ⋯) is the usual fix, but it needs Corey.
 
 ## Fixes made
 
