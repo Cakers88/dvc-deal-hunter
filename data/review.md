@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-18 19:36 UTC (latest data: **19:31 UTC scrape**). Scraper health: **all 10 sources ok**; no fix needed. Broker alert emails in the last 2 h: none. No change to any Sept top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
+**Run:** 2026-10-18 21:38 UTC (latest data: **21:36 UTC scrape**, dispatched by this review; no scheduled run since 19:31). Scraper health: **all 10 sources ok**; no fix needed. Broker alert emails in the last 2 h: none. No change to any Sept top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,10 @@ Next: HH HHI26452 ($72, no borrowing, 2042 deed): **tied** with SS1262 (saves $1
 
 ## Market notes
 
+- 21:36 scrape (dispatched by this review): 0 new, 1 price change, 2 status changes, 0 gone. Nothing touches a top list.
+  - Price cut: AKV AKB6482 ([DVC Resale Market](https://www.dvcresalemarket.com/listings/animal-kingdom-lodge/akb6482/), 150 pts, Dec UY) $116 → $114 ($17,100). **0 pts in Dec-2026**, so Sept 2027 has only borrowed points; score 0. Skip.
+  - Going pending: BWV BW23454 (DVC Resale Market, "full 2026 points, no dues") → Offer Accepted (twin of BW23453 earlier); Poly POLY370LBF1 (DVC Shop) → Sale Pending. Neither scored.
+  - Market model n=864: −$4.70/pt per missing current year, −$8.88 missing next year, ~$4.80 accepted below ask. Flat. Quiet.
 - 19:31 scrape: 0 new, 1 price change, 2 status changes, 0 gone. Nothing touches a top list.
   - Price cut: **SSR SSE8650** ([DVC Resale Market](https://www.dvcresalemarket.com/listings/saratoga-springs/sse8650/), 200 pts, Oct UY) $93 → **$90** ($18,000). Cheap, but **0 pts in Oct-2026 and Oct-2027** (first points Oct-2028), so it can't cover Sept or July 2027 (score 0). Seller pays 2027 dues, 2054 deed. Skip for this trip.
   - Going pending: AKV AK160-10-1012 (DVC Store, 160 pts, $105) → Sale Pending; BWV BW23453 (DVC Resale Market, 150 pts, $135, full 2026 pts) → Offer Accepted. Neither was in a top list.
