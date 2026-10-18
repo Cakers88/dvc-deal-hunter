@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-18 15:38 UTC (latest data: **15:36 UTC scrape**, dispatched by this review; no scheduled run since 14:04). Scraper health: **all 10 sources ok**; no fix needed. Broker alert emails in the last 2 h: none. No change to any Sept top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
+**Run:** 2026-10-18 16:37 UTC (latest data: **16:36 UTC scrape**, dispatched by this review; no scheduled run since 14:04). Scraper health: **all 10 sources ok**; no fix needed. Broker alert emails in the last 2 h: none. No change to any Sept top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -37,7 +37,7 @@ For a 1BR alone, buying still barely beats renting.
 | 3 | [SSR SSR09680 (DVC Resale Experts)](https://www.dvcresaleexperts.com/dvc-listing/saratoga-springs-160-october-ssr09680) Mar UY | 160 | $104 | $16,640 | $5,597 ($1,453) | $19.7k / 15 | 2027-02-12 | low | ✔ **New 22:40.** Checked 23:38: available, **Use Year March** (the URL says "october"; ignore it), 0 in 2026, **291 in Mar-2027 (131 banked, use by Feb 28, 2028)**, 160 in 2028; deed 2054; dues $9.19 ($1,470/yr); closing $717 + $500 CAF. **No borrowing**, 9 pts spare, resell after the trip with 2028 intact. **Dues terms aren't stated**: the offer form lets you pick who pays 2026 dues, so ask for seller-pays (the 2026 UY has 0 points). ROFR low at $104. About as good as #2 at a lower ROFR risk. |
 | 4 | [SSR SS1262 (DVC Sales)](https://dvcsales.com/dvc-resale/saratoga-springs/170-points/1627) Feb UY | 170 | $103 | $17,510 | $5,695 ($1,355) | $20.7k / 15 | 2027-02-12 | medium | ✔ Checked 19:38: Live, 43 days on market; 0 in 2026, **295 in Feb-2027 (125 banked, use by Jan 31, 2028)**, 170 in 2028; buyer reimburses 2027 dues ($1,562); closes Dec 2; US seller; deed 2054. **No borrowing** and no banking deadline to hit. Long DOM → room to negotiate. |
 
-Next: HH HHI26452 (#5, $72, no borrowing, 2042 deed): now **tied** with SS1262 (saves $1,363 vs $1,361). Its Sept fit depends on banking 141 Jun-2026 points by Jan 31, 2027, and the deed is 2042, so SS1262 stays the better pick.
+Next: HH HHI26452 ($72, no borrowing, 2042 deed): **tied** with SS1262 (saves $1,364 vs $1,361; the model now puts HH a hair ahead at #4). Its Sept fit depends on banking 141 Jun-2026 points by Jan 31, 2027, and the deed is 2042, so SS1262 stays the better pick.
 
 ## Rent-out flips (secondary, a one-off at most; DVC bans regular renting)
 
@@ -47,6 +47,11 @@ Next: HH HHI26452 (#5, $72, no borrowing, 2042 deed): now **tied** with SS1262 (
 
 ## Market notes
 
+- 16:36 scrape (dispatched by this review): 3 new, 0 price changes, 3 status changes, 2 gone. Nothing scores ≥ 70 or reaches a top list, so no page checks needed.
+  - **Two DVC Resale Experts contracts moved to DVC Market (Fidelity)** at the same prices: SSR SSR61000 → [615876](https://dvcmarket.com/dvc-resale/saratoga-springs/130-points/615876) (130 pts, Oct UY, $97, $12,610; **0 pts in Oct-2026**, 130 from Oct-2027, so it can't cover Sept 2027; score 0) and AKV AKV41782 → 615682 (50 pts, $120; under the 100-pt minimum). Skip both.
+  - New: GFV [VGF04874](https://www.dvcresaleexperts.com/dvc-listing/vgf04874-october-300) (DVC Resale Experts, 300 pts, Oct UY, $175, $52,500, 2064; 600 in Oct-2026 incl. 300 banked). Loses ~$2.7k vs renting even for 1BR+2BR (#108); score 64.2. Skip.
+  - Going pending: **SSR SS200-02-0901** (DVC Store, 200 pts, Feb UY, $93, $18,600) → Sale Pending; SS88680 (SSR 50 pts) and PLA4684 (PVB 25 pts), both DVC Resale Market → Offer Accepted. None were in a top list.
+  - Market model n=866: −$4.66/pt per missing current year, −$8.81 missing next year, ~$4.70 accepted below ask. Flat. Aulani low still $90 (616035).
 - 15:36 scrape: 2 new, 2 price changes, 3 status changes, 2 gone, all DVC Resale Market. Nothing scores ≥ 70 or reaches a top list, so no page checks needed.
   - New: AKV AK86430 (110 pts, Mar UY, $125, 0 in 2026; score 54.5) and Poly PL84682 (110 pts, $184). Skip.
   - Price cuts: **OKW OKA5083** $88 → $87 (200 pts, $17,400). Cheap but **stripped until Jun-2028** (0 pts in 2026 and 2027), 2042 deed, ROFR high → useless for 2027 (score 49.5). RRA2357 (Riviera, 50 pts) $135 → $134; irrelevant.
