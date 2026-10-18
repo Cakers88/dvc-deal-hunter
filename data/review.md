@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-18 17:36 UTC (latest data: **17:20 UTC scrape**). Scraper health: **all 10 sources ok**; no fix needed. Broker alert emails in the last 2 h: none. No change to any Sept top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
+**Run:** 2026-10-18 18:38 UTC (latest data: **18:36 UTC scrape**, dispatched by this review; no scheduled run since 17:20). Scraper health: **all 10 sources ok**; no fix needed. Broker alert emails in the last 2 h: none. No change to any Sept top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,10 @@ Next: HH HHI26452 ($72, no borrowing, 2042 deed): **tied** with SS1262 (saves $1
 
 ## Market notes
 
+- 18:36 scrape (dispatched by this review): 0 new, 0 price changes, 2 status changes, 3 gone. Nothing touches a top list.
+  - Gone: the three DVC Market mirrors that appeared earlier today (Aulani 614471, 50 pts $112; AKV 615682, 50 pts $120; SSR 615876, 130 pts $97 with 0 pts in Oct-2026). None were scored or useful; their originals had already left DVC Resale Experts, so presumably sold/withdrawn.
+  - Status: BWV B2512NA2 (DVC by Resale, 25 pts, $136) → Offer Received; Poly PLB4678 (DVC Resale Market, $185) Offer Accepted → Sale Pending. Irrelevant.
+  - Market model n=864: −$4.59/pt per missing current year, −$8.85 missing next year, ~$4.72 accepted below ask. Flat. Quiet.
 - 17:20 scrape: 1 new, 0 price changes, 0 status changes, 1 gone. Aulani AUL09362 (DVC Resale Experts, 50 pts, Feb UY, $112) moved to DVC Market mirror [614471](https://dvcmarket.com/dvc-resale/aulani/50-points/614471) at the same price (under the 100-pt minimum; not scored). Market model n=866 unchanged (−$4.66/pt per missing current year, −$8.81 missing next year, ~$4.70 accepted below ask). Quiet.
 - 16:36 scrape (dispatched by this review): 3 new, 0 price changes, 3 status changes, 2 gone. Nothing scores ≥ 70 or reaches a top list, so no page checks needed.
   - **Two DVC Resale Experts contracts moved to DVC Market (Fidelity)** at the same prices: SSR SSR61000 → [615876](https://dvcmarket.com/dvc-resale/saratoga-springs/130-points/615876) (130 pts, Oct UY, $97, $12,610; **0 pts in Oct-2026**, 130 from Oct-2027, so it can't cover Sept 2027; score 0) and AKV AKV41782 → 615682 (50 pts, $120; under the 100-pt minimum). Skip both.
