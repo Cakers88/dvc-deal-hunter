@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-18 14:37 UTC (latest data: **14:04 UTC scrape**). Scraper health: **all 10 sources ok**; no fix needed. Broker alert emails in the last 2 h: none. No change to any Sept top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
+**Run:** 2026-10-18 15:38 UTC (latest data: **15:36 UTC scrape**, dispatched by this review; no scheduled run since 14:04). Scraper health: **all 10 sources ok**; no fix needed. Broker alert emails in the last 2 h: none. No change to any Sept top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -37,7 +37,7 @@ For a 1BR alone, buying still barely beats renting.
 | 3 | [SSR SSR09680 (DVC Resale Experts)](https://www.dvcresaleexperts.com/dvc-listing/saratoga-springs-160-october-ssr09680) Mar UY | 160 | $104 | $16,640 | $5,597 ($1,453) | $19.7k / 15 | 2027-02-12 | low | ✔ **New 22:40.** Checked 23:38: available, **Use Year March** (the URL says "october"; ignore it), 0 in 2026, **291 in Mar-2027 (131 banked, use by Feb 28, 2028)**, 160 in 2028; deed 2054; dues $9.19 ($1,470/yr); closing $717 + $500 CAF. **No borrowing**, 9 pts spare, resell after the trip with 2028 intact. **Dues terms aren't stated**: the offer form lets you pick who pays 2026 dues, so ask for seller-pays (the 2026 UY has 0 points). ROFR low at $104. About as good as #2 at a lower ROFR risk. |
 | 4 | [SSR SS1262 (DVC Sales)](https://dvcsales.com/dvc-resale/saratoga-springs/170-points/1627) Feb UY | 170 | $103 | $17,510 | $5,695 ($1,355) | $20.7k / 15 | 2027-02-12 | medium | ✔ Checked 19:38: Live, 43 days on market; 0 in 2026, **295 in Feb-2027 (125 banked, use by Jan 31, 2028)**, 170 in 2028; buyer reimburses 2027 dues ($1,562); closes Dec 2; US seller; deed 2054. **No borrowing** and no banking deadline to hit. Long DOM → room to negotiate. |
 
-Next: HH HHI26452 (#5, no borrowing, 2042 deed; now within $3 of SS1262).
+Next: HH HHI26452 (#5, $72, no borrowing, 2042 deed): now **tied** with SS1262 (saves $1,363 vs $1,361). Its Sept fit depends on banking 141 Jun-2026 points by Jan 31, 2027, and the deed is 2042, so SS1262 stays the better pick.
 
 ## Rent-out flips (secondary, a one-off at most; DVC bans regular renting)
 
@@ -47,6 +47,11 @@ Next: HH HHI26452 (#5, no borrowing, 2042 deed; now within $3 of SS1262).
 
 ## Market notes
 
+- 15:36 scrape: 2 new, 2 price changes, 3 status changes, 2 gone, all DVC Resale Market. Nothing scores ≥ 70 or reaches a top list, so no page checks needed.
+  - New: AKV AK86430 (110 pts, Mar UY, $125, 0 in 2026; score 54.5) and Poly PL84682 (110 pts, $184). Skip.
+  - Price cuts: **OKW OKA5083** $88 → $87 (200 pts, $17,400). Cheap but **stripped until Jun-2028** (0 pts in 2026 and 2027), 2042 deed, ROFR high → useless for 2027 (score 49.5). RRA2357 (Riviera, 50 pts) $135 → $134; irrelevant.
+  - Going pending (Offer Accepted): SSC8678, AK66499, BLC3817. Gone (were already pending, presumably sold): OKF5065 (OKW, $94), SSC8625 (SSR, $102). None were in a top list.
+  - Market model n=865: −$4.67/pt per missing current year, −$8.80 missing next year, ~$4.70 accepted below ask. Flat.
 - 08:36–14:04 scrapes: 0 new, 0 price changes, 0 status changes; 14:04 had 2 gone: SSR SS1281 (DVC Sales, 230 pts, $97, Dec UY) and Fidelity 616133 (400 pts, $165) — neither in a top list (SS1281 had only 95 pts in its Dec-2026 UY). Market model n=864 unchanged. Quiet.
 - 07:36 scrape (dispatched by this review; no scheduled run since 06:36): 0 new, 0 price changes, 0 status changes, 0 gone. Market model n=864 unchanged (−$4.66/pt per missing current year, −$8.76 missing next year, ~$4.78 accepted below ask). Top lists unchanged. Quiet.
 - 06:36 scrape (dispatched by this review; 05:52 had no changes but DVC Shop timed out): 7 new, 0 price changes, 0 status changes, 4 gone. Nothing reaches a top list.
