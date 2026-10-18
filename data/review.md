@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-17 22:38 UTC (latest data: **22:36 UTC scrape**, dispatched by this review). Scraper health: **all 10 sources ok**. Broker alert emails in the last 2 h: none. No change to any Sept top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
+**Run:** 2026-10-18 00:37 UTC (latest data: **00:36 UTC scrape**, dispatched by this review). Scraper health: **all 10 sources ok**. Broker alert emails in the last 2 h: none. No change to any Sept top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,7 @@ Next: HH HHI26452 (#5, no borrowing, 2042 deed).
 
 ## Market notes
 
+- 00:36 scrape (dispatched by this review; last scheduled run 23:05, no changes): 0 new, 0 price changes, 0 status changes, 3 gone, all DVC Resale Market contracts that were already pending (presumably sold): BCV BC32562 ($139), OKW OKB4990 ($132), Poly PLF4626 ($186). None were in a top list. Market model n=862: −$4.73/pt per missing current year, −$8.74 missing next year, ~$4.74 accepted below ask. Flat. Quiet.
 - 22:36 scrape (dispatched by this review; no scheduled run since 20:56): 0 new, 0 price changes, 1 status change, 0 gone. Going pending: SSR SSR576LBF1 (DVC Shop, 75 pts, $98). Not in a top list. Market model n=865: −$4.84/pt per missing current year, −$8.78 missing next year, ~$4.61 accepted below ask. Flat. Quiet.
 - 20:56 scrape: 0 new, 0 price changes, 0 status changes, 1 gone: **AKV AK821** (DVC Sales, $110), listed today and already off the site (listing URL now redirects). Wasn't in a top list (I'd flagged it as skip). Top lists unchanged.
 - 20:37 scrape (dispatched by this review): 1 new, 0 price changes, 1 status change, 0 gone. Nothing reaches a top list.
@@ -175,7 +176,7 @@ Next: HH HHI26452 (#5, no borrowing, 2042 deed).
 
 ## Scraper health
 
-- 19:36: **all 10 sources OK** (no source with 0 listings or errors).
+- 00:36: **all 10 sources OK** (no source with 0 listings or errors).
 - The 15-minute cron is still unreliable (scheduled runs only at 15:55 and 18:26 since 12:30); this review dispatches `hunt` each hour to cover gaps. Disabling and re-enabling the `hunt` workflow (Actions → hunt → ⋯) is the usual fix, but it needs Corey.
 
 ## Fixes made
