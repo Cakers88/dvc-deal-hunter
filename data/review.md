@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-18 03:38 UTC (latest data: **03:36 UTC scrape**). Scraper health: **all 10 sources ok**. Broker alert emails in the last 2 h: none. No change to any Sept top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
+**Run:** 2026-10-18 04:38 UTC (latest data: **04:36 UTC scrape**). Scraper health: **all 10 sources ok**. Broker alert emails in the last 2 h: none. No change to any Sept top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,7 @@ Next: HH HHI26452 (#5, no borrowing, 2042 deed).
 
 ## Market notes
 
+- 04:36 scrape (dispatched by this review; no scheduled run since 03:36): 0 new, 0 price changes, 0 status changes, 0 gone. Market model n=862, unchanged (−$4.74/pt per missing current year, −$8.75 missing next year, ~$4.70 accepted below ask). Quiet.
 - 03:36 scrape (no runs between 01:00 and 03:36; 01:00 had no changes): 1 new, 1 price change, 1 status change, 2 gone. Nothing touches a top list or scores ≥ 70, so no broker-page checks were needed.
   - Gone: BLT BLB3818 (DVC Resale Market, 320 pts, $143) and AKV 616174 (DVC Market, $165). BLB3818 reappeared the same run as "new" DVC Market mirror **616079** (same 320 pts / $45,760, 0 pts in 2026), so it's an aggregator relist, not a new contract. Stripped in 2026 and loses vs renting for every Sept setup. Skip.
   - Going pending: SSR SS38583 (DVC Resale Market, 150 pts, $115, "full 2026 points, no dues") → Offer Accepted. Not in a top list.
