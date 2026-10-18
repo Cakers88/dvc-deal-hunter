@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-18 21:38 UTC (latest data: **21:36 UTC scrape**, dispatched by this review; no scheduled run since 19:31). Scraper health: **all 10 sources ok**; no fix needed. Broker alert emails in the last 2 h: none. No change to any Sept top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
+**Run:** 2026-10-18 23:38 UTC (latest data: **23:37 UTC scrape**, dispatched by this review; no scheduled run since 21:51, which had no changes). Scraper health: **all 10 sources ok**; no fix needed. Broker alert emails in the last 2 h: none. No change to any Sept top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,11 @@ Next: HH HHI26452 ($72, no borrowing, 2042 deed): **tied** with SS1262 (saves $1
 
 ## Market notes
 
+- 23:37 scrape (dispatched by this review): 3 new, 2 price changes, 1 status change, 1 gone. Nothing scores ≥ 70 or reaches a top 25, so no page checks needed.
+  - New (DVC Resale Market): BRV [BRF1940](https://www.dvcresalemarket.com/listings/wilderness-lodge/brf1940/) (150 pts, Oct UY, $119, 165 in Oct-2026 incl. 93 banked, 2042 deed; score 64.8, #199), HH HHF1827 (70 pts, $82) and SSR SS88662 (60 pts, $125), both under the 100-pt minimum. Skip.
+  - Price cuts: SSR SSB8636 (DVC Resale Market, 200 pts, Aug UY) $108 → $106, but **0 pts in Aug-2026** (score 65.9, #175); BWV BW430 (DVC Sales, 150 pts, Aug UY) $119 → $117, also 0 in 2026 and 2042 deed (#219). Skip both.
+  - Gone: SSR SS1270 (DVC Sales, 100 pts, Dec UY, $104), not in a top list. BCV BC22577 Offer Accepted → Sale Pending.
+  - Market model n=867: −$4.70/pt per missing current year, −$8.91 missing next year, ~$4.83 accepted below ask. Flat. Quiet.
 - 21:36 scrape (dispatched by this review): 0 new, 1 price change, 2 status changes, 0 gone. Nothing touches a top list.
   - Price cut: AKV AKB6482 ([DVC Resale Market](https://www.dvcresalemarket.com/listings/animal-kingdom-lodge/akb6482/), 150 pts, Dec UY) $116 → $114 ($17,100). **0 pts in Dec-2026**, so Sept 2027 has only borrowed points; score 0. Skip.
   - Going pending: BWV BW23454 (DVC Resale Market, "full 2026 points, no dues") → Offer Accepted (twin of BW23453 earlier); Poly POLY370LBF1 (DVC Shop) → Sale Pending. Neither scored.
