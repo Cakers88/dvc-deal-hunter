@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-18 06:38 UTC (latest data: **06:36 UTC scrape**, dispatched by this review). Scraper health: **all 10 sources ok** (DVC Shop failed once at 05:52 with an API timeout, recovered at 06:36; no fix needed). Broker alert emails in the last 2 h: none. No change to any Sept top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
+**Run:** 2026-10-18 07:38 UTC (latest data: **07:36 UTC scrape**, dispatched by this review). Scraper health: **all 10 sources ok**; no fix needed. Broker alert emails in the last 2 h: none. No change to any Sept top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,7 @@ Next: HH HHI26452 (#5, no borrowing, 2042 deed; now within $3 of SS1262).
 
 ## Market notes
 
+- 07:36 scrape (dispatched by this review; no scheduled run since 06:36): 0 new, 0 price changes, 0 status changes, 0 gone. Market model n=864 unchanged (−$4.66/pt per missing current year, −$8.76 missing next year, ~$4.78 accepted below ask). Top lists unchanged. Quiet.
 - 06:36 scrape (dispatched by this review; 05:52 had no changes but DVC Shop timed out): 7 new, 0 price changes, 0 status changes, 4 gone. Nothing reaches a top list.
   - New **BLT 616292** ([DVC Market](https://dvcmarket.com/dvc-resale/bay-lake-tower/200-points/616292), 200 pts, Jun UY, $145, $29,000, 2060 deed). Score 77.3 (it triggered the ntfy alert), so I checked the page 06:40: listed today; **0 in 2026, 385 in 2027**, 200 after (matches the scrape); dues $8.74 ($1,748/yr); closing $927 + $500 CAF; **dues terms not stated**. DVC Market itself rates it "High Priced" (BLT avg $144, low $128). Best Sept use: 1BR+2BR 6n, borrows 101, saves ~$1.8k → **#44**. Skip.
   - Other new (all DVC Market): SSR 616291 (200 pts, Oct UY, $103, buyer reimburses 2026 dues; 2BR #61: Sept 2027 falls in its Oct-2026 use year, so 200 pts + 82 borrowed, and it still loses ~$130 vs renting at $103), PVB 616293 ($180), VGC 616295 ($250; Disneyland resort), PVB 616294 (44 pts), Vero Beach 616296 (50 pts), Aulani 616297 (30 pts, $110). None useful.
@@ -188,8 +189,8 @@ Next: HH HHI26452 (#5, no borrowing, 2042 deed; now within $3 of SS1262).
 
 ## Scraper health
 
-- 03:36: **all 10 sources OK** (no source with 0 listings or errors).
-- The 15-minute cron is still unreliable (no scrape between 01:00 and 03:36 UTC); this review dispatches `hunt` each hour to cover gaps. Disabling and re-enabling the `hunt` workflow (Actions → hunt → ⋯) is the usual fix, but it needs Corey.
+- 07:36: **all 10 sources OK** (no source with 0 listings or errors).
+- The 15-minute cron is still unreliable (no scheduled scrape between 06:36 and 07:36 UTC); this review dispatches `hunt` each hour to cover gaps. Disabling and re-enabling the `hunt` workflow (Actions → hunt → ⋯) is the usual fix, but it needs Corey.
 
 ## Fixes made
 
