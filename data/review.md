@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-18 23:38 UTC (latest data: **23:37 UTC scrape**, dispatched by this review; no scheduled run since 21:51, which had no changes). Scraper health: **all 10 sources ok**; no fix needed. Broker alert emails in the last 2 h: none. No change to any Sept top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Savings figures below drift by a few dollars a day as interest accrues.
+**Run:** 2026-10-19 01:40 UTC (latest data: **01:36 UTC scrape**; no scheduled run between 23:53 and 01:36, so this review also dispatched `hunt`). Scraper health: **all 10 sources ok**; no fix needed. Broker alert emails in the last 2 h: none. 10 new listings + 1 price cut, none reaching a Sept top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Table savings are from the 23:38 run and drift by a few dollars a day as interest accrues (OKW95100 now $4,752, SS1286 $4,125).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,11 @@ Next: HH HHI26452 ($72, no borrowing, 2042 deed): **tied** with SS1262 (saves $1
 
 ## Market notes
 
+- 01:36 scrape: 10 new, 1 price change, 1 status change, 0 gone. Nothing scores ≥ 70 or reaches a top 25 (best is #151), so no page checks needed; all Sept top lists unchanged.
+  - Price cut: SSR [SSF8639](https://www.dvcresalemarket.com/listings/saratoga-springs/ssf8639/) (DVC Resale Market, 200 pts, Aug UY) $106 → **$100** ($20,000), "Reduced Again". Only 26 pts left in Aug-2026 and 174 in Aug-2027, so it can't cover a 1BR+2BR and only breaks even for a 2BR (#48). Score 67.0. Watch for further cuts.
+  - New (DVC Resale Market): SSR SSB8688 (200, Apr UY, $108, 0 in 2026), SSR SSF8684 (160, Dec UY, $120), BWV BWB3456 (200, Apr UY, $137, 2042 deed), VB VBB2646 (200, Oct UY, $48, 0 in 2026, 2042 deed), plus SSR SSB8689 (110) and four CCV 100-pt contracts at $148 (CCB3033–3036), all score 0. New at DVC Shop: GFV GF216LBF1 (125, Aug UY, $162, 0 in 2026). None worth a look for Sept.
+  - VB VBE2645 Offer Accepted → Sale Pending.
+  - Market model n=876 (was 867): −$4.85/pt per missing current year, −$8.72 missing next year, ~$4.91 accepted below ask. Flat.
 - 23:37 scrape (dispatched by this review): 3 new, 2 price changes, 1 status change, 1 gone. Nothing scores ≥ 70 or reaches a top 25, so no page checks needed.
   - New (DVC Resale Market): BRV [BRF1940](https://www.dvcresalemarket.com/listings/wilderness-lodge/brf1940/) (150 pts, Oct UY, $119, 165 in Oct-2026 incl. 93 banked, 2042 deed; score 64.8, #199), HH HHF1827 (70 pts, $82) and SSR SS88662 (60 pts, $125), both under the 100-pt minimum. Skip.
   - Price cuts: SSR SSB8636 (DVC Resale Market, 200 pts, Aug UY) $108 → $106, but **0 pts in Aug-2026** (score 65.9, #175); BWV BW430 (DVC Sales, 150 pts, Aug UY) $119 → $117, also 0 in 2026 and 2042 deed (#219). Skip both.
@@ -218,8 +223,8 @@ Next: HH HHI26452 ($72, no borrowing, 2042 deed): **tied** with SS1262 (saves $1
 
 ## Scraper health
 
-- 07:36: **all 10 sources OK** (no source with 0 listings or errors).
-- The 15-minute cron is still unreliable (no scheduled scrape between 06:36 and 07:36 UTC); this review dispatches `hunt` each hour to cover gaps. Disabling and re-enabling the `hunt` workflow (Actions → hunt → ⋯) is the usual fix, but it needs Corey.
+- 01:36: **all 10 sources OK** (no source with 0 listings or errors).
+- The 15-minute cron is still unreliable (no scheduled scrape between 23:53 and 01:36 UTC); this review dispatches `hunt` each hour to cover gaps. Disabling and re-enabling the `hunt` workflow (Actions → hunt → ⋯) is the usual fix, but it needs Corey.
 
 ## Fixes made
 
