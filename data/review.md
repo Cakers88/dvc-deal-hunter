@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-19 08:38 UTC (latest data: **08:37 UTC scrape**, dispatched by this review; earlier scrapes 05:38 and 07:36). Scraper health: **all 10 sources ok**; no fix needed. The 07:36 Action run was marked failed only because the GitHub Pages deploy step couldn't find its artifact (transient GitHub-side error; the scrape and data commit succeeded); the 08:37 run redeployed the dashboard fine. Broker alert emails in the last 2 h: none. Since 04:37: 0 new, 0 price changes, 0 status changes, 0 gone, so all tables below stand (savings drift a few dollars a day as interest accrues).
+**Run:** 2026-10-19 09:38 UTC (latest data: **09:37 UTC scrape**, dispatched by this review because scheduled runs have been sparse; previous 08:37). Scraper health: **all 10 sources ok**; no fix needed. Broker alert emails in the last 2 h: none. 09:37 scrape: 1 new + 1 gone, which is the same DVC Sales contract relisted under a new ID (see Market notes). Rankings unchanged, so all tables below stand.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,7 @@ Next: HH HHI26452 ($72, no borrowing, 2042 deed): **tied** with SS1262 (saves $1
 
 ## Market notes
 
+- 09:37 scrape: DVC Sales relisted SSR **SS1260 → [SS1303](https://dvcsales.com/dvc-resale/saratoga-springs/200-points/1611)** (same page /1611, same 200 pts Mar UY, $94, $18,800). It's not a new contract: the old ID was 49 days on market, and the relist resets that to 0. It has only 46 pts in Mar-2027, so it's #295 (score 58) and irrelevant for Sept. ROFR is high at $94. Market model n=876 unchanged.
 - 05:38, 07:36, 08:37 scrapes: no events at all. Market model n=876 unchanged (−$4.86/pt per missing current year, −$8.71 missing next year, ~$4.90 accepted below ask). Quiet overnight.
 - 04:32 scrape: 0 new, 0 price changes, 2 status changes, 0 gone.
   - Aulani [AU23537](https://www.dvcresalemarket.com/listings/aulani/au23537/) (DVC Resale Market, 170 pts, Feb UY, $93) → **Offer Accepted**. It had **0 pts until Feb-2028** (seller pays 2027 dues), so it could never cover 2027 and wasn't ranked; still, a $93 stripped Aulani going under offer in ~5 weeks is a data point for the stripped-contract exit.
