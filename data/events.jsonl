@@ -1931,3 +1931,15 @@
 {"t": "2026-10-19T14:36:45+00:00", "uid": "dvcresalemarket:AUC3553", "event": "status_change", "changes": {"status_raw": ["Offer Accepted", "Sale Pending"]}}
 {"t": "2026-10-19T14:36:45+00:00", "uid": "dvcresalemarket:BLC3817", "event": "status_change", "changes": {"status_raw": ["Offer Accepted", "Sale Pending"]}}
 {"t": "2026-10-19T14:36:45+00:00", "uid": "dvcmarket:616133", "event": "gone", "last": {"price": 66000.0, "price_per_point": 165.0, "availability": "available"}}
+{"t": "2026-10-19T16:03:59+00:00", "uid": "dvcresaleexperts:AUL54389", "event": "new"}
+{"t": "2026-10-19T16:03:59+00:00", "uid": "dvcresalemarket:HH91823", "event": "price_change", "changes": {"price": [13000.0, 12600.0], "price_per_point": [65.0, 63.0], "status_raw": ["Reduced", "Reduced Again"]}}
+{"t": "2026-10-19T16:03:59+00:00", "uid": "dvcresalemarket:VB92638", "event": "status_change", "changes": {"availability": ["pending", "available"], "status_raw": ["Offer Accepted", "New"]}}
+{"t": "2026-10-19T16:03:59+00:00", "uid": "dvcmarket:616262", "event": "new"}
+{"t": "2026-10-19T16:03:59+00:00", "uid": "dvcmarket:616263", "event": "new"}
+{"t": "2026-10-19T16:03:59+00:00", "uid": "dvcmarket:616232", "event": "new"}
+{"t": "2026-10-19T16:03:59+00:00", "uid": "dvcresalemarket:SS78575", "event": "status_change", "changes": {"status_raw": ["Offer Accepted", "Sale Pending"]}}
+{"t": "2026-10-19T16:03:59+00:00", "uid": "dvcresalemarket:SSA8685", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["BONUS! FULL POINTS FOR 2026 WITH NO DUES!", "Offer Accepted"]}}
+{"t": "2026-10-19T16:03:59+00:00", "uid": "dvcsales:GF346", "event": "new"}
+{"t": "2026-10-19T16:03:59+00:00", "uid": "dvcresaleexperts:OKW95100", "event": "gone", "last": {"price": 18690.0, "price_per_point": 89.0, "availability": "available"}}
+{"t": "2026-10-19T16:03:59+00:00", "uid": "dvcresaleexperts:OKW95101", "event": "gone", "last": {"price": 4650.0, "price_per_point": 93.0, "availability": "available"}}
+{"t": "2026-10-19T16:03:59+00:00", "uid": "dvcresaleexperts:SSR09680", "event": "gone", "last": {"price": 16640.0, "price_per_point": 104.0, "availability": "available"}}
