@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-19 04:37 UTC (latest data: **04:32 UTC scrape**; scheduled scrapes ran at 02:36 and 04:32). Scraper health: **all 10 sources ok**; no fix needed. Broker alert emails in the last 2–3 h: none. Since 01:40: 0 new, 0 price changes, 2 status changes, 1 gone; nothing touches a Sept top list, so all tables below stand (savings drift a few dollars a day as interest accrues).
+**Run:** 2026-10-19 08:38 UTC (latest data: **08:37 UTC scrape**, dispatched by this review; earlier scrapes 05:38 and 07:36). Scraper health: **all 10 sources ok**; no fix needed. The 07:36 Action run was marked failed only because the GitHub Pages deploy step couldn't find its artifact (transient GitHub-side error; the scrape and data commit succeeded); the 08:37 run redeployed the dashboard fine. Broker alert emails in the last 2 h: none. Since 04:37: 0 new, 0 price changes, 0 status changes, 0 gone, so all tables below stand (savings drift a few dollars a day as interest accrues).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,7 @@ Next: HH HHI26452 ($72, no borrowing, 2042 deed): **tied** with SS1262 (saves $1
 
 ## Market notes
 
+- 05:38, 07:36, 08:37 scrapes: no events at all. Market model n=876 unchanged (−$4.86/pt per missing current year, −$8.71 missing next year, ~$4.90 accepted below ask). Quiet overnight.
 - 04:32 scrape: 0 new, 0 price changes, 2 status changes, 0 gone.
   - Aulani [AU23537](https://www.dvcresalemarket.com/listings/aulani/au23537/) (DVC Resale Market, 170 pts, Feb UY, $93) → **Offer Accepted**. It had **0 pts until Feb-2028** (seller pays 2027 dues), so it could never cover 2027 and wasn't ranked; still, a $93 stripped Aulani going under offer in ~5 weeks is a data point for the stripped-contract exit.
   - PVB PLA4684 (25 pts) Offer Accepted → Sale Pending. Irrelevant.
