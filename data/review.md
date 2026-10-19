@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-19 09:38 UTC (latest data: **09:37 UTC scrape**, dispatched by this review because scheduled runs have been sparse; previous 08:37). Scraper health: **all 10 sources ok**; no fix needed. Broker alert emails in the last 2 h: none. 09:37 scrape: 1 new + 1 gone, which is the same DVC Sales contract relisted under a new ID (see Market notes). Rankings unchanged, so all tables below stand.
+**Run:** 2026-10-19 13:38 UTC (latest data: **13:36 UTC scrape**, dispatched by this review; scheduled runs remain sparse, previous scrapes 11:37 and 10:16). Scraper health: **all 10 sources ok**; no fix needed. Broker alert emails in the last 2 h: none. 11:37 scrape: no events. 13:36 scrape: 1 new + 4 status changes, none in any top list. Sept rankings unchanged (savings moved by ≤ $20 from date drift), so all tables below stand.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,12 @@ Next: HH HHI26452 ($72, no borrowing, 2042 deed): **tied** with SS1262 (saves $1
 
 ## Market notes
 
+- 13:36 scrape (dispatched by this review): 1 new, 0 price changes, 4 status changes, 0 gone. Nothing scores ≥ 70 or reaches a top 25, so no page checks needed.
+  - New: BWV [616234](https://dvcmarket.com/dvc-resale/boardwalk/25-points/616234) (DVC Market, 25 pts, $136), a mirror of DVC by Resale's B2512NA2, which went Offer Received → **Sale Pending** in the same scrape. Under the 100-pt minimum. Irrelevant.
+  - Back on market: SSR [SS68657](https://www.dvcresalemarket.com/listings/saratoga-springs/ss68657/) (DVC Resale Market, 160 pts, Dec UY, $106) Offer Accepted → **New** (deal fell through). Only 107 pts in Dec-2026 and 53 in Dec-2027, so it can't cover a 1BR or 2BR in Sept (score 0, #570). Skip.
+  - Going pending: Poly PL94637 (400 pts, $179) → Offer Accepted; OKW OKG5072 (230 pts, Aug UY, $108) Offer Accepted → Sale Pending. Neither was ranked.
+  - Market model n=875 (was 876): −$4.78/pt per missing current year, −$8.74 missing next year, ~$4.84 accepted below ask. Flat.
+- 10:16, 11:37 scrapes: no events. Quiet.
 - 09:37 scrape: DVC Sales relisted SSR **SS1260 → [SS1303](https://dvcsales.com/dvc-resale/saratoga-springs/200-points/1611)** (same page /1611, same 200 pts Mar UY, $94, $18,800). It's not a new contract: the old ID was 49 days on market, and the relist resets that to 0. It has only 46 pts in Mar-2027, so it's #295 (score 58) and irrelevant for Sept. ROFR is high at $94. Market model n=876 unchanged.
 - 05:38, 07:36, 08:37 scrapes: no events at all. Market model n=876 unchanged (−$4.86/pt per missing current year, −$8.71 missing next year, ~$4.90 accepted below ask). Quiet overnight.
 - 04:32 scrape: 0 new, 0 price changes, 2 status changes, 0 gone.
