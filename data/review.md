@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-19 17:36 UTC (latest data: **17:05 UTC scrape**). Scraper health: 9/10 ok; **DVC Store failed once at 17:05** (API GET retries exhausted). Its API answers 200 again now, and the 16:03 run was ok, so I'm treating it as transient and not making a fix. Broker alert emails in the last 2 h: none. 17:05 scrape: 1 new, 1 price change, 1 status change. **Vero Beach V1508AR1 dropped $58 → $45 and is now 2BR #2**, but ROFR risk is high. OKW95100 and SSR09680 are still dropped as aggregator-only ghosts (616262, 616232).
+**Run:** 2026-10-19 18:38 UTC (latest data: **18:37 UTC scrape**, dispatched by this review because the schedule hadn't fired since 17:05). Scraper health: **10/10 ok**. DVC Store is back (its listings produced events this run), so the 17:05 failure was transient. Broker alert emails in the last 2 h: none. 18:37 scrape: 3 new, 1 price change, 3 status changes, 6 gone. **No change to any Sept top list.** None of the new or changed listings scores ≥ 70 or makes the top 25. The DVC Market ghosts 616262, 616263 and 616232 are finally gone too, which confirms OKW95100, OKW95101 and SSR09680 are sold or withdrawn. All current picks are still listed and available.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,12 @@ Dropped: SSR **SSR09680** / DVC Market ghost [616232](https://dvcmarket.com/dvc-
 
 ## Market notes
 
+- 18:37 scrape (dispatched by this review): 3 new, 1 price change, 3 status changes, 6 gone. No page checks needed; Gmail: none.
+  - New: OKW [VCL 210 pts](https://vacationclublife.com/listings/4301740000155635003) at **$85** ($17,850), but only 6 pts in Feb-2027 (seller keeps 2026/2027), **2042 deed**, ROFR high. Score 42, #473. Also new: OKW VCL 50 pts ($90, 2042 deed) and SSR [616317](https://dvcmarket.com/dvc-resale/saratoga-springs/100-points/616317) (Fidelity via DVC Market, 100 pts, Mar UY, $98, 0 in 2026 / 100 in 2027, ROFR high, #345). None of them helps for Sept.
+  - Price cut: AKV [AK400-02-0916](https://www.dvcstore.com/resort/animal-kingdom/ak400-02-0916/) (DVC Store, 400 pts, Feb UY) $110 → **$105** ($42,000), 0 in 2026 / 400 in Feb-2027, 2057 deed. Score 65.2, #187. Too much cash for this goal.
+  - Going pending: BWV BW160-08-1002-JC (DVC Store, 160 pts, $125) → Sale Pending; OKW OK35010 Offer Accepted → Sale Pending. Neither was ranked.
+  - Gone: the DVC Market ghosts 616262 (OKW $89), 616263 (OKW $93) and 616232 (SSR $104), plus BWV281 (Buy & Sell DVC, already pending) and SSR U10012MI0 (DVC by Resale, pending) along with its mirror 614772. The three cheap loaded-2027 ghosts are now confirmed gone.
+  - Market model n=874 (was 878): −$4.72/pt per missing current year, −$8.86 missing next year, ~$4.79 accepted below ask. Flat.
 - 17:05 scrape: 1 new, 1 price change, 1 status change, 0 gone. Gmail: no broker emails in the last 2 h.
   - **Price cut:** VB [V1508AR1](https://www.dvcbyresale.com/buy.php?listid=1858580847851351) (DVC by Resale, 150 pts, Aug UY) $58 → **$45** ($6,750), "Reduced!". ✔ Broker page checked: 2025 0 / 2026 123 / 2027 150, buyer pays 2026 dues on 123 pts, deed 1/31/2042, still available. Score 74.4, #43 overall, **2BR Sept #2**. High ROFR risk.
   - **New:** BWV [BWV25070](https://www.dvcresaleexperts.com/dvc-listing/bwv25070-december-240) (DVC Resale Experts, 240 pts, Dec UY, $131, $31,440). Score 80.9, #12 overall (best fit: 3BR, 5 nights). ✔ Broker page checked: 480 in Dec-2026 UY (240 banked, use by Nov 30, 2027), then 240/240. Dues $9.67/pt. **2026 dues terms not stated** (negotiable). **2042 deed.** Covers a 1BR+2BR Sept trip almost entirely from one UY (borrows 6), but at $131 it doesn't make the Sept 6-night top lists (needs ~$31k + dues cash). Worth a look only if you'd value no-borrow simplicity over cost.
