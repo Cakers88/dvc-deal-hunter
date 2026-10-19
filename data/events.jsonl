@@ -1970,3 +1970,5 @@
 {"t": "2026-10-19T20:37:10+00:00", "uid": "dvcmarket:612756", "event": "gone", "last": {"price": 10500.0, "price_per_point": 70.0, "availability": "available"}}
 {"t": "2026-10-19T20:37:10+00:00", "uid": "vacationclublife:4301740000153573002", "event": "gone", "last": {"price": 18000.0, "price_per_point": 45.0, "availability": "available"}}
 {"t": "2026-10-19T20:37:10+00:00", "uid": "vacationclublife:4301740000153575001", "event": "gone", "last": {"price": 22950.0, "price_per_point": 85.0, "availability": "available"}}
+{"t": "2026-10-19T21:30:10+00:00", "uid": "dvcresalemarket:RR82358", "event": "new"}
+{"t": "2026-10-19T21:30:10+00:00", "uid": "dvcresalemarket:BW23454", "event": "status_change", "changes": {"status_raw": ["Offer Accepted", "Sale Pending"]}}
