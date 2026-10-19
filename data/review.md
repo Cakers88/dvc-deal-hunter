@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-19 16:36 UTC (latest data: **16:03 UTC scrape**; no scheduled scrape at 14:5x–15:5x). Scraper health: **all 10 sources ok**; no fix needed. Broker alert emails in the last 2 h: none. 16:03 scrape: 5 new, 1 price change, 3 status changes, 3 gone. **DVC Resale Experts pulled OKW95100 (last run's 1BR+2BR #1) and SSR09680 (2BR #3)**: their broker pages now 404. DVC Market still shows both (616262, 616232), but those are aggregator-only ghosts, so both are dropped from the tables below.
+**Run:** 2026-10-19 17:36 UTC (latest data: **17:05 UTC scrape**). Scraper health: 9/10 ok; **DVC Store failed once at 17:05** (API GET retries exhausted). Its API answers 200 again now, and the 16:03 run was ok, so I'm treating it as transient and not making a fix. Broker alert emails in the last 2 h: none. 17:05 scrape: 1 new, 1 price change, 1 status change. **Vero Beach V1508AR1 dropped $58 → $45 and is now 2BR #2**, but ROFR risk is high. OKW95100 and SSR09680 are still dropped as aggregator-only ghosts (616262, 616232).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -33,10 +33,10 @@ For a 1BR alone, buying still barely beats renting.
 | # | Contract | Pts | $/pt | Price | Net cost (saves) | Cash / months | Book on | ROFR | Judgment |
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | [AKV 616164 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/animal-kingdom/100-points/616164) Jun UY | 100 | $115 | $11,500 | $5,247 ($1,803) | $14.1k / 15 | 2027-02-12 | low | ✔ Full points, buyer reimburses 2026 dues ($1,016), borrows 82. |
-| 2 | [SSR 616162 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/saratoga-springs/150-points/616162) Jun UY | 150 | $100 | $15,000 | $5,546 ($1,504) | $18.0k / 15 | 2027-02-12 | medium | ✔ 150/150, buyer reimburses 2026 dues, **no borrowing** (bank by Jan 31, 2027), 2054 deed. |
-| 3 | [SSR SS1262 (DVC Sales)](https://dvcsales.com/dvc-resale/saratoga-springs/170-points/1627) Feb UY | 170 | $103 | $17,510 | $5,685 ($1,365) | $20.7k / 15 | 2027-02-12 | medium | ✔ 0 in 2026, **295 in Feb-2027 (125 banked, use by Jan 31, 2028)**, 170 in 2028; buyer reimburses 2027 dues ($1,562); closes Dec 2; deed 2054. **No borrowing**, no banking deadline. Long DOM → room to negotiate. Back to #3 after SSR09680 vanished. |
+| 2 | [VB V1508AR1 (DVC by Resale)](https://www.dvcbyresale.com/buy.php?listid=1858580847851351) Aug UY | 150 | $45 | $6,750 | $5,273 ($1,777) | $10.5k / 15 | 2027-02-12 | **high** | ✔ **Price cut 17:05 ($58 → $45).** 123 in Aug-2026 (bankable), 150 in Aug-2027, buyer pays 2026 dues on 123 pts ($1,831), closing $515, borrows 9. **Must bank 123 by Mar 31, 2027.** At $45, Disney ROFR is likely. Also a **2042 deed** with $14.89 dues, so a stripped VB resale will be thin. Cheapest cash in the table, but treat it as a long shot.
+| 3 | [SSR 616162 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/saratoga-springs/150-points/616162) Jun UY | 150 | $100 | $15,000 | $5,546 ($1,504) | $18.0k / 15 | 2027-02-12 | medium | ✔ 150/150, buyer reimburses 2026 dues, **no borrowing** (bank by Jan 31, 2027), 2054 deed. |
 
-Dropped: SSR **SSR09680** ($104, 160 pts Mar UY, last run's #3) — DVC Resale Experts page 404s; DVC Market's mirror [616232](https://dvcmarket.com/dvc-resale/saratoga-springs/160-points/616232) is still up and ranks #8 overall on the dashboard, but it's an aggregator-only ghost. Next: HH HHI26452 ($72, no borrowing, **2042 deed**, depends on banking 141 Jun-2026 pts by Jan 31, 2027), essentially tied with SS1262.
+Dropped: SSR **SSR09680** / DVC Market ghost [616232](https://dvcmarket.com/dvc-resale/saratoga-springs/160-points/616232) (aggregator-only; the dashboard ranks it #8). Next: [SSR SS1262](https://dvcsales.com/dvc-resale/saratoga-springs/170-points/1627) ($103, saves $1,365, no borrowing, no banking deadline, ✔), then HH HHI26452 ($72, **2042 deed**).
 
 ## Rent-out flips (secondary, a one-off at most; DVC bans regular renting)
 
@@ -46,6 +46,11 @@ Dropped: SSR **SSR09680** ($104, 160 pts Mar UY, last run's #3) — DVC Resale E
 
 ## Market notes
 
+- 17:05 scrape: 1 new, 1 price change, 1 status change, 0 gone. Gmail: no broker emails in the last 2 h.
+  - **Price cut:** VB [V1508AR1](https://www.dvcbyresale.com/buy.php?listid=1858580847851351) (DVC by Resale, 150 pts, Aug UY) $58 → **$45** ($6,750), "Reduced!". ✔ Broker page checked: 2025 0 / 2026 123 / 2027 150, buyer pays 2026 dues on 123 pts, deed 1/31/2042, still available. Score 74.4, #43 overall, **2BR Sept #2**. High ROFR risk.
+  - **New:** BWV [BWV25070](https://www.dvcresaleexperts.com/dvc-listing/bwv25070-december-240) (DVC Resale Experts, 240 pts, Dec UY, $131, $31,440). Score 80.9, #12 overall (best fit: 3BR, 5 nights). ✔ Broker page checked: 480 in Dec-2026 UY (240 banked, use by Nov 30, 2027), then 240/240. Dues $9.67/pt. **2026 dues terms not stated** (negotiable). **2042 deed.** Covers a 1BR+2BR Sept trip almost entirely from one UY (borrows 6), but at $131 it doesn't make the Sept 6-night top lists (needs ~$31k + dues cash). Worth a look only if you'd value no-borrow simplicity over cost.
+  - Status: BCV BC62560 Offer Accepted → Sale Pending. Not ranked.
+  - Market model n=878: −$4.83/pt per missing current year, −$8.81 missing next year, ~$4.81 accepted below ask. Flat.
 - 16:03 scrape: 5 new, 1 price change, 3 status changes, 3 gone. Gmail: no broker emails in the last 2 h.
   - **Gone from DVC Resale Experts (pages 404): OKW95100 (210 pts, $89), OKW95101 (50 pts, $93, same seller/UY) and SSR09680 (160 pts, $104).** The adapter is fine (index still returns 103 listings incl. the new AUL54389); the broker just removed them. All three were mirrored to DVC Market 2–3 days ago (616262, 616263, 616232), so they reappear as new aggregator-only listings. The dashboard flags them aggregator-only (freshness 0) but still ranks 616232 at #8 and 616262 at #31 — **ignore them unless they reappear on DVC Resale Experts**. Two of last run's top picks clearing at once suggests the ~$89–104 loaded-2027 contracts are moving.
   - New: Aulani AUL54389 (DVC Resale Experts, 553 pts, Apr UY, $99, 535/571/553, 2062 deed): rent-flip #2, not useful for Sept pick lists (too big). GFV GF346 (DVC Sales, 150 pts, $170, ROFR high): score 55, skip.
@@ -183,6 +188,7 @@ Dropped: SSR **SSR09680** ($104, 160 pts Mar UY, last run's #3) — DVC Resale E
 
 ## Scraper health
 
+- 17:05: 9/10 OK. **DVC Store: ok:false** (`RuntimeError: GET failed after retries` on the wp-json resale-listing API). It was fine at 16:03, and the endpoint returns 200 at 17:36, so this is a single transient failure; no fix. If it fails again next run, I'll investigate.
 - 16:03: **all 10 sources OK** (DVC Market 749, DVC Resale Market 412, DVC Shop 238, DVC Store 146, DVC Resale Experts 102, DVC Sales 69, Vacation Club Life 45, DVC by Resale 25, Buy and Sell DVC 22, Magic Resales 4). DVC Resale Experts adapter re-run by hand: 103 listings, parses fine.
 - No scheduled scrape landed between 14:36 and 16:03 UTC; the 15-minute cron is still unreliable.
 
