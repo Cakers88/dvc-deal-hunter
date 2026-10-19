@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-19T16:03:59+00:00",
- "count": 1432,
+ "updated": "2026-10-19T17:05:37+00:00",
+ "count": 1433,
  "listings": [
   {
    "source": "buyandselldvc",
@@ -2673,10 +2673,10 @@
    "resort_raw": "Disney's Vero Beach",
    "resort": "vb",
    "points": 150,
-   "price": 8700.0,
-   "price_per_point": 58.0,
+   "price": 6750.0,
+   "price_per_point": 45.0,
    "use_year": 8,
-   "status_raw": "Available",
+   "status_raw": "Reduced!",
    "availability": "available",
    "date_listed": null,
    "points_available": [
@@ -2726,8 +2726,8 @@
       ]
      ]
     ],
-    "closing_cost": 529.0,
-    "title_company": "Closing title company: Mason Title Insurance Agency. Your 10% deposit may be sent by credit card (up to $7,500), wire, or check. Closing costs: $529.00"
+    "closing_cost": 515.0,
+    "title_company": "Closing title company: Mason Title Insurance Agency. Your 10% deposit may be sent by credit card (up to $7,500), wire, or check. Closing costs: $515.00"
    },
    "uid": "dvcbyresale:V1508AR1",
    "active": true,
@@ -2740,9 +2740,15 @@
      "price_per_point": 58.0,
      "availability": "available",
      "status_raw": "Available"
+    },
+    {
+     "t": "2026-10-19T17:05:37+00:00",
+     "price": 6750.0,
+     "price_per_point": 45.0,
+     "status_raw": "Reduced!"
     }
    ],
-   "detail_at": "2026-10-17T03:36:59+00:00"
+   "detail_at": "2026-10-19T17:05:37+00:00"
   },
   {
    "source": "dvcbyresale",
@@ -2979,7 +2985,7 @@
     "star_rating": 3,
     "rvc_ppp": 143.0,
     "resort_short_name": "Copper Creek",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 16:00:07",
     "sync_hash": "a546cbde6ca6987f415201f9152fa686",
     "availability_from": "index",
@@ -3058,7 +3064,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 16:00:07",
     "sync_hash": "d1ef4db7f44fe8ea01b697a3f6dae62e",
     "availability_from": "index",
@@ -3141,7 +3147,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 16:00:07",
     "sync_hash": "d3b7376f647d9ca2d5a924b90f2e8224",
     "availability_from": "index",
@@ -3220,7 +3226,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-18 23:00:09",
     "sync_hash": "46cb66bf3867cac8662fbb72d08244c5",
     "availability_from": "index",
@@ -3295,7 +3301,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 16:00:07",
     "sync_hash": "2a59c629831349089dc22448a23de5d6",
     "availability_from": "index",
@@ -3366,7 +3372,7 @@
     "star_rating": 3,
     "rvc_ppp": 64.0,
     "resort_short_name": "Hilton Head",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 16:00:07",
     "sync_hash": "aa35d7f2d88a5349ba3116b2e8875cfe",
     "availability_from": "index",
@@ -3441,7 +3447,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 16:00:07",
     "sync_hash": "8cfb90839416a9847f8fcb390dac9e73",
     "availability_from": "index",
@@ -3517,7 +3523,7 @@
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 09:00:06",
     "sync_hash": "b9c780fc60ead6cc96616510292969c0",
     "availability_from": "index",
@@ -3593,7 +3599,7 @@
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 09:00:06",
     "sync_hash": "42357db74eb670d005046e2729568d0b",
     "availability_from": "index",
@@ -3676,7 +3682,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 09:00:06",
     "sync_hash": "daeb90e58053206187215ec826e64dd6",
     "availability_from": "index",
@@ -3752,7 +3758,7 @@
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 09:00:06",
     "sync_hash": "ff502af39029c96e3f16ad2c8214ca93",
     "availability_from": "index",
@@ -3836,7 +3842,7 @@
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 09:00:06",
     "sync_hash": "138b157a4a30547e5b689fed03645e91",
     "availability_from": "index",
@@ -3919,7 +3925,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 09:00:06",
     "sync_hash": "625ac162bab573790f5dbc5164e1d64b",
     "availability_from": "index",
@@ -4002,7 +4008,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 09:00:06",
     "sync_hash": "4849bf41948f6803f30469a44b188486",
     "availability_from": "index",
@@ -4158,7 +4164,7 @@
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 09:00:06",
     "sync_hash": "3925ae4411195f5bc7e90aba29a0b1f7",
     "availability_from": "index",
@@ -4241,7 +4247,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 09:00:06",
     "sync_hash": "294afee53d5a4b8a2c952116458d3b52",
     "availability_from": "index",
@@ -4321,7 +4327,7 @@
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 09:00:06",
     "sync_hash": "95f0cf2c52ba35aa51065d92af12c2ad",
     "availability_from": "index",
@@ -4405,7 +4411,7 @@
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 09:00:06",
     "sync_hash": "786a3d3dc14010a1fb693b72172b6bfe",
     "availability_from": "index",
@@ -4560,7 +4566,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 09:00:06",
     "sync_hash": "27e782a9f76dc1e8586c3af8505e5590",
     "availability_from": "index",
@@ -4728,7 +4734,7 @@
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 09:00:06",
     "sync_hash": "b510eb1e044ee4a3afc2b5462516c847",
     "availability_from": "index",
@@ -4811,7 +4817,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 09:00:06",
     "sync_hash": "a853aa286abbea37dac2176b925cc8cb",
     "availability_from": "index",
@@ -4890,7 +4896,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 09:00:06",
     "sync_hash": "12776257c0bbdaff67ad62f4d56e8903",
     "availability_from": "index",
@@ -4965,7 +4971,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 09:00:06",
     "sync_hash": "857861ba7dfb8f289da855aa532000bd",
     "availability_from": "index",
@@ -5048,7 +5054,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 09:00:06",
     "sync_hash": "328059e6b475eed5349bd3ef15d9b040",
     "availability_from": "index",
@@ -5127,7 +5133,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 09:00:06",
     "sync_hash": "d9df82239a7c495e95bf592ac1c99037",
     "availability_from": "index",
@@ -5210,7 +5216,7 @@
     "star_rating": 3,
     "rvc_ppp": 99.0,
     "resort_short_name": "Boulder Ridge",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 09:00:06",
     "sync_hash": "2f4a984ca4a6e7c6951a693a36ff9543",
     "availability_from": "index",
@@ -5289,7 +5295,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 09:00:06",
     "sync_hash": "99b0457d166c42e7a0bef18a6c123853",
     "availability_from": "index",
@@ -5368,7 +5374,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 09:00:06",
     "sync_hash": "51d47966223807fc398417f98435c5cf",
     "availability_from": "index",
@@ -5443,7 +5449,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 09:00:06",
     "sync_hash": "a690cfebb913e4fadca1d42158d954a5",
     "availability_from": "index",
@@ -5522,7 +5528,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 09:00:06",
     "sync_hash": "374f9f3fa31e091aa2db23aab3a45d3f",
     "availability_from": "index",
@@ -6322,7 +6328,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "BoardWalk",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 16:00:07",
     "sync_hash": "daae7e4008f35d592042954f49b0da01",
     "availability_from": "index",
@@ -6401,7 +6407,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 09:00:06",
     "sync_hash": "fa05f53879f32e67df1519fa1694e132",
     "availability_from": "index",
@@ -6476,7 +6482,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "5843bc15736e55fe8bc545ae4ce9f27d",
     "availability_from": "index",
@@ -6551,7 +6557,7 @@
     "star_rating": 3,
     "rvc_ppp": 165.0,
     "resort_short_name": "Grand Floridian",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "318de943ed884d65579c20c3579747fa",
     "availability_from": "index",
@@ -6796,7 +6802,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "bff83eca076c0921032d7c164aedf36a",
     "availability_from": "index",
@@ -6875,7 +6881,7 @@
     "star_rating": 3,
     "rvc_ppp": 108.0,
     "resort_short_name": "Animal Kingdom",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 04:00:08",
     "sync_hash": "b35452856efaccaba3e3576c02432ac6",
     "availability_from": "index",
@@ -6954,7 +6960,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-18 23:00:09",
     "sync_hash": "a9202735688eee571229ee65bb9bfcc3",
     "availability_from": "index",
@@ -7191,7 +7197,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "12786d24f32e707767c0e37743ae82fa",
     "availability_from": "index",
@@ -7275,7 +7281,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "16408c9b4ee0b01de3d4d19abd9db61a",
     "availability_from": "index",
@@ -7358,7 +7364,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "0a936e8dd8c08285dbdbc85c1de59b92",
     "availability_from": "index",
@@ -7685,7 +7691,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "9d2068315a5047498737b1ed75c69ada",
     "availability_from": "index",
@@ -7760,7 +7766,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "e2809c2a941d2b9fef0ab8031deec8e4",
     "availability_from": "index",
@@ -7835,7 +7841,7 @@
     "star_rating": 3,
     "rvc_ppp": 165.0,
     "resort_short_name": "Grand Floridian",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "d3ef4c351140ef3aa04321f33a23358c",
     "availability_from": "index",
@@ -7914,7 +7920,7 @@
     "star_rating": 3,
     "rvc_ppp": 165.0,
     "resort_short_name": "Grand Floridian",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "3ff95c82d76eb750c9cb3d7eed752f02",
     "availability_from": "index",
@@ -7998,7 +8004,7 @@
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "dd8d4b2524c76cda33df02e2c1f226a1",
     "availability_from": "index",
@@ -8081,7 +8087,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "990e34c7a826c6f86a04e537322a9b7d",
     "availability_from": "index",
@@ -8325,7 +8331,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "36093675ecac24e8eeb64a56289a64fb",
     "availability_from": "index",
@@ -8652,7 +8658,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 16:00:07",
     "sync_hash": "ac16c9ceab1c0f7150736cb6969f3c27",
     "availability_from": "index",
@@ -8735,7 +8741,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "076762d1b9414e3775afc5ef46621f22",
     "availability_from": "index",
@@ -8818,7 +8824,7 @@
     "star_rating": 3,
     "rvc_ppp": 99.0,
     "resort_short_name": "Boulder Ridge",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "f99d87e9ba0190b79a658d0ea42d72c9",
     "availability_from": "index",
@@ -8897,7 +8903,7 @@
     "star_rating": 3,
     "rvc_ppp": 99.0,
     "resort_short_name": "Boulder Ridge",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "da3785a1c6afe5322996808765c6e7e7",
     "availability_from": "index",
@@ -9064,7 +9070,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "c57ab30325c6751e3f450c4bfca19d4f",
     "availability_from": "index",
@@ -9225,7 +9231,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 09:00:06",
     "sync_hash": "4fb18c43e56c8bea337d4e39ac261cd7",
     "availability_from": "index",
@@ -9304,7 +9310,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "BoardWalk",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 16:00:07",
     "sync_hash": "2482e241fbd11843da7a5f3259b23bcd",
     "availability_from": "index",
@@ -9551,7 +9557,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "381694edb4a700016a8516c2aa1103f9",
     "availability_from": "index",
@@ -9634,7 +9640,7 @@
     "star_rating": 3,
     "rvc_ppp": 137.0,
     "resort_short_name": "Beach Club",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "dd2d21462da75ab50154d299e4bab3db",
     "availability_from": "index",
@@ -9715,7 +9721,7 @@
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 16:00:07",
     "sync_hash": "66314ed6ff09cb135ca3375cd11fde37",
     "availability_from": "index",
@@ -9794,7 +9800,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "b0d9a9722183a54897e6604b4bcb5850",
     "availability_from": "index",
@@ -9873,7 +9879,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "2a91bfd2b77dc0f69178fd79264bfe89",
     "availability_from": "index",
@@ -10118,7 +10124,7 @@
     "star_rating": 3,
     "rvc_ppp": 165.0,
     "resort_short_name": "Grand Floridian",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "9880605564d90cbb2c2d635748fc2a8e",
     "availability_from": "index",
@@ -10197,7 +10203,7 @@
     "star_rating": 3,
     "rvc_ppp": 99.0,
     "resort_short_name": "Boulder Ridge",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "113f990c702a5ce45261667639180489",
     "availability_from": "index",
@@ -10276,7 +10282,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "c6269117465f712416e1fadfb5d115fc",
     "availability_from": "index",
@@ -10355,7 +10361,7 @@
     "star_rating": 3,
     "rvc_ppp": 165.0,
     "resort_short_name": "Grand Floridian",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "57e4c8b2dcee066222c18a6726463ef9",
     "availability_from": "index",
@@ -10592,7 +10598,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "BoardWalk",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 16:00:07",
     "sync_hash": "4ce6ad206925125240a4fea55b9167c2",
     "availability_from": "index",
@@ -10921,7 +10927,7 @@
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "b8dd43444ca07094912390bd3e4025ea",
     "availability_from": "index",
@@ -11085,7 +11091,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "1c486c7b9f44da2d8d210590af0529c3",
     "availability_from": "index",
@@ -11164,7 +11170,7 @@
     "star_rating": 3,
     "rvc_ppp": 166.0,
     "resort_short_name": "Polynesian",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "28c143dea177912f5b0683febf8ecd96",
     "availability_from": "index",
@@ -11578,7 +11584,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "f4f33a949bec86e23f2b2834873dca53",
     "availability_from": "index",
@@ -11661,7 +11667,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "164a3b3f8b3dc3ee46997303beeff297",
     "availability_from": "index",
@@ -11993,7 +11999,7 @@
     "star_rating": 3,
     "rvc_ppp": 148.0,
     "resort_short_name": "Disneyland Hotel",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "17c9eece56781da9f2c5df0c76bc9f70",
     "availability_from": "index",
@@ -12068,7 +12074,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "BoardWalk",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "80e2c582ff423e967df360928a199bc3",
     "availability_from": "index",
@@ -12151,7 +12157,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "8a4a613e7dbe47798e23bf76109f54ab",
     "availability_from": "index",
@@ -12311,7 +12317,7 @@
     "star_rating": 3,
     "rvc_ppp": 99.0,
     "resort_short_name": "Boulder Ridge",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "c8c6575677e75e542b8c62d8c409eaeb",
     "availability_from": "index",
@@ -12467,7 +12473,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "7b802698f571fde60fd306baf551a445",
     "availability_from": "index",
@@ -12541,7 +12547,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "fd5ddc7906356ef1192f78fb29657be4",
     "availability_from": "index",
@@ -12617,7 +12623,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "6cdc02af9826b554c555183bbc28291b",
     "availability_from": "index",
@@ -12696,7 +12702,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "257e46d20b4e79b0579a5a61a0540e15",
     "availability_from": "index",
@@ -12857,7 +12863,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "2c5ef08e031ff0347a2c911d90f8d5cb",
     "availability_from": "index",
@@ -12932,7 +12938,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "BoardWalk",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "49176928e9a05ce1db67134b2d30e161",
     "availability_from": "index",
@@ -13249,7 +13255,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "bf02c574db920c2530265b8f365d57fb",
     "availability_from": "index",
@@ -13492,7 +13498,7 @@
     "star_rating": 3,
     "rvc_ppp": 165.0,
     "resort_short_name": "Grand Floridian",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "a0b1747294d1b06168d5bec08b61086b",
     "availability_from": "index",
@@ -13575,7 +13581,7 @@
     "star_rating": 3,
     "rvc_ppp": 143.0,
     "resort_short_name": "Copper Creek",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "425a5a0c427f6f42a6d5a6751341d905",
     "availability_from": "index",
@@ -13658,7 +13664,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "b61cd6e902768fd9c6918fb3bc7de140",
     "availability_from": "index",
@@ -13741,7 +13747,7 @@
     "star_rating": 3,
     "rvc_ppp": 123.0,
     "resort_short_name": "Fort Wilderness",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "35bcb7f82b0707aff7b642103d1221b9",
     "availability_from": "index",
@@ -13902,7 +13908,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "BoardWalk",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "cfb48d7aed2e7e5d4b5ee67ab57c427a",
     "availability_from": "index",
@@ -13981,7 +13987,7 @@
     "star_rating": 3,
     "rvc_ppp": 137.0,
     "resort_short_name": "Beach Club",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "2edbaaaa1bd0a96cdfa954d5ba1ce9b7",
     "availability_from": "index",
@@ -14308,7 +14314,7 @@
     "star_rating": 3,
     "rvc_ppp": 165.0,
     "resort_short_name": "Grand Floridian",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "1fc5d0f7c950a0d9b4cf168cf490135e",
     "availability_from": "index",
@@ -14387,7 +14393,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "1b957215fbdb781d9f9ec9a7f4321617",
     "availability_from": "index",
@@ -14466,7 +14472,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "ecac2711b61db70713e8e15b729e210d",
     "availability_from": "index",
@@ -14626,7 +14632,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "BoardWalk",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "5efd2337ee5177340206b1b1a0308bd1",
     "availability_from": "index",
@@ -14705,7 +14711,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "e02bcb905b677c4c2e5d93e522b2bfe0",
     "availability_from": "index",
@@ -14788,7 +14794,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "7147e970decf3f9c8c317bd626687481",
     "availability_from": "index",
@@ -14871,7 +14877,7 @@
     "star_rating": 3,
     "rvc_ppp": 143.0,
     "resort_short_name": "Copper Creek",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "c1c380e31019cd27c8086b95047273ce",
     "availability_from": "index",
@@ -14954,7 +14960,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "12d87e1fbeea27415dd128bf4e943ac0",
     "availability_from": "index",
@@ -15033,7 +15039,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "e771107240adae333f41081a97e1b5b4",
     "availability_from": "index",
@@ -15112,7 +15118,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "7accb0c0c0b665ef0c6900bea356b20b",
     "availability_from": "index",
@@ -15195,7 +15201,7 @@
     "star_rating": 3,
     "rvc_ppp": 166.0,
     "resort_short_name": "Polynesian",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "10531e05bc76bea81a13fdf5853a9992",
     "availability_from": "index",
@@ -15513,7 +15519,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "e245789d28190b36ad39619218743eaa",
     "availability_from": "index",
@@ -15592,7 +15598,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "d884e785bfa9e8f0b33d54a2a26d5029",
     "availability_from": "index",
@@ -15842,7 +15848,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "f58ddfe6aa344239b7fe1d6e2ae38f48",
     "availability_from": "index",
@@ -15925,7 +15931,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "ece7220e34defd771107465b3b949057",
     "availability_from": "index",
@@ -16168,7 +16174,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "c5c0c5822f28512bd2fb813e36ca3e3c",
     "availability_from": "index",
@@ -16243,7 +16249,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "BoardWalk",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "cbc6211753e0ed6d95a07e5b8d780043",
     "availability_from": "index",
@@ -16326,7 +16332,7 @@
     "star_rating": 3,
     "rvc_ppp": 166.0,
     "resort_short_name": "Polynesian",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "41ae75cab3fddb7c5b81ba7611d8cdc5",
     "availability_from": "index",
@@ -16405,7 +16411,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "9ed840e47c7e6225a26088c9947e6287",
     "availability_from": "index",
@@ -16566,7 +16572,7 @@
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "7811f3b575b6263e0f49e9b1e24a0c01",
     "availability_from": "index",
@@ -16645,7 +16651,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "16af282a9f668dfa523b34bb65a8bfe5",
     "availability_from": "index",
@@ -16890,7 +16896,7 @@
     "star_rating": 3,
     "rvc_ppp": 64.0,
     "resort_short_name": "Hilton Head",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "c6c998b4c3b02a1351030aa4538924f3",
     "availability_from": "index",
@@ -17049,7 +17055,7 @@
     "star_rating": 3,
     "rvc_ppp": 108.0,
     "resort_short_name": "Animal Kingdom",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "7bfc6e4d3320f313b187b229317f60c7",
     "availability_from": "index",
@@ -17290,7 +17296,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "BoardWalk",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "7187ea9eb75134af59c0c0b15c2a3356",
     "availability_from": "index",
@@ -17369,7 +17375,7 @@
     "star_rating": 3,
     "rvc_ppp": 143.0,
     "resort_short_name": "Copper Creek",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "41cce0eb7b4bce2b4578d82e112079fe",
     "availability_from": "index",
@@ -17528,7 +17534,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "09de2cade50b053cc879e3655a56fdf2",
     "availability_from": "index",
@@ -17607,7 +17613,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "e0fa1bc33aaf3234ff00904547a1cf08",
     "availability_from": "index",
@@ -17682,7 +17688,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "545b6dc09cc129cbfa76b6662665e6c7",
     "availability_from": "index",
@@ -17761,7 +17767,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "BoardWalk",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "57a889c5a5caa0f82e66ca9be3da664d",
     "availability_from": "index",
@@ -17924,7 +17930,7 @@
     "star_rating": 3,
     "rvc_ppp": 166.0,
     "resort_short_name": "Polynesian",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "c146e99c9a349d8648c19721a62e8e3a",
     "availability_from": "index",
@@ -18088,7 +18094,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "d0d34dd28c891517405fedcdfb2f9e7c",
     "availability_from": "index",
@@ -18171,7 +18177,7 @@
     "star_rating": 3,
     "rvc_ppp": 99.0,
     "resort_short_name": "Boulder Ridge",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "b2b5cf165efcd9e6efb6da62ae3effae",
     "availability_from": "index",
@@ -18250,7 +18256,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "ab356ff969f8f1c4a7d8ae34ab1710db",
     "availability_from": "index",
@@ -18329,7 +18335,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "a095420fbf1ac68d0fe60eda43a2fdea",
     "availability_from": "index",
@@ -18408,7 +18414,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "7d3575da59d4e9299573c5621deef86b",
     "availability_from": "index",
@@ -18575,7 +18581,7 @@
     "star_rating": 3,
     "rvc_ppp": 108.0,
     "resort_short_name": "Animal Kingdom",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "cc88bc5c2ddc140c261a4306cbfc4d20",
     "availability_from": "index",
@@ -18912,7 +18918,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "e5d22f620aad4743732ddabf75bcfe48",
     "availability_from": "index",
@@ -19072,7 +19078,7 @@
     "star_rating": 3,
     "rvc_ppp": 165.0,
     "resort_short_name": "Grand Floridian",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "72d748d587acdabf4fb0c57fec883e73",
     "availability_from": "index",
@@ -19231,7 +19237,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "b898521a3df68fcd06d160e85b2c2b15",
     "availability_from": "index",
@@ -19302,7 +19308,7 @@
     "star_rating": 3,
     "rvc_ppp": 137.0,
     "resort_short_name": "Beach Club",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "f6fdcd3cbb8a189b992e6251ee362f8d",
     "availability_from": "index",
@@ -19469,7 +19475,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "2e5363dd97f9e46736c1001d6bc48c59",
     "availability_from": "index",
@@ -19632,7 +19638,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "BoardWalk",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "ae267f18d901dc376a950699401d2c6c",
     "availability_from": "index",
@@ -19715,7 +19721,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "ca7f04072991f9acc85f7f2bf60695b3",
     "availability_from": "index",
@@ -19794,7 +19800,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "b7b03bd8be6ae9b3c6d6a33245a15023",
     "availability_from": "index",
@@ -19873,7 +19879,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "60dfea6ddf806e59fdbf1f5046d9df17",
     "availability_from": "index",
@@ -19952,7 +19958,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "15f2394ac7730054be814adbb1156ee8",
     "availability_from": "index",
@@ -20112,7 +20118,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "BoardWalk",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "4f0b14c6def3643f5abab3353b9175af",
     "availability_from": "index",
@@ -20275,7 +20281,7 @@
     "star_rating": 3,
     "rvc_ppp": 108.0,
     "resort_short_name": "Animal Kingdom",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "b8ee65d331b5888ce3ae470ecbcf381d",
     "availability_from": "index",
@@ -20354,7 +20360,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "b727f749176ca112c9f9695acbadd6ed",
     "availability_from": "index",
@@ -20509,7 +20515,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "42a2fee42ecadfa974f1bdc0c00a0b84",
     "availability_from": "index",
@@ -20665,7 +20671,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "f4196fd7d1e84ed77971bd44493fc6f1",
     "availability_from": "index",
@@ -20744,7 +20750,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "e654394536a1c2f83f39c57a88547c03",
     "availability_from": "index",
@@ -20823,7 +20829,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "8eb2fe12ead4e67b3d7aca05ebe5eb3f",
     "availability_from": "index",
@@ -20902,7 +20908,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "b476c569a086debc401221cfa2b64b3a",
     "availability_from": "index",
@@ -20981,7 +20987,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "4af150cfdd4988bdc4f051f4fdfadc5a",
     "availability_from": "index",
@@ -21057,7 +21063,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "BoardWalk",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 03:00:06",
     "sync_hash": "bf98f15eed98cbe42dfbb6b54401b6c9",
     "availability_from": "index",
@@ -21141,7 +21147,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "d02697323613e992d625786287090737",
     "availability_from": "index",
@@ -21220,7 +21226,7 @@
     "star_rating": 3,
     "rvc_ppp": 165.0,
     "resort_short_name": "Grand Floridian",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "041ffc184a2c36ce7faca6659c214eed",
     "availability_from": "index",
@@ -21299,7 +21305,7 @@
     "star_rating": 3,
     "rvc_ppp": 165.0,
     "resort_short_name": "Grand Floridian",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "12ab849704f60a5b3a7d5973b314ae33",
     "availability_from": "index",
@@ -21464,7 +21470,7 @@
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "69a01218535a863cff508ff435d27d79",
     "availability_from": "index",
@@ -21547,7 +21553,7 @@
     "star_rating": 3,
     "rvc_ppp": 108.0,
     "resort_short_name": "Animal Kingdom",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "7e9e99b901460043da50c2de55d3b57c",
     "availability_from": "index",
@@ -21630,7 +21636,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "4e1b204c12542a837f8c41710a9c5067",
     "availability_from": "index",
@@ -21709,7 +21715,7 @@
     "star_rating": 3,
     "rvc_ppp": 165.0,
     "resort_short_name": "Grand Floridian",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "17c3dc7365724a74248e9ea487ee3be0",
     "availability_from": "index",
@@ -21793,7 +21799,7 @@
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "b4f8b825f17f0e55ef13e63d2bf56ff9",
     "availability_from": "index",
@@ -21874,7 +21880,7 @@
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "68ac68c6c00288caf896bd3493499068",
     "availability_from": "index",
@@ -21954,7 +21960,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "BoardWalk",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "03f8079e0450e0f2c163679d479bfc11",
     "availability_from": "index",
@@ -22121,7 +22127,7 @@
     "star_rating": 3,
     "rvc_ppp": 64.0,
     "resort_short_name": "Hilton Head",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 14:00:09",
     "sync_hash": "957cb0c820799db72c6500c04a2028df",
     "availability_from": "index",
@@ -22204,7 +22210,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "be6439eff456304a66ff39fc56ad3fcd",
     "availability_from": "index",
@@ -22287,7 +22293,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "db85b82a0c83c32aa2e0b595c7285d31",
     "availability_from": "index",
@@ -22366,7 +22372,7 @@
     "star_rating": 3,
     "rvc_ppp": 166.0,
     "resort_short_name": "Polynesian",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "9c2eacdc7e38d015431a1aa6af083f93",
     "availability_from": "index",
@@ -22449,7 +22455,7 @@
     "star_rating": 3,
     "rvc_ppp": 166.0,
     "resort_short_name": "Polynesian",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "621122761f5b3fc9079945d31dd90c8e",
     "availability_from": "index",
@@ -22528,7 +22534,7 @@
     "star_rating": 3,
     "rvc_ppp": 250.0,
     "resort_short_name": "Grand Californian",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "902baf8f81e2cb896f353d2f76c1c178",
     "availability_from": "index",
@@ -22611,7 +22617,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "12397191e3008e8a46678ba919fb901b",
     "availability_from": "index",
@@ -22690,7 +22696,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-10-19 16:00:07",
+    "synced_at": "2026-10-19 17:00:14",
     "updated_at": "2026-10-19 02:00:07",
     "sync_hash": "7b32f3b3d157f7787bb62b61f60fe407",
     "availability_from": "index",
@@ -24441,7 +24447,7 @@
    "expiration": 2062,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 79632.0,
     "annual_dues_total": 6060.88,
     "closing_cost": 1105.0,
@@ -25365,6 +25371,65 @@
   },
   {
    "source": "dvcresaleexperts",
+   "listing_id": "BWV25070",
+   "url": "https://www.dvcresaleexperts.com/dvc-listing/bwv25070-december-240",
+   "resort_raw": "Boardwalk",
+   "resort": "bwv",
+   "points": 240,
+   "price": 31440.0,
+   "price_per_point": 131.0,
+   "use_year": 12,
+   "status_raw": "Double Points",
+   "availability": "available",
+   "date_listed": null,
+   "points_available": [
+    {
+     "uy": "2026-12",
+     "points": 480,
+     "banked": 240
+    },
+    {
+     "uy": "2027-12",
+     "points": 240,
+     "banked": 0
+    },
+    {
+     "uy": "2028-12",
+     "points": 240,
+     "banked": 0
+    }
+   ],
+   "availability_text": "2026: 480 | 2027: 240 | 2028: 240",
+   "dues_terms": "Not stated; negotiable in offer (Buyer Pays / Seller Pays / Pro-rate on available points)",
+   "dues_per_point": 9.67,
+   "subsidized_dues": null,
+   "expiration": 2042,
+   "detail_fetched": true,
+   "extra": {
+    "availability_from": "detail",
+    "savings_vs_direct": 26160.0,
+    "annual_dues_total": 2320.8,
+    "closing_cost": 903.0,
+    "caf": 500.0,
+    "comments": "Experience even more Disney vacation magic while staying in the middle of it all when you purchase this DVC Resale Boardwalk Villas contract with double points your first year as Members!\n\n240 points were banked from December 2025 to 2026, and need to be used by November 30, 2027."
+   },
+   "uid": "dvcresaleexperts:BWV25070",
+   "active": true,
+   "stale": false,
+   "first_seen": "2026-10-19T17:05:37+00:00",
+   "history": [
+    {
+     "t": "2026-10-19T17:05:37+00:00",
+     "price": 31440.0,
+     "price_per_point": 131.0,
+     "availability": "available",
+     "status_raw": "Double Points"
+    }
+   ],
+   "detail_at": "2026-10-19T17:05:37+00:00"
+  },
+  {
+   "source": "dvcresaleexperts",
    "listing_id": "BWV27028",
    "url": "https://www.dvcresaleexperts.com/dvc-listing/bwv27028-december-350",
    "resort_raw": "Boardwalk",
@@ -25404,7 +25469,7 @@
     "savings_vs_direct": 38500.0,
     "also_on": "dvcmarket",
     "duplicates": [
-     "dvcstore:BW350-12-0903"
+     "dvcmarket:615058"
     ],
     "annual_dues_total": 3384.5,
     "closing_cost": 183.0,
@@ -34631,7 +34696,7 @@
    "price": 31900.0,
    "price_per_point": 145.0,
    "use_year": 2,
-   "status_raw": "Offer Accepted",
+   "status_raw": "Sale Pending",
    "availability": "pending",
    "date_listed": null,
    "points_available": [
@@ -34671,6 +34736,10 @@
      "price_per_point": 145.0,
      "availability": "pending",
      "status_raw": "Offer Accepted"
+    },
+    {
+     "t": "2026-10-19T17:05:37+00:00",
+     "status_raw": "Sale Pending"
     }
    ]
   },
@@ -35040,7 +35109,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "closing_cost": 1099.0
    },
@@ -35057,7 +35126,7 @@
      "status_raw": "New"
     }
    ],
-   "detail_at": "2026-10-16T16:38:21+00:00"
+   "detail_at": "2026-10-19T17:05:37+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -43471,7 +43540,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 739.0
    },
@@ -44930,7 +44999,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 899.0
    },
@@ -45096,7 +45165,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 879.0
    },
@@ -50390,7 +50459,7 @@
    "expiration": 2054,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "can_close_after": "12/4/2026",
     "closing_cost": 839.0
@@ -54589,7 +54658,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "can_close_after": "12/17/2026",
     "closing_cost": 679.0
    },
@@ -55755,7 +55824,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 5,
+    "days_on_market": 6,
     "date_listed_from": "index_days",
     "internal_id": "1834",
     "value_score": 44,
@@ -56403,7 +56472,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 33,
+    "days_on_market": 34,
     "date_listed_from": "index_days",
     "internal_id": "1691",
     "value_score": 50,
@@ -57925,7 +57994,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 10,
+    "days_on_market": 11,
     "date_listed_from": "index_days",
     "internal_id": "1802",
     "value_score": 32,
@@ -59506,9 +59575,9 @@
    "expiration": 2064,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "days_on_market": 14,
-    "date_listed_from": "detail",
+    "date_listed_from": "index_days",
     "internal_id": "1784",
     "value_score": 56,
     "also_on": "dvcmarket",
@@ -72984,7 +73053,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 20412,
-    "modified": "2026-10-19 11:45:06",
+    "modified": "2026-10-19 12:25:04",
     "resort_abbr": "RR",
     "low_but_firm": true
    },
@@ -74975,7 +75044,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 21814,
-    "modified": "2026-10-19 11:45:06",
+    "modified": "2026-10-19 12:25:04",
     "resort_abbr": "SSR",
     "low_but_firm": true
    },
@@ -77629,7 +77698,7 @@
    },
    "uid": "dvcstore:AK100-06-0602",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -77692,7 +77761,7 @@
    },
    "uid": "dvcstore:AK100-09-0725",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -77755,7 +77824,7 @@
    },
    "uid": "dvcstore:AK140-12-0225",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -77817,7 +77886,7 @@
    },
    "uid": "dvcstore:AK150-09-1008",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -77881,7 +77950,7 @@
    },
    "uid": "dvcstore:AK160-10-1012",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -77950,7 +78019,7 @@
    },
    "uid": "dvcstore:AK167-06-0127",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -78012,7 +78081,7 @@
    },
    "uid": "dvcstore:AK180-12-0729",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -78076,7 +78145,7 @@
    },
    "uid": "dvcstore:AK200-09-1008",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -78142,7 +78211,7 @@
    },
    "uid": "dvcstore:AK200-10-0112-1",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -78206,7 +78275,7 @@
    },
    "uid": "dvcstore:AK200-12-1018",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -78270,7 +78339,7 @@
    },
    "uid": "dvcstore:AK200-12-1102",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -78332,7 +78401,7 @@
    },
    "uid": "dvcstore:AK210-12-0518",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -78396,7 +78465,7 @@
    },
    "uid": "dvcstore:AK400-02-0916",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -78464,7 +78533,7 @@
    },
    "uid": "dvcstore:AR100-02-0602",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -78526,13 +78595,14 @@
     "modified": "2026-10-07T14:20:16",
     "also_on": "dvcmarket",
     "duplicates": [
+     "dvcmarket:614788",
      "dvcmarket:614788"
     ],
     "dues_per_point_page": 10.9572
    },
    "uid": "dvcstore:AR100-06-1002",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -78599,7 +78669,7 @@
    },
    "uid": "dvcstore:AR100-08-0714",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -78665,7 +78735,7 @@
    },
    "uid": "dvcstore:AR100-08-0720",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -78800,7 +78870,7 @@
    },
    "uid": "dvcstore:AR120-12-0331",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -78868,7 +78938,7 @@
    },
    "uid": "dvcstore:AR150-12-0213",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -78931,7 +79001,7 @@
    },
    "uid": "dvcstore:AR200-02-0723",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -78993,7 +79063,7 @@
    },
    "uid": "dvcstore:AR200-04-0409",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -79058,7 +79128,7 @@
    },
    "uid": "dvcstore:AR250-12-1003",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -79122,7 +79192,7 @@
    },
    "uid": "dvcstore:BC100-06-1008",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -79185,7 +79255,7 @@
    },
    "uid": "dvcstore:BC115-10-1016",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-16T17:37:24+00:00",
    "history": [
     {
@@ -79255,7 +79325,7 @@
    },
    "uid": "dvcstore:BC160-02-0915",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -79320,7 +79390,7 @@
    },
    "uid": "dvcstore:BC160-08-0819",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -79385,7 +79455,7 @@
    },
    "uid": "dvcstore:BC200-02-1010-2",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -79449,7 +79519,7 @@
    },
    "uid": "dvcstore:BC250-03-0429",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -79511,7 +79581,7 @@
    },
    "uid": "dvcstore:BC270-02-0519",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -79577,7 +79647,7 @@
    },
    "uid": "dvcstore:BLT050-10-1013",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -79640,7 +79710,7 @@
    },
    "uid": "dvcstore:BLT100-08-0728",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -79767,7 +79837,7 @@
    },
    "uid": "dvcstore:BLT100-10-0602",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -79831,7 +79901,7 @@
    },
    "uid": "dvcstore:BLT160-02-0215-1",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -79897,7 +79967,7 @@
    },
    "uid": "dvcstore:BLT160-02-0816",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -79962,7 +80032,7 @@
    },
    "uid": "dvcstore:BLT160-02-1208",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -80027,7 +80097,7 @@
    },
    "uid": "dvcstore:BLT180-06-1015",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-15T19:23:05+00:00",
    "history": [
     {
@@ -80091,7 +80161,7 @@
    },
    "uid": "dvcstore:BW050-02-1002",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -80155,7 +80225,7 @@
    },
    "uid": "dvcstore:BW150-09-1213",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -80218,7 +80288,7 @@
    },
    "uid": "dvcstore:BW150-10-0423",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -80283,7 +80353,7 @@
    },
    "uid": "dvcstore:BW160-08-1002-JC",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -80346,7 +80416,7 @@
    },
    "uid": "dvcstore:BW200-02-0428",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -80409,7 +80479,7 @@
    },
    "uid": "dvcstore:BW270-02-0225",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -80473,7 +80543,7 @@
    },
    "uid": "dvcstore:BW270-09-0926",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -80538,7 +80608,7 @@
    },
    "uid": "dvcstore:CFW100-12-0908",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -80600,7 +80670,7 @@
    },
    "uid": "dvcstore:GCAL060-06-0602",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -80660,7 +80730,7 @@
    },
    "uid": "dvcstore:GCAL200-06-1210",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -80723,7 +80793,7 @@
    },
    "uid": "dvcstore:GF075-10-0602",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -80787,7 +80857,7 @@
    },
    "uid": "dvcstore:GF080-04-1012",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -80851,7 +80921,7 @@
    },
    "uid": "dvcstore:GF100-04-0428",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -80917,7 +80987,7 @@
    },
    "uid": "dvcstore:GF120-06-0927",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -80982,7 +81052,7 @@
    },
    "uid": "dvcstore:GF150-03-1016",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-17T19:36:27+00:00",
    "history": [
     {
@@ -81047,7 +81117,7 @@
    },
    "uid": "dvcstore:GF200-09-1006",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -81111,7 +81181,7 @@
    },
    "uid": "dvcstore:GF276-08-0317",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -81175,7 +81245,7 @@
    },
    "uid": "dvcstore:GF360-10-0917",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -81242,7 +81312,7 @@
    },
    "uid": "dvcstore:GF500-06-0904",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -81307,7 +81377,7 @@
    },
    "uid": "dvcstore:HH060-03-0518",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -81370,7 +81440,7 @@
    },
    "uid": "dvcstore:HH080-02-0707",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -81429,7 +81499,7 @@
    },
    "uid": "dvcstore:HH200-09-0918",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -81494,7 +81564,7 @@
    },
    "uid": "dvcstore:HH210-04-0921",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -81554,7 +81624,7 @@
    },
    "uid": "dvcstore:HH210-12-1113",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -81617,7 +81687,7 @@
    },
    "uid": "dvcstore:OKW046-02-0514",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -81679,7 +81749,7 @@
    },
    "uid": "dvcstore:OKW050-08-0624",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -81744,7 +81814,7 @@
    },
    "uid": "dvcstore:OKW050-12-1012",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -81809,7 +81879,7 @@
    },
    "uid": "dvcstore:OKW100-02-0123",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -81874,7 +81944,7 @@
    },
    "uid": "dvcstore:OKW104-08-0621",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -81939,7 +82009,7 @@
    },
    "uid": "dvcstore:OKW110-06-1008",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -82002,7 +82072,7 @@
    },
    "uid": "dvcstore:OKW150-02-0317",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -82064,7 +82134,7 @@
    },
    "uid": "dvcstore:OKW150-02-0409",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -82128,7 +82198,7 @@
    },
    "uid": "dvcstore:OKW150-06-1208",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -82192,7 +82262,7 @@
    },
    "uid": "dvcstore:OKW150-09-1002",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -82255,7 +82325,7 @@
    },
    "uid": "dvcstore:OKW190-06-0805",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -82320,7 +82390,7 @@
    },
    "uid": "dvcstore:OKW190-06-1008",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -82385,7 +82455,7 @@
    },
    "uid": "dvcstore:OKW2057100-04-0731",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -82451,7 +82521,7 @@
    },
    "uid": "dvcstore:OKW2057125-02-0727",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -82512,7 +82582,7 @@
    },
    "uid": "dvcstore:OKW2057230-04-1209",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -82576,7 +82646,7 @@
    },
    "uid": "dvcstore:OKW210-04-1110",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -82640,7 +82710,7 @@
    },
    "uid": "dvcstore:OKW210-06-1006",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -82705,7 +82775,7 @@
    },
    "uid": "dvcstore:OKW220-03-0906",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -82768,7 +82838,7 @@
    },
    "uid": "dvcstore:OKW220-12-0814",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -82833,7 +82903,7 @@
    },
    "uid": "dvcstore:OKW230-04-1124",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -82899,7 +82969,7 @@
    },
    "uid": "dvcstore:OKW240-08-0831",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -82964,7 +83034,7 @@
    },
    "uid": "dvcstore:OKW269-09-0107",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -83026,7 +83096,7 @@
    },
    "uid": "dvcstore:OKW270-10-0416",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -83090,7 +83160,7 @@
    },
    "uid": "dvcstore:OKW270-12-1118-1",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -83152,7 +83222,7 @@
    },
    "uid": "dvcstore:OKW300-02-0825",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -83216,7 +83286,7 @@
    },
    "uid": "dvcstore:OKW300-12-0518",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -83283,7 +83353,7 @@
    },
    "uid": "dvcstore:OKW320-12-0728",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -83347,7 +83417,7 @@
    },
    "uid": "dvcstore:PV200-10-0408-1",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -83412,7 +83482,7 @@
    },
    "uid": "dvcstore:PV200-10-1010",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -83479,7 +83549,7 @@
    },
    "uid": "dvcstore:PV250-12-0923",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -83544,7 +83614,7 @@
    },
    "uid": "dvcstore:PV300-10-1002",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -83613,7 +83683,7 @@
    },
    "uid": "dvcstore:PV500-10-0528",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -83677,7 +83747,7 @@
    },
    "uid": "dvcstore:RV075-12-0831",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -83739,7 +83809,7 @@
    },
    "uid": "dvcstore:RV100-08-0929",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -83802,7 +83872,7 @@
    },
    "uid": "dvcstore:RV175-12-0617",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -83867,7 +83937,7 @@
    },
    "uid": "dvcstore:RV200-06-0324",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-16T17:37:24+00:00",
    "history": [
     {
@@ -83929,7 +83999,7 @@
    },
    "uid": "dvcstore:RV200-12-1006",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -83983,7 +84053,7 @@
    },
    "uid": "dvcstore:RV300-08-0819",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -84045,7 +84115,7 @@
    },
    "uid": "dvcstore:SS050-12-1013",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -84112,7 +84182,7 @@
    },
    "uid": "dvcstore:SS075-06-0707",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -84178,7 +84248,7 @@
    },
    "uid": "dvcstore:SS110-10-0930",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -84242,7 +84312,7 @@
    },
    "uid": "dvcstore:SS150-02-0520",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -84305,7 +84375,7 @@
    },
    "uid": "dvcstore:SS150-09-0805-2",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -84359,7 +84429,7 @@
    },
    "uid": "dvcstore:SS150-09-1126",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -84421,7 +84491,7 @@
    },
    "uid": "dvcstore:SS150-12-0924",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -84491,7 +84561,7 @@
    },
    "uid": "dvcstore:SS150-12-1016-2",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-16T21:36:23+00:00",
    "history": [
     {
@@ -84551,7 +84621,7 @@
    },
    "uid": "dvcstore:SS160-06-1215",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -84678,7 +84748,7 @@
    },
    "uid": "dvcstore:SS160-09-0421",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -84740,7 +84810,7 @@
    },
    "uid": "dvcstore:SS160-12-0505",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -84804,7 +84874,7 @@
    },
    "uid": "dvcstore:SS160-12-1013-2",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -84865,7 +84935,7 @@
    },
    "uid": "dvcstore:SS160-12-1028-1",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -84925,7 +84995,7 @@
    },
    "uid": "dvcstore:SS180-09-1013",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -84988,7 +85058,7 @@
    },
    "uid": "dvcstore:SS200-02-0901",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -85055,7 +85125,7 @@
    },
    "uid": "dvcstore:SS200-12-0505-2",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -85117,7 +85187,7 @@
    },
    "uid": "dvcstore:SS200-12-0518",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -85181,7 +85251,7 @@
    },
    "uid": "dvcstore:SS200-12-1006",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -85312,7 +85382,7 @@
    },
    "uid": "dvcstore:SS210-10-0930",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -85378,7 +85448,7 @@
    },
    "uid": "dvcstore:SS250-02-0811-2",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -85443,7 +85513,7 @@
    },
    "uid": "dvcstore:SS250-12-0127",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -85502,7 +85572,7 @@
    },
    "uid": "dvcstore:SS500-02-1021",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -85567,7 +85637,7 @@
    },
    "uid": "dvcstore:VB100-03-0707",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -85632,7 +85702,7 @@
    },
    "uid": "dvcstore:VB100-09-0127",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -85694,7 +85764,7 @@
    },
    "uid": "dvcstore:VB100-10-0924",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -85753,7 +85823,7 @@
    },
    "uid": "dvcstore:VB150-02-1031",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -85812,7 +85882,7 @@
    },
    "uid": "dvcstore:VB150-02-1209",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -85871,7 +85941,7 @@
    },
    "uid": "dvcstore:VB210-03-0708-1",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -85933,7 +86003,7 @@
    },
    "uid": "dvcstore:VB210-03-0914",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -85997,7 +86067,7 @@
    },
    "uid": "dvcstore:VB210-12-1216",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -86051,7 +86121,7 @@
    },
    "uid": "dvcstore:VB225-08-1112-1",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -86115,7 +86185,7 @@
    },
    "uid": "dvcstore:VB230-03-1001",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -86175,7 +86245,7 @@
    },
    "uid": "dvcstore:VB250-12-0511",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -86239,7 +86309,7 @@
    },
    "uid": "dvcstore:VB400-12-0702",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -86304,7 +86374,7 @@
    },
    "uid": "dvcstore:VDH070-02-0702",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -86367,7 +86437,7 @@
    },
    "uid": "dvcstore:VDH150-02-0418",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -86431,7 +86501,7 @@
    },
    "uid": "dvcstore:VDH150-12-0820",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -86495,7 +86565,7 @@
    },
    "uid": "dvcstore:VDH300-06-0727",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -86558,7 +86628,7 @@
    },
    "uid": "dvcstore:VDL070-02-0702",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T14:43:22+00:00",
    "history": [
     {
@@ -86622,7 +86692,7 @@
    },
    "uid": "dvcstore:WLB080-04-1003",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -86693,7 +86763,7 @@
    },
    "uid": "dvcstore:WLB100-06-1008-2",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -86758,7 +86828,7 @@
    },
    "uid": "dvcstore:WLB150-06-0928",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -86822,7 +86892,7 @@
    },
    "uid": "dvcstore:WLB170-03-0906",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -86886,7 +86956,7 @@
    },
    "uid": "dvcstore:WLCC175-03-0724",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -86946,7 +87016,7 @@
    },
    "uid": "dvcstore:WLCC175-06-1212",
    "active": true,
-   "stale": false,
+   "stale": true,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -87014,7 +87084,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-19T16:03:59+00:00"
+   "detail_at": "2026-10-19T17:05:37+00:00"
   },
   {
    "source": "magicresales",
@@ -87072,7 +87142,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-19T16:03:59+00:00"
+   "detail_at": "2026-10-19T17:05:37+00:00"
   },
   {
    "source": "magicresales",
@@ -87130,7 +87200,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-19T16:03:59+00:00"
+   "detail_at": "2026-10-19T17:05:37+00:00"
   },
   {
    "source": "vacationclublife",
