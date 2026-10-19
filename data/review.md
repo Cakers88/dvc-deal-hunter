@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-19 13:38 UTC (latest data: **13:36 UTC scrape**, dispatched by this review; scheduled runs remain sparse, previous scrapes 11:37 and 10:16). Scraper health: **all 10 sources ok**; no fix needed. Broker alert emails in the last 2 h: none. 11:37 scrape: no events. 13:36 scrape: 1 new + 4 status changes, none in any top list. Sept rankings unchanged (savings moved by ≤ $20 from date drift), so all tables below stand.
+**Run:** 2026-10-19 14:40 UTC (latest data: **14:36 UTC scheduled scrape**; this review also dispatched one). Scraper health: **all 10 sources ok**; no fix needed. Broker alert emails in the last 2 h: none. 14:36 scrape: 0 new, 0 price changes, 2 status changes, 1 gone, none in any top list. Sept rankings unchanged (savings moved by ≤ $20 from date drift), so all tables below stand.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,11 @@ Next: HH HHI26452 ($72, no borrowing, 2042 deed): **tied** with SS1262 (saves $1
 
 ## Market notes
 
+- 14:36 scrape: 0 new, 0 price changes, 2 status changes, 1 gone. No page checks needed.
+  - Aulani [AUC3553](https://www.dvcresalemarket.com/listings/aulani/auc3553/) (DVC Resale Market, 115 pts, Feb UY, 0 in 2026 / 230 in Feb-2027) Offer Accepted → **Sale Pending**. It was already under offer, so it wasn't ranked; another loaded-2027 Aulani contract clearing.
+  - BLT BLC3817 (30 pts) → Sale Pending. Irrelevant.
+  - Gone: GFV [616133](https://dvcmarket.com/dvc-resale/grand-floridian/400-points/616133) (DVC Market, 400 pts, $165, $66k), twin of 616174 that left at 02:36. Not ranked.
+  - Market model n=875: −$4.78/pt per missing current year, −$8.74 missing next year, ~$4.84 accepted below ask. Flat. Quiet.
 - 13:36 scrape (dispatched by this review): 1 new, 0 price changes, 4 status changes, 0 gone. Nothing scores ≥ 70 or reaches a top 25, so no page checks needed.
   - New: BWV [616234](https://dvcmarket.com/dvc-resale/boardwalk/25-points/616234) (DVC Market, 25 pts, $136), a mirror of DVC by Resale's B2512NA2, which went Offer Received → **Sale Pending** in the same scrape. Under the 100-pt minimum. Irrelevant.
   - Back on market: SSR [SS68657](https://www.dvcresalemarket.com/listings/saratoga-springs/ss68657/) (DVC Resale Market, 160 pts, Dec UY, $106) Offer Accepted → **New** (deal fell through). Only 107 pts in Dec-2026 and 53 in Dec-2027, so it can't cover a 1BR or 2BR in Sept (score 0, #570). Skip.
