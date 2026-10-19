@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-19 01:40 UTC (latest data: **01:36 UTC scrape**; no scheduled run between 23:53 and 01:36, so this review also dispatched `hunt`). Scraper health: **all 10 sources ok**; no fix needed. Broker alert emails in the last 2 h: none. 10 new listings + 1 price cut, none reaching a Sept top list; OKW OKW95100 ($89/pt, 2042 deed) stays #1 for 1BR+2BR. Table savings are from the 23:38 run and drift by a few dollars a day as interest accrues (OKW95100 now $4,752, SS1286 $4,125).
+**Run:** 2026-10-19 04:37 UTC (latest data: **04:32 UTC scrape**; scheduled scrapes ran at 02:36 and 04:32). Scraper health: **all 10 sources ok**; no fix needed. Broker alert emails in the last 2–3 h: none. Since 01:40: 0 new, 0 price changes, 2 status changes, 1 gone; nothing touches a Sept top list, so all tables below stand (savings drift a few dollars a day as interest accrues).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -47,6 +47,11 @@ Next: HH HHI26452 ($72, no borrowing, 2042 deed): **tied** with SS1262 (saves $1
 
 ## Market notes
 
+- 04:32 scrape: 0 new, 0 price changes, 2 status changes, 0 gone.
+  - Aulani [AU23537](https://www.dvcresalemarket.com/listings/aulani/au23537/) (DVC Resale Market, 170 pts, Feb UY, $93) → **Offer Accepted**. It had **0 pts until Feb-2028** (seller pays 2027 dues), so it could never cover 2027 and wasn't ranked; still, a $93 stripped Aulani going under offer in ~5 weeks is a data point for the stripped-contract exit.
+  - PVB PLA4684 (25 pts) Offer Accepted → Sale Pending. Irrelevant.
+  - Market model n=876: −$4.86/pt per missing current year, −$8.71 missing next year, ~$4.90 accepted below ask. Flat.
+- 02:36 scrape: 0 new, 0 changes, 1 gone: GFV [616174](https://dvcmarket.com/dvc-resale/grand-floridian/400-points/616174) (DVC Market, 400 pts, Oct UY, $165, $66k), not in any top list. Quiet.
 - 01:36 scrape: 10 new, 1 price change, 1 status change, 0 gone. Nothing scores ≥ 70 or reaches a top 25 (best is #151), so no page checks needed; all Sept top lists unchanged.
   - Price cut: SSR [SSF8639](https://www.dvcresalemarket.com/listings/saratoga-springs/ssf8639/) (DVC Resale Market, 200 pts, Aug UY) $106 → **$100** ($20,000), "Reduced Again". Only 26 pts left in Aug-2026 and 174 in Aug-2027, so it can't cover a 1BR+2BR and only breaks even for a 2BR (#48). Score 67.0. Watch for further cuts.
   - New (DVC Resale Market): SSR SSB8688 (200, Apr UY, $108, 0 in 2026), SSR SSF8684 (160, Dec UY, $120), BWV BWB3456 (200, Apr UY, $137, 2042 deed), VB VBB2646 (200, Oct UY, $48, 0 in 2026, 2042 deed), plus SSR SSB8689 (110) and four CCV 100-pt contracts at $148 (CCB3033–3036), all score 0. New at DVC Shop: GFV GF216LBF1 (125, Aug UY, $162, 0 in 2026). None worth a look for Sept.
