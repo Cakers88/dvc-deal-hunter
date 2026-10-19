@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-19 20:36 UTC (latest data: **20:37 UTC scrape**, dispatched by this review; the schedule still hasn't fired on its own since 17:02). Scraper health: **10/10 ok**. Broker alert emails in the last 2 h: none. 20:37 scrape: 2 new, 1 price change, 1 status change, 3 gone. **No change to any Sept top list** (net costs moved by a few dollars from interest accrual). Nothing new scores ≥ 70 or reaches the top 25. All current picks are still listed.
+**Run:** 2026-10-19 22:36 UTC (latest data: **22:37 UTC scrape**, dispatched by this review; one scheduled run landed at 21:30, otherwise the cron is still sparse). Scraper health: **10/10 ok**. Broker alert emails in the last 2 h: none. Scrapes since last review: 21:30 (1 new, 1 status change) and 22:37 (1 new, 2 price changes, 2 status changes). **No change to any Sept top list** (net costs moved by a few dollars from interest accrual). One relisted contract scores ≥ 70 (SSR SS1304, #63, verified below); nothing new reaches the top 25. All current picks are still listed.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,13 @@ Dropped: SSR **SSR09680** (its DVC Market mirror 616232 is now gone as well). Ne
 
 ## Market notes
 
+- 22:37 scrape (dispatched by this review): 1 new, 2 price changes, 2 status changes, 0 gone. Gmail: none.
+  - Relisted: SSR [SS1304](https://dvcsales.com/dvc-resale/saratoga-springs/225-points/1863) (DVC Sales) went from 160 pts at $97 to **225 pts at $101** ($22,725) under the same ID. That reads as a different/resized contract, not a price hike. ✔ Broker page checked: 232 available in Feb-2027 UY (7 banked, must use by Jan 31 2028), 225 in 2028, 0 in 2026, **buyer prepays 2027 dues** ($2,068 at $9.19), est. closing Dec 6 2026, 2054 deed, US seller. Scraped data matches. Score 72.7, #63. Fine for a 1BR Sept stay but $101/pt with no 2026 points trails SS1286/SSR13191. Not a pick.
+  - Price cut: BLT [BLT180-06-1015](https://www.dvcstore.com/resort/bay-lake-tower/blt180-06-1015/) (DVC Store) $135 → $132. Only 67 pts in Jun-2027, #318. Irrelevant.
+  - New: GFV [GF110-10-1019](https://www.dvcstore.com/resort/grand-floridian/gf110-10-1019/) (DVC Store, 110 pts, Oct UY, $185, full points). #447. Too expensive.
+  - Going pending: SSR SS88680 and SSG8471 (DVC Resale Market) → Sale Pending. Neither was on a list.
+- 21:30 scrape (schedule): 1 new (Riviera RR82358, $120, 1 pt in 2027; Riviera can't book Aulani), BWV BW23454 Offer Accepted → Sale Pending. Nothing relevant.
+  - Market model n=877: −$4.71/pt per missing current year, −$8.89 missing next year, ~$4.81 accepted below ask. Flat.
 - 20:37 scrape (dispatched by this review): 2 new, 1 price change, 1 status change, 3 gone. Gmail: none. Nothing touches a top list or scores ≥ 70.
   - Price cut: OKW [OKW150-09-1002](https://www.dvcstore.com/resort/old-key-west/okw150-09-1002/) (DVC Store, 150 pts, Sep UY) $90 → **$79** ($11,850). **0 points until Sep 2028** and a **2042 deed**, so it can't cover 2027 at all (score 0). Skip.
   - New: two Riviera contracts via Vacatia on DVC Market ([616320](https://dvcmarket.com/dvc-resale/riviera/130-points/616320), [616321](https://dvcmarket.com/dvc-resale/riviera/305-points/616321), $127). Riviera resale points can't book Aulani; not scored for this hunt.
@@ -204,6 +211,7 @@ Dropped: SSR **SSR09680** (its DVC Market mirror 616232 is now gone as well). Ne
 
 ## Scraper health
 
+- 21:30 and 22:37: all 10 sources OK (22:37 counts: DVC Market 751, DVC Resale Market 414, DVC Shop 238, DVC Store 147, DVC Resale Experts 105, DVC Sales 70, Vacation Club Life 45, DVC by Resale 24, Buy and Sell DVC 21, Magic Resales 4). 21:30 was a scheduled run; 22:37 was dispatched by this review.
 - 20:37: all 10 sources OK (DVC Market 750, DVC Resale Market 413, DVC Shop 238, DVC Store 146, DVC Resale Experts 105, DVC Sales 69, Vacation Club Life 45, DVC by Resale 24, Buy and Sell DVC 21, Magic Resales 4). Scheduled cron still not firing (last scheduled run 17:02); this review dispatched 20:37.
 - 18:37 and 19:36: all 10 sources OK (18:37 counts: DVC Market 748, DVC Resale Market 412, DVC Shop 238, DVC Store 146, DVC Resale Experts 103, DVC Sales 69, Vacation Club Life 47, DVC by Resale 24, Buy and Sell DVC 21, Magic Resales 4). Scheduled cron still not firing reliably (last scheduled run 17:02); this review dispatched 19:36.
 - 17:05: 9/10 OK. **DVC Store: ok:false** (`RuntimeError: GET failed after retries` on the wp-json resale-listing API). It was fine at 16:03, and the endpoint returns 200 at 17:36, so this is a single transient failure; no fix. If it fails again next run, I'll investigate.
