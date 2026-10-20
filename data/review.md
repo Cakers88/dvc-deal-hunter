@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-19 23:36 UTC (latest data: **23:37 UTC scrape**, dispatched by this review; no scheduled run since 21:30). Scraper health: **10/10 ok**. Broker alert emails in the last 2 h: none. Scrape since last review: 23:37 (1 new, 0 price changes, 0 status changes, 0 gone; the Action sent 1 ntfy alert for it). **No change to any Sept top list** (net costs moved by a few dollars from interest accrual). The one new contract (SSR SS28699, #22) was verified below; it can't cover a 1BR+2BR 6-night Sept stay and loses money vs renting for a 1BR or 2BR alone. All current picks are still listed.
+**Run:** 2026-10-20 00:36 UTC (latest data: **00:36 UTC scrape**, dispatched by this review). Scraper health: **10/10 ok**. Broker alert emails in the last 2 h: none. Scrape since last review: 00:36 (1 new, 0 price changes, 3 status changes, 0 gone). **No change to any Sept top list** (net costs moved by a few dollars from interest accrual). The new contract (HH HHB1831) doesn't fit 1BR+2BR or 2BR for 6 nights in Sept and loses money vs renting for a 1BR; none of the three contracts going pending was on a list. All current picks are still listed.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,10 @@ Dropped: SSR **SSR09680** (its DVC Market mirror 616232 is now gone as well). Ne
 
 ## Market notes
 
+- 00:36 scrape (dispatched by this review): 1 new, 0 price changes, 3 status changes, 0 gone. Gmail: none.
+  - New: HH [HHB1831](https://www.dvcresalemarket.com/listings/hilton-head/hhb1831/) (DVC Resale Market, 100 pts, Oct UY, **$86**, $8,600). Detail page data (scraped): 123 in Oct-2026 (23 banked from 2025), 100/yr after, **seller pays 2026 dues**, buyer pays 2027 (~$1,287 at $12.86, due at closing if after Nov 20), **2042 deed**. Score 58.8, #289, so outside the page-check threshold. Max for Sept 2027 is ~223 pts, so 2BR (282) and 1BR+2BR don't fit; 1BR 6 nights is #46 and costs ~$1.0k more than renting. High dues + short deed. Skip.
+  - Going pending: SSR SSC8489 (50 pts, $127) and BCV BC32550 (150 pts, $139) → Offer Accepted; GFV GFB3325 Offer Accepted → Sale Pending. None were on a list.
+  - Market model n=879 (was 878): −$4.72/pt per missing current year, −$8.92 missing next year, ~$4.76 accepted below ask. Flat.
 - 23:37 scrape (dispatched by this review): 1 new, 0 price changes, 0 status changes, 0 gone. Gmail: none.
   - New: SSR [SS28699](https://www.dvcresalemarket.com/listings/saratoga-springs/ss28699/) (DVC Resale Market, 160 pts, Jun UY, **$114**, $18,240, "Full points for 2026 with no dues"). ✔ Broker page checked: 160 in Jun-2026 (current, not banked), 160/160 after, **seller pays 2026 dues**, buyer pays 2027 dues (~$1,471, due at closing if after Nov 20), closing $889, 2054 deed, available. Scraped data matches. Score 78.4, #22, ROFR low (above Disney's recent buybacks). Max for Sept 2027 is 480 pts (bank 2026 + borrow 2028), so **1BR+2BR 6 nights doesn't fit (needs 486)**; 5 nights saves ~$1.9k, 3BR 5 nights ~$3.0k. For 2BR 6 nights it's slightly worse than renting (−$0.4k). The 2026 points must be banked by **Jan 31, 2027**, so closing has to land in time. Not a pick: SS1297/SS1275 do the 1BR+2BR job for ~$11/pt less.
   - Market model n=878: −$4.73/pt per missing current year, −$8.90 missing next year, ~$4.82 accepted below ask. Flat.
