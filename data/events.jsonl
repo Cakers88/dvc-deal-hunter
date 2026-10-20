@@ -2033,3 +2033,7 @@
 {"t": "2026-10-20T15:21:59+00:00", "uid": "dvcstore:SS246-12-1020", "event": "new"}
 {"t": "2026-10-20T15:21:59+00:00", "uid": "dvcstore:BW300-06-1020", "event": "new"}
 {"t": "2026-10-20T15:21:59+00:00", "uid": "dvcstore:BC157-06-1020", "event": "new"}
+{"t": "2026-10-20T16:37:02+00:00", "uid": "dvcresalemarket:OKG4956", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["Reduced", "Offer Accepted"]}}
+{"t": "2026-10-20T16:37:02+00:00", "uid": "dvcstore:SS150-12-0924", "event": "status_change", "changes": {"availability": ["pending", "sold"], "status_raw": ["sale pending", "sold"]}}
+{"t": "2026-10-20T16:37:02+00:00", "uid": "dvcstore:BC115-10-1016", "event": "status_change", "changes": {"availability": ["pending", "sold"], "status_raw": ["sale pending", "sold"]}}
+{"t": "2026-10-20T16:37:02+00:00", "uid": "dvcsales:GF349", "event": "new"}
