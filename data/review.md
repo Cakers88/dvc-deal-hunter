@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-20 18:39 UTC (latest data: **18:37 UTC scrape dispatched by this review**; the scheduled cron still hasn't run since 15:22). Scraper health: **10/10 ok** at 17:36 and 18:37 (no source at 0). Broker alert emails in the last 2 h: none. Since last review: **3 ranked Fidelity-via-DVC-Market contracts sold** (1BR #1 SSR 616328, 1BR #2 Aulani 616035, 2BR #1 AKV 616164; ✔ each DVC Market page now shows schema.org *SoldOut*), 1 new (SSR 50 pts, not ranked), 2 status changes (GCV, irrelevant). **1BR and 2BR lists reshuffled**; 1BR+2BR list unchanged (figures moved ≤ $20).
+**Run:** 2026-10-20 19:37 UTC (latest data: **19:29 UTC scrape**). Scraper health: **10/10 ok** at 18:37 and 19:29 (no source at 0). Broker alert emails in the last 2 h: none. Since last review: 3 new (all stripped, none ranked), 1 status change (OKG4956 → Sale Pending). **All three lists unchanged** (figures moved ≤ $5).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,10 @@ Dropped: AKV 616164 (**sold**, DVC Market SoldOut).
 
 ## Market notes
 
+- 19:29 scrape: 3 new, 0 price changes, 1 status change, 0 gone. Gmail: none.
+  - New (all DVC Resale Market, listed today, none top-25 or score ≥ 70, so not page-checked; detail pages captured by the scrape): SSR [SSE8687](https://www.dvcresalemarket.com/listings/saratoga-springs/sse8687/) 150 pts Dec UY $104, **0 pts until Dec-2027** (score 0, #581); OKW [OK24941](https://www.dvcresalemarket.com/listings/old-key-west/ok24941/) 200 pts Mar UY $113, 0 in Mar-2026, 200 in Mar-2027, extended to 2057 (score 54, #354); BLT [BLE3830](https://www.dvcresalemarket.com/listings/bay-lake-tower/ble3830/) 100 pts Aug UY $146, 0 until Aug-2027 (score 52.2, #390). All fully stripped; none covers a Sept-2027 1BR+2BR without heavy borrowing. Skip.
+  - Status: OKW OKG4956 Offer Accepted → Sale Pending. Never ranked.
+  - Market model n=861: −$4.68/pt per missing current year, −$8.84 missing next year, ~$4.94 accepted below ask. Flat.
 - 18:37 scrape (dispatched by this review): 1 new, 0 price changes, 2 status changes, 3 gone. Gmail: none.
   - Gone/sold: Fidelity-listed SSR 616328 ($96), Aulani 616035 ($90), AKV 616164 ($115) — all three DVC Market pages verified SoldOut. Three cheap, low-dues-risk Fidelity contracts cleared within hours of each other; the small-contract (100-pt) segment is moving fast.
   - New: SSR [616340](https://dvcmarket.com/dvc-resale/saratoga-springs/50-points/616340) (Fidelity via DVC Market, 50 pts Feb UY, $104, $5,200; 100 in Feb-2026 incl. 50 banked, buyer reimburses 2026 dues; score 48). Too small for any plan. Skip.
