@@ -2009,3 +2009,5 @@
 {"t": "2026-10-20T01:36:58+00:00", "uid": "dvcresalemarket:VBC2636", "event": "gone", "last": {"price": 5000.0, "price_per_point": 50.0, "availability": "pending"}}
 {"t": "2026-10-20T02:37:05+00:00", "uid": "dvcmarket:616174", "event": "gone", "last": {"price": 66000.0, "price_per_point": 165.0, "availability": "available"}}
 {"t": "2026-10-20T03:37:01+00:00", "uid": "dvcshop:AUL900BM", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["New", "Sale Pending"]}}
+{"t": "2026-10-20T04:36:38+00:00", "uid": "dvcresalemarket:OKA5090", "event": "new"}
+{"t": "2026-10-20T04:36:38+00:00", "uid": "dvcresalemarket:CCA3038", "event": "new"}
