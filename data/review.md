@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-20 21:41 UTC (latest data: **21:38 UTC scrape**, dispatched by this review; still no scheduled run since 19:29). Scraper health: **10/10 ok** at 20:36 and 21:38. Broker alert emails in the last 2 h: none. Since last review: 3 new, 1 price cut, 2 status changes, 3 gone. **All three Sept lists unchanged** (figures moved ≤ $15). Broker pages still couldn't be opened (WebFetch permission not granted in unattended runs), so checks use the detail pages captured by the scrape.
+**Run:** 2026-10-20 22:38 UTC (latest data: **22:36 UTC scrape**, dispatched by this review; still no scheduled run since 19:29). Scraper health: **10/10 sources returning listings** at 21:38 and 22:36. Broker alert emails in the last 2 h: none. Since last review: 1 new, 0 price changes, 1 status change, 0 gone. **All three Sept lists unchanged** (figures moved ≤ $15). Broker pages still couldn't be opened (WebFetch permission not granted in unattended runs), so checks use the detail pages captured by the scrape.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,10 @@ Dropped: AKV 616164 (**sold**, DVC Market SoldOut).
 
 ## Market notes
 
+- 22:36 scrape (dispatched by this review): 1 new, 0 price changes, 1 status change, 0 gone. Gmail: none.
+  - New: SSR [02724](https://vacationclublife.com/listings/4301740000155683004) (Vacation Club Life, 160 pts Aug UY, **$110**, $17,600, 2054 deed). Captured detail: 101 available now (Aug-2026) + 160 in Aug-2027. Score 76.1 (#32). For Sept 2027 6n it **loses vs renting** for a 1BR (−$2.2k) and 2BR (−$0.6k, borrows 21); can't cover 1BR+2BR. Priced ~$7–10/pt above comparable SSR. Skip.
+  - Status: DVC Store BW160-08-1002-JC (BWV 160) sale pending → sold. Never ranked.
+  - Market model n=866: −$4.80/pt per missing current year, −$8.83 missing next year, ~$4.82 accepted below ask. Flat.
 - 21:38 scrape (dispatched by this review): 3 new, 1 price change, 2 status changes, 3 gone. Gmail: none.
   - New: SSR [SSC8701](https://www.dvcresalemarket.com/listings/saratoga-springs/ssc8701/) (DVC Resale Market, 160 pts Dec UY, $103, $16,480, 2054 deed, dues $9.19). Captured detail: 211 in Dec-2026 (51 banked), 160 in Dec-2027. Score 71.6 (#72): best fit is a 2BR Sept 6n but it's not top-3 in any Sept list (ROFR medium, $103 above Disney's recent ~$98 buybacks). Not page-checked (WebFetch blocked). Also new: PVB PLE4656 (100 pts, $175, 0 pts until Oct-2027, score 0) and DVC Market mirror 616280 (not scored).
   - Price cut: GFV GF83355 $172 → $167 (200 pts Jun UY, only 112 in Jun-2027; #423). Irrelevant at that price.
