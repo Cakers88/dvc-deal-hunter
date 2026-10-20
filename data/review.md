@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-20 14:38 UTC (latest data: **14:37 UTC scrape**, dispatched by this review; no scheduled run since 10:24). Scraper health: **10/10 ok** at 13:37 (no source at 0). Broker alert emails in the last 2 h: none. Since last review: 14:37 scrape (2 new AKV, 3 gone, none ranked). **All lists unchanged.**
+**Run:** 2026-10-20 15:36 UTC (latest data: **15:22 UTC scheduled scrape**). Scraper health: **10/10 ok** at 15:22 (no source at 0). Broker alert emails in the last 2 h: none. Since last review: 15:22 scrape (3 new DVC Store contracts, none ranked). **All lists unchanged.**
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -48,6 +48,9 @@ Dropped: SSR **SSR09680** (its DVC Market mirror 616232 is now gone as well). Ne
 
 ## Market notes
 
+- 15:22 scrape (schedule): 3 new, 0 price changes, 0 status changes, 0 gone. Gmail: none.
+  - New (all DVC Store, listed today, none top-25 or score ≥ 70, so not page-checked): BCV [BC157-06-1020](https://www.dvcstore.com/resort/beach-club/bc157-06-1020/) 157 pts Jun UY $143 (score 67.2, #150; 2BR loses $966 vs renting); BWV [BW300-06-1020](https://www.dvcstore.com/resort/boardwalk/bw300-06-1020/) 300 pts Jun UY $122, 241 in Jun-2027 (score 63.8, #227; 1BR+2BR saves only ~$600); SSR [SS246-12-1020](https://www.dvcstore.com/resort/saratoga-springs/ss246-12-1020/) 246 pts Dec UY $100, 0 points until Dec-2027 (score 52, #409). Skip all three.
+  - Market model n=861: −$4.72/pt per missing current year, −$8.70 missing next year, ~$5.01 accepted below ask. Flat.
 - 14:37 scrape (dispatched by this review): 2 new, 0 price changes, 0 status changes, 3 gone. Gmail: none.
   - New: AKV [AKG6506](https://www.dvcresalemarket.com/listings/animal-kingdom-lodge/akg6506/) (DVC Resale Market, 270 pts, Apr UY, $118, $31,860). Score 71.4, #79, so ✔ checked the page: listed today; **0 in Apr-2026, 306 in Apr-2027 (36 banked)**, 270 after; seller pays 2026 dues, buyer pays 2027 (~$2,744, at closing if after Nov 20); dues $10.16; closing $1,099; 2057 deed. Scrape matches. 1BR+2BR Sept 6n borrows 180 and loses ~$0.2k vs renting; 3BR saves ~$1.2k. Skip. Also new: AKV AKG6530 (100 pts, $123, 0 in 2026; #384). Skip.
   - Gone: Aulani AUE3554 ($103, already pending), GFV GF93352 (pending), Fidelity GFV 616133 ($165, mirror re-dropped). None were ranked; another loaded Aulani clearing.
@@ -254,6 +257,7 @@ Dropped: SSR **SSR09680** (its DVC Market mirror 616232 is now gone as well). Ne
 
 ## Scraper health
 
+- 15:22 (scheduled run, cron fired on its own): all 10 sources OK (DVC Market 746, DVC Resale Market 398, DVC Shop 238, DVC Store 150, DVC Resale Experts 105, DVC Sales 69, Vacation Club Life 45, DVC by Resale 24, Buy and Sell DVC 21, Magic Resales 4).
 - 21:30 and 22:37: all 10 sources OK (22:37 counts: DVC Market 751, DVC Resale Market 414, DVC Shop 238, DVC Store 147, DVC Resale Experts 105, DVC Sales 70, Vacation Club Life 45, DVC by Resale 24, Buy and Sell DVC 21, Magic Resales 4). 21:30 was a scheduled run; 22:37 was dispatched by this review.
 - 20:37: all 10 sources OK (DVC Market 750, DVC Resale Market 413, DVC Shop 238, DVC Store 146, DVC Resale Experts 105, DVC Sales 69, Vacation Club Life 45, DVC by Resale 24, Buy and Sell DVC 21, Magic Resales 4). Scheduled cron still not firing (last scheduled run 17:02); this review dispatched 20:37.
 - 18:37 and 19:36: all 10 sources OK (18:37 counts: DVC Market 748, DVC Resale Market 412, DVC Shop 238, DVC Store 146, DVC Resale Experts 103, DVC Sales 69, Vacation Club Life 47, DVC by Resale 24, Buy and Sell DVC 21, Magic Resales 4). Scheduled cron still not firing reliably (last scheduled run 17:02); this review dispatched 19:36.
