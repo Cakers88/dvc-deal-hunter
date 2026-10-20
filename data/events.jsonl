@@ -2011,3 +2011,12 @@
 {"t": "2026-10-20T03:37:01+00:00", "uid": "dvcshop:AUL900BM", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["New", "Sale Pending"]}}
 {"t": "2026-10-20T04:36:38+00:00", "uid": "dvcresalemarket:OKA5090", "event": "new"}
 {"t": "2026-10-20T04:36:38+00:00", "uid": "dvcresalemarket:CCA3038", "event": "new"}
+{"t": "2026-10-20T06:37:11+00:00", "uid": "dvcmarket:616328", "event": "new"}
+{"t": "2026-10-20T06:37:11+00:00", "uid": "dvcmarket:616329", "event": "new"}
+{"t": "2026-10-20T06:37:11+00:00", "uid": "dvcmarket:616330", "event": "new"}
+{"t": "2026-10-20T06:37:11+00:00", "uid": "dvcmarket:615519", "event": "gone", "last": {"price": 23200.0, "price_per_point": 145.0, "availability": "available"}}
+{"t": "2026-10-20T06:37:11+00:00", "uid": "dvcmarket:615760", "event": "gone", "last": {"price": 26250.0, "price_per_point": 175.0, "availability": "available"}}
+{"t": "2026-10-20T06:37:11+00:00", "uid": "dvcmarket:616123", "event": "gone", "last": {"price": 13600.0, "price_per_point": 136.0, "availability": "available"}}
+{"t": "2026-10-20T06:37:11+00:00", "uid": "dvcmarket:616201", "event": "gone", "last": {"price": 28140.0, "price_per_point": 134.0, "availability": "available"}}
+{"t": "2026-10-20T06:37:11+00:00", "uid": "dvcmarket:616230", "event": "gone", "last": {"price": 5800.0, "price_per_point": 145.0, "availability": "available"}}
+{"t": "2026-10-20T06:37:11+00:00", "uid": "dvcmarket:616276", "event": "gone", "last": {"price": 17850.0, "price_per_point": 119.0, "availability": "available"}}
