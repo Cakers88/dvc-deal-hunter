@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-20 16:36 UTC (latest data: **16:37 UTC scrape dispatched by this review**; the scheduled cron had not run since 15:22). Scraper health: **10/10 ok** at 16:37 (no source at 0). Broker alert emails in the last 2 h: none. Since last review: 1 new (GFV, unranked), 3 status changes (none ranked). **All lists unchanged.**
+**Run:** 2026-10-20 17:36 UTC (latest data: **17:36 UTC scrape dispatched by this review**; the scheduled cron still hasn't run since 15:22). Scraper health: **10/10 ok** at 17:36 (no source at 0). Broker alert emails in the last 2 h: none. Since last review: 2 new (AKV, BWV; neither makes a list), 1 price cut (VDH, irrelevant), 3 status changes + 1 gone (none ranked). **All lists unchanged**; model figures moved by ≤ $15 vs the tables below.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -48,6 +48,12 @@ Dropped: SSR **SSR09680** (its DVC Market mirror 616232 is now gone as well). Ne
 
 ## Market notes
 
+- 17:36 scrape (dispatched by this review): 2 new, 1 price change, 3 status changes, 1 gone. Gmail: none.
+  - New: AKV [AKC6525](https://www.dvcresalemarket.com/listings/animal-kingdom-lodge/akc6525/) (DVC Resale Market, 160 pts **Dec UY**, $123, $19,680; score 78.3, #23). Checked via the broker detail page captured by this scrape (WebFetch to the site was not permitted this run): **320 in Dec-2026 (160 banked from Dec-2025)**, 160 in Dec-2027; seller pays 2026 dues, buyer pays 2027 (~$1,626, at closing if after Nov 20); closing $899; dues $10.16; 2057 deed. Scrape matches. Sept 2027 falls in the Dec-2026 UY, so 320 pts cover a 2BR 6n with no borrowing, but it **loses ~$0.5k vs renting**; 1BR+2BR 6n doesn't fit (max 480 even borrowing). Its best case is **1BR+2BR for 5 nights (saves ~$4.5k, ROFR low)**, outside this review's 6-night lists. Worth a look if 5 nights is acceptable.
+  - New: BWV [BWC3457](https://www.dvcresalemarket.com/listings/boardwalk/bwc3457/) (DVC Resale Market, 100 pts Dec UY, $143, $14,300; score 73, #60). Detail page (same capture): 200 in Dec-2026 (100 banked), 100 after; seller pays 2026, buyer pays 2027 (~$968); **2042 deed**. 2BR Sept 6n saves only ~$0.2k with 82 borrowed. Skip.
+  - Price cut: Villas at Disneyland Hotel [VDH05949](https://www.dvcresaleexperts.com/dvc-listing/vdh05949-december-500) $169 → $159 ($79,500). Not a legacy resort; irrelevant.
+  - Going pending: DVC Store VB230-03-1001, DVC Resale Market SSA8666 (and DHC1137 Offer Accepted → Sale Pending). Gone: Buy & Sell DVC CCV268 (already pending). None ranked.
+  - Market model n=861: −$4.68/pt per missing current year, −$8.75 missing next year, ~$4.87 accepted below ask. Flat.
 - 16:37 scrape (dispatched by this review): 1 new, 0 price changes, 3 status changes, 0 gone. Gmail: none.
   - New: Grand Floridian [GF349](https://dvcsales.com/dvc-resale/grand-floridian/300-points/1867) (DVC Sales, 300 pts Mar UY, $159, $47,700). Only **28 points in Mar-2027**, seller pays current dues, 2064 deed. Score 48, #433. Not useful for Sept 2027 at that price. Skip.
   - Going pending: OKW [OKG4956](https://www.dvcresalemarket.com/listings/old-key-west/okg4956/) (DVC Resale Market, 100 pts Jun UY, $90) → Offer Accepted. Never on a list (only 35 pts in Jun-2026).
