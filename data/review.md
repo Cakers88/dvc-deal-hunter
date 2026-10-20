@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-20 17:36 UTC (latest data: **17:36 UTC scrape dispatched by this review**; the scheduled cron still hasn't run since 15:22). Scraper health: **10/10 ok** at 17:36 (no source at 0). Broker alert emails in the last 2 h: none. Since last review: 2 new (AKV, BWV; neither makes a list), 1 price cut (VDH, irrelevant), 3 status changes + 1 gone (none ranked). **All lists unchanged**; model figures moved by ≤ $15 vs the tables below.
+**Run:** 2026-10-20 18:39 UTC (latest data: **18:37 UTC scrape dispatched by this review**; the scheduled cron still hasn't run since 15:22). Scraper health: **10/10 ok** at 17:36 and 18:37 (no source at 0). Broker alert emails in the last 2 h: none. Since last review: **3 ranked Fidelity-via-DVC-Market contracts sold** (1BR #1 SSR 616328, 1BR #2 Aulani 616035, 2BR #1 AKV 616164; ✔ each DVC Market page now shows schema.org *SoldOut*), 1 new (SSR 50 pts, not ranked), 2 status changes (GCV, irrelevant). **1BR and 2BR lists reshuffled**; 1BR+2BR list unchanged (figures moved ≤ $20).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -22,23 +22,21 @@ Dropped: OKW **OKW95100** ($89, 210 pts) — gone from DVC Resale Experts since 
 
 | # | Contract | Pts | $/pt | Price | Net cost (saves) | Cash / months | Book on | ROFR | Judgment |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 | [SSR 616328 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/saratoga-springs/100-points/616328) Feb UY | 100 | $96 | $9,600 | $4,121 ($979) | $12.0k / 15 | 2027-02-12 | **high** | ✔ **New 06:37.** DVC Market page: 0 in Feb-2026, **165 in Feb-2027** (65 already banked in), 100 after; closing ~$695, dues $9.19. Borrows 39, 2054 deed, books at 11 months. **ROFR high** ($96 is below Disney's latest $98 buyback) and **2026/2027 dues terms not stated** (Fidelity page not checked; that source is disabled). Edges 616035 by ~$50, so it's a coin flip; 616035 has lower ROFR risk. |
-| 2 | [Aulani 616035 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/aulani/100-points/616035) Mar UY | 100 | $90 | $9,000 | $4,169 ($931) | $11.3k / 15 | 2027-01-27 | medium | ✔ 170 in Mar-2027 (70 banked), borrows 34, home-resort window. Small saving. |
-| 3 | [Aulani 613999 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/aulani/100-points/613999) Dec UY | 100 | $95 | $9,500 | $4,365 ($735) | $11.8k / 15 | 2027-01-27 | medium | ✔ 156 in Dec-2026 (56 banked), buyer reimburses 2026 dues, borrows 48. |
+| 1 | [Aulani 613999 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/aulani/100-points/613999) Dec UY | 100 | $95 | $9,500 | $4,367 ($733) | $11.8k / 15 | 2027-01-28 | medium | ✔ Still InStock 18:38. 156 in Dec-2026 (56 banked), buyer reimburses 2026 dues, borrows 48, home-resort window. Moves up as #1/#2 sold. |
+| 2 | [BRV WLB100-06-1008-2 (DVC Store)](https://www.dvcstore.com/resort/boulder-ridge/wlb100-06-1008-2/) Jun UY | 100 | $105 | $10,500 | $4,392 ($708) | $12.5k / 15 | 2027-04-03 | medium | ⚠ Back on the list. Books only ~5 months out (no Aulani home window; Aulani in Sept from a 7-month booking is riskier), borrows 85, **2042 deed**. |
+| 3 | [SSR SSC8593 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/saratoga-springs/ssc8593/) Dec UY | 250 | $92 | $23,000 | $4,639 ($461) | $24.7k / 15 | 2027-02-12 | **high** | ⚠ Oversized for a 1BR ($24.7k tied up), borrows 204, ROFR high. Barely beats renting. |
 
-Dropped: BRV WLB100-06-1008-2 (now #4; books only ~5 months out, 2042 deed).
-
-For a 1BR alone, buying still barely beats renting.
+Dropped: SSR 616328 and Aulani 616035 (both **sold**, DVC Market SoldOut). With them gone, **buying for a 1BR alone no longer meaningfully beats renting** (best saving ~$730).
 
 ## 2-bedroom, Sept, 6 nights (needs 282 pts; renting would cost $7,050)
 
 | # | Contract | Pts | $/pt | Price | Net cost (saves) | Cash / months | Book on | ROFR | Judgment |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 | [AKV 616164 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/animal-kingdom/100-points/616164) Jun UY | 100 | $115 | $11,500 | $5,231 ($1,819) | $14.1k / 15 | 2027-02-12 | low | ✔ Full points, buyer reimburses 2026 dues ($1,016), borrows 82. |
-| 2 | [VB V1508AR1 (DVC by Resale)](https://www.dvcbyresale.com/buy.php?listid=1858580847851351) Aug UY | 150 | $45 | $6,750 | $5,262 ($1,788) | $10.5k / 15 | 2027-02-12 | **high** | ✔ **Price cut 17:05 ($58 → $45).** 123 in Aug-2026 (bankable), 150 in Aug-2027, buyer pays 2026 dues on 123 pts ($1,831), closing $515, borrows 9. **Must bank 123 by Mar 31, 2027.** At $45, Disney ROFR is likely. Also a **2042 deed** with $14.89 dues, so a stripped VB resale will be thin. Cheapest cash in the table, but treat it as a long shot.
-| 3 | [SSR 616162 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/saratoga-springs/150-points/616162) Jun UY | 150 | $100 | $15,000 | $5,531 ($1,519) | $18.0k / 15 | 2027-02-12 | medium | ✔ 150/150, buyer reimburses 2026 dues, **no borrowing** (bank by Jan 31, 2027), 2054 deed. |
+| 1 | [VB V1508AR1 (DVC by Resale)](https://www.dvcbyresale.com/buy.php?listid=1858580847851351) Aug UY | 150 | $45 | $6,750 | $5,249 ($1,801) | $10.5k / 15 | 2027-02-12 | **high** | ✔ 123 in Aug-2026 (must bank by Mar 31, 2027), 150 in Aug-2027, buyer pays 2026 dues on 123 pts, borrows 9. At $45 Disney ROFR is likely; **2042 deed**, thin stripped resale. Long shot. |
+| 2 | [SSR 616162 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/saratoga-springs/150-points/616162) Jun UY | 150 | $100 | $15,000 | $5,520 ($1,530) | $18.0k / 15 | 2027-02-12 | medium | ✔ InStock 18:38. 150/150, buyer reimburses 2026 dues, **no borrowing** (bank by Jan 31, 2027), 2054 deed. Now the cleanest 2BR pick — its Fidelity siblings sold today, so this may not last. |
+| 3 | [HH HHI26452 (DVC Resale Experts)](https://www.dvcresaleexperts.com/dvc-listing/hhi26452-june-150) | 150 | $72 | $10,800 | $5,671 ($1,379) | $14.4k / 15 | 2027-02-12 | medium | ⚠ No borrowing, but **2042 deed** and Hilton Head resale is slow. [SSR SS1262](https://dvcsales.com/dvc-resale/saratoga-springs/170-points/1627) ($103, saves $1,371, 2054 deed, ✔) is the safer near-equal. |
 
-Dropped: SSR **SSR09680** (its DVC Market mirror 616232 is now gone as well). Next: [SSR SS1262](https://dvcsales.com/dvc-resale/saratoga-springs/170-points/1627) ($103, saves $1,366, no borrowing, no banking deadline, ✔), then HH HHI26452 ($72, **2042 deed**).
+Dropped: AKV 616164 (**sold**, DVC Market SoldOut).
 
 ## Rent-out flips (secondary, a one-off at most; DVC bans regular renting)
 
@@ -48,6 +46,11 @@ Dropped: SSR **SSR09680** (its DVC Market mirror 616232 is now gone as well). Ne
 
 ## Market notes
 
+- 18:37 scrape (dispatched by this review): 1 new, 0 price changes, 2 status changes, 3 gone. Gmail: none.
+  - Gone/sold: Fidelity-listed SSR 616328 ($96), Aulani 616035 ($90), AKV 616164 ($115) — all three DVC Market pages verified SoldOut. Three cheap, low-dues-risk Fidelity contracts cleared within hours of each other; the small-contract (100-pt) segment is moving fast.
+  - New: SSR [616340](https://dvcmarket.com/dvc-resale/saratoga-springs/50-points/616340) (Fidelity via DVC Market, 50 pts Feb UY, $104, $5,200; 100 in Feb-2026 incl. 50 banked, buyer reimburses 2026 dues; score 48). Too small for any plan. Skip.
+  - Status: GCV GC21825 and GCE1856 Offer Accepted → Sale Pending. Irrelevant.
+  - Market model n=859: −$4.65/pt per missing current year, −$8.82 missing next year, ~$4.91 accepted below ask. Flat.
 - 17:36 scrape (dispatched by this review): 2 new, 1 price change, 3 status changes, 1 gone. Gmail: none.
   - New: AKV [AKC6525](https://www.dvcresalemarket.com/listings/animal-kingdom-lodge/akc6525/) (DVC Resale Market, 160 pts **Dec UY**, $123, $19,680; score 78.3, #23). Checked via the broker detail page captured by this scrape (WebFetch to the site was not permitted this run): **320 in Dec-2026 (160 banked from Dec-2025)**, 160 in Dec-2027; seller pays 2026 dues, buyer pays 2027 (~$1,626, at closing if after Nov 20); closing $899; dues $10.16; 2057 deed. Scrape matches. Sept 2027 falls in the Dec-2026 UY, so 320 pts cover a 2BR 6n with no borrowing, but it **loses ~$0.5k vs renting**; 1BR+2BR 6n doesn't fit (max 480 even borrowing). Its best case is **1BR+2BR for 5 nights (saves ~$4.5k, ROFR low)**, outside this review's 6-night lists. Worth a look if 5 nights is acceptable.
   - New: BWV [BWC3457](https://www.dvcresalemarket.com/listings/boardwalk/bwc3457/) (DVC Resale Market, 100 pts Dec UY, $143, $14,300; score 73, #60). Detail page (same capture): 200 in Dec-2026 (100 banked), 100 after; seller pays 2026, buyer pays 2027 (~$968); **2042 deed**. 2BR Sept 6n saves only ~$0.2k with 82 borrowed. Skip.
@@ -268,6 +271,7 @@ Dropped: SSR **SSR09680** (its DVC Market mirror 616232 is now gone as well). Ne
 
 ## Scraper health
 
+- 18:37 (dispatched by this review): all 10 sources OK (DVC Market 747, DVC Resale Market 400, DVC Shop 238, DVC Store 150, DVC Resale Experts 105, DVC Sales 70, Vacation Club Life 45, DVC by Resale 24, Buy and Sell DVC 20, Magic Resales 4). Scheduled cron has not fired since 15:22.
 - 15:22 (scheduled run, cron fired on its own): all 10 sources OK (DVC Market 746, DVC Resale Market 398, DVC Shop 238, DVC Store 150, DVC Resale Experts 105, DVC Sales 69, Vacation Club Life 45, DVC by Resale 24, Buy and Sell DVC 21, Magic Resales 4).
 - 21:30 and 22:37: all 10 sources OK (22:37 counts: DVC Market 751, DVC Resale Market 414, DVC Shop 238, DVC Store 147, DVC Resale Experts 105, DVC Sales 70, Vacation Club Life 45, DVC by Resale 24, Buy and Sell DVC 21, Magic Resales 4). 21:30 was a scheduled run; 22:37 was dispatched by this review.
 - 20:37: all 10 sources OK (DVC Market 750, DVC Resale Market 413, DVC Shop 238, DVC Store 146, DVC Resale Experts 105, DVC Sales 69, Vacation Club Life 45, DVC by Resale 24, Buy and Sell DVC 21, Magic Resales 4). Scheduled cron still not firing (last scheduled run 17:02); this review dispatched 20:37.
