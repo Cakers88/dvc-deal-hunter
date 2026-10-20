@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-20 00:36 UTC (latest data: **00:36 UTC scrape**, dispatched by this review). Scraper health: **10/10 ok**. Broker alert emails in the last 2 h: none. Scrape since last review: 00:36 (1 new, 0 price changes, 3 status changes, 0 gone). **No change to any Sept top list** (net costs moved by a few dollars from interest accrual). The new contract (HH HHB1831) doesn't fit 1BR+2BR or 2BR for 6 nights in Sept and loses money vs renting for a 1BR; none of the three contracts going pending was on a list. All current picks are still listed.
+**Run:** 2026-10-20 01:36 UTC (latest data: **01:37 UTC scrape**, dispatched by this review; the scheduled runs lag). Scraper health: **10/10 ok**. Broker alert emails in the last 2 h: none. Scrape since last review: 01:37 (3 new, 0 price changes, 1 status change, 21 gone). **No change to any Sept top list or the flip list.** The 21 "gone" are DVC Resale Market clearing out contracts that were already pending (19 of 21), not a scraper fault (it still returns 456 listings). None of the new contracts scores ≥ 70 or ranks in the top 25. All current picks are still listed.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,11 @@ Dropped: SSR **SSR09680** (its DVC Market mirror 616232 is now gone as well). Ne
 
 ## Market notes
 
+- 01:37 scrape (dispatched by this review): 3 new, 0 price changes, 1 status change, 21 gone. Gmail: none.
+  - Gone: 21 DVC Resale Market contracts, 19 of them already pending (e.g. OKW OKG5033 $92, SSR SSB8382 $98, BRV BR21932 $102). That looks like a routine clean-out of sold contracts. The two that were still available, BLT BL63779 ($145) and BWV BW63442 ($136), reappeared as "new" DVC Market mirrors [615519](https://dvcmarket.com/dvc-resale/bay-lake-tower/160-points/615519) (#286) and [616123](https://dvcmarket.com/dvc-resale/boardwalk/100-points/616123) (0 pts until Mar 2028, score 0). Neither was ranked.
+  - New: CCV [CC83037](https://www.dvcresalemarket.com/listings/copper-creek/cc83037/) (DVC Resale Market, 250 pts, Mar UY, $139, $34,750, 2068 deed). Only 81 pts in Mar-2027, so it can't cover 6 nights in a 2BR in Sept. Score 58, #313. Skip.
+  - Going pending: AKV [AK574JS](https://resales.dvcshop.com/listings/animal-kingdom-villas-ak574js/) (DVC Shop, 250 pts, Sep UY, $99) → Sale Pending. It was never on a list.
+  - Market model n=863 (was 879, because the pending/sold contracts dropped out): −$4.67/pt per missing current year, −$8.90 missing next year, ~$4.88 accepted below ask. Flat.
 - 00:36 scrape (dispatched by this review): 1 new, 0 price changes, 3 status changes, 0 gone. Gmail: none.
   - New: HH [HHB1831](https://www.dvcresalemarket.com/listings/hilton-head/hhb1831/) (DVC Resale Market, 100 pts, Oct UY, **$86**, $8,600). Detail page data (scraped): 123 in Oct-2026 (23 banked from 2025), 100/yr after, **seller pays 2026 dues**, buyer pays 2027 (~$1,287 at $12.86, due at closing if after Nov 20), **2042 deed**. Score 58.8, #289, so outside the page-check threshold. Max for Sept 2027 is ~223 pts, so 2BR (282) and 1BR+2BR don't fit; 1BR 6 nights is #46 and costs ~$1.0k more than renting. High dues + short deed. Skip.
   - Going pending: SSR SSC8489 (50 pts, $127) and BCV BC32550 (150 pts, $139) → Offer Accepted; GFV GFB3325 Offer Accepted → Sale Pending. None were on a list.
