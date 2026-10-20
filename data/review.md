@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-20 15:36 UTC (latest data: **15:22 UTC scheduled scrape**). Scraper health: **10/10 ok** at 15:22 (no source at 0). Broker alert emails in the last 2 h: none. Since last review: 15:22 scrape (3 new DVC Store contracts, none ranked). **All lists unchanged.**
+**Run:** 2026-10-20 16:36 UTC (latest data: **16:37 UTC scrape dispatched by this review**; the scheduled cron had not run since 15:22). Scraper health: **10/10 ok** at 16:37 (no source at 0). Broker alert emails in the last 2 h: none. Since last review: 1 new (GFV, unranked), 3 status changes (none ranked). **All lists unchanged.**
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -48,6 +48,11 @@ Dropped: SSR **SSR09680** (its DVC Market mirror 616232 is now gone as well). Ne
 
 ## Market notes
 
+- 16:37 scrape (dispatched by this review): 1 new, 0 price changes, 3 status changes, 0 gone. Gmail: none.
+  - New: Grand Floridian [GF349](https://dvcsales.com/dvc-resale/grand-floridian/300-points/1867) (DVC Sales, 300 pts Mar UY, $159, $47,700). Only **28 points in Mar-2027**, seller pays current dues, 2064 deed. Score 48, #433. Not useful for Sept 2027 at that price. Skip.
+  - Going pending: OKW [OKG4956](https://www.dvcresalemarket.com/listings/old-key-west/okg4956/) (DVC Resale Market, 100 pts Jun UY, $90) → Offer Accepted. Never on a list (only 35 pts in Jun-2026).
+  - Sold: DVC Store SSR SS150-12-0924 ($102) and BCV BC115-10-1016 ($141), both already pending. Neither ranked.
+  - Market model n=861: −$4.72/pt per missing current year, −$8.72 missing next year, ~$5.06 accepted below ask. Flat.
 - 15:22 scrape (schedule): 3 new, 0 price changes, 0 status changes, 0 gone. Gmail: none.
   - New (all DVC Store, listed today, none top-25 or score ≥ 70, so not page-checked): BCV [BC157-06-1020](https://www.dvcstore.com/resort/beach-club/bc157-06-1020/) 157 pts Jun UY $143 (score 67.2, #150; 2BR loses $966 vs renting); BWV [BW300-06-1020](https://www.dvcstore.com/resort/boardwalk/bw300-06-1020/) 300 pts Jun UY $122, 241 in Jun-2027 (score 63.8, #227; 1BR+2BR saves only ~$600); SSR [SS246-12-1020](https://www.dvcstore.com/resort/saratoga-springs/ss246-12-1020/) 246 pts Dec UY $100, 0 points until Dec-2027 (score 52, #409). Skip all three.
   - Market model n=861: −$4.72/pt per missing current year, −$8.70 missing next year, ~$5.01 accepted below ask. Flat.
