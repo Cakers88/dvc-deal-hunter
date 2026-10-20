@@ -2076,3 +2076,5 @@
 {"t": "2026-10-20T21:38:40+00:00", "uid": "dvcmarket:615019", "event": "gone", "last": {"price": 17510.0, "price_per_point": 103.0, "availability": "available"}}
 {"t": "2026-10-20T21:38:40+00:00", "uid": "dvcresaleexperts:SSR13192", "event": "gone", "last": {"price": 6350.0, "price_per_point": 127.0, "availability": "available"}}
 {"t": "2026-10-20T21:38:40+00:00", "uid": "vacationclublife:4301740000128934032", "event": "gone", "last": {"price": 21120.0, "price_per_point": 96.0, "availability": "available"}}
+{"t": "2026-10-20T22:36:47+00:00", "uid": "vacationclublife:4301740000155683004", "event": "new"}
+{"t": "2026-10-20T22:36:47+00:00", "uid": "dvcstore:BW160-08-1002-JC", "event": "status_change", "changes": {"availability": ["pending", "sold"], "status_raw": ["sale pending", "sold"]}}
