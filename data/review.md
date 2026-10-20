@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-20 19:37 UTC (latest data: **19:29 UTC scrape**). Scraper health: **10/10 ok** at 18:37 and 19:29 (no source at 0). Broker alert emails in the last 2 h: none. Since last review: 3 new (all stripped, none ranked), 1 status change (OKG4956 → Sale Pending). **All three lists unchanged** (figures moved ≤ $5).
+**Run:** 2026-10-20 20:40 UTC (latest data: **20:36 UTC scrape**, dispatched by this review; no scheduled run since 19:29). Scraper health: **10/10 ok** at 19:29 and 20:36. Broker alert emails in the last 2 h: none. Since last review: 4 new, 1 price cut, 4 status changes, 4 gone. **1BR+2BR #5 changes** (BWV 615269 gone → SSR Vacation Club Life 190); 1BR and 2BR lists unchanged; top 4 of every list unchanged (figures moved ≤ $10). Broker pages couldn't be opened this run (WebFetch not permitted), so checks below use the detail pages captured by the scrape.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -14,9 +14,9 @@ including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same 
 | 2 | [SSR SS1275 (DVC Sales)](https://dvcsales.com/dvc-resale/saratoga-springs/170-points/1082) Sep UY | 170 | $102 | $17,340 | $7,485 ($4,665) | $20.7k / 15 | sell stripped | 2027-02-12 | medium | ✔ Same setup as #1 (borrows 146). Long time on market, so there may be room to negotiate. |
 | 3 | [Aulani AUL247LBF1 (DVC Shop)](https://resales.dvcshop.com/listings/aulani-hawaii-aul247lbf1/) Apr UY | 200 | $95 | $19,000 | $7,914 ($4,236) | $23.2k / 15 | sell stripped | 2027-01-27 | medium | ✔ 400 in the Apr-2027 UY (200 banked), 2062 deed, dues $10.96. Home-resort 11-month window is a real plus for Aulani in Sept. **Dues terms not stated**, "Low But Firm", borrows 86. |
 | 4 | [SSR SS1286 (DVC Sales)](https://dvcsales.com/dvc-resale/saratoga-springs/220-points/1747) Jun UY | 220 | $104 | $22,880 | $8,009 ($4,141) | $26.8k / 15 | sell stripped | 2027-02-12 | low | ✔ 108 banked (expire May 31, 2027) + 220 bankable; buyer reimburses 2026 dues, closes Dec 1, deed 2054. **Smallest borrow (46)**, lowest ROFR risk. Must bank by Jan 31, 2027. Still the cleanest pick if cash allows. |
-| 5 | [BWV 615269 — Vacatia via DVC Market](https://dvcmarket.com/dvc-resale/boardwalk/170-points/615269) Aug UY | 170 | $120 | $20,400 | $8,026 ($4,124) | $23.9k / 15 | sell stripped | 2027-02-12 | **high** | ⚠ Borrows 146, **2042 deed**, ROFR high. Only here because the OKW ghost dropped out; prefer #1–#4. |
+| 5 | [SSR Vacation Club Life 4301740000153743001](https://vacationclublife.com/listings/4301740000153743001) Jun UY | 190 | $105 | $19,950 | $8,220 ($3,930) | $24.0k / 15 | sell stripped | 2027-02-12 | low | ⚠ 252 in Jun-2026 (62 banked) + 190 in Jun-2027, **borrows 106**, 2054 deed, ROFR low. Must bank the 190 current points by Jan 31, 2027. Dues terms not page-checked. Up from #6 because BWV 615269 is gone. |
 
-Dropped: OKW **OKW95100** ($89, 210 pts) — gone from DVC Resale Experts since 16:03, and DVC Market's mirror 616262 has now dropped off too, so it's **sold, pending or withdrawn**. Next: SSR Vacation Club Life 190 pts ($105, ROFR low, borrows 106), OKW 616241 ($93, ROFR high).
+Dropped: BWV **615269** (Vacatia via DVC Market, $120) — gone at 20:36 along with two other Vacatia mirrors on DVC Market (AKV 614093, BWV 614827), so likely a Vacatia feed drop rather than a sale; it was a weak #5 anyway (2042 deed, ROFR high). Next: OKW 616241 ($93, borrows 46, ROFR high, saves $3.9k).
 
 ## 1-bedroom, Sept, 6 nights (needs 204 pts; renting would cost $5,100)
 
@@ -34,7 +34,7 @@ Dropped: SSR 616328 and Aulani 616035 (both **sold**, DVC Market SoldOut). With 
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | [VB V1508AR1 (DVC by Resale)](https://www.dvcbyresale.com/buy.php?listid=1858580847851351) Aug UY | 150 | $45 | $6,750 | $5,249 ($1,801) | $10.5k / 15 | 2027-02-12 | **high** | ✔ 123 in Aug-2026 (must bank by Mar 31, 2027), 150 in Aug-2027, buyer pays 2026 dues on 123 pts, borrows 9. At $45 Disney ROFR is likely; **2042 deed**, thin stripped resale. Long shot. |
 | 2 | [SSR 616162 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/saratoga-springs/150-points/616162) Jun UY | 150 | $100 | $15,000 | $5,520 ($1,530) | $18.0k / 15 | 2027-02-12 | medium | ✔ InStock 18:38. 150/150, buyer reimburses 2026 dues, **no borrowing** (bank by Jan 31, 2027), 2054 deed. Now the cleanest 2BR pick — its Fidelity siblings sold today, so this may not last. |
-| 3 | [HH HHI26452 (DVC Resale Experts)](https://www.dvcresaleexperts.com/dvc-listing/hhi26452-june-150) | 150 | $72 | $10,800 | $5,671 ($1,379) | $14.4k / 15 | 2027-02-12 | medium | ⚠ No borrowing, but **2042 deed** and Hilton Head resale is slow. [SSR SS1262](https://dvcsales.com/dvc-resale/saratoga-springs/170-points/1627) ($103, saves $1,371, 2054 deed, ✔) is the safer near-equal. |
+| 3 | [HH HHI26452 (DVC Resale Experts)](https://www.dvcresaleexperts.com/dvc-listing/hhi26452-june-150) | 150 | $72 | $10,800 | $5,671 ($1,379) | $14.4k / 15 | 2027-02-12 | medium | ⚠ No borrowing, but **2042 deed** and Hilton Head resale is slow. SSR SS1262 (the former safer near-equal) **vanished from DVC Sales at 20:36**; only its DVC Market mirror [615019](https://dvcmarket.com/dvc-resale/saratoga-springs/170-points/615019) remains (synced 20:00, saves $1.3k) — treat as likely sold/pending. |
 
 Dropped: AKV 616164 (**sold**, DVC Market SoldOut).
 
@@ -46,6 +46,12 @@ Dropped: AKV 616164 (**sold**, DVC Market SoldOut).
 
 ## Market notes
 
+- 20:36 scrape (dispatched by this review): 4 new, 1 price change, 4 status changes, 4 gone. Gmail: none.
+  - Price cut: Aulani [AU389](https://dvcsales.com/dvc-resale/aulani/300-points/1713) (DVC Sales, 300 pts Aug UY) $97 → **$96** ($28,800; #15, score 79). Captured detail page: 297 in Aug-2026 (bankable until Mar 31, 2027), 300 in Aug-2027, buyer reimburses 2026 dues ($3,255), est. close Dec 7, 2062 deed, US seller; $36.8k due at closing. Banking gives 597 for Sept 2027 with no borrowing: 1BR+2BR 6n saves only ~$1.8k, **3BR GV 6n saves ~$3.5k**. Not a top-5 pick at $96; at ~$90 it would be.
+  - Gone: DVC Sales **SS1262** (SSR 170, $103 — the 2BR alternative); DVC Market mirror 615019 shows it as "new" because it's now the only copy. Three Vacatia mirrors on DVC Market dropped at once (BWV 615269 — 1BR+2BR #5, AKV 614093, BWV 614827).
+  - New (none relevant): SSR [SS98677](https://www.dvcresalemarket.com/listings/saratoga-springs/ss98677/) 150 pts Jun UY $108, only 108 in Jun-2027 (#221); CCV CCE3023 (Copper Creek, can't book Aulani from resale); GFV VGF69771 (50 pts, $175, under the size minimum).
+  - Status: AKV AKG6524 and HH HHB1831 (DVC Resale Market) → Offer Accepted; DVC Store SS050-12-1013 → Sold; Vacation Club Life OKW 230 pts ($81) Reduced → Active (#196, only 238 in Apr-2027). None ranked.
+  - Market model n=865: −$4.74/pt per missing current year, −$8.86 missing next year, ~$4.82 accepted below ask. Flat.
 - 19:29 scrape: 3 new, 0 price changes, 1 status change, 0 gone. Gmail: none.
   - New (all DVC Resale Market, listed today, none top-25 or score ≥ 70, so not page-checked; detail pages captured by the scrape): SSR [SSE8687](https://www.dvcresalemarket.com/listings/saratoga-springs/sse8687/) 150 pts Dec UY $104, **0 pts until Dec-2027** (score 0, #581); OKW [OK24941](https://www.dvcresalemarket.com/listings/old-key-west/ok24941/) 200 pts Mar UY $113, 0 in Mar-2026, 200 in Mar-2027, extended to 2057 (score 54, #354); BLT [BLE3830](https://www.dvcresalemarket.com/listings/bay-lake-tower/ble3830/) 100 pts Aug UY $146, 0 until Aug-2027 (score 52.2, #390). All fully stripped; none covers a Sept-2027 1BR+2BR without heavy borrowing. Skip.
   - Status: OKW OKG4956 Offer Accepted → Sale Pending. Never ranked.
@@ -275,6 +281,7 @@ Dropped: AKV 616164 (**sold**, DVC Market SoldOut).
 
 ## Scraper health
 
+- 19:29 (scheduled) and 20:36 (dispatched by this review): all 10 sources OK (20:36: DVC Market 744, DVC Resale Market 406, DVC Shop 238, DVC Store 150, DVC Resale Experts 106, DVC Sales 69, Vacation Club Life 45, DVC by Resale 24, Buy and Sell DVC 20, Magic Resales 4). No scheduled run between 19:29 and 20:36.
 - 18:37 (dispatched by this review): all 10 sources OK (DVC Market 747, DVC Resale Market 400, DVC Shop 238, DVC Store 150, DVC Resale Experts 105, DVC Sales 70, Vacation Club Life 45, DVC by Resale 24, Buy and Sell DVC 20, Magic Resales 4). Scheduled cron has not fired since 15:22.
 - 15:22 (scheduled run, cron fired on its own): all 10 sources OK (DVC Market 746, DVC Resale Market 398, DVC Shop 238, DVC Store 150, DVC Resale Experts 105, DVC Sales 69, Vacation Club Life 45, DVC by Resale 24, Buy and Sell DVC 21, Magic Resales 4).
 - 21:30 and 22:37: all 10 sources OK (22:37 counts: DVC Market 751, DVC Resale Market 414, DVC Shop 238, DVC Store 147, DVC Resale Experts 105, DVC Sales 70, Vacation Club Life 45, DVC by Resale 24, Buy and Sell DVC 21, Magic Resales 4). 21:30 was a scheduled run; 22:37 was dispatched by this review.
