@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-20 13:37 UTC (latest data: **13:37 UTC scrape**, scheduled; another run dispatched by this review). Scraper health: **10/10 ok** (no source at 0). Broker alert emails in the last 2 h: none. Since last review: 13:37 scrape (1 status change, 1 gone, neither ranked). **All lists unchanged** (savings moved by ≤$10 from the market-model refresh).
+**Run:** 2026-10-20 14:38 UTC (latest data: **14:37 UTC scrape**, dispatched by this review; no scheduled run since 10:24). Scraper health: **10/10 ok** at 13:37 (no source at 0). Broker alert emails in the last 2 h: none. Since last review: 14:37 scrape (2 new AKV, 3 gone, none ranked). **All lists unchanged.**
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -48,6 +48,10 @@ Dropped: SSR **SSR09680** (its DVC Market mirror 616232 is now gone as well). Ne
 
 ## Market notes
 
+- 14:37 scrape (dispatched by this review): 2 new, 0 price changes, 0 status changes, 3 gone. Gmail: none.
+  - New: AKV [AKG6506](https://www.dvcresalemarket.com/listings/animal-kingdom-lodge/akg6506/) (DVC Resale Market, 270 pts, Apr UY, $118, $31,860). Score 71.4, #79, so ✔ checked the page: listed today; **0 in Apr-2026, 306 in Apr-2027 (36 banked)**, 270 after; seller pays 2026 dues, buyer pays 2027 (~$2,744, at closing if after Nov 20); dues $10.16; closing $1,099; 2057 deed. Scrape matches. 1BR+2BR Sept 6n borrows 180 and loses ~$0.2k vs renting; 3BR saves ~$1.2k. Skip. Also new: AKV AKG6530 (100 pts, $123, 0 in 2026; #384). Skip.
+  - Gone: Aulani AUE3554 ($103, already pending), GFV GF93352 (pending), Fidelity GFV 616133 ($165, mirror re-dropped). None were ranked; another loaded Aulani clearing.
+  - Market model n=859: −$4.72/pt per missing current year, −$8.71 missing next year, ~$5.01 accepted below ask. Flat.
 - 13:37 scrape (schedule): 0 new, 0 price changes, 1 status change, 1 gone. Gmail: none.
   - Status: AKV [AK160-10-1012](https://www.dvcstore.com/resort/animal-kingdom/ak160-10-1012/) (DVC Store, 160 pts) Sale Pending → Sold. Never on a list.
   - Gone: Polynesian PV405 (DVC Sales, 150 pts, $159). Not a legacy-resale value play for this plan. Skip.
