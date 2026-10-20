@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-20 07:35 UTC (latest data: **07:36 UTC scrape**, dispatched by this review). Scraper health: **10/10 ok**. Broker alert emails in the last 2 h: none. Since last review: 07:36 scrape (0 new, 0 price changes, 0 status changes, 2 gone, neither ranked). **All lists unchanged** (1BR+2BR, 1BR, 2BR and flips re-checked against the rebuilt index).
+**Run:** 2026-10-20 12:36 UTC (latest data: **12:37 UTC scrape**, dispatched by this review; GitHub's schedule ran only once, at 10:24, since the last review). Scraper health: **10/10 ok** (no source at 0). Broker alert emails in the last 2 h: none. Since last review: 08:37 and 10:24 scrapes (no changes), 12:37 scrape (1 price change, not ranked). **All lists unchanged.**
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -48,6 +48,10 @@ Dropped: SSR **SSR09680** (its DVC Market mirror 616232 is now gone as well). Ne
 
 ## Market notes
 
+- 12:37 scrape (dispatched by this review): 0 new, 1 price change, 0 status changes, 0 gone. Gmail: none.
+  - Price cut: Grand Californian [GC210](https://dvcsales.com/dvc-resale/grand-californian/200-points/1549) (DVC Sales, 200 pts, Jun UY) $243 → $241 ($48,200). #285, ROFR high, far too expensive for this plan. Skip.
+  - Market model unchanged.
+- 08:37 and 10:24 scrapes: no changes.
 - 07:36 scrape (dispatched by this review): 0 new, 0 price changes, 0 status changes, 2 gone. Gmail: none.
   - Gone from DVC Market: VB [615339](https://dvcmarket.com/dvc-resale/vero-beach/400-points/615339) (400 pts, $45) and OKW [615340](https://dvcmarket.com/dvc-resale/old-key-west/270-points/615340) (270 pts, $85). Neither was on a list.
   - Market model n=861, unchanged: −$4.79/pt per missing current year, −$8.75 missing next year, ~$4.93 accepted below ask.
