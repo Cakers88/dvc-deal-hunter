@@ -2054,3 +2054,16 @@
 {"t": "2026-10-20T19:29:21+00:00", "uid": "dvcresalemarket:SSE8687", "event": "new"}
 {"t": "2026-10-20T19:29:21+00:00", "uid": "dvcresalemarket:OK24941", "event": "new"}
 {"t": "2026-10-20T19:29:21+00:00", "uid": "dvcresalemarket:BLE3830", "event": "new"}
+{"t": "2026-10-20T20:36:40+00:00", "uid": "dvcsales:AU389", "event": "price_change", "changes": {"price": [29100.0, 28800.0], "price_per_point": [97.0, 96.0]}}
+{"t": "2026-10-20T20:36:40+00:00", "uid": "vacationclublife:4301740000152953001", "event": "status_change", "changes": {"status_raw": ["Reduced", "Active"]}}
+{"t": "2026-10-20T20:36:40+00:00", "uid": "dvcresalemarket:HHB1831", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["New", "Offer Accepted"]}}
+{"t": "2026-10-20T20:36:40+00:00", "uid": "dvcmarket:615019", "event": "new"}
+{"t": "2026-10-20T20:36:40+00:00", "uid": "dvcresalemarket:SS98677", "event": "new"}
+{"t": "2026-10-20T20:36:40+00:00", "uid": "dvcstore:SS050-12-1013", "event": "status_change", "changes": {"availability": ["pending", "sold"], "status_raw": ["sale pending", "sold"]}}
+{"t": "2026-10-20T20:36:40+00:00", "uid": "dvcresalemarket:AKG6524", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["Double Points", "Offer Accepted"]}}
+{"t": "2026-10-20T20:36:40+00:00", "uid": "dvcresalemarket:CCE3023", "event": "new"}
+{"t": "2026-10-20T20:36:40+00:00", "uid": "dvcresaleexperts:VGF69771", "event": "new"}
+{"t": "2026-10-20T20:36:40+00:00", "uid": "dvcmarket:614093", "event": "gone", "last": {"price": 11000.0, "price_per_point": 110.0, "availability": "available"}}
+{"t": "2026-10-20T20:36:40+00:00", "uid": "dvcmarket:614827", "event": "gone", "last": {"price": 36000.0, "price_per_point": 120.0, "availability": "available"}}
+{"t": "2026-10-20T20:36:40+00:00", "uid": "dvcmarket:615269", "event": "gone", "last": {"price": 20400.0, "price_per_point": 120.0, "availability": "available"}}
+{"t": "2026-10-20T20:36:40+00:00", "uid": "dvcsales:SS1262", "event": "gone", "last": {"price": 17510.0, "price_per_point": 103.0, "availability": "available"}}
