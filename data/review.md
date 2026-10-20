@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-20 01:36 UTC (latest data: **01:37 UTC scrape**, dispatched by this review; the scheduled runs lag). Scraper health: **10/10 ok**. Broker alert emails in the last 2 h: none. Scrape since last review: 01:37 (3 new, 0 price changes, 1 status change, 21 gone). **No change to any Sept top list or the flip list.** The 21 "gone" are DVC Resale Market clearing out contracts that were already pending (19 of 21), not a scraper fault (it still returns 456 listings). None of the new contracts scores ≥ 70 or ranks in the top 25. All current picks are still listed.
+**Run:** 2026-10-20 03:36 UTC (latest data: **03:37 UTC scrape**, dispatched by this review). Scraper health: **10/10 ok**. Broker alert emails in the last 2 h: none. Scrapes since last review: 02:37 (0 new, 0 price changes, 0 status changes, 1 gone) and 03:37 (0 new, 0 price changes, 1 status change, 0 gone). **No change to any Sept top list or the flip list**; net-cost figures moved by <$20 from interest-clock drift. Nothing new scored ≥ 70 or entered the top 25, so no page checks were needed.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,10 @@ Dropped: SSR **SSR09680** (its DVC Market mirror 616232 is now gone as well). Ne
 
 ## Market notes
 
+- 03:37 scrape (dispatched by this review): 0 new, 0 price changes, 1 status change, 0 gone. Gmail: none.
+  - Going pending: Aulani [AUL900BM](https://resales.dvcshop.com/listings/aulani-hawaii-aul900bm/) (DVC Shop, 115 pts, Apr UY, $10,235) → Sale Pending. It had **0 points until Apr 2028**, so it never qualified for 2027. Not on any list.
+  - Market model n=863: −$4.68/pt per missing current year, −$8.88 missing next year, ~$4.91 accepted below ask. Flat.
+- 02:37 scrape (dispatch after the 01:36 review push): 1 gone: DVC Market 616174 (400 pts, $165/pt, $66,000), never ranked. Nothing relevant.
 - 01:37 scrape (dispatched by this review): 3 new, 0 price changes, 1 status change, 21 gone. Gmail: none.
   - Gone: 21 DVC Resale Market contracts, 19 of them already pending (e.g. OKW OKG5033 $92, SSR SSB8382 $98, BRV BR21932 $102). That looks like a routine clean-out of sold contracts. The two that were still available, BLT BL63779 ($145) and BWV BW63442 ($136), reappeared as "new" DVC Market mirrors [615519](https://dvcmarket.com/dvc-resale/bay-lake-tower/160-points/615519) (#286) and [616123](https://dvcmarket.com/dvc-resale/boardwalk/100-points/616123) (0 pts until Mar 2028, score 0). Neither was ranked.
   - New: CCV [CC83037](https://www.dvcresalemarket.com/listings/copper-creek/cc83037/) (DVC Resale Market, 250 pts, Mar UY, $139, $34,750, 2068 deed). Only 81 pts in Mar-2027, so it can't cover 6 nights in a 2BR in Sept. Score 58, #313. Skip.
