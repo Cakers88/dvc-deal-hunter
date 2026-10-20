@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-20 22:38 UTC (latest data: **22:36 UTC scrape**, dispatched by this review; still no scheduled run since 19:29). Scraper health: **10/10 sources returning listings** at 21:38 and 22:36. Broker alert emails in the last 2 h: none. Since last review: 1 new, 0 price changes, 1 status change, 0 gone. **All three Sept lists unchanged** (figures moved ≤ $15). Broker pages still couldn't be opened (WebFetch permission not granted in unattended runs), so checks use the detail pages captured by the scrape.
+**Run:** 2026-10-20 23:40 UTC (latest data: **23:36 UTC scrape**; another run dispatched by this review). Scraper health: **10/10 sources returning listings** at 22:38 and 23:36. Broker alert emails in the last 2 h: none. Since last review: 2 new, 0 price changes, 0 status changes, 0 gone. **All three Sept lists unchanged.** Broker pages still couldn't be opened (WebFetch permission not granted in unattended runs), so checks use the detail pages captured by the scrape.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,9 @@ Dropped: AKV 616164 (**sold**, DVC Market SoldOut).
 
 ## Market notes
 
+- 23:36 scrape: 2 new, 0 price changes, 0 status changes, 0 gone. Gmail: none.
+  - New (Vacation Club Life): GFV [02725](https://vacationclublife.com/listings/4301740000155688003) (150 pts Dec UY, **$175**, $26,250, 150 in Dec-2026 + 150 in Dec-2027, 2064 deed; score 47.6, #450) — too expensive for this plan. Riviera [100 pts Dec UY, $120](https://vacationclublife.com/listings/4301740000155703006) — Riviera resale can't book Aulani. Skip both.
+  - Market model n=866: −$4.80/pt per missing current year, −$8.83 missing next year, ~$4.82 accepted below ask. Flat.
 - 22:36 scrape (dispatched by this review): 1 new, 0 price changes, 1 status change, 0 gone. Gmail: none.
   - New: SSR [02724](https://vacationclublife.com/listings/4301740000155683004) (Vacation Club Life, 160 pts Aug UY, **$110**, $17,600, 2054 deed). Captured detail: 101 available now (Aug-2026) + 160 in Aug-2027. Score 76.1 (#32). For Sept 2027 6n it **loses vs renting** for a 1BR (−$2.2k) and 2BR (−$0.6k, borrows 21); can't cover 1BR+2BR. Priced ~$7–10/pt above comparable SSR. Skip.
   - Status: DVC Store BW160-08-1002-JC (BWV 160) sale pending → sold. Never ranked.
