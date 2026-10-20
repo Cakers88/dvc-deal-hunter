@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-20 06:40 UTC (latest data: **06:37 UTC scrape**, dispatched by this review). Scraper health: **10/10 ok**. Broker alert emails in the last 2 h: none. Scrapes since last review: 05:27 (no changes) and 06:37 (3 new, 0 price changes, 0 status changes, 6 gone). **New #1 for 1-bedroom Sept 6 nights: SSR 616328** (Fidelity via DVC Market, $96, 100 pts Feb UY), ahead of Aulani 616035 by only ~$50; the 1BR+2BR, 2BR and flip lists are unchanged.
+**Run:** 2026-10-20 07:35 UTC (latest data: **07:36 UTC scrape**, dispatched by this review). Scraper health: **10/10 ok**. Broker alert emails in the last 2 h: none. Since last review: 07:36 scrape (0 new, 0 price changes, 0 status changes, 2 gone, neither ranked). **All lists unchanged** (1BR+2BR, 1BR, 2BR and flips re-checked against the rebuilt index).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -48,6 +48,9 @@ Dropped: SSR **SSR09680** (its DVC Market mirror 616232 is now gone as well). Ne
 
 ## Market notes
 
+- 07:36 scrape (dispatched by this review): 0 new, 0 price changes, 0 status changes, 2 gone. Gmail: none.
+  - Gone from DVC Market: VB [615339](https://dvcmarket.com/dvc-resale/vero-beach/400-points/615339) (400 pts, $45) and OKW [615340](https://dvcmarket.com/dvc-resale/old-key-west/270-points/615340) (270 pts, $85). Neither was on a list.
+  - Market model n=861, unchanged: −$4.79/pt per missing current year, −$8.75 missing next year, ~$4.93 accepted below ask.
 - 06:37 scrape (dispatched by this review): 3 new, 0 price changes, 0 status changes, 6 gone. Gmail: none.
   - New (all Fidelity via DVC Market, listed today): SSR **616328** (100 pts, $96, see 1BR #1, score 71, page checked); SSR [616329](https://dvcmarket.com/dvc-resale/saratoga-springs/190-points/616329) (190 pts Feb UY, $96, $18,240, 0 in 2026, 190 in 2027; 2BR Sept 6n saves only ~$0.2k, ROFR high, #233, skip); BLT [616330](https://dvcmarket.com/dvc-resale/bay-lake-tower/250-points/616330) (250 pts Jun UY, $138, only 67 in Jun-2026; not useful for Sept 2027 at that price).
   - Gone from DVC Market: 615519 (BLT $145), 615760 ($175), 616123 (BWV $136, 0 pts until 2028), 616201 ($134), 616230 ($145), 616276 (BWV $119, the one with the unconfirmed Oct-31 banking). None were on a list.
