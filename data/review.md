@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-20 03:36 UTC (latest data: **03:37 UTC scrape**, dispatched by this review). Scraper health: **10/10 ok**. Broker alert emails in the last 2 h: none. Scrapes since last review: 02:37 (0 new, 0 price changes, 0 status changes, 1 gone) and 03:37 (0 new, 0 price changes, 1 status change, 0 gone). **No change to any Sept top list or the flip list**; net-cost figures moved by <$20 from interest-clock drift. Nothing new scored ≥ 70 or entered the top 25, so no page checks were needed.
+**Run:** 2026-10-20 04:36 UTC (latest data: **04:36 UTC scrape**, dispatched by this review). Scraper health: **10/10 ok**. Broker alert emails in the last 2 h: none. Scrape since last review: 04:36 (2 new, 0 price changes, 0 status changes, 0 gone), both 50-pt contracts that can't serve the hunt. **No change to any Sept top list or the flip list**; net-cost figures moved by <$20 from interest-clock drift. Nothing new scored ≥ 70 or entered the top 25, so no page checks were needed.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,10 @@ Dropped: SSR **SSR09680** (its DVC Market mirror 616232 is now gone as well). Ne
 
 ## Market notes
 
+- 04:36 scrape (dispatched by this review): 2 new, 0 price changes, 0 status changes, 0 gone. Gmail: none.
+  - New: OKW [OKA5090](https://www.dvcresalemarket.com/listings/old-key-west/oka5090/) (DVC Resale Market, 50 pts, Mar UY, $125, $6,250, extended 2057 deed). **0 points until Mar 2028** (only 50 borrowable), seller pays 2027 dues, can close after Dec 11. Unscored for Sept 2027. Skip.
+  - New: CCV [CCA3038](https://www.dvcresalemarket.com/listings/copper-creek/cca3038/) (DVC Resale Market, 50 pts, Dec UY, $169). Copper Creek is not one of the 14 legacy resorts (resale points can't book Aulani). Skip.
+  - Market model n=865 (was 863): −$4.79/pt per missing current year, −$8.77 missing next year, ~$4.98 accepted below ask. Flat.
 - 03:37 scrape (dispatched by this review): 0 new, 0 price changes, 1 status change, 0 gone. Gmail: none.
   - Going pending: Aulani [AUL900BM](https://resales.dvcshop.com/listings/aulani-hawaii-aul900bm/) (DVC Shop, 115 pts, Apr UY, $10,235) → Sale Pending. It had **0 points until Apr 2028**, so it never qualified for 2027. Not on any list.
   - Market model n=863: −$4.68/pt per missing current year, −$8.88 missing next year, ~$4.91 accepted below ask. Flat.
