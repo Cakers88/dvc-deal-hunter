@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-20 12:36 UTC (latest data: **12:37 UTC scrape**, dispatched by this review; GitHub's schedule ran only once, at 10:24, since the last review). Scraper health: **10/10 ok** (no source at 0). Broker alert emails in the last 2 h: none. Since last review: 08:37 and 10:24 scrapes (no changes), 12:37 scrape (1 price change, not ranked). **All lists unchanged.**
+**Run:** 2026-10-20 13:37 UTC (latest data: **13:37 UTC scrape**, scheduled; another run dispatched by this review). Scraper health: **10/10 ok** (no source at 0). Broker alert emails in the last 2 h: none. Since last review: 13:37 scrape (1 status change, 1 gone, neither ranked). **All lists unchanged** (savings moved by ≤$10 from the market-model refresh).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -48,6 +48,10 @@ Dropped: SSR **SSR09680** (its DVC Market mirror 616232 is now gone as well). Ne
 
 ## Market notes
 
+- 13:37 scrape (schedule): 0 new, 0 price changes, 1 status change, 1 gone. Gmail: none.
+  - Status: AKV [AK160-10-1012](https://www.dvcstore.com/resort/animal-kingdom/ak160-10-1012/) (DVC Store, 160 pts) Sale Pending → Sold. Never on a list.
+  - Gone: Polynesian PV405 (DVC Sales, 150 pts, $159). Not a legacy-resale value play for this plan. Skip.
+  - Market model n=859 (was 861): −$4.75/pt per missing current year, −$8.71 missing next year, ~$4.93 accepted below ask. Flat.
 - 12:37 scrape (dispatched by this review): 0 new, 1 price change, 0 status changes, 0 gone. Gmail: none.
   - Price cut: Grand Californian [GC210](https://dvcsales.com/dvc-resale/grand-californian/200-points/1549) (DVC Sales, 200 pts, Jun UY) $243 → $241 ($48,200). #285, ROFR high, far too expensive for this plan. Skip.
   - Market model unchanged.
