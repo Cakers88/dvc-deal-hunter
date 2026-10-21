@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-21 06:37 UTC (latest data: **06:00 UTC scrape**). Scraper health: **10/10 sources returning listings** at 05:37 and 06:00. Broker alert emails in the last 2 h: none. Since last review: 2 new, 1 price change, 0 status changes, 4 gone. **All three Sept lists unchanged** (savings drift ≤$20 from the market-model refresh). Broker pages still not opened (WebFetch permission not available in unattended runs); checks use scrape-captured detail.
+**Run:** 2026-10-21 07:39 UTC (latest data: **07:37 UTC scrape**, dispatched by this review — the scheduled runs skipped 06:15–07:30). Scraper health: **10/10 sources returning listings** at 06:00 and 07:37. Broker alert emails in the last 2 h: none. Since last review: 0 new, 0 price changes, 0 status changes, 1 gone. **All three Sept lists unchanged** (savings drift ≤$20 from the market-model refresh). Broker pages still not opened (WebFetch permission not available in unattended runs); checks use scrape-captured detail.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,9 @@ Dropped: AKV 616164 (**sold**, DVC Market SoldOut).
 
 ## Market notes
 
+- 07:37 scrape (dispatched by this review): 0 new, 0 price changes, 0 status changes, 1 gone. Gmail: none.
+  - Gone: Aulani [613517](https://dvcmarket.com/dvc-resale/aulani/220-points/613517) (Fidelity via DVC Market, 220 pts Mar UY, $96, $21,120, was "available") — likely sold/withdrawn. Never in a Sept top list. Aulani supply under $100 keeps thinning; Aulani AUL247LBF1 ($95) and 613999 ($95) remain.
+  - Market model n=862: −$5.22/pt per missing current year, −$8.87 missing next year, ~$5.14 accepted below ask. Flat.
 - 06:00 scrape: 2 new, 1 price change, 0 status changes, 4 gone. Gmail: none.
   - New (Fidelity via DVC Market): OKW [616354](https://dvcmarket.com/dvc-resale/old-key-west/50-points/616354) 50 pts Dec UY $120 and OKW [616355](https://dvcmarket.com/dvc-resale/old-key-west/25-points/616355) 25 pts Mar UY $120 — both under the minimum size for any Sept setup and overpriced. Skip.
   - Price cut: Riviera 614422 $132 → $128 (200 pts). Riviera resale can't book Aulani; irrelevant.
