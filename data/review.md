@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-21 02:38 UTC (latest data: **02:36 UTC scrape**, dispatched by this review — no scheduled run fired between 01:04 and 02:36). Scraper health: **10/10 sources returning listings** at 01:04 and 02:36. Broker alert emails in the last 2 h: none. Since last review: 1 new, 0 price changes, 0 status changes, 1 gone. **All three Sept lists unchanged** (net costs within a few dollars). Broker pages still not opened (WebFetch not available in unattended runs); checks use scrape-captured detail.
+**Run:** 2026-10-21 05:38 UTC (latest data: **05:37 UTC scrape**, dispatched by this review — no scheduled run fired after 03:37). Scraper health: **10/10 sources returning listings** at 03:37 and 05:37. Broker alert emails in the last 2 h: none. Since last review: 1 new, 1 price change, 0 status changes, 3 gone. **All three Sept lists unchanged.** Broker pages still not opened (WebFetch permission not available in unattended runs); checks use scrape-captured detail.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -45,6 +45,12 @@ Dropped: AKV 616164 (**sold**, DVC Market SoldOut).
 3. [SSR SSR13191 (DVC Resale Experts)](https://www.dvcresaleexperts.com/dvc-listing/ssr13191-june-225): +$3.8k over 2 use years on $27k cash (7 months). Relies on renting 675 points with an expiry clock; 2026 dues terms not stated. Plausible as a one-off, not more.
 
 ## Market notes
+
+- 05:37 scrape (dispatched by this review): 1 new, 0 price changes, 0 status changes, 3 gone. Gmail: none.
+  - New: HH [HH81669](https://www.dvcresalemarket.com/listings/hilton-head/hh81669/) (DVC Resale Market, 200 pts Sep UY, **$84**, $16,800, listed Oct 20). Captured detail: **356 in Sep-2026 (156 banked from 2025)**, 200 in Sep-2027/2028; seller pays 2026 dues, buyer pays 2027 (~$2,573 at $12.86, at closing if after Nov 20); can close after Dec 23; closing $754; **2042 deed**. Score 76.5 (#29), ROFR low. Sept 2027 6n: 1BR+2BR saves ~$1.6k (borrows 86), 3BR ~$3.0k — not top-5. Interesting for **late July 2027** instead: the 356 Sep-2026 points (incl. the 156 banked, which expire Aug 31, 2027) fall in that window, so 1BR+2BR Jul 5n saves ~$3.6k. Red flags: high HH dues, short deed, slow HH resale. Skip for Sept.
+  - Gone (all DVC Resale Market, all already Sale Pending → treat as sold): SSR SSC8642 ($103), SSR SSB8648 ($100), GFV GFB3357 ($184). None ranked.
+  - Market model n=866: −$5.12/pt per missing current year, −$8.83 missing next year, ~$5.06 accepted below ask. Flat.
+- 03:37 scrape: 1 price change — Villas at Disneyland Hotel DHB1101 $154 → $153 ("Reduced Again"). Not a legacy resort; irrelevant.
 
 - 02:36 scrape (dispatched by this review): 1 new, 0 price changes, 0 status changes, 1 gone. Gmail: none.
   - New: OKW [OKW263LBF1](https://resales.dvcshop.com/listings/old-key-west-okw263lbf1/) (DVC Shop, 200 pts Feb UY, **$85**, $17,000, extended to 2057, dues $11.21). Cheap, but only 116 pts in Feb-2027 (0 in 2026) — can't cover 1BR+2BR Sept 6n without the 2028 year, and 1BR/2BR **lose vs renting** (−$1.6k / −$0.3k, borrows 88/166). ROFR high at $85. Score 56.4 (#333). Skip.
