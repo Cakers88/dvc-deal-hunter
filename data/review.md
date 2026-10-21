@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-21 16:36 UTC (latest data: **16:09 UTC scheduled scrape** — the 15-min schedule fired on its own again). Scraper health: **10/10 sources returning listings** (16:09). Broker alert emails in the last 2 h: none. Since last review (1 scrape): 4 new, 1 price change, 3 status changes, 1 gone — none relevant to Sept. **All three Sept lists unchanged** (savings drift ≤$15). Broker pages: none needed this run (no new/changed listing scored ≥70 or ranked top 25). Fixes: none.
+**Run:** 2026-10-21 17:35 UTC (latest data: **17:36 UTC scrape**, dispatched by this review because the 16:24–17:24 scheduled runs didn't fire). Scraper health: **10/10 sources returning listings** (16:09 health file; 17:36 run succeeded). Broker alert emails in the last 2 h: none. Since last review (1 scrape): 1 new, 1 price change, 3 status changes, 3 gone — none relevant to Sept. **All three Sept lists and the top-3 flips unchanged** (savings drift ≤$5). Broker pages: none needed this run (no new/changed listing scored ≥70 or ranked top 25). Fixes: none.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,12 @@ Dropped: AKV 616164 (**sold**, DVC Market SoldOut).
 
 ## Market notes
 
+- 17:36 scrape (dispatched by this review): 1 new, 1 price change, 3 status changes, 3 gone. Gmail: none.
+  - New: SSR [616265](https://dvcmarket.com/dvc-resale/saratoga-springs/100-points/616265) (DVC Market, 100 pts) — score 0 (#518), no usable points for Sept 2027. Skip.
+  - Riviera RV349 (DVC Sales) cut $118 → $116. Riviera resale can't book Aulani; irrelevant.
+  - Went pending: AKV AK36528 (DVC Resale Market, Offer Accepted) and two Vacation Club Life contracts (…155619002, …155211004). None ranked.
+  - Gone: SSR SSR61801 (DVC Resale Experts, 100 pts, $99, was available), A1609GE0 (DVC by Resale, $110, pending), BL83800 (DVC Resale Market, $135, pending). None in a Sept list.
+  - Market model n=866: stripped discount **−$4.98/pt per missing current year** (was −$4.89), −$8.97 missing next year, ~$5.31 below ask. Flat.
 - 16:09 scrape (scheduled): 4 new, 1 price change, 3 status changes, 1 gone. Gmail: none.
   - New: four 50-pt Hilton Head contracts at DVC Resale Market (HHA1834–HHA1837, $89–$95, 2042 deeds, few or no current points). Far too small for any setup. Skip.
   - OKW [OKA5028](https://www.dvcresalemarket.com/listings/old-key-west/oka5028/) (230 pts Dec UY) cut $92 → **$88** ($20,240). Only 7 pts in Dec-2026, **2042 deed**; score 48 (#428). Skip.
