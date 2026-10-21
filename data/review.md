@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-21 21:36 UTC (latest data: **21:36 UTC scrape dispatched by this review**; no scheduled scrape since 20:15). Scraper health: **10/10 sources ok** (DVC Market 755, DVC Resale Market 412, DVC Shop 238, DVC Resale Experts 106, DVC Store 86, DVC Sales 70, Vacation Club Life 47, DVC by Resale 23, Buy & Sell DVC 20, Magic Resales 4). Broker alert emails in the last 2 h: none. Since last review (1 scrape): 0 new, 0 price changes, 2 status changes, 1 gone. **All three Sept lists and the top-3 flips unchanged.** Broker pages: none needed (nothing new reached the top 25 or a score of 70). Fixes: none.
+**Run:** 2026-10-21 22:36 UTC (latest data: **22:38 UTC scrape dispatched by this review**; still no scheduled scrape since 20:15). Scraper health: **9/10 sources ok** — DVC Sales failed this run (`GET failed after retries` on the listings page); it was ok at 21:36 and the page answers 200 now, so treated as a one-off timeout, not fixed. Its 85 listings are carried over from 21:36 (DVC Market 755, DVC Resale Market 412, DVC Shop 238, DVC Resale Experts 106, DVC Store 86, Vacation Club Life 47, DVC by Resale 23, Buy & Sell DVC 20, Magic Resales 4). Broker alert emails in the last 2 h: none. Since last review (1 scrape): 0 new, 0 price changes, 1 status change, 0 gone. **All three Sept lists and the top-3 flips unchanged.** Broker pages: none needed. Fixes: none.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,10 @@ Dropped: AKV 616164 (**sold**, DVC Market SoldOut).
 
 ## Market notes
 
+- 22:38 scrape (dispatched by this review): 0 new, 0 price changes, 1 status change, 0 gone. Gmail: none.
+  - AKV AKG6530 (DVC Resale Market, $123) Offer Accepted → Sale Pending. Not ranked.
+  - DVC Sales scrape failed (transient); if it fails again next run, the adapter gets investigated.
+  - Market model n=855: −$4.95/pt per missing current year, −$8.92 missing next year, ~$5.16 below ask. Flat.
 - 21:36 scrape (dispatched by this review): 0 new, 0 price changes, 2 status changes, 1 gone. Gmail: none.
   - SSR SS38594 (DVC Resale Market) Offer Accepted → Sale Pending; Vacation Club Life 4301740000155703006 went Pending. Neither was ranked or in a Sept list.
   - Gone: BLT 616074 (DVC Market, $158) — listed only at 20:15, probably the relisted BL517 already under contract. Not ranked.
