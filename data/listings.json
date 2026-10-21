@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-21T23:30:36+00:00",
- "count": 1500,
+ "updated": "2026-10-21T23:39:11+00:00",
+ "count": 1501,
  "listings": [
   {
    "source": "buyandselldvc",
@@ -1058,7 +1058,7 @@
     "broker": "Buy And Sell DVC",
     "duplicates": [
      "dvcresalemarket:RRE2361",
-     "dvcmarket:615222"
+     "dvcsales:RV345"
     ]
    },
    "uid": "buyandselldvc:RIV700",
@@ -24283,7 +24283,7 @@
     "contract_point_status": "Full points"
    },
    "uid": "dvcmarket:616373",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-21T23:30:36+00:00",
    "history": [
@@ -24295,7 +24295,8 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-10-21T23:30:36+00:00"
+   "detail_at": "2026-10-21T23:30:36+00:00",
+   "gone_at": "2026-10-21T23:39:11+00:00"
   },
   {
    "source": "dvcresaleexperts",
@@ -33834,7 +33835,7 @@
    "extra": {
     "availability_from": "index",
     "duplicates": [
-     "dvcmarket:616235"
+     "dvcsales:AK816"
     ],
     "also_on": "dvcmarket",
     "closing_cost": 769.0
@@ -36402,7 +36403,7 @@
    "extra": {
     "availability_from": "index",
     "duplicates": [
-     "dvcmarket:615927"
+     "dvcsales:AU394"
     ],
     "closing_cost": 1080.0
    },
@@ -40332,7 +40333,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "closing_cost": 1309.0
    },
@@ -40349,7 +40350,7 @@
      "status_raw": "New"
     }
    ],
-   "detail_at": "2026-10-18T23:37:00+00:00"
+   "detail_at": "2026-10-21T23:39:11+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -40444,7 +40445,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "can_close_after": "1/1/2027",
     "closing_cost": 879.0
@@ -40462,7 +40463,7 @@
      "status_raw": "New"
     }
    ],
-   "detail_at": "2026-10-18T23:37:00+00:00"
+   "detail_at": "2026-10-21T23:39:11+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -42635,7 +42636,7 @@
    "extra": {
     "availability_from": "index",
     "duplicates": [
-     "dvcmarket:616120"
+     "dvcsales:CC279"
     ],
     "closing_cost": 839.0
    },
@@ -46684,7 +46685,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "closing_cost": 714.0
    },
@@ -46701,7 +46702,7 @@
      "status_raw": "Small Contract"
     }
    ],
-   "detail_at": "2026-10-18T23:37:00+00:00"
+   "detail_at": "2026-10-21T23:39:11+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -54816,7 +54817,7 @@
    "expiration": 2054,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "closing_cost": 699.0
    },
@@ -54833,7 +54834,7 @@
      "status_raw": "Small Contract"
     }
    ],
-   "detail_at": "2026-10-18T23:37:00+00:00"
+   "detail_at": "2026-10-21T23:39:11+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -56325,7 +56326,7 @@
    "expiration": 2054,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "closing_cost": 919.0
    },
@@ -56348,7 +56349,7 @@
      "status_raw": "Reduced"
     }
    ],
-   "detail_at": "2026-10-18T23:37:00+00:00"
+   "detail_at": "2026-10-21T23:39:11+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -59118,7 +59119,7 @@
    },
    "uid": "dvcsales:AK808",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -59215,7 +59216,7 @@
    },
    "uid": "dvcsales:AK811",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -59402,7 +59403,7 @@
    },
    "uid": "dvcsales:AK817",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -59499,7 +59500,7 @@
    },
    "uid": "dvcsales:AK818",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -59592,7 +59593,7 @@
    },
    "uid": "dvcsales:AK819",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -59700,6 +59701,98 @@
   },
   {
    "source": "dvcsales",
+   "listing_id": "AK822",
+   "url": "https://dvcsales.com/dvc-resale/animal-kingdom/100-points/1872",
+   "resort_raw": "Animal Kingdom",
+   "resort": "akv",
+   "points": 100,
+   "price": 11100.0,
+   "price_per_point": 111.0,
+   "use_year": 12,
+   "status_raw": "Live",
+   "availability": "available",
+   "date_listed": "2026-10-21",
+   "points_available": [
+    {
+     "uy": "2026-12",
+     "points": 0,
+     "banked": 0
+    },
+    {
+     "uy": "2027-12",
+     "points": 0,
+     "banked": 0
+    },
+    {
+     "uy": "2028-12",
+     "points": 0,
+     "banked": 0
+    }
+   ],
+   "availability_text": "2026: 0 | 2027: 0 | 2028: 0",
+   "dues_terms": "No dues reimbursement listed in buyer's schedule of fees (seller pays current-year dues)",
+   "dues_per_point": 10.16,
+   "subsidized_dues": null,
+   "expiration": 2057,
+   "detail_fetched": true,
+   "extra": {
+    "availability_from": "detail",
+    "days_on_market": 0,
+    "date_listed_from": "detail",
+    "internal_id": "1872",
+    "value_score": 63,
+    "also_on": "dvcmarket",
+    "availability_table": [
+     {
+      "year": 2026,
+      "banked": 0,
+      "borrowed": 0,
+      "holding": 0,
+      "available": 0,
+      "bankable": 0
+     },
+     {
+      "year": 2027,
+      "banked": 0,
+      "borrowed": 0,
+      "holding": 0,
+      "available": 0,
+      "bankable": 0
+     },
+     {
+      "year": 2028,
+      "banked": 0,
+      "borrowed": 0,
+      "holding": 0,
+      "available": 0,
+      "bankable": 0
+     }
+    ],
+    "dues_year": 2027,
+    "closing_cost": 655.0,
+    "caf": 500.0,
+    "total_due_at_closing": 11239.0,
+    "est_closing_date": "2026-12-08",
+    "us_seller": true,
+    "status_line": "Live | listed 0 days ago, still available"
+   },
+   "uid": "dvcsales:AK822",
+   "active": true,
+   "stale": false,
+   "first_seen": "2026-10-21T23:39:11+00:00",
+   "history": [
+    {
+     "t": "2026-10-21T23:39:11+00:00",
+     "price": 11100.0,
+     "price_per_point": 111.0,
+     "availability": "available",
+     "status_raw": "Live"
+    }
+   ],
+   "detail_at": "2026-10-21T23:39:11+00:00"
+  },
+  {
+   "source": "dvcsales",
    "listing_id": "AU381",
    "url": "https://dvcsales.com/dvc-resale/aulani/160-points/1626",
    "resort_raw": "Aulani",
@@ -59742,8 +59835,6 @@
     "value_score": 37,
     "also_on": "dvcmarket",
     "duplicates": [
-     "dvcshop:AUL907PM",
-     "dvcshop:AUL907PM",
      "dvcshop:AUL907PM"
     ],
     "availability_table": [
@@ -59783,7 +59874,7 @@
    },
    "uid": "dvcsales:AU381",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -59895,7 +59986,7 @@
    },
    "uid": "dvcsales:AU382",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -59970,7 +60061,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 40,
+    "days_on_market": 41,
     "date_listed_from": "index_days",
     "internal_id": "1664",
     "value_score": 30,
@@ -60011,7 +60102,7 @@
    },
    "uid": "dvcsales:AU383",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -60125,7 +60216,7 @@
    },
    "uid": "dvcsales:AU385",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -60241,7 +60332,7 @@
    },
    "uid": "dvcsales:AU386",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -60358,7 +60449,7 @@
    },
    "uid": "dvcsales:AU389",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -60480,7 +60571,7 @@
    },
    "uid": "dvcsales:AU390",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -60592,7 +60683,7 @@
    },
    "uid": "dvcsales:AU393",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -60704,7 +60795,7 @@
    },
    "uid": "dvcsales:AU397",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -60817,7 +60908,7 @@
    },
    "uid": "dvcsales:AU398",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -60926,7 +61017,7 @@
    },
    "uid": "dvcsales:BC325",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -61019,7 +61110,7 @@
    },
    "uid": "dvcsales:BC326",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -61112,7 +61203,7 @@
    },
    "uid": "dvcsales:BC327",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -61271,8 +61362,6 @@
     "value_score": 53,
     "also_on": "dvcmarket",
     "duplicates": [
-     "magicresales:20263",
-     "magicresales:20263",
      "magicresales:20263"
     ],
     "availability_table": [
@@ -61311,7 +61400,7 @@
    },
    "uid": "dvcsales:BL509",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -61404,7 +61493,7 @@
    },
    "uid": "dvcsales:BL510",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -61497,7 +61586,7 @@
    },
    "uid": "dvcsales:BL511",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -61683,7 +61772,7 @@
    },
    "uid": "dvcsales:BL514",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -61775,7 +61864,7 @@
    },
    "uid": "dvcsales:BL516",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -61931,8 +62020,6 @@
     "value_score": 55,
     "also_on": "dvcmarket",
     "duplicates": [
-     "vacationclublife:4301740000153298002",
-     "vacationclublife:4301740000153298002",
      "vacationclublife:4301740000153298002"
     ],
     "availability_table": [
@@ -61972,7 +62059,7 @@
    },
    "uid": "dvcsales:BL520",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-17T09:36:30+00:00",
    "history": [
     {
@@ -62162,7 +62249,7 @@
    },
    "uid": "dvcsales:BR243",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -62314,9 +62401,9 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "days_on_market": 17,
-    "date_listed_from": "index_days",
+    "date_listed_from": "detail",
     "internal_id": "1782",
     "value_score": 44,
     "also_on": "dvcmarket",
@@ -62350,13 +62437,13 @@
     "closing_cost": 732.0,
     "caf": 500.0,
     "total_due_at_closing": 20020.0,
-    "est_closing_date": "2026-12-05",
+    "est_closing_date": "2026-12-08",
     "us_seller": true,
-    "status_line": "Live | listed 14 days ago, still available"
+    "status_line": "Live | listed 17 days ago, still available"
    },
    "uid": "dvcsales:BW430",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -62382,7 +62469,7 @@
      "price_per_point": 117.0
     }
    ],
-   "detail_at": "2026-10-18T23:37:00+00:00"
+   "detail_at": "2026-10-21T23:39:11+00:00"
   },
   {
    "source": "dvcsales",
@@ -62464,7 +62551,7 @@
    },
    "uid": "dvcsales:BW433",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -62556,7 +62643,7 @@
    },
    "uid": "dvcsales:BW434",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -62714,7 +62801,7 @@
    },
    "uid": "dvcsales:DH137",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -62772,7 +62859,7 @@
    },
    "uid": "dvcsales:DH139",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -62835,7 +62922,7 @@
    },
    "uid": "dvcsales:DH141",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -62893,7 +62980,7 @@
    },
    "uid": "dvcsales:DH142",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -62985,7 +63072,7 @@
    },
    "uid": "dvcsales:GC206",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -63078,7 +63165,7 @@
    },
    "uid": "dvcsales:GC210",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -63175,7 +63262,7 @@
    },
    "uid": "dvcsales:GC211",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -63273,7 +63360,7 @@
    },
    "uid": "dvcsales:GF345",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -63365,7 +63452,7 @@
    },
    "uid": "dvcsales:GF346",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-19T16:03:59+00:00",
    "history": [
     {
@@ -63458,7 +63545,7 @@
    },
    "uid": "dvcsales:GF348",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -63550,7 +63637,7 @@
    },
    "uid": "dvcsales:GF349",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-20T16:37:02+00:00",
    "history": [
     {
@@ -63642,7 +63729,7 @@
    },
    "uid": "dvcsales:HH381",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -63751,7 +63838,7 @@
    },
    "uid": "dvcsales:OK42504",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -63845,7 +63932,7 @@
    },
    "uid": "dvcsales:OK57170",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -63938,7 +64025,7 @@
    },
    "uid": "dvcsales:PV401",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -64090,7 +64177,7 @@
    },
    "uid": "dvcsales:RV340",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -64212,7 +64299,7 @@
    },
    "uid": "dvcsales:RV346",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -64270,7 +64357,7 @@
    },
    "uid": "dvcsales:RV347",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-21T11:36:43+00:00",
    "history": [
     {
@@ -64328,7 +64415,7 @@
    },
    "uid": "dvcsales:RV348",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-21T11:36:43+00:00",
    "history": [
     {
@@ -64386,7 +64473,7 @@
    },
    "uid": "dvcsales:RV349",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -64449,7 +64536,7 @@
    },
    "uid": "dvcsales:RV352",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -64571,7 +64658,7 @@
    },
    "uid": "dvcsales:RV354",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T12:37:20+00:00",
    "history": [
     {
@@ -64629,7 +64716,7 @@
    },
    "uid": "dvcsales:RV355",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-17T09:36:30+00:00",
    "history": [
     {
@@ -65199,7 +65286,7 @@
    },
    "uid": "dvcsales:SS1274",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -65296,7 +65383,7 @@
    },
    "uid": "dvcsales:SS1275",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -65393,7 +65480,7 @@
    },
    "uid": "dvcsales:SS1276",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -65608,7 +65695,7 @@
    },
    "uid": "dvcsales:SS1282",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -65701,7 +65788,7 @@
    },
    "uid": "dvcsales:SS1286",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -65897,7 +65984,7 @@
    },
    "uid": "dvcsales:SS1297",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -65994,7 +66081,7 @@
    },
    "uid": "dvcsales:SS1299",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -66090,7 +66177,7 @@
    },
    "uid": "dvcsales:SS1300",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -66192,7 +66279,7 @@
    },
    "uid": "dvcsales:SS1301",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T09:36:57+00:00",
    "history": [
     {
@@ -66285,7 +66372,7 @@
    },
    "uid": "dvcsales:SS1302",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-15T15:35:03+00:00",
    "history": [
     {
@@ -66377,7 +66464,7 @@
    },
    "uid": "dvcsales:SS1303",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-19T09:37:04+00:00",
    "history": [
     {
@@ -66469,7 +66556,7 @@
    },
    "uid": "dvcsales:SS1304",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-15T19:23:05+00:00",
    "history": [
     {
@@ -66566,7 +66653,7 @@
    },
    "uid": "dvcsales:VB338",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -66674,7 +66761,7 @@
    },
    "uid": "dvcsales:VB339",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -66893,7 +66980,7 @@
    },
    "uid": "dvcsales:VB342",
    "active": true,
-   "stale": true,
+   "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
     {
@@ -76310,8 +76397,8 @@
    "price": 17000.0,
    "price_per_point": 85.0,
    "use_year": 2,
-   "status_raw": "New",
-   "availability": "available",
+   "status_raw": "Sale Pending",
+   "availability": "pending",
    "date_listed": "2026-10-20",
    "points_available": [
     {
@@ -76345,7 +76432,7 @@
     "price_derived": true,
     "availability_from": "index",
     "post_id": 21836,
-    "modified": "2026-10-20 21:30:06",
+    "modified": "2026-10-21 19:36:04",
     "resort_abbr": "OKW",
     "low_but_firm": true,
     "also_on": "dvcmarket"
@@ -76361,6 +76448,11 @@
      "price_per_point": 85.0,
      "availability": "available",
      "status_raw": "New"
+    },
+    {
+     "t": "2026-10-21T23:39:11+00:00",
+     "availability": "pending",
+     "status_raw": "Sale Pending"
     }
    ]
   },
@@ -91524,7 +91616,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-21T23:30:36+00:00"
+   "detail_at": "2026-10-21T23:39:11+00:00"
   },
   {
    "source": "magicresales",
@@ -91582,7 +91674,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-21T23:30:36+00:00"
+   "detail_at": "2026-10-21T23:39:11+00:00"
   },
   {
    "source": "magicresales",
@@ -91640,7 +91732,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-21T23:30:36+00:00"
+   "detail_at": "2026-10-21T23:39:11+00:00"
   },
   {
    "source": "vacationclublife",
