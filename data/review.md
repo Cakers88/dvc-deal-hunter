@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-20 23:40 UTC (latest data: **23:36 UTC scrape**; another run dispatched by this review). Scraper health: **10/10 sources returning listings** at 22:38 and 23:36. Broker alert emails in the last 2 h: none. Since last review: 2 new, 0 price changes, 0 status changes, 0 gone. **All three Sept lists unchanged.** Broker pages still couldn't be opened (WebFetch permission not granted in unattended runs), so checks use the detail pages captured by the scrape.
+**Run:** 2026-10-21 00:40 UTC (latest data: **00:36 UTC scrape**; another run dispatched by this review). Scraper health: **10/10 sources returning listings** at 23:36 and 00:36. Broker alert emails in the last 2 h: none. Since last review: 0 new, 0 price changes, 1 status change, 4 gone (all were already pending). **All three Sept lists unchanged** (savings moved by ≤$30 from the refit market model). Broker pages still couldn't be opened (WebFetch permission not granted in unattended runs), so checks use the detail pages captured by the scrape.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,10 @@ Dropped: AKV 616164 (**sold**, DVC Market SoldOut).
 
 ## Market notes
 
+- 00:36 scrape: 0 new, 0 price changes, 1 status change, 4 gone. Gmail: none.
+  - Gone (all DVC Resale Market, all previously pending, so treat as sold): **Aulani AUB3357** (100 pts, $110), OKW OK65054 ($101), BLT BL73781 ($139), GCV GC71862. None ranked in a Sept list. Pending contracts are clearing steadily.
+  - Status: AKV AKG6524 Offer Accepted → Sale Pending. Never ranked.
+  - Market model n=862: −$4.91/pt per missing current year, −$8.79 missing next year, ~$4.94 accepted below ask. Flat.
 - 23:36 scrape: 2 new, 0 price changes, 0 status changes, 0 gone. Gmail: none.
   - New (Vacation Club Life): GFV [02725](https://vacationclublife.com/listings/4301740000155688003) (150 pts Dec UY, **$175**, $26,250, 150 in Dec-2026 + 150 in Dec-2027, 2064 deed; score 47.6, #450) — too expensive for this plan. Riviera [100 pts Dec UY, $120](https://vacationclublife.com/listings/4301740000155703006) — Riviera resale can't book Aulani. Skip both.
   - Market model n=866: −$4.80/pt per missing current year, −$8.83 missing next year, ~$4.82 accepted below ask. Flat.
