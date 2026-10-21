@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-21 12:40 UTC (latest data: **12:37 UTC scrape**, dispatched by this review; the 15-min schedule is still only firing sporadically). Scraper health: **10/10 sources returning listings** at 11:41 and 12:37. Broker alert emails in the last 2 h: none. Since last review (2 scrapes): 0 new, 1 price change (BCV BC327, not in any Sept list), 0 status changes, 0 gone. **All three Sept lists unchanged** (savings drift ≤$25). Broker pages: BC327 checked by direct fetch this run; others as marked.
+**Run:** 2026-10-21 13:37 UTC (latest data: **13:36 UTC scrape**, dispatched by this review; the 15-min schedule is still only firing sporadically). Scraper health: **10/10 sources returning listings** at 12:37 (13:36 run committed cleanly). Broker alert emails in the last 2 h: none. Since last review (1 scrape): 0 new, 2 price changes (neither in any Sept list), 0 status changes, 0 gone. **All three Sept lists unchanged** (savings drift ≤$25). Broker pages: none needed this run (no new/changed listing scored ≥70 or ranked top 25).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,10 @@ Dropped: AKV 616164 (**sold**, DVC Market SoldOut).
 
 ## Market notes
 
+- 13:36 scrape (dispatched by this review): 0 new, 2 price changes, 0 status changes, 0 gone. Gmail: none.
+  - OKW [OKW210-06-1006](https://www.dvcstore.com/resort/old-key-west/okw210-06-1006/) (DVC Store, 210 pts Jun UY) cut $85 → **$82** ($17,220). Stripped (0 pts in Jun-2026), **2042 deed**, ROFR high. Sept 2027 6n: 1BR −$1.4k, 2BR roughly break-even (borrows 72), can't cover 1BR+2BR. Score 69.1 (#111). Skip.
+  - Aulani [AR120-12-0331](https://www.dvcstore.com/resort/aulani/ar120-12-0331/) (DVC Store, 120 pts Dec UY) **raised** $98 → $100. 113 pts in Dec-2026; never in a Sept top list.
+  - Market model n=862: −$5.27/pt per missing current year, −$8.84 missing next year, ~$5.19 below ask. Flat.
 - 11:41 / 12:37 scrapes: 0 new, 1 price change, 0 status changes, 0 gone. Gmail: none.
   - BCV [BC327](https://dvcsales.com/dvc-resale/beach-club/150-points/1827) (DVC Sales, 150 pts Dec UY) cut $149 → **$145** ($21,750). ✔ Page-checked 12:38: 300 pts in Dec-2026 UY (150 banked), 150/yr after, buyer reimburses 2026 dues and prepays 2027, closes Dec 8, US seller, **2042 deed**, Live. Scrape matches. Ranks #14 overall (best fit Sept 5n 1BR+2BR) but not in any Sept 6-night top list; short deed and $145/pt keep it a pass.
   - Market model n=862 unchanged (−$5.25/pt per missing current year, −$8.84 missing next year, ~$5.19 below ask).
