@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-21 07:39 UTC (latest data: **07:37 UTC scrape**, dispatched by this review — the scheduled runs skipped 06:15–07:30). Scraper health: **10/10 sources returning listings** at 06:00 and 07:37. Broker alert emails in the last 2 h: none. Since last review: 0 new, 0 price changes, 0 status changes, 1 gone. **All three Sept lists unchanged** (savings drift ≤$20 from the market-model refresh). Broker pages still not opened (WebFetch permission not available in unattended runs); checks use scrape-captured detail.
+**Run:** 2026-10-21 11:40 UTC (latest data: **11:36 UTC scrape**; no runs between 09:37 and 11:36, so this review dispatched one). Scraper health: **10/10 sources returning listings** at 09:37 and 11:36. Broker alert emails in the last 2 h: none. Since last review (3 scrapes): 2 new, 0 price changes, 1 status change, 2 gone, none affecting Aulani-eligible top lists. **All three Sept lists unchanged** (savings drift ≤$25 from the market-model refresh). Broker pages still not opened (WebFetch not available in unattended runs); checks use scrape-captured detail.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,10 @@ Dropped: AKV 616164 (**sold**, DVC Market SoldOut).
 
 ## Market notes
 
+- 08:37 / 09:37 / 11:36 scrapes: 2 new, 0 price changes, 1 status change, 2 gone. Gmail: none.
+  - The two Vacatia Riviera contracts on DVC Market (616320 130 pts, 616321 305 pts, $127) are gone, and two Riviera contracts of the same sizes appeared at DVC Sales at lower prices ([RV347](https://dvcsales.com/dvc-resale/riviera/130-points/1751) 130 pts $120, [RV348](https://dvcsales.com/dvc-resale/riviera/305-points/1752) 305 pts $113), likely the same contracts relisted. Riviera resale points can't book Aulani; not scored.
+  - AKV [AK586RS](https://resales.dvcshop.com/listings/animal-kingdom-villas-ak586rs/) (DVC Shop, 160 pts Feb UY, $99) went **Sale Pending**. Was never in a Sept top list.
+  - Market model n=862: −$5.25/pt per missing current year, −$8.84 missing next year, ~$5.19 accepted below ask. Flat.
 - 07:37 scrape (dispatched by this review): 0 new, 0 price changes, 0 status changes, 1 gone. Gmail: none.
   - Gone: Aulani [613517](https://dvcmarket.com/dvc-resale/aulani/220-points/613517) (Fidelity via DVC Market, 220 pts Mar UY, $96, $21,120, was "available") — likely sold/withdrawn. Never in a Sept top list. Aulani supply under $100 keeps thinning; Aulani AUL247LBF1 ($95) and 613999 ($95) remain.
   - Market model n=862: −$5.22/pt per missing current year, −$8.87 missing next year, ~$5.14 accepted below ask. Flat.
