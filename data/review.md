@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-21 13:37 UTC (latest data: **13:36 UTC scrape**, dispatched by this review; the 15-min schedule is still only firing sporadically). Scraper health: **10/10 sources returning listings** at 12:37 (13:36 run committed cleanly). Broker alert emails in the last 2 h: none. Since last review (1 scrape): 0 new, 2 price changes (neither in any Sept list), 0 status changes, 0 gone. **All three Sept lists unchanged** (savings drift ≤$25). Broker pages: none needed this run (no new/changed listing scored ≥70 or ranked top 25).
+**Run:** 2026-10-21 14:37 UTC (latest data: **14:37 UTC scrape**, dispatched by this review; the 15-min schedule is still only firing sporadically — no scheduled run since 13:36). Scraper health: **10/10 sources returning listings** at 13:36 (14:37 run committed cleanly). Broker alert emails in the last 2 h: none. Since last review (1 scrape): 0 new, 0 price changes, 0 status changes, 1 gone (not ranked). **All three Sept lists unchanged** (savings drift ≤$25). Broker pages: none needed this run (no new/changed listing scored ≥70 or ranked top 25).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,9 @@ Dropped: AKV 616164 (**sold**, DVC Market SoldOut).
 
 ## Market notes
 
+- 14:37 scrape (dispatched by this review): 0 new, 0 price changes, 0 status changes, 1 gone. Gmail: none.
+  - Gone: DVC Market [616133](https://dvcmarket.com) (400 pts, $165/pt, $66,000, was "available"). Never in any Sept top list.
+  - Market model n=862 unchanged (−$5.27/pt per missing current year, −$8.84 missing next year, ~$5.19 below ask).
 - 13:36 scrape (dispatched by this review): 0 new, 2 price changes, 0 status changes, 0 gone. Gmail: none.
   - OKW [OKW210-06-1006](https://www.dvcstore.com/resort/old-key-west/okw210-06-1006/) (DVC Store, 210 pts Jun UY) cut $85 → **$82** ($17,220). Stripped (0 pts in Jun-2026), **2042 deed**, ROFR high. Sept 2027 6n: 1BR −$1.4k, 2BR roughly break-even (borrows 72), can't cover 1BR+2BR. Score 69.1 (#111). Skip.
   - Aulani [AR120-12-0331](https://www.dvcstore.com/resort/aulani/ar120-12-0331/) (DVC Store, 120 pts Dec UY) **raised** $98 → $100. 113 pts in Dec-2026; never in a Sept top list.
