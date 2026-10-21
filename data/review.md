@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-21 05:38 UTC (latest data: **05:37 UTC scrape**, dispatched by this review — no scheduled run fired after 03:37). Scraper health: **10/10 sources returning listings** at 03:37 and 05:37. Broker alert emails in the last 2 h: none. Since last review: 1 new, 1 price change, 0 status changes, 3 gone. **All three Sept lists unchanged.** Broker pages still not opened (WebFetch permission not available in unattended runs); checks use scrape-captured detail.
+**Run:** 2026-10-21 06:37 UTC (latest data: **06:00 UTC scrape**). Scraper health: **10/10 sources returning listings** at 05:37 and 06:00. Broker alert emails in the last 2 h: none. Since last review: 2 new, 1 price change, 0 status changes, 4 gone. **All three Sept lists unchanged** (savings drift ≤$20 from the market-model refresh). Broker pages still not opened (WebFetch permission not available in unattended runs); checks use scrape-captured detail.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,11 @@ Dropped: AKV 616164 (**sold**, DVC Market SoldOut).
 
 ## Market notes
 
+- 06:00 scrape: 2 new, 1 price change, 0 status changes, 4 gone. Gmail: none.
+  - New (Fidelity via DVC Market): OKW [616354](https://dvcmarket.com/dvc-resale/old-key-west/50-points/616354) 50 pts Dec UY $120 and OKW [616355](https://dvcmarket.com/dvc-resale/old-key-west/25-points/616355) 25 pts Mar UY $120 — both under the minimum size for any Sept setup and overpriced. Skip.
+  - Price cut: Riviera 614422 $132 → $128 (200 pts). Riviera resale can't book Aulani; irrelevant.
+  - Gone (all DVC Market mirrors, all were "available"): SSR 616291 (Fidelity, 200 pts, $103 — never ranked in a Sept top list), Aulani 616297 (30 pts), SSR 616340 (50 pts), SSR 616280 (50 pts, DVC Resale Experts mirror).
+  - Market model n=863: −$5.22/pt per missing current year, −$8.86 missing next year, ~$5.14 accepted below ask. Flat.
 - 05:37 scrape (dispatched by this review): 1 new, 0 price changes, 0 status changes, 3 gone. Gmail: none.
   - New: HH [HH81669](https://www.dvcresalemarket.com/listings/hilton-head/hh81669/) (DVC Resale Market, 200 pts Sep UY, **$84**, $16,800, listed Oct 20). Captured detail: **356 in Sep-2026 (156 banked from 2025)**, 200 in Sep-2027/2028; seller pays 2026 dues, buyer pays 2027 (~$2,573 at $12.86, at closing if after Nov 20); can close after Dec 23; closing $754; **2042 deed**. Score 76.5 (#29), ROFR low. Sept 2027 6n: 1BR+2BR saves ~$1.6k (borrows 86), 3BR ~$3.0k — not top-5. Interesting for **late July 2027** instead: the 356 Sep-2026 points (incl. the 156 banked, which expire Aug 31, 2027) fall in that window, so 1BR+2BR Jul 5n saves ~$3.6k. Red flags: high HH dues, short deed, slow HH resale. Skip for Sept.
   - Gone (all DVC Resale Market, all already Sale Pending → treat as sold): SSR SSC8642 ($103), SSR SSB8648 ($100), GFV GFB3357 ($184). None ranked.
