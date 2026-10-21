@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-21 20:35 UTC (latest data: **20:15 UTC scheduled scrape**). Scraper health: **10/10 sources ok** (DVC Market 756, DVC Resale Market 412, DVC Shop 238, DVC Resale Experts 106, DVC Store 86, DVC Sales 70, Vacation Club Life 47, DVC by Resale 23, Buy & Sell DVC 20, Magic Resales 4). Broker alert emails in the last 2 h: none. Since last review (1 scrape): 2 new, 1 price change, 1 status change, 1 gone. **All three Sept lists and the top-3 flips unchanged** (savings drift ≤$11). Broker pages: none needed (nothing new reached the top 25 or a score of 70). Fixes: none.
+**Run:** 2026-10-21 21:36 UTC (latest data: **21:36 UTC scrape dispatched by this review**; no scheduled scrape since 20:15). Scraper health: **10/10 sources ok** (DVC Market 755, DVC Resale Market 412, DVC Shop 238, DVC Resale Experts 106, DVC Store 86, DVC Sales 70, Vacation Club Life 47, DVC by Resale 23, Buy & Sell DVC 20, Magic Resales 4). Broker alert emails in the last 2 h: none. Since last review (1 scrape): 0 new, 0 price changes, 2 status changes, 1 gone. **All three Sept lists and the top-3 flips unchanged.** Broker pages: none needed (nothing new reached the top 25 or a score of 70). Fixes: none.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,10 @@ Dropped: AKV 616164 (**sold**, DVC Market SoldOut).
 
 ## Market notes
 
+- 21:36 scrape (dispatched by this review): 0 new, 0 price changes, 2 status changes, 1 gone. Gmail: none.
+  - SSR SS38594 (DVC Resale Market) Offer Accepted → Sale Pending; Vacation Club Life 4301740000155703006 went Pending. Neither was ranked or in a Sept list.
+  - Gone: BLT 616074 (DVC Market, $158) — listed only at 20:15, probably the relisted BL517 already under contract. Not ranked.
+  - Market model n=855: −$4.95/pt per missing current year, −$8.92 missing next year, ~$5.16 below ask. Flat.
 - 20:15 scrape (scheduled): 2 new, 1 price change, 1 status change, 1 gone. Gmail: none.
   - Aulani [AUB3547](https://www.dvcresalemarket.com/listings/aulani/aub3547/) (DVC Resale Market, 160 pts Oct UY, 2062 deed) cut $110 → **$104** ($16,640); the "full 2026 points with no dues" banner was dropped from its status at the same time, so check the dues terms before trusting it. Too small for 1BR+2BR; for a 2BR it borrows 122 and costs ~$1.4k more than renting. Score 60 (#268). Not the Aulani low (DVC Shop has listings at $85–89). Skip.
   - New at DVC Market: BLT 616074 (150 pts Sep UY, $158; score 66.5, #156) and Hilton Head 616372 (400 pts, $70, only 47 pts before Feb 2028; score 53). Neither fits.
