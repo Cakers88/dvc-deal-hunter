@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-21 18:36 UTC (latest data: **18:36 UTC scrape**, dispatched by this review because the 17:39–18:24 scheduled runs didn't fire again). Scraper health: **10/10 sources returning listings** (18:36 health file). Broker alert emails in the last 2 h: none. Since last review (1 scrape): 2 new, 2 price changes, 1 status change, 3 gone — none relevant to Sept. **All three Sept lists and the top-3 flips unchanged** (savings drift ≤$10). Broker pages: none needed this run (no new/changed listing scored ≥70 or ranked top 25). Fixes: none.
+**Run:** 2026-10-21 19:36 UTC (latest data: **19:37 UTC scrape**, dispatched by this review because the 18:52–19:22 scheduled runs didn't fire). Scraper health: **10/10 sources returning listings**; DVC Store's public feed shrank 150 → 86 (it dropped 64 old sold/pending records — checked live, X-WP-Total 86, no available contract vanished), so not a parser fault. Broker alert emails in the last 2 h: none. Since last review (1 scrape): 1 new, 1 status change, 64 gone (all DVC Store sold/pending housekeeping). **All three Sept lists and the top-3 flips unchanged** (savings drift ≤$7). Broker pages: none needed this run. Fixes: none.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,11 @@ Dropped: AKV 616164 (**sold**, DVC Market SoldOut).
 
 ## Market notes
 
+- 19:37 scrape (dispatched by this review): 1 new, 0 price changes, 1 status change, 64 gone. Gmail: none.
+  - New: Polynesian [PL64668](https://www.dvcresalemarket.com/listings/polynesian/pl64668/) (DVC Resale Market, 95 pts Oct UY, $195, 2066 deed — Island Tower-era resale restrictions, can't book Aulani). Not scored. Skip.
+  - Polynesian PLG4643 went Offer Accepted. Not ranked.
+  - Gone: 64 DVC Store records (53 sold, 11 already sale-pending incl. Aulani AR200-04-0409, SSR SS250-12-0127, OKW270-12-1118-1). The broker pruned old records from its feed; none were available, none in a Sept list.
+  - Market model n=855 (was 864 — fewer sold DVC Store comps): stripped discount −$5.01/pt per missing current year, −$9.01 missing next year, ~$5.18 below ask. Flat.
 - 18:36 scrape (dispatched by this review): 2 new, 2 price changes, 1 status change, 3 gone. Gmail: none.
   - New at DVC Market: AKV [616368](https://dvcmarket.com) (240 pts Dec UY, $110, only 18 pts in Dec-2026) and Poly 616369 (350 pts, $164, stripped). Both score 58 (#297/#298). Skip.
   - AKV [AK808](https://dvcsales.com) (DVC Sales, 160 pts Dec UY, 152 in Dec-2026) cut $119 → $117 ($18,720); score 69.5 (#99), not in a Sept list. SSR SSC8489 (50 pts) cut $127 → $120; too small.
