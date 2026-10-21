@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-21 01:10 UTC (latest data: **01:04 UTC scrape**). Scraper health: **10/10 sources returning listings** at 00:36 and 01:04. Broker alert emails in the last 2 h: none. Since last review: 5 new (all DVC Resale Market), 0 price changes, 1 status change, 0 gone. **All three Sept lists unchanged**; net costs rose ~$30–50 from the refit market model (stripped-resale discount slightly larger). Broker pages still couldn't be opened (WebFetch permission not granted in unattended runs), so checks use the detail pages captured by the scrape.
+**Run:** 2026-10-21 02:38 UTC (latest data: **02:36 UTC scrape**, dispatched by this review — no scheduled run fired between 01:04 and 02:36). Scraper health: **10/10 sources returning listings** at 01:04 and 02:36. Broker alert emails in the last 2 h: none. Since last review: 1 new, 0 price changes, 0 status changes, 1 gone. **All three Sept lists unchanged** (net costs within a few dollars). Broker pages still not opened (WebFetch not available in unattended runs); checks use scrape-captured detail.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,10 @@ Dropped: AKV 616164 (**sold**, DVC Market SoldOut).
 
 ## Market notes
 
+- 02:36 scrape (dispatched by this review): 1 new, 0 price changes, 0 status changes, 1 gone. Gmail: none.
+  - New: OKW [OKW263LBF1](https://resales.dvcshop.com/listings/old-key-west-okw263lbf1/) (DVC Shop, 200 pts Feb UY, **$85**, $17,000, extended to 2057, dues $11.21). Cheap, but only 116 pts in Feb-2027 (0 in 2026) — can't cover 1BR+2BR Sept 6n without the 2028 year, and 1BR/2BR **lose vs renting** (−$1.6k / −$0.3k, borrows 88/166). ROFR high at $85. Score 56.4 (#333). Skip.
+  - Gone: DVC Market 616174 ($165/pt, 400 pts). Never ranked.
+  - Market model n=868: −$5.09/pt per missing current year, −$8.83 missing next year, ~$5.01 accepted below ask. Flat.
 - 01:04 scrape: 5 new, 0 price changes, 1 status change, 0 gone. Gmail: none.
   - New (DVC Resale Market, all listed Oct 20, all "full 2026 points, seller pays 2026 dues"): OKW [OK84472](https://www.dvcresalemarket.com/listings/old-key-west/ok84472/) 150 pts Aug UY $105 ($15,750), 150 in Aug-2026 + 150 in Aug-2027, **2042 deed** (score 71.5, #73); SSR [SS38681](https://www.dvcresalemarket.com/listings/saratoga-springs/ss38681/) 275 pts Oct UY **$113** ($31,075), 275/275, 2054 deed (score 70.4, #92). Both ≥70, so flagged for checking, but broker pages couldn't be opened; captured detail used. For Sept 2027 6n both **lose vs renting** in every room setup (OK84472: 1BR −$2.5k, 2BR −$0.9k; SS38681: 1BR+2BR −$0.6k borrowing 211). Priced $5–15/pt above comparable contracts. Skip. Also new: AKV AK36528 (120 pts, $130, 2BR −$0.5k), OKW OKA5091 (50 pts, under minimum), PVB PLA4687 (Polynesian, can't book Aulani from resale).
   - Status: SSR [SSC8626](https://www.dvcresalemarket.com/listings/saratoga-springs/ssc8626/) (200 pts Mar UY, $98) Offer Accepted → back to available ("Certified Hot Price") — a deal fell through. Only 143 pts in Mar-2027 (0 in 2026); 2BR Sept 6n roughly break-even (−$60, borrows 139). Not a pick.
