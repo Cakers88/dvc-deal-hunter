@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-21 11:40 UTC (latest data: **11:36 UTC scrape**; no runs between 09:37 and 11:36, so this review dispatched one). Scraper health: **10/10 sources returning listings** at 09:37 and 11:36. Broker alert emails in the last 2 h: none. Since last review (3 scrapes): 2 new, 0 price changes, 1 status change, 2 gone, none affecting Aulani-eligible top lists. **All three Sept lists unchanged** (savings drift ≤$25 from the market-model refresh). Broker pages still not opened (WebFetch not available in unattended runs); checks use scrape-captured detail.
+**Run:** 2026-10-21 12:40 UTC (latest data: **12:37 UTC scrape**, dispatched by this review; the 15-min schedule is still only firing sporadically). Scraper health: **10/10 sources returning listings** at 11:41 and 12:37. Broker alert emails in the last 2 h: none. Since last review (2 scrapes): 0 new, 1 price change (BCV BC327, not in any Sept list), 0 status changes, 0 gone. **All three Sept lists unchanged** (savings drift ≤$25). Broker pages: BC327 checked by direct fetch this run; others as marked.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,9 @@ Dropped: AKV 616164 (**sold**, DVC Market SoldOut).
 
 ## Market notes
 
+- 11:41 / 12:37 scrapes: 0 new, 1 price change, 0 status changes, 0 gone. Gmail: none.
+  - BCV [BC327](https://dvcsales.com/dvc-resale/beach-club/150-points/1827) (DVC Sales, 150 pts Dec UY) cut $149 → **$145** ($21,750). ✔ Page-checked 12:38: 300 pts in Dec-2026 UY (150 banked), 150/yr after, buyer reimburses 2026 dues and prepays 2027, closes Dec 8, US seller, **2042 deed**, Live. Scrape matches. Ranks #14 overall (best fit Sept 5n 1BR+2BR) but not in any Sept 6-night top list; short deed and $145/pt keep it a pass.
+  - Market model n=862 unchanged (−$5.25/pt per missing current year, −$8.84 missing next year, ~$5.19 below ask).
 - 08:37 / 09:37 / 11:36 scrapes: 2 new, 0 price changes, 1 status change, 2 gone. Gmail: none.
   - The two Vacatia Riviera contracts on DVC Market (616320 130 pts, 616321 305 pts, $127) are gone, and two Riviera contracts of the same sizes appeared at DVC Sales at lower prices ([RV347](https://dvcsales.com/dvc-resale/riviera/130-points/1751) 130 pts $120, [RV348](https://dvcsales.com/dvc-resale/riviera/305-points/1752) 305 pts $113), likely the same contracts relisted. Riviera resale points can't book Aulani; not scored.
   - AKV [AK586RS](https://resales.dvcshop.com/listings/animal-kingdom-villas-ak586rs/) (DVC Shop, 160 pts Feb UY, $99) went **Sale Pending**. Was never in a Sept top list.
