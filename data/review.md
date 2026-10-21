@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-21 15:37 UTC (latest data: **15:37 UTC scrape**, dispatched by this review; the 15-min schedule is still only firing sporadically — no scheduled run since 11:41). Scraper health: **10/10 sources returning listings** (15:37). Broker alert emails in the last 2 h: none. Since last review (1 scrape): 3 new, 1 price change, 2 status changes, 0 gone — none relevant to Sept. **All three Sept lists unchanged** (savings drift ≤$26). Broker pages: none needed this run (no new/changed listing scored ≥70 or ranked top 25).
+**Run:** 2026-10-21 16:36 UTC (latest data: **16:09 UTC scheduled scrape** — the 15-min schedule fired on its own again). Scraper health: **10/10 sources returning listings** (16:09). Broker alert emails in the last 2 h: none. Since last review (1 scrape): 4 new, 1 price change, 3 status changes, 1 gone — none relevant to Sept. **All three Sept lists unchanged** (savings drift ≤$15). Broker pages: none needed this run (no new/changed listing scored ≥70 or ranked top 25). Fixes: none.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,11 @@ Dropped: AKV 616164 (**sold**, DVC Market SoldOut).
 
 ## Market notes
 
+- 16:09 scrape (scheduled): 4 new, 1 price change, 3 status changes, 1 gone. Gmail: none.
+  - New: four 50-pt Hilton Head contracts at DVC Resale Market (HHA1834–HHA1837, $89–$95, 2042 deeds, few or no current points). Far too small for any setup. Skip.
+  - OKW [OKA5028](https://www.dvcresalemarket.com/listings/old-key-west/oka5028/) (230 pts Dec UY) cut $92 → **$88** ($20,240). Only 7 pts in Dec-2026, **2042 deed**; score 48 (#428). Skip.
+  - SSR SSR590SR (DVC Shop, $91, fully stripped) and AKV AKG6530 ($123) went pending; SSR SSC8489 (50 pts) back to available; SSR SSR578LBF1 (DVC Shop, 100 pts, was pending) gone. None ranked.
+  - Market model n=868: −$4.89/pt per missing current year, −$8.96 missing next year, ~$5.27 below ask. Flat.
 - 15:37 scrape (dispatched by this review): 3 new, 1 price change, 2 status changes, 0 gone. Gmail: none.
   - New Aulani [AUB3582](https://www.dvcresalemarket.com/listings/aulani/aub3582/) (DVC Resale Market, 250 pts Oct UY, **$100**, $25,000, 2062 deed): **fully stripped** — 0 pts in Oct-2026 and Oct-2027, first points Oct 2028; seller pays 2027 dues, can't close until after May 22, 2027. Useless for Sept or July 2027 (score 0, #541). Skip.
   - New Aulani AULS31045 (50 pts Oct UY, $141) and AULS35035 (35 pts Apr UY, $143) at DVC Resale Experts: tiny subsidized-dues contracts, 0 current-year points, far too small for any setup. Skip.
