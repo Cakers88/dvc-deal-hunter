@@ -36,6 +36,7 @@ class PoliteSession:
 
     def get(self, url: str, **kw) -> requests.Response:
         host = requests.utils.urlparse(url).netloc
+        last_err = "no response"
         for attempt in range(3):
             self._wait(host)
             try:
@@ -45,12 +46,14 @@ class PoliteSession:
                     wait = int(r.headers.get("Retry-After", "20") or 20)
                     log.warning("%s %s -> %s, backing off %ss", host, url, r.status_code, wait)
                     time.sleep(min(wait, 60))
+                    last_err = f"HTTP {r.status_code}"
                     continue
                 return r
             except requests.RequestException as e:
+                last_err = f"{type(e).__name__}: {str(e)[:160]}"
                 log.warning("GET %s failed (%s), attempt %d", url, e, attempt + 1)
                 time.sleep(5 * (attempt + 1))
-        raise RuntimeError(f"GET failed after retries: {url}")
+        raise RuntimeError(f"GET failed after retries: {url} (last: {last_err})")
 
     def text(self, url: str, **kw) -> str:
         r = self.get(url, **kw)

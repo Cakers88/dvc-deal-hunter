@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-21 22:36 UTC (latest data: **22:38 UTC scrape dispatched by this review**; still no scheduled scrape since 20:15). Scraper health: **9/10 sources ok** — DVC Sales failed this run (`GET failed after retries` on the listings page); it was ok at 21:36 and the page answers 200 now, so treated as a one-off timeout, not fixed. Its 85 listings are carried over from 21:36 (DVC Market 755, DVC Resale Market 412, DVC Shop 238, DVC Resale Experts 106, DVC Store 86, Vacation Club Life 47, DVC by Resale 23, Buy & Sell DVC 20, Magic Resales 4). Broker alert emails in the last 2 h: none. Since last review (1 scrape): 0 new, 0 price changes, 1 status change, 0 gone. **All three Sept lists and the top-3 flips unchanged.** Broker pages: none needed. Fixes: none.
+**Run:** 2026-10-21 23:36 UTC (latest data: 23:30 UTC scheduled scrape). Scraper health: **9/10 sources ok** — **DVC Sales failed for the 2nd run in a row** (`GET failed after retries` on the listings page; both failing runs spent ~2 min in retries, i.e. the requests from the GitHub runner time out or get cut). From this review's network the same page answers 200 in ~1 s (3.5 MB) and the adapter parses fine (71 own listings now vs 85 carried; 18 would go "gone", 4 new: AK816, AK822, AU394, RV345), so it's not a parser break and nothing to fix in the adapter. Likely the site is throttling/blocking GitHub runner IPs or responding very slowly to them — not something to work around. Fix made: `hunter/http.py` now puts the last underlying error (timeout / connection reset / HTTP code) into the failure message so next run's health.json shows the cause. Its 85 listings are carried over (DVC Market 756, DVC Resale Market 412, DVC Shop 238, DVC Resale Experts 106, DVC Store 86, Vacation Club Life 47, DVC by Resale 23, Buy & Sell DVC 20, Magic Resales 4). Broker alert emails in the last 2 h: none. Since last review (1 scrape): 1 new, 0 price changes, 0 status changes, 0 gone. **All three Sept lists and the top-3 flips unchanged.** I checked the live DVC Sales index at 23:36: SS1297 ($103), SS1275 ($102), SS1286 ($104) and AU385 are all still listed at the same prices.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -46,6 +46,10 @@ Dropped: AKV 616164 (**sold**, DVC Market SoldOut).
 
 ## Market notes
 
+- 23:30 scrape (scheduled): 1 new, 0 price changes, 0 status changes, 0 gone. Gmail: none.
+  - New: AKV [616373](https://dvcmarket.com/dvc-resale/animal-kingdom/100-points/616373) (DVC Market mirror of a DVC Sales listing, 100 pts Dec UY, $111, $11,100). Too small for any Sept 6-night setup; score 57.9 (#309). Skip.
+  - DVC Sales failed again (2nd in a row); see header.
+  - Market model n=855: −$4.95/pt per missing current year, −$8.92 missing next year, ~$5.16 below ask. Flat.
 - 22:38 scrape (dispatched by this review): 0 new, 0 price changes, 1 status change, 0 gone. Gmail: none.
   - AKV AKG6530 (DVC Resale Market, $123) Offer Accepted → Sale Pending. Not ranked.
   - DVC Sales scrape failed (transient); if it fails again next run, the adapter gets investigated.
