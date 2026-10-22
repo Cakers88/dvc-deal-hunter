@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-22 00:36 UTC (latest data: 23:39 UTC scrape). Scraper health: **10/10 sources ok** — **DVC Sales recovered** at 23:39 (71 listings in 0.8 s), so the two earlier failures were transient on the runner side; no adapter fix needed. Counts: DVC Market 756, DVC Resale Market 412, DVC Shop 238, DVC Resale Experts 106, DVC Store 86, DVC Sales 71, Vacation Club Life 47, DVC by Resale 23, Buy & Sell DVC 20, Magic Resales 4. Fixes made this run: none. Broker alert emails in the last 2 h: none. Since last review (1 scrape): 1 new, 0 price changes, 1 status change, 1 gone. **All three Sept lists and the top-3 flips unchanged** (SS1297/SS1275/SS1286 still listed at the same prices after the DVC Sales refresh).
+**Run:** 2026-10-22 01:36 UTC (latest data: 01:36 UTC scrape, dispatched by this review — scheduled cron has not fired since 23:28). Scraper health: **10/10 sources ok** (DVC Market 756, DVC Resale Market 413, DVC Shop 238, DVC Resale Experts 106, DVC Store 86, DVC Sales 71, Vacation Club Life 47, DVC by Resale 23, Buy & Sell DVC 20, Magic Resales 4). Fixes made this run: none. Broker alert emails in the last 2 h: none. Since last review: 2 new (GF33371 at $177, rank 268; HH31829, 50 pts, below minimum), 2 status changes (OKW OK85024 → Offer Accepted; SSR SSC8678 → Sale Pending), 1 gone (BLC3816, was pending). None touch the Sept lists. **All three Sept lists and the top-3 flips unchanged.**
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -383,6 +383,7 @@ Dropped: AKV 616164 (**sold**, DVC Market SoldOut).
 
 ## Scraper health
 
+- 01:36 (dispatched by this review): all 10 sources OK. No scheduled run since 23:28.
 - 00:36 and 01:04: all 10 sources OK (01:04: DVC Market 743, DVC Resale Market 409, DVC Shop 238, DVC Store 150, DVC Resale Experts 105, DVC Sales 69, Vacation Club Life 47, DVC by Resale 24, Buy and Sell DVC 20, Magic Resales 4).
 - 19:29 (scheduled) and 20:36 (dispatched by this review): all 10 sources OK (20:36: DVC Market 744, DVC Resale Market 406, DVC Shop 238, DVC Store 150, DVC Resale Experts 106, DVC Sales 69, Vacation Club Life 45, DVC by Resale 24, Buy and Sell DVC 20, Magic Resales 4). No scheduled run between 19:29 and 20:36.
 - 18:37 (dispatched by this review): all 10 sources OK (DVC Market 747, DVC Resale Market 400, DVC Shop 238, DVC Store 150, DVC Resale Experts 105, DVC Sales 70, Vacation Club Life 45, DVC by Resale 24, Buy and Sell DVC 20, Magic Resales 4). Scheduled cron has not fired since 15:22.
