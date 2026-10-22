@@ -1,13 +1,13 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-22 17:45 UTC (latest data: 17:36 UTC scrape, dispatched by this review; Sept tables below unchanged since the 07:36 review). Scraper health: **10/10 sources ok**. Fixes made this run: none. Broker alert emails in the last 2 h: none.
-Since last review: 3 new, 1 price change, 2 status changes, 0 gone. Nothing new reaches the top 25 or a Sept list; no ranking changes.
+**Run:** 2026-10-22 18:40 UTC (latest data: 18:37 UTC scrape, dispatched by this review). Scraper health: **10/10 sources ok**. Fixes made this run: none. Broker alert emails in the last 2 h: none.
+Since last review: 3 new, 2 price changes, 2 status changes, 6 gone. **Two of this morning's Fidelity picks sold** (SSR 616382, AKV 616383 — DVC Market now shows them SoldOut), so the 1BR and 2BR lists reshuffle; nothing new reaches a Sept top 3. The 1BR+2BR top 5 is unchanged.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
 ✔ = checked on the broker's (or mirror's) listing page (this run or earlier). ⚠ = not checked on the broker page.
 
-**About the new Fidelity mirrors:** these come only through DVC Market (the Fidelity site itself is not scraped, on purpose). DVC Market's page shows the points and "Dues Reimbursement (2026)", but it works that out as *all 2026 points × dues*, banked points included (it does this on every listing). The model charges the normal 2026 dues on the contract's points. If Fidelity's real terms match DVC Market's number, add about $2.6k to OKW 616379 and about $1.1k to each 100-point contract. Ask the broker before relying on any of these.
+**About the new Fidelity mirrors:** these come only through DVC Market (the Fidelity site itself is not scraped, on purpose). DVC Market's page shows the points and "Dues Reimbursement (2026)", but it works that out as *all 2026 points × dues*, banked points included (it does this on every listing). The model charges the normal 2026 dues on the contract's points. If Fidelity's real terms match DVC Market's number, add about $2.6k to OKW 616379 and about $1.1k to OKW 616380. Ask the broker before relying on any of these.
 
 ## 1-bedroom + 2-bedroom, Sept, 6 nights (needs 486 pts; renting would cost $12,150)
 
@@ -25,21 +25,21 @@ Dropped: Vacation Club Life SSR 4301740000153743001 (now #6, saves $4.0k; unchan
 
 | # | Contract | Pts | $/pt | Price | Net cost (saves) | Cash / months | Book on | ROFR | Judgment |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 | **NEW** [OKW 616380 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/old-key-west/100-points/616380) Oct UY | 100 | $78 | $7,800 | $3,792 ($1,308) | $10.4k / 15 | 2027-02-12 | **high** | ✔ InStock. 200 in Oct-2026 (100 banked), borrows 4. **Probably a 2042 deed** (DVC Market lists it as "OKW(42)"); $78 invites ROFR. Dues could run up to $1.1k higher. |
-| 2 | **NEW** [SSR 616382 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/saratoga-springs/100-points/616382) Oct UY | 100 | $96 | $9,600 | $3,811 ($1,289) | $12.0k / 15 | 2027-02-12 | **high** | ✔ InStock. Same 200/100 setup, 2054 deed, easier to resell than OKW. ROFR high at $96 for SSR. |
-| 3 | **NEW** [AKV 616383 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/animal-kingdom/100-points/616383) Oct UY | 100 | $107 | $10,700 | $4,073 ($1,027) | $13.2k / 15 | 2027-02-12 | medium | ✔ InStock. Same 200/100 setup, 2057 deed, ROFR medium. **Best-balanced of the three.** |
+| 1 | [OKW 616380 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/old-key-west/100-points/616380) Oct UY | 100 | $78 | $7,800 | $3,793 ($1,307) | $10.4k / 15 | 2027-02-12 | **high** | ✔ InStock 18:40. 200 in Oct-2026 (100 banked), borrows 4. **Probably a 2042 deed** ("OKW(42)"); $78 invites ROFR. Dues could run up to $1.1k higher. Now the only 1BR contract that clearly beats renting. |
+| 2 | [Aulani 613999 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/aulani/100-points/613999) Dec UY | 100 | $95 | $9,500 | $4,368 ($732) | $11.8k / 15 | 2027-01-30 | medium | ✔ InStock 18:40. 156 in Dec-2026 (56 banked), borrows 48, home-resort window. Thin savings. |
+| 3 | [BRV WLB100-06-1008-2 (DVC Store)](https://www.dvcstore.com/resort/boulder-ridge/wlb100-06-1008-2/) Jun UY | 100 | $105 | $10,500 | $4,423 ($677) | $12.5k / 15 | 2027-04-03 | medium | ⚠ Books only ~5 months out (no Aulani home window), borrows 85, **2042 deed**. Marginal. |
 
-Dropped: Aulani 613999 (saves $743) and BRV WLB100-06-1008-2. These three new contracts are the first to clearly beat renting for a 1BR alone since yesterday's sales, but the savings are modest and depend on the dues terms.
+Gone: SSR 616382 and AKV 616383 (both SoldOut on DVC Market, checked 18:40). Renting is now about as good as buying for a 1BR alone, except OKW 616380 if you accept its ROFR and deed risk.
 
 ## 2-bedroom, Sept, 6 nights (needs 282 pts; renting would cost $7,050)
 
 | # | Contract | Pts | $/pt | Price | Net cost (saves) | Cash / months | Book on | ROFR | Judgment |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 | **NEW** [OKW 616380](https://dvcmarket.com/dvc-resale/old-key-west/100-points/616380) Oct UY | 100 | $78 | $7,800 | $4,419 ($2,631) | $10.4k / 15 | 2027-02-12 | **high** | ✔ Same contract as 1BR #1, but **borrows 82 of the 100 Oct-2027 points**, so the resale is mostly stripped. 2042 deed, ROFR high. |
-| 2 | **NEW** [SSR 616382](https://dvcmarket.com/dvc-resale/saratoga-springs/100-points/616382) Oct UY | 100 | $96 | $9,600 | $4,438 ($2,612) | $12.0k / 15 | 2027-02-12 | **high** | ✔ Borrows 82. 2054 deed. |
-| 3 | **NEW** [AKV 616383](https://dvcmarket.com/dvc-resale/animal-kingdom/100-points/616383) Oct UY | 100 | $107 | $10,700 | $4,700 ($2,350) | $13.2k / 15 | 2027-02-12 | medium | ✔ Borrows 82. 2057 deed, ROFR medium. |
+| 1 | [OKW 616380](https://dvcmarket.com/dvc-resale/old-key-west/100-points/616380) Oct UY | 100 | $78 | $7,800 | $4,430 ($2,620) | $10.4k / 15 | 2027-02-12 | **high** | ✔ Same contract as 1BR #1, but **borrows 82 of the 100 Oct-2027 points**, so the resale is mostly stripped. 2042 deed, ROFR high. |
+| 2 | [HH 616377 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/hilton-head/150-points/616377) Feb UY | 150 | $65 | $9,750 | $5,160 ($1,890) | $13.3k / 15 | 2027-02-12 | medium | ✔ InStock 18:40. 300 in Feb-2027 (150 banked), **no borrowing**. Hilton Head: 2042 deed, slow resale. |
+| 3 | [VB V1508AR1 (DVC by Resale)](https://www.dvcbyresale.com/buy.php?listid=1858580847851351) Aug UY | 150 | $45 | $6,750 | $5,268 ($1,782) | $10.5k / 15 | 2027-02-12 | **high** | ⚠ Back on the list. 123 in Aug-2026, 150 in Aug-2027, borrows 9. Vero Beach **2042 deed**, $45 is ROFR bait, resale market thin. |
 
-Also new: [HH 616377](https://dvcmarket.com/dvc-resale/hilton-head/150-points/616377) (Feb UY, $65, 300 pts in Feb-2027 incl. 150 already banked, no borrowing, saves $1.9k, #4). Hilton Head has a 2042 deed and resells slowly. Dropped: SSR 616162 (now #6), HH HHI26452. Dropped as well: VB V1508AR1 (now #5). Its DVC Market mirror 616004 ($45) disappeared at 06:52, but the DVC by Resale listing is still up.
+Gone: SSR 616382 and AKV 616383 (sold). SSR 616162 (saves $1.5k, 2054 deed) is #4 and the best long-deed option.
 
 ## 3-bedroom grand villa, Sept, 6 nights (FYI)
 
@@ -52,6 +52,13 @@ OKW 616379 leads too (saves $6.5k, borrows 110), ahead of Aulani AUL247LBF1 ($5.
 3. **NEW** [Aulani AUE3552 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/aulani/aue3552/): +$4.4k over 2 use years on $27k cash (9 months) after today's cut to $97. ✔ 434 pts in Feb-2027 (184 banked), seller pays 2026 dues. Needs ~684 points rented, which is commercial-use territory. The 1-year version (+$1.8k, 434 pts) is the only one I'd call a plausible one-off. (SSR SSR13191, +$3.9k, drops to #4.)
 
 ## Market notes
+
+- 18:37 scrape (dispatched by this review): 3 new, 1 price change, 2 status changes, 6 gone (plus the 17:57 scheduled run: 1 price change). Gmail: none. 10/10 sources ok.
+  - Gone: **SSR 616382 and AKV 616383** (Fidelity via DVC Market; ✔ both SoldOut on DVC Market 18:40), plus DVC Market 616381 (50 pts) and 616139, DVC Store OKW300-02-0825 and SS200-12-1006 (already marked sold). Two new Fidelity 100-pointers selling within ~11 hours says Fidelity's sub-$100 SSR/AKV pricing is getting snapped up; OKW 616380 and 616379 are still in stock.
+  - New: ✔ [Aulani 616395 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/aulani/200-points/616395) (200 pts Sep UY, $115, $23,000; 400 in Sep-2026 incl. 200 banked, 200 in Sep-2027; dues $10.96/pt; score 71.2, #84, ROFR low). Page matches the scrape. Pricey for Aulani (avg ~$99): it **doesn't beat renting** for 1BR, 2BR or 1BR+2BR in Sept (only the 3BR plan saves ~$1.1k). Also SSR SS98673 (270 pts Oct UY, $116, score 68.2, #130) and Riviera RR32354 (not scored). Not relevant.
+  - Price drops: Hilton Head [HH381 (DVC Sales)](https://dvcsales.com/dvc-resale/hilton-head/250-points/1815) $66 → $64 (only 193 pts in Feb-2027, 2042 deed, at Disney's buyback, score 67.3, #147); BLT BL33758 $135 → $132 (0 pts before 2028). Neither affects a Sept list.
+  - Status: DVC Store Vero Beach VB100-10-0924 back to available (not scored); HHB1831 now "Sale Pending".
+  - Market model n=857: −$4.99/pt per missing current year (was −$4.49), −$8.95 missing next year, ~$5.00 below ask. Slight shift toward heavier discount for stripped contracts, within the error band (±$1.06).
 
 - 17:36 scrape (dispatched by this review): 3 new, 1 price change, 2 status changes, 0 gone. Gmail: none. 10/10 sources ok.
   - New (DVC Resale Market): ✔ [AKV AK36529](https://www.dvcresalemarket.com/listings/animal-kingdom-lodge/ak36529/) (100 pts Feb UY, $132, $13,200; 200 in Feb-2027 incl. 100 banked, 100 in 2028; seller pays 2026 dues, buyer pays 2027; 2057 deed; score 72.4, #75, ROFR low). Checked on the page 17:40, matches the scrape. Too small for any Sept setup on its own (2BR saves only $86, 1BR costs $1.2k more than renting). Also SSR SS38706 (200 pts Apr UY, $105, only 85 in Apr-2027; score 64.3, #223) and AKV AK26522 (125 pts Oct UY, $131; score 58.7). Not relevant.
