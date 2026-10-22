@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-22 10:38 UTC (latest data: 10:37 UTC scrape, dispatched by this review after a 2-hour gap since 08:36; tables below unchanged from the 07:36 review). Scraper health: **10/10 sources ok** (DVC Market 761, DVC Resale Market 411, DVC Shop 238, DVC Resale Experts 106, DVC Store 86, DVC Sales 71, Vacation Club Life 47, DVC by Resale 23, Buy & Sell DVC 20, Magic Resales 4). Fixes made this run: none (07:36 run fixed dvcmarket OKW deed year). Broker alert emails in the last 2 h: none.
+**Run:** 2026-10-22 13:36 UTC (latest data: 12:56 UTC scrape; tables below unchanged since the 07:36 review). Scraper health: **10/10 sources ok** (DVC Market 759, DVC Resale Market 411, DVC Shop 238, DVC Resale Experts 106, DVC Store 86, DVC Sales 70, Vacation Club Life 47, DVC by Resale 22, Buy & Sell DVC 20, Magic Resales 4). Fixes made this run: none. Broker alert emails in the last 2 h: none.
 Since last review: **8 new** (a batch of Fidelity contracts mirrored on DVC Market), 1 price change, 2 gone. **New #1 for 1BR+2BR and new top 3 for both 1BR and 2BR** — all Fidelity mirrors with Oct use year and doubled 2026 points.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
@@ -53,6 +53,10 @@ OKW 616379 leads too (saves $6.5k, borrows 110), ahead of Aulani AUL247LBF1 ($5.
 
 ## Market notes
 
+- 12:56 scrape (scheduled): 0 new, 1 price change, 0 status changes, 1 gone. Gmail: none.
+  - Price drop: Aulani [AU397 (DVC Sales)](https://dvcsales.com/dvc-resale/aulani/200-points/1796) $102 → **$100** ($20,000, 200 pts Apr UY). ✔ Checked on the page 13:36: still Live, 64 banked in Apr-2026 / 400 in Apr-2027 (200 banked) / 200 in 2028, buyer prepays 2027 dues ($2,192), closes Dec 9, 2026, US seller, 2062 deed. Score 76.4 (#35) but only #20 for 1BR+2BR Sept (saves $3.3k) and doesn't beat renting for 1BR or 2BR alone; DVC Shop's AUL247LBF1 ($95) is still the better Aulani pick. Not a new Aulani low.
+  - Gone: DVC by Resale B5012NA0 ($136, 50 pts, was pending) — read as a closed sale. Not ranked.
+  - 11:39 scrape: no changes. Market model n=861 unchanged (−$4.23/pt per missing current year, −$8.81 missing next, ~$4.83 below ask).
 - 10:37 scrape (dispatched by this review): 1 new, 0 price changes, 0 status changes, 2 gone. Gmail: none. 10/10 sources ok (DVC Market 759).
   - DVC Sales Aulani AU381 relisted as [AU399](https://dvcsales.com/dvc-resale/aulani/160-points/1626) (same page, 160 pts Mar UY, $99, $15,840; 266 in Mar-2026 incl. 106 banked, 2062 deed). Score 63.9 (#225); no Sept list affected.
   - Gone: SSR SS1274 (DVC Sales, 250 pts Dec UY, $100). Not ranked in any Sept list.
