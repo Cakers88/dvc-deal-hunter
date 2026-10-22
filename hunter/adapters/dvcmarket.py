@@ -191,6 +191,12 @@ def normalize(row: dict, years: list[int]) -> dict:
     x["resort_short_name"] = row.get("resort_short_name")
     if resort_key == "okw":
         x["okw_2057"] = bool(re.search(r"57", (row.get("resort_short_name") or "") + (row.get("resort_name") or "")))
+        # expiration_year is often blank for OKW; the short name ("OKW(42)" / "OKW(57)") says which deed it is
+        if not d["expiration"]:
+            if x["okw_2057"]:
+                d["expiration"] = 2057
+            elif re.search(r"42", row.get("resort_short_name") or ""):
+                d["expiration"] = 2042
     x["synced_at"] = row.get("synced_at")
     x["updated_at"] = row.get("updated_at")
     x["sync_hash"] = row.get("sync_hash")
