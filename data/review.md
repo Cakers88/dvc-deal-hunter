@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-22 01:36 UTC (latest data: 01:36 UTC scrape, dispatched by this review — scheduled cron has not fired since 23:28). Scraper health: **10/10 sources ok** (DVC Market 756, DVC Resale Market 413, DVC Shop 238, DVC Resale Experts 106, DVC Store 86, DVC Sales 71, Vacation Club Life 47, DVC by Resale 23, Buy & Sell DVC 20, Magic Resales 4). Fixes made this run: none. Broker alert emails in the last 2 h: none. Since last review: 2 new (GF33371 at $177, rank 268; HH31829, 50 pts, below minimum), 2 status changes (OKW OK85024 → Offer Accepted; SSR SSC8678 → Sale Pending), 1 gone (BLC3816, was pending). None touch the Sept lists. **All three Sept lists and the top-3 flips unchanged.**
+**Run:** 2026-10-22 02:36 UTC (latest data: 02:00 UTC scheduled scrape). Scraper health: **10/10 sources ok** (DVC Market 756, DVC Resale Market 413, DVC Shop 238, DVC Resale Experts 106, DVC Store 86, DVC Sales 71, Vacation Club Life 47, DVC by Resale 23, Buy & Sell DVC 20, Magic Resales 4). Fixes made this run: none. Broker alert emails in the last 2 h: none. Since last review: 0 new, 0 price changes, 0 status changes, 1 gone (GFV 616174, 400 pts at $165 on DVC Market; not ranked). **All three Sept lists and the top-3 flips unchanged.**
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -45,6 +45,10 @@ Dropped: AKV 616164 (**sold**, DVC Market SoldOut).
 3. [SSR SSR13191 (DVC Resale Experts)](https://www.dvcresaleexperts.com/dvc-listing/ssr13191-june-225): +$3.8k over 2 use years on $27k cash (7 months). Relies on renting 675 points with an expiry clock; 2026 dues terms not stated. Plausible as a one-off, not more.
 
 ## Market notes
+
+- 02:00 scrape (scheduled — cron firing again): 0 new, 0 price changes, 0 status changes, 1 gone. Gmail: none.
+  - Gone: Grand Floridian 616174 (DVC Market, 400 pts Oct UY, $165, $66,000). Not ranked; no Sept list affected.
+  - Market model n=857: −$5.00/pt per missing current year, −$8.96 missing next year, ~$5.12 below ask. Flat.
 
 - 23:39 scrape (dispatched by last review): 1 new, 0 price changes, 1 status change, 1 gone. Gmail: none.
   - DVC Sales back (10/10 ok). New from it: AKV AK822 (100 pts, $111) — score 0 (#580), no usable Sept-2027 points. Skip.
