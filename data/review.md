@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-22 07:36 UTC (latest data: 06:52 UTC scrape; the Action ran hourly overnight, 04:37 / 05:37 / 06:52, not every 15 min). Scraper health: **10/10 sources ok** (DVC Market 761, DVC Resale Market 411, DVC Shop 238, DVC Resale Experts 106, DVC Store 86, DVC Sales 71, Vacation Club Life 47, DVC by Resale 23, Buy & Sell DVC 20, Magic Resales 4). Fixes made this run: **fix(dvcmarket): OKW deed year from "OKW(42)/OKW(57)"** when DVC Market leaves expiration blank (display only, no ranking change). Broker alert emails in the last 4 h: none.
+**Run:** 2026-10-22 10:38 UTC (latest data: 10:37 UTC scrape, dispatched by this review after a 2-hour gap since 08:36; tables below unchanged from the 07:36 review). Scraper health: **10/10 sources ok** (DVC Market 761, DVC Resale Market 411, DVC Shop 238, DVC Resale Experts 106, DVC Store 86, DVC Sales 71, Vacation Club Life 47, DVC by Resale 23, Buy & Sell DVC 20, Magic Resales 4). Fixes made this run: none (07:36 run fixed dvcmarket OKW deed year). Broker alert emails in the last 2 h: none.
 Since last review: **8 new** (a batch of Fidelity contracts mirrored on DVC Market), 1 price change, 2 gone. **New #1 for 1BR+2BR and new top 3 for both 1BR and 2BR** — all Fidelity mirrors with Oct use year and doubled 2026 points.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
@@ -52,6 +52,11 @@ OKW 616379 leads too (saves $6.5k, borrows 110), ahead of Aulani AUL247LBF1 ($5.
 3. [SSR SSR13191 (DVC Resale Experts)](https://www.dvcresaleexperts.com/dvc-listing/ssr13191-june-225): +$3.9k over 2 use years on $27k cash (7 months). Relies on renting 675 points with an expiry clock. Plausible as a one-off, not more.
 
 ## Market notes
+
+- 10:37 scrape (dispatched by this review): 1 new, 0 price changes, 0 status changes, 2 gone. Gmail: none. 10/10 sources ok (DVC Market 759).
+  - DVC Sales Aulani AU381 relisted as [AU399](https://dvcsales.com/dvc-resale/aulani/160-points/1626) (same page, 160 pts Mar UY, $99, $15,840; 266 in Mar-2026 incl. 106 banked, 2062 deed). Score 63.9 (#225); no Sept list affected.
+  - Gone: SSR SS1274 (DVC Sales, 250 pts Dec UY, $100). Not ranked in any Sept list.
+  - 08:36 scrape: no changes. Market model n=861 unchanged (−$4.23/pt per missing current year, −$8.82 missing next, ~$4.83 below ask).
 
 - 06:52 scrape (scheduled): 8 new, 1 price change, 0 status changes, 2 gone. Gmail: none.
   - Fidelity dropped 8 contracts onto DVC Market (616377–616384). Five matter (above); the other three don't fit: VGC 616384 (160 pts, $248, far too expensive per point, #253), SSR 616378 (120 pts Feb UY, no usable points before 2028), and OKW 616381 (50 pts, $80, too small for any Sept setup).
