@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T17:36:50+00:00",
+ "updated": "2026-10-22T17:57:32+00:00",
  "count": 1522,
  "listings": [
   {
@@ -27892,7 +27892,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 26160.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 2320.8,
@@ -31417,7 +31417,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 15750.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 2233.5,
@@ -33314,7 +33314,7 @@
    "expiration": 2057,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "can_close_after": "12/19/2026",
     "closing_cost": 869.0
    },
@@ -33659,7 +33659,7 @@
    "expiration": 2057,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "closing_cost": 829.0
    },
    "uid": "dvcresalemarket:AK36529",
@@ -38150,7 +38150,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 1099.0
    },
@@ -55475,7 +55475,7 @@
    "expiration": 2054,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "can_close_after": "5/7/2027",
     "closing_cost": 919.0
    },
@@ -65164,8 +65164,8 @@
    "resort_raw": "Hilton Head",
    "resort": "hh",
    "points": 250,
-   "price": 16500.0,
-   "price_per_point": 66.0,
+   "price": 16000.0,
+   "price_per_point": 64.0,
    "use_year": 2,
    "status_raw": "Live",
    "availability": "available",
@@ -65194,11 +65194,11 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "days_on_market": 11,
-    "date_listed_from": "index_days",
+    "date_listed_from": "detail",
     "internal_id": "1815",
-    "value_score": 37,
+    "value_score": 43,
     "also_on": "dvcmarket",
     "availability_table": [
      {
@@ -65227,12 +65227,12 @@
      }
     ],
     "dues_year": 2027,
-    "closing_cost": 719.0,
+    "closing_cost": 706.0,
     "caf": 500.0,
-    "total_due_at_closing": 19468.0,
-    "est_closing_date": "2026-12-08",
+    "total_due_at_closing": 18955.0,
+    "est_closing_date": "2026-12-09",
     "us_seller": true,
-    "status_line": "Live | listed 11 days ago, still available"
+    "status_line": "Live | listed 12 days ago, still available"
    },
    "uid": "dvcsales:HH381",
    "active": true,
@@ -65262,9 +65262,14 @@
      "t": "2026-10-15T13:37:26+00:00",
      "price": 16500.0,
      "price_per_point": 66.0
+    },
+    {
+     "t": "2026-10-22T17:57:32+00:00",
+     "price": 16000.0,
+     "price_per_point": 64.0
     }
    ],
-   "detail_at": "2026-10-21T14:37:11+00:00"
+   "detail_at": "2026-10-22T17:57:32+00:00"
   },
   {
    "source": "dvcsales",
@@ -70449,7 +70454,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 22157,
-    "modified": "2026-10-22 13:35:06",
+    "modified": "2026-10-22 13:40:03",
     "resort_abbr": "AUL",
     "low_but_firm": true
    },
@@ -70797,7 +70802,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 22101,
-    "modified": "2026-10-22 13:35:05",
+    "modified": "2026-10-22 13:40:03",
     "resort_abbr": "AUL",
     "low_but_firm": true
    },
@@ -76505,7 +76510,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 22199,
-    "modified": "2026-10-22 13:35:06",
+    "modified": "2026-10-22 13:40:03",
     "resort_abbr": "BW",
     "low_but_firm": true
    },
@@ -79435,7 +79440,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 22232,
-    "modified": "2026-10-22 13:35:06",
+    "modified": "2026-10-22 13:40:04",
     "resort_abbr": "RR",
     "can_close_after": "3/5/27",
     "also_on": "dvcmarket"
@@ -80699,7 +80704,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 22264,
-    "modified": "2026-10-22 13:35:07",
+    "modified": "2026-10-22 13:40:04",
     "resort_abbr": "SSR",
     "low_but_firm": true
    },
@@ -93140,7 +93145,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-22T17:36:50+00:00"
+   "detail_at": "2026-10-22T17:57:32+00:00"
   },
   {
    "source": "magicresales",
@@ -93198,7 +93203,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-22T17:36:50+00:00"
+   "detail_at": "2026-10-22T17:57:32+00:00"
   },
   {
    "source": "magicresales",
@@ -93256,7 +93261,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-22T17:36:50+00:00"
+   "detail_at": "2026-10-22T17:57:32+00:00"
   },
   {
    "source": "vacationclublife",

@@ -2291,3 +2291,4 @@
 {"t": "2026-10-22T17:36:50+00:00", "uid": "dvcresalemarket:AK36529", "event": "new"}
 {"t": "2026-10-22T17:36:50+00:00", "uid": "dvcresalemarket:OK75084", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["Extended to 2057", "Offer Accepted"]}}
 {"t": "2026-10-22T17:36:50+00:00", "uid": "dvcresalemarket:CC83022", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["New", "Offer Accepted"]}}
+{"t": "2026-10-22T17:57:32+00:00", "uid": "dvcsales:HH381", "event": "price_change", "changes": {"price": [16500.0, 16000.0], "price_per_point": [66.0, 64.0]}}
