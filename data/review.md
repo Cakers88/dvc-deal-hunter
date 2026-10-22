@@ -1,7 +1,7 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-22 15:38 UTC (latest data: 15:37 UTC scrape; Sept tables below unchanged since the 07:36 review). Scraper health: **10/10 sources ok**. Fixes made this run: none. Broker alert emails in the last 2 h: none.
-Since last review: 1 new, 3 price changes, 0 status changes, 4 gone. Nothing new reaches the top 25 or a Sept list; no ranking changes.
+**Run:** 2026-10-22 16:46 UTC (latest data: 16:44 UTC scrape, dispatched by this review; Sept tables below unchanged since the 07:36 review). Scraper health: **10/10 sources ok**. Fixes made this run: none. Broker alert emails in the last 2 h: none.
+Since last review: 2 new, 0 price changes, 2 status changes, 1 gone. Nothing new reaches the top 25 or a Sept list; no ranking changes.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -52,6 +52,11 @@ OKW 616379 leads too (saves $6.5k, borrows 110), ahead of Aulani AUL247LBF1 ($5.
 3. **NEW** [Aulani AUE3552 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/aulani/aue3552/): +$4.4k over 2 use years on $27k cash (9 months) after today's cut to $97. ✔ 434 pts in Feb-2027 (184 banked), seller pays 2026 dues. Needs ~684 points rented, which is commercial-use territory. The 1-year version (+$1.8k, 434 pts) is the only one I'd call a plausible one-off. (SSR SSR13191, +$3.9k, drops to #4.)
 
 ## Market notes
+
+- 16:44 scrape (dispatched by this review): 2 new, 0 price changes, 2 status changes, 1 gone. Gmail: none. 10/10 sources ok.
+  - New (DVC Resale Market), both Apr UY SSR, 2054 deed, seller pays 2026 dues: ✔ [SS38705](https://www.dvcresalemarket.com/listings/saratoga-springs/ss38705/) (150 pts, $109, $16,350; 0 in Apr-2026, 150 in Apr-2027; buyer pays 2027 dues; score 70.6, #96, ROFR low). Checked on the page 16:45, matches the scrape. Doesn't beat renting for any Sept setup (the 2BR plan costs ~$4.2k more than renting). [SS38691](https://www.dvcresalemarket.com/listings/saratoga-springs/ss38691/) (210 pts, $103, only 144 in Apr-2027; score 62.3, #253). Not relevant.
+  - Status: Vacation Club Life SSR 4301740000153113002 and Polynesian PLE4665 went pending. Gone: Buy and Sell DVC BLT701 (50 pts, was pending). None ranked in a Sept list.
+  - Market model n=856: −$4.49/pt per missing current year, −$8.77 missing next year, ~$4.95 below ask. Flat.
 
 - 15:37 scrape: 1 new, 3 price changes, 0 status changes, 4 gone. Gmail: none. 10/10 sources ok.
   - Price drops: Beach Club BC160-08-0819 (DVC Store) $135 → $129 (only 28 pts before 2028, #452); Beach Club BCV27710 (DVC Resale Experts) $135 → $133 (#178); OKW OKW050-12-1012 (DVC Store, 50 pts) $97 → $95 (too small, not scored). None affects a Sept list.
