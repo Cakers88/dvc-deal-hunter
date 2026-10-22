@@ -1,7 +1,7 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-22 13:36 UTC (latest data: 12:56 UTC scrape; tables below unchanged since the 07:36 review). Scraper health: **10/10 sources ok** (DVC Market 759, DVC Resale Market 411, DVC Shop 238, DVC Resale Experts 106, DVC Store 86, DVC Sales 70, Vacation Club Life 47, DVC by Resale 22, Buy & Sell DVC 20, Magic Resales 4). Fixes made this run: none. Broker alert emails in the last 2 h: none.
-Since last review: **8 new** (a batch of Fidelity contracts mirrored on DVC Market), 1 price change, 2 gone. **New #1 for 1BR+2BR and new top 3 for both 1BR and 2BR** — all Fidelity mirrors with Oct use year and doubled 2026 points.
+**Run:** 2026-10-22 14:51 UTC (latest data: 14:48 UTC scrape, dispatched by this review because the cron hadn't fired since 12:56; Sept tables below unchanged since the 07:36 review). Scraper health: **10/10 sources ok**. Fixes made this run: none. Broker alert emails in the last 2 h: none.
+Since last review: 4 new, 3 price changes, 6 status changes, 10 gone (mostly DVC Resale Market pending contracts closing). Two Aulani price cuts (DVC Resale Market AUE3552 to $97, DVC Sales AU393 to $95), neither reaching a Sept top 3. No ranking changes in any Sept list.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -49,9 +49,17 @@ OKW 616379 leads too (saves $6.5k, borrows 110), ahead of Aulani AUL247LBF1 ($5.
 
 1. [Aulani AU385 (DVC Sales)](https://dvcsales.com/dvc-resale/aulani/655-points/1687): +$11.4k modeled. **Don't trust it**: fixed-week contract (Wk 52), non-US seller, $62k cash out, and renting 1,500 points is commercial-use territory.
 2. [Aulani AUL54389 (DVC Resale Experts)](https://www.dvcresaleexperts.com/dvc-listing/aul54389-april-553): +$5.1k over 2 use years on $59k cash (8 months). Needs ~1,100 points rented, including 535 that expire Mar 31, 2027 unless banked. Commercial-use territory.
-3. [SSR SSR13191 (DVC Resale Experts)](https://www.dvcresaleexperts.com/dvc-listing/ssr13191-june-225): +$3.9k over 2 use years on $27k cash (7 months). Relies on renting 675 points with an expiry clock. Plausible as a one-off, not more.
+3. **NEW** [Aulani AUE3552 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/aulani/aue3552/): +$4.4k over 2 use years on $27k cash (9 months) after today's cut to $97. ✔ 434 pts in Feb-2027 (184 banked), seller pays 2026 dues. Needs ~684 points rented, which is commercial-use territory. The 1-year version (+$1.8k, 434 pts) is the only one I'd call a plausible one-off. (SSR SSR13191, +$3.9k, drops to #4.)
 
 ## Market notes
+
+- 14:48 scrape (dispatched by this review): 4 new, 3 price changes, 6 status changes, 10 gone. Gmail: none. 10/10 sources ok.
+  - Price drop: Aulani [AUE3552 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/aulani/aue3552/) $107 → **$97** ($24,250, 250 pts Feb UY, "Certified Hot Price"). ✔ Checked on the page 14:50: 0 in Feb-2026, 434 in Feb-2027 (184 banked from 2026), 250 in 2028; seller pays 2026 dues, buyer pays 2027 dues (due at closing if after Nov 20), 2062 deed. Score 78.4 (#26). For 1BR+2BR Sept it saves $2.8k (#29, borrows 52); it doesn't beat renting for 1BR or 2BR alone. Not a new Aulani low (DVC Shop has $85–89). Now #3 rent-out flip.
+  - Price drop: Aulani [AU393 (DVC Sales)](https://dvcsales.com/dvc-resale/aulani/170-points/1778) $103 → **$95** ($16,150, 170 pts Jun UY). Only 172 points in Jun-2027, so it borrows heavily for Sept. Score 65.8 (#185); doesn't beat renting for any Sept setup.
+  - Price drop: Polynesian PLE4665 $170 → $161. Only 10 points before 2028; not usable.
+  - New (DVC Resale Market): ✔ [SSR SSC8703](https://www.dvcresalemarket.com/listings/saratoga-springs/ssc8703/) (210 pts Oct UY, $109, 274 in Oct-2026 incl. 64 banked, seller pays 2026 dues, 2054 deed; score 76.5, #36, doesn't beat renting for 1BR or 2BR alone in Sept); ✔ [BWV BWE3461](https://www.dvcresalemarket.com/listings/boardwalk/bwe3461/) (100 pts Feb UY, $135, 200 in Feb-2027 incl. 100 banked, 2042 deed; score 77.0, #30, saves only $1.0k for a 2BR). Also GF63363 ($180) and GFE3376, neither relevant. Scraped facts match the broker pages.
+  - Status: 3 newly pending (Vacation Club Life 4301740000150050030, DVC Store BRV WLB080-04-1003, DVC Resale Market BW73379); 2 Polynesian contracts (PL94637, PLF4660) back to available after their accepted offers fell through. 10 gone, mostly DVC Resale Market contracts that were already pending (read as closed sales); none ranked in a Sept list.
+  - Market model n=858: −$4.25/pt per missing current year, −$8.75 missing next year, ~$4.88 below ask. Flat.
 
 - 12:56 scrape (scheduled): 0 new, 1 price change, 0 status changes, 1 gone. Gmail: none.
   - Price drop: Aulani [AU397 (DVC Sales)](https://dvcsales.com/dvc-resale/aulani/200-points/1796) $102 → **$100** ($20,000, 200 pts Apr UY). ✔ Checked on the page 13:36: still Live, 64 banked in Apr-2026 / 400 in Apr-2027 (200 banked) / 200 in 2028, buyer prepays 2027 dues ($2,192), closes Dec 9, 2026, US seller, 2062 deed. Score 76.4 (#35) but only #20 for 1BR+2BR Sept (saves $3.3k) and doesn't beat renting for 1BR or 2BR alone; DVC Shop's AUL247LBF1 ($95) is still the better Aulani pick. Not a new Aulani low.
