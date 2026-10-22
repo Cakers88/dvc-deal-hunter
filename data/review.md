@@ -1,7 +1,7 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-22 21:36 UTC (latest data: 21:30 UTC scheduled scrape). Scraper health: **10/10 sources ok**. Fixes made this run: none. Broker alert emails in the last 2 h: none.
-Since last review: 0 new, 4 price changes, 1 status change, 0 gone (21:30 scrape). **No ranking changes** in any Sept list; all figures below unchanged.
+**Run:** 2026-10-22 22:39 UTC (latest data: 22:37 UTC scrape, dispatched by this review). Scraper health: **10/10 sources ok**. Fixes made this run: none. Broker alert emails in the last 2 h: none.
+Since last review: 0 new, 0 price changes, 3 status changes (all to pending), 0 gone. **No ranking changes** in any Sept list; all figures below unchanged.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -52,6 +52,10 @@ OKW 616379 leads too (saves $6.5k, borrows 110), ahead of Aulani AUL247LBF1 ($5.
 3. **NEW** [Aulani AUE3552 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/aulani/aue3552/): +$4.2k over 2 use years on $27k cash (9 months) after today's cut to $97. ✔ 434 pts in Feb-2027 (184 banked), seller pays 2026 dues. Needs ~684 points rented, which is commercial-use territory. The 1-year version (+$1.8k, 434 pts) is the only one I'd call a plausible one-off. (SSR SSR13191, +$3.8k, #4.)
 
 ## Market notes
+
+- 22:37 scrape (dispatched by this review): 0 new, 0 price changes, 3 status changes, 0 gone. Gmail: none. 10/10 sources ok.
+  - Went pending: AKV [AK26461](https://www.dvcresalemarket.com/listings/animal-kingdom-lodge/ak26461/) (220 pts Dec UY, $124, "full 2026 points with no dues" promo), BoardWalk BWE3461 (100 pts, $135) and BLT BLT180-06-1015 (DVC Store, 180 pts, $132). None was on a Sept list. A steady trickle of pendings at $120–135/pt in the loaded Epcot/AKV/BLT segment, nothing unusual.
+  - Market model n=859: −$5.14/pt per missing current year (was −$5.10), −$8.98 missing next year, ~$5.00 below ask. Flat.
 
 - 21:30 scheduled scrape: 0 new, 4 price changes, 1 status change, 0 gone. Gmail: none. 10/10 sources ok.
   - Price drops (DVC Resale Market): ✔ [SSR SS28699](https://www.dvcresalemarket.com/listings/saratoga-springs/ss28699/) $114 → **$112** ($17,920; 160 pts Jun UY, 160/160/160 from Jun-2026, seller pays 2026 dues; score 79.5, #16, ROFR low). Page checked 21:36, matches the scrape. Not a Sept pick: too few points for 1BR+2BR 6 nights, and 2BR/1BR cost about the same or more than renting. ✔ [BRV BR21934](https://www.dvcresalemarket.com/listings/boulder-ridge/br21934/) $103 → $100 ($27,000; 270 pts Mar UY, 0 in Mar-2026, 270 from Mar-2027; score 72.5, #67), page matches; no Aulani home window and nothing usable before Mar 2027, not ranked. AKV AK26496 $119 → $117 (#212). Also DVC Sales Dreams/Disneyland Hotel DH139 $146 → $145 (not scored).
