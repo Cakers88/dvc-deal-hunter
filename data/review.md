@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-22 02:36 UTC (latest data: 02:00 UTC scheduled scrape). Scraper health: **10/10 sources ok** (DVC Market 756, DVC Resale Market 413, DVC Shop 238, DVC Resale Experts 106, DVC Store 86, DVC Sales 71, Vacation Club Life 47, DVC by Resale 23, Buy & Sell DVC 20, Magic Resales 4). Fixes made this run: none. Broker alert emails in the last 2 h: none. Since last review: 0 new, 0 price changes, 0 status changes, 1 gone (GFV 616174, 400 pts at $165 on DVC Market; not ranked). **All three Sept lists and the top-3 flips unchanged.**
+**Run:** 2026-10-22 03:36 UTC (latest data: 03:37 UTC scrape, dispatched by this review — the 15-min cron skipped 02:15–03:30). Scraper health: **10/10 sources ok** (DVC Market 756, DVC Resale Market 411, DVC Shop 238, DVC Resale Experts 106, DVC Store 86, DVC Sales 71, Vacation Club Life 47, DVC by Resale 23, Buy & Sell DVC 20, Magic Resales 4). Fixes made this run: none. Broker alert emails in the last 2 h: none. Since last review: 0 new, 0 price changes, 0 status changes, 2 gone (Copper Creek CCC3025 and Polynesian PLA4671 on DVC Resale Market, both already sale-pending; neither ranked). **All three Sept lists and the top-3 flips unchanged.**
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -45,6 +45,10 @@ Dropped: AKV 616164 (**sold**, DVC Market SoldOut).
 3. [SSR SSR13191 (DVC Resale Experts)](https://www.dvcresaleexperts.com/dvc-listing/ssr13191-june-225): +$3.8k over 2 use years on $27k cash (7 months). Relies on renting 675 points with an expiry clock; 2026 dues terms not stated. Plausible as a one-off, not more.
 
 ## Market notes
+
+- 03:37 scrape (dispatched by this review): 0 new, 0 price changes, 0 status changes, 2 gone. Gmail: none.
+  - Gone: Copper Creek CCC3025 ($140, $28,000) and Polynesian PLA4671 ($200, $10,000), both DVC Resale Market and already Sale Pending — read as closed sales. Neither ranked; no Sept list affected.
+  - Market model n=855: −$5.06/pt per missing current year, −$8.93 missing next year, ~$5.18 below ask. Flat.
 
 - 02:00 scrape (scheduled — cron firing again): 0 new, 0 price changes, 0 status changes, 1 gone. Gmail: none.
   - Gone: Grand Floridian 616174 (DVC Market, 400 pts Oct UY, $165, $66,000). Not ranked; no Sept list affected.
