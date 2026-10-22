@@ -2280,3 +2280,8 @@
 {"t": "2026-10-22T15:37:22+00:00", "uid": "dvcshop:POLY369LBF1", "event": "gone", "last": {"price": 23850.0, "price_per_point": 159.0, "availability": "pending"}}
 {"t": "2026-10-22T15:37:22+00:00", "uid": "dvcshop:SSR615PS", "event": "gone", "last": {"price": 23250.0, "price_per_point": 93.0, "availability": "pending"}}
 {"t": "2026-10-22T15:37:22+00:00", "uid": "dvcstore:WLB150-06-0928", "event": "gone", "last": {"price": 16500.0, "price_per_point": 110.0, "availability": "sold"}}
+{"t": "2026-10-22T16:44:11+00:00", "uid": "vacationclublife:4301740000153113002", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["Active", "Pending"]}}
+{"t": "2026-10-22T16:44:11+00:00", "uid": "dvcresalemarket:SS38691", "event": "new"}
+{"t": "2026-10-22T16:44:11+00:00", "uid": "dvcresalemarket:SS38705", "event": "new"}
+{"t": "2026-10-22T16:44:11+00:00", "uid": "dvcresalemarket:PLE4665", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["Certified Hot Price", "Offer Accepted"]}}
+{"t": "2026-10-22T16:44:11+00:00", "uid": "buyandselldvc:BLT701", "event": "gone", "last": {"price": 7950.0, "price_per_point": 159.0, "availability": "pending"}}
