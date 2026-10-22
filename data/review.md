@@ -1,7 +1,7 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-22 14:51 UTC (latest data: 14:48 UTC scrape, dispatched by this review because the cron hadn't fired since 12:56; Sept tables below unchanged since the 07:36 review). Scraper health: **10/10 sources ok**. Fixes made this run: none. Broker alert emails in the last 2 h: none.
-Since last review: 4 new, 3 price changes, 6 status changes, 10 gone (mostly DVC Resale Market pending contracts closing). Two Aulani price cuts (DVC Resale Market AUE3552 to $97, DVC Sales AU393 to $95), neither reaching a Sept top 3. No ranking changes in any Sept list.
+**Run:** 2026-10-22 15:38 UTC (latest data: 15:37 UTC scrape; Sept tables below unchanged since the 07:36 review). Scraper health: **10/10 sources ok**. Fixes made this run: none. Broker alert emails in the last 2 h: none.
+Since last review: 1 new, 3 price changes, 0 status changes, 4 gone. Nothing new reaches the top 25 or a Sept list; no ranking changes.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -52,6 +52,12 @@ OKW 616379 leads too (saves $6.5k, borrows 110), ahead of Aulani AUL247LBF1 ($5.
 3. **NEW** [Aulani AUE3552 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/aulani/aue3552/): +$4.4k over 2 use years on $27k cash (9 months) after today's cut to $97. ✔ 434 pts in Feb-2027 (184 banked), seller pays 2026 dues. Needs ~684 points rented, which is commercial-use territory. The 1-year version (+$1.8k, 434 pts) is the only one I'd call a plausible one-off. (SSR SSR13191, +$3.9k, drops to #4.)
 
 ## Market notes
+
+- 15:37 scrape: 1 new, 3 price changes, 0 status changes, 4 gone. Gmail: none. 10/10 sources ok.
+  - Price drops: Beach Club BC160-08-0819 (DVC Store) $135 → $129 (only 28 pts before 2028, #452); Beach Club BCV27710 (DVC Resale Experts) $135 → $133 (#178); OKW OKW050-12-1012 (DVC Store, 50 pts) $97 → $95 (too small, not scored). None affects a Sept list.
+  - New: Riviera RRE2363 (DVC Resale Market), not scored (doesn't fit the filters).
+  - Gone (already pending/sold, read as closed): DVC Shop CC298LBF1, POLY369LBF1, SSR615PS; DVC Store WLB150-06-0928. None ranked.
+  - Market model n=855: −$4.38/pt per missing current year, −$8.82 missing next year, ~$4.78 below ask. Flat.
 
 - 14:48 scrape (dispatched by this review): 4 new, 3 price changes, 6 status changes, 10 gone. Gmail: none. 10/10 sources ok.
   - Price drop: Aulani [AUE3552 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/aulani/aue3552/) $107 → **$97** ($24,250, 250 pts Feb UY, "Certified Hot Price"). ✔ Checked on the page 14:50: 0 in Feb-2026, 434 in Feb-2027 (184 banked from 2026), 250 in 2028; seller pays 2026 dues, buyer pays 2027 dues (due at closing if after Nov 20), 2062 deed. Score 78.4 (#26). For 1BR+2BR Sept it saves $2.8k (#29, borrows 52); it doesn't beat renting for 1BR or 2BR alone. Not a new Aulani low (DVC Shop has $85–89). Now #3 rent-out flip.
