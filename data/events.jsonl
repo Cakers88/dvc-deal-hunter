@@ -2247,3 +2247,5 @@
 {"t": "2026-10-22T10:37:21+00:00", "uid": "dvcsales:AU399", "event": "new"}
 {"t": "2026-10-22T10:37:21+00:00", "uid": "dvcsales:AU381", "event": "gone", "last": {"price": 15840.0, "price_per_point": 99.0, "availability": "available"}}
 {"t": "2026-10-22T10:37:21+00:00", "uid": "dvcsales:SS1274", "event": "gone", "last": {"price": 25000.0, "price_per_point": 100.0, "availability": "available"}}
+{"t": "2026-10-22T12:56:29+00:00", "uid": "dvcsales:AU397", "event": "price_change", "changes": {"price": [20400.0, 20000.0], "price_per_point": [102.0, 100.0]}}
+{"t": "2026-10-22T12:56:29+00:00", "uid": "dvcbyresale:B5012NA0", "event": "gone", "last": {"price": 6800.0, "price_per_point": 136.0, "availability": "pending"}}
