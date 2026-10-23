@@ -1,7 +1,7 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-23 13:40 UTC (latest data: 13:37 UTC scrape). Scraper health: **10/10 sources ok**. Fixes made this run: none. Broker alert emails in the last 2 h: none.
-Since 12:40 review: 1 scrape, 2 new, 0 price changes, 0 status changes, 1 gone, none touching a ranked Sept pick. **No ranking changes** in any Sept list. Tables below unchanged from 06:45.
+**Run:** 2026-10-23 14:40 UTC (latest data: 14:37 UTC scrape, dispatched by this review). Scraper health: **10/10 sources ok**. Fixes made this run: none. Broker alert emails in the last 2 h: none.
+Since 13:40 review: 1 scrape, 1 new, 0 price changes, 2 status changes, 1 gone, none touching a ranked Sept pick. **No ranking changes** in any Sept list. Tables below unchanged from 06:45.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -52,6 +52,8 @@ OKW 616379 leads too (saves $6.5k, borrows 110), ahead of Aulani AUL247LBF1 ($5.
 3. **NEW** [Aulani AUE3552 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/aulani/aue3552/): +$4.2k over 2 use years on $27k cash (9 months) after today's cut to $97. ✔ 434 pts in Feb-2027 (184 banked), seller pays 2026 dues. Needs ~684 points rented, which is commercial-use territory. The 1-year version (+$1.8k, 434 pts) is the only one I'd call a plausible one-off. (SSR SSR13191, +$3.8k, #4.)
 
 ## Market notes
+
+- 14:37 scrape (dispatched): 1 new — [BLT BL83835 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/bay-lake-tower/bl83835/), 250 pts Dec UY, $143 ($35.8k), 105 in Dec-2026 / 203 in Dec-2027, 2060 deed; ranks #364 (score 53), loses money vs renting for Sept, so not verified. Went pending: AKV AK200-09-1008 (DVC Store) and BWV BW23453 (DVC Resale Market, Offer Accepted → Sale Pending); gone: DVC Market Grand Floridian-tier 616133 (400 pts, $165). None on a Sept list. Gmail: none. Market model n=857: −$5.15 / −$8.97 / ~$4.99 below ask. Flat.
 
 - 13:37 scrape: 2 new — [AKV AK100-12-1021 (DVC Store)](https://www.dvcstore.com/resort/animal-kingdom/ak100-12-1021-2/), 100 pts Dec UY, $124 ($12.4k), no dues until 2027, international seller, 2057 deed (#353, score 54); and [OKW 615963 (DVC Market mirror of DVC Resale Experts OKW51870)](https://dvcmarket.com/dvc-resale/old-key-west/150-points/615963), 150 pts Mar UY, $92, 2042 deed, nothing until Mar-2027 (#260, score 61). The same OKW51870 contract dropped off DVC Resale Experts' own feed ("gone") while DVC Market still shows it InStock as of its 13:00 sync — probably just sold/pulled and the mirror lags. Neither is on a Sept list, so not verified. Market model n=856: −$5.21 / −$8.98 / ~$5.02 below ask. Flat.
 
