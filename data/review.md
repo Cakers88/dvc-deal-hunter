@@ -1,7 +1,7 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-23 03:41 UTC (latest data: 03:38 UTC scrape, dispatched by this review; still no scheduled scrape since 00:08). Scraper health: **9/10 sources ok** — DVC Sales timed out again (ConnectTimeout, second one-off in 3 runs; it was fine at 02:37, so not a parser problem; its 48 listings are retained). Fixes made this run: none. Broker alert emails in the last 2 h: none.
-Since last review: 0 new, 0 price changes, 0 status changes, 0 gone. **No ranking changes** in any Sept list.
+**Run:** 2026-10-23 04:40 UTC (latest data: 04:36 UTC scrape, dispatched by this review; still no scheduled scrape since 00:08). Scraper health: **10/10 sources ok** (DVC Sales recovered, 70 listings). Fixes made this run: none. Broker alert emails in the last 2 h: none.
+Since last review: 7 new (all Aulani via DVC Market, none ranked), 47 gone (all DVC Shop), 0 price changes. **No ranking changes** in any Sept list; savings moved by under $100 after the market model refit (1BR+2BR #6 is now DVC Market SSR 616241, saves $3.9k).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -52,6 +52,11 @@ OKW 616379 leads too (saves $6.5k, borrows 110), ahead of Aulani AUL247LBF1 ($5.
 3. **NEW** [Aulani AUE3552 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/aulani/aue3552/): +$4.2k over 2 use years on $27k cash (9 months) after today's cut to $97. ✔ 434 pts in Feb-2027 (184 banked), seller pays 2026 dues. Needs ~684 points rented, which is commercial-use territory. The 1-year version (+$1.8k, 434 pts) is the only one I'd call a plausible one-off. (SSR SSR13191, +$3.8k, #4.)
 
 ## Market notes
+
+- 04:36 scrape (dispatched by this review): 7 new, 0 price changes, 0 status changes, 47 gone. Gmail: none. 10/10 sources ok.
+  - **DVC Shop cleanup:** its listing feed dropped from 235 to 188 records; the 47 removed were mostly "Sale Pending" (plus some available Aulani/BLT/BW/OKW). Checked two removed pages: one 404s, one redirects away, so they were taken down on the site, not a parser fault. None was in the top 150. Our pick AUL247LBF1 is still listed.
+  - New (DVC Market, all Aulani): 615082 (220 pts Feb UY, $99, 0 in 2026, 220 from 2027; best at #210, score 64), 614892 (300, $122), 615080 (100 Aug, $99), 614890 (636, $109), 615380 (50 Sep, $109), 615076/615077 (160/150, $95, nothing until 2028). None meets the top-25 / score-70 bar; mostly stripped contracts.
+  - Market model refit on fewer listings (n=819, was 859, since DVC Shop's pendings dropped out): −$4.88/pt per missing current year (was −$5.16), −$9.60 missing next year (was −$9.00), ~$4.49 below ask (was $5.01). That shift comes from the change in the sample, not the market.
 
 - 03:38 scrape (dispatched by this review): 0 new, 0 price changes, 0 status changes, 0 gone. Gmail: none. 9/10 sources ok (DVC Sales connect timeout again; watch for a repeat at the next run). Market model n=859: unchanged.
 
