@@ -1,7 +1,7 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-23 15:40 UTC (latest data: 15:00 UTC scrape). Scraper health: **10/10 sources ok**. Fixes made this run: none. Broker alert emails in the last 2 h: none.
-Since 14:40 review: 1 scrape, 2 new, 1 price change, 2 status changes, 0 gone, none touching a ranked Sept pick. **No ranking changes** in any Sept list. Tables below unchanged from 06:45.
+**Run:** 2026-10-23 16:40 UTC (latest data: 16:37 UTC scrape, dispatched by this review because no scheduled run had landed since 15:00). Scraper health: **10/10 sources ok**. Fixes made this run: none. Broker alert emails in the last 2 h: none.
+Since 15:40 review: 1 scrape, 3 new, 2 price changes, 1 status change, 1 gone. **No ranking changes** in any Sept list (savings moved by a few dollars from the market-model refit). Tables below unchanged from 06:45.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -52,6 +52,8 @@ OKW 616379 leads too (saves $6.5k, borrows 110), ahead of Aulani AUL247LBF1 ($5.
 3. **NEW** [Aulani AUE3552 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/aulani/aue3552/): +$4.2k over 2 use years on $27k cash (9 months) after today's cut to $97. ✔ 434 pts in Feb-2027 (184 banked), seller pays 2026 dues. Needs ~684 points rented, which is commercial-use territory. The 1-year version (+$1.8k, 434 pts) is the only one I'd call a plausible one-off. (SSR SSR13191, +$3.8k, #4.)
 
 ## Market notes
+
+- 16:37 scrape (dispatched): 3 new. [SSR SSR18920 (DVC Resale Experts)](https://www.dvcresaleexperts.com/dvc-listing/ssr18920-september-160), 160 pts Sep UY, $112 ($17.9k), 2054 deed. ✔ Page checked 16:40: available, 320 in Sep-2026 (160 banked from 2025, **must be used by Aug 31, 2027**), 160 in 2027 and 2028. Dues terms aren't stated; the offer form leaves 2026 dues open to negotiation. It ranks #17 overall (score 79) on its July and 5-night fits, but for **Sept 6 nights** it can't cover 1BR+2BR (480 of 486 pts even after banking and borrowing), loses $1.7k vs renting for a 1BR, and roughly breaks even for a 2BR. Not a Sept pick. Also new: [SSR 615956 (DVC Market mirror)](https://dvcmarket.com/dvc-resale/saratoga-springs/100-points/615956), 100 pts Feb UY at $112, only 58 pts in 2027 (#515), and DVC Sales RV356 (Riviera, not a legacy resort, so excluded). Price changes: [HH HH91823 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/hilton-head/hh91823/) $63 → $59 (2042 deed, 0 pts in 2026 and 72 in 2027, #279), and Vacation Club Life Aulani 4301740000128934032 *raised* $96 → $100 (220 pts Mar UY, #234). Went pending: DVC Shop SSR611PS. Gone: DVC Resale Market SSE8630 (100 pts, $112). None on a Sept list. Gmail: none. Market model n=860: −$5.26 / −$8.99 / ~$5.06 below ask. Flat.
 
 - 15:00 scrape: 2 new small contracts at DVC Resale Market — [OKW OKF5086](https://www.dvcresalemarket.com/listings/old-key-west/okf5086/) (90 pts Oct UY, $123, 80 in Oct-2026) and [BRV BR81941](https://www.dvcresalemarket.com/listings/wilderness-lodge/br81941/) (50 pts Apr UY, $130, nothing until Apr-2027); both too small/pricey to rank. Price cut: [BWV BW430 (DVC Sales)](https://dvcsales.com/dvc-resale/boardwalk/150-points/1782) $117 → $116 (#207, score 64). Went pending: SSR SS150-12-1016 (DVC Store) and GF GFE3376 (DVC Resale Market, Offer Accepted). None on a Sept list. Gmail: none. Market model n=859: −$5.23 / −$9.01 / ~$5.06 below ask. Flat.
 
