@@ -2414,3 +2414,15 @@
 {"t": "2026-10-23T16:37:17+00:00", "uid": "dvcmarket:615956", "event": "new"}
 {"t": "2026-10-23T16:37:17+00:00", "uid": "dvcsales:RV356", "event": "new"}
 {"t": "2026-10-23T16:37:17+00:00", "uid": "dvcresalemarket:SSE8630", "event": "gone", "last": {"price": 11200.0, "price_per_point": 112.0, "availability": "available"}}
+{"t": "2026-10-23T17:36:51+00:00", "uid": "dvcshop:AUL247LBF1", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["Low But Firm", "Sale Pending"]}}
+{"t": "2026-10-23T17:36:51+00:00", "uid": "dvcshop:AUL242LBF1", "event": "status_change", "changes": {"availability": ["pending", "available"], "status_raw": ["Sale Pending", "Low But Firm"]}}
+{"t": "2026-10-23T17:36:51+00:00", "uid": "dvcresaleexperts:OKW45270", "event": "new"}
+{"t": "2026-10-23T17:36:51+00:00", "uid": "dvcmarket:616279", "event": "new"}
+{"t": "2026-10-23T17:36:51+00:00", "uid": "dvcresaleexperts:OKW45271", "event": "new"}
+{"t": "2026-10-23T17:36:51+00:00", "uid": "dvcresalemarket:RRC2367", "event": "new"}
+{"t": "2026-10-23T17:36:51+00:00", "uid": "dvcresalemarket:BCB2578", "event": "status_change", "changes": {"status_raw": ["Offer Accepted", "Sale Pending"]}}
+{"t": "2026-10-23T17:36:51+00:00", "uid": "dvcresalemarket:BL23775", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["New", "Sale Pending"]}}
+{"t": "2026-10-23T17:36:51+00:00", "uid": "dvcresaleexperts:SSR13191", "event": "gone", "last": {"price": 23850.0, "price_per_point": 106.0, "availability": "available"}}
+{"t": "2026-10-23T17:36:51+00:00", "uid": "dvcresalemarket:BL23798", "event": "gone", "last": {"price": 21300.0, "price_per_point": 142.0, "availability": "pending"}}
+{"t": "2026-10-23T17:36:51+00:00", "uid": "dvcresalemarket:OK25061", "event": "gone", "last": {"price": 18700.0, "price_per_point": 85.0, "availability": "pending"}}
+{"t": "2026-10-23T17:36:51+00:00", "uid": "dvcresalemarket:RRC2346", "event": "gone", "last": {"price": 12240.0, "price_per_point": 136.0, "availability": "pending"}}
