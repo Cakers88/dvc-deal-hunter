@@ -1,7 +1,7 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-23 05:40 UTC (latest data: 05:05 UTC scheduled scrape — the scheduled runs are back). Scraper health: **10/10 sources ok**. Fixes made this run: none. Broker alert emails in the last 2 h: none.
-Since last review: 0 new, 0 price changes, 0 status changes, 7 gone (the 7 DVC Market Aulani listings that appeared at 04:36). **No ranking changes** in any Sept list; savings within ~$10 of the 04:40 figures (market model back to its n=859 fit).
+**Run:** 2026-10-23 06:45 UTC (latest data: 06:39 UTC scrape, dispatched by this review — no scheduled run since 05:05). Scraper health: **9/10 sources ok** (DVC Sales connect timeout from the Action runner; the site answers fine from here, and the 05:05 run was ok, so not investigated). Fixes made this run: none. Broker alert emails in the last 2 h: none.
+Since last review: 0 new, 0 price changes, 0 status changes, 3 gone (DVC Market: Vero Beach 614914, BLT 616160, BWV 616316 — none on a Sept list). **No ranking changes** in any Sept list; savings within ~$10 of the 05:40 figures. DVC Sales contracts (SS1297/SS1275/SS1286) are carried from the 05:05 data this run.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -52,6 +52,9 @@ OKW 616379 leads too (saves $6.5k, borrows 110), ahead of Aulani AUL247LBF1 ($5.
 3. **NEW** [Aulani AUE3552 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/aulani/aue3552/): +$4.2k over 2 use years on $27k cash (9 months) after today's cut to $97. ✔ 434 pts in Feb-2027 (184 banked), seller pays 2026 dues. Needs ~684 points rented, which is commercial-use territory. The 1-year version (+$1.8k, 434 pts) is the only one I'd call a plausible one-off. (SSR SSR13191, +$3.8k, #4.)
 
 ## Market notes
+
+- 06:39 scrape (dispatched): 0 new, 0 price changes, 0 status changes, 3 gone (DVC Market VB 614914 270 pts $51, BLT 616160 220 pts $145, BWV 616316 240 pts $131). Gmail: none. 9/10 sources ok (DVC Sales connect timeout, ~3rd one-off tonight; fix only if it repeats next run).
+  - Market model n=857: −$5.18/pt per missing current year, −$8.99 missing next year, ~$5.00 below ask. Flat.
 
 - 05:05 scheduled scrape: 0 new, 0 price changes, 0 status changes, 7 gone. Gmail: none. 10/10 sources ok.
   - **Correction to the 04:36 note:** the "DVC Shop cleanup" was feed flapping, not take-downs. DVC Shop's feed is back to 235 records and all 47 "gone" listings returned (157 pending / 83 available in our data). Reappearances don't create events in events.jsonl, so this only shows in the source count.
