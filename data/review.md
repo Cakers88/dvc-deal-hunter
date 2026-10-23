@@ -1,7 +1,7 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-23 14:40 UTC (latest data: 14:37 UTC scrape, dispatched by this review). Scraper health: **10/10 sources ok**. Fixes made this run: none. Broker alert emails in the last 2 h: none.
-Since 13:40 review: 1 scrape, 1 new, 0 price changes, 2 status changes, 1 gone, none touching a ranked Sept pick. **No ranking changes** in any Sept list. Tables below unchanged from 06:45.
+**Run:** 2026-10-23 15:40 UTC (latest data: 15:00 UTC scrape). Scraper health: **10/10 sources ok**. Fixes made this run: none. Broker alert emails in the last 2 h: none.
+Since 14:40 review: 1 scrape, 2 new, 1 price change, 2 status changes, 0 gone, none touching a ranked Sept pick. **No ranking changes** in any Sept list. Tables below unchanged from 06:45.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -52,6 +52,8 @@ OKW 616379 leads too (saves $6.5k, borrows 110), ahead of Aulani AUL247LBF1 ($5.
 3. **NEW** [Aulani AUE3552 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/aulani/aue3552/): +$4.2k over 2 use years on $27k cash (9 months) after today's cut to $97. ✔ 434 pts in Feb-2027 (184 banked), seller pays 2026 dues. Needs ~684 points rented, which is commercial-use territory. The 1-year version (+$1.8k, 434 pts) is the only one I'd call a plausible one-off. (SSR SSR13191, +$3.8k, #4.)
 
 ## Market notes
+
+- 15:00 scrape: 2 new small contracts at DVC Resale Market — [OKW OKF5086](https://www.dvcresalemarket.com/listings/old-key-west/okf5086/) (90 pts Oct UY, $123, 80 in Oct-2026) and [BRV BR81941](https://www.dvcresalemarket.com/listings/wilderness-lodge/br81941/) (50 pts Apr UY, $130, nothing until Apr-2027); both too small/pricey to rank. Price cut: [BWV BW430 (DVC Sales)](https://dvcsales.com/dvc-resale/boardwalk/150-points/1782) $117 → $116 (#207, score 64). Went pending: SSR SS150-12-1016 (DVC Store) and GF GFE3376 (DVC Resale Market, Offer Accepted). None on a Sept list. Gmail: none. Market model n=859: −$5.23 / −$9.01 / ~$5.06 below ask. Flat.
 
 - 14:37 scrape (dispatched): 1 new — [BLT BL83835 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/bay-lake-tower/bl83835/), 250 pts Dec UY, $143 ($35.8k), 105 in Dec-2026 / 203 in Dec-2027, 2060 deed; ranks #364 (score 53), loses money vs renting for Sept, so not verified. Went pending: AKV AK200-09-1008 (DVC Store) and BWV BW23453 (DVC Resale Market, Offer Accepted → Sale Pending); gone: DVC Market Grand Floridian 616133 (400 pts, $165). None on a Sept list. Gmail: none. Market model n=857: −$5.15 / −$8.97 / ~$4.99 below ask. Flat.
 
