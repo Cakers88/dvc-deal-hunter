@@ -1,7 +1,7 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-23 02:42 UTC (latest data: 02:37 UTC scrape, dispatched by this review; no scheduled scrape had run since 00:08). Scraper health: **10/10 sources ok** — DVC Sales is back (70 listings) after last run's one-off connect timeout. Fixes made this run: none. Broker alert emails in the last 2 h: none.
-Since last review: 0 new, 0 price changes, 1 status change, 1 gone. **No ranking changes** in any Sept list.
+**Run:** 2026-10-23 03:41 UTC (latest data: 03:38 UTC scrape, dispatched by this review; still no scheduled scrape since 00:08). Scraper health: **9/10 sources ok** — DVC Sales timed out again (ConnectTimeout, second one-off in 3 runs; it was fine at 02:37, so not a parser problem; its 48 listings are retained). Fixes made this run: none. Broker alert emails in the last 2 h: none.
+Since last review: 0 new, 0 price changes, 0 status changes, 0 gone. **No ranking changes** in any Sept list.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -52,6 +52,8 @@ OKW 616379 leads too (saves $6.5k, borrows 110), ahead of Aulani AUL247LBF1 ($5.
 3. **NEW** [Aulani AUE3552 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/aulani/aue3552/): +$4.2k over 2 use years on $27k cash (9 months) after today's cut to $97. ✔ 434 pts in Feb-2027 (184 banked), seller pays 2026 dues. Needs ~684 points rented, which is commercial-use territory. The 1-year version (+$1.8k, 434 pts) is the only one I'd call a plausible one-off. (SSR SSR13191, +$3.8k, #4.)
 
 ## Market notes
+
+- 03:38 scrape (dispatched by this review): 0 new, 0 price changes, 0 status changes, 0 gone. Gmail: none. 9/10 sources ok (DVC Sales connect timeout again; watch for a repeat at the next run). Market model n=859: unchanged.
 
 - 02:37 scrape (dispatched by this review): 0 new, 0 price changes, 1 status change, 1 gone. Gmail: none. 10/10 sources ok (DVC Sales recovered).
   - Gone: Grand Floridian (Villas) 616174 (DVC Market, 400 pts, $165). Status: Vero Beach VBG2626 (DVC Resale Market, 300 pts, $53) moved from "Offer Accepted" to "Sale Pending". Neither was on a Sept list.
