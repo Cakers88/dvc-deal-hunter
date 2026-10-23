@@ -1,7 +1,7 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-23 10:40 UTC (latest data: 10:01 UTC scheduled scrape; scheduled runs resumed at 08:37, 09:36, 10:01). Scraper health: **10/10 sources ok**. Fixes made this run: none. Broker alert emails in the last 2 h: none.
-Since 07:40 review: 3 scrapes, 0 new, 0 price changes, 0 status changes, 0 gone. **No ranking changes** in any Sept list; DVC Sales contracts (SS1286/SS1297/SS1275) are fresh again from the 07:37 scrape. Tables below unchanged from 06:45.
+**Run:** 2026-10-23 11:40 UTC (latest data: 11:38 UTC scrape, dispatched by this review; no scheduled run landed after 10:01). Scraper health: **9/10 sources ok** (DVC Sales connect timeout, one-off; site answers 200 now). Fixes made this run: none. Broker alert emails in the last 2 h: none.
+Since 10:40 review: 1 scrape, 0 new, 0 price changes, 1 status change, 2 gone, none touching a ranked Sept pick. **No ranking changes** in any Sept list; DVC Sales contracts (SS1286/SS1297/SS1275) are held from the 10:01 scrape. Tables below unchanged from 06:45.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -52,6 +52,8 @@ OKW 616379 leads too (saves $6.5k, borrows 110), ahead of Aulani AUL247LBF1 ($5.
 3. **NEW** [Aulani AUE3552 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/aulani/aue3552/): +$4.2k over 2 use years on $27k cash (9 months) after today's cut to $97. ✔ 434 pts in Feb-2027 (184 banked), seller pays 2026 dues. Needs ~684 points rented, which is commercial-use territory. The 1-year version (+$1.8k, 434 pts) is the only one I'd call a plausible one-off. (SSR SSR13191, +$3.8k, #4.)
 
 ## Market notes
+
+- 11:38 scrape (dispatched): 0 new, 0 price changes, 1 status change (Polynesian PLG4643, DVC Resale Market: Offer Accepted → Sale Pending), 2 gone (Vacation Club Life 4301740000149640006 and 4301740000154766047, both already pending at $135/pt, presumably sold). Gmail: none. Market model n=856: −$5.21/pt per missing current year, −$8.98 missing next year, ~$5.02 below ask. Flat.
 
 - 08:37 / 09:36 / 10:01 scheduled scrapes: 0 new, 0 price changes, 0 status changes, 0 gone. Gmail: none. 10/10 sources ok. Market model n=857: unchanged (−$5.18 / −$8.99 / ~$5.00 below ask).
 
@@ -489,6 +491,7 @@ OKW 616379 leads too (saves $6.5k, borrows 110), ahead of Aulani AUL247LBF1 ($5.
 
 ## Scraper health
 
+- 11:38 (dispatched by this review): 9/10 OK. **DVC Sales: ok:false** (ConnectTimeout on /dvc-resale-listings). It was fine at 10:01 and returns 200 in 0.9 s at 11:40, so transient (same pattern as 06:39); no fix. Investigate if it fails again next run.
 - 01:36 (dispatched by this review): all 10 sources OK. No scheduled run since 23:28.
 - 00:36 and 01:04: all 10 sources OK (01:04: DVC Market 743, DVC Resale Market 409, DVC Shop 238, DVC Store 150, DVC Resale Experts 105, DVC Sales 69, Vacation Club Life 47, DVC by Resale 24, Buy and Sell DVC 20, Magic Resales 4).
 - 19:29 (scheduled) and 20:36 (dispatched by this review): all 10 sources OK (20:36: DVC Market 744, DVC Resale Market 406, DVC Shop 238, DVC Store 150, DVC Resale Experts 106, DVC Sales 69, Vacation Club Life 45, DVC by Resale 24, Buy and Sell DVC 20, Magic Resales 4). No scheduled run between 19:29 and 20:36.
