@@ -1,7 +1,7 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-23 16:40 UTC (latest data: 16:37 UTC scrape, dispatched by this review because no scheduled run had landed since 15:00). Scraper health: **10/10 sources ok**. Fixes made this run: none. Broker alert emails in the last 2 h: none.
-Since 15:40 review: 1 scrape, 3 new, 2 price changes, 1 status change, 1 gone. **No ranking changes** in any Sept list (savings moved by a few dollars from the market-model refit). Tables below unchanged from 06:45.
+**Run:** 2026-10-23 17:40 UTC (latest data: 17:36 UTC scrape, dispatched by this review because no scheduled run had landed since 16:37). Scraper health: **10/10 sources ok**. Fixes made this run: none. Broker alert emails in the last 2 h: none. **Broker pages could not be opened this run** (fetch permission timed out), so this run's checks rely on the scraper's detail fetches.
+Since 16:40 review: 1 scrape, 4 new, 0 price changes, 4 status changes, 4 gone. **One Sept ranking change:** Aulani AUL247LBF1 (DVC Shop, 1BR+2BR #4) went **Sale Pending**; SSR SS1286 moves up to #4 and Vacation Club Life SSR 4301740000153743001 returns at #5. 1BR and 2BR lists unchanged.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -16,10 +16,10 @@ including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same 
 | 1 | **NEW** [OKW 616379 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/old-key-west/230-points/616379) Oct UY | 230 | $75 | $17,250 | $7,083 ($5,067) | $21.8k / 15 | sell stripped | 2027-02-12 | **high** | ✔ InStock 07:36. 460 in the Oct-2026 UY (230 banked, usable through Sep 30, 2027), so **only 26 borrowed**. Red flags: **OKW 2042 deed** ("OKW(42)"), $75 is well under Disney's latest OKW buyback ($91), so ROFR is a real risk. Aggregator-only, and dues may run up to $2.6k higher (see note). Best numbers on the board, with the most risk attached. |
 | 2 | [SSR SS1297 (DVC Sales)](https://dvcsales.com/dvc-resale/saratoga-springs/165-points/1814) Sep UY | 165 | **$101** (was $103) | $16,665 | $7,446 ($4,704) | $19.9k / 15 | sell stripped | 2027-02-12 | medium | ✔ (price cut seen in 00:08 scrape; page not re-opened this run) 165/165/165, buyer reimburses 2026 dues, closes Nov 30, 2054 deed. **Borrows 156 from 2028**, so you'd resell a heavily stripped contract. |
 | 3 | [SSR SS1275 (DVC Sales)](https://dvcsales.com/dvc-resale/saratoga-springs/170-points/1082) Sep UY | 170 | $102 | $17,340 | $7,545 ($4,605) | $20.7k / 15 | sell stripped | 2027-02-12 | medium | ✔ Same setup as #2 (borrows 146). Long time on market, so there may be room to negotiate. |
-| 4 | [Aulani AUL247LBF1 (DVC Shop)](https://resales.dvcshop.com/listings/aulani-hawaii-aul247lbf1/) Apr UY | 200 | $95 | $19,000 | $7,944 ($4,206) | $23.1k / 15 | sell stripped | 2027-01-30 | medium | ✔ 400 in the Apr-2027 UY (200 banked), 2062 deed. Home-resort 11-month window for Aulani. **Dues terms not stated**, "Low But Firm", borrows 86. |
-| 5 | [SSR SS1286 (DVC Sales)](https://dvcsales.com/dvc-resale/saratoga-springs/220-points/1747) Jun UY | 220 | $104 | $22,880 | $8,043 ($4,107) | $26.8k / 15 | sell stripped | 2027-02-12 | low | ✔ 108 banked + 220 bankable; buyer reimburses 2026 dues, closes Dec 1, 2054 deed. **Borrows only 46**, lowest ROFR risk. Must bank by Jan 31, 2027. Still the **cleanest** pick if cash allows. |
+| 4 | [SSR SS1286 (DVC Sales)](https://dvcsales.com/dvc-resale/saratoga-springs/220-points/1747) Jun UY | 220 | $104 | $22,880 | $8,045 ($4,105) | $26.8k / 15 | sell stripped | 2027-02-12 | low | ✔ 108 banked + 220 bankable; buyer reimburses 2026 dues, closes Dec 1, 2054 deed. **Borrows only 46**, lowest ROFR risk. Must bank by Jan 31, 2027. Still the **cleanest** pick if cash allows. |
+| 5 | [SSR 4301740000153743001 (Vacation Club Life)](https://vacationclublife.com/listings/4301740000153743001) Jun UY | 190 | $105 | $19,950 | $8,263 ($3,887) | $24.0k / 15 | sell stripped | 2027-02-12 | low | ⚠ Back in the top 5 after AUL247LBF1 went pending. Scraped: 252 in Jun-2026 (62 banked), 190 in 2027, 2054 deed. **Borrows 106 from 2028**, so the resale is stripped. Dues terms not confirmed on the page. |
 
-Dropped: Vacation Club Life SSR 4301740000153743001 (now #6, saves $3.9k; unchanged, just pushed down).
+Gone pending: [Aulani AUL247LBF1 (DVC Shop)](https://resales.dvcshop.com/listings/aulani-hawaii-aul247lbf1/), 200 pts at $95, was #4 (Sale Pending in the 17:36 feed). SSR 616279 (DVC Market) would sit #8 but is a stale mirror (see Market notes).
 
 ## 1-bedroom, Sept, 6 nights (needs 204 pts; renting would cost $5,100)
 
@@ -43,15 +43,17 @@ Gone: SSR 616382 and AKV 616383 (sold). SSR 616162 (saves $1.5k, 2054 deed) is #
 
 ## 3-bedroom grand villa, Sept, 6 nights (FYI)
 
-OKW 616379 leads too (saves $6.5k, borrows 110), ahead of Aulani AUL247LBF1 ($5.7k) and SSR SS1286 ($5.7k).
+OKW 616379 leads too (saves $6.5k, borrows 110), ahead of SSR SS1286 ($5.5k) and Vacation Club Life SSR 4301740000153743001 ($5.3k). Aulani AUL247LBF1 is now pending.
 
 ## Rent-out flips (secondary, a one-off at most; DVC bans regular renting)
 
 1. [Aulani AU385 (DVC Sales)](https://dvcsales.com/dvc-resale/aulani/655-points/1687): +$11.0k modeled. **Don't trust it**: fixed-week contract (Wk 52), non-US seller, $62k cash out, and renting 1,500 points is commercial-use territory.
 2. [Aulani AUL54389 (DVC Resale Experts)](https://www.dvcresaleexperts.com/dvc-listing/aul54389-april-553): +$5.1k over 2 use years on $59k cash (8 months). Needs ~1,100 points rented, including 535 that expire Mar 31, 2027 unless banked. Commercial-use territory.
-3. **NEW** [Aulani AUE3552 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/aulani/aue3552/): +$4.2k over 2 use years on $27k cash (9 months) after today's cut to $97. ✔ 434 pts in Feb-2027 (184 banked), seller pays 2026 dues. Needs ~684 points rented, which is commercial-use territory. The 1-year version (+$1.8k, 434 pts) is the only one I'd call a plausible one-off. (SSR SSR13191, +$3.8k, #4.)
+3. **NEW** [Aulani AUE3552 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/aulani/aue3552/): +$4.2k over 2 use years on $27k cash (9 months) after today's cut to $97. ✔ 434 pts in Feb-2027 (184 banked), seller pays 2026 dues. Needs ~684 points rented, which is commercial-use territory. The 1-year version (+$1.8k, 434 pts) is the only one I'd call a plausible one-off. (Former #4 SSR SSR13191 dropped off DVC Resale Experts at 17:36.)
 
 ## Market notes
+
+- 17:36 scrape (dispatched): 4 new, 4 status changes, 4 gone. **SSR [616279 (DVC Market)](https://dvcmarket.com/dvc-resale/saratoga-springs/225-points/616279)** is listed as new (rank #7, score 82), but it's DVC Market's mirror of DVC Resale Experts SSR13191 (225 pts Jun UY, $106, same price), which **dropped off DVC Resale Experts' own feed in the same scrape**. Probably sold or pulled, with the mirror lagging (same pattern as OKW51870 at 13:37). Also, its 225 banked points must be used by May 31, 2027, so they don't help a Sept trip. Treat it as not available. **OKW [OKW45270 (DVC Resale Experts)](https://www.dvcresaleexperts.com/dvc-listing/okw45270-september-270)**: 270 pts Sep UY, $90 ($24.3k), rank #26, score 77. Scraped detail: 360 in Sep-2026 (90 banked, **must be used by Aug 31, 2027**), 270 in 2027 and 2028. Dues terms not stated (negotiable). **2042 deed**. For Sept 6 nights it covers 1BR+2BR without borrowing but saves only $2.9k (not top 5), and it loses money for a 1BR or 2BR alone. Not a pick. Also new: OKW OKW45271 (50 pts, $114, 2042) and Riviera RRC2367 (not legacy). Went pending: Aulani AUL247LBF1 (our former #4) and DVC Resale Market BL23775; BCB2578 moved on to Sale Pending; Aulani AUL242LBF1 came back to available (200 pts, $95, nothing banked, #320). Gone: SSR13191, BL23798, OK25061, RRC2346. Gmail: none. Market model n=860: −$5.17 / −$9.02 / ~$5.00 below ask. Flat.
 
 - 16:37 scrape (dispatched): 3 new. [SSR SSR18920 (DVC Resale Experts)](https://www.dvcresaleexperts.com/dvc-listing/ssr18920-september-160), 160 pts Sep UY, $112 ($17.9k), 2054 deed. ✔ Page checked 16:40: available, 320 in Sep-2026 (160 banked from 2025, **must be used by Aug 31, 2027**), 160 in 2027 and 2028. Dues terms aren't stated; the offer form leaves 2026 dues open to negotiation. It ranks #17 overall (score 79) on its July and 5-night fits, but for **Sept 6 nights** it can't cover 1BR+2BR (480 of 486 pts even after banking and borrowing), loses $1.7k vs renting for a 1BR, and roughly breaks even for a 2BR. Not a Sept pick. Also new: [SSR 615956 (DVC Market mirror)](https://dvcmarket.com/dvc-resale/saratoga-springs/100-points/615956), 100 pts Feb UY at $112, only 58 pts in 2027 (#515), and DVC Sales RV356 (Riviera, not a legacy resort, so excluded). Price changes: [HH HH91823 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/hilton-head/hh91823/) $63 → $59 (2042 deed, 0 pts in 2026 and 72 in 2027, #279), and Vacation Club Life Aulani 4301740000128934032 *raised* $96 → $100 (220 pts Mar UY, #234). Went pending: DVC Shop SSR611PS. Gone: DVC Resale Market SSE8630 (100 pts, $112). None on a Sept list. Gmail: none. Market model n=860: −$5.26 / −$8.99 / ~$5.06 below ask. Flat.
 
@@ -501,6 +503,7 @@ OKW 616379 leads too (saves $6.5k, borrows 110), ahead of Aulani AUL247LBF1 ($5.
 
 ## Scraper health
 
+- 17:36 (dispatched by this review): all 10 sources OK (DVC Market 754, DVC Resale Market 417, DVC Shop 235, DVC Resale Experts 107, DVC Store 86, DVC Sales 71, Vacation Club Life 46, DVC by Resale 22, Buy and Sell DVC 19, Magic Resales 4). No scheduled run between 16:37 and 17:36.
 - 11:38 (dispatched by this review): 9/10 OK. **DVC Sales: ok:false** (ConnectTimeout on /dvc-resale-listings). It was fine at 10:01 and returns 200 in 0.9 s at 11:40, so transient (same pattern as 06:39); no fix. Investigate if it fails again next run.
 - 01:36 (dispatched by this review): all 10 sources OK. No scheduled run since 23:28.
 - 00:36 and 01:04: all 10 sources OK (01:04: DVC Market 743, DVC Resale Market 409, DVC Shop 238, DVC Store 150, DVC Resale Experts 105, DVC Sales 69, Vacation Club Life 47, DVC by Resale 24, Buy and Sell DVC 20, Magic Resales 4).
