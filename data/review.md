@@ -1,7 +1,7 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-23 04:40 UTC (latest data: 04:36 UTC scrape, dispatched by this review; still no scheduled scrape since 00:08). Scraper health: **10/10 sources ok** (DVC Sales recovered, 70 listings). Fixes made this run: none. Broker alert emails in the last 2 h: none.
-Since last review: 7 new (all Aulani via DVC Market, none ranked), 47 gone (all DVC Shop), 0 price changes. **No ranking changes** in any Sept list; savings moved by under $100 after the market model refit (1BR+2BR #6 is now DVC Market SSR 616241, saves $3.9k).
+**Run:** 2026-10-23 05:40 UTC (latest data: 05:05 UTC scheduled scrape — the scheduled runs are back). Scraper health: **10/10 sources ok**. Fixes made this run: none. Broker alert emails in the last 2 h: none.
+Since last review: 0 new, 0 price changes, 0 status changes, 7 gone (the 7 DVC Market Aulani listings that appeared at 04:36). **No ranking changes** in any Sept list; savings within ~$10 of the 04:40 figures (market model back to its n=859 fit).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -52,6 +52,11 @@ OKW 616379 leads too (saves $6.5k, borrows 110), ahead of Aulani AUL247LBF1 ($5.
 3. **NEW** [Aulani AUE3552 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/aulani/aue3552/): +$4.2k over 2 use years on $27k cash (9 months) after today's cut to $97. ✔ 434 pts in Feb-2027 (184 banked), seller pays 2026 dues. Needs ~684 points rented, which is commercial-use territory. The 1-year version (+$1.8k, 434 pts) is the only one I'd call a plausible one-off. (SSR SSR13191, +$3.8k, #4.)
 
 ## Market notes
+
+- 05:05 scheduled scrape: 0 new, 0 price changes, 0 status changes, 7 gone. Gmail: none. 10/10 sources ok.
+  - **Correction to the 04:36 note:** the "DVC Shop cleanup" was feed flapping, not take-downs. DVC Shop's feed is back to 235 records and all 47 "gone" listings returned (157 pending / 83 available in our data). Reappearances don't create events in events.jsonl, so this only shows in the source count.
+  - The 7 DVC Market Aulani contracts that showed up at 04:36 (615082, 614892, 615080, 614890, 615380, 615076, 615077) dropped out of DVC Market's feed again, but 615082's page still says InStock, so treat them as feed flapping too. None ranked (best was #210).
+  - Market model n=859: −$5.16/pt per missing current year, −$9.00 missing next year, ~$5.01 below ask — identical to the 03:38 fit, which confirms the 04:36 shift was a sample artifact.
 
 - 04:36 scrape (dispatched by this review): 7 new, 0 price changes, 0 status changes, 47 gone. Gmail: none. 10/10 sources ok.
   - **DVC Shop cleanup:** its listing feed dropped from 235 to 188 records; the 47 removed were mostly "Sale Pending" (plus some available Aulani/BLT/BW/OKW). Checked two removed pages: one 404s, one redirects away, so they were taken down on the site, not a parser fault. None was in the top 150. Our pick AUL247LBF1 is still listed.
