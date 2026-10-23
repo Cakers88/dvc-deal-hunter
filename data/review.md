@@ -1,7 +1,7 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-23 07:40 UTC (latest data: 07:37 UTC scrape, dispatched by this review — still no scheduled run since 05:05). Scraper health: **10/10 sources ok** (DVC Sales back: 70 listings). Fixes made this run: none. Broker alert emails in the last 2 h: none.
-Since last review: 0 new, 0 price changes, 0 status changes, 0 gone. **No ranking changes** in any Sept list; DVC Sales contracts (SS1286/SS1297/SS1275) are fresh again from the 07:37 scrape. Tables below unchanged from 06:45.
+**Run:** 2026-10-23 10:40 UTC (latest data: 10:01 UTC scheduled scrape; scheduled runs resumed at 08:37, 09:36, 10:01). Scraper health: **10/10 sources ok**. Fixes made this run: none. Broker alert emails in the last 2 h: none.
+Since 07:40 review: 3 scrapes, 0 new, 0 price changes, 0 status changes, 0 gone. **No ranking changes** in any Sept list; DVC Sales contracts (SS1286/SS1297/SS1275) are fresh again from the 07:37 scrape. Tables below unchanged from 06:45.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -52,6 +52,8 @@ OKW 616379 leads too (saves $6.5k, borrows 110), ahead of Aulani AUL247LBF1 ($5.
 3. **NEW** [Aulani AUE3552 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/aulani/aue3552/): +$4.2k over 2 use years on $27k cash (9 months) after today's cut to $97. ✔ 434 pts in Feb-2027 (184 banked), seller pays 2026 dues. Needs ~684 points rented, which is commercial-use territory. The 1-year version (+$1.8k, 434 pts) is the only one I'd call a plausible one-off. (SSR SSR13191, +$3.8k, #4.)
 
 ## Market notes
+
+- 08:37 / 09:36 / 10:01 scheduled scrapes: 0 new, 0 price changes, 0 status changes, 0 gone. Gmail: none. 10/10 sources ok. Market model n=857: unchanged (−$5.18 / −$8.99 / ~$5.00 below ask).
 
 - 06:39 scrape (dispatched): 0 new, 0 price changes, 0 status changes, 3 gone (DVC Market VB 614914 270 pts $51, BLT 616160 220 pts $145, BWV 616316 240 pts $131). Gmail: none. 9/10 sources ok (DVC Sales connect timeout, ~3rd one-off tonight; fix only if it repeats next run).
   - Market model n=857: −$5.18/pt per missing current year, −$8.99 missing next year, ~$5.00 below ask. Flat.
