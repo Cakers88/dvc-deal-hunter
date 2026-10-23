@@ -2319,3 +2319,4 @@
 {"t": "2026-10-22T22:37:22+00:00", "uid": "dvcstore:BLT180-06-1015", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["active", "sale pending"]}}
 {"t": "2026-10-22T22:37:22+00:00", "uid": "dvcresalemarket:BWE3461", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["Certified Hot Price", "Offer Accepted"]}}
 {"t": "2026-10-22T23:37:13+00:00", "uid": "dvcresalemarket:HHE1822", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["Small Contract", "Offer Accepted"]}}
+{"t": "2026-10-23T00:08:51+00:00", "uid": "dvcsales:SS1297", "event": "price_change", "changes": {"price": [16995.0, 16665.0], "price_per_point": [103.0, 101.0]}}
