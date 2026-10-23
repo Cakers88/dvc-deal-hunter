@@ -1,7 +1,7 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-23 06:45 UTC (latest data: 06:39 UTC scrape, dispatched by this review — no scheduled run since 05:05). Scraper health: **9/10 sources ok** (DVC Sales connect timeout from the Action runner; the site answers fine from here, and the 05:05 run was ok, so not investigated). Fixes made this run: none. Broker alert emails in the last 2 h: none.
-Since last review: 0 new, 0 price changes, 0 status changes, 3 gone (DVC Market: Vero Beach 614914, BLT 616160, BWV 616316 — none on a Sept list). **No ranking changes** in any Sept list; savings within ~$10 of the 05:40 figures. DVC Sales contracts (SS1297/SS1275/SS1286) are carried from the 05:05 data this run.
+**Run:** 2026-10-23 07:40 UTC (latest data: 07:37 UTC scrape, dispatched by this review — still no scheduled run since 05:05). Scraper health: **10/10 sources ok** (DVC Sales back: 70 listings). Fixes made this run: none. Broker alert emails in the last 2 h: none.
+Since last review: 0 new, 0 price changes, 0 status changes, 0 gone. **No ranking changes** in any Sept list; DVC Sales contracts (SS1286/SS1297/SS1275) are fresh again from the 07:37 scrape. Tables below unchanged from 06:45.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
