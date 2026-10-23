@@ -1,7 +1,7 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-23 11:40 UTC (latest data: 11:38 UTC scrape, dispatched by this review; no scheduled run landed after 10:01). Scraper health: **9/10 sources ok** (DVC Sales connect timeout, one-off; site answers 200 now). Fixes made this run: none. Broker alert emails in the last 2 h: none.
-Since 10:40 review: 1 scrape, 0 new, 0 price changes, 1 status change, 2 gone, none touching a ranked Sept pick. **No ranking changes** in any Sept list; DVC Sales contracts (SS1286/SS1297/SS1275) are held from the 10:01 scrape. Tables below unchanged from 06:45.
+**Run:** 2026-10-23 12:40 UTC (latest data: 12:37 UTC scrape, dispatched by this review; still no scheduled run since 10:01). Scraper health: **10/10 sources ok** (DVC Sales back, 70 listings). Fixes made this run: none. Broker alert emails in the last 2 h: none.
+Since 11:40 review: 1 scrape, 1 new, 0 price changes, 2 status changes, 0 gone, none touching a ranked Sept pick. **No ranking changes** in any Sept list (savings move by a few dollars as interest days roll). Tables below unchanged from 06:45.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -52,6 +52,8 @@ OKW 616379 leads too (saves $6.5k, borrows 110), ahead of Aulani AUL247LBF1 ($5.
 3. **NEW** [Aulani AUE3552 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/aulani/aue3552/): +$4.2k over 2 use years on $27k cash (9 months) after today's cut to $97. ✔ 434 pts in Feb-2027 (184 banked), seller pays 2026 dues. Needs ~684 points rented, which is commercial-use territory. The 1-year version (+$1.8k, 434 pts) is the only one I'd call a plausible one-off. (SSR SSR13191, +$3.8k, #4.)
 
 ## Market notes
+
+- 12:37 scrape (dispatched): 1 new — [AKV AK86489 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/animal-kingdom-lodge/ak86489/), 225 pts Dec UY, $129 ($29k), 244 in Dec-2026 with seller covering 2026 dues, 2057 deed; ranks #190 (score 65), loses money vs renting for Sept, so not verified. 2 went pending at DVC Resale Market: Aulani AUA3518 and Hilton Head HHE1822 (neither on a Sept list). 10/10 sources ok. Gmail: none. Market model n=856: −$5.21 / −$8.98 / ~$5.02 below ask. Flat.
 
 - 11:38 scrape (dispatched): 0 new, 0 price changes, 1 status change (Polynesian PLG4643, DVC Resale Market: Offer Accepted → Sale Pending), 2 gone (Vacation Club Life 4301740000149640006 and 4301740000154766047, both already pending at $135/pt, presumably sold). Gmail: none. Market model n=856: −$5.21/pt per missing current year, −$8.98 missing next year, ~$5.02 below ask. Flat.
 
