@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-25 04:40 UTC (latest data: 04:36 UTC scrape, dispatched this run — no scrape had run since 02:38). Scraper health: **10/10 sources ok** at 02:38; 04:36 run succeeded. Fixes made this run: none. Broker alert emails in the last 2 h: none. Since the 02:40 review: 1 new (unranked), 0 price changes, 0 status changes, 1 gone (not ranked); **all Sept top lists unchanged**.
+**Run:** 2026-10-25 05:36 UTC (latest data: 04:59 UTC scheduled scrape). Scraper health: **10/10 sources ok** at 04:59. Fixes made this run: none. Broker alert emails in the last 2 h: none. Since the 04:40 review: 0 new, 0 price changes, 0 status changes, 3 gone (all already pending, none ranked); **all Sept top lists unchanged**.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -56,6 +56,7 @@ Dropped: Aulani AU385 (DVC Sales) is gone from the feed (sold/pulled); AUL54389 
 
 ## Market notes
 
+- 04:59 scrape (scheduled): 0 new, 0 price changes, 0 status changes, 3 gone — DVC Resale Market AKV AKE6454 ($135), GF GF83339 ($185), Polynesian PL24644 ($177), all already pending (likely closed). None on a Sept list. No new Aulani low. Gmail: none. Market model n=864: −$5.57 / −$9.01 / ~$5.11 below ask (was −$5.46 / −$9.08 / ~$4.97). Flat, within 1 SE.
 - 04:36 scrape (dispatched): 1 new, 1 gone. **New:** SSR [SSE8696 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/saratoga-springs/sse8696/), 120 pts Feb UY, $109 ($13.1k), 0 pts in Feb-2026, 26 in Feb-2027, full 120 from Feb-2028; seller pays 2026 dues and 2027 dues on 94 pts; can close after Jan 30, 2027; 2054 deed. Stripped, so no use for Sept 2027 (#583, score 0). **Gone:** BRV BR21936 (350 pts, $108; was already pending). No new Aulani low. Gmail: none. Market model n=867: −$5.46 / −$9.08 / ~$4.97 below ask. Flat.
 - 02:38 scrape (dispatched): 0 new, 0 price changes, 0 status changes, 1 gone — DVC Market mirror GF 616174 (400 pts, $165), which already flapped gone/back before; not ranked. No new Aulani low. Gmail: none. Market model n=867: −$5.48 / −$9.11 / ~$4.91 below ask. Flat.
 - 00:18 scrape (scheduled): 0 new, 0 price changes, 2 status changes, 1 gone. **Offer Accepted at DVC Resale Market:** AKV [AK26522](https://www.dvcresalemarket.com/listings/animal-kingdom-lodge/ak26522/) (125 pts Oct UY, $131, "full 2026 points with no dues") and VGC GC91848 (160 pts, $254). **Gone:** SSR SS88629 (210 pts Mar UY, $103; was already pending). None was on a Sept list or met the top-25/score-70 bar, so no page checks. No new Aulani low. Gmail: none. Market model n=867: −$5.48 / −$9.11 / ~$4.91 below ask (was −$5.50 / −$9.09 / ~$4.97). Flat.
