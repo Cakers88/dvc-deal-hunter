@@ -2610,3 +2610,5 @@
 {"t": "2026-10-25T16:37:08+00:00", "uid": "dvcresaleexperts:BLT18610", "event": "gone", "last": {"price": 27800.0, "price_per_point": 139.0, "availability": "available"}}
 {"t": "2026-10-25T16:37:08+00:00", "uid": "dvcsales:GC211", "event": "gone", "last": {"price": 14250.0, "price_per_point": 285.0, "availability": "available"}}
 {"t": "2026-10-25T16:37:08+00:00", "uid": "dvcshop:SSR582LBF1", "event": "gone", "last": {"price": 5450.0, "price_per_point": 109.0, "availability": "pending"}}
+{"t": "2026-10-25T17:37:39+00:00", "uid": "dvcresalemarket:CCB3035", "event": "status_change", "changes": {"status_raw": ["Offer Accepted", "Sale Pending"]}}
+{"t": "2026-10-25T17:37:39+00:00", "uid": "dvcmarket:616019", "event": "gone", "last": {"price": 14250.0, "price_per_point": 285.0, "availability": "available"}}
