@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T04:36:38+00:00",
+ "updated": "2026-10-25T04:59:16+00:00",
  "count": 1588,
  "listings": [
   {
@@ -38384,7 +38384,7 @@
     "availability_from": "index"
    },
    "uid": "dvcresalemarket:AKE6454",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -38395,7 +38395,8 @@
      "availability": "pending",
      "status_raw": "Sale Pending"
     }
-   ]
+   ],
+   "gone_at": "2026-10-25T04:59:16+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -49803,7 +49804,7 @@
     "availability_from": "index"
    },
    "uid": "dvcresalemarket:GF83339",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -49814,7 +49815,8 @@
      "availability": "pending",
      "status_raw": "Sale Pending"
     }
-   ]
+   ],
+   "gone_at": "2026-10-25T04:59:16+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -54722,7 +54724,7 @@
     "availability_from": "index"
    },
    "uid": "dvcresalemarket:PL24644",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -54737,7 +54739,8 @@
      "t": "2026-10-15T15:35:03+00:00",
      "status_raw": "Sale Pending"
     }
-   ]
+   ],
+   "gone_at": "2026-10-25T04:59:16+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -63345,7 +63348,7 @@
    "expiration": 2054,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "can_close_after": "1/30/2027",
     "closing_cost": 829.0
    },
@@ -97985,7 +97988,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-25T04:36:38+00:00"
+   "detail_at": "2026-10-25T04:59:16+00:00"
   },
   {
    "source": "magicresales",
@@ -98043,7 +98046,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-25T04:36:38+00:00"
+   "detail_at": "2026-10-25T04:59:16+00:00"
   },
   {
    "source": "magicresales",
@@ -98101,7 +98104,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-25T04:36:38+00:00"
+   "detail_at": "2026-10-25T04:59:16+00:00"
   },
   {
    "source": "vacationclublife",
