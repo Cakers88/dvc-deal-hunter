@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-25 07:40 UTC (latest data: 07:37 UTC dispatched scrape; no scheduled scrape had run since 04:59). Scraper health: **10/10 sources ok** at 04:59, run 07:37 succeeded. Fixes made this run: none. Broker alert emails in the last 2 h: none. Since the 05:36 review: 0 new, 0 price changes, 0 status changes, 3 gone — **SSR 616162 (2BR #3) is gone**, so the 2BR list shifts; 1BR+2BR and 1BR lists unchanged.
+**Run:** 2026-10-25 12:40 UTC (latest data: 12:36 UTC dispatched scrape; GitHub's schedule had not fired since 09:46). Scraper health: **10/10 sources ok** at 09:46 and 12:36. Fixes made this run: none. Broker alert emails in the last 2 h: none. Since the 07:40 review: 0 new, 1 price change (a small Grand Floridian contract, unranked), 0 status changes, 0 gone. **All three Sept lists are unchanged** (savings moved by a few dollars as interest accrues).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -56,6 +56,7 @@ Dropped: Aulani AU385 (DVC Sales) is gone from the feed (sold/pulled); AUL54389 
 
 ## Market notes
 
+- 12:36 scrape (dispatched; 09:36 / 09:46: no changes): 0 new, 1 price change, 0 status changes, 0 gone. **Price cut:** GF [GFB3365 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/grand-floridian/gfb3365/) $185 → $180 ($13,500, "Small Contract" → "Reduced"); too small and too pricey to score for Sept, so no page check. No new Aulani low. Gmail: none. Market model n=861: −$5.60 / −$9.03 / ~$5.12 below ask (was −$5.61 / −$9.04 / ~$5.13). Flat.
 - 07:37 scrape (dispatched): 0 new, 0 price changes, 0 status changes, 3 gone — all DVC Market mirrors: **SSR 616162** (150 pts Jun UY, $100; was 2BR #3), BLT 615466 ($143, the stale BL63765 mirror), OKW 616411 ($114, the stale OKW45271 mirror). No new Aulani low. Gmail: none. Market model n=861: −$5.61 / −$9.04 / ~$5.13 below ask (was −$5.57 / −$9.01 / ~$5.11). Flat.
 - 04:59 scrape (scheduled): 0 new, 0 price changes, 0 status changes, 3 gone — DVC Resale Market AKV AKE6454 ($135), GF GF83339 ($185), Polynesian PL24644 ($177), all already pending (likely closed). None on a Sept list. No new Aulani low. Gmail: none. Market model n=864: −$5.57 / −$9.01 / ~$5.11 below ask (was −$5.46 / −$9.08 / ~$4.97). Flat, within 1 SE.
 - 04:36 scrape (dispatched): 1 new, 1 gone. **New:** SSR [SSE8696 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/saratoga-springs/sse8696/), 120 pts Feb UY, $109 ($13.1k), 0 pts in Feb-2026, 26 in Feb-2027, full 120 from Feb-2028; seller pays 2026 dues and 2027 dues on 94 pts; can close after Jan 30, 2027; 2054 deed. Stripped, so no use for Sept 2027 (#583, score 0). **Gone:** BRV BR21936 (350 pts, $108; was already pending). No new Aulani low. Gmail: none. Market model n=867: −$5.46 / −$9.08 / ~$4.97 below ask. Flat.
