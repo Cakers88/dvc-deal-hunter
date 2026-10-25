@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-25 05:36 UTC (latest data: 04:59 UTC scheduled scrape). Scraper health: **10/10 sources ok** at 04:59. Fixes made this run: none. Broker alert emails in the last 2 h: none. Since the 04:40 review: 0 new, 0 price changes, 0 status changes, 3 gone (all already pending, none ranked); **all Sept top lists unchanged**.
+**Run:** 2026-10-25 07:40 UTC (latest data: 07:37 UTC dispatched scrape; no scheduled scrape had run since 04:59). Scraper health: **10/10 sources ok** at 04:59, run 07:37 succeeded. Fixes made this run: none. Broker alert emails in the last 2 h: none. Since the 05:36 review: 0 new, 0 price changes, 0 status changes, 3 gone — **SSR 616162 (2BR #3) is gone**, so the 2BR list shifts; 1BR+2BR and 1BR lists unchanged.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -36,11 +36,11 @@ OKW 616380 (was #1, $1.3k savings) dropped out of DVC Market's feed at 18:37. **
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | [HH 616377 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/hilton-head/150-points/616377) Feb UY | 150 | $65 | $9,750 | $5,168 ($1,882) | $13.3k / 15 | 2027-02-12 | medium | ✔ (InStock earlier). 300 in Feb-2027 (150 banked), **no borrowing**. Hilton Head: 2042 deed, slow resale. |
 | 2 | [VB V1508AR1 (DVC by Resale)](https://www.dvcbyresale.com/buy.php?listid=1858580847851351) Aug UY | 150 | $45 | $6,750 | $5,305 ($1,745) | $10.4k / 15 | 2027-02-12 | **high** | ⚠ 123 in Aug-2026, 150 in Aug-2027, borrows 9. Vero Beach **2042 deed**, $45 is ROFR bait, thin resale market. |
-| 3 | [SSR 616162 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/saratoga-springs/150-points/616162) Jun UY | 150 | $100 | $15,000 | $5,566 ($1,484) | $18.0k / 15 | 2027-02-12 | medium | ⚠ 150/150/150, no borrowing, 2054 deed. Best long-deed 2BR option; dues terms via mirror only. |
+| 3 | [AKV AK824 (DVC Sales)](https://dvcsales.com/dvc-resale/animal-kingdom/120-points/1884) Sep UY | 120 | $114 | $13,680 | $5,591 ($1,459) | $16.4k / 15 | 2027-02-12 | low | ✔ (20:40) 120/120/120, buyer reimburses 2026 dues, closes Dec 10, 2026, 2057 deed. **Red flag:** must bank all 120 Sep-2026 points by Dec 31, 2026, three weeks after closing, and borrows 42. Only works if the seller banks before closing. |
 
-**#4 NEW:** [AKV AK824 (DVC Sales)](https://dvcsales.com/dvc-resale/animal-kingdom/120-points/1884) Sep UY, 120 pts, $114, $13,680. Net $5,588 (saves $1,462), $16.4k tied up / 15 mo, low ROFR (above Disney's top recent AKV buyback), 2057 deed. ✔ Page checked 20:40: available (listed today), 120/120/120, buyer reimburses 2026 dues, closing Dec 10, 2026, US seller. **Red flag:** the plan banks all 120 Sep-2026 points into 2027 and borrows 42; the Sep-UY banking deadline is Dec 31, 2026, only three weeks after closing, so the points may not be in your name in time. Without banking it can't cover a Sept 2BR. Not a pick unless the seller banks before closing.
+Next: [HH HHI26452 (DVC Resale Experts)](https://www.dvcresaleexperts.com/dvc-listing/hhi26452-june-150) #4, Jun UY, 150 pts, $72 ($10.8k), saves $1,331, no borrowing — but it relies on banking 141 Jun-2026 points by Jan 31, 2027 (the 150 already banked expire May 31, 2027), 2042 deed, ⚠ not page-checked. Then OKW 613381 (DVC Market mirror) #5, $92, saves $1,235, 2042 deed, high ROFR.
 
-OKW 616380 (was #1) gone from the feed.
+Gone: SSR 616162 (was #3, the best long-deed 2BR) dropped out of DVC Market's feed at 07:37.
 
 ## 3-bedroom grand villa, Sept, 6 nights (FYI)
 
@@ -56,6 +56,7 @@ Dropped: Aulani AU385 (DVC Sales) is gone from the feed (sold/pulled); AUL54389 
 
 ## Market notes
 
+- 07:37 scrape (dispatched): 0 new, 0 price changes, 0 status changes, 3 gone — all DVC Market mirrors: **SSR 616162** (150 pts Jun UY, $100; was 2BR #3), BLT 615466 ($143, the stale BL63765 mirror), OKW 616411 ($114, the stale OKW45271 mirror). No new Aulani low. Gmail: none. Market model n=861: −$5.61 / −$9.04 / ~$5.13 below ask (was −$5.57 / −$9.01 / ~$5.11). Flat.
 - 04:59 scrape (scheduled): 0 new, 0 price changes, 0 status changes, 3 gone — DVC Resale Market AKV AKE6454 ($135), GF GF83339 ($185), Polynesian PL24644 ($177), all already pending (likely closed). None on a Sept list. No new Aulani low. Gmail: none. Market model n=864: −$5.57 / −$9.01 / ~$5.11 below ask (was −$5.46 / −$9.08 / ~$4.97). Flat, within 1 SE.
 - 04:36 scrape (dispatched): 1 new, 1 gone. **New:** SSR [SSE8696 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/saratoga-springs/sse8696/), 120 pts Feb UY, $109 ($13.1k), 0 pts in Feb-2026, 26 in Feb-2027, full 120 from Feb-2028; seller pays 2026 dues and 2027 dues on 94 pts; can close after Jan 30, 2027; 2054 deed. Stripped, so no use for Sept 2027 (#583, score 0). **Gone:** BRV BR21936 (350 pts, $108; was already pending). No new Aulani low. Gmail: none. Market model n=867: −$5.46 / −$9.08 / ~$4.97 below ask. Flat.
 - 02:38 scrape (dispatched): 0 new, 0 price changes, 0 status changes, 1 gone — DVC Market mirror GF 616174 (400 pts, $165), which already flapped gone/back before; not ranked. No new Aulani low. Gmail: none. Market model n=867: −$5.48 / −$9.11 / ~$4.91 below ask. Flat.
