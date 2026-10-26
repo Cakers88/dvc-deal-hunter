@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T21:42:16+00:00",
+ "updated": "2026-10-26T21:43:03+00:00",
  "count": 1623,
  "listings": [
   {
@@ -67647,9 +67647,9 @@
    "expiration": 2057,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "days_on_market": 3,
-    "date_listed_from": "detail",
+    "date_listed_from": "index_days",
     "internal_id": "1884",
     "value_score": 38,
     "also_on": "dvcmarket",
@@ -68066,7 +68066,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 45,
+    "days_on_market": 46,
     "date_listed_from": "index_days",
     "internal_id": "1664",
     "value_score": 43,
@@ -68412,9 +68412,9 @@
    "expiration": 2062,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "days_on_market": 38,
-    "date_listed_from": "detail",
+    "date_listed_from": "index_days",
     "internal_id": "1713",
     "value_score": 26,
     "also_on": "dvcmarket",
@@ -100338,7 +100338,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-26T21:42:16+00:00"
+   "detail_at": "2026-10-26T21:43:03+00:00"
   },
   {
    "source": "magicresales",
@@ -100396,7 +100396,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-26T21:42:16+00:00"
+   "detail_at": "2026-10-26T21:43:03+00:00"
   },
   {
    "source": "magicresales",
@@ -100454,7 +100454,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-26T21:42:16+00:00"
+   "detail_at": "2026-10-26T21:43:03+00:00"
   },
   {
    "source": "vacationclublife",
