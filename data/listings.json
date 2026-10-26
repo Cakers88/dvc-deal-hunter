@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T21:43:43+00:00",
+ "updated": "2026-10-26T21:56:31+00:00",
  "count": 1623,
  "listings": [
   {
@@ -70483,8 +70483,8 @@
    "resort_raw": "Boardwalk",
    "resort": "bwv",
    "points": 150,
-   "price": 17250.0,
-   "price_per_point": 115.0,
+   "price": 17100.0,
+   "price_per_point": 114.0,
    "use_year": 8,
    "status_raw": "Live",
    "availability": "available",
@@ -70513,11 +70513,11 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "days_on_market": 22,
-    "date_listed_from": "index_days",
+    "date_listed_from": "detail",
     "internal_id": "1782",
-    "value_score": 40,
+    "value_score": 42,
     "also_on": "dvcmarket",
     "availability_table": [
      {
@@ -70548,10 +70548,10 @@
     "dues_year": 2027,
     "closing_cost": 732.0,
     "caf": 500.0,
-    "total_due_at_closing": 19720.0,
-    "est_closing_date": "2026-12-12",
+    "total_due_at_closing": 19570.0,
+    "est_closing_date": "2026-12-13",
     "us_seller": true,
-    "status_line": "Live | listed 21 days ago, still available"
+    "status_line": "Live | listed 22 days ago, still available"
    },
    "uid": "dvcsales:BW430",
    "active": true,
@@ -70589,9 +70589,14 @@
      "t": "2026-10-25T16:37:08+00:00",
      "price": 17250.0,
      "price_per_point": 115.0
+    },
+    {
+     "t": "2026-10-26T21:56:31+00:00",
+     "price": 17100.0,
+     "price_per_point": 114.0
     }
    ],
-   "detail_at": "2026-10-25T16:37:08+00:00"
+   "detail_at": "2026-10-26T21:56:31+00:00"
   },
   {
    "source": "dvcsales",
@@ -100335,7 +100340,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-26T21:43:43+00:00"
+   "detail_at": "2026-10-26T21:56:31+00:00"
   },
   {
    "source": "magicresales",
@@ -100393,7 +100398,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-26T21:43:43+00:00"
+   "detail_at": "2026-10-26T21:56:31+00:00"
   },
   {
    "source": "magicresales",
@@ -100451,7 +100456,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-26T21:43:43+00:00"
+   "detail_at": "2026-10-26T21:56:31+00:00"
   },
   {
    "source": "vacationclublife",
