@@ -2691,3 +2691,9 @@
 {"t": "2026-10-26T00:36:52+00:00", "uid": "dvcresalemarket:AUA3555", "event": "gone", "last": {"price": 21160.0, "price_per_point": 92.0, "availability": "pending"}}
 {"t": "2026-10-26T00:36:52+00:00", "uid": "dvcresalemarket:BCE2513", "event": "gone", "last": {"price": 21300.0, "price_per_point": 142.0, "availability": "pending"}}
 {"t": "2026-10-26T00:36:52+00:00", "uid": "dvcresalemarket:SS78550", "event": "gone", "last": {"price": 16500.0, "price_per_point": 110.0, "availability": "pending"}}
+{"t": "2026-10-26T02:39:05+00:00", "uid": "dvcshop:AK452LBF1", "event": "new"}
+{"t": "2026-10-26T02:39:05+00:00", "uid": "dvcresalemarket:SS28512", "event": "price_change", "changes": {"price": [11400.0, 11200.0], "price_per_point": [114.0, 112.0]}}
+{"t": "2026-10-26T02:39:05+00:00", "uid": "dvcresalemarket:BWC3457", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["Certified Hot Price", "Offer Accepted"]}}
+{"t": "2026-10-26T02:39:05+00:00", "uid": "dvcshop:POLY371LBF1", "event": "new"}
+{"t": "2026-10-26T02:39:05+00:00", "uid": "dvcresalemarket:GC61830", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["BONUS! FULL POINTS FOR 2026 WITH NO DUES!", "Offer Accepted"]}}
+{"t": "2026-10-26T02:39:05+00:00", "uid": "dvcmarket:616174", "event": "gone", "last": {"price": 66000.0, "price_per_point": 165.0, "availability": "available"}}
