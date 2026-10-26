@@ -156,6 +156,14 @@ def fetch_listings(session) -> list[dict]:
     return out
 
 
+def reapply(d: dict) -> None:
+    """Re-derive points_available from the index text on carried-over listings (the scraper
+    otherwise keeps the stored buckets), so parser fixes apply right away."""
+    pa = parse_points_desc(d.get("availability_text"), d.get("use_year"), d.get("points"))
+    if pa:
+        d["points_available"] = pa
+
+
 def fetch_detail(session, d: dict) -> dict:
     global _last_detail
     gap = time.time() - _last_detail
