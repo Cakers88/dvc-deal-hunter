@@ -66,6 +66,8 @@ def parse_points_desc(text: str, uy: int | None, contract: int | None, today: da
         mm = re.search(_MON + r"\s*\d{1,2}(?:st|nd|rd|th)?,?\s*(20\d\d)", rest, re.I)
         if mm:
             year = int(mm.group(2))
+            if re.search(r"\b(?:use|expire)s?\b[^(]*\bby\b", rest[:mm.start()], re.I):
+                year -= 1      # "210 points to use by Apr 1, 2027" = the UY that ends then
         elif re.search(r"available now|now available", rest, re.I):
             year = _current_uy_start(uy, today)
         else:
@@ -82,6 +84,13 @@ def parse_points_desc(text: str, uy: int | None, contract: int | None, today: da
             banked = pts - contract
         key = f"{year}-{uy:02d}"
         out.setdefault(key, {"uy": key, "points": pts, "banked": min(banked, pts)})
+    # "210 points to use by Apr 1, 2027 + 420 points coming Apr 1, 2027 (210 + 210 banked)":
+    # when the banked figure equals the previous bucket, it is the same points (the seller
+    # will bank them), so don't count them twice. Leftovers ("11 to use by" + 160 banked) stay.
+    for b in out.values():
+        prev = out.get(f"{int(b['uy'][:4]) - 1}-{uy:02d}")
+        if prev and b["banked"] and prev["points"] == b["banked"]:
+            prev["points"], prev["banked"] = 0, 0
     return sorted(out.values(), key=lambda b: b["uy"])
 
 
