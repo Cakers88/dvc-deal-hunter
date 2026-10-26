@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-26 02:40 UTC (latest data: 02:39 UTC scrape, dispatched — the scheduler has only fired once since 22:31, at 00:42, with no changes). Scraper health: **10/10 ok** at 00:42; 02:39 run succeeded. Fixes made this run: none. Broker alert emails in the last 2 h: none. Since the 00:40 review: 2 new, 1 price change, 2 status changes, 1 gone — **none touches a Sept list**. **All three Sept lists and the rent-out flips are unchanged** (savings within ~$25 after the market-model refit).
+**Run:** 2026-10-26 03:36 UTC (latest data: still the 02:39 UTC scrape; no scheduled scrape since). Scraper health: **9/10 at 02:39 — DVC Sales timed out** (ConnectTimeout; its listings were kept, not marked gone). Was ok at 00:42 and the site answers normally now (HTTP 200 in 1 s), so treated as a one-off; DVC Sales prices are as of 00:42. Fixes made: none. Broker alert emails in the last 2 h: none. No new events since the 02:40 review. **All three Sept lists and the rent-out flips are unchanged.**
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
