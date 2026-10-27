@@ -2827,3 +2827,8 @@
 {"t": "2026-10-27T13:42:20+00:00", "uid": "dvcsales:BR243", "event": "price_change", "changes": {"price": [28500.0, 26700.0], "price_per_point": [95.0, 89.0]}}
 {"t": "2026-10-27T13:42:20+00:00", "uid": "vacationclublife:4301740000155868001", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["Active", "Pending"]}}
 {"t": "2026-10-27T13:42:20+00:00", "uid": "dvcsales:GF346", "event": "price_change", "changes": {"price": [25500.0, 25350.0], "price_per_point": [170.0, 169.0]}}
+{"t": "2026-10-27T14:36:53+00:00", "uid": "dvcresalemarket:SSE8718", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["Certified Hot Price", "Offer Accepted"]}}
+{"t": "2026-10-27T14:36:53+00:00", "uid": "dvcresaleexperts:WCC00900", "event": "new"}
+{"t": "2026-10-27T14:36:53+00:00", "uid": "dvcmarket:616133", "event": "gone", "last": {"price": 66000.0, "price_per_point": 165.0, "availability": "available"}}
+{"t": "2026-10-27T14:36:53+00:00", "uid": "dvcresalemarket:AK26485", "event": "gone", "last": {"price": 17760.0, "price_per_point": 111.0, "availability": "pending"}}
+{"t": "2026-10-27T14:36:53+00:00", "uid": "dvcresalemarket:SS98620", "event": "gone", "last": {"price": 25000.0, "price_per_point": 125.0, "availability": "pending"}}
