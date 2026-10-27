@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-27 00:38 UTC (latest data: 00:37 UTC scrape, dispatched by this review). Scraper health: **10/10 ok**. No fixes this run. Broker alert emails in the last 2 h: none. **No ranking changes**: all Sept lists hold their order; savings moved ≤ $20 on the market-model refit (e.g. 1BR+2BR #1 OKW 616379 now saves $5,119, #4 VCL OKW $4,342). Last run's ranking change (VCL OKW [4301740000155635003](https://vacationclublife.com/listings/4301740000155635003) now #4 after the points-parser fix) still stands.
+**Run:** 2026-10-27 02:36 UTC (latest data: 01:27 UTC scrape). Scraper health: **10/10 ok**. No fixes this run. Broker alert emails in the last 2 h: none. **No ranking changes**: all Sept lists hold their order; savings moved ≤ $45 on the market-model refit (1BR+2BR #1 OKW 616379 now saves $5,120, #2 SSR SS1297 $4,820, #4 VCL OKW $4,347).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -56,6 +56,7 @@ Dropped: **Aulani AUE3552 (DVC Resale Market) went Offer Accepted at 16:37** (wa
 
 ## Market notes
 
+- 01:27 scrape: 2 new, 1 price change, 2 status changes, 7 gone (all DVC Resale Market). **New:** AKV [AK26543](https://www.dvcresalemarket.com/listings/animal-kingdom-lodge/ak26543/) 270 pts Dec UY, $114 ($30,780; #300, score 58) and Riviera RRB2334 (unranked). **Price cut:** GF [GF33362](https://www.dvcresalemarket.com/listings/grand-floridian/gf33362/) $169 → $166 ($33,200; #418, score 48). **Offer Accepted:** SSR SSC8703 and GF GF33371. **Gone (all already pending):** BWA3434, GCE1856, HHA1810, RRB2356, SS38564, SSF8631, VB92632. Nothing met the top-25/score-70 bar, so no page checks; none was on a Sept list. No new Aulani low. Gmail: none. Market model n=853: −$5.18/pt per missing current year (was −$5.31), −$8.79 missing next (was −$8.83), ~$5.09 below ask (was $4.93). Flat.
 - 00:37 scrape (dispatched; no scheduled run since 21:56): 1 new, 0 price changes, 4 status changes, 0 gone. **New:** BWV [B506BA1 (DVC by Resale)](https://www.dvcbyresale.com/buy.php?listid=1880136777387659) 50 pts Jun UY, $140 ($7,000), 1 pt in Jun-2026, 50 from Jun-2027, 2042 deed — too small for any Sept setup (unranked). **Back to available:** Aulani [AUB3556 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/aulani/aub3556/) (was Offer Accepted; 100 pts Jun UY, $104, "full points for 2026 with no dues", 2062 deed; #438, score 47.7 — the free 2026 points expire May 31, 2027, before a Sept trip, so not a pick). **Went pending:** GF GF33381 (DVC Resale Market, Offer Accepted), Polynesian bungalow POLY371LBF1 (DVC Shop, Sale Pending); SS88662 → Sale Pending. None on a Sept list. No new Aulani low. Gmail: none. Market model n=859: −$5.31/pt per missing current year (was −$5.25), −$8.83 missing next (was −$8.84), ~$4.93 below ask (was $4.76). Flat.
 - 23:36 scrape (dispatched; no scheduled run since 21:56): 0 new, 1 price change, 4 status changes, 0 gone. **Price back up:** BWV [BW430 (DVC Sales)](https://dvcsales.com/dvc-resale/boardwalk/150-points/1782) $114 → $119 ($17,850), reversing the 21:56 cut; unranked for Sept. **Went pending at DVC Resale Market:** AKV AK36521 (60 pts, $129) and Riviera RRE2363 (50 pts, $138) → Offer Accepted (small contracts, unranked); AK36528 and AK26522 → Sale Pending. No Sept list changes, no new Aulani low. Gmail: none. Market model n=858: −$5.25/pt per missing current year (was −$5.31), −$8.84 missing next (was −$8.82), ~$4.76 below ask (was $4.79). Flat.
 - 21:56 scrape: 0 new, 1 price change, 0 status changes, 0 gone. **Price cut:** BWV [BW430 (DVC Sales)](https://dvcsales.com/dvc-resale/boardwalk/150-points/1782) $115 → $114 ($17,100; 150 pts Aug UY, 0 in Aug-2026, 139 from Aug-2027, 2042 deed, high ROFR; #200, score 64.6) — below the top-25/70 bar, no page check, no Sept list changes. No new Aulani low. Gmail: none.
@@ -75,6 +76,7 @@ Dropped: **Aulani AUE3552 (DVC Resale Market) went Offer Accepted at 16:37** (wa
 
 ## Scraper health
 
+- 01:27: all 10 sources OK (DVC Resale Market 419, others unchanged from 00:37).
 - 00:37 (dispatched): all 10 sources OK, counts in line with 23:36.
 - 23:36 (dispatched): all 10 sources OK, counts unchanged from 21:56.
 - 21:56: all 10 sources OK (DVC Market 750, DVC Resale Market 424, DVC Shop 236, DVC Resale Experts 105, DVC Store 86, DVC Sales 69, Vacation Club Life 50, DVC by Resale 18, Buy and Sell DVC 19, Magic Resales 4).
