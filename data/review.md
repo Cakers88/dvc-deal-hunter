@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-27 05:40 UTC (latest data: 05:38 UTC scrape, dispatched — no scheduled run since 01:27). Scraper health: **9/10 ok** (Vacation Club Life API 502, transient, listings carried over). No fixes this run. Broker alert emails in the last 2 h: none. **No ranking changes**: all Sept lists hold their order; the market-model refit moved savings by < $30.
+**Run:** 2026-10-27 06:37 UTC (latest data still the 05:38 UTC scrape — no new Action run since; no scheduled run since 01:27). Scraper health: **9/10 ok** at 05:38 (Vacation Club Life API 502); a manual probe at 06:36 got all 50 VCL listings back, so it was transient and needs no fix. No fixes this run. Broker alert emails in the last 2 h: none. **No ranking changes**: all Sept lists hold their order; the market-model refit moved savings by < $30.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -78,6 +78,7 @@ Dropped: **Aulani AUE3552 (DVC Resale Market) went Offer Accepted at 16:37** (wa
 
 ## Scraper health
 
+- 06:36 (this review, read-only probe, no data commit): Vacation Club Life listing API answering again (50 listings). No Action run since 05:38.
 - 05:38 (dispatched): 9/10 OK. **Vacation Club Life ok:false, 0 listings** — its listing API returned HTTP 502 (server-side, not a parser break); the 50 VCL listings were carried over, none marked gone. First failure, so no adapter change; will investigate if the next run fails too. DVC Resale Market 427, others unchanged.
 - 03:36 (dispatched): all 10 sources OK (DVC Resale Market 422, DVC Shop 234, others unchanged).
 - 01:27: all 10 sources OK (DVC Resale Market 419, others unchanged from 00:37).
