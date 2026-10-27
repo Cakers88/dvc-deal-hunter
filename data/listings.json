@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-27T12:41:07+00:00",
- "count": 1642,
+ "updated": "2026-10-27T12:51:53+00:00",
+ "count": 1643,
  "listings": [
   {
    "source": "buyandselldvc",
@@ -31401,6 +31401,65 @@
     }
    ],
    "detail_at": "2026-10-26T11:31:31+00:00"
+  },
+  {
+   "source": "dvcresaleexperts",
+   "listing_id": "BLT00930",
+   "url": "https://www.dvcresaleexperts.com/dvc-listing/blt00930-february-200",
+   "resort_raw": "Bay Lake Tower",
+   "resort": "blt",
+   "points": 200,
+   "price": 29000.0,
+   "price_per_point": 145.0,
+   "use_year": 2,
+   "status_raw": "New",
+   "availability": "available",
+   "date_listed": null,
+   "points_available": [
+    {
+     "uy": "2026-02",
+     "points": 0,
+     "banked": 0
+    },
+    {
+     "uy": "2027-02",
+     "points": 200,
+     "banked": 0
+    },
+    {
+     "uy": "2028-02",
+     "points": 200,
+     "banked": 0
+    }
+   ],
+   "availability_text": "2026: 0 | 2027: 200 | 2028: 200",
+   "dues_terms": "Not stated; negotiable in offer (Buyer Pays / Seller Pays / Pro-rate on available points)",
+   "dues_per_point": 8.74,
+   "subsidized_dues": null,
+   "expiration": 2060,
+   "detail_fetched": true,
+   "extra": {
+    "availability_from": "detail",
+    "savings_vs_direct": 26000.0,
+    "annual_dues_total": 1748.0,
+    "closing_cost": 872.0,
+    "caf": 500.0,
+    "comments": "Share magical Disney vacations with the whole family and stay within walking distance of it all when you purchase this DVC Resale Bay Lake Tower contract!"
+   },
+   "uid": "dvcresaleexperts:BLT00930",
+   "active": true,
+   "stale": false,
+   "first_seen": "2026-10-27T12:51:53+00:00",
+   "history": [
+    {
+     "t": "2026-10-27T12:51:53+00:00",
+     "price": 29000.0,
+     "price_per_point": 145.0,
+     "availability": "available",
+     "status_raw": "New"
+    }
+   ],
+   "detail_at": "2026-10-27T12:51:53+00:00"
   },
   {
    "source": "dvcresaleexperts",
@@ -66604,7 +66663,7 @@
    "expiration": 2054,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 899.0
    },
@@ -101668,7 +101727,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-27T12:41:07+00:00"
+   "detail_at": "2026-10-27T12:51:53+00:00"
   },
   {
    "source": "magicresales",
@@ -101726,7 +101785,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-27T12:41:07+00:00"
+   "detail_at": "2026-10-27T12:51:53+00:00"
   },
   {
    "source": "magicresales",
@@ -101784,7 +101843,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-27T12:41:07+00:00"
+   "detail_at": "2026-10-27T12:51:53+00:00"
   },
   {
    "source": "vacationclublife",
