@@ -2823,3 +2823,7 @@
 {"t": "2026-10-27T12:41:07+00:00", "uid": "dvcshop:AUL244LBF1", "event": "new"}
 {"t": "2026-10-27T12:41:07+00:00", "uid": "dvcresalemarket:SSF8639", "event": "price_change", "changes": {"price": [20000.0, 19200.0], "price_per_point": [100.0, 96.0]}}
 {"t": "2026-10-27T12:51:53+00:00", "uid": "dvcresaleexperts:BLT00930", "event": "new"}
+{"t": "2026-10-27T13:42:20+00:00", "uid": "dvcresalemarket:VB22634", "event": "status_change", "changes": {"status_raw": ["Offer Accepted", "Sale Pending"]}}
+{"t": "2026-10-27T13:42:20+00:00", "uid": "dvcsales:BR243", "event": "price_change", "changes": {"price": [28500.0, 26700.0], "price_per_point": [95.0, 89.0]}}
+{"t": "2026-10-27T13:42:20+00:00", "uid": "vacationclublife:4301740000155868001", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["Active", "Pending"]}}
+{"t": "2026-10-27T13:42:20+00:00", "uid": "dvcsales:GF346", "event": "price_change", "changes": {"price": [25500.0, 25350.0], "price_per_point": [170.0, 169.0]}}
