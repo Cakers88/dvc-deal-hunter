@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T23:36:45+00:00",
+ "updated": "2026-10-28T23:52:53+00:00",
  "count": 1713,
  "listings": [
   {
@@ -42601,36 +42601,34 @@
    "price": 12500.0,
    "price_per_point": 125.0,
    "use_year": 12,
-   "status_raw": "New",
-   "availability": "available",
-   "date_listed": "2026-10-26",
+   "status_raw": "Offer Accepted",
+   "availability": "pending",
+   "date_listed": null,
    "points_available": [
     {
-     "uy": "2026-12",
+     "uy": "2025-12",
      "points": 92,
      "banked": 0
     },
     {
-     "uy": "2027-12",
+     "uy": "2026-12",
      "points": 75,
      "banked": 0
     },
     {
-     "uy": "2028-12",
+     "uy": "2027-12",
      "points": 100,
      "banked": 0
     }
    ],
-   "availability_text": "December 2026 - 92 points\nDecember 2027 - 75 points\nDecember 2028 - 100 points\nThere are 92 points coming Dec. 2026 + 75 points coming Dec. 2027 + 100 points coming Dec. 2028 + 100 points coming Dec. 2029",
-   "dues_terms": "Seller Pays 2026 Annual Dues + Seller pays 2027 Dues on 25 points, Buyer pays prorated 2027 Dues on 75 points (For closings after Nov. 20th Disney will require the 2027 Dues be paid at closing). Prorated Dues on 75 points based on the current 2026 values are $763 however Disney has not released 2027 Dues figures yet so actual 2027 Dues may be different.",
-   "dues_per_point": 10.16,
+   "availability_text": null,
+   "dues_terms": null,
+   "dues_per_point": null,
    "subsidized_dues": null,
-   "expiration": 2057,
-   "detail_fetched": true,
+   "expiration": null,
+   "detail_fetched": false,
    "extra": {
-    "availability_from": "index",
-    "can_close_after": "2/12/2027",
-    "closing_cost": 809.0
+    "availability_from": "index"
    },
    "uid": "dvcresalemarket:AKB6534",
    "active": true,
@@ -42643,9 +42641,13 @@
      "price_per_point": 125.0,
      "availability": "available",
      "status_raw": "New"
+    },
+    {
+     "t": "2026-10-28T23:52:53+00:00",
+     "availability": "pending",
+     "status_raw": "Offer Accepted"
     }
-   ],
-   "detail_at": "2026-10-26T14:37:22+00:00"
+   ]
   },
   {
    "source": "dvcresalemarket",
@@ -106659,7 +106661,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-28T23:36:45+00:00"
+   "detail_at": "2026-10-28T23:52:53+00:00"
   },
   {
    "source": "magicresales",
@@ -106717,7 +106719,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-28T23:36:45+00:00"
+   "detail_at": "2026-10-28T23:52:53+00:00"
   },
   {
    "source": "magicresales",
@@ -106775,7 +106777,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-28T23:36:45+00:00"
+   "detail_at": "2026-10-28T23:52:53+00:00"
   },
   {
    "source": "vacationclublife",
