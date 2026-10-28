@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-28 16:40 UTC (latest data: 16:36 UTC scrape, dispatched by this review — no scheduled run since 15:38; 2 new (both stale relisted mirrors), 0 price changes, 2 status changes, 3 gone — **no change to any top-5/top-3 list**; 1BR+2BR #7 went pending). Scraper health: **10/10 ok**. Fixes this run: none. Broker alert emails (last 2 h): none. Standing #1 for 1BR+2BR: SSR SS1297 (DVC Sales, relisted, reported at 14:37).
+**Run:** 2026-10-28 17:40 UTC (latest data: 17:37 UTC scrape, dispatched by this review — GitHub's schedule hasn't fired since 14:30; 5 new, 4 price drops (all low-ranked SSR/AKV/PVB/GF), 1 pending, 1 gone — **no change to any top-5/top-3 list**). Scraper health: **10/10 ok**. Fixes this run: none. Broker alert emails (last 2 h): none. Standing #1 for 1BR+2BR: SSR SS1297 (DVC Sales, reported at 14:37).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -42,7 +42,7 @@ New Copper Creek 616489 would save only $166 for a 1BR alone. **For a 1BR alone,
 
 **Ignore** Aulani [613521 (DVC Market)](https://dvcmarket.com/dvc-resale/aulani/100-points/613521) (100 pts Aug UY, $100): the analyzer now ranks it #3 here ($1,625), but it's a stale mirror — it relisted at 16:36 the same scrape its source, VCL 4301740000137029015, went gone, and VCL's API shows that listing **"Removed"** (checked 16:40). Same for 613518 (mirror of removed VCL 4301740000128934043).
 
-Next: HH HHI26452 (DVC Resale Experts) #4 ($1,352, no borrowing, bank by Jan 31, 2027), OKW [613381 (DVC Market)](https://dvcmarket.com/dvc-resale/old-key-west/150-points/613381) #5 ($1,254, 2042 deed, high ROFR). **Gone 03:37:** AKV AK824 (DVC Sales, was #4, $114) left the feed.
+**Gone 17:37:** HH HHI26452 (DVC Resale Experts, was Next #4) — broker page now **404** (checked 17:40), likely sold/under contract. Its DVC Market mirror [615870](https://dvcmarket.com/dvc-resale/hilton-head/150-points/615870) appeared the same scrape (150 pts $72, score 72.1, analyzer #5 here at $1,423) — **ignore, stale mirror** of a listing the broker has pulled. Next: OKW [613381 (DVC Market)](https://dvcmarket.com/dvc-resale/old-key-west/150-points/613381) #5 ($1,254, 2042 deed, high ROFR). **Gone 03:37:** AKV AK824 (DVC Sales, was #4, $114) left the feed.
 
 Earlier gone: HH 616377 (was #1) at 06:37. **For a 2BR alone, savings are now ≤ $1.8k and every pick has a catch** — renting is close to as good.
 
