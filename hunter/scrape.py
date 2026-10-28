@@ -186,7 +186,13 @@ def run() -> dict:
             d["first_seen"] = old.get("first_seen", ts)
             d["history"] = old.get("history", [])
             changed = {f: (old.get(f), d.get(f)) for f in TRACKED_FIELDS if old.get(f) != d.get(f)}
-            if changed:
+            if not old.get("active"):
+                # listing went "gone" earlier and is back in the feed: report it like a new listing
+                # (alert.py's per-price dedupe stops repeat pings at an unchanged price)
+                d["history"].append({"t": ts, "relisted": True, **{f: d.get(f) for f in TRACKED_FIELDS}})
+                events.append({"t": ts, "uid": k, "event": "new", "relisted": True,
+                               "gone_at": old.get("gone_at"), "changes": changed})
+            elif changed:
                 d["history"].append({"t": ts, **{f: v[1] for f, v in changed.items()}})
                 kind = "price_change" if "price" in changed else "status_change"
                 events.append({"t": ts, "uid": k, "event": kind, "changes": changed})
