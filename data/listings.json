@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T13:52:39+00:00",
+ "updated": "2026-10-28T13:57:04+00:00",
  "count": 1687,
  "listings": [
   {
@@ -30314,7 +30314,7 @@
    "expiration": 2057,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 25000.0,
     "annual_dues_total": 2540.0,
     "closing_cost": 853.0,
@@ -68428,7 +68428,7 @@
    "expiration": 2054,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "closing_cost": 929.0
    },
    "uid": "dvcresalemarket:SSC8703",
@@ -98413,10 +98413,10 @@
     "caf": 500.0,
     "total_price": 20985.0,
     "annual_dues_closing": 0.0,
-    "can_close_after": "11/25/26",
-    "notes": "2026- 6 points currently available\n2027- 46 points coming on 6/1/27\n2028- 120 points coming on 6/1/28\nNo Annual Dues Until 2027.\nCANNOT CLOSE UNTIL 11/25/26",
-    "modified": "2026-10-07T14:27:23",
+    "notes": "2026- 6 points currently available\n2027- 46 points coming on 6/1/27\n2028- 120 points coming on 6/1/28\nNo Annual Dues Until 2027.",
+    "modified": "2026-10-28T13:56:25",
     "also_on": "dvcmarket",
+    "can_close_after": "11/25/26",
     "dues_per_point_page": 8.3142
    },
    "uid": "dvcstore:GF120-06-0927",
@@ -104783,7 +104783,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-28T13:52:39+00:00"
+   "detail_at": "2026-10-28T13:57:04+00:00"
   },
   {
    "source": "magicresales",
@@ -104841,7 +104841,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-28T13:52:39+00:00"
+   "detail_at": "2026-10-28T13:57:04+00:00"
   },
   {
    "source": "magicresales",
@@ -104899,7 +104899,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-28T13:52:39+00:00"
+   "detail_at": "2026-10-28T13:57:04+00:00"
   },
   {
    "source": "vacationclublife",
