@@ -2986,3 +2986,14 @@
 {"t": "2026-10-28T16:36:43+00:00", "uid": "dvcstore:BW160-08-1002-JC", "event": "gone", "last": {"price": 20000.0, "price_per_point": 125.0, "availability": "sold"}}
 {"t": "2026-10-28T16:36:43+00:00", "uid": "vacationclublife:4301740000128934043", "event": "gone", "last": {"price": 16000.0, "price_per_point": 100.0, "availability": "available"}}
 {"t": "2026-10-28T16:36:43+00:00", "uid": "vacationclublife:4301740000137029015", "event": "gone", "last": {"price": 10000.0, "price_per_point": 100.0, "availability": "available"}}
+{"t": "2026-10-28T17:37:30+00:00", "uid": "dvcmarket:615870", "event": "new"}
+{"t": "2026-10-28T17:37:30+00:00", "uid": "dvcresalemarket:SSA8679", "event": "price_change", "changes": {"price": [22200.0, 21000.0], "price_per_point": [111.0, 105.0], "status_raw": ["New", "Reduced"]}}
+{"t": "2026-10-28T17:37:30+00:00", "uid": "dvcresalemarket:SS28724", "event": "new"}
+{"t": "2026-10-28T17:37:30+00:00", "uid": "dvcresalemarket:SSE8702", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["Certified Hot Price", "Offer Accepted"]}}
+{"t": "2026-10-28T17:37:30+00:00", "uid": "dvcresalemarket:SS38695", "event": "new"}
+{"t": "2026-10-28T17:37:30+00:00", "uid": "dvcresalemarket:AK26549", "event": "new"}
+{"t": "2026-10-28T17:37:30+00:00", "uid": "dvcresalemarket:SSA8686", "event": "price_change", "changes": {"price": [12400.0, 12000.0], "price_per_point": [124.0, 120.0], "status_raw": ["New", "Reduced"]}}
+{"t": "2026-10-28T17:37:30+00:00", "uid": "buyandselldvc:PVB701", "event": "price_change", "changes": {"price": [22500.0, 21875.0], "price_per_point": [180.0, 175.0], "status_raw": ["Available", "Reduced"]}}
+{"t": "2026-10-28T17:37:30+00:00", "uid": "dvcresalemarket:GFB3368", "event": "price_change", "changes": {"price": [37000.0, 35600.0], "price_per_point": [185.0, 178.0], "status_raw": ["New", "Reduced"]}}
+{"t": "2026-10-28T17:37:30+00:00", "uid": "dvcresalemarket:PL24697", "event": "new"}
+{"t": "2026-10-28T17:37:30+00:00", "uid": "dvcresaleexperts:HHI26452", "event": "gone", "last": {"price": 10800.0, "price_per_point": 72.0, "availability": "available"}}
