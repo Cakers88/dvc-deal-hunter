@@ -2951,3 +2951,12 @@
 {"t": "2026-10-28T08:36:56+00:00", "uid": "dvcmarket:616518", "event": "new"}
 {"t": "2026-10-28T09:36:50+00:00", "uid": "dvcresalemarket:BL33758", "event": "status_change", "changes": {"status_raw": ["Offer Accepted", "Sale Pending"]}}
 {"t": "2026-10-28T11:37:11+00:00", "uid": "dvcresalemarket:AK36521", "event": "status_change", "changes": {"status_raw": ["Offer Accepted", "Sale Pending"]}}
+{"t": "2026-10-28T13:52:39+00:00", "uid": "dvcresalemarket:SSC8703", "event": "status_change", "changes": {"availability": ["pending", "available"], "status_raw": ["Offer Accepted", "Certified Hot Price"]}}
+{"t": "2026-10-28T13:52:39+00:00", "uid": "dvcresaleexperts:AKV88370", "event": "new"}
+{"t": "2026-10-28T13:52:39+00:00", "uid": "dvcstore:WLB080-04-1003", "event": "status_change", "changes": {"availability": ["pending", "sold"], "status_raw": ["sale pending", "sold"]}}
+{"t": "2026-10-28T13:52:39+00:00", "uid": "dvcresalemarket:BWE3472", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["Certified Hot Price", "Offer Accepted"]}}
+{"t": "2026-10-28T13:52:39+00:00", "uid": "dvcstore:VDH150-02-0418", "event": "status_change", "changes": {"availability": ["pending", "sold"], "status_raw": ["sale pending", "sold"]}}
+{"t": "2026-10-28T13:52:39+00:00", "uid": "dvcresalemarket:AK26481", "event": "gone", "last": {"price": 17850.0, "price_per_point": 119.0, "availability": "pending"}}
+{"t": "2026-10-28T13:52:39+00:00", "uid": "dvcresalemarket:AK96501", "event": "gone", "last": {"price": 20800.0, "price_per_point": 130.0, "availability": "pending"}}
+{"t": "2026-10-28T13:52:39+00:00", "uid": "dvcresalemarket:BLE3802", "event": "gone", "last": {"price": 13600.0, "price_per_point": 136.0, "availability": "pending"}}
+{"t": "2026-10-28T13:52:39+00:00", "uid": "dvcresalemarket:SS28592", "event": "gone", "last": {"price": 43650.0, "price_per_point": 97.0, "availability": "pending"}}
