@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-28T19:36:57+00:00",
- "count": 1703,
+ "updated": "2026-10-28T19:51:28+00:00",
+ "count": 1704,
  "listings": [
   {
    "source": "buyandselldvc",
@@ -848,6 +848,63 @@
      "status_raw": "Available"
     }
    ]
+  },
+  {
+   "source": "buyandselldvc",
+   "listing_id": "GCH702",
+   "url": "https://buyandselldvc.com/listings/GCH702",
+   "resort_raw": "Grand Californian",
+   "resort": "vgc",
+   "points": 50,
+   "price": 14150.0,
+   "price_per_point": 283.0,
+   "use_year": 2,
+   "status_raw": "Available",
+   "availability": "available",
+   "date_listed": null,
+   "points_available": [
+    {
+     "uy": "2026-02",
+     "points": 0,
+     "banked": 0
+    },
+    {
+     "uy": "2027-02",
+     "points": 50,
+     "banked": 0
+    },
+    {
+     "uy": "2028-02",
+     "points": 50,
+     "banked": 0
+    }
+   ],
+   "availability_text": "Points are allocated each year on the use-year start date (February 1st). Previous Year:  2026 0 pts Current Year:  2027 50 pts Next Year:  2028 50 pts 50 points coming on 2/1/27 and 50 points coming on 2/1/28. Can close 2/18/2027.",
+   "dues_terms": "No dues collected at closing ($0)",
+   "dues_per_point": 9.52,
+   "subsidized_dues": null,
+   "expiration": 2060,
+   "detail_fetched": true,
+   "extra": {
+    "availability_from": "detail",
+    "savings_vs_direct": 2350.0,
+    "broker": "Buy And Sell DVC",
+    "closing_cost": 495.0
+   },
+   "uid": "buyandselldvc:GCH702",
+   "active": true,
+   "stale": false,
+   "first_seen": "2026-10-28T19:51:28+00:00",
+   "history": [
+    {
+     "t": "2026-10-28T19:51:28+00:00",
+     "price": 14150.0,
+     "price_per_point": 283.0,
+     "availability": "available",
+     "status_raw": "Available"
+    }
+   ],
+   "detail_at": "2026-10-28T19:51:28+00:00"
   },
   {
    "source": "buyandselldvc",
@@ -67860,7 +67917,7 @@
    "expiration": 2054,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "closing_cost": 1539.0
    },
    "uid": "dvcresalemarket:SSA8723",
@@ -105993,7 +106050,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-28T19:36:57+00:00"
+   "detail_at": "2026-10-28T19:51:28+00:00"
   },
   {
    "source": "magicresales",
@@ -106051,7 +106108,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-28T19:36:57+00:00"
+   "detail_at": "2026-10-28T19:51:28+00:00"
   },
   {
    "source": "magicresales",
@@ -106109,7 +106166,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-28T19:36:57+00:00"
+   "detail_at": "2026-10-28T19:51:28+00:00"
   },
   {
    "source": "vacationclublife",
