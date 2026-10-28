@@ -2997,3 +2997,15 @@
 {"t": "2026-10-28T17:37:30+00:00", "uid": "dvcresalemarket:GFB3368", "event": "price_change", "changes": {"price": [37000.0, 35600.0], "price_per_point": [185.0, 178.0], "status_raw": ["New", "Reduced"]}}
 {"t": "2026-10-28T17:37:30+00:00", "uid": "dvcresalemarket:PL24697", "event": "new"}
 {"t": "2026-10-28T17:37:30+00:00", "uid": "dvcresaleexperts:HHI26452", "event": "gone", "last": {"price": 10800.0, "price_per_point": 72.0, "availability": "available"}}
+{"t": "2026-10-28T18:37:34+00:00", "uid": "vacationclublife:4301740000150050030", "event": "status_change", "changes": {"availability": ["pending", "available"], "status_raw": ["Pending", "Active"]}}
+{"t": "2026-10-28T18:37:34+00:00", "uid": "dvcmarket:616525", "event": "new"}
+{"t": "2026-10-28T18:37:34+00:00", "uid": "dvcresalemarket:SSC8703", "event": "status_change", "changes": {"status_raw": ["Offer Accepted", "Sale Pending"]}}
+{"t": "2026-10-28T18:37:34+00:00", "uid": "dvcmarket:616526", "event": "new"}
+{"t": "2026-10-28T18:37:34+00:00", "uid": "dvcmarket:616527", "event": "new"}
+{"t": "2026-10-28T18:37:34+00:00", "uid": "dvcmarket:616528", "event": "new"}
+{"t": "2026-10-28T18:37:34+00:00", "uid": "dvcresalemarket:BWE3471", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["Small Contract", "Offer Accepted"]}}
+{"t": "2026-10-28T18:37:34+00:00", "uid": "dvcresalemarket:PL64667", "event": "new"}
+{"t": "2026-10-28T18:37:34+00:00", "uid": "dvcmarket:615610", "event": "gone", "last": {"price": 8050.0, "price_per_point": 161.0, "availability": "available"}}
+{"t": "2026-10-28T18:37:34+00:00", "uid": "dvcmarket:615870", "event": "gone", "last": {"price": 10800.0, "price_per_point": 72.0, "availability": "available"}}
+{"t": "2026-10-28T18:37:34+00:00", "uid": "dvcmarket:616489", "event": "gone", "last": {"price": 14500.0, "price_per_point": 145.0, "availability": "available"}}
+{"t": "2026-10-28T18:37:34+00:00", "uid": "dvcshop:BW220LBF1", "event": "gone", "last": {"price": 6750.0, "price_per_point": 135.0, "availability": "pending"}}
