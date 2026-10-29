@@ -3041,3 +3041,8 @@
 {"t": "2026-10-28T22:37:02+00:00", "uid": "dvcresalemarket:SS38654", "event": "status_change", "changes": {"status_raw": ["Offer Accepted", "Sale Pending"]}}
 {"t": "2026-10-28T22:37:02+00:00", "uid": "dvcresalemarket:BL23847", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["Small Contract", "Offer Accepted"]}}
 {"t": "2026-10-28T23:52:53+00:00", "uid": "dvcresalemarket:AKB6534", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["New", "Offer Accepted"]}}
+{"t": "2026-10-29T01:36:39+00:00", "uid": "dvcresalemarket:OK35082", "event": "new"}
+{"t": "2026-10-29T01:36:39+00:00", "uid": "dvcresalemarket:OK34940", "event": "new"}
+{"t": "2026-10-29T01:36:39+00:00", "uid": "dvcresalemarket:OK34958", "event": "new"}
+{"t": "2026-10-29T01:36:39+00:00", "uid": "dvcsales:AK817", "event": "price_change", "changes": {"price": [15720.0, 15600.0], "price_per_point": [131.0, 130.0]}}
+{"t": "2026-10-29T01:36:39+00:00", "uid": "dvcresalemarket:BLB3840", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["Small Contract", "Offer Accepted"]}}
