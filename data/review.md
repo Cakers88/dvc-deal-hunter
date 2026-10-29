@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-29 12:50 UTC (latest data: 11:50 UTC scrape). Since the 10:40 review: 0 new, 0 price changes, 1 status change (AKV AK453LBF1, DVC Shop, 100 pts $99 → Sale Pending — unscored, not on any list), 0 gone — **all Sept tables unchanged**. Scraper health: all 10 sources ok (11:50 run). Fixes this run: none. Broker alert emails (last 2 h): none. Standing #1 for 1BR+2BR: SSR SS1297 (DVC Sales).
+**Run:** 2026-10-29 13:50 UTC (latest data: 13:51 UTC scrape, dispatched by this review — no scheduled run since 11:49). Since the 12:50 review: 0 new, 1 price change (SSR SSA8723, DVC Resale Market, 600 pts, $104 → $105 — a price *increase*, score 32.5, not on any list), 0 status changes, 0 gone — **all Sept tables unchanged**. Scraper health: all 10 sources ok (13:51 run). Fixes this run: none. Broker alert emails (last 2 h): none. Standing #1 for 1BR+2BR: SSR SS1297 (DVC Sales).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -62,6 +62,7 @@ Dropped: Aulani 616426 (stale mirror of sold AUL97831) went gone at 06:36.
 
 ## Market notes
 
+- 13:51 scrape (dispatched): only SSR SSA8723 (600 pts) raised $104 → $105 — irrelevant (far too big). Nothing ≥ 70 or top-25, no page checks. No new Aulani low. Gmail: none. Market model n=844: −$5.37/pt per missing current year, −$8.81 missing next, ~$5.60 below ask — flat.
 - 11:50 scrape: only AKV AK453LBF1 (DVC Shop, 100 pts Sep UY, $99) Price Reduced → Sale Pending — a cheap AKV going under contract fast. Nothing ≥ 70 or top-25, no page checks. No new Aulani low. Gmail: none. Market model n=844: −$5.38/pt per missing current year, −$8.80 missing next, ~$5.60 below ask — flat.
 - 09:36 / 10:37 scrapes: only Riviera RRA2357 → Sale Pending. Nothing ≥ 70 or top-25, no page checks. No new Aulani low. Gmail: none. Market model n=844: −$5.39/pt per missing current year, −$8.82 missing next, ~$5.53 below ask — unchanged.
 - 08:36 scrape (dispatched): **DVC Shop's 93 listings are back** (233 records, the 07:36 drop was a site-side flap — same 70 Sale Pending + 23 available SSR/OKW/VB/RIV/Poly/HH/VGC), and the **21 DVC Market mirrors that relisted at 07:36 went gone again** — classic mirror flap, nothing real. None ≥ 70 or top-25, so no page checks. No new Aulani low. Gmail: none. Market model n=844 (was 776): −$5.39/pt per missing current year, −$8.82 missing next, ~$5.53 below ask — back to pre-flap levels, so last hour's $3.80 shift was the data gap, not prices.
