@@ -3046,3 +3046,7 @@
 {"t": "2026-10-29T01:36:39+00:00", "uid": "dvcresalemarket:OK34958", "event": "new"}
 {"t": "2026-10-29T01:36:39+00:00", "uid": "dvcsales:AK817", "event": "price_change", "changes": {"price": [15720.0, 15600.0], "price_per_point": [131.0, 130.0]}}
 {"t": "2026-10-29T01:36:39+00:00", "uid": "dvcresalemarket:BLB3840", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["Small Contract", "Offer Accepted"]}}
+{"t": "2026-10-29T02:37:09+00:00", "uid": "dvcshop:CC302", "event": "status_change", "changes": {"availability": ["pending", "available"], "status_raw": ["Sale Pending", "Low But Firm"]}}
+{"t": "2026-10-29T02:37:09+00:00", "uid": "dvcmarket:616133", "event": "new", "relisted": true, "gone_at": "2026-10-28T14:30:56+00:00", "changes": {}}
+{"t": "2026-10-29T02:37:09+00:00", "uid": "dvcresalemarket:PL24697", "event": "status_change", "changes": {"status_raw": ["Offer Accepted", "Sale Pending"]}}
+{"t": "2026-10-29T02:37:09+00:00", "uid": "dvcmarket:616174", "event": "gone", "last": {"price": 66000.0, "price_per_point": 165.0, "availability": "available"}}
