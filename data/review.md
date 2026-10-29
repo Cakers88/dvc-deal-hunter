@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-29 19:40 UTC (latest data: 19:37 UTC scrape, dispatched by this review). Since the 18:40 review: 0 new, 0 price changes, 5 status changes, 0 gone — **none relevant**; all Sept lists unchanged (savings within ±$80 of last hour). Scraper health: **10 of 10 ok**. Fixes this run: none. Broker alert emails (last 2 h): none. Standing #1 for 1BR+2BR: SSR SS1297 (DVC Sales).
+**Run:** 2026-10-29 20:40 UTC (latest data: 20:37 UTC scrape, dispatched by this review). Since the 19:40 review: 1 new, 0 price changes, 1 status change, 3 gone — **none relevant**: new [BLT BLT160-06-1029 (DVC Store)](https://www.dvcstore.com/resort/bay-lake-tower/blt160-06-1029/) 160 pts Jun UY $144 ($23,040, 2060 deed, 11 banked) ranks #110 overall and loses money vs renting for every Sept setup it fits; HH31829 (DVC Resale Market, small contract) went pending; three already-sold DVC Store rows (BCV 115, OKW 300, VB 230) dropped off. All Sept lists unchanged. Scraper health: **10 of 10 ok**. Fixes this run: none. Broker alert emails (last 2 h): none. Standing #1 for 1BR+2BR: SSR SS1297 (DVC Sales).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
