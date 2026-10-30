@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-30 06:40 UTC (latest data: 06:37 UTC scrape, dispatched by this review). Since the 05:40 review: 0 new, 0 price changes, 1 status change, 1 gone — **none reach a Sept list**. All Sept lists unchanged. Scraper health: **10 of 10 ok**. Fixes this run: none. Broker alert emails (last 2 h): none. Standing #1 for 1BR+2BR: SSR SS1297 (DVC Sales).
+**Run:** 2026-10-30 09:40 UTC (latest data: 09:37 UTC scrape, dispatched by this review). Since the 06:40 review: 2 new, 0 price changes, 0 status changes, 2 gone — **none reach a Sept list** (DVC Sales re-keyed two non-Aulani-eligible/irrelevant listings: Disneyland Hotel DH137→DH143, 200 pts $165; OKW OK57170→OK57173, 80 pts $130, 2057 deed). All Sept lists unchanged (savings drift ≤ $30). Scraper health: **10 of 10 ok** — DVC Sales timed out once in the 08:46 scheduled run (ConnectTimeout), reachable from here at 09:36 and back to 71 listings at 09:37; no listings were dropped. Fixes this run: none. Broker alert emails (last 2 h): none. Standing #1 for 1BR+2BR: SSR SS1297 (DVC Sales).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
