@@ -3395,3 +3395,5 @@
 {"t": "2026-10-30T09:37:03+00:00", "uid": "dvcsales:DH143", "event": "new"}
 {"t": "2026-10-30T09:37:03+00:00", "uid": "dvcsales:DH137", "event": "gone", "last": {"price": 33000.0, "price_per_point": 165.0, "availability": "available"}}
 {"t": "2026-10-30T09:37:03+00:00", "uid": "dvcsales:OK57170", "event": "gone", "last": {"price": 10400.0, "price_per_point": 130.0, "availability": "available"}}
+{"t": "2026-10-30T12:36:44+00:00", "uid": "dvcresalemarket:BL73820", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["New", "Offer Accepted"]}}
+{"t": "2026-10-30T12:36:44+00:00", "uid": "dvcresalemarket:GFB3387", "event": "price_change", "changes": {"price": [25600.0, 32000.0]}}
