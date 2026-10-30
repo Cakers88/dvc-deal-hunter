@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T23:37:19+00:00",
+ "updated": "2026-10-30T23:55:04+00:00",
  "count": 1768,
  "listings": [
   {
@@ -41690,7 +41690,7 @@
    "expiration": 2057,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 939.0
    },
@@ -75822,9 +75822,9 @@
    "expiration": 2057,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "days_on_market": 21,
-    "date_listed_from": "detail",
+    "date_listed_from": "index_days",
     "internal_id": "1711",
     "value_score": 31,
     "also_on": "dvcmarket",
@@ -81722,9 +81722,9 @@
    "expiration": 2066,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "days_on_market": 3,
-    "date_listed_from": "detail",
+    "date_listed_from": "index_days",
     "internal_id": "1904",
     "value_score": 53,
     "also_on": "dvcmarket",
@@ -87315,7 +87315,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 33344,
-    "modified": "2026-10-30 19:30:05",
+    "modified": "2026-10-30 19:40:03",
     "resort_abbr": "AUL",
     "low_but_firm": true
    },
@@ -92970,7 +92970,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 33464,
-    "modified": "2026-10-30 19:30:06",
+    "modified": "2026-10-30 19:40:03",
     "resort_abbr": "BW",
     "low_but_firm": true
    },
@@ -95050,7 +95050,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 33489,
-    "modified": "2026-10-30 19:30:06",
+    "modified": "2026-10-30 19:40:04",
     "resort_abbr": "OKW",
     "can_close_after": "12/12/26"
    },
@@ -95625,7 +95625,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 33499,
-    "modified": "2026-10-30 19:30:06",
+    "modified": "2026-10-30 19:40:04",
     "resort_abbr": "RR",
     "low_but_firm": true
    },
@@ -97199,7 +97199,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 33537,
-    "modified": "2026-10-30 19:30:06",
+    "modified": "2026-10-30 19:40:04",
     "resort_abbr": "SSR",
     "low_but_firm": true
    },
@@ -111539,7 +111539,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-30T23:37:19+00:00"
+   "detail_at": "2026-10-30T23:55:04+00:00"
   },
   {
    "source": "magicresales",
@@ -111597,7 +111597,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-30T23:37:19+00:00"
+   "detail_at": "2026-10-30T23:55:04+00:00"
   },
   {
    "source": "magicresales",
@@ -111655,7 +111655,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-10-30T23:37:19+00:00"
+   "detail_at": "2026-10-30T23:55:04+00:00"
   },
   {
    "source": "vacationclublife",
