@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-31 03:40 UTC (latest data: 03:36 UTC scrape, dispatched). Since the 02:40 review: 0 new, 0 gone, 0 price changes, 0 status changes — **no new Sept pick; all three Sept lists unchanged.** Scraper health: **10 of 10 ok.** Fixes this run: none. Broker alert emails (last 2 h): none. Standing #1 for 1BR+2BR: SSR SS1297 (DVC Sales).
+**Run:** 2026-10-31 05:36 UTC (latest data: 05:29 UTC scrape). Since the 03:40 review: 3 new (all fully stripped Aulani, unscored), 0 gone, 0 price changes, 0 status changes — **no new Sept pick; all three Sept lists unchanged.** Scraper health: **10 of 10 ok.** Fixes this run: none. Broker alert emails (last 2 h): none. Standing #1 for 1BR+2BR: SSR SS1297 (DVC Sales).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -65,6 +65,7 @@ Reshuffle only (market-model drift): Aulani 615585 (DVC Market) and AUL39132 sli
 
 ## Market notes
 
+- 05:29 scrape: **New:** three more Aulani contracts on DVC Resale Market, all listed Oct 30, 2062 deed, seller pays 2026/2027 dues — [AUB3587](https://www.dvcresalemarket.com/listings/aulani/aub3587/) 200 pts Oct UY $100 ($20,000; 0 pts Oct-2026, **1 pt Oct-2027**, 200 from Oct-2028; can close after 6/21/2027), AU83586 75 pts Dec UY $104, AU83589 70 pts Dec UY $106 — **fully stripped**, unscored, useless for Sept 2027 (continuation of the 01:38 split-contract batch). Not a meaningful Aulani low. Nothing ≥ 70 or top-25 to page-check. Gmail: none. Market model n=847: −$5.00/pt per missing current year, −$8.73 missing next, ~$5.73 below ask — flat.
 - 03:36 scrape (dispatched): quiet — no new, gone, price or status events. Nothing ≥ 70 or top-25 to page-check. No new Aulani low. Gmail: none. Market model n=846: −$5.06/pt per missing current year, −$8.75 missing next, ~$5.72 below ask — flat.
 - 02:36 scrape (dispatched): GFV mirror flap again on DVC Market (616133 400 pts $165 back, 616174 gone) — same contract, not on a list. Nothing ≥ 70 or top-25 new, no price moves, no page checks needed. DVC Sales back (71). No new Aulani low. Gmail: none. Market model n=846: −$5.06/pt per missing current year, −$8.75 missing next, ~$5.72 below ask — flat.
 - 01:38 scrape (dispatched): **New:** four small Aulani Dec-UY contracts on DVC Resale Market — [AU83591](https://www.dvcresalemarket.com/listings/aulani/au83591/) 75 pts $104, AU83583 53 pts $110, AU83590 50 pts $110, AU83588 25 pts $114 (all listed Oct 30, 2062 deed, seller pays 2027 dues) — **fully stripped: 0 pts until Dec-2028**, so unscored and useless for Sept 2027 (looks like one owner splitting a contract). Not a meaningful Aulani low ($104 for zero usable points before 2028). Nothing ≥ 70 or top-25 to page-check. Gmail: none. Market model n=846: −$5.06/pt per missing current year, −$8.75 missing next, ~$5.72 below ask — flat.
