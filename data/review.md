@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-31 02:40 UTC (latest data: 02:36 UTC scrape, dispatched). Since the 01:40 review: 1 new + 1 gone (a Grand Floridian DVC Market mirror flap — irrelevant), 0 price changes, 0 status changes — **no new Sept pick; all three Sept lists unchanged.** Scraper health: **10 of 10 ok — DVC Sales recovered (71 listings) after one 01:38 timeout.** Fixes this run: none. Broker alert emails (last 2 h): none. Standing #1 for 1BR+2BR: SSR SS1297 (DVC Sales).
+**Run:** 2026-10-31 03:40 UTC (latest data: 03:36 UTC scrape, dispatched). Since the 02:40 review: 0 new, 0 gone, 0 price changes, 0 status changes — **no new Sept pick; all three Sept lists unchanged.** Scraper health: **10 of 10 ok.** Fixes this run: none. Broker alert emails (last 2 h): none. Standing #1 for 1BR+2BR: SSR SS1297 (DVC Sales).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -65,6 +65,7 @@ Reshuffle only (market-model drift): Aulani 615585 (DVC Market) and AUL39132 sli
 
 ## Market notes
 
+- 03:36 scrape (dispatched): quiet — no new, gone, price or status events. Nothing ≥ 70 or top-25 to page-check. No new Aulani low. Gmail: none. Market model n=846: −$5.06/pt per missing current year, −$8.75 missing next, ~$5.72 below ask — flat.
 - 02:36 scrape (dispatched): GFV mirror flap again on DVC Market (616133 400 pts $165 back, 616174 gone) — same contract, not on a list. Nothing ≥ 70 or top-25 new, no price moves, no page checks needed. DVC Sales back (71). No new Aulani low. Gmail: none. Market model n=846: −$5.06/pt per missing current year, −$8.75 missing next, ~$5.72 below ask — flat.
 - 01:38 scrape (dispatched): **New:** four small Aulani Dec-UY contracts on DVC Resale Market — [AU83591](https://www.dvcresalemarket.com/listings/aulani/au83591/) 75 pts $104, AU83583 53 pts $110, AU83590 50 pts $110, AU83588 25 pts $114 (all listed Oct 30, 2062 deed, seller pays 2027 dues) — **fully stripped: 0 pts until Dec-2028**, so unscored and useless for Sept 2027 (looks like one owner splitting a contract). Not a meaningful Aulani low ($104 for zero usable points before 2028). Nothing ≥ 70 or top-25 to page-check. Gmail: none. Market model n=846: −$5.06/pt per missing current year, −$8.75 missing next, ~$5.72 below ask — flat.
 - 00:38 scrape (dispatched) + 23:55 scheduled: **Gone (already pending):** BCV BC22577, BLT BLB3787, VB VBE2635, VB VBE2645 (DVC Resale Market) — none on a list. DVC Shop adapter timed out (site unreachable, one run only). Nothing new, no price moves, nothing ≥ 70 or top-25 to page-check. No new Aulani low. Gmail: none. Market model n=846: −$5.06/pt per missing current year, −$8.75 missing next, ~$5.72 below ask — flat.
