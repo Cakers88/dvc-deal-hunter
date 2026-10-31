@@ -50,6 +50,24 @@ def _reparse_banked(d: dict) -> None:
         for b, n in zip(pa, new):
             if n["banked"]:  # never wipe a banked count another source (e.g. seller comments) set
                 b["banked"] = n["banked"]
+def _uy_mismatch(old: dict, d: dict) -> bool:
+    """True when the stored per-year buckets are labelled with a different use-year month
+    than the fresh listing (e.g. dvcmarket re-labelled Fidelity mirrors Jun -> Jul). Carrying
+    such buckets over makes analyze treat every year as 'not listed' = full allotment."""
+    uy = d.get("use_year")
+    if not uy:
+        return False
+    if old.get("use_year") and old.get("use_year") != uy:
+        return True
+    for b in old.get("points_available") or []:
+        try:
+            if int(str(b["uy"])[5:7]) != int(uy):
+                return True
+        except (KeyError, ValueError):
+            return True
+    return False
+
+
 SKIP_DETAIL = {"dvcshop"}  # index already has everything
 TRACKED_FIELDS = ("price", "price_per_point", "availability", "status_raw")
 
@@ -203,6 +221,8 @@ def run() -> dict:
                     if old.get(f) not in (None, [], ""):
                         if f == "points_available" and d.get("extra", {}).get("availability_from") == "detail":
                             continue
+                        if f in ("points_available", "availability_text") and _uy_mismatch(old, d):
+                            continue  # source changed the use-year month: old buckets are stale
                         d[f] = old[f]
                 d["detail_fetched"] = True
                 d["detail_at"] = old.get("detail_at")
