@@ -3691,3 +3691,5 @@
 {"t": "2026-11-01T02:33:03+00:00", "uid": "dvcmarket:616174", "event": "gone", "last": {"price": 66000.0, "price_per_point": 165.0, "availability": "available"}}
 {"t": "2026-11-01T02:33:03+00:00", "uid": "dvcsales:RV347", "event": "gone", "last": {"price": 15600.0, "price_per_point": 120.0, "availability": "available"}}
 {"t": "2026-11-01T02:33:03+00:00", "uid": "dvcsales:RV348", "event": "gone", "last": {"price": 34465.0, "price_per_point": 113.0, "availability": "available"}}
+{"t": "2026-11-01T05:36:22+00:00", "uid": "dvcresalemarket:AK26552", "event": "new"}
+{"t": "2026-11-01T05:36:22+00:00", "uid": "dvcsales:RV340", "event": "price_change", "changes": {"price": [17550.0, 17250.0], "price_per_point": [117.0, 115.0]}}
