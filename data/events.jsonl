@@ -3727,3 +3727,6 @@
 {"t": "2026-11-01T16:28:56+00:00", "uid": "dvcresalemarket:AUC3478", "event": "new"}
 {"t": "2026-11-01T16:28:56+00:00", "uid": "dvcresalemarket:RRB2173", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["BONUS! FULL POINTS FOR 2026 WITH NO DUES!", "Offer Accepted"]}}
 {"t": "2026-11-01T16:28:56+00:00", "uid": "dvcresalemarket:PLF4695", "event": "new"}
+{"t": "2026-11-01T17:39:14+00:00", "uid": "vacationclublife:4301740000153124004", "event": "price_change", "changes": {"price": [19550.0, 18860.0], "price_per_point": [85.0, 82.0], "status_raw": ["Active", "Reduced"]}}
+{"t": "2026-11-01T17:39:14+00:00", "uid": "dvcresalemarket:SSB8710", "event": "price_change", "changes": {"price": [22275.0, 22050.0], "price_per_point": [99.0, 98.0], "status_raw": ["Reduced", "Reduced Again"]}}
+{"t": "2026-11-01T17:39:14+00:00", "uid": "dvcstore:BLT200-02-1101-2", "event": "new"}
