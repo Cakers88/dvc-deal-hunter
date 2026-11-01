@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-10-31 23:36 UTC (latest data: 23:24 UTC scrape). Since the 22:36 review: 5 gone only (all already pending, none on any list) — **all Sept lists unchanged**. Scraper health: **10 of 10 ok** (22:36 and 23:24). Broker alert emails (last 2 h): none. (22:36: Aulani AUA3541 and SSR SSF8665 went pending; 20:07: OKW OK65077 went pending; 07:45: SSR 616593 entered 1BR+2BR #3 / 3BR #1.)
+**Run:** 2026-11-01 00:36 UTC (latest data: 00:36 UTC scrape, dispatched). Since the 23:36 review: **quiet — no new, gone, price or status events**; all Sept lists unchanged. Scraper health: **10 of 10 ok** (23:24 and 00:36). Broker alert emails (last 2 h): none. (23:24: 5 already-pending gone; 22:36: Aulani AUA3541 and SSR SSF8665 went pending; 07:45: SSR 616593 entered 1BR+2BR #3 / 3BR #1.)
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -54,6 +54,7 @@ Also: Aulani [616395 (DVC Market)](https://dvcmarket.com/dvc-resale/aulani/200-p
 
 ## Market notes
 
+- 00:36 scrape (dispatched): quiet — no new, gone, price or status events. Nothing ≥ 70 or top-25 to page-check. No new Aulani low. Gmail: none. Market model n=868: −$5.02/pt per missing current year, −$8.42 missing next, ~$5.34 below ask — flat.
 - 23:24 scrape: **Gone (already pending):** BWV BW23454 ($139), GFV GFB3325, Poly PLA4684, SSR SS38583 ($115) and SS78575 ($108) — all DVC Resale Market, none on a list. Nothing new, no price moves, nothing ≥ 70 or top-25 to page-check. No new Aulani low. Gmail: none. Market model n=868: −$5.02/pt per missing current year, −$8.41 missing next, ~$5.34 below ask — flat.
 - 22:36 scrape (dispatched): **Went pending/sold:** Aulani [AUA3541 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/aulani/aua3541/) 245 pts Oct UY $114 and SSR SSF8665 150 pts Oct UY $119 → Offer Accepted; DVC Store Riviera AR160-08-1028 and OKW OKW2057100-04-0731 → sold; AKG6523 and CCF2996 Offer Accepted → Sale Pending. None on a list (Aulani at $114 was above the $95–97 Aulani picks). Nothing new, no price moves, nothing ≥ 70 or top-25 to page-check. No new Aulani low. Gmail: none. Market model n=873: −$5.04/pt per missing current year, −$8.44 missing next, ~$5.31 below ask — flat.
 
