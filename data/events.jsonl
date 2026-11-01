@@ -3743,3 +3743,10 @@
 {"t": "2026-11-01T22:37:07+00:00", "uid": "dvcresalemarket:RR92370", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["Double Points", "Offer Accepted"]}}
 {"t": "2026-11-01T22:37:07+00:00", "uid": "dvcsales:DH144", "event": "new"}
 {"t": "2026-11-01T22:37:07+00:00", "uid": "dvcsales:GC215", "event": "new"}
+{"t": "2026-11-01T23:37:02+00:00", "uid": "dvcresalemarket:OKA5014", "event": "price_change", "changes": {"price": [27000.0, 25500.0], "price_per_point": [90.0, 85.0], "status_raw": ["Reduced", "Certified Hot Price"]}}
+{"t": "2026-11-01T23:37:02+00:00", "uid": "dvcresalemarket:SS38727", "event": "new"}
+{"t": "2026-11-01T23:37:02+00:00", "uid": "dvcresalemarket:SSB8738", "event": "new"}
+{"t": "2026-11-01T23:37:02+00:00", "uid": "dvcresalemarket:CC32994", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["Small Contract", "Offer Accepted"]}}
+{"t": "2026-11-01T23:37:02+00:00", "uid": "dvcmarket:615866", "event": "new"}
+{"t": "2026-11-01T23:37:02+00:00", "uid": "dvcresalemarket:PLB4679", "event": "price_change", "changes": {"price": [9750.0, 9000.0], "price_per_point": [195.0, 180.0], "status_raw": ["Small Contract", "Reduced"]}}
+{"t": "2026-11-01T23:37:02+00:00", "uid": "dvcresalemarket:PLB4659", "event": "gone", "last": {"price": 71200.0, "price_per_point": 178.0, "availability": "available"}}
