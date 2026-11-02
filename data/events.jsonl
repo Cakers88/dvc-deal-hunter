@@ -3814,3 +3814,9 @@
 {"t": "2026-11-02T17:40:19+00:00", "uid": "vacationclublife:4301740000156338002", "event": "new"}
 {"t": "2026-11-02T17:40:19+00:00", "uid": "dvcresalemarket:OKE5110", "event": "new"}
 {"t": "2026-11-02T17:40:19+00:00", "uid": "dvcresalemarket:RRE2376", "event": "new"}
+{"t": "2026-11-02T18:36:28+00:00", "uid": "dvcresalemarket:AUB3547", "event": "price_change", "changes": {"price": [16640.0, 16000.0], "price_per_point": [104.0, 100.0], "status_raw": ["Reduced", "Reduced Again"]}}
+{"t": "2026-11-02T18:36:28+00:00", "uid": "dvcmarket:616178", "event": "new"}
+{"t": "2026-11-02T18:36:28+00:00", "uid": "dvcresalemarket:SS78671", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["New", "Offer Accepted"]}}
+{"t": "2026-11-02T18:36:28+00:00", "uid": "dvcresalemarket:BW63480", "event": "new"}
+{"t": "2026-11-02T18:36:28+00:00", "uid": "dvcresalemarket:GFE3358", "event": "price_change", "changes": {"price": [17400.0, 16800.0], "price_per_point": [174.0, 168.0], "status_raw": ["New", "Certified Hot Price"]}}
+{"t": "2026-11-02T18:36:28+00:00", "uid": "dvcresalemarket:OKA5083", "event": "gone", "last": {"price": 15800.0, "price_per_point": 79.0, "availability": "available"}}
