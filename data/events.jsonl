@@ -3750,3 +3750,4 @@
 {"t": "2026-11-01T23:37:02+00:00", "uid": "dvcmarket:615866", "event": "new"}
 {"t": "2026-11-01T23:37:02+00:00", "uid": "dvcresalemarket:PLB4679", "event": "price_change", "changes": {"price": [9750.0, 9000.0], "price_per_point": [195.0, 180.0], "status_raw": ["Small Contract", "Reduced"]}}
 {"t": "2026-11-01T23:37:02+00:00", "uid": "dvcresalemarket:PLB4659", "event": "gone", "last": {"price": 71200.0, "price_per_point": 178.0, "availability": "available"}}
+{"t": "2026-11-02T00:02:41+00:00", "uid": "dvcsales:BC328", "event": "gone", "last": {"price": 19950.0, "price_per_point": 133.0, "availability": "available"}}
