@@ -3798,3 +3798,16 @@
 {"t": "2026-11-02T15:34:10+00:00", "uid": "dvcresalemarket:PLB4655", "event": "gone", "last": {"price": 27300.0, "price_per_point": 182.0, "availability": "available"}}
 {"t": "2026-11-02T15:34:10+00:00", "uid": "dvcsales:BC327", "event": "gone", "last": {"price": 21000.0, "price_per_point": 140.0, "availability": "available"}}
 {"t": "2026-11-02T15:39:52+00:00", "uid": "vacationclublife:4301740000128934043", "event": "new", "relisted": true, "gone_at": "2026-10-28T16:36:43+00:00", "changes": {"price": [16000.0, 15680.0], "price_per_point": [100.0, 98.0]}}
+{"t": "2026-11-02T16:39:45+00:00", "uid": "dvcresaleexperts:WBR51860", "event": "new"}
+{"t": "2026-11-02T16:39:45+00:00", "uid": "dvcsales:AK809", "event": "new"}
+{"t": "2026-11-02T16:39:45+00:00", "uid": "buyandselldvc:RIV700", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["Available", "Sale Pending"]}}
+{"t": "2026-11-02T16:39:45+00:00", "uid": "dvcresalemarket:RRE2361", "event": "new"}
+{"t": "2026-11-02T16:39:45+00:00", "uid": "vacationclublife:4301740000153298002", "event": "new"}
+{"t": "2026-11-02T16:39:45+00:00", "uid": "dvcresalemarket:BWE3481", "event": "new"}
+{"t": "2026-11-02T16:39:45+00:00", "uid": "dvcresalemarket:BLE3794", "event": "status_change", "changes": {"status_raw": ["Offer Accepted", "Sale Pending"]}}
+{"t": "2026-11-02T16:39:45+00:00", "uid": "dvcresalemarket:BWE3474", "event": "new"}
+{"t": "2026-11-02T16:39:45+00:00", "uid": "vacationclublife:4301740000154863002", "event": "new", "relisted": true, "gone_at": "2026-10-22T14:48:10+00:00", "changes": {"price": [18000.0, 17500.0], "price_per_point": [180.0, 175.0], "status_raw": ["Active", "Reduced"]}}
+{"t": "2026-11-02T16:39:45+00:00", "uid": "dvcresaleexperts:POL98270", "event": "new"}
+{"t": "2026-11-02T16:39:45+00:00", "uid": "dvcmarket:612515", "event": "new"}
+{"t": "2026-11-02T16:39:45+00:00", "uid": "dvcresaleexperts:GCA38051", "event": "gone", "last": {"price": 78400.0, "price_per_point": 245.0, "availability": "available"}}
+{"t": "2026-11-02T16:39:45+00:00", "uid": "dvcshop:RIV229LBF1", "event": "gone", "last": {"price": 42800.0, "price_per_point": 107.0, "availability": "pending"}}
