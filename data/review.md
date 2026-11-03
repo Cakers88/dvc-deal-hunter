@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-11-03 05:38 UTC (latest data: 05:37 UTC scrape, dispatched by this review — no scheduled run since 03:57). Since the 02:39 review: **no changes to any Sept list** — one new Aulani contract (stripped, score 53) and one stripped SSR went pending. Nothing ≥ 70 or top-25 to page-check. Scraper health: **10 of 10 ok**. Broker alert emails (last 2 h): none. Fixes: none needed.
+**Run:** 2026-11-03 06:37 UTC (latest data: 06:37 UTC scrape, dispatched by this review — no scheduled run since 03:57). Since the 05:38 review: **no changes at all** — 0 new, 0 price changes, 0 status changes (only sync timestamps moved). All Sept lists unchanged. Scraper health: scrape ok (1,878 rows, no source errors); the run's GitHub Pages deploy step failed on a transient DNS error (`ENOTFOUND api.github.com`), so the dashboard still shows 05:37 data — identical in substance, next run will redeploy. Broker alert emails (last 2 h): none. Fixes: none needed.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -54,7 +54,7 @@ Also: Aulani [616395 (DVC Market)](https://dvcmarket.com/dvc-resale/aulani/200-p
 
 ## Scraper health & fixes
 
-All 10 sources ok at 05:37, 03:57, 03:38 and 02:36 (05:37: DVC Resale Market 473, others unchanged) (00:36 counts: DVC Resale Market 467, DVC Market 804, DVC Shop 236, DVC Resale Experts 95, DVC Store 75, DVC Sales 73, Vacation Club Life 54, Buy and Sell DVC 19, DVC by Resale 17, Magic Resales 4). DVC Shop is back to full inventory: the 32 listings it dropped at 23:14 (OKW254, RIV219, SSR614PS, POLY515BV, …) reappeared as "new" events at 00:36 — not real new contracts. Six DVC Market mirrors of those DVC Shop rows (616667/676/682/687/689/693) went "gone" at the same time (mirror churn). The 15-minute schedule is still unreliable (scheduled runs fired at 03:38 and 03:57, then nothing until this review dispatched 05:37). No fixes made.
+All 10 sources ok at 05:37, 03:57, 03:38 and 02:36 (05:37: DVC Resale Market 473, others unchanged) (00:36 counts: DVC Resale Market 467, DVC Market 804, DVC Shop 236, DVC Resale Experts 95, DVC Store 75, DVC Sales 73, Vacation Club Life 54, Buy and Sell DVC 19, DVC by Resale 17, Magic Resales 4). DVC Shop is back to full inventory: the 32 listings it dropped at 23:14 (OKW254, RIV219, SSR614PS, POLY515BV, …) reappeared as "new" events at 00:36 — not real new contracts. Six DVC Market mirrors of those DVC Shop rows (616667/676/682/687/689/693) went "gone" at the same time (mirror churn). 06:37 dispatched run: scrape succeeded (0 events) but `actions/configure-pages` failed with a DNS error, so the Pages site wasn't updated this hour (transient runner issue, not a code bug). The 15-minute schedule is still unreliable (scheduled runs fired at 03:38 and 03:57, then nothing until reviews dispatched 05:37 and 06:37). No fixes made.
 
 ## Market notes
 
