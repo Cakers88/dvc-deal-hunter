@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-03T23:36:53+00:00",
- "count": 1910,
+ "updated": "2026-11-03T23:57:54+00:00",
+ "count": 1911,
  "listings": [
   {
    "source": "buyandselldvc",
@@ -45066,7 +45066,7 @@
    "expiration": 2064,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 31500.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 2493.0,
@@ -47489,7 +47489,7 @@
    "expiration": 2057,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "can_close_after": "4/3/2027",
     "closing_cost": 1009.0
@@ -47546,7 +47546,7 @@
    "expiration": 2057,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "can_close_after": "12/19/2026",
     "closing_cost": 1119.0
@@ -47603,7 +47603,7 @@
    "expiration": 2057,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "can_close_after": "4/3/2027",
     "closing_cost": 899.0
    },
@@ -47659,7 +47659,7 @@
    "expiration": 2057,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "can_close_after": "4/3/2027",
     "closing_cost": 899.0
    },
@@ -47715,7 +47715,7 @@
    "expiration": 2057,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "can_close_after": "4/3/2027",
     "closing_cost": 919.0
@@ -50824,7 +50824,7 @@
    "expiration": 2062,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 1080.0
    },
@@ -55394,7 +55394,7 @@
    "expiration": 2060,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 939.0
    },
@@ -57277,14 +57277,14 @@
    "price": 15000.0,
    "price_per_point": 150.0,
    "use_year": 8,
-   "status_raw": "New",
-   "availability": "available",
-   "date_listed": "2026-11-03",
+   "status_raw": "Offer Accepted",
+   "availability": "pending",
+   "date_listed": null,
    "points_available": [
     {
      "uy": "2026-08",
      "points": 193,
-     "banked": 100
+     "banked": 0
     },
     {
      "uy": "2027-08",
@@ -57297,15 +57297,14 @@
      "banked": 0
     }
    ],
-   "availability_text": "August 2026 - 193 points\nAugust 2027 - 100 points\nAugust 2028 - 100 points\nThere are currently 193 points (100 points banked from Aug. 2025 & 93 points from Aug. 2026) + 100 points coming Aug. 2027 + 100 points coming Aug. 2028 + 100 points coming Aug. 2029",
-   "dues_terms": "Seller Pays 2026 Annual Dues, Buyer pays 2027 Dues (For closings after Nov. 20th Disney will require the 2027 Dues be paid at closing). Dues based on the current 2026 values are $875 however Disney has not released 2027 Dues figures yet so actual 2027 Dues may be different.",
-   "dues_per_point": 8.74,
+   "availability_text": null,
+   "dues_terms": null,
+   "dues_per_point": null,
    "subsidized_dues": null,
-   "expiration": 2060,
-   "detail_fetched": true,
+   "expiration": null,
+   "detail_fetched": false,
    "extra": {
-    "availability_from": "index",
-    "closing_cost": 849.0
+    "availability_from": "index"
    },
    "uid": "dvcresalemarket:BLE3838",
    "active": true,
@@ -57318,9 +57317,13 @@
      "price_per_point": 150.0,
      "availability": "available",
      "status_raw": "New"
+    },
+    {
+     "t": "2026-11-03T23:57:54+00:00",
+     "availability": "pending",
+     "status_raw": "Offer Accepted"
     }
-   ],
-   "detail_at": "2026-11-03T19:04:13+00:00"
+   ]
   },
   {
    "source": "dvcresalemarket",
@@ -59635,6 +59638,62 @@
   },
   {
    "source": "dvcresalemarket",
+   "listing_id": "BWA3484",
+   "url": "https://www.dvcresalemarket.com/listings/boardwalk/bwa3484/",
+   "resort_raw": "Boardwalk",
+   "resort": "bwv",
+   "points": 150,
+   "price": 22800.0,
+   "price_per_point": 152.0,
+   "use_year": 12,
+   "status_raw": "New",
+   "availability": "available",
+   "date_listed": "2026-11-03",
+   "points_available": [
+    {
+     "uy": "2026-12",
+     "points": 257,
+     "banked": 136
+    },
+    {
+     "uy": "2027-12",
+     "points": 150,
+     "banked": 0
+    },
+    {
+     "uy": "2028-12",
+     "points": 150,
+     "banked": 0
+    }
+   ],
+   "availability_text": "December 2026 - 257 points\nDecember 2027 - 150 points\nDecember 2028 - 150 points\nThere are 257 points as of Dec. 2026 (136 points banked from Dec. 2025 & 121 points from Dec. 2026) + 150 points coming Dec. 2027 + 150 points coming Dec. 2028 + 150 points coming Dec. 2029",
+   "dues_terms": "Seller Pays 2026 Annual Dues, Buyer pays 2027 Dues (For closings after Nov. 20th Disney will require the 2027 Dues be paid at closing). Dues based on the current 2026 values are $1,451 however Disney has not released 2027 Dues figures yet so actual 2027 Dues may be different.",
+   "dues_per_point": 9.67,
+   "subsidized_dues": null,
+   "expiration": 2042,
+   "detail_fetched": true,
+   "extra": {
+    "availability_from": "detail",
+    "can_close_after": "12/2/2026",
+    "closing_cost": 929.0
+   },
+   "uid": "dvcresalemarket:BWA3484",
+   "active": true,
+   "stale": false,
+   "first_seen": "2026-11-03T23:57:54+00:00",
+   "history": [
+    {
+     "t": "2026-11-03T23:57:54+00:00",
+     "price": 22800.0,
+     "price_per_point": 152.0,
+     "availability": "available",
+     "status_raw": "New"
+    }
+   ],
+   "detail_at": "2026-11-03T23:57:54+00:00"
+  },
+  {
+   "source": "dvcresalemarket",
    "listing_id": "BWA3485",
    "url": "https://www.dvcresalemarket.com/listings/boardwalk/bwa3485/",
    "resort_raw": "Boardwalk",
@@ -61175,7 +61234,7 @@
    "expiration": 2068,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "duplicates": [
      "dvcsales:CC279"
     ],
@@ -61729,7 +61788,7 @@
    "price": 14500.0,
    "price_per_point": 145.0,
    "use_year": 10,
-   "status_raw": "Offer Accepted",
+   "status_raw": "Sale Pending",
    "availability": "pending",
    "date_listed": null,
    "points_available": [
@@ -61769,6 +61828,10 @@
      "price_per_point": 145.0,
      "availability": "pending",
      "status_raw": "Offer Accepted"
+    },
+    {
+     "t": "2026-11-03T23:57:54+00:00",
+     "status_raw": "Sale Pending"
     }
    ]
   },
@@ -73569,8 +73632,8 @@
    "price": 16750.0,
    "price_per_point": 134.0,
    "use_year": 12,
-   "status_raw": "BONUS! FULL POINTS FOR 2026 WITH NO DUES!",
-   "availability": "available",
+   "status_raw": "Offer Accepted",
+   "availability": "pending",
    "date_listed": null,
    "points_available": [
     {
@@ -73610,6 +73673,11 @@
      "price_per_point": 134.0,
      "availability": "available",
      "status_raw": "BONUS! FULL POINTS FOR 2026 WITH NO DUES!"
+    },
+    {
+     "t": "2026-11-03T23:57:54+00:00",
+     "availability": "pending",
+     "status_raw": "Offer Accepted"
     }
    ]
   },
@@ -88072,9 +88140,9 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "days_on_market": 15,
-    "date_listed_from": "detail",
+    "date_listed_from": "index_days",
     "internal_id": "1859",
     "value_score": 29,
     "also_on": "dvcmarket",
@@ -90539,7 +90607,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 6,
+    "days_on_market": 7,
     "date_listed_from": "index_days",
     "internal_id": "1904",
     "value_score": 53,
@@ -92065,9 +92133,9 @@
    "expiration": 2054,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "days_on_market": 45,
-    "date_listed_from": "detail",
+    "date_listed_from": "index_days",
     "internal_id": "1717",
     "value_score": 46,
     "also_on": "dvcmarket",
@@ -96147,7 +96215,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 38178,
-    "modified": "2026-11-03 18:35:05",
+    "modified": "2026-11-03 18:50:06",
     "resort_abbr": "AUL",
     "low_but_firm": true
    },
@@ -96560,7 +96628,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 38123,
-    "modified": "2026-11-03 18:35:05",
+    "modified": "2026-11-03 18:50:05",
     "resort_abbr": "AUL",
     "low_but_firm": true
    },
@@ -105338,7 +105406,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 38253,
-    "modified": "2026-11-03 18:35:06",
+    "modified": "2026-11-03 18:50:06",
     "resort_abbr": "RR",
     "low_but_firm": true
    },
@@ -106299,7 +106367,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 38252,
-    "modified": "2026-11-03 18:35:06",
+    "modified": "2026-11-03 18:50:06",
     "resort_abbr": "RR",
     "can_close_after": "3/5/27",
     "also_on": "dvcmarket"
@@ -107121,7 +107189,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 38290,
-    "modified": "2026-11-03 18:35:06",
+    "modified": "2026-11-03 18:50:06",
     "resort_abbr": "SSR",
     "low_but_firm": true
    },
@@ -122453,7 +122521,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-11-03T23:36:53+00:00"
+   "detail_at": "2026-11-03T23:57:54+00:00"
   },
   {
    "source": "magicresales",
@@ -122511,7 +122579,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-11-03T23:36:53+00:00"
+   "detail_at": "2026-11-03T23:57:54+00:00"
   },
   {
    "source": "magicresales",
@@ -122569,7 +122637,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-11-03T23:36:53+00:00"
+   "detail_at": "2026-11-03T23:57:54+00:00"
   },
   {
    "source": "vacationclublife",
