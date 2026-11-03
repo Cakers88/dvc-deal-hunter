@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-11-03 16:40 UTC (latest data: 16:37 UTC scrape, review-dispatched — the 15-minute schedule still hasn't fired since 11:51). 16:37 scrape: 1 new, 2 price cuts, 5 status, 0 gone — nothing ≥ 70 or top-25 to page-check. **Sept top lists unchanged** (savings moved by a few dollars with the market model refit). Scraper health: all 10 sources ok. Broker alert emails (last 2 h): none. Fixes: none.
+**Run:** 2026-11-03 17:38 UTC (latest data: 17:36 UTC scrape, review-dispatched — the 15-minute schedule still hasn't fired since 11:51). 17:36 scrape: 3 new (AKV AKE6546 250 pts $115 Jun UY — only 16 pts before 2028, score 58; two VCL Polynesian Villas & Bungalows contracts — not resale-eligible for Aulani, score 0), 2 price cuts (GF GF349 $159→$153, CCV CCE3020 $142→$139 — neither fits), 5 status (DVC Resale Market pendings, none on a Sept list) — nothing ≥ 70 or top-25 to page-check. **Sept top lists unchanged.** Scraper health: all 10 sources ok. Broker alert emails (last 2 h): none. Fixes: none.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -53,6 +53,8 @@ VCL OKW 4301740000155635003 leads ($5.9k, borrows 156), then SSR SS1286 ($5.7k, 
 Also: Aulani [616395 (DVC Market)](https://dvcmarket.com/dvc-resale/aulani/200-points/616395) **cut $115 → $105** (200 pts Oct UY, 400 in Oct-2026 incl. 200 banked; +$3.4k flip on $23.2k) — score 75.5, not on a Sept list (Oct-2026 points expire Sep 30, 2027 so they'd cover Sept 2027 but at $105 it doesn't beat the picks above).
 
 ## Scraper health & fixes
+
+**17:36 run (review-dispatched): all 10 sources ok** — DVC Resale Market 461 (+1), others unchanged. Cron still not firing on its own (last scheduled run 11:51). No fixes made.
 
 **16:37 run (review-dispatched): all 10 sources ok** — DVC Resale Market 460 (+1), others unchanged. Cron still not firing on its own (last scheduled run 11:51). No fixes made.
 
