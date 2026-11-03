@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T03:38:29+00:00",
+ "updated": "2026-11-03T03:57:49+00:00",
  "count": 1877,
  "listings": [
   {
@@ -82433,9 +82433,9 @@
    "expiration": 2057,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "days_on_market": 12,
-    "date_listed_from": "detail",
+    "date_listed_from": "index_days",
     "internal_id": "1872",
     "value_score": 40,
     "also_on": "dvcmarket",
@@ -94269,7 +94269,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 37047,
-    "modified": "2026-11-02 22:30:06",
+    "modified": "2026-11-02 22:40:05",
     "resort_abbr": "AUL",
     "low_but_firm": true
    },
@@ -101184,7 +101184,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 37295,
-    "modified": "2026-11-02 22:30:07",
+    "modified": "2026-11-02 22:40:06",
     "resort_abbr": "GC",
     "low_but_firm": true,
     "also_on": "dvcmarket"
@@ -103454,7 +103454,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 37230,
-    "modified": "2026-11-02 22:30:07",
+    "modified": "2026-11-02 22:40:06",
     "resort_abbr": "RR",
     "low_but_firm": true
    },
@@ -105237,7 +105237,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 37267,
-    "modified": "2026-11-02 22:30:07",
+    "modified": "2026-11-02 22:40:06",
     "resort_abbr": "SSR",
     "low_but_firm": true
    },
@@ -120374,7 +120374,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-11-03T03:38:29+00:00"
+   "detail_at": "2026-11-03T03:57:49+00:00"
   },
   {
    "source": "magicresales",
@@ -120432,7 +120432,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-11-03T03:38:29+00:00"
+   "detail_at": "2026-11-03T03:57:49+00:00"
   },
   {
    "source": "magicresales",
@@ -120490,7 +120490,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-11-03T03:38:29+00:00"
+   "detail_at": "2026-11-03T03:57:49+00:00"
   },
   {
    "source": "vacationclublife",
