@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-11-03 15:40 UTC (latest data: 15:37 UTC scrape, review-dispatched — the 15-minute schedule still isn't firing on its own). 15:37 scrape: 1 relisted, 4 price cuts, 1 status, 14 gone. The 14 "gone" are DVC Resale Market contracts that were already Sale Pending (AKV, BCV, HH, OKW, PVB, SSR, VB) — sold through, not new supply lost. Price cuts: Aulani AU389 $96→$95 (✔ checked), AKV AK808 $115→$113 (✔), OKW OK84981 $99→$93 (score 65, 88 pts left in 2026, OKW 2042), Riviera RRC2367 $132→$119 (non-legacy, can't book Aulani). Relisted: Hilton Head HHI26452 (✔, #4 for 2BR). **Sept top lists unchanged.** Scraper health: all 10 sources ok. Broker alert emails (last 2 h): none. Fixes: none.
+**Run:** 2026-11-03 16:40 UTC (latest data: 16:37 UTC scrape, review-dispatched — the 15-minute schedule still hasn't fired since 11:51). 16:37 scrape: 1 new, 2 price cuts, 5 status, 0 gone — nothing ≥ 70 or top-25 to page-check. **Sept top lists unchanged** (savings moved by a few dollars with the market model refit). Scraper health: all 10 sources ok. Broker alert emails (last 2 h): none. Fixes: none.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -54,6 +54,8 @@ Also: Aulani [616395 (DVC Market)](https://dvcmarket.com/dvc-resale/aulani/200-p
 
 ## Scraper health & fixes
 
+**16:37 run (review-dispatched): all 10 sources ok** — DVC Resale Market 460 (+1), others unchanged. Cron still not firing on its own (last scheduled run 11:51). No fixes made.
+
 **15:37 run (review-dispatched): all 10 sources ok** — DVC Resale Market 459 (was 473; the 14 sold-through pendings), DVC Resale Experts 96 (+1 relist), DVC Market 804. The 15-minute cron still hasn't fired since 11:51 — every recent run was dispatched by a review; worth checking the workflow schedule. No fixes made. Verified this run: AU389 (Live, 46 days, $95, 297 pts Aug-2026 + 300/yr, buyer reimburses 2026 dues $3,255 + prepays 2027, est. close Dec 21, 2062 deed), AK808 (Live, $113, 152 Dec-2026, buyer reimburses 2026 dues, close Dec 21, 2057 deed), HHI26452 — all match the scraped data.
 
 **08:37 run: all 10 sources ok** — DVC Shop back (236, the 07:38 timeout was a one-off), DVC Market 805 (was 802), others unchanged. The 15-minute schedule hasn't fired since 03:57; every run since 05:37 was dispatched by a review — worth a look at the workflow's cron/GitHub schedule throttling if it continues. No fixes made.
@@ -62,6 +64,7 @@ Also: Aulani [616395 (DVC Market)](https://dvcmarket.com/dvc-resale/aulani/200-p
 
 ## Market notes
 
+- 16:37 scrape (dispatched): **Fourth Aulani contract pending today** — [AUB3547 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/aulani/aub3547/) 160 pts Oct UY $100 ("Reduced Again") → Offer Accepted; wasn't on a list (cost more than renting). **Price cuts:** SSR [SSE8543 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/saratoga-springs/sse8543/) 150 pts Sep UY $115 → $110 (0 in Sep-2026, score 69.2, #108; Sept 2BR costs ~$3.7k more than renting) and Riviera RV349 $116 → $114 (non-legacy). **New:** AKV AKA6560 (210 pts Mar UY $110, no points until Mar-2028, score 59.1 — irrelevant). **Went pending → Sale Pending:** SS78671, BL73820, CC73031; Riviera RRE2376 Offer Accepted. No new Aulani low (613999 at $95). Gmail: none. Market model n=882 (was 894): −$4.51/pt per missing current year (was −$4.96), −$8.19 missing next (was −$8.45), ~$4.95 below ask (was ~$4.56) — stripped contracts discounted slightly less; asks a bit further above accepted prices.
 - 14:37 scrape (dispatched): **Went pending:** SSR SSF8665 (DVC Resale Market) Offer Accepted → Sale Pending — not on a list. GFV mirror flap again (616174 back, 616133 gone; same 400-pt $165 contract; GFV can't book Aulani via resale). No price moves, nothing ≥ 70 or top-25 to page-check. No new Aulani low (613999 at $95). Gmail: none.
 - 09:37–13:37 scrapes (5 runs): 0 new, 0 price, 0 gone. **Went pending:** OKW [OKW240-08-0831 (DVC Store)](https://www.dvcstore.com/resort/old-key-west/okw240-08-0831/) 240 pts Aug UY $82 → Sale Pending — not on any Sept list. No new Aulani low (613999 at $95). Gmail: none. Market model n=894: −$4.96/pt per missing current year, −$8.45 missing next, ~$4.56 below ask — flat.
 - 08:37 scrape (dispatched): 0 new, 0 price, 0 status, 0 gone. Nothing to page-check. No new Aulani low (613999 at $95). Gmail: none. Market model n=894: −$4.96/pt per missing current year, −$8.44 missing next, ~$4.52 below ask — unchanged.
