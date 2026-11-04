@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-11-04 05:38 UTC (latest data: 05:36 UTC review-dispatched scrape; cron still hasn't fired since 23:57). **No ranking changes this hour.** 05:36 scrape: 0 new, 0 price changes, 1 status change — Animal Kingdom Villas [AKB5625 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/animal-kingdom/akb5625/) (200 pts, $114) Reduced → Offer Accepted (not on any Sept list). **Scraper health:** all 10 sources ok; DVC Shop recovered (237 listings). Broker alert emails (last 2 h): none. Fixes: none. Previous run (04:40): DVC Shop ConnectTimeout blip; no ranking changes.
+**Run:** 2026-11-04 05:38 UTC (latest data: 05:36 UTC review-dispatched scrape; cron still hasn't fired since 23:57). **No ranking changes this hour.** 05:36 scrape: 0 new, 0 price changes, 1 status change — Animal Kingdom Villas [AKB5625 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/animal-kingdom-lodge/akb5625/) (200 pts, $114) Reduced → Offer Accepted (not on any Sept list). **Scraper health:** all 10 sources ok; DVC Shop recovered (237 listings). Broker alert emails (last 2 h): none. Fixes: none. Previous run (04:40): DVC Shop ConnectTimeout blip; no ranking changes.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
