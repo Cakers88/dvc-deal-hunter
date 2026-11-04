@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-04T08:37:23+00:00",
- "count": 1922,
+ "updated": "2026-11-04T10:37:06+00:00",
+ "count": 1923,
  "listings": [
   {
    "source": "buyandselldvc",
@@ -1357,7 +1357,7 @@
    "expiration": 2054,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 68750.0,
     "broker": "Buy And Sell DVC",
     "also_on": "dvcmarket",
@@ -1471,7 +1471,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 22660.0,
     "broker": "Buy And Sell DVC",
     "reduced": true,
@@ -3365,7 +3365,7 @@
     "star_rating": 3,
     "rvc_ppp": 143.0,
     "resort_short_name": "Copper Creek",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 16:00:08",
     "sync_hash": "cd3cb7c9f127f92c704d501ed033937a",
     "availability_from": "index",
@@ -3444,7 +3444,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 16:00:08",
     "sync_hash": "2f712e807fb98f5711f281c74d9d2a6b",
     "availability_from": "index",
@@ -3527,7 +3527,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 16:00:08",
     "sync_hash": "11b46729cfb28aa0a818aa7edda9f364",
     "availability_from": "index",
@@ -3606,7 +3606,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 23:00:08",
     "sync_hash": "837b6f2b4b965e2fd72299a2710c133a",
     "availability_from": "index",
@@ -3681,7 +3681,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 16:00:08",
     "sync_hash": "0b6d7b0ae04a5e702dd56d1edfab5d84",
     "availability_from": "index",
@@ -3828,7 +3828,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 16:00:08",
     "sync_hash": "a04a022168f9ab5b46aa906645e3685c",
     "availability_from": "index",
@@ -3898,15 +3898,15 @@
     "dvcmarket_source": "external",
     "closing_cost": 719.0,
     "yearly_dues": 1681.5,
-    "days_on_market": 109,
+    "days_on_market": 110,
     "deal_score": 38,
     "star_rating": 3,
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-11-04 08:00:09",
-    "updated_at": "2026-11-03 09:00:10",
-    "sync_hash": "27588502ad31d84dfbd3fa2a53fedda1",
+    "synced_at": "2026-11-04 10:00:10",
+    "updated_at": "2026-11-04 09:00:08",
+    "sync_hash": "208a08048a92eab73255c1660913c5ba",
     "availability_from": "index",
     "availability_years": [
      2026,
@@ -3939,7 +3939,7 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcmarket",
@@ -3986,14 +3986,14 @@
     "dvcmarket_source": "external",
     "closing_cost": 810.0,
     "yearly_dues": 1419.0,
-    "days_on_market": 109,
+    "days_on_market": 110,
     "deal_score": 38,
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-11-04 08:00:09",
-    "updated_at": "2026-11-03 09:00:10",
-    "sync_hash": "e2dabec547e0eefc33faa752446db8d6",
+    "synced_at": "2026-11-04 10:00:10",
+    "updated_at": "2026-11-04 09:00:08",
+    "sync_hash": "5a1a6a73a755e6b0edebf534f553140f",
     "availability_from": "index",
     "availability_years": [
      2026,
@@ -4064,15 +4064,15 @@
     "dvcmarket_source": "external",
     "closing_cost": 810.0,
     "yearly_dues": 2578.3,
-    "days_on_market": 109,
+    "days_on_market": 110,
     "deal_score": 62,
     "star_rating": 3,
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-11-04 08:00:09",
-    "updated_at": "2026-11-03 09:00:10",
-    "sync_hash": "42353590792a3124fe8b00e680832860",
+    "synced_at": "2026-11-04 10:00:10",
+    "updated_at": "2026-11-04 09:00:08",
+    "sync_hash": "e172e95ba3bb663efab962456b41b8b1",
     "availability_from": "index",
     "availability_years": [
      2026,
@@ -4149,14 +4149,14 @@
     "dvcmarket_source": "external",
     "closing_cost": 810.0,
     "yearly_dues": 1419.0,
-    "days_on_market": 109,
+    "days_on_market": 110,
     "deal_score": 38,
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-11-04 08:00:09",
-    "updated_at": "2026-11-03 09:00:10",
-    "sync_hash": "48f5455e9000112d24db08b64452d639",
+    "synced_at": "2026-11-04 10:00:10",
+    "updated_at": "2026-11-04 09:00:08",
+    "sync_hash": "600b957e9b7087bc484b92dee4d7434a",
     "availability_from": "index",
     "availability_years": [
      2026,
@@ -4224,15 +4224,15 @@
     "dvcmarket_source": "external",
     "closing_cost": 821.0,
     "yearly_dues": 2466.2,
-    "days_on_market": 109,
+    "days_on_market": 110,
     "deal_score": 41,
     "star_rating": 3,
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-11-04 08:00:09",
-    "updated_at": "2026-11-03 09:00:10",
-    "sync_hash": "62df844f910a90cde0ed15e2ed77b02e",
+    "synced_at": "2026-11-04 10:00:10",
+    "updated_at": "2026-11-04 09:00:08",
+    "sync_hash": "693a15bb29b5c5b011e44d893878beab",
     "availability_from": "index",
     "availability_years": [
      2026,
@@ -4261,7 +4261,7 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcmarket",
@@ -4308,15 +4308,15 @@
     "dvcmarket_source": "external",
     "closing_cost": 810.0,
     "yearly_dues": 2466.2,
-    "days_on_market": 109,
+    "days_on_market": 110,
     "deal_score": 59,
     "star_rating": 3,
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-11-04 08:00:09",
-    "updated_at": "2026-11-03 09:00:10",
-    "sync_hash": "c0d857be9bf9085efdb76c3f67e2cd94",
+    "synced_at": "2026-11-04 10:00:10",
+    "updated_at": "2026-11-04 09:00:08",
+    "sync_hash": "67bdea24b2837e7ddc3c42db9a16eaa5",
     "availability_from": "index",
     "availability_years": [
      2026,
@@ -4392,14 +4392,14 @@
     "dvcmarket_source": "external",
     "closing_cost": 628.0,
     "yearly_dues": 1753.6,
-    "days_on_market": 109,
+    "days_on_market": 110,
     "deal_score": 58,
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-11-04 08:00:09",
-    "updated_at": "2026-11-03 09:00:10",
-    "sync_hash": "f9cec78d3b74d6a8fa294ba14c0cd29c",
+    "synced_at": "2026-11-04 10:00:10",
+    "updated_at": "2026-11-04 09:00:08",
+    "sync_hash": "265e7a9f83b0dae5cd4592e90ea7a5d0",
     "availability_from": "index",
     "availability_years": [
      2026,
@@ -4636,15 +4636,15 @@
     "dvcmarket_source": "external",
     "closing_cost": 821.0,
     "yearly_dues": 2354.1,
-    "days_on_market": 109,
+    "days_on_market": 110,
     "deal_score": 38,
     "star_rating": 3,
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-11-04 08:00:09",
-    "updated_at": "2026-11-03 09:00:10",
-    "sync_hash": "dda684a4d97bfe6ac1ec9a733bd4809c",
+    "synced_at": "2026-11-04 10:00:10",
+    "updated_at": "2026-11-04 09:00:08",
+    "sync_hash": "a939af1b3e6b7dae3410293d1bebd5d5",
     "availability_from": "index",
     "availability_years": [
      2026,
@@ -4673,7 +4673,7 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcmarket",
@@ -4720,14 +4720,14 @@
     "dvcmarket_source": "external",
     "closing_cost": 571.0,
     "yearly_dues": 1644.0,
-    "days_on_market": 109,
+    "days_on_market": 110,
     "deal_score": 56,
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-11-04 08:00:09",
-    "updated_at": "2026-11-03 09:00:10",
-    "sync_hash": "c71bf00da61a12468646155de9e53613",
+    "synced_at": "2026-11-04 10:00:10",
+    "updated_at": "2026-11-04 09:00:08",
+    "sync_hash": "a77725e84bb3a5ca482b1f70dd118e48",
     "availability_from": "index",
     "availability_years": [
      2026,
@@ -4799,15 +4799,15 @@
     "dvcmarket_source": "external",
     "closing_cost": 833.0,
     "yearly_dues": 2578.3,
-    "days_on_market": 109,
+    "days_on_market": 110,
     "deal_score": 43,
     "star_rating": 3,
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-11-04 08:00:09",
-    "updated_at": "2026-11-03 09:00:10",
-    "sync_hash": "d5c75afd09ee0d0c4aa052f3418a3594",
+    "synced_at": "2026-11-04 10:00:10",
+    "updated_at": "2026-11-04 09:00:08",
+    "sync_hash": "cb5daa82355bbd68b277258d63b38a30",
     "availability_from": "index",
     "availability_years": [
      2026,
@@ -4883,15 +4883,15 @@
     "dvcmarket_source": "external",
     "closing_cost": 833.0,
     "yearly_dues": 2600.72,
-    "days_on_market": 109,
+    "days_on_market": 110,
     "deal_score": 45,
     "star_rating": 3,
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-11-04 08:00:09",
-    "updated_at": "2026-11-03 09:00:10",
-    "sync_hash": "311a6c66edb0a18d833210c3d3802c1f",
+    "synced_at": "2026-11-04 10:00:10",
+    "updated_at": "2026-11-04 09:00:08",
+    "sync_hash": "79307dfcc9300d2543c0f0ea50a14095",
     "availability_from": "index",
     "availability_years": [
      2026,
@@ -5039,14 +5039,14 @@
     "dvcmarket_source": "external",
     "closing_cost": 665.0,
     "yearly_dues": 2192.0,
-    "days_on_market": 109,
+    "days_on_market": 110,
     "deal_score": 52,
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-11-04 08:00:09",
-    "updated_at": "2026-11-03 09:00:10",
-    "sync_hash": "3338f01a562fd22fe3c90c2a7cd6786e",
+    "synced_at": "2026-11-04 10:00:10",
+    "updated_at": "2026-11-04 09:00:08",
+    "sync_hash": "2afd0ead5e0c47e7e06a4e06b3ef0d76",
     "availability_from": "index",
     "availability_years": [
      2026,
@@ -5122,15 +5122,15 @@
     "dvcmarket_source": "external",
     "closing_cost": 845.0,
     "yearly_dues": 2578.3,
-    "days_on_market": 109,
+    "days_on_market": 110,
     "deal_score": 36,
     "star_rating": 3,
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-11-04 08:00:09",
-    "updated_at": "2026-11-03 09:00:10",
-    "sync_hash": "ebabf4f4583a1aa99c779b77028f0956",
+    "synced_at": "2026-11-04 10:00:10",
+    "updated_at": "2026-11-04 09:00:08",
+    "sync_hash": "e01fbc20f38bf0a597c19a44f9d7f49e",
     "availability_from": "index",
     "availability_years": [
      2026,
@@ -5286,15 +5286,15 @@
     "dvcmarket_source": "external",
     "closing_cost": 719.0,
     "yearly_dues": 1681.5,
-    "days_on_market": 109,
+    "days_on_market": 110,
     "deal_score": 36,
     "star_rating": 3,
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-11-04 08:00:09",
-    "updated_at": "2026-11-03 09:00:10",
-    "sync_hash": "b09e4f5cb3499443f6de33dee0edd1e9",
+    "synced_at": "2026-11-04 10:00:10",
+    "updated_at": "2026-11-04 09:00:08",
+    "sync_hash": "0d328eab4037ed9f12edea8ce82ad6be",
     "availability_from": "index",
     "availability_years": [
      2026,
@@ -5323,7 +5323,7 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcmarket",
@@ -5370,14 +5370,14 @@
     "dvcmarket_source": "external",
     "closing_cost": 903.0,
     "yearly_dues": 1748.0,
-    "days_on_market": 109,
+    "days_on_market": 110,
     "deal_score": 53,
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-11-04 08:00:09",
-    "updated_at": "2026-11-03 09:00:10",
-    "sync_hash": "754b4d5eb3b4e80e910d356590bf43b9",
+    "synced_at": "2026-11-04 10:00:10",
+    "updated_at": "2026-11-04 09:00:08",
+    "sync_hash": "2d21165fef014d1728ea134ed4d0455a",
     "availability_from": "index",
     "availability_years": [
      2026,
@@ -5449,14 +5449,14 @@
     "dvcmarket_source": "external",
     "closing_cost": 1071.0,
     "yearly_dues": 2838.0,
-    "days_on_market": 109,
+    "days_on_market": 110,
     "deal_score": 43,
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-11-04 08:00:09",
-    "updated_at": "2026-11-03 09:00:10",
-    "sync_hash": "16ab990b29bfd056d41c6eb3d8052197",
+    "synced_at": "2026-11-04 10:00:10",
+    "updated_at": "2026-11-04 09:00:08",
+    "sync_hash": "d2d8ff194d13a28cbee9b33ec0fdc027",
     "availability_from": "index",
     "availability_years": [
      2026,
@@ -5534,14 +5534,14 @@
     "dvcmarket_source": "external",
     "closing_cost": 691.0,
     "yearly_dues": 2411.2,
-    "days_on_market": 109,
+    "days_on_market": 110,
     "deal_score": 53,
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-11-04 08:00:09",
-    "updated_at": "2026-11-03 09:00:10",
-    "sync_hash": "1cacc5543dbe457590758b79d384835e",
+    "synced_at": "2026-11-04 10:00:10",
+    "updated_at": "2026-11-04 09:00:08",
+    "sync_hash": "32bb587cbe302f6641b621c88701ef77",
     "availability_from": "index",
     "availability_years": [
      2026,
@@ -5617,14 +5617,14 @@
     "dvcmarket_source": "external",
     "closing_cost": 719.0,
     "yearly_dues": 2233.5,
-    "days_on_market": 109,
+    "days_on_market": 110,
     "deal_score": 0,
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-11-04 08:00:09",
-    "updated_at": "2026-11-03 09:00:10",
-    "sync_hash": "a81b80ea40b9b69536be24cb2a037183",
+    "synced_at": "2026-11-04 10:00:10",
+    "updated_at": "2026-11-04 09:00:08",
+    "sync_hash": "19ecc5c90e676408c41dc09b13f88f7d",
     "availability_from": "index",
     "availability_years": [
      2026,
@@ -5649,7 +5649,7 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcmarket",
@@ -5696,14 +5696,14 @@
     "dvcmarket_source": "external",
     "closing_cost": 571.0,
     "yearly_dues": 1589.2,
-    "days_on_market": 109,
+    "days_on_market": 110,
     "deal_score": 52,
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-11-04 08:00:09",
-    "updated_at": "2026-11-03 09:00:10",
-    "sync_hash": "7088bb86499e36485e7dfbe37e01226b",
+    "synced_at": "2026-11-04 10:00:10",
+    "updated_at": "2026-11-04 09:00:08",
+    "sync_hash": "425095bf215571560520366549eb23ed",
     "availability_from": "index",
     "availability_years": [
      2026,
@@ -5779,14 +5779,14 @@
     "dvcmarket_source": "external",
     "closing_cost": 880.0,
     "yearly_dues": 2442.5,
-    "days_on_market": 109,
+    "days_on_market": 110,
     "deal_score": 54,
     "star_rating": 3,
     "rvc_ppp": 99.0,
     "resort_short_name": "Boulder Ridge",
-    "synced_at": "2026-11-04 08:00:09",
-    "updated_at": "2026-11-03 09:00:10",
-    "sync_hash": "63db8b643cba77e161380d4c323d8c29",
+    "synced_at": "2026-11-04 10:00:10",
+    "updated_at": "2026-11-04 09:00:08",
+    "sync_hash": "a113c2f928e6ca462ad468e92ea14f14",
     "availability_from": "index",
     "availability_years": [
      2026,
@@ -5815,7 +5815,7 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcmarket",
@@ -5857,14 +5857,14 @@
     "dvcmarket_source": "external",
     "closing_cost": 1047.0,
     "yearly_dues": 3216.5,
-    "days_on_market": 109,
+    "days_on_market": 110,
     "deal_score": 56,
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-11-04 08:00:09",
-    "updated_at": "2026-11-03 09:00:10",
-    "sync_hash": "62c9e82177d1a0bcfcf28e1443bf982b",
+    "synced_at": "2026-11-04 10:00:10",
+    "updated_at": "2026-11-04 09:00:08",
+    "sync_hash": "1c90c9248e227966e0bbad9853fbf011",
     "availability_from": "index",
     "availability_years": [
      2026,
@@ -5894,7 +5894,7 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcmarket",
@@ -5937,14 +5937,14 @@
     "dvcmarket_source": "external",
     "closing_cost": 1124.0,
     "yearly_dues": 2838.0,
-    "days_on_market": 109,
+    "days_on_market": 110,
     "deal_score": 21,
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-11-04 08:00:09",
-    "updated_at": "2026-11-03 09:00:10",
-    "sync_hash": "d9998544d980148b66f8e41af79d657b",
+    "synced_at": "2026-11-04 10:00:10",
+    "updated_at": "2026-11-04 09:00:08",
+    "sync_hash": "be63660a4aeb79d583c2c753d499c840",
     "availability_from": "index",
     "availability_years": [
      2026,
@@ -6012,14 +6012,14 @@
     "dvcmarket_source": "external",
     "closing_cost": 2841.0,
     "yearly_dues": 10379.12,
-    "days_on_market": 109,
+    "days_on_market": 110,
     "deal_score": 0,
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-11-04 08:00:09",
-    "updated_at": "2026-11-03 09:00:10",
-    "sync_hash": "62d104864b049a35cf5ced9d6c874758",
+    "synced_at": "2026-11-04 10:00:10",
+    "updated_at": "2026-11-04 09:00:08",
+    "sync_hash": "b02ec291b55a7529f83f4c8c81bcb97e",
     "availability_from": "index",
     "availability_years": [
      2026,
@@ -6091,14 +6091,14 @@
     "dvcmarket_source": "external",
     "closing_cost": 939.0,
     "yearly_dues": 1892.0,
-    "days_on_market": 109,
+    "days_on_market": 110,
     "deal_score": 0,
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-11-04 08:00:09",
-    "updated_at": "2026-11-03 09:00:10",
-    "sync_hash": "82be8107f307bf6d8d29816596ea986d",
+    "synced_at": "2026-11-04 10:00:10",
+    "updated_at": "2026-11-04 09:00:08",
+    "sync_hash": "607ac1c12b14faec6c2662f0d93ea622",
     "availability_from": "index",
     "availability_years": [
      2026,
@@ -6912,7 +6912,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "BoardWalk",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 16:00:08",
     "sync_hash": "4867df623de06be19fe19db3aa24b7e4",
     "availability_from": "index",
@@ -6986,14 +6986,14 @@
     "dvcmarket_source": "external",
     "closing_cost": 798.0,
     "yearly_dues": 1419.0,
-    "days_on_market": 109,
+    "days_on_market": 110,
     "deal_score": 47,
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-11-04 08:00:09",
-    "updated_at": "2026-11-03 09:00:10",
-    "sync_hash": "1f21b5236270c53c9ef3cd7834126c9a",
+    "synced_at": "2026-11-04 10:00:10",
+    "updated_at": "2026-11-04 09:00:08",
+    "sync_hash": "1eee88e67fe19b1f9504ddb176bde8c5",
     "availability_from": "index",
     "availability_years": [
      2026,
@@ -7150,7 +7150,7 @@
     "star_rating": 3,
     "rvc_ppp": 165.0,
     "resort_short_name": "Grand Floridian",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "0b760fceb0f444a8ef9e14a1edf90aa7",
     "availability_from": "index",
@@ -7843,7 +7843,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "9373fb1884cce66fe2d13f4a35639397",
     "availability_from": "index",
@@ -8538,7 +8538,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 23:00:08",
     "sync_hash": "658b3455036b9931c78701ce5d40dd62",
     "availability_from": "index",
@@ -8860,7 +8860,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "a6100ed7bcf9e74696936c40c1a4472a",
     "availability_from": "index",
@@ -8943,7 +8943,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "76b6bd63f7927dcabe718f021d40d55c",
     "availability_from": "index",
@@ -8970,7 +8970,7 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcmarket",
@@ -9723,7 +9723,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "c05b5c00f4902ad5b0ec2b4d11f06214",
     "availability_from": "index",
@@ -9879,7 +9879,7 @@
     "star_rating": 3,
     "rvc_ppp": 165.0,
     "resort_short_name": "Grand Floridian",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "765e1927c954e6f89c55aad726b869ee",
     "availability_from": "index",
@@ -9958,7 +9958,7 @@
     "star_rating": 3,
     "rvc_ppp": 165.0,
     "resort_short_name": "Grand Floridian",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "80849e6394d3c69d294f098f553d2ef1",
     "availability_from": "index",
@@ -10042,7 +10042,7 @@
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "cc231b43d488f9591b5f21337a8b99a5",
     "availability_from": "index",
@@ -10370,7 +10370,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "906b8d692b984f61d8aaeaa43274b974",
     "availability_from": "index",
@@ -10406,7 +10406,7 @@
      "price_per_point": 96.0
     }
    ],
-   "detail_at": "2026-11-01T09:42:02+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcmarket",
@@ -10794,7 +10794,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 16:00:08",
     "sync_hash": "cf6000f034f9fb5bf2bf423df6e4c8a7",
     "availability_from": "index",
@@ -10877,7 +10877,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "a90daa11157eaba0a6a2c2fe35ffc9db",
     "availability_from": "index",
@@ -12366,7 +12366,7 @@
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 16:00:08",
     "sync_hash": "b8b58ce555e92091a57c309d0eb088d9",
     "availability_from": "index",
@@ -12445,7 +12445,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "894080e4544c329ad088b6aca95ea7a6",
     "availability_from": "index",
@@ -12529,7 +12529,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "03f22e06fa8dff1f6b622d347edd54db",
     "availability_from": "index",
@@ -13524,7 +13524,7 @@
     "star_rating": 3,
     "rvc_ppp": 165.0,
     "resort_short_name": "Grand Floridian",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "fe8c2591d5ff1733ef1ea4e66cff128b",
     "availability_from": "index",
@@ -13603,7 +13603,7 @@
     "star_rating": 3,
     "rvc_ppp": 99.0,
     "resort_short_name": "Boulder Ridge",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "872b718881ff2bb6dcc10efb04f717fa",
     "availability_from": "index",
@@ -13630,7 +13630,7 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcmarket",
@@ -13682,7 +13682,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "7d95c6d1a3cf808ee4bca64753309545",
     "availability_from": "index",
@@ -13858,7 +13858,7 @@
     "star_rating": 3,
     "rvc_ppp": 165.0,
     "resort_short_name": "Grand Floridian",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "5ff5d73738356724fd4f8c377ce0db8f",
     "availability_from": "index",
@@ -14588,7 +14588,7 @@
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "2889a5d50e136bfec9100f2a816dc818",
     "availability_from": "index",
@@ -14619,7 +14619,7 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcmarket",
@@ -14840,7 +14840,7 @@
     "star_rating": 3,
     "rvc_ppp": 166.0,
     "resort_short_name": "Polynesian",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "b4808b86f5b55879ee416004f937e6ac",
     "availability_from": "index",
@@ -15506,7 +15506,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "645c4c0f53263f33b7ddb45a04c17f0a",
     "availability_from": "index",
@@ -15589,7 +15589,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "535e0fbaf6a2271a9defe81aea5936f9",
     "availability_from": "index",
@@ -15625,7 +15625,7 @@
      "price_per_point": 49.0
     }
    ],
-   "detail_at": "2026-11-01T09:42:02+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcmarket",
@@ -16002,7 +16002,7 @@
     "star_rating": 3,
     "rvc_ppp": 148.0,
     "resort_short_name": "Disneyland Hotel",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "34cb70ea681012e21c992ef5c8d2ecd5",
     "availability_from": "index",
@@ -16077,7 +16077,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "BoardWalk",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "c175f9315501b5bd302204fc6794136f",
     "availability_from": "index",
@@ -16160,7 +16160,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "b511dcd975cfb7d133314cc48f7ac302",
     "availability_from": "index",
@@ -16401,7 +16401,7 @@
     "star_rating": 3,
     "rvc_ppp": 99.0,
     "resort_short_name": "Boulder Ridge",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "a3fd04790950aa1b31a7eac036ab13e1",
     "availability_from": "index",
@@ -16428,7 +16428,7 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcmarket",
@@ -16557,7 +16557,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "3f7831f1799b66b8bf20ab0a65df727b",
     "availability_from": "index",
@@ -16584,7 +16584,7 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcmarket",
@@ -16713,7 +16713,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "aaa9f05ede07dfbdae26c9e153c96da9",
     "availability_from": "index",
@@ -16792,7 +16792,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "ce8293cfa311fbc8b3080bd0ca582b1c",
     "availability_from": "index",
@@ -17034,7 +17034,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "985ae5d6a2d680e182a1f599ddff48e3",
     "availability_from": "index",
@@ -17427,7 +17427,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "d7c3568d65538ac732eca5f40305e6c8",
     "availability_from": "index",
@@ -17924,7 +17924,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "8c16acf4f482cc3dd716a0153cdbac37",
     "availability_from": "index",
@@ -18179,7 +18179,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "BoardWalk",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "a5aefd7febe47439b9d42d3b2a87a640",
     "availability_from": "index",
@@ -19094,7 +19094,7 @@
     "star_rating": 3,
     "rvc_ppp": 165.0,
     "resort_short_name": "Grand Floridian",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "24577c84d42de66ad5404fc511c874cf",
     "availability_from": "index",
@@ -19253,7 +19253,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "75ac4d821c05d471cf4bde7dbc8ceaba",
     "availability_from": "index",
@@ -19494,7 +19494,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "BoardWalk",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "a6fc9f675de5a60ccaa03fa523e3d68c",
     "availability_from": "index",
@@ -19573,7 +19573,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "3567ca9e2284bb66a8536ca112481796",
     "availability_from": "index",
@@ -19656,7 +19656,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "afa038c8fb91b8584000a3e138d31945",
     "availability_from": "index",
@@ -19739,7 +19739,7 @@
     "star_rating": 3,
     "rvc_ppp": 143.0,
     "resort_short_name": "Copper Creek",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "9a19de41956b841e31511678e5a4d3f2",
     "availability_from": "index",
@@ -20233,7 +20233,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "3e416d900c9ec94a2ca228a8d3c7312d",
     "availability_from": "index",
@@ -20392,7 +20392,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "ab9cc663cc2e841cf3dc0c3026715bed",
     "availability_from": "index",
@@ -20423,7 +20423,7 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcmarket",
@@ -20475,7 +20475,7 @@
     "star_rating": 3,
     "rvc_ppp": 166.0,
     "resort_short_name": "Polynesian",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "ccbe0591cd2540b7ade1d1a1f79c1cc7",
     "availability_from": "index",
@@ -20875,7 +20875,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "0f2fb7618c0a8ccc18e056659343218a",
     "availability_from": "index",
@@ -21205,7 +21205,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "98a4e38b3df45af0aa303ea77b4e782b",
     "availability_from": "index",
@@ -21236,7 +21236,7 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcmarket",
@@ -21288,7 +21288,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "8523cac2b295f07a2ee8fc24a5bba402",
     "availability_from": "index",
@@ -21531,7 +21531,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "ac0a53edcedccfa7a5d316596c8ee7d0",
     "availability_from": "index",
@@ -21606,7 +21606,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "BoardWalk",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "b094fab691b29b1f09de78a80bbc3a01",
     "availability_from": "index",
@@ -21689,7 +21689,7 @@
     "star_rating": 3,
     "rvc_ppp": 166.0,
     "resort_short_name": "Polynesian",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "7ca588fc3a525f430a5c55a915dcf21b",
     "availability_from": "index",
@@ -21945,7 +21945,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "54ac1f58dde7facd4636d337810b6f84",
     "availability_from": "index",
@@ -22187,7 +22187,7 @@
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "d5e3d93edc0153cb1a5647ab1f4b07f6",
     "availability_from": "index",
@@ -22214,7 +22214,7 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcmarket",
@@ -22266,7 +22266,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "bc2a9a3c2dae62ca4090e9ed0c5f536f",
     "availability_from": "index",
@@ -22511,7 +22511,7 @@
     "star_rating": 3,
     "rvc_ppp": 64.0,
     "resort_short_name": "Hilton Head",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "00e225b78c957ee2d270ea23c18e1a86",
     "availability_from": "index",
@@ -22670,7 +22670,7 @@
     "star_rating": 3,
     "rvc_ppp": 108.0,
     "resort_short_name": "Animal Kingdom",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "3c02fb227896e9630337727e2a43a2ce",
     "availability_from": "index",
@@ -23159,7 +23159,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "BoardWalk",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "aa36b11054fad711b0f9feed96fd44e7",
     "availability_from": "index",
@@ -23238,7 +23238,7 @@
     "star_rating": 3,
     "rvc_ppp": 143.0,
     "resort_short_name": "Copper Creek",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "8c702e0d84e0950c2251d885486d291e",
     "availability_from": "index",
@@ -23317,7 +23317,7 @@
     "star_rating": 3,
     "rvc_ppp": 165.0,
     "resort_short_name": "Grand Floridian",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "5959ecfaac3018b9c40ad8fdef30312b",
     "availability_from": "index",
@@ -23452,7 +23452,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "94d7fef0fab1f517dbc6a57cb62e9bf3",
     "availability_from": "index",
@@ -23531,7 +23531,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "ca707963e0c506aecd5738983557033e",
     "availability_from": "index",
@@ -23606,7 +23606,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "3edf049feb40713d8f65652bd9e6a6d7",
     "availability_from": "index",
@@ -23685,7 +23685,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "BoardWalk",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "a2a54b371bde68eb397d13271f979a2d",
     "availability_from": "index",
@@ -24013,7 +24013,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "35027be6ec9af56239f5a429e90d6cb6",
     "availability_from": "index",
@@ -24044,7 +24044,7 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-11-01T09:42:02+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcmarket",
@@ -24096,7 +24096,7 @@
     "star_rating": 3,
     "rvc_ppp": 99.0,
     "resort_short_name": "Boulder Ridge",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "77170fb42e754e67faa469a483b12b68",
     "availability_from": "index",
@@ -24123,7 +24123,7 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-11-01T09:42:02+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcmarket",
@@ -24255,7 +24255,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "34774189a04766a06c394bf70c1bdfca",
     "availability_from": "index",
@@ -24840,7 +24840,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "847d513d8d3044309425352e32670b16",
     "availability_from": "index",
@@ -24867,7 +24867,7 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-11-01T09:42:02+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcmarket",
@@ -25298,7 +25298,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "5bdb1b41cb5878d91880635d3c4d76ed",
     "availability_from": "index",
@@ -25369,7 +25369,7 @@
     "star_rating": 3,
     "rvc_ppp": 137.0,
     "resort_short_name": "Beach Club",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "23aaa8239e2bbeb3f518590d907d1340",
     "availability_from": "index",
@@ -25536,7 +25536,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "cbae66461b77cc94688fd666d3739aa5",
     "availability_from": "index",
@@ -25783,7 +25783,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "6bd97dfda4b63f07cd7c613db9c72d99",
     "availability_from": "index",
@@ -25862,7 +25862,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "6fa25f87590f8d3220ab601c8576b3aa",
     "availability_from": "index",
@@ -25941,7 +25941,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "fc647fa523d27336d7e45406f19519f2",
     "availability_from": "index",
@@ -26020,7 +26020,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "69d1d9e6973bc9d6c0e9f9a07609d1b0",
     "availability_from": "index",
@@ -26344,7 +26344,7 @@
     "star_rating": 3,
     "rvc_ppp": 108.0,
     "resort_short_name": "Animal Kingdom",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "60757bbefa4b794dcfc8202dc62b4756",
     "availability_from": "index",
@@ -26579,7 +26579,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "f3dd0b8642107d9de7f440bc303ed5cd",
     "availability_from": "index",
@@ -26735,7 +26735,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "bdc3243db8278d9a5fef62b7876a3722",
     "availability_from": "index",
@@ -26814,7 +26814,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "65f38ff0b5856d95d92d085e2a79c01a",
     "availability_from": "index",
@@ -26893,7 +26893,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "6a35abedcd548da8d158ef08abb21d0c",
     "availability_from": "index",
@@ -27214,7 +27214,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "a46c54491be96b0c1f35e6610eb23d56",
     "availability_from": "index",
@@ -27293,7 +27293,7 @@
     "star_rating": 3,
     "rvc_ppp": 165.0,
     "resort_short_name": "Grand Floridian",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "c911232f9befef4dd6352d120a23ea9b",
     "availability_from": "index",
@@ -27372,7 +27372,7 @@
     "star_rating": 3,
     "rvc_ppp": 165.0,
     "resort_short_name": "Grand Floridian",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "d90fa51f5b6782bd4e560a4d5108715e",
     "availability_from": "index",
@@ -27785,7 +27785,7 @@
     "star_rating": 3,
     "rvc_ppp": 165.0,
     "resort_short_name": "Grand Floridian",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "77336e82cb45fadb1945e06995e05aef",
     "availability_from": "index",
@@ -28861,7 +28861,7 @@
     "star_rating": 3,
     "rvc_ppp": 166.0,
     "resort_short_name": "Polynesian",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "0c474d2d2574c09121f7bfde2f079811",
     "availability_from": "index",
@@ -28944,7 +28944,7 @@
     "star_rating": 3,
     "rvc_ppp": 166.0,
     "resort_short_name": "Polynesian",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "5c3b55f29f7e8c01e9e3b5b1d2a25815",
     "availability_from": "index",
@@ -29023,7 +29023,7 @@
     "star_rating": 3,
     "rvc_ppp": 250.0,
     "resort_short_name": "Grand Californian",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "62eb1272589cee6e163fd304c3290668",
     "availability_from": "index",
@@ -29106,7 +29106,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "203cba8a1cf3316324186de4bfd72fb2",
     "availability_from": "index",
@@ -29517,7 +29517,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "eb40a9961f1a0bbe6aa5e94bc99a5f46",
     "availability_from": "index",
@@ -29680,7 +29680,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 16:00:08",
     "sync_hash": "f9221cf9e7a8172995633c898ba56173",
     "availability_from": "index",
@@ -30092,7 +30092,7 @@
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "35eedcd562e26a8a2d6233fa076f4192",
     "availability_from": "index",
@@ -30176,7 +30176,7 @@
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "17632d0009a6fc36eb88bf416a8f4892",
     "availability_from": "index",
@@ -30339,7 +30339,7 @@
     "star_rating": 3,
     "rvc_ppp": 166.0,
     "resort_short_name": "Polynesian",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "cb4eb320ef0b796ff315064140d71f61",
     "availability_from": "index",
@@ -30499,7 +30499,7 @@
     "star_rating": 3,
     "rvc_ppp": 64.0,
     "resort_short_name": "Hilton Head",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 16:00:08",
     "sync_hash": "a2b059d9921ba5213bbf9371ddfef735",
     "availability_from": "index",
@@ -31331,7 +31331,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "3d58e4c9efdf8382e3b06a337188c764",
     "availability_from": "index",
@@ -32185,7 +32185,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "68ad3135b2b1964c2ed43e29e60fb108",
     "availability_from": "index",
@@ -32265,7 +32265,7 @@
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "48185238961e20f39864dcd827460a1c",
     "availability_from": "index",
@@ -32350,7 +32350,7 @@
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "8d99988151a853432d1b066082b2eff1",
     "availability_from": "index",
@@ -32435,7 +32435,7 @@
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "eda37f594480626e5c822629a34b6da4",
     "availability_from": "index",
@@ -32523,7 +32523,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "Riviera",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "9b81b7fbe6cdace351701d4ee7e8224e",
     "availability_from": "index",
@@ -32598,7 +32598,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "ebff668e60c0a6b93abae7ddb70b0ac0",
     "availability_from": "index",
@@ -32927,7 +32927,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "f26ecb2fe8bd80c5bbdd70e51ca80618",
     "availability_from": "index",
@@ -33337,7 +33337,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "BoardWalk",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 04:00:08",
     "sync_hash": "e371c9f86ee4215525cda808ae5596b4",
     "availability_from": "index",
@@ -33416,7 +33416,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "c180433a4fea67fa9878ac1dd9f46733",
     "availability_from": "index",
@@ -33833,7 +33833,7 @@
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "a1320c6e470099b85162fd5ef42df45c",
     "availability_from": "index",
@@ -34001,7 +34001,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "0d20acee6e49b69b59f9177d506920c7",
     "availability_from": "index",
@@ -34080,7 +34080,7 @@
     "star_rating": 3,
     "rvc_ppp": 96.0,
     "resort_short_name": "Aulani",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "47893b73e780742024bd55a5922be41b",
     "availability_from": "index",
@@ -34159,7 +34159,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "7d4acf31795aad8a3c68a3e1e74fafee",
     "availability_from": "index",
@@ -34242,7 +34242,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "16b666be1cac2c2e16db5b8f5637fe71",
     "availability_from": "index",
@@ -34325,7 +34325,7 @@
     "star_rating": 3,
     "rvc_ppp": 108.0,
     "resort_short_name": "Animal Kingdom",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "904f398d12ce1f1264634c87f18ef885",
     "availability_from": "index",
@@ -34408,7 +34408,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "BoardWalk",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "ab67dd21f20a4bed4b0d749fd3c99b4b",
     "availability_from": "index",
@@ -34487,7 +34487,7 @@
     "star_rating": 3,
     "rvc_ppp": 166.0,
     "resort_short_name": "Polynesian",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "81b518e6d0e189babab22f06cbab2d6d",
     "availability_from": "index",
@@ -34654,7 +34654,7 @@
     "star_rating": 3,
     "rvc_ppp": 108.0,
     "resort_short_name": "Animal Kingdom",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "32dea3e6b577074c1f516a4dfa8ed0e9",
     "availability_from": "index",
@@ -34817,7 +34817,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "6ab7d703263d724e0c1cb17b4a7ef560",
     "availability_from": "index",
@@ -34900,7 +34900,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "e9f62befc779c2b73aad9562a17aa0b2",
     "availability_from": "index",
@@ -34980,7 +34980,7 @@
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "c049f5cd59e4a900d1e8ca10c69dd87b",
     "availability_from": "index",
@@ -35060,7 +35060,7 @@
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "61be9963c708eb36f6f126a6cc75ed76",
     "availability_from": "index",
@@ -35139,7 +35139,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "BoardWalk",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "72b3c7a6441e50c3652f260a338e102c",
     "availability_from": "index",
@@ -35302,7 +35302,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 14:00:10",
     "sync_hash": "44876deb4cd7a66694a21ce8db6c51f0",
     "availability_from": "index",
@@ -35940,7 +35940,7 @@
     "star_rating": 3,
     "rvc_ppp": 103.0,
     "resort_short_name": "Saratoga Springs",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "cf89abc4f87c41beaae50d291dc90ac3",
     "availability_from": "index",
@@ -36023,7 +36023,7 @@
     "star_rating": 3,
     "rvc_ppp": 166.0,
     "resort_short_name": "Polynesian",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 02:00:09",
     "sync_hash": "982b122e82b340463be3e51cabb86afc",
     "availability_from": "index",
@@ -36186,7 +36186,7 @@
     "star_rating": 3,
     "rvc_ppp": 64.0,
     "resort_short_name": "Hilton Head",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 19:00:10",
     "sync_hash": "4408bcb2015d1e6045d031d9660f33f2",
     "availability_from": "index",
@@ -36269,7 +36269,7 @@
     "star_rating": 3,
     "rvc_ppp": 118.0,
     "resort_short_name": "BoardWalk",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 19:00:10",
     "sync_hash": "0c9c6f038a59a73112598b7fddda2e63",
     "availability_from": "index",
@@ -36348,7 +36348,7 @@
     "star_rating": 3,
     "rvc_ppp": 64.0,
     "resort_short_name": "Hilton Head",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-03 21:00:08",
     "sync_hash": "9dde0e39b51cbd9981c431119a6ff8b0",
     "availability_from": "index",
@@ -36427,7 +36427,7 @@
     "star_rating": 3,
     "rvc_ppp": 49.0,
     "resort_short_name": "Vero Beach",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 07:00:14",
     "sync_hash": "1ed51d1d6b9a006b4254e41e34d348a8",
     "availability_from": "index",
@@ -36511,7 +36511,7 @@
     "rvc_ppp": 86.0,
     "resort_short_name": "OKW(42)",
     "okw_2057": false,
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 07:00:14",
     "sync_hash": "cd6fc61ce5791fcc46a4ef3639a6b5af",
     "availability_from": "index",
@@ -36594,7 +36594,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 07:00:14",
     "sync_hash": "1c08949a699d926c61e8c4cf4df975a8",
     "availability_from": "index",
@@ -36673,7 +36673,7 @@
     "star_rating": 3,
     "rvc_ppp": 135.0,
     "resort_short_name": "Bay Lake Tower",
-    "synced_at": "2026-11-04 08:00:09",
+    "synced_at": "2026-11-04 10:00:10",
     "updated_at": "2026-11-04 07:00:14",
     "sync_hash": "881f35b45eb292740d9bccba25b0b33d",
     "availability_from": "index",
@@ -36842,7 +36842,7 @@
    "expiration": 2057,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "savings_vs_direct": 16320.0,
     "duplicates": [
      "dvcresaleexperts:AKV00380"
@@ -36865,7 +36865,7 @@
      "status_raw": "New"
     }
    ],
-   "detail_at": "2026-11-01T09:42:02+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcresaleexperts",
@@ -40559,7 +40559,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 27160.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 3600.8,
@@ -40695,7 +40695,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 24000.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 3215.0,
@@ -40936,7 +40936,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 48470.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 4147.7,
@@ -40996,7 +40996,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 29440.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 2578.3,
@@ -41056,7 +41056,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 12500.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 1121.0,
@@ -41116,7 +41116,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 26450.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 2578.3,
@@ -41176,7 +41176,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 35100.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 3026.7,
@@ -41539,7 +41539,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 28290.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 2578.3,
@@ -41599,7 +41599,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "savings_vs_direct": 2500.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 280.25,
@@ -41620,7 +41620,7 @@
      "status_raw": "Small Contract"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcresaleexperts",
@@ -41724,7 +41724,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "savings_vs_direct": 20140.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 2129.9,
@@ -41745,7 +41745,7 @@
      "status_raw": "New"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcresaleexperts",
@@ -41784,7 +41784,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "savings_vs_direct": 11110.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 1233.1,
@@ -41805,7 +41805,7 @@
      "status_raw": "Small Contract"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcresaleexperts",
@@ -43507,7 +43507,7 @@
    "expiration": 2054,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "savings_vs_direct": 15750.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 1378.5,
@@ -43528,7 +43528,7 @@
      "status_raw": "International Seller"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcresaleexperts",
@@ -43752,7 +43752,7 @@
    "expiration": 2054,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "savings_vs_direct": 19400.0,
     "also_on": "dvcmarket",
     "duplicates": [
@@ -43776,7 +43776,7 @@
      "status_raw": "International Seller"
     }
    ],
-   "detail_at": "2026-11-01T09:42:02+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcresaleexperts",
@@ -44060,7 +44060,7 @@
    "expiration": 2054,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "savings_vs_direct": 16650.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 1378.5,
@@ -44081,7 +44081,7 @@
      "status_raw": "New"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcresaleexperts",
@@ -44181,7 +44181,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 27000.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 4467.0,
@@ -44241,7 +44241,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 2025.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 372.25,
@@ -44494,7 +44494,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 23100.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 3275.8,
@@ -44554,7 +44554,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 13950.0,
     "annual_dues_total": 2233.5,
     "closing_cost": 623.0,
@@ -44613,7 +44613,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "savings_vs_direct": 4700.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 744.5,
@@ -58338,7 +58338,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "closing_cost": 1009.0
    },
@@ -58355,7 +58355,7 @@
      "status_raw": "Certified Hot Price"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -65994,7 +65994,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "duplicates": [
      "dvcresalemarket:HHC1815"
     ],
@@ -67286,7 +67286,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "closing_cost": 919.0
    },
@@ -67303,7 +67303,7 @@
      "status_raw": "Certified Hot Price"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -67342,7 +67342,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 809.0
    },
@@ -67398,7 +67398,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "closing_cost": 699.0
    },
@@ -67415,7 +67415,7 @@
      "status_raw": "Small Contract"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -67454,7 +67454,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "closing_cost": 769.0
    },
@@ -67471,7 +67471,7 @@
      "status_raw": "New"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -67510,7 +67510,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "duplicates": [
      "dvcresalemarket:OKA5071"
     ],
@@ -67529,7 +67529,7 @@
      "status_raw": "New"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -67568,7 +67568,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "can_close_after": "3/12/2027",
     "closing_cost": 849.0
@@ -67625,7 +67625,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "can_close_after": "3/27/2027",
     "closing_cost": 1169.0
@@ -67738,7 +67738,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "closing_cost": 889.0
    },
@@ -67755,7 +67755,7 @@
      "status_raw": "Reduced"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -67909,7 +67909,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "closing_cost": 889.0
    },
@@ -67926,7 +67926,7 @@
      "status_raw": "New"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -68369,7 +68369,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "duplicates": [
      "dvcresalemarket:OK25049"
     ],
@@ -68388,7 +68388,7 @@
      "status_raw": "Reduced"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -69359,7 +69359,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "can_close_after": "1/28/2027",
     "closing_cost": 1199.0
@@ -69377,7 +69377,7 @@
      "status_raw": "New"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -69416,7 +69416,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "closing_cost": 849.0
    },
@@ -69433,7 +69433,7 @@
      "status_raw": "New"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -70145,7 +70145,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "can_close_after": "11/1/2026",
     "closing_cost": 889.0
@@ -70388,7 +70388,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "duplicates": [
      "dvcresalemarket:OKC5080"
@@ -70502,7 +70502,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "closing_cost": 639.0
    },
    "uid": "dvcresalemarket:OKC5081",
@@ -70518,7 +70518,7 @@
      "status_raw": "Small Contract"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -71063,7 +71063,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "closing_cost": 899.0
    },
@@ -71080,7 +71080,7 @@
      "status_raw": "New"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -75711,7 +75711,7 @@
    "expiration": 2054,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "closing_cost": 1119.0
    },
@@ -75728,7 +75728,7 @@
      "status_raw": "New"
     }
    ],
-   "detail_at": "2026-11-01T09:42:02+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -76175,7 +76175,7 @@
    "expiration": 2054,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "closing_cost": 869.0
    },
@@ -76192,7 +76192,7 @@
      "status_raw": "New"
     }
    ],
-   "detail_at": "2026-11-01T09:42:02+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -76940,7 +76940,7 @@
    "expiration": 2054,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "closing_cost": 879.0
    },
    "uid": "dvcresalemarket:SS38645",
@@ -76956,7 +76956,7 @@
      "status_raw": "New"
     }
    ],
-   "detail_at": "2026-11-01T09:42:02+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -78829,7 +78829,7 @@
    "expiration": 2054,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "can_close_after": "10/28/2026",
     "closing_cost": 849.0
@@ -78847,7 +78847,7 @@
      "status_raw": "New"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -79063,7 +79063,7 @@
    "expiration": 2054,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "closing_cost": 1079.0
    },
@@ -79080,7 +79080,7 @@
      "status_raw": "New"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -80051,7 +80051,7 @@
    "expiration": 2054,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "can_close_after": "11/20/2026",
     "closing_cost": 889.0
@@ -80069,7 +80069,7 @@
      "status_raw": "New"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -80108,7 +80108,7 @@
    "expiration": 2054,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "can_close_after": "12/7/2026",
     "closing_cost": 879.0
@@ -80126,7 +80126,7 @@
      "status_raw": "New"
     }
    ],
-   "detail_at": "2026-11-01T09:42:02+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -81248,7 +81248,7 @@
    "expiration": 2054,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "closing_cost": 869.0
    },
@@ -81265,7 +81265,7 @@
      "status_raw": "Certified Hot Price"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -82801,7 +82801,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "can_close_after": "10/30/2026",
     "closing_cost": 769.0
@@ -82974,7 +82974,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "can_close_after": "11/28/2026",
     "closing_cost": 659.0
@@ -83031,7 +83031,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 789.0
    },
@@ -83087,7 +83087,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 839.0
    },
@@ -83199,7 +83199,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 829.0
    },
@@ -83843,7 +83843,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 939.0
    },
@@ -84405,9 +84405,9 @@
    "expiration": 2057,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
-    "days_on_market": 33,
-    "date_listed_from": "index_days",
+    "availability_from": "detail",
+    "days_on_market": 34,
+    "date_listed_from": "detail",
     "internal_id": "501",
     "value_score": 40,
     "also_on": "dvcmarket",
@@ -84440,10 +84440,10 @@
     "dues_year": 2027,
     "closing_cost": 1000.0,
     "caf": 500.0,
-    "total_due_at_closing": 41991.0,
-    "est_closing_date": "2026-12-19",
+    "total_due_at_closing": 42834.32,
+    "est_closing_date": "2026-12-22",
     "us_seller": true,
-    "status_line": "Live | listed 31 days ago, still available"
+    "status_line": "Live | listed 34 days ago, still available"
    },
    "uid": "dvcsales:AK811",
    "active": true,
@@ -84458,7 +84458,7 @@
      "status_raw": "Live"
     }
    ],
-   "detail_at": "2026-11-01T09:42:02+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcsales",
@@ -84888,9 +84888,9 @@
    "expiration": 2057,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "days_on_market": 21,
-    "date_listed_from": "index_days",
+    "date_listed_from": "detail",
     "internal_id": "1834",
     "value_score": 50,
     "also_on": "dvcmarket",
@@ -84924,10 +84924,10 @@
     "dues_reimbursement": 386.08,
     "closing_cost": 719.0,
     "caf": 500.0,
-    "total_due_at_closing": 17805.0,
+    "total_due_at_closing": 17805.08,
     "est_closing_date": "2027-04-01",
     "us_seller": true,
-    "status_line": "Live | listed 19 days ago, still available"
+    "status_line": "Live | listed 22 days ago, still available"
    },
    "uid": "dvcsales:AK819",
    "active": true,
@@ -84942,7 +84942,7 @@
      "status_raw": "Live"
     }
    ],
-   "detail_at": "2026-11-01T09:42:02+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcsales",
@@ -86062,7 +86062,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 39,
+    "days_on_market": 40,
     "date_listed_from": "index_days",
     "internal_id": "945",
     "value_score": 43,
@@ -86292,7 +86292,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 29,
+    "days_on_market": 30,
     "date_listed_from": "index_days",
     "internal_id": "931",
     "value_score": 41,
@@ -86502,7 +86502,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 22,
+    "days_on_market": 23,
     "date_listed_from": "index_days",
     "internal_id": "339",
     "value_score": 29,
@@ -86611,7 +86611,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 12,
+    "days_on_market": 13,
     "date_listed_from": "index_days",
     "internal_id": "1626",
     "value_score": 43,
@@ -86707,7 +86707,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 7,
+    "days_on_market": 8,
     "date_listed_from": "index_days",
     "internal_id": "1651",
     "value_score": 31,
@@ -86799,7 +86799,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 2,
+    "days_on_market": 3,
     "date_listed_from": "index_days",
     "internal_id": "1664",
     "value_score": 43,
@@ -86985,7 +86985,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 25,
+    "days_on_market": 26,
     "date_listed_from": "index_days",
     "internal_id": "1556",
     "value_score": 47,
@@ -87469,7 +87469,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 46,
+    "days_on_market": 47,
     "date_listed_from": "index_days",
     "internal_id": "1117",
     "value_score": 18,
@@ -87562,7 +87562,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 42,
+    "days_on_market": 43,
     "date_listed_from": "index_days",
     "internal_id": "1118",
     "value_score": 1,
@@ -87748,7 +87748,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 39,
+    "days_on_market": 40,
     "date_listed_from": "index_days",
     "internal_id": "1487",
     "value_score": 31,
@@ -88032,7 +88032,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 17,
+    "days_on_market": 18,
     "date_listed_from": "index_days",
     "internal_id": "1605",
     "value_score": 39,
@@ -88128,7 +88128,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 2,
+    "days_on_market": 3,
     "date_listed_from": "index_days",
     "internal_id": "1443",
     "value_score": 42,
@@ -88755,7 +88755,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 20,
+    "days_on_market": 21,
     "date_listed_from": "index_days",
     "internal_id": "1595",
     "value_score": 43,
@@ -89142,7 +89142,7 @@
    "use_year": 8,
    "status_raw": "Live",
    "availability": "available",
-   "date_listed": "2026-10-07",
+   "date_listed": "2026-10-06",
    "points_available": [
     {
      "uy": "2026-08",
@@ -89168,7 +89168,7 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 28,
+    "days_on_market": 29,
     "date_listed_from": "index_days",
     "internal_id": "949",
     "value_score": 20,
@@ -89200,7 +89200,7 @@
    "use_year": 8,
    "status_raw": "Live",
    "availability": "available",
-   "date_listed": "2026-10-08",
+   "date_listed": "2026-10-07",
    "points_available": [
     {
      "uy": "2026-08",
@@ -89226,7 +89226,7 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 27,
+    "days_on_market": 28,
     "date_listed_from": "index_days",
     "internal_id": "948",
     "value_score": 20,
@@ -89258,7 +89258,7 @@
    "use_year": 12,
    "status_raw": "Live",
    "availability": "available",
-   "date_listed": "2026-10-31",
+   "date_listed": "2026-10-30",
    "points_available": [
     {
      "uy": "2026-12",
@@ -89284,7 +89284,7 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 4,
+    "days_on_market": 5,
     "date_listed_from": "index_days",
     "internal_id": "1675",
     "value_score": 24,
@@ -89789,7 +89789,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 3,
+    "days_on_market": 4,
     "date_listed_from": "index_days",
     "internal_id": "1682",
     "value_score": 1,
@@ -90848,7 +90848,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 1,
+    "days_on_market": 2,
     "date_listed_from": "index_days",
     "internal_id": "1247",
     "value_score": 5,
@@ -91035,7 +91035,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 4,
+    "days_on_market": 5,
     "date_listed_from": "index_days",
     "internal_id": "1233",
     "value_score": 1,
@@ -91411,7 +91411,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 1,
+    "days_on_market": 2,
     "date_listed_from": "index_days",
     "internal_id": "126",
     "value_score": 42,
@@ -92030,7 +92030,7 @@
    "use_year": 3,
    "status_raw": "Live",
    "availability": "available",
-   "date_listed": "2026-10-18",
+   "date_listed": "2026-10-17",
    "points_available": [
     {
      "uy": "2026-03",
@@ -92056,7 +92056,7 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 17,
+    "days_on_market": 18,
     "date_listed_from": "index_days",
     "internal_id": "1352",
     "value_score": 1,
@@ -92789,7 +92789,7 @@
     "status_line": "Live | listed 46 days ago, still available"
    },
    "uid": "dvcsales:SS1275",
-   "active": true,
+   "active": false,
    "stale": false,
    "first_seen": "2026-10-14T02:23:20+00:00",
    "history": [
@@ -92805,7 +92805,8 @@
      "status_raw": "Live"
     }
    ],
-   "detail_at": "2026-11-01T09:42:02+00:00"
+   "detail_at": "2026-11-01T09:42:02+00:00",
+   "gone_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcsales",
@@ -93060,7 +93061,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 41,
+    "days_on_market": 42,
     "date_listed_from": "index_days",
     "internal_id": "1145",
     "value_score": 40,
@@ -93152,9 +93153,9 @@
    "expiration": 2054,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "days_on_market": 39,
-    "date_listed_from": "index_days",
+    "date_listed_from": "detail",
     "internal_id": "1747",
     "value_score": 44,
     "also_on": "dvcmarket",
@@ -93188,10 +93189,10 @@
     "dues_reimbursement": 2021.8,
     "closing_cost": 796.0,
     "caf": 500.0,
-    "total_due_at_closing": 28220.0,
-    "est_closing_date": "2026-12-19",
+    "total_due_at_closing": 28219.6,
+    "est_closing_date": "2026-12-22",
     "us_seller": true,
-    "status_line": "Live | listed 37 days ago, still available"
+    "status_line": "Live | listed 40 days ago, still available"
    },
    "uid": "dvcsales:SS1286",
    "active": true,
@@ -93206,7 +93207,7 @@
      "status_raw": "Live"
     }
    ],
-   "detail_at": "2026-11-01T09:42:02+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcsales",
@@ -93456,9 +93457,9 @@
    "expiration": 2054,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
-    "days_on_market": 23,
-    "date_listed_from": "index_days",
+    "availability_from": "detail",
+    "days_on_market": 24,
+    "date_listed_from": "detail",
     "internal_id": "1004",
     "value_score": 48,
     "also_on": "dvcmarket",
@@ -93492,10 +93493,10 @@
     "dues_reimbursement": 45.95,
     "closing_cost": 655.0,
     "caf": 500.0,
-    "total_due_at_closing": 13606.0,
-    "est_closing_date": "2026-12-19",
+    "total_due_at_closing": 13605.9,
+    "est_closing_date": "2026-12-22",
     "us_seller": true,
-    "status_line": "Live | listed 21 days ago, still available"
+    "status_line": "Live | listed 24 days ago, still available"
    },
    "uid": "dvcsales:SS1299",
    "active": true,
@@ -93510,7 +93511,7 @@
      "status_raw": "Live"
     }
    ],
-   "detail_at": "2026-11-01T09:42:02+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcsales",
@@ -93656,7 +93657,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 20,
+    "days_on_market": 21,
     "date_listed_from": "index_days",
     "internal_id": "496",
     "value_score": 20,
@@ -94186,6 +94187,99 @@
   },
   {
    "source": "dvcsales",
+   "listing_id": "SS1309",
+   "url": "https://dvcsales.com/dvc-resale/saratoga-springs/170-points/1082",
+   "resort_raw": "Saratoga Springs",
+   "resort": "ssr",
+   "points": 170,
+   "price": 17340.0,
+   "price_per_point": 102.0,
+   "use_year": 9,
+   "status_raw": "Live",
+   "availability": "available",
+   "date_listed": "2026-11-04",
+   "points_available": [
+    {
+     "uy": "2026-09",
+     "points": 170,
+     "banked": 0
+    },
+    {
+     "uy": "2027-09",
+     "points": 170,
+     "banked": 0
+    },
+    {
+     "uy": "2028-09",
+     "points": 170,
+     "banked": 0
+    }
+   ],
+   "availability_text": "There are 170 points available for the 2026 Use Year . The 170 points for this year were deposited on September 1, 2026 . Going forward, your yearly points arrive on September 1st each year.",
+   "dues_terms": "Buyer reimburses seller 2026 dues: 170 pts \u00d7 $9.19/pt = $1,562.30",
+   "dues_per_point": 9.19,
+   "subsidized_dues": null,
+   "expiration": 2054,
+   "detail_fetched": true,
+   "extra": {
+    "availability_from": "detail",
+    "days_on_market": 0,
+    "date_listed_from": "detail",
+    "internal_id": "1082",
+    "value_score": 51,
+    "also_on": "dvcmarket",
+    "availability_table": [
+     {
+      "year": 2026,
+      "banked": 0,
+      "borrowed": 0,
+      "holding": 0,
+      "available": 170,
+      "bankable": 170
+     },
+     {
+      "year": 2027,
+      "banked": 0,
+      "borrowed": 0,
+      "holding": 0,
+      "available": 170,
+      "bankable": 170
+     },
+     {
+      "year": 2028,
+      "banked": 0,
+      "borrowed": 0,
+      "holding": 0,
+      "available": 170,
+      "bankable": 170
+     }
+    ],
+    "dues_year": 2027,
+    "dues_reimbursement": 1562.3,
+    "closing_cost": 732.0,
+    "caf": 500.0,
+    "total_due_at_closing": 21696.6,
+    "est_closing_date": "2026-12-22",
+    "us_seller": true,
+    "status_line": "Live | listed 0 days ago, still available"
+   },
+   "uid": "dvcsales:SS1309",
+   "active": true,
+   "stale": false,
+   "first_seen": "2026-11-04T10:37:06+00:00",
+   "history": [
+    {
+     "t": "2026-11-04T10:37:06+00:00",
+     "price": 17340.0,
+     "price_per_point": 102.0,
+     "availability": "available",
+     "status_raw": "Live"
+    }
+   ],
+   "detail_at": "2026-11-04T10:37:06+00:00"
+  },
+  {
+   "source": "dvcsales",
    "listing_id": "VB338",
    "url": "https://dvcsales.com/dvc-resale/vero-beach/150-points/1665",
    "resort_raw": "Vero Beach",
@@ -94330,9 +94424,9 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
-    "days_on_market": 48,
-    "date_listed_from": "detail",
+    "availability_from": "index",
+    "days_on_market": 49,
+    "date_listed_from": "index_days",
     "internal_id": "1035",
     "value_score": 37,
     "also_on": "dvcmarket",
@@ -94549,7 +94643,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 28,
+    "days_on_market": 29,
     "date_listed_from": "index_days",
     "internal_id": "710",
     "value_score": 59,
@@ -94658,7 +94752,7 @@
    "detail_fetched": true,
    "extra": {
     "availability_from": "index",
-    "days_on_market": 2,
+    "days_on_market": 3,
     "date_listed_from": "index_days",
     "internal_id": "1665",
     "value_score": 37,
@@ -96926,7 +97020,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 38414,
-    "modified": "2026-11-04 03:35:05",
+    "modified": "2026-11-04 05:05:05",
     "resort_abbr": "AUL",
     "low_but_firm": true
    },
@@ -96956,7 +97050,7 @@
    "use_year": 3,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-03",
@@ -96987,8 +97081,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38415,
-    "modified": "2026-11-03 21:40:07",
+    "post_id": 38611,
+    "modified": "2026-11-04 03:55:03",
     "resort_abbr": "AUL",
     "can_close_after": "10/18/26",
     "low_but_firm": true
@@ -97019,7 +97113,7 @@
    "use_year": 2,
    "status_raw": "Low But Firm",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-02",
@@ -97045,8 +97139,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38416,
-    "modified": "2026-11-04 03:35:05",
+    "post_id": 38612,
+    "modified": "2026-11-04 05:05:05",
     "resort_abbr": "AUL",
     "low_but_firm": true,
     "also_on": "dvcmarket"
@@ -97339,7 +97433,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 38359,
-    "modified": "2026-11-04 03:35:05",
+    "modified": "2026-11-04 05:05:04",
     "resort_abbr": "AUL",
     "low_but_firm": true
    },
@@ -97494,7 +97588,7 @@
    "use_year": 10,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-10",
@@ -97520,8 +97614,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38417,
-    "modified": "2026-11-03 21:40:07",
+    "post_id": 38613,
+    "modified": "2026-11-04 03:55:03",
     "resort_abbr": "AUL"
    },
    "uid": "dvcshop:AUL528CL",
@@ -97550,7 +97644,7 @@
    "use_year": 2,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-02",
@@ -97576,8 +97670,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38418,
-    "modified": "2026-11-03 21:40:07",
+    "post_id": 38614,
+    "modified": "2026-11-04 03:55:03",
     "resort_abbr": "AUL"
    },
    "uid": "dvcshop:AUL542R",
@@ -97606,7 +97700,7 @@
    "use_year": 9,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-09",
@@ -97632,8 +97726,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38419,
-    "modified": "2026-11-03 21:40:07",
+    "post_id": 38615,
+    "modified": "2026-11-04 03:55:03",
     "resort_abbr": "AUL"
    },
    "uid": "dvcshop:AUL583PN",
@@ -97719,7 +97813,7 @@
    "use_year": 2,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-02",
@@ -97745,8 +97839,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38420,
-    "modified": "2026-11-03 21:40:07",
+    "post_id": 38616,
+    "modified": "2026-11-04 03:55:03",
     "resort_abbr": "AUL"
    },
    "uid": "dvcshop:AUL691SN",
@@ -97775,7 +97869,7 @@
    "use_year": 4,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-04",
@@ -97801,8 +97895,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38421,
-    "modified": "2026-11-03 21:40:07",
+    "post_id": 38617,
+    "modified": "2026-11-04 03:55:03",
     "resort_abbr": "AUL",
     "low_but_firm": true
    },
@@ -97832,7 +97926,7 @@
    "use_year": 3,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-03",
@@ -97858,8 +97952,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38422,
-    "modified": "2026-11-03 21:40:07",
+    "post_id": 38618,
+    "modified": "2026-11-04 03:55:03",
     "resort_abbr": "AUL"
    },
    "uid": "dvcshop:AUL722DL",
@@ -97888,7 +97982,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -97914,8 +98008,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38423,
-    "modified": "2026-11-03 21:40:07",
+    "post_id": 38619,
+    "modified": "2026-11-04 03:55:03",
     "resort_abbr": "AUL"
    },
    "uid": "dvcshop:AUL751DL",
@@ -97944,7 +98038,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -97975,8 +98069,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38424,
-    "modified": "2026-11-03 21:40:07",
+    "post_id": 38620,
+    "modified": "2026-11-04 03:55:03",
     "resort_abbr": "AUL",
     "can_close_after": "1/14/26"
    },
@@ -98068,7 +98162,7 @@
    "use_year": 2,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-02",
@@ -98094,8 +98188,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38425,
-    "modified": "2026-11-03 21:40:07",
+    "post_id": 38621,
+    "modified": "2026-11-04 03:55:03",
     "resort_abbr": "AUL"
    },
    "uid": "dvcshop:AUL763JS",
@@ -98124,7 +98218,7 @@
    "use_year": 8,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-08",
@@ -98155,8 +98249,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38426,
-    "modified": "2026-11-03 21:40:07",
+    "post_id": 38622,
+    "modified": "2026-11-04 03:55:03",
     "resort_abbr": "AUL",
     "can_close_after": "11/1/26"
    },
@@ -98186,7 +98280,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -98217,8 +98311,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38427,
-    "modified": "2026-11-03 21:40:07",
+    "post_id": 38568,
+    "modified": "2026-11-04 03:51:05",
     "resort_abbr": "AUL"
    },
    "uid": "dvcshop:AUL800BL",
@@ -98309,7 +98403,7 @@
    "use_year": 8,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-08",
@@ -98335,8 +98429,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38428,
-    "modified": "2026-11-03 21:40:07",
+    "post_id": 38569,
+    "modified": "2026-11-04 03:51:05",
     "resort_abbr": "AUL"
    },
    "uid": "dvcshop:AUL804BL",
@@ -98365,7 +98459,7 @@
    "use_year": 4,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-04",
@@ -98396,8 +98490,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38429,
-    "modified": "2026-11-03 21:40:07",
+    "post_id": 38570,
+    "modified": "2026-11-04 03:51:05",
     "resort_abbr": "AUL"
    },
    "uid": "dvcshop:AUL807BM",
@@ -98483,7 +98577,7 @@
    "use_year": 3,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-03",
@@ -98514,8 +98608,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38430,
-    "modified": "2026-11-03 21:40:08",
+    "post_id": 38571,
+    "modified": "2026-11-04 03:51:05",
     "resort_abbr": "AUL"
    },
    "uid": "dvcshop:AUL810BM",
@@ -98669,7 +98763,7 @@
    "use_year": 2,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-02",
@@ -98700,8 +98794,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38431,
-    "modified": "2026-11-03 21:40:08",
+    "post_id": 38572,
+    "modified": "2026-11-04 03:51:05",
     "resort_abbr": "AUL",
     "can_close_after": "9/28/26"
    },
@@ -98793,7 +98887,7 @@
    "use_year": 8,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-08",
@@ -98819,8 +98913,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38432,
-    "modified": "2026-11-03 21:40:08",
+    "post_id": 38573,
+    "modified": "2026-11-04 03:51:05",
     "resort_abbr": "AUL"
    },
    "uid": "dvcshop:AUL820BL",
@@ -98849,7 +98943,7 @@
    "use_year": 3,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-03",
@@ -98880,8 +98974,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38433,
-    "modified": "2026-11-03 21:40:08",
+    "post_id": 38574,
+    "modified": "2026-11-04 03:51:05",
     "resort_abbr": "AUL"
    },
    "uid": "dvcshop:AUL828PN",
@@ -98942,7 +99036,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 38371,
-    "modified": "2026-11-04 03:35:05",
+    "modified": "2026-11-04 05:05:04",
     "resort_abbr": "AUL",
     "can_close_after": "11/8/26",
     "also_on": "dvcmarket"
@@ -99035,7 +99129,7 @@
    "use_year": 9,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-09",
@@ -99061,8 +99155,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38434,
-    "modified": "2026-11-03 21:40:08",
+    "post_id": 38575,
+    "modified": "2026-11-04 03:51:05",
     "resort_abbr": "AUL"
    },
    "uid": "dvcshop:AUL849SM",
@@ -99216,7 +99310,7 @@
    "use_year": 9,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-09",
@@ -99247,8 +99341,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38435,
-    "modified": "2026-11-03 21:40:08",
+    "post_id": 38623,
+    "modified": "2026-11-04 03:55:03",
     "resort_abbr": "AUL",
     "can_close_after": "1/24/27"
    },
@@ -99539,7 +99633,7 @@
    "use_year": 6,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-06",
@@ -99565,8 +99659,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38436,
-    "modified": "2026-11-03 21:40:08",
+    "post_id": 38624,
+    "modified": "2026-11-04 03:55:03",
     "resort_abbr": "AUL"
    },
    "uid": "dvcshop:AUL869BL",
@@ -99658,7 +99752,7 @@
    "use_year": 3,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-03",
@@ -99689,8 +99783,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38437,
-    "modified": "2026-11-03 21:40:08",
+    "post_id": 38625,
+    "modified": "2026-11-04 03:55:03",
     "resort_abbr": "AUL",
     "can_close_after": "2/7/27"
    },
@@ -99720,7 +99814,7 @@
    "use_year": 3,
    "status_raw": "Subsidized Dues",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-03",
@@ -99751,8 +99845,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38440,
-    "modified": "2026-11-03 21:40:08",
+    "post_id": 38628,
+    "modified": "2026-11-04 03:55:03",
     "resort_abbr": "AUL"
    },
    "uid": "dvcshop:AUL873BL",
@@ -99781,7 +99875,7 @@
    "use_year": 3,
    "status_raw": "Subsidized Dues",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-03",
@@ -99812,8 +99906,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38441,
-    "modified": "2026-11-03 21:40:08",
+    "post_id": 38629,
+    "modified": "2026-11-04 03:55:03",
     "resort_abbr": "AUL",
     "can_close_after": "2/2/27"
    },
@@ -100630,7 +100724,7 @@
    "use_year": 3,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-03",
@@ -100661,8 +100755,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38438,
-    "modified": "2026-11-03 21:40:08",
+    "post_id": 38626,
+    "modified": "2026-11-04 03:55:03",
     "resort_abbr": "AUL"
    },
    "uid": "dvcshop:AUL888PN",
@@ -100816,7 +100910,7 @@
    "use_year": 2,
    "status_raw": "Subsidized Dues",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-02",
@@ -100847,8 +100941,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38442,
-    "modified": "2026-11-03 21:40:08",
+    "post_id": 38630,
+    "modified": "2026-11-04 03:55:03",
     "resort_abbr": "AUL",
     "also_on": "dvcmarket"
    },
@@ -100878,7 +100972,7 @@
    "use_year": 3,
    "status_raw": "Subsidized Dues",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-03",
@@ -100909,8 +101003,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38443,
-    "modified": "2026-11-03 21:40:08",
+    "post_id": 38631,
+    "modified": "2026-11-04 03:55:03",
     "resort_abbr": "AUL",
     "can_close_after": "12/12/26",
     "also_on": "dvcmarket"
@@ -101971,7 +102065,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -102007,8 +102101,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38439,
-    "modified": "2026-11-03 21:40:08",
+    "post_id": 38627,
+    "modified": "2026-11-04 03:55:03",
     "resort_abbr": "AUL",
     "can_close_after": "4/22/27"
    },
@@ -102038,7 +102132,7 @@
    "use_year": 3,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-03",
@@ -102064,8 +102158,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38556,
-    "modified": "2026-11-03 21:40:12",
+    "post_id": 38632,
+    "modified": "2026-11-04 03:55:03",
     "resort_abbr": "AUL",
     "also_on": "dvcmarket"
    },
@@ -102095,7 +102189,7 @@
    "use_year": 12,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -102126,8 +102220,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38557,
-    "modified": "2026-11-03 21:40:12",
+    "post_id": 38633,
+    "modified": "2026-11-04 03:55:03",
     "resort_abbr": "AUL",
     "also_on": "dvcmarket"
    },
@@ -102157,7 +102251,7 @@
    "use_year": 6,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-06",
@@ -102188,8 +102282,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38452,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38583,
+    "modified": "2026-11-04 03:51:06",
     "resort_abbr": "BC",
     "can_close_after": "3/13/27",
     "also_on": "dvcmarket"
@@ -102220,7 +102314,7 @@
    "use_year": 4,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-04",
@@ -102251,8 +102345,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38444,
-    "modified": "2026-11-03 21:40:08",
+    "post_id": 38634,
+    "modified": "2026-11-04 03:55:03",
     "resort_abbr": "BLT"
    },
    "uid": "dvcshop:BLT257LBF1",
@@ -102281,7 +102375,7 @@
    "use_year": 8,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-08",
@@ -102307,8 +102401,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38445,
-    "modified": "2026-11-03 21:40:08",
+    "post_id": 38576,
+    "modified": "2026-11-04 03:51:06",
     "resort_abbr": "BLT"
    },
    "uid": "dvcshop:BLT260",
@@ -102337,7 +102431,7 @@
    "use_year": 2,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-02",
@@ -102363,8 +102457,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38446,
-    "modified": "2026-11-03 21:40:08",
+    "post_id": 38577,
+    "modified": "2026-11-04 03:51:06",
     "resort_abbr": "BLT"
    },
    "uid": "dvcshop:BLT505CL",
@@ -102393,7 +102487,7 @@
    "use_year": 2,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-02",
@@ -102424,8 +102518,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38447,
-    "modified": "2026-11-03 21:40:08",
+    "post_id": 38578,
+    "modified": "2026-11-04 03:51:06",
     "resort_abbr": "BLT",
     "can_close_after": "2/23/27"
    },
@@ -102455,7 +102549,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -102486,8 +102580,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38448,
-    "modified": "2026-11-03 21:40:08",
+    "post_id": 38579,
+    "modified": "2026-11-04 03:51:06",
     "resort_abbr": "BLT",
     "can_close_after": "11/22/26"
    },
@@ -102517,7 +102611,7 @@
    "use_year": 2,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-02",
@@ -102548,8 +102642,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38449,
-    "modified": "2026-11-03 21:40:08",
+    "post_id": 38580,
+    "modified": "2026-11-04 03:51:06",
     "resort_abbr": "BLT",
     "can_close_after": "1/15/27"
    },
@@ -102579,7 +102673,7 @@
    "use_year": 9,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-09",
@@ -102610,8 +102704,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38450,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38581,
+    "modified": "2026-11-04 03:51:06",
     "resort_abbr": "BLT",
     "can_close_after": "1/19/27"
    },
@@ -102641,7 +102735,7 @@
    "use_year": 6,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-06",
@@ -102677,8 +102771,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38451,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38582,
+    "modified": "2026-11-04 03:51:06",
     "resort_abbr": "BLT",
     "can_close_after": "6/18/27"
    },
@@ -102708,7 +102802,7 @@
    "use_year": 2,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-02",
@@ -102739,8 +102833,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38459,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38639,
+    "modified": "2026-11-04 03:55:04",
     "resort_abbr": "BR",
     "can_close_after": "10/26/26",
     "low_but_firm": true,
@@ -102772,7 +102866,7 @@
    "use_year": 4,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-04",
@@ -102808,8 +102902,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38460,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38640,
+    "modified": "2026-11-04 03:55:04",
     "resort_abbr": "BR",
     "can_close_after": "10/24/26",
     "low_but_firm": true,
@@ -102841,7 +102935,7 @@
    "use_year": 9,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-09",
@@ -102872,8 +102966,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38453,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38584,
+    "modified": "2026-11-04 03:51:06",
     "resort_abbr": "BW",
     "low_but_firm": true
    },
@@ -102903,7 +102997,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -102934,8 +103028,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38454,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38585,
+    "modified": "2026-11-04 03:51:06",
     "resort_abbr": "BW",
     "low_but_firm": true
    },
@@ -102965,7 +103059,7 @@
    "use_year": 6,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-06",
@@ -102991,8 +103085,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38455,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38635,
+    "modified": "2026-11-04 03:55:04",
     "resort_abbr": "BW"
    },
    "uid": "dvcshop:BW213",
@@ -103021,7 +103115,7 @@
    "use_year": 3,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-03",
@@ -103052,8 +103146,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38456,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38636,
+    "modified": "2026-11-04 03:55:04",
     "resort_abbr": "BW",
     "can_close_after": "1/19/27"
    },
@@ -103209,7 +103303,7 @@
    "use_year": 2,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-02",
@@ -103245,8 +103339,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38457,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38637,
+    "modified": "2026-11-04 03:55:04",
     "resort_abbr": "BW",
     "can_close_after": "6/9/27"
    },
@@ -103276,7 +103370,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -103312,8 +103406,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38458,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38638,
+    "modified": "2026-11-04 03:55:04",
     "resort_abbr": "BW",
     "can_close_after": "12/23/26"
    },
@@ -103662,7 +103756,7 @@
    "use_year": 10,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-10",
@@ -103693,8 +103787,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38555,
-    "modified": "2026-11-03 21:40:12",
+    "post_id": 38642,
+    "modified": "2026-11-04 03:55:04",
     "resort_abbr": "CC",
     "offer_deadline": "BEST AND FINAL OFFER SUBMiTTED BY 5PM ET 10/29"
    },
@@ -103747,7 +103841,7 @@
    "use_year": 9,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-09",
@@ -103778,8 +103872,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38461,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38641,
+    "modified": "2026-11-04 03:55:04",
     "resort_abbr": "CC",
     "can_close_after": "11/19/26"
    },
@@ -103809,7 +103903,7 @@
    "use_year": 8,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-08",
@@ -103840,8 +103934,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38554,
-    "modified": "2026-11-03 21:40:12",
+    "post_id": 38643,
+    "modified": "2026-11-04 03:55:04",
     "resort_abbr": "GC",
     "low_but_firm": true,
     "also_on": "dvcmarket"
@@ -103939,7 +104033,7 @@
    "use_year": 8,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-08",
@@ -103970,8 +104064,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38463,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38586,
+    "modified": "2026-11-04 03:51:07",
     "resort_abbr": "GF",
     "low_but_firm": true
    },
@@ -104001,7 +104095,7 @@
    "use_year": 8,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-08",
@@ -104027,8 +104121,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38462,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38644,
+    "modified": "2026-11-04 03:55:04",
     "resort_abbr": "GF",
     "low_but_firm": true
    },
@@ -104063,7 +104157,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -104099,8 +104193,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38464,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38587,
+    "modified": "2026-11-04 03:51:07",
     "resort_abbr": "GF",
     "can_close_after": "3/22/27"
    },
@@ -104130,7 +104224,7 @@
    "use_year": 9,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-09",
@@ -104161,8 +104255,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38465,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38588,
+    "modified": "2026-11-04 03:51:07",
     "resort_abbr": "GF",
     "can_close_after": "5/13/27"
    },
@@ -104192,7 +104286,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -104228,8 +104322,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38466,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38589,
+    "modified": "2026-11-04 03:51:07",
     "resort_abbr": "GF",
     "can_close_after": "4/5/27"
    },
@@ -104267,7 +104361,7 @@
    "use_year": 3,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-03",
@@ -104298,8 +104392,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38467,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38590,
+    "modified": "2026-11-04 03:51:07",
     "resort_abbr": "HH",
     "low_but_firm": true
    },
@@ -104345,7 +104439,7 @@
    "use_year": 8,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-08",
@@ -104371,8 +104465,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38468,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38591,
+    "modified": "2026-11-04 03:51:07",
     "resort_abbr": "HH",
     "low_but_firm": true
    },
@@ -104418,7 +104512,7 @@
    "use_year": 9,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-09",
@@ -104449,8 +104543,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38469,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38592,
+    "modified": "2026-11-04 03:51:07",
     "resort_abbr": "HH",
     "can_close_after": "4/11/27"
    },
@@ -104496,7 +104590,7 @@
    "use_year": 2,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-02",
@@ -104522,8 +104616,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38558,
-    "modified": "2026-11-03 21:40:12",
+    "post_id": 38645,
+    "modified": "2026-11-04 03:55:04",
     "resort_abbr": "HH",
     "also_on": "dvcmarket"
    },
@@ -104553,7 +104647,7 @@
    "use_year": 3,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-03",
@@ -104579,8 +104673,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38472,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38595,
+    "modified": "2026-11-04 03:51:07",
     "resort_abbr": "OKW"
    },
    "uid": "dvcshop:OKW254",
@@ -104625,7 +104719,7 @@
    "use_year": 10,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-10",
@@ -104656,8 +104750,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38473,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38596,
+    "modified": "2026-11-04 03:51:07",
     "resort_abbr": "OKW"
    },
    "uid": "dvcshop:OKW259",
@@ -104702,7 +104796,7 @@
    "use_year": 12,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -104733,8 +104827,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38470,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38593,
+    "modified": "2026-11-04 03:51:07",
     "resort_abbr": "OKW",
     "also_on": "dvcmarket"
    },
@@ -104780,7 +104874,7 @@
    "use_year": 8,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-08",
@@ -104811,8 +104905,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38471,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38594,
+    "modified": "2026-11-04 03:51:07",
     "resort_abbr": "OKW",
     "can_close_after": "4/3/27",
     "low_but_firm": true
@@ -104864,7 +104958,7 @@
    "use_year": 8,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-08",
@@ -104890,8 +104984,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38474,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38597,
+    "modified": "2026-11-04 03:51:07",
     "resort_abbr": "OKW",
     "can_close_after": "4/3/27",
     "low_but_firm": true
@@ -104938,7 +105032,7 @@
    "use_year": 2,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-02",
@@ -104970,8 +105064,8 @@
    "extra": {
     "price_derived": true,
     "availability_from": "index",
-    "post_id": 38481,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38652,
+    "modified": "2026-11-04 03:55:04",
     "resort_abbr": "OKW",
     "low_but_firm": true
    },
@@ -105030,7 +105124,7 @@
    "use_year": 3,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-03",
@@ -105056,8 +105150,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38475,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38646,
+    "modified": "2026-11-04 03:55:04",
     "resort_abbr": "OKW",
     "can_close_after": "4/19/26"
    },
@@ -105103,7 +105197,7 @@
    "use_year": 10,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-10",
@@ -105134,8 +105228,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38476,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38647,
+    "modified": "2026-11-04 03:55:04",
     "resort_abbr": "OKW",
     "can_close_after": "11/20/26"
    },
@@ -105181,7 +105275,7 @@
    "use_year": 9,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-09",
@@ -105212,8 +105306,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38477,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38648,
+    "modified": "2026-11-04 03:55:04",
     "resort_abbr": "OKW",
     "can_close_after": "12/27/26"
    },
@@ -105259,7 +105353,7 @@
    "use_year": 3,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-03",
@@ -105290,8 +105384,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38478,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38649,
+    "modified": "2026-11-04 03:55:04",
     "resort_abbr": "OKW",
     "can_close_after": "11/26/26"
    },
@@ -105337,7 +105431,7 @@
    "use_year": 3,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-03",
@@ -105368,8 +105462,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38479,
-    "modified": "2026-11-03 22:40:06",
+    "post_id": 38650,
+    "modified": "2026-11-04 03:55:04",
     "resort_abbr": "OKW",
     "can_close_after": "12/12/26"
    },
@@ -105415,7 +105509,7 @@
    "use_year": 2,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-02",
@@ -105446,8 +105540,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38480,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38651,
+    "modified": "2026-11-04 03:55:04",
     "resort_abbr": "OKW",
     "can_close_after": "12/19/26"
    },
@@ -105501,7 +105595,7 @@
    "use_year": 12,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -105537,8 +105631,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38565,
-    "modified": "2026-11-03 21:40:12",
+    "post_id": 38653,
+    "modified": "2026-11-04 03:55:05",
     "resort_abbr": "OKW",
     "can_close_after": "2/17/27",
     "also_on": "dvcmarket"
@@ -105569,7 +105663,7 @@
    "use_year": 12,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -105600,8 +105694,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38567,
-    "modified": "2026-11-03 22:00:05",
+    "post_id": 38716,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "POLY",
     "low_but_firm": true,
     "also_on": "dvcmarket"
@@ -105696,7 +105790,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -105722,8 +105816,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38482,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38598,
+    "modified": "2026-11-04 03:51:07",
     "resort_abbr": "POLY",
     "low_but_firm": true
    },
@@ -105782,7 +105876,7 @@
    "use_year": 9,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-09",
@@ -105808,8 +105902,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38486,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38602,
+    "modified": "2026-11-04 03:51:07",
     "resort_abbr": "POLY",
     "low_but_firm": true,
     "offer_deadline": "BEST & FINAL OFFER SUBMITTED BY 5PM ET 10/26"
@@ -105869,7 +105963,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -105905,8 +105999,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38483,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38599,
+    "modified": "2026-11-04 03:51:07",
     "resort_abbr": "POLY",
     "can_close_after": "1/11/27"
    },
@@ -105960,7 +106054,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -105996,8 +106090,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38484,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38600,
+    "modified": "2026-11-04 03:51:07",
     "resort_abbr": "POLY",
     "can_close_after": "3/1/27"
    },
@@ -106051,7 +106145,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -106087,8 +106181,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38485,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38601,
+    "modified": "2026-11-04 03:51:07",
     "resort_abbr": "POLY",
     "can_close_after": "4/7/27"
    },
@@ -106142,7 +106236,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2023-12",
@@ -106178,8 +106272,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38489,
-    "modified": "2026-11-04 03:35:05",
+    "post_id": 38605,
+    "modified": "2026-11-04 05:05:05",
     "resort_abbr": "RR",
     "low_but_firm": true
    },
@@ -106233,7 +106327,7 @@
    "use_year": 4,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-04",
@@ -106264,8 +106358,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38490,
-    "modified": "2026-11-03 21:40:10",
+    "post_id": 38606,
+    "modified": "2026-11-04 03:51:07",
     "resort_abbr": "RR",
     "low_but_firm": true
    },
@@ -106319,7 +106413,7 @@
    "use_year": 4,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-04",
@@ -106345,8 +106439,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38491,
-    "modified": "2026-11-03 21:40:10",
+    "post_id": 38607,
+    "modified": "2026-11-04 03:51:07",
     "resort_abbr": "RR"
    },
    "uid": "dvcshop:RIV197",
@@ -106399,7 +106493,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2024-12",
@@ -106430,8 +106524,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38492,
-    "modified": "2026-11-03 21:40:10",
+    "post_id": 38608,
+    "modified": "2026-11-04 03:51:07",
     "resort_abbr": "RR",
     "low_but_firm": true
    },
@@ -106485,7 +106579,7 @@
    "use_year": 8,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-08",
@@ -106511,8 +106605,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38493,
-    "modified": "2026-11-03 21:40:10",
+    "post_id": 38609,
+    "modified": "2026-11-04 03:51:07",
     "resort_abbr": "RR"
    },
    "uid": "dvcshop:RIV219",
@@ -106565,7 +106659,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -106591,8 +106685,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38494,
-    "modified": "2026-11-03 21:40:10",
+    "post_id": 38610,
+    "modified": "2026-11-04 03:51:07",
     "resort_abbr": "RR",
     "can_close_after": "12/1/2026"
    },
@@ -106646,7 +106740,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -106677,8 +106771,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38495,
-    "modified": "2026-11-03 21:40:10",
+    "post_id": 38654,
+    "modified": "2026-11-04 03:55:05",
     "resort_abbr": "RR",
     "can_close_after": "12/5/26"
    },
@@ -106732,7 +106826,7 @@
    "use_year": 2,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-02",
@@ -106758,8 +106852,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38496,
-    "modified": "2026-11-03 21:40:10",
+    "post_id": 38655,
+    "modified": "2026-11-04 03:55:05",
     "resort_abbr": "RR",
     "low_but_firm": true
    },
@@ -106805,7 +106899,7 @@
    "use_year": 10,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-10",
@@ -106831,8 +106925,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38497,
-    "modified": "2026-11-03 21:40:10",
+    "post_id": 38656,
+    "modified": "2026-11-04 03:55:05",
     "resort_abbr": "RR",
     "low_but_firm": true
    },
@@ -106941,7 +107035,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -106972,8 +107066,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38498,
-    "modified": "2026-11-03 21:40:10",
+    "post_id": 38657,
+    "modified": "2026-11-04 03:55:05",
     "resort_abbr": "RR",
     "low_but_firm": true
    },
@@ -107011,7 +107105,7 @@
    "use_year": 12,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -107047,8 +107141,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38487,
-    "modified": "2026-11-03 21:40:09",
+    "post_id": 38603,
+    "modified": "2026-11-04 03:51:07",
     "resort_abbr": "RR",
     "can_close_after": "3/5/27",
     "also_on": "dvcmarket"
@@ -107103,7 +107197,7 @@
    "use_year": 12,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -107139,8 +107233,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38488,
-    "modified": "2026-11-04 03:35:05",
+    "post_id": 38604,
+    "modified": "2026-11-04 05:05:05",
     "resort_abbr": "RR",
     "can_close_after": "3/5/27",
     "also_on": "dvcmarket"
@@ -107195,7 +107289,7 @@
    "use_year": 6,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-06",
@@ -107221,8 +107315,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38516,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38675,
+    "modified": "2026-11-04 03:55:05",
     "resort_abbr": "SSR"
    },
    "uid": "dvcshop:SSR491",
@@ -107259,7 +107353,7 @@
    "use_year": 4,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-04",
@@ -107290,8 +107384,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38517,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38676,
+    "modified": "2026-11-04 03:55:05",
     "resort_abbr": "SSR",
     "low_but_firm": true
    },
@@ -107329,7 +107423,7 @@
    "use_year": 2,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-02",
@@ -107360,8 +107454,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38518,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38677,
+    "modified": "2026-11-04 03:55:05",
     "resort_abbr": "SSR",
     "low_but_firm": true
    },
@@ -107399,7 +107493,7 @@
    "use_year": 3,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-03",
@@ -107425,8 +107519,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38519,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38678,
+    "modified": "2026-11-04 03:55:05",
     "resort_abbr": "SSR",
     "low_but_firm": true
    },
@@ -107472,7 +107566,7 @@
    "use_year": 3,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-03",
@@ -107498,8 +107592,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38520,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38679,
+    "modified": "2026-11-04 03:55:05",
     "resort_abbr": "SSR"
    },
    "uid": "dvcshop:SSR529AT",
@@ -107544,7 +107638,7 @@
    "use_year": 6,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-06",
@@ -107575,8 +107669,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38521,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38680,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "SSR",
     "low_but_firm": true
    },
@@ -107622,7 +107716,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -107653,8 +107747,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38522,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38681,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "SSR",
     "low_but_firm": true
    },
@@ -107700,7 +107794,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -107726,8 +107820,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38523,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38682,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "SSR",
     "low_but_firm": true
    },
@@ -107773,7 +107867,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -107799,8 +107893,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38524,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38683,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "SSR"
    },
    "uid": "dvcshop:SSR542",
@@ -107845,7 +107939,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2024-12",
@@ -107876,8 +107970,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38525,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38684,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "SSR"
    },
    "uid": "dvcshop:SSR549",
@@ -107930,7 +108024,7 @@
    "use_year": 9,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-09",
@@ -107961,8 +108055,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38526,
-    "modified": "2026-11-04 03:35:06",
+    "post_id": 38685,
+    "modified": "2026-11-04 05:05:05",
     "resort_abbr": "SSR",
     "low_but_firm": true
    },
@@ -108016,7 +108110,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -108047,8 +108141,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38527,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38686,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "SSR",
     "can_close_after": "7/27/26"
    },
@@ -108102,7 +108196,7 @@
    "use_year": 2,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-02",
@@ -108133,8 +108227,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38528,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38687,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "SSR",
     "can_close_after": "9/8/26"
    },
@@ -108245,7 +108339,7 @@
    "use_year": 9,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-09",
@@ -108272,8 +108366,8 @@
    "extra": {
     "price_derived": true,
     "availability_from": "index",
-    "post_id": 38529,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38688,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "SSR",
     "can_close_after": "4/11/27",
     "low_but_firm": true
@@ -108328,7 +108422,7 @@
    "use_year": 9,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-09",
@@ -108354,8 +108448,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38530,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38689,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "SSR",
     "can_close_after": "4/11/27",
     "low_but_firm": true
@@ -108410,7 +108504,7 @@
    "use_year": 2,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-02",
@@ -108441,8 +108535,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38499,
-    "modified": "2026-11-03 21:40:10",
+    "post_id": 38658,
+    "modified": "2026-11-04 03:55:05",
     "resort_abbr": "SSR",
     "low_but_firm": true,
     "also_on": "dvcmarket"
@@ -108489,7 +108583,7 @@
    "use_year": 2,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-02",
@@ -108520,8 +108614,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38515,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38674,
+    "modified": "2026-11-04 03:55:05",
     "resort_abbr": "SSR",
     "low_but_firm": true
    },
@@ -108564,7 +108658,7 @@
    "use_year": 2,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-02",
@@ -108595,8 +108689,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38531,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38690,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "SSR",
     "low_but_firm": true
    },
@@ -108851,7 +108945,7 @@
    "use_year": 9,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-09",
@@ -108882,8 +108976,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38532,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38691,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "SSR",
     "low_but_firm": true,
     "offer_deadline": "BEST AND HIGHEST OFFER BY 5PM ET 9/28"
@@ -109002,7 +109096,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -109033,8 +109127,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38533,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38692,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "SSR"
    },
    "uid": "dvcshop:SSR583",
@@ -109184,7 +109278,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -109220,8 +109314,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38534,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38693,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "SSR",
     "can_close_after": "1/12/27"
    },
@@ -109275,7 +109369,7 @@
    "use_year": 10,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-10",
@@ -109306,8 +109400,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38535,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38694,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "SSR",
     "can_close_after": "12/4/26"
    },
@@ -109361,7 +109455,7 @@
    "use_year": 9,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-09",
@@ -109392,8 +109486,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38500,
-    "modified": "2026-11-03 21:40:10",
+    "post_id": 38659,
+    "modified": "2026-11-04 03:55:05",
     "resort_abbr": "SSR"
    },
    "uid": "dvcshop:SSR590SR",
@@ -109443,7 +109537,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -109479,8 +109573,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38536,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38695,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "SSR",
     "can_close_after": "12/14/26"
    },
@@ -109534,7 +109628,7 @@
    "use_year": 3,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-03",
@@ -109565,8 +109659,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38537,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38696,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "SSR",
     "can_close_after": "2/2/27"
    },
@@ -109620,7 +109714,7 @@
    "use_year": 3,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-03",
@@ -109651,8 +109745,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38538,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38697,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "SSR",
     "can_close_after": "2/2/27"
    },
@@ -109698,7 +109792,7 @@
    "use_year": 3,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-03",
@@ -109729,8 +109823,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38501,
-    "modified": "2026-11-03 21:40:10",
+    "post_id": 38660,
+    "modified": "2026-11-04 03:55:05",
     "resort_abbr": "SSR",
     "can_close_after": "2/2/27",
     "also_on": "dvcmarket"
@@ -109777,7 +109871,7 @@
    "use_year": 2,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-02",
@@ -109813,8 +109907,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38502,
-    "modified": "2026-11-03 21:40:10",
+    "post_id": 38661,
+    "modified": "2026-11-04 03:55:05",
     "resort_abbr": "SSR",
     "can_close_after": "4/12/27",
     "also_on": "dvcmarket"
@@ -109861,7 +109955,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -109897,8 +109991,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38539,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38698,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "SSR",
     "can_close_after": "12/28/26"
    },
@@ -109949,7 +110043,7 @@
    "use_year": 6,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-06",
@@ -109980,8 +110074,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38503,
-    "modified": "2026-11-03 21:40:10",
+    "post_id": 38662,
+    "modified": "2026-11-04 03:55:05",
     "resort_abbr": "SSR",
     "also_on": "dvcmarket"
    },
@@ -110027,7 +110121,7 @@
    "use_year": 12,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -110063,8 +110157,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38504,
-    "modified": "2026-11-03 21:40:10",
+    "post_id": 38663,
+    "modified": "2026-11-04 03:55:05",
     "resort_abbr": "SSR",
     "also_on": "dvcmarket"
    },
@@ -110110,7 +110204,7 @@
    "use_year": 12,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -110146,8 +110240,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38505,
-    "modified": "2026-11-03 21:40:10",
+    "post_id": 38664,
+    "modified": "2026-11-04 03:55:05",
     "resort_abbr": "SSR",
     "can_close_after": "5/29/27",
     "also_on": "dvcmarket"
@@ -110194,7 +110288,7 @@
    "use_year": 10,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-10",
@@ -110225,8 +110319,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38506,
-    "modified": "2026-11-03 21:40:10",
+    "post_id": 38665,
+    "modified": "2026-11-04 03:55:05",
     "resort_abbr": "SSR",
     "also_on": "dvcmarket"
    },
@@ -110272,7 +110366,7 @@
    "use_year": 12,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -110308,8 +110402,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38507,
-    "modified": "2026-11-03 21:40:10",
+    "post_id": 38666,
+    "modified": "2026-11-04 03:55:05",
     "resort_abbr": "SSR",
     "also_on": "dvcmarket"
    },
@@ -110363,7 +110457,7 @@
    "use_year": 12,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -110399,8 +110493,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38508,
-    "modified": "2026-11-03 21:40:10",
+    "post_id": 38667,
+    "modified": "2026-11-04 03:55:05",
     "resort_abbr": "SSR",
     "can_close_after": "2/20/27",
     "also_on": "dvcmarket"
@@ -110455,7 +110549,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -110491,8 +110585,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38514,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38673,
+    "modified": "2026-11-04 03:55:05",
     "resort_abbr": "SSR"
    },
    "uid": "dvcshop:SSR611PS",
@@ -110534,7 +110628,7 @@
    "use_year": 12,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -110570,8 +110664,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38540,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38699,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "SSR",
     "can_close_after": "1/23/27"
    },
@@ -110617,7 +110711,7 @@
    "use_year": 10,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-10",
@@ -110648,8 +110742,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38541,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38700,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "SSR",
     "can_close_after": "11/4/26"
    },
@@ -110695,7 +110789,7 @@
    "use_year": 10,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-10",
@@ -110726,8 +110820,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38509,
-    "modified": "2026-11-03 21:40:10",
+    "post_id": 38668,
+    "modified": "2026-11-04 03:55:05",
     "resort_abbr": "SSR",
     "can_close_after": "1/27/27",
     "also_on": "dvcmarket"
@@ -110845,7 +110939,7 @@
    "use_year": 8,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-08",
@@ -110876,8 +110970,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38510,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38669,
+    "modified": "2026-11-04 03:55:05",
     "resort_abbr": "SSR",
     "can_close_after": "4/25/27",
     "also_on": "dvcmarket"
@@ -110924,7 +111018,7 @@
    "use_year": 9,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-09",
@@ -110955,8 +111049,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38511,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38670,
+    "modified": "2026-11-04 03:55:05",
     "resort_abbr": "SSR",
     "also_on": "dvcmarket"
    },
@@ -111002,7 +111096,7 @@
    "use_year": 9,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-09",
@@ -111033,8 +111127,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38542,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38701,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "SSR",
     "can_close_after": "12/7/26"
    },
@@ -111080,7 +111174,7 @@
    "use_year": 9,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-09",
@@ -111111,8 +111205,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38512,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38671,
+    "modified": "2026-11-04 03:55:05",
     "resort_abbr": "SSR",
     "can_close_after": "2/25/27",
     "also_on": "dvcmarket"
@@ -111151,7 +111245,7 @@
    "use_year": 2,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-02",
@@ -111177,8 +111271,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38513,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38672,
+    "modified": "2026-11-04 03:55:05",
     "resort_abbr": "SSR",
     "also_on": "dvcmarket"
    },
@@ -111216,7 +111310,7 @@
    "use_year": 12,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -111252,8 +111346,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38559,
-    "modified": "2026-11-03 21:40:12",
+    "post_id": 38702,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "SSR",
     "can_close_after": "2/23/27",
     "also_on": "dvcmarket"
@@ -111292,7 +111386,7 @@
    "use_year": 12,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2025-12",
@@ -111328,8 +111422,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38560,
-    "modified": "2026-11-03 21:40:12",
+    "post_id": 38703,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "SSR",
     "also_on": "dvcmarket"
    },
@@ -111359,7 +111453,7 @@
    "use_year": 3,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-03",
@@ -111395,8 +111489,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38561,
-    "modified": "2026-11-03 21:40:12",
+    "post_id": 38704,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "SSR",
     "can_close_after": "6/1/27",
     "also_on": "dvcmarket"
@@ -111427,7 +111521,7 @@
    "use_year": 6,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-06",
@@ -111458,8 +111552,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38563,
-    "modified": "2026-11-03 21:40:12",
+    "post_id": 38705,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "SSR",
     "can_close_after": "3/6/27",
     "also_on": "dvcmarket"
@@ -111490,7 +111584,7 @@
    "use_year": 8,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-08",
@@ -111516,8 +111610,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38546,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38709,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "VB"
    },
    "uid": "dvcshop:VB204",
@@ -111562,7 +111656,7 @@
    "use_year": 10,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-10",
@@ -111588,8 +111682,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38547,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38710,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "VB"
    },
    "uid": "dvcshop:VB205",
@@ -111626,7 +111720,7 @@
    "use_year": 2,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-02",
@@ -111652,8 +111746,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38548,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38711,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "VB"
    },
    "uid": "dvcshop:VB500DM",
@@ -111698,7 +111792,7 @@
    "use_year": 6,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-06",
@@ -111724,8 +111818,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38549,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38712,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "VB"
    },
    "uid": "dvcshop:VB515LBF",
@@ -111770,7 +111864,7 @@
    "use_year": 10,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-10",
@@ -111801,8 +111895,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38550,
-    "modified": "2026-11-03 21:40:12",
+    "post_id": 38713,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "VB",
     "can_close_after": "1/27/27"
    },
@@ -111840,7 +111934,7 @@
    "use_year": 8,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-08",
@@ -111871,8 +111965,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38551,
-    "modified": "2026-11-03 21:40:12",
+    "post_id": 38714,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "VB",
     "can_close_after": "11/10/26"
    },
@@ -111910,7 +112004,7 @@
    "use_year": 8,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-08",
@@ -111941,8 +112035,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38543,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38706,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "VB",
     "can_close_after": "11/28/26"
    },
@@ -111988,7 +112082,7 @@
    "use_year": 8,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-08",
@@ -112019,8 +112113,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38544,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38707,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "VB",
     "can_close_after": "10/11/26"
    },
@@ -112066,7 +112160,7 @@
    "use_year": 3,
    "status_raw": "Sale Pending",
    "availability": "pending",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-03",
@@ -112097,8 +112191,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38552,
-    "modified": "2026-11-03 21:40:12",
+    "post_id": 38715,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "VB",
     "can_close_after": "5/8/27"
    },
@@ -112136,7 +112230,7 @@
    "use_year": 8,
    "status_raw": "New",
    "availability": "available",
-   "date_listed": "2026-11-03",
+   "date_listed": "2026-11-04",
    "points_available": [
     {
      "uy": "2026-08",
@@ -112167,8 +112261,8 @@
    "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "post_id": 38545,
-    "modified": "2026-11-03 21:40:11",
+    "post_id": 38708,
+    "modified": "2026-11-04 03:55:06",
     "resort_abbr": "VB",
     "also_on": "dvcmarket"
    },
@@ -117632,7 +117726,7 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcstore",
@@ -118021,7 +118115,7 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcstore",
@@ -118492,7 +118586,7 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcstore",
@@ -120839,7 +120933,7 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcstore",
@@ -121557,7 +121651,7 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcstore",
@@ -123113,7 +123207,7 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-11-01T08:40:44+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "dvcstore",
@@ -123296,7 +123390,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-11-04T08:37:23+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "magicresales",
@@ -123410,8 +123504,7 @@
      "availability": "available",
      "status_raw": "Available"
     }
-   ],
-   "detail_at": "2026-11-04T08:37:23+00:00"
+   ]
   },
   {
    "source": "vacationclublife",
@@ -126793,7 +126886,7 @@
      "status_raw": "Active"
     }
    ],
-   "detail_at": "2026-11-01T09:42:02+00:00"
+   "detail_at": "2026-11-04T10:37:06+00:00"
   },
   {
    "source": "vacationclublife",
