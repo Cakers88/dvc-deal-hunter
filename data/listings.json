@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-04T20:37:29+00:00",
- "count": 1947,
+ "updated": "2026-11-04T20:56:03+00:00",
+ "count": 1952,
  "listings": [
   {
    "source": "buyandselldvc",
@@ -2957,7 +2957,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-11-01T20:48:52+00:00"
+   "detail_at": "2026-11-04T20:56:03+00:00"
   },
   {
    "source": "dvcbyresale",
@@ -41404,7 +41404,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "savings_vs_direct": 39200.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 3384.5,
@@ -41425,7 +41425,7 @@
      "status_raw": "New"
     }
    ],
-   "detail_at": "2026-11-01T20:48:52+00:00"
+   "detail_at": "2026-11-04T20:56:03+00:00"
   },
   {
    "source": "dvcresaleexperts",
@@ -44093,7 +44093,7 @@
    "expiration": 2066,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "savings_vs_direct": 25900.0,
     "also_on": "dvcmarket",
     "annual_dues_total": 2915.5,
@@ -44114,7 +44114,7 @@
      "status_raw": "New"
     }
    ],
-   "detail_at": "2026-11-01T20:48:52+00:00"
+   "detail_at": "2026-11-04T20:56:03+00:00"
   },
   {
    "source": "dvcresaleexperts",
@@ -48186,7 +48186,7 @@
    "expiration": 2057,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "closing_cost": 939.0
    },
@@ -48203,7 +48203,7 @@
      "status_raw": "BONUS! FULL POINTS FOR 2026 WITH NO DUES!"
     }
    ],
-   "detail_at": "2026-11-01T20:48:52+00:00"
+   "detail_at": "2026-11-04T20:56:03+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -48242,7 +48242,7 @@
    "expiration": 2057,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "closing_cost": 1209.0
    },
@@ -48259,7 +48259,7 @@
      "status_raw": "New"
     }
    ],
-   "detail_at": "2026-11-01T20:48:52+00:00"
+   "detail_at": "2026-11-04T20:56:03+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -49169,7 +49169,7 @@
    "expiration": 2057,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "closing_cost": 909.0
    },
    "uid": "dvcresalemarket:AK36537",
@@ -50988,6 +50988,61 @@
   },
   {
    "source": "dvcresalemarket",
+   "listing_id": "AKB6564",
+   "url": "https://www.dvcresalemarket.com/listings/animal-kingdom-lodge/akb6564/",
+   "resort_raw": "Animal Kingdom",
+   "resort": "akv",
+   "points": 240,
+   "price": 25920.0,
+   "price_per_point": 108.0,
+   "use_year": 12,
+   "status_raw": "Certified Hot Price",
+   "availability": "available",
+   "date_listed": "2026-11-04",
+   "points_available": [
+    {
+     "uy": "2026-12",
+     "points": 10,
+     "banked": 0
+    },
+    {
+     "uy": "2027-12",
+     "points": 240,
+     "banked": 0
+    },
+    {
+     "uy": "2028-12",
+     "points": 240,
+     "banked": 0
+    }
+   ],
+   "availability_text": "December 2026 - 10 points\nDecember 2027 - 240 points\nDecember 2028 - 240 points\nThere are 10 points coming Dec. 2026 + 240 points coming Dec. 2027 + 240 points coming Dec. 2028 + 240 points coming Dec. 2029",
+   "dues_terms": "Seller Pays 2026 Annual Dues, Buyer pays 2027 Dues (For closings after Nov. 20th Disney will require the 2027 Dues be paid at closing). Dues based on the current 2026 values are $2,439 however Disney has not released 2027 Dues figures yet so actual 2027 Dues may be different.",
+   "dues_per_point": 10.16,
+   "subsidized_dues": null,
+   "expiration": 2057,
+   "detail_fetched": true,
+   "extra": {
+    "availability_from": "detail",
+    "closing_cost": 969.0
+   },
+   "uid": "dvcresalemarket:AKB6564",
+   "active": true,
+   "stale": false,
+   "first_seen": "2026-11-04T20:56:03+00:00",
+   "history": [
+    {
+     "t": "2026-11-04T20:56:03+00:00",
+     "price": 25920.0,
+     "price_per_point": 108.0,
+     "availability": "available",
+     "status_raw": "Certified Hot Price"
+    }
+   ],
+   "detail_at": "2026-11-04T20:56:03+00:00"
+  },
+  {
+   "source": "dvcresalemarket",
    "listing_id": "AKC6105",
    "url": "https://www.dvcresalemarket.com/listings/animal-kingdom-lodge/akc6105/",
    "resort_raw": "Animal Kingdom",
@@ -52039,36 +52094,35 @@
    "price": 7450.0,
    "price_per_point": 149.0,
    "use_year": 12,
-   "status_raw": "Small Contract",
-   "availability": "available",
-   "date_listed": "2026-11-03",
+   "status_raw": "Offer Accepted",
+   "availability": "pending",
+   "date_listed": null,
    "points_available": [
     {
-     "uy": "2026-12",
+     "uy": "2025-12",
      "points": 88,
-     "banked": 40
+     "banked": 0
+    },
+    {
+     "uy": "2026-12",
+     "points": 50,
+     "banked": 0
     },
     {
      "uy": "2027-12",
      "points": 50,
      "banked": 0
-    },
-    {
-     "uy": "2028-12",
-     "points": 50,
-     "banked": 0
     }
    ],
-   "availability_text": "December 2026 - 88 points\nDecember 2027 - 50 points\nDecember 2028 - 50 points\nThere are 88 points as of Dec. 2026 (40 points banked from Dec. 2025 & 48 points from Dec. 2026) + 50 points coming Dec. 2027 + 50 points coming Dec. 2028 + 50 points coming Dec. 2029",
-   "dues_terms": "Seller Pays 2026 Annual Dues, Buyer pays 2027 Dues (For closings after Nov. 20th Disney will require the 2027 Dues be paid at closing). Dues based on the current 2026 values are $509 however Disney has not released 2027 Dues figures yet so actual 2027 Dues may be different.",
-   "dues_per_point": 10.16,
+   "availability_text": null,
+   "dues_terms": null,
+   "dues_per_point": null,
    "subsidized_dues": null,
-   "expiration": 2057,
-   "detail_fetched": true,
+   "expiration": null,
+   "detail_fetched": false,
    "extra": {
     "availability_from": "index",
-    "also_on": "dvcmarket",
-    "closing_cost": 699.0
+    "also_on": "dvcmarket"
    },
    "uid": "dvcresalemarket:AKG6556",
    "active": true,
@@ -52081,9 +52135,13 @@
      "price_per_point": 149.0,
      "availability": "available",
      "status_raw": "Small Contract"
+    },
+    {
+     "t": "2026-11-04T20:56:03+00:00",
+     "availability": "pending",
+     "status_raw": "Offer Accepted"
     }
-   ],
-   "detail_at": "2026-11-03T22:37:00+00:00"
+   ]
   },
   {
    "source": "dvcresalemarket",
@@ -52410,7 +52468,7 @@
    "expiration": 2062,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "closing_cost": 1080.0
    },
@@ -52427,7 +52485,7 @@
      "status_raw": "New"
     }
    ],
-   "detail_at": "2026-11-01T20:48:52+00:00"
+   "detail_at": "2026-11-04T20:56:03+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -55215,7 +55273,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "closing_cost": 1359.0
    },
@@ -55232,7 +55290,7 @@
      "status_raw": "New"
     }
    ],
-   "detail_at": "2026-11-01T20:48:52+00:00"
+   "detail_at": "2026-11-04T20:56:03+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -59899,6 +59957,61 @@
   },
   {
    "source": "dvcresalemarket",
+   "listing_id": "BRB1947",
+   "url": "https://www.dvcresalemarket.com/listings/wilderness-lodge/brb1947/",
+   "resort_raw": "Boulder Ridge",
+   "resort": "brv",
+   "points": 290,
+   "price": 28420.0,
+   "price_per_point": 98.0,
+   "use_year": 12,
+   "status_raw": "Certified Hot Price",
+   "availability": "available",
+   "date_listed": "2026-11-04",
+   "points_available": [
+    {
+     "uy": "2026-12",
+     "points": 35,
+     "banked": 0
+    },
+    {
+     "uy": "2027-12",
+     "points": 290,
+     "banked": 0
+    },
+    {
+     "uy": "2028-12",
+     "points": 290,
+     "banked": 0
+    }
+   ],
+   "availability_text": "December 2026 - 35 points\nDecember 2027 - 290 points\nDecember 2028 - 290 points\nThere are 35 points coming Dec. 2026 + 290 points coming Dec. 2027 + 290 points coming Dec. 2028 + 290 points coming Dec. 2029",
+   "dues_terms": "Seller Pays 2026 Annual Dues, Buyer pays 2027 Dues (For closings after Nov. 20th Disney will require the 2027 Dues be paid at closing). Dues based on the current 2026 values are $2,833 however Disney has not released 2027 Dues figures yet so actual 2027 Dues may be different.",
+   "dues_per_point": 9.77,
+   "subsidized_dues": null,
+   "expiration": 2042,
+   "detail_fetched": true,
+   "extra": {
+    "availability_from": "detail",
+    "closing_cost": 1029.0
+   },
+   "uid": "dvcresalemarket:BRB1947",
+   "active": true,
+   "stale": false,
+   "first_seen": "2026-11-04T20:56:03+00:00",
+   "history": [
+    {
+     "t": "2026-11-04T20:56:03+00:00",
+     "price": 28420.0,
+     "price_per_point": 98.0,
+     "availability": "available",
+     "status_raw": "Certified Hot Price"
+    }
+   ],
+   "detail_at": "2026-11-04T20:56:03+00:00"
+  },
+  {
+   "source": "dvcresalemarket",
    "listing_id": "BRC1938",
    "url": "https://www.dvcresalemarket.com/listings/wilderness-lodge/brc1938/",
    "resort_raw": "Boulder Ridge",
@@ -60632,7 +60745,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "can_close_after": "12/18/2026",
     "closing_cost": 849.0
@@ -60650,7 +60763,7 @@
      "status_raw": "New"
     }
    ],
-   "detail_at": "2026-11-01T20:48:52+00:00"
+   "detail_at": "2026-11-04T20:56:03+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -60924,7 +61037,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "closing_cost": 1079.0
    },
@@ -60941,7 +61054,7 @@
      "status_raw": "New"
     }
    ],
-   "detail_at": "2026-11-01T20:48:52+00:00"
+   "detail_at": "2026-11-04T20:56:03+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -61556,7 +61669,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "also_on": "dvcmarket",
     "closing_cost": 719.0
    },
@@ -61622,7 +61735,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "closing_cost": 1119.0
    },
@@ -61639,7 +61752,7 @@
      "status_raw": "Double Points"
     }
    ],
-   "detail_at": "2026-11-01T20:48:52+00:00"
+   "detail_at": "2026-11-04T20:56:03+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -69470,7 +69583,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "index",
+    "availability_from": "detail",
     "also_on": "dvcmarket",
     "closing_cost": 699.0
    },
@@ -69492,7 +69605,7 @@
      "price_per_point": 105.0
     }
    ],
-   "detail_at": "2026-11-01T20:48:52+00:00"
+   "detail_at": "2026-11-04T20:56:03+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -70390,7 +70503,7 @@
    "expiration": 2042,
    "detail_fetched": true,
    "extra": {
-    "availability_from": "detail",
+    "availability_from": "index",
     "closing_cost": 1009.0
    },
    "uid": "dvcresalemarket:OK65118",
@@ -81553,6 +81666,61 @@
   },
   {
    "source": "dvcresalemarket",
+   "listing_id": "SSB6929",
+   "url": "https://www.dvcresalemarket.com/listings/saratoga-springs/ssb6929/",
+   "resort_raw": "Saratoga Springs",
+   "resort": "ssr",
+   "points": 140,
+   "price": 14280.0,
+   "price_per_point": 102.0,
+   "use_year": 9,
+   "status_raw": "Certified Hot Price",
+   "availability": "available",
+   "date_listed": "2026-11-04",
+   "points_available": [
+    {
+     "uy": "2026-09",
+     "points": 0,
+     "banked": 0
+    },
+    {
+     "uy": "2027-09",
+     "points": 140,
+     "banked": 0
+    },
+    {
+     "uy": "2028-09",
+     "points": 140,
+     "banked": 0
+    }
+   ],
+   "availability_text": "September 2026 - 0 points\nSeptember 2027 - 140 points\nSeptember 2028 - 140 points\nThere are 140 points coming Sept. 2027 + 140 points coming Sept. 2028 + 140 points coming Sept. 2029",
+   "dues_terms": "Seller Pays 2026 Annual Dues, Buyer pays 2027 Dues (For closings after Nov. 20th Disney will require the 2027 Dues be paid at closing). Dues based on the current 2026 values are $1,287 however Disney has not released 2027 Dues figures yet so actual 2027 Dues may be different.",
+   "dues_per_point": 9.19,
+   "subsidized_dues": null,
+   "expiration": 2054,
+   "detail_fetched": true,
+   "extra": {
+    "availability_from": "detail",
+    "closing_cost": 839.0
+   },
+   "uid": "dvcresalemarket:SSB6929",
+   "active": true,
+   "stale": false,
+   "first_seen": "2026-11-04T20:56:03+00:00",
+   "history": [
+    {
+     "t": "2026-11-04T20:56:03+00:00",
+     "price": 14280.0,
+     "price_per_point": 102.0,
+     "availability": "available",
+     "status_raw": "Certified Hot Price"
+    }
+   ],
+   "detail_at": "2026-11-04T20:56:03+00:00"
+  },
+  {
+   "source": "dvcresalemarket",
    "listing_id": "SSB8363",
    "url": "https://www.dvcresalemarket.com/listings/saratoga-springs/ssb8363/",
    "resort_raw": "Saratoga Springs",
@@ -82633,6 +82801,116 @@
     }
    ],
    "detail_at": "2026-11-01T23:37:02+00:00"
+  },
+  {
+   "source": "dvcresalemarket",
+   "listing_id": "SSB8746",
+   "url": "https://www.dvcresalemarket.com/listings/saratoga-springs/ssb8746/",
+   "resort_raw": "Saratoga Springs",
+   "resort": "ssr",
+   "points": 140,
+   "price": 14280.0,
+   "price_per_point": 102.0,
+   "use_year": 9,
+   "status_raw": "Certified Hot Price",
+   "availability": "available",
+   "date_listed": "2026-11-04",
+   "points_available": [
+    {
+     "uy": "2026-09",
+     "points": 0,
+     "banked": 0
+    },
+    {
+     "uy": "2027-09",
+     "points": 140,
+     "banked": 0
+    },
+    {
+     "uy": "2028-09",
+     "points": 140,
+     "banked": 0
+    }
+   ],
+   "availability_text": "September 2026 - 0 points\nSeptember 2027 - 140 points\nSeptember 2028 - 140 points\nThere are 140 points coming Sept. 2027 + 140 points coming Sept. 2028 + 140 points coming Sept. 2029",
+   "dues_terms": "Seller Pays 2026 Annual Dues, Buyer pays 2027 Dues (For closings after Nov. 20th Disney will require the 2027 Dues be paid at closing). Dues based on the current 2026 values are $1,287 however Disney has not released 2027 Dues figures yet so actual 2027 Dues may be different.",
+   "dues_per_point": 9.19,
+   "subsidized_dues": null,
+   "expiration": 2054,
+   "detail_fetched": true,
+   "extra": {
+    "availability_from": "detail",
+    "closing_cost": 839.0
+   },
+   "uid": "dvcresalemarket:SSB8746",
+   "active": true,
+   "stale": false,
+   "first_seen": "2026-11-04T20:56:03+00:00",
+   "history": [
+    {
+     "t": "2026-11-04T20:56:03+00:00",
+     "price": 14280.0,
+     "price_per_point": 102.0,
+     "availability": "available",
+     "status_raw": "Certified Hot Price"
+    }
+   ],
+   "detail_at": "2026-11-04T20:56:03+00:00"
+  },
+  {
+   "source": "dvcresalemarket",
+   "listing_id": "SSB8747",
+   "url": "https://www.dvcresalemarket.com/listings/saratoga-springs/ssb8747/",
+   "resort_raw": "Saratoga Springs",
+   "resort": "ssr",
+   "points": 140,
+   "price": 14280.0,
+   "price_per_point": 102.0,
+   "use_year": 9,
+   "status_raw": "Certified Hot Price",
+   "availability": "available",
+   "date_listed": "2026-11-04",
+   "points_available": [
+    {
+     "uy": "2026-09",
+     "points": 9,
+     "banked": 0
+    },
+    {
+     "uy": "2027-09",
+     "points": 140,
+     "banked": 0
+    },
+    {
+     "uy": "2028-09",
+     "points": 140,
+     "banked": 0
+    }
+   ],
+   "availability_text": "September 2026 - 9 points\nSeptember 2027 - 140 points\nSeptember 2028 - 140 points\nThere are 9 points from Sept. 2026 + 140 points coming Sept. 2027 + 140 points coming Sept. 2028 + 140 points coming Sept. 2029",
+   "dues_terms": "Seller Pays 2026 Annual Dues, Buyer pays 2027 Dues (For closings after Nov. 20th Disney will require the 2027 Dues be paid at closing). Dues based on the current 2026 values are $1,287 however Disney has not released 2027 Dues figures yet so actual 2027 Dues may be different.",
+   "dues_per_point": 9.19,
+   "subsidized_dues": null,
+   "expiration": 2054,
+   "detail_fetched": true,
+   "extra": {
+    "availability_from": "detail",
+    "closing_cost": 839.0
+   },
+   "uid": "dvcresalemarket:SSB8747",
+   "active": true,
+   "stale": false,
+   "first_seen": "2026-11-04T20:56:03+00:00",
+   "history": [
+    {
+     "t": "2026-11-04T20:56:03+00:00",
+     "price": 14280.0,
+     "price_per_point": 102.0,
+     "availability": "available",
+     "status_raw": "Certified Hot Price"
+    }
+   ],
+   "detail_at": "2026-11-04T20:56:03+00:00"
   },
   {
    "source": "dvcresalemarket",
@@ -99020,7 +99298,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 39877,
-    "modified": "2026-11-04 14:30:05",
+    "modified": "2026-11-04 15:50:05",
     "resort_abbr": "AUL",
     "low_but_firm": true,
     "also_on": "dvcmarket"
@@ -99313,7 +99591,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 39480,
-    "modified": "2026-11-04 14:30:05",
+    "modified": "2026-11-04 15:50:05",
     "resort_abbr": "AUL",
     "low_but_firm": true
    },
@@ -100932,7 +101210,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 39691,
-    "modified": "2026-11-04 14:30:05",
+    "modified": "2026-11-04 15:50:05",
     "resort_abbr": "AUL",
     "can_close_after": "11/8/26",
     "also_on": "dvcmarket"
@@ -105903,7 +106181,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 39926,
-    "modified": "2026-11-04 14:25:08",
+    "modified": "2026-11-04 15:50:06",
     "resort_abbr": "GC",
     "low_but_firm": true,
     "also_on": "dvcmarket"
@@ -108241,7 +108519,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 39956,
-    "modified": "2026-11-04 14:30:06",
+    "modified": "2026-11-04 15:50:06",
     "resort_abbr": "RR",
     "low_but_firm": true
    },
@@ -109202,7 +109480,7 @@
    "extra": {
     "availability_from": "index",
     "post_id": 39955,
-    "modified": "2026-11-04 14:30:06",
+    "modified": "2026-11-04 15:50:06",
     "resort_abbr": "RR",
     "can_close_after": "3/5/27",
     "also_on": "dvcmarket"
@@ -117124,7 +117402,7 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-11-01T20:48:52+00:00"
+   "detail_at": "2026-11-04T20:56:03+00:00"
   },
   {
    "source": "dvcstore",
@@ -117926,7 +118204,7 @@
      "status_raw": "active"
     }
    ],
-   "detail_at": "2026-11-01T20:48:52+00:00"
+   "detail_at": "2026-11-04T20:56:03+00:00"
   },
   {
    "source": "dvcstore",
@@ -125426,7 +125704,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-11-04T20:37:29+00:00"
+   "detail_at": "2026-11-04T20:56:03+00:00"
   },
   {
    "source": "magicresales",
@@ -125484,7 +125762,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-11-04T20:37:29+00:00"
+   "detail_at": "2026-11-04T20:56:03+00:00"
   },
   {
    "source": "magicresales",
@@ -125542,7 +125820,7 @@
      "status_raw": "Available"
     }
    ],
-   "detail_at": "2026-11-04T20:37:29+00:00"
+   "detail_at": "2026-11-04T20:56:03+00:00"
   },
   {
    "source": "vacationclublife",
