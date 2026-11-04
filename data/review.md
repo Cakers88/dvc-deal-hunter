@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-11-04 03:38 UTC (latest data: 03:37 UTC review-dispatched scrape; cron still hasn't fired since 23:57). **Ranking change:** [Aulani AUL242LBF1 (DVC Shop)](https://resales.dvcshop.com/listings/aulani-hawaii-aul242lbf1/) moves into **#3 for 1BR+2BR Sept** — the broker rewrote its availability (modified Nov 3 22:05 ET) to "200 points banked for 2026, 200 points for 2027 and beyond", so it now has 400 pts in Feb-2027 (200 banked) instead of 200/yr. ✔ Page + API checked 03:38. 03:37 scrape: 2 new, 1 status change — BLT [BL23856 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/bay-lake-tower/bl23856/) (160 pts Sep UY, $145, $23,200, "full 2026 points with no dues", 2060 deed, score 77, rank 24; ✔ page matches: 160 Sep-2026/27/28) doesn't fit a 6-night 1BR+2BR (480 < 486) and loses money on 1BR/2BR alone; PVB POLU372LBF1 (DVC Shop, 120 pts $159, 0 pts until Dec-2027, score 0). BWV BW23478 → Sale Pending. **Scraper health:** DVC Shop failed in the 02:36 run (JSONDecodeError — empty body on the API) but was ok at 01:36 and ok again at 03:37 (237 listings) → transient, no fix. The 02:38 review wrongly said all 10 sources were ok. Broker alert emails (last 2 h): none. Fixes: none.
+**Run:** 2026-11-04 04:40 UTC (latest data: 04:38 UTC review-dispatched scrape; cron still hasn't fired since 23:57). **No ranking changes this hour.** 04:38 scrape: 0 new, 0 price changes, 1 status change — Riviera [RRB2173 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/riviera/rrb2173/) Offer Accepted → Sale Pending (not on any Sept list). **Scraper health:** DVC Shop **ok:false** at 04:38 (ConnectTimeout on the WP API) after ok at 03:37 — its API answered in 0.8 s from here at 04:40, so transient; its 260 listings (incl. Aulani AUL242LBF1) are carried over. Broker alert emails (last 2 h): none. Fixes: none. Previous run (03:38): Aulani AUL242LBF1 moved to #3 for 1BR+2BR after DVC Shop rewrote it to 400 pts in Feb-2027 (200 banked).
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -42,7 +42,7 @@ Next: **relisted 15:37** [HH HHI26452 (DVC Resale Experts)](https://www.dvcresal
 
 ## 3-bedroom grand villa, Sept, 6 nights (FYI)
 
-VCL OKW 4301740000155635003 leads ($5.9k, borrows 156), then SSR SS1286 ($5.8k, borrows 130) and SSR 616710 (Fidelity via DVC Market, $5.2k, borrows 150, low ROFR). (VCL SSR 4301740000153743001 now pending.)
+VCL OKW 4301740000155635003 leads ($5.9k, borrows 156), then Aulani AUL242LBF1 (DVC Shop, $5.9k, borrows 170), SSR SS1286 ($5.8k, borrows 130) and SSR 616710 (Fidelity via DVC Market, $5.2k, borrows 150, low ROFR). (VCL SSR 4301740000153743001 now pending.)
 
 ## Rent-out flips (secondary, a one-off at most; DVC bans regular renting)
 
@@ -53,6 +53,8 @@ VCL OKW 4301740000155635003 leads ($5.9k, borrows 156), then SSR SS1286 ($5.8k, 
 Also: Aulani [616395 (DVC Market)](https://dvcmarket.com/dvc-resale/aulani/200-points/616395) **cut $115 → $105** (200 pts Oct UY, 400 in Oct-2026 incl. 200 banked; +$3.4k flip on $23.2k) — score 75.5, not on a Sept list (Oct-2026 points expire Sep 30, 2027 so they'd cover Sept 2027 but at $105 it doesn't beat the picks above).
 
 ## Scraper health & fixes
+
+**04:38 run (review-dispatched): 9 of 10 sources ok** — **DVC Shop ok:false** (ConnectTimeout on resales.dvcshop.com/wp-json; API reachable at 04:40, transient, second blip in 3 runs — fix only if it fails twice in a row). Other counts unchanged. No fixes made.
 
 **03:37 run (review-dispatched): all 10 sources ok** — DVC Shop 237 (back after failing at 02:36 with an empty API body; transient), DVC Resale Market 482 (+1). No fixes made.
 
