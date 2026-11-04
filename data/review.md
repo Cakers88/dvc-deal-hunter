@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-11-04 01:40 UTC (latest data: 01:36 UTC review-dispatched scrape — no scheduled run fired after 23:57). 01:36 scrape: 0 new; 1 price drop — AKV [AK86489 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/animal-kingdom-lodge/ak86489/) **$129 → $117** (225 pts Dec UY, $26,325; score 73, rank 62). ✔ Page checked 01:40: available, 244 pts in Dec-2026 (19 banked from 2025) + 225/yr, 2057 deed, low ROFR; the "full 2026 points with no dues" bonus label is gone (now "Certified Hot Price") — 2026 dues payer no longer stated. Doesn't fit any Sept list (469 pts < 486 for 1BR+2BR; AKV 1BR/2BR alone lose vs renting). 2 status changes: VCL SSR 4301740000153743001 (was next-in-line #6 for 1BR+2BR) → **Pending**; PVB PLE4656 back to available (score 0). All three Sept top lists unchanged. Scraper health: all 10 sources ok. Broker alert emails (last 2 h): none. Fixes: none.
+**Run:** 2026-11-04 02:38 UTC (latest data: 02:36 UTC review-dispatched scrape — cron still hasn't fired since 23:57). 02:36 scrape: 6 new, 3 status changes, 1 gone — none reach a Sept top list. Highest-scoring new: OKW [OKF5117 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/old-key-west/okf5117/) (200 pts Feb UY, $101, $20,200; score 73, rank 62). ✔ Page checked 02:38: 0 pts Feb-2026, 319 in Feb-2027 (138 banked) + 200/yr; seller pays 2026 dues, buyer pays 2027 dues on 181 pts (~$2,029); can close after 11/25/2026; **OKW 2042 deed** — matches scraped data; borrowing ~167 for 1BR+2BR, doesn't beat the picks. Other new: OKW OK75076 (100 pts Dec UY $118, score 65), small OK75075 (51 pts) / VB VB72641 (54 pts), Riviera RRF2379 (200 pts $140, not a legacy resort), GFV 616133 relisted (400 pts $165, score 24). Went pending: Riviera RRC2367, BLT BL83769; PVB PLB4677 → Sale Pending. Gone: GFV 616174 ($165). All three Sept top lists unchanged. Scraper health: all 10 sources ok. Broker alert emails (last 2 h): none. Fixes: none.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -42,7 +42,7 @@ Next: **relisted 15:37** [HH HHI26452 (DVC Resale Experts)](https://www.dvcresal
 
 ## 3-bedroom grand villa, Sept, 6 nights (FYI)
 
-VCL OKW 4301740000155635003 leads ($5.9k, borrows 156), then SSR SS1286 ($5.7k, borrows 130) and VCL SSR 4301740000153743001 ($5.5k, borrows 190). (SSR 616593 gone.)
+VCL OKW 4301740000155635003 leads ($5.9k, borrows 156), then SSR SS1286 ($5.8k, borrows 130) and SSR 616710 (Fidelity via DVC Market, $5.2k, borrows 150, low ROFR). (VCL SSR 4301740000153743001 now pending.)
 
 ## Rent-out flips (secondary, a one-off at most; DVC bans regular renting)
 
@@ -53,6 +53,8 @@ VCL OKW 4301740000155635003 leads ($5.9k, borrows 156), then SSR SS1286 ($5.7k, 
 Also: Aulani [616395 (DVC Market)](https://dvcmarket.com/dvc-resale/aulani/200-points/616395) **cut $115 → $105** (200 pts Oct UY, 400 in Oct-2026 incl. 200 banked; +$3.4k flip on $23.2k) — score 75.5, not on a Sept list (Oct-2026 points expire Sep 30, 2027 so they'd cover Sept 2027 but at $105 it doesn't beat the picks above).
 
 ## Scraper health & fixes
+
+**02:36 run (review-dispatched): all 10 sources ok.** Cron hasn't fired since 23:57. No fixes made.
 
 **01:36 run (review-dispatched): all 10 sources ok** — counts unchanged. Cron didn't fire after 23:57. No fixes made.
 
