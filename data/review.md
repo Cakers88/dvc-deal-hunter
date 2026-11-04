@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-11-04 07:40 UTC (latest data: 07:38 UTC review-dispatched scrape; no scheduled cron run since 06:06). **No ranking changes in any top list this hour.** 07:38 scrape: 4 new (all Fidelity mirrors via DVC Market), 0 price changes, 0 status changes, 3 gone. **Scraper health:** all 10 sources ok. Broker alert emails (last 2 h): none. Fixes: none. Previous run (06:38): no changes.
+**Run:** 2026-11-04 10:40 UTC (latest data: 10:37 UTC review-dispatched scrape; GitHub has dropped every scheduled cron run since 06:06, and no scrape ran 08:38–10:36). **No real ranking changes.** 10:37 scrape: DVC Sales **renumbered #1 pick SSR SS1275 → SS1309** (same page /1082, same 170 pts Sep UY, $102, $17,340, 2026 dues reimbursed, 2054 deed; ✔ page checked 10:39 shows "Listing ID SS1309 · Live | listed 0 days ago" — the broker reset its listing date, so "48 days on market" leverage is now hidden but still real). The event log shows this as 1 new + 1 gone. 08:38 scrape: no changes. **Scraper health:** all 10 sources ok. Broker alert emails (last 3 h): none. Fixes: none.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -12,7 +12,7 @@ including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same 
 
 | # | Contract | Pts | $/pt | Price | Net cost (saves) | Cash tied / months | Exit | Book on | ROFR | Judgment |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1 | [SSR SS1275 (DVC Sales)](https://dvcsales.com/dvc-resale/saratoga-springs/170-points/1082) Sep UY | 170 | $102 | $17,340 | $7,260 ($4,890) | $20.6k / 14 | sell stripped | 2027-02-12 | medium | ✔ Buyer reimburses 2026 dues, 2054 deed; borrows 146, so you'd resell heavily stripped. Long time on market; room to negotiate. |
+| 1 | [SSR SS1309 (DVC Sales, was SS1275)](https://dvcsales.com/dvc-resale/saratoga-springs/170-points/1082) Sep UY | 170 | $102 | $17,340 | $7,260 ($4,890) | $20.6k / 14 | sell stripped | 2027-02-12 | medium | ✔ Buyer reimburses 2026 dues, 2054 deed; borrows 146, so you'd resell heavily stripped. Long time on market; room to negotiate. |
 | 2 | [BRV WBR51860 (DVC Resale Experts)](https://www.dvcresaleexperts.com/dvc-listing/wbr51860-march-170) Mar UY | 170 | $107 | $18,190 | $7,392 ($4,758) | $21.6k / 14 | sell stripped | 2027-02-12 | medium | ✔ **New 16:39**, page checked 16:42 ("Double Points"): 132 pts in Mar-2026 are *banked from 2025* — use by Feb 28, 2027, can't be rebanked, useless for Sept; 340 in Mar-2027 (170 banked) + **borrows 146** from 2028. Red flags: **Boulder Ridge 2042 deed** (thin resale, steep stripped discount), 2026 dues payer not stated (form only). Scraper marks the 132 as non-banked — doesn't affect the Sept math. |
 | 3 | [Aulani AUL242LBF1 (DVC Shop)](https://resales.dvcshop.com/listings/aulani-hawaii-aul242lbf1/) Feb UY | 200 | $95 | $19,000 | $7,686 ($4,464) | $23.1k / 14 | sell stripped | 2027-02-12 | medium | ✔ API+page 03:38: "200 points banked for 2026, 200 for 2027 and beyond" → 400 in Feb-2027 (usable to Jan 31 2028) + borrows 86 from 2028. Aulani points booking Aulani — the natural fit; 2062 deed. Red flags: "Low But Firm" (no haggling), dues split not stated, $10.96/pt dues, $95 in Disney's buyback range → medium ROFR. Model reads the banking text by convention; confirm with the broker before any offer. |
 | 4 | [OKW 4301740000155635003 (Vacation Club Life)](https://vacationclublife.com/listings/4301740000155635003) Feb UY | 210 | $85 | $17,850 | $7,692 ($4,458) | $22.5k / 14 | sell stripped | 2027-02-12 | **high** | ✔ (VCL API) 6 pts to use by Feb 1, 2027 + 414 coming Feb 1, 2027 (204 banked); borrows 72. Red flags: **OKW 2042 deed**, $85 below OKW buyback → ROFR risk, 2026/2027 dues split not stated. |
@@ -53,6 +53,8 @@ VCL OKW 4301740000155635003 leads ($5.9k, borrows 156), then Aulani AUL242LBF1 (
 Also: Aulani [616395 (DVC Market)](https://dvcmarket.com/dvc-resale/aulani/200-points/616395) **cut $115 → $105** (200 pts Oct UY, 400 in Oct-2026 incl. 200 banked; +$3.4k flip on $23.2k) — score 75.5, not on a Sept list (Oct-2026 points expire Sep 30, 2027 so they'd cover Sept 2027 but at $105 it doesn't beat the picks above).
 
 ## Scraper health & fixes
+
+**10:37 run (review-dispatched) and 08:37 run: all 10 sources ok** (DVC Market 818, DVC Resale Market 482, DVC Shop 237). Scheduled cron runs keep getting dropped by GitHub — reviews are dispatching scrapes to compensate. No fixes made.
 
 **07:38 run (review-dispatched): all 10 sources ok** — DVC Market churn only (+4 new Fidelity mirrors 616749–616752; gone 616615, 616710, 616713). Other new mirrors: BLT 616751 (220 pts $141, score 69.3, not on a Sept list); 616749/616752 not scored for Sept plans. No fixes made.
 
