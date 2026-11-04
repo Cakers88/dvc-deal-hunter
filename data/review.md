@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-11-04 05:38 UTC (latest data: 05:36 UTC review-dispatched scrape; cron still hasn't fired since 23:57). **No ranking changes this hour.** 05:36 scrape: 0 new, 0 price changes, 1 status change — Animal Kingdom Villas [AKB5625 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/animal-kingdom-lodge/akb5625/) (200 pts, $114) Reduced → Offer Accepted (not on any Sept list). **Scraper health:** all 10 sources ok; DVC Shop recovered (237 listings). Broker alert emails (last 2 h): none. Fixes: none. Previous run (04:40): DVC Shop ConnectTimeout blip; no ranking changes.
+**Run:** 2026-11-04 06:38 UTC (latest data: 06:36 UTC review-dispatched scrape; the **scheduled cron fired again at 06:06**). **No ranking changes this hour.** 06:06 and 06:36 scrapes: 0 new, 0 price changes, 0 status changes. **Scraper health:** all 10 sources ok. Broker alert emails (last 2 h): none. Fixes: none. Previous run (05:38): AKB5625 (DVC Resale Market) Reduced → Offer Accepted; no ranking changes.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -53,6 +53,8 @@ VCL OKW 4301740000155635003 leads ($5.9k, borrows 156), then Aulani AUL242LBF1 (
 Also: Aulani [616395 (DVC Market)](https://dvcmarket.com/dvc-resale/aulani/200-points/616395) **cut $115 → $105** (200 pts Oct UY, 400 in Oct-2026 incl. 200 banked; +$3.4k flip on $23.2k) — score 75.5, not on a Sept list (Oct-2026 points expire Sep 30, 2027 so they'd cover Sept 2027 but at $105 it doesn't beat the picks above).
 
 ## Scraper health & fixes
+
+**06:36 run (review-dispatched) and 06:06 run (scheduled): all 10 sources ok** — counts unchanged (DVC Shop 237, DVC Resale Market 482, DVC Market 806). No fixes made.
 
 **05:36 run (review-dispatched): all 10 sources ok** — DVC Shop 237 (recovered from the 04:38 ConnectTimeout), DVC Resale Market 482, DVC Market 806, others unchanged. No fixes made.
 
