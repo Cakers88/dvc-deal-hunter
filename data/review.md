@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-11-04 19:38 UTC. Still **no scheduled cron run since 14:31**; this review dispatched a scrape (run 41898553561, 19:36, ran promptly). **All 10 sources ok** (counts unchanged). **No ranking changes** on any Sept list. New this hour: [Aulani 616763 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/aulani/250-points/616763) (250 pts Mar UY $100, score 82.3, #5 overall). ✔ Page checked 19:37: 0 pts Mar-2026, **500 in Mar-2027** (250 banked) — covers the Sept 1BR+2BR (486) with **no borrowing**, but saves only ~$2.9k (net $9.3k, $29.3k tied up) vs $4.4k+ for the top 5; $100 is inside Disney's Aulani buyback range (medium ROFR); no dues reimbursement shown; DVC Market rates it "Fair 42/100". It's the cleanest no-borrow Aulani option but not a top-5 pick. Also new: BLT BLA3772 (DVC Resale Market, $153, score 58.5) and PVB 616762 ($176, score 29) — not relevant. CCV CC281 cut $145→$139 (Copper Creek, not legacy). Gone: BWV 616612 (was #2 flip), OKW 612472, 616650, and three DVC Store contracts marked sold (AK200-09-1008, SS150-12-1016-2, SS200-02-0901 — none on a Sept list). Broker alert emails (last 2 h): none. Fixes: none.
+**Run:** 2026-11-04 20:38 UTC. Still **no scheduled cron run since 14:31**; this review dispatched a scrape (run 41908298626, 20:37, ran promptly). **All 10 sources ok.** **No ranking changes** on any Sept list (savings figures drift by ~$50 as dates roll; tables below are from 19:38). New this hour, none relevant: [OKW OK65118 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/old-key-west/ok65118/) 310 pts Jun UY $90 (score 65.2, rank 213 — borrows 199 for the Sept 1BR+2BR, OKW 2042 deed, high ROFR), CCV 616427 (Copper Creek mirror of WCC13080, not legacy), SSR 616482 (25-pt mirror of SSR55395). Went pending: OKW OK25049, GF33375 (neither on a Sept list). Gone: SSR55395, WCC13080 (moved to DVC Market mirrors). Broker alert emails (last 2 h): none. Fixes: none.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -53,6 +53,8 @@ VCL OKW 4301740000155635003 leads ($5.9k, borrows 156), then Aulani AUL242LBF1 (
 Also: Aulani [616395 (DVC Market)](https://dvcmarket.com/dvc-resale/aulani/200-points/616395) **cut $115 → $105** (200 pts Oct UY, 400 in Oct-2026 incl. 200 banked; +$3.4k flip on $23.2k) — score 75.5, not on a Sept list (Oct-2026 points expire Sep 30, 2027 so they'd cover Sept 2027 but at $105 it doesn't beat the picks above).
 
 ## Scraper health & fixes
+
+**20:37 run (review-dispatched): all 10 sources ok** (DVC Market 817, DVC Resale Market 483, DVC Shop 237). No scheduled run since 14:31. No fixes made.
 
 **19:36 run (review-dispatched): all 10 sources ok.** No scheduled run since 14:31. No fixes made.
 
