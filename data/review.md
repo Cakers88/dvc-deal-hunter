@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-11-04 00:37 UTC (latest data: 23:57 UTC **scheduled** scrape — the cron fired on its own for the first time since 19:04). 23:57 scrape: 1 new — BWV [BWA3484 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/boardwalk/bwa3484/) (150 pts Dec UY, $152, 2042 deed; score 69, rank 120, not on any Sept list); 3 status changes, none on the Sept lists (RR82279 and BLE3838 → Offer Accepted, CCA3045 → Sale Pending). All three Sept lists unchanged from 23:40. Scraper health: all 10 sources ok. Broker alert emails (last 2 h): none. Fixes: none.
+**Run:** 2026-11-04 01:40 UTC (latest data: 01:36 UTC review-dispatched scrape — no scheduled run fired after 23:57). 01:36 scrape: 0 new; 1 price drop — AKV [AK86489 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/animal-kingdom-lodge/ak86489/) **$129 → $117** (225 pts Dec UY, $26,325; score 73, rank 62). ✔ Page checked 01:40: available, 244 pts in Dec-2026 (19 banked from 2025) + 225/yr, 2057 deed, low ROFR; the "full 2026 points with no dues" bonus label is gone (now "Certified Hot Price") — 2026 dues payer no longer stated. Doesn't fit any Sept list (469 pts < 486 for 1BR+2BR; AKV 1BR/2BR alone lose vs renting). 2 status changes: VCL SSR 4301740000153743001 (was next-in-line #6 for 1BR+2BR) → **Pending**; PVB PLE4656 back to available (score 0). All three Sept top lists unchanged. Scraper health: all 10 sources ok. Broker alert emails (last 2 h): none. Fixes: none.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -18,7 +18,7 @@ including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same 
 | 4 | [VB VBR30900 (DVC Resale Experts)](https://www.dvcresaleexperts.com/dvc-listing/vbr30900-february-220) Feb UY | 220 | $45 | $9,900 | $7,744 ($4,406) | $14.9k / 14 | sell stripped | 2027-02-12 | **high** | ⚠ 309 pts in Feb-2027 (89 banked), **borrows 177**. Least cash, but **Vero Beach 2042 deed**, $45 is ROFR bait, thin resale market. |
 | 5 | [SSR SS1286 (DVC Sales)](https://dvcsales.com/dvc-resale/saratoga-springs/220-points/1747) Sep UY | 220 | $104 | $22,880 | $7,811 ($4,339) | $26.7k / 14 | sell stripped | 2027-02-12 | low | ✔ (earlier) Borrows only 46, low ROFR (above $98 buyback), 2054 deed — the cleanest contract in this list; costs the most cash. |
 
-Next: VCL SSR 4301740000153743001 #6 ($4,144), SSR 616525 (Fidelity) #7 ($4,115), VB VBR66338 #8 ($3,965, no borrowing, Vero 2042 deed). **Under Contract 23:36:** SSR SS1297 (DVC Sales, was #1, $98 → likely to face ROFR). **Gone 06:37:** SSR 616593 (Fidelity via DVC Market, was #3) — disappeared from DVC Market like most Fidelity mirrors within ~1 day; it may reappear under a new ID. Further down: **new** SSR [616710 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/saratoga-springs/210-points/616710) #11 ($3,652, borrows only 66, low ROFR).
+Next: SSR 616525 (Fidelity) #6 ($4,114), VB VBR66338 #7 ($3,963, no borrowing, Vero 2042 deed), HH HHI44341 #8 ($3,953, no borrowing). **Pending 01:36:** VCL SSR 4301740000153743001 (was #6). **Under Contract 23:36:** SSR SS1297 (DVC Sales, was #1, $98 → likely to face ROFR). **Gone 06:37:** SSR 616593 (Fidelity via DVC Market, was #3) — disappeared from DVC Market like most Fidelity mirrors within ~1 day; it may reappear under a new ID. Further down: **new** SSR [616710 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/saratoga-springs/210-points/616710) #11 ($3,652, borrows only 66, low ROFR).
 
 ## 1-bedroom, Sept, 6 nights (needs 204 pts; renting would cost $5,100)
 
@@ -53,6 +53,8 @@ VCL OKW 4301740000155635003 leads ($5.9k, borrows 156), then SSR SS1286 ($5.7k, 
 Also: Aulani [616395 (DVC Market)](https://dvcmarket.com/dvc-resale/aulani/200-points/616395) **cut $115 → $105** (200 pts Oct UY, 400 in Oct-2026 incl. 200 banked; +$3.4k flip on $23.2k) — score 75.5, not on a Sept list (Oct-2026 points expire Sep 30, 2027 so they'd cover Sept 2027 but at $105 it doesn't beat the picks above).
 
 ## Scraper health & fixes
+
+**01:36 run (review-dispatched): all 10 sources ok** — counts unchanged. Cron didn't fire after 23:57. No fixes made.
 
 **23:57 run (scheduled — cron firing again): all 10 sources ok** — DVC Resale Market 476 (+1), others unchanged. No fixes made.
 
