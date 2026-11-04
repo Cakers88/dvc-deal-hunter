@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-11-04 04:40 UTC (latest data: 04:38 UTC review-dispatched scrape; cron still hasn't fired since 23:57). **No ranking changes this hour.** 04:38 scrape: 0 new, 0 price changes, 1 status change — Riviera [RRB2173 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/riviera/rrb2173/) Offer Accepted → Sale Pending (not on any Sept list). **Scraper health:** DVC Shop **ok:false** at 04:38 (ConnectTimeout on the WP API) after ok at 03:37 — its API answered in 0.8 s from here at 04:40, so transient; its 260 listings (incl. Aulani AUL242LBF1) are carried over. Broker alert emails (last 2 h): none. Fixes: none. Previous run (03:38): Aulani AUL242LBF1 moved to #3 for 1BR+2BR after DVC Shop rewrote it to 400 pts in Feb-2027 (200 banked).
+**Run:** 2026-11-04 05:38 UTC (latest data: 05:36 UTC review-dispatched scrape; cron still hasn't fired since 23:57). **No ranking changes this hour.** 05:36 scrape: 0 new, 0 price changes, 1 status change — Animal Kingdom Villas [AKB5625 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/animal-kingdom/akb5625/) (200 pts, $114) Reduced → Offer Accepted (not on any Sept list). **Scraper health:** all 10 sources ok; DVC Shop recovered (237 listings). Broker alert emails (last 2 h): none. Fixes: none. Previous run (04:40): DVC Shop ConnectTimeout blip; no ranking changes.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -53,6 +53,8 @@ VCL OKW 4301740000155635003 leads ($5.9k, borrows 156), then Aulani AUL242LBF1 (
 Also: Aulani [616395 (DVC Market)](https://dvcmarket.com/dvc-resale/aulani/200-points/616395) **cut $115 → $105** (200 pts Oct UY, 400 in Oct-2026 incl. 200 banked; +$3.4k flip on $23.2k) — score 75.5, not on a Sept list (Oct-2026 points expire Sep 30, 2027 so they'd cover Sept 2027 but at $105 it doesn't beat the picks above).
 
 ## Scraper health & fixes
+
+**05:36 run (review-dispatched): all 10 sources ok** — DVC Shop 237 (recovered from the 04:38 ConnectTimeout), DVC Resale Market 482, DVC Market 806, others unchanged. No fixes made.
 
 **04:38 run (review-dispatched): 9 of 10 sources ok** — **DVC Shop ok:false** (ConnectTimeout on resales.dvcshop.com/wp-json; API reachable at 04:40, transient, second blip in 3 runs — fix only if it fails twice in a row). Other counts unchanged. No fixes made.
 
