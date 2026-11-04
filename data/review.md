@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-11-03 23:40 UTC (latest data: 23:36 UTC scrape, review-dispatched — no scheduled run since 19:04). 23:36 scrape: 0 new, 0 status, **1 gone — SSR SS1297, the 1BR+2BR #1, is now Under Contract** (✔ broker page 23:38: "Make Offer" replaced by "Under Contract"; DVC Sales' sold-history table shows a 165-pt SSR at $98 sold after 24 days). Everything below moves up one in that list; other Sept lists unchanged. Scraper health: all 10 sources ok. Broker alert emails (last 2 h): none. Fixes: none.
+**Run:** 2026-11-04 00:37 UTC (latest data: 23:57 UTC **scheduled** scrape — the cron fired on its own for the first time since 19:04). 23:57 scrape: 1 new — BWV [BWA3484 (DVC Resale Market)](https://www.dvcresalemarket.com/listings/boardwalk/bwa3484/) (150 pts Dec UY, $152, 2042 deed; score 69, rank 120, not on any Sept list); 3 status changes, none on the Sept lists (RR82279 and BLE3838 → Offer Accepted, CCA3045 → Sale Pending). All three Sept lists unchanged from 23:40. Scraper health: all 10 sources ok. Broker alert emails (last 2 h): none. Fixes: none.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -53,6 +53,8 @@ VCL OKW 4301740000155635003 leads ($5.9k, borrows 156), then SSR SS1286 ($5.7k, 
 Also: Aulani [616395 (DVC Market)](https://dvcmarket.com/dvc-resale/aulani/200-points/616395) **cut $115 → $105** (200 pts Oct UY, 400 in Oct-2026 incl. 200 banked; +$3.4k flip on $23.2k) — score 75.5, not on a Sept list (Oct-2026 points expire Sep 30, 2027 so they'd cover Sept 2027 but at $105 it doesn't beat the picks above).
 
 ## Scraper health & fixes
+
+**23:57 run (scheduled — cron firing again): all 10 sources ok** — DVC Resale Market 476 (+1), others unchanged. No fixes made.
 
 **23:36 run (review-dispatched): all 10 sources ok** — DVC Resale Market 475 (+2), DVC Sales 72 (−1, SS1297), DVC Store 78, DVC Market 806, DVC Resale Experts 97, others unchanged. Cron still not firing on its own (last scheduled run 19:04). No fixes made.
 
