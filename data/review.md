@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-11-05 20:40 UTC. Latest scrape 20:36 (review-dispatched). All 10 sources ok. **No change to any Sept top list.** 20:36 events: new DVC Resale Market Riviera RR92378 (250 Dec UY $138, full 2026 pts with no dues — Riviera can't book Aulani on resale, so not scored); gone: Fidelity mirrors BWV 616787 (the 0-point listing) and 616485 ($140) — neither was a pick. Broker alert emails (last 2 h): none. Fixes: none. *(Previous run 19:40: VB 615959/615960 cut to $43/pt, not picks.)*
+**Run:** 2026-11-05 21:40 UTC. Latest scrape 21:37 (review-dispatched). All 10 sources ok. **No change to any Sept top list.** 21:37 events: DVC Resale Experts **VB VBR66338 cut $52 → $50** (250 Sep UY, 250 pts each in Sep-2026/27/28, no borrowing, 2042 deed, dues $3,722/yr ($14.89/pt), 2026 dues payer negotiable — ✔ broker page 21:40); now #9 for Sept 1BR+2BR ($4,147) and #5 for the 3BR GV, still behind the top 5. VB VBR66336 cut $49 → $47 (not a pick). New BWV88839 (150 Mar UY $121, 0 pts 2026, 2042 deed — not a pick). RR92359 (Riviera) went Offer Accepted; gone: BWV03260 ($121). Broker alert emails (last 2 h): none. Fixes: none. *(Previous run 20:40: no list changes.)*
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -21,7 +21,7 @@ including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same 
 | 4 | [Aulani AUL242LBF1 (DVC Shop)](https://resales.dvcshop.com/listings/aulani-hawaii-aul242lbf1/) Feb UY | 200 | $95 | $19,000 | $7,667 ($4,483) | $23.1k / 14 | sell stripped | 2027-02-12 | medium | ✔ 400 in Feb-2027 (200 banked) + borrows 86. Aulani points for Aulani, 2062 deed. "Low But Firm", dues split not stated. Confirm banking text with broker. |
 | 5 | [OKW 4301740000155635003 (Vacation Club Life)](https://vacationclublife.com/listings/4301740000155635003) Feb UY | 210 | $85 | $17,850 | $7,673 ($4,477) | $22.5k / 14 | sell stripped | 2027-02-12 | **high** | ✔ (VCL API) 414 coming Feb 1 2027 (204 banked); borrows 72. **OKW 2042 deed**, below buyback → ROFR risk, dues split not stated. |
 
-Next: VB VBR30900 #6 ($4,440, borrows 177, Vero 2042 deed, ROFR bait), SSR SS1286 (DVC Sales) #7 ($4,403; borrows only 46, low ROFR, 2054 deed — still the cleanest contract), SSR 616525 (Fidelity) #8 ($4,159), VB VBR66338 #9 ($4,061, no borrowing, Vero 2042 deed). Top 5 are within ~$480 of each other — effectively tied. **Under Contract 23:36:** SSR SS1297 (DVC Sales, was #1). **Pending 01:36:** VCL SSR 4301740000153743001.
+Next: VB VBR30900 #6 ($4,440, borrows 177, Vero 2042 deed, ROFR bait), SSR SS1286 (DVC Sales) #7 ($4,403; borrows only 46, low ROFR, 2054 deed — still the cleanest contract), SSR 616525 (Fidelity) #8 ($4,159), VB VBR66338 #9 ($4,147 after cut to $50, no borrowing, Vero 2042 deed). Top 5 are within ~$480 of each other — effectively tied. **Under Contract 23:36:** SSR SS1297 (DVC Sales, was #1). **Pending 01:36:** VCL SSR 4301740000153743001.
 
 ## 1-bedroom, Sept, 6 nights (needs 204 pts; renting would cost $5,100)
 
@@ -56,6 +56,8 @@ VCL OKW 4301740000155635003 leads ($6.0k, borrows 156), then **new SSR SSR90420*
 Also: Aulani [616395 (DVC Market)](https://dvcmarket.com/dvc-resale/aulani/200-points/616395) **cut $115 → $105** (200 pts Oct UY, 400 in Oct-2026 incl. 200 banked; +$3.4k flip on $23.2k) — score 75.5, not on a Sept list (Oct-2026 points expire Sep 30, 2027 so they'd cover Sept 2027 but at $105 it doesn't beat the picks above).
 
 ## Scraper health & fixes
+
+**21:37 run (review-dispatched): all 10 sources ok** (DVC Market 821, DVC Resale Market 495, DVC Shop 235, DVC Resale Experts 100, DVC Sales 75). No scheduled cron since 16:48. No fixes made.
 
 **20:36 run (review-dispatched): all 10 sources ok** (DVC Market 821, DVC Resale Market 495, DVC Shop 235, DVC Resale Experts 100, DVC Sales 75). No fixes made.
 
