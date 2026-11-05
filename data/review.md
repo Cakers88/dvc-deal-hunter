@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-11-05 13:40 UTC. Latest scrape 13:36 (review-dispatched; scheduled crons still skipped since 08:29). All 10 sources ok. **No ranking changes** on any Sept list (savings drift ≤ $20). Events: VCL GFV 4301740000155688003 (150 pts Dec UY, $175) → **Pending** (not on any list); DVC Resale Experts [PVB POL98270](https://www.dvcresaleexperts.com/dvc-listing/pol98270-october-150) **relisted** (150 pts Oct UY, $179, $26,850) — ✔ page checked 13:39: 300 pts in Oct-2026 (150 banked from 2025, use by Sep 30 2027), 150/yr after, 2066 deed, 2026 dues payer not stated (form only); scraped data matches. Score 78 overall but at $179 it loses money vs renting for every Sept setup (1BR −$2.5k) — not a pick. Broker alert emails (last 2 h): none. Fixes: none. *(Previous run 12:36: DVC Resale Market BWV BWB3428 cut $125 → $119, stripped, irrelevant.)*
+**Run:** 2026-11-05 14:40 UTC. Latest scrape 14:37 (review-dispatched; scheduled crons still skipped since 08:29). All 10 sources ok. **No ranking changes** on any Sept list (savings drift ≤ $45, model n 912→914). Events: new DVC Resale Market AKV [AKC6567](https://www.dvcresalemarket.com/listings/animal-kingdom-lodge/akc6567/) (50 pts Oct UY, $130 — too small to fit), PVB [PLC4708](https://www.dvcresalemarket.com/listings/polynesian/plc4708/) (100 pts Oct UY, $180, score 0); GFV 616174 (Fidelity mirror, 400 pts $165) relisted while GFV 616133 (same terms) went gone — mirror ID churn; BCV BCC2596 (150 pts $144) → Offer Accepted; BCB2509, AKG6556 → Sale Pending. None near any list, so no page checks needed. Broker alert emails (last 2 h): none. Fixes: none. *(Previous run 13:36: VCL GFV 4301740000155688003 → Pending; PVB POL98270 relisted at $179 — not a pick.)*
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -53,6 +53,8 @@ VCL OKW 4301740000155635003 leads ($5.9k, borrows 156), then Aulani AUL242LBF1 (
 Also: Aulani [616395 (DVC Market)](https://dvcmarket.com/dvc-resale/aulani/200-points/616395) **cut $115 → $105** (200 pts Oct UY, 400 in Oct-2026 incl. 200 banked; +$3.4k flip on $23.2k) — score 75.5, not on a Sept list (Oct-2026 points expire Sep 30, 2027 so they'd cover Sept 2027 but at $105 it doesn't beat the picks above).
 
 ## Scraper health & fixes
+
+**14:37 run (review-dispatched): all 10 sources ok.** Crons skipped 08:52–14:22. No fixes made.
 
 **13:36 run (review-dispatched): all 10 sources ok** (DVC Market 821, DVC Resale Market 493, DVC Shop 237, DVC Sales 76, DVC Resale Experts 95→96). Crons skipped 08:52–13:22. No fixes made.
 
