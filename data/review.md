@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-11-05 11:36 UTC. Latest scrape 11:36 (review-dispatched; no scheduled run since 08:29 — GitHub dropped the 08:52–11:22 crons; a 09:36 dispatch found no changes). All 10 sources ok. **No ranking changes** on any Sept list. At 11:36 DVC Sales relisted two Aulani contracts under new IDs (AU386 → AU402, 100 pts Sep UY $96; AU389 → [AU403](https://dvcsales.com/dvc-resale/aulani/300-points/1713), 300 pts Aug UY $95, $28,500) and added [SSR SS1310](https://dvcsales.com/dvc-resale/saratoga-springs/200-points/1942) (200 pts Aug UY $102, only 7 pts left in Aug-2026) and [AKV AK832](https://dvcsales.com/dvc-resale/animal-kingdom/160-points/1943) (160 pts Aug UY $108, 0 pts in Aug-2026). ✔ Pages checked 11:40, all "Live, listed 0 days ago", scraped points match; closing Dec 23 2026, buyer reimburses 2026 dues and prepays 2027. None makes a Sept list (best: AU403 #49 for 1BR+2BR; AK832 #27 for 2BR with 122 borrowed). AU403 covers a 3BR GV with 597 pts in hand and no borrowing, but the 297 Aug-2026 pts must be banked by Mar 31 2027 and it ties up ~$36.5k. Broker alert emails (last 3 h): none. Fixes: none. *(Previous run 08:36: no ranking changes; Fidelity mirror 616755 gone.)*
+**Run:** 2026-11-05 12:36 UTC. Latest scrape 12:36 (review-dispatched; scheduled crons skipped again since 08:29). All 10 sources ok. **No ranking changes** on any Sept list. Only event: DVC Resale Market [BWV BWB3428](https://www.dvcresalemarket.com/listings/boardwalk/bwb3428/) cut $125 → $119 (250 pts Mar UY, $29,750) — but it has 0 pts in Mar-2026 and Mar-2027 (stripped), so score 0, irrelevant for 2027; $119 is under Disney's $123 BWV buyback (high ROFR). Broker alert emails (last 2 h): none. Fixes: none. *(Previous run 11:36: DVC Sales relisted AU386→AU402, AU389→AU403, added SSR SS1310 and AKV AK832; none made a Sept list.)*
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -53,6 +53,8 @@ VCL OKW 4301740000155635003 leads ($5.9k, borrows 156), then Aulani AUL242LBF1 (
 Also: Aulani [616395 (DVC Market)](https://dvcmarket.com/dvc-resale/aulani/200-points/616395) **cut $115 → $105** (200 pts Oct UY, 400 in Oct-2026 incl. 200 banked; +$3.4k flip on $23.2k) — score 75.5, not on a Sept list (Oct-2026 points expire Sep 30, 2027 so they'd cover Sept 2027 but at $105 it doesn't beat the picks above).
 
 ## Scraper health & fixes
+
+**12:36 run (review-dispatched): all 10 sources ok** (DVC Market 821, DVC Resale Market 493, DVC Shop 237, DVC Sales 76). Crons skipped 08:52–12:22. No fixes made.
 
 **11:36 run (review-dispatched): all 10 sources ok** (DVC Market 821, DVC Resale Market 493, DVC Shop 237, DVC Sales 74→76). Scheduled crons silently skipped 08:52–11:22 (GitHub load); 09:36 dispatch ok, no changes. No fixes made.
 
