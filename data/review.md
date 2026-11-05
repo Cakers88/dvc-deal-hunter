@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-11-04 23:38 UTC. No scheduled cron since 20:55; this review dispatched a scrape (23:36). **All 10 sources ok.** **No ranking changes** on any Sept list. New at 23:36 (all DVC Resale Market): [SSR SS38682](https://www.dvcresalemarket.com/listings/saratoga-springs/ss38682/) (160 pts Apr UY, $104, $16,640, score 75.1) — ✔ page 23:38: 0 pts Apr-2026, 179 in Apr-2027 (19 banked from 2026), 160 Apr-2028; seller pays 2026 dues, buyer 2027; 2054 deed, low ROFR; scraped data correct. Ranks 2BR #25 (saves $621, borrows 103) and 1BR #39 — not competitive (no Apr-2026 points to bank). Also new: CC33032, GF33391, GF93392 (non-legacy/low score). Previous 22:37 changes: BWV BWA3464 cut $153→$138 (1BR+2BR #68, too pricey), BRV BRF1940 cut to $114, AKV AK66536 gone. Broker alert emails (last 2 h): none. Fixes: none.
+**Run:** 2026-11-05 00:38 UTC. No scheduled cron since 20:55; this review dispatched a scrape (00:37). **All 10 sources ok.** **No ranking changes** on any Sept list. Changes at 00:37 (all DVC Resale Market, none on a Sept list): new [BCV BCC2596](https://www.dvcresalemarket.com/listings/beach-club/bcc2596/) (150 pts Apr UY, $144, 0 Apr-2026 pts, 2042 deed, score 60.4 — not competitive); BCB2509 → Offer Accepted; BLE3838 → Sale Pending; OKC5108 relabeled "Extended to 2057". Previous 23:36: SSR SS38682 new (✔ checked, 2BR #25 — not competitive). Broker alert emails (last 2 h): none. Fixes: none.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -53,6 +53,8 @@ VCL OKW 4301740000155635003 leads ($5.9k, borrows 156), then Aulani AUL242LBF1 (
 Also: Aulani [616395 (DVC Market)](https://dvcmarket.com/dvc-resale/aulani/200-points/616395) **cut $115 → $105** (200 pts Oct UY, 400 in Oct-2026 incl. 200 banked; +$3.4k flip on $23.2k) — score 75.5, not on a Sept list (Oct-2026 points expire Sep 30, 2027 so they'd cover Sept 2027 but at $105 it doesn't beat the picks above).
 
 ## Scraper health & fixes
+
+**00:37 run (review-dispatched): all 10 sources ok.** No scheduled run since 20:55. No fixes made.
 
 **23:36 run (review-dispatched): all 10 sources ok.** No scheduled run since 20:55. No fixes made.
 
