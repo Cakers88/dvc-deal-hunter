@@ -4207,3 +4207,15 @@
 {"t": "2026-11-05T01:26:49+00:00", "uid": "dvcsales:OK42512", "event": "price_change", "changes": {"price": [4180.0, 3960.0], "price_per_point": [95.0, 90.0]}}
 {"t": "2026-11-05T01:26:49+00:00", "uid": "dvcresalemarket:BLF3855", "event": "new"}
 {"t": "2026-11-05T01:26:49+00:00", "uid": "dvcresalemarket:BLB3840", "event": "status_change", "changes": {"availability": ["pending", "available"], "status_raw": ["Offer Accepted", "Small Contract"]}}
+{"t": "2026-11-05T02:36:23+00:00", "uid": "dvcsales:BR245", "event": "new"}
+{"t": "2026-11-05T02:36:23+00:00", "uid": "dvcsales:BR244", "event": "new"}
+{"t": "2026-11-05T02:36:23+00:00", "uid": "dvcsales:AK817", "event": "price_change", "changes": {"price": [15360.0, 15240.0], "price_per_point": [128.0, 127.0]}}
+{"t": "2026-11-05T02:36:23+00:00", "uid": "dvcresalemarket:BL63841", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["New", "Offer Accepted"]}}
+{"t": "2026-11-05T02:36:23+00:00", "uid": "dvcshop:POLY372LBF1", "event": "new"}
+{"t": "2026-11-05T02:36:23+00:00", "uid": "dvcmarket:616755", "event": "new"}
+{"t": "2026-11-05T02:36:23+00:00", "uid": "dvcmarket:616133", "event": "new", "relisted": true, "gone_at": "2026-11-04T14:31:56+00:00", "changes": {}}
+{"t": "2026-11-05T02:36:23+00:00", "uid": "dvcmarket:616174", "event": "gone", "last": {"price": 66000.0, "price_per_point": 165.0, "availability": "available"}}
+{"t": "2026-11-05T02:36:23+00:00", "uid": "dvcresalemarket:CC83022", "event": "gone", "last": {"price": 57200.0, "price_per_point": 143.0, "availability": "pending"}}
+{"t": "2026-11-05T02:36:23+00:00", "uid": "dvcresalemarket:HHE1822", "event": "gone", "last": {"price": 5625.0, "price_per_point": 75.0, "availability": "pending"}}
+{"t": "2026-11-05T02:36:23+00:00", "uid": "dvcresalemarket:PLE4665", "event": "gone", "last": {"price": 16100.0, "price_per_point": 161.0, "availability": "pending"}}
+{"t": "2026-11-05T02:36:23+00:00", "uid": "dvcshop:POLU372LBF1", "event": "gone", "last": {"price": 19080.0, "price_per_point": 159.0, "availability": "available"}}
