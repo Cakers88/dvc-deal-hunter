@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-11-05 00:38 UTC. No scheduled cron since 20:55; this review dispatched a scrape (00:37). **All 10 sources ok.** **No ranking changes** on any Sept list. Changes at 00:37 (all DVC Resale Market, none on a Sept list): new [BCV BCC2596](https://www.dvcresalemarket.com/listings/beach-club/bcc2596/) (150 pts Apr UY, $144, 0 Apr-2026 pts, 2042 deed, score 60.4 — not competitive); BCB2509 → Offer Accepted; BLE3838 → Sale Pending; OKC5108 relabeled "Extended to 2057". Previous 23:36: SSR SS38682 new (✔ checked, 2BR #25 — not competitive). Broker alert emails (last 2 h): none. Fixes: none.
+**Run:** 2026-11-05 01:37 UTC. Latest scrape 01:26 (all 10 sources ok). **No ranking changes** on any Sept list. Changes at 01:26 (none on a Sept list): new [BLT BLF3855](https://www.dvcresalemarket.com/listings/bay-lake-tower/blf3855/) (DVC Resale Market, 200 pts Feb UY, $143, 0 Feb-2026 pts / 154 Feb-2027, 2060 deed, score 54 — not competitive); OKW OK42512 (DVC Sales, 44 pts, 2042 deed) cut $95 → $90 — too small to matter; BLT BLB3840 (25 pts) back to available. Previous 00:37: BCV BCC2596 new (not competitive), BCB2509 Offer Accepted, BLE3838 Sale Pending. Broker alert emails (last 2 h): none. Fixes: none.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -53,6 +53,8 @@ VCL OKW 4301740000155635003 leads ($5.9k, borrows 156), then Aulani AUL242LBF1 (
 Also: Aulani [616395 (DVC Market)](https://dvcmarket.com/dvc-resale/aulani/200-points/616395) **cut $115 → $105** (200 pts Oct UY, 400 in Oct-2026 incl. 200 banked; +$3.4k flip on $23.2k) — score 75.5, not on a Sept list (Oct-2026 points expire Sep 30, 2027 so they'd cover Sept 2027 but at $105 it doesn't beat the picks above).
 
 ## Scraper health & fixes
+
+**01:26 run: all 10 sources ok** (DVC Market 817, DVC Resale Market 494, DVC Shop 237). No fixes made.
 
 **00:37 run (review-dispatched): all 10 sources ok.** No scheduled run since 20:55. No fixes made.
 
