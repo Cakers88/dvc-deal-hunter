@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-11-05 02:36 UTC. Latest scrape 02:36 (review-dispatched; all 10 sources ok). **No ranking changes** on any Sept list (savings figures drift ±$70 with the model date). Changes at 02:36 (none on a Sept list, none top-25 or score ≥ 70): new DVC Sales [BRV BR244](https://dvcsales.com/dvc-resale/boulder-ridge/200-points/1939) (200 pts Feb UY, $97, 0 Feb-2026 pts, 2042 deed, rank 143) and BRV BR245 (50 pts); AKV AK817 (DVC Sales, 120 pts) $128 → $127 (rank 42); DVC Shop Poly re-ID'd POLU372LBF1 → POLY372LBF1 (now pending); Fidelity mirrors 616755 (Poly 120 pts $159, new) and 616133 (GF 400 pts $165, relisted); gone: GF 616174, CC83022, HHE1822, PLE4665 (all pending/expensive). BL63841 → Offer Accepted. Previous 01:26: BLT BLF3855 new (not competitive), OKW OK42512 $95 → $90, BLB3840 back to available. Broker alert emails (last 2 h): none. Fixes: none.
+**Run:** 2026-11-05 03:37 UTC. Latest scrape 03:36 (review-dispatched; all 10 sources ok). **No ranking changes** on any Sept list. Changes at 03:36 (none on a Sept list, none top-25 or score ≥ 70): new DVC Sales [AKV AK831](https://dvcsales.com/dvc-resale/animal-kingdom/120-points/1941) (120 pts Dec UY, $120, only 56 Dec-2026 pts, score 52, rank 424); new DVC Resale Market AKV AKC6553 (50 pts, $7,000, 0 Mar-2026 pts — too small); DVC Store SSR SS050-08-1104-2 (50 pts) → Sale Pending; BLT BLA3772 (200 pts, $153) → Offer Accepted. Previous 02:36: new BRV BR244/BR245 (DVC Sales), AKV AK817 $128 → $127, Fidelity mirrors 616755/616133, BL63841 → Offer Accepted. Broker alert emails (last 2 h): none. Fixes: none.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -53,6 +53,8 @@ VCL OKW 4301740000155635003 leads ($5.9k, borrows 156), then Aulani AUL242LBF1 (
 Also: Aulani [616395 (DVC Market)](https://dvcmarket.com/dvc-resale/aulani/200-points/616395) **cut $115 → $105** (200 pts Oct UY, 400 in Oct-2026 incl. 200 banked; +$3.4k flip on $23.2k) — score 75.5, not on a Sept list (Oct-2026 points expire Sep 30, 2027 so they'd cover Sept 2027 but at $105 it doesn't beat the picks above).
 
 ## Scraper health & fixes
+
+**03:36 run (review-dispatched): all 10 sources ok** (DVC Market 819, DVC Resale Market 492, DVC Shop 237). No fixes made.
 
 **02:36 run (review-dispatched): all 10 sources ok.** No scheduled run since 01:26. No fixes made.
 
