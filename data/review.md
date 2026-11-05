@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-11-05 07:37 UTC. Latest scrape 07:36 (review-dispatched; all 10 sources ok; no scheduled run since 06:37). **No ranking changes** on any Sept list. Changes at 07:36: [VB 615482 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/vero-beach/210-points/615482) **cut $52 → $45** (210 pts Mar UY, $9,450; ✔ page 07:40: 7 pts Mar-2026 + 210 Mar-2027, buyer reimburses 2026 dues on the 7 pts, $104; listed 47 days) — score 70.4 but only 210 usable pts for Sept, so #58 for 1BR / #36 for 2BR; Vero 2042 deed, $45 ROFR bait; not a pick. New [BCV 616782 — Fidelity via DVC Market](https://dvcmarket.com/dvc-resale/beach-club/270-points/616782) (270 pts Feb UY, $130) has no points until Feb-2028 — useless for Sept 2027 (score 53). Gone 07:36 (Fidelity mirror churn): OKW 616750 (was 2BR 'Next' #6), HH 616109, CCV 616427, SSR 616482, SSR 616711 — none on a Sept list. Broker alert emails (last 2 h): none. Fixes: none.
+**Run:** 2026-11-05 08:36 UTC. Latest scrape 08:29 (scheduled; all 10 sources ok). **No ranking changes** on any Sept list. Only change at 08:29: Fidelity mirror dvcmarket:616755 ($159/pt, $19,080) went gone — not on any Sept list. Broker alert emails (last 2 h): none. Fixes: none. *(Previous run 07:37: VB 615482 cut $52 → $45, not a pick; new BCV 616782 has no points until Feb-2028; five Fidelity mirrors gone, none on a Sept list.)*
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -53,6 +53,8 @@ VCL OKW 4301740000155635003 leads ($5.9k, borrows 156), then Aulani AUL242LBF1 (
 Also: Aulani [616395 (DVC Market)](https://dvcmarket.com/dvc-resale/aulani/200-points/616395) **cut $115 → $105** (200 pts Oct UY, 400 in Oct-2026 incl. 200 banked; +$3.4k flip on $23.2k) — score 75.5, not on a Sept list (Oct-2026 points expire Sep 30, 2027 so they'd cover Sept 2027 but at $105 it doesn't beat the picks above).
 
 ## Scraper health & fixes
+
+**08:29 run (scheduled): all 10 sources ok** (DVC Market 821, DVC Resale Market 493, DVC Shop 237). No fixes made.
 
 **07:36 run (review-dispatched): all 10 sources ok**. No scheduled run since 06:37. No fixes made.
 
