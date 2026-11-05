@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-11-05 04:37 UTC. Latest scrape 04:36 (review-dispatched; all 10 sources ok). **No ranking changes** on any Sept list. Only change at 04:36: DVC by Resale [BWV B506BA1](https://www.dvcbyresale.com/buy.php?listid=1880136777387659) (50 pts Jun UY, $140, 1 pt in Jun-2026) → "Offer Received" — not on any Sept list. Previous 03:36: new AKV AK831 (DVC Sales, 120 pts $120) and AKV AKC6553 (50 pts), SSR SS050-08-1104-2 → Sale Pending, BLT BLA3772 → Offer Accepted. Broker alert emails (last 2 h): none. Fixes: none. Savings figures below drift by ~$50 run-to-run as interest/dates roll; order unchanged.
+**Run:** 2026-11-05 05:37 UTC. Latest scrape 05:36 (review-dispatched; all 10 sources ok). **No ranking changes** on any Sept list. Only change at 05:36: new DVC Resale Market [OKW OK75102](https://www.dvcresalemarket.com/listings/old-key-west/ok75102/) (50 pts Aug UY, $135, extended to 2057; 100 in Aug-2026 incl. 50 banked; seller pays 2026 dues) — too small and pricey for any Sept list (not scored). Previous 04:36: DVC by Resale BWV B506BA1 → "Offer Received". Broker alert emails (last 2 h): none. Fixes: none. Savings figures below drift by ~$50 run-to-run as interest/dates roll; order unchanged.
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -53,6 +53,8 @@ VCL OKW 4301740000155635003 leads ($5.9k, borrows 156), then Aulani AUL242LBF1 (
 Also: Aulani [616395 (DVC Market)](https://dvcmarket.com/dvc-resale/aulani/200-points/616395) **cut $115 → $105** (200 pts Oct UY, 400 in Oct-2026 incl. 200 banked; +$3.4k flip on $23.2k) — score 75.5, not on a Sept list (Oct-2026 points expire Sep 30, 2027 so they'd cover Sept 2027 but at $105 it doesn't beat the picks above).
 
 ## Scraper health & fixes
+
+**05:36 run (review-dispatched): all 10 sources ok** (DVC Market 818, DVC Resale Market 492+1, DVC Shop 237). No fixes made.
 
 **04:36 run (review-dispatched): all 10 sources ok** (DVC Market 818, DVC Resale Market 492, DVC Shop 237). No fixes made.
 
