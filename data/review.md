@@ -1,6 +1,6 @@
 # DVC Deal Hunter — hourly review
 
-**Run:** 2026-11-05 18:45 UTC. Latest scrape 18:36 (review-dispatched; no scheduled cron since 16:48). All 10 sources ok. **Headline:** the DVC Resale Experts placeholder **SSR SSR90421 is now filled in — 115 pts Jun UY at $101, International Seller** — and it lands **#1 for the Sept 2BR** (saves ~$2.3k, borrows 52) and **#2 for the Sept 1BR** (saves ~$0.8k, no borrowing). Page checked 18:40. SSR90420 (same seller type, now tagged "International Seller") moves up to #3 on the 1BR+2BR list. Other events: new OKW24750 (135 pts Feb UY $107, 2057 deed, 0 pts in 2026 — not a fit), new DVC Sales BWV BW437 (160 pts Oct UY $115, 2042 deed; **the broker page itself shows 0 available points in every year** — not a scraper bug, re-check once filled in), new HH HHC1843 (50 pts $72, too small); BRC1938 → Sale Pending. Broker alert emails (last 2 h): none. Fixes: none. *(Previous run 17:45: SSR90420 entered at #5.)*
+**Run:** 2026-11-05 19:40 UTC. Latest scrape 19:36 (review-dispatched). All 10 sources ok. **No change to any Sept top list.** 19:36 events: VB 615959/615960 (Fidelity via DVC Market) cut $47 → $43/pt (200 pts Dec/Jun UY, 2042 deeds, score 60/67, ranks 277/154 — ROFR bait, not a pick); new Fidelity mirrors BWV 616787 (160 Oct UY $115), SSR 616790 (100 Jun UY $100), AKV 616791 (100 Jun UY $110) all show 0 points before 2028 — score 0; new DVC Resale Market Riviera RRC2380 (200 Dec UY $120, not resale-Aulani-eligible). Gone: DVC Sales BWV BW437 (the all-zero listing), RV354, DVC Market 616214 — none were picks. Broker alert emails (last 2 h): none. Fixes: none. *(Previous run 18:45: SSR90421 filled in, #1 Sept 2BR.)*
 
 All figures are the model's estimates for **September 2027, 6 nights, Standard view** (check-in Sep 12), best exit,
 including 4.5 % interest on tied-up cash. Ranked by savings vs renting the same points at $25/pt.
@@ -56,6 +56,8 @@ VCL OKW 4301740000155635003 leads ($6.0k, borrows 156), then **new SSR SSR90420*
 Also: Aulani [616395 (DVC Market)](https://dvcmarket.com/dvc-resale/aulani/200-points/616395) **cut $115 → $105** (200 pts Oct UY, 400 in Oct-2026 incl. 200 banked; +$3.4k flip on $23.2k) — score 75.5, not on a Sept list (Oct-2026 points expire Sep 30, 2027 so they'd cover Sept 2027 but at $105 it doesn't beat the picks above).
 
 ## Scraper health & fixes
+
+**19:36 run (review-dispatched): all 10 sources ok** (DVC Market 823, DVC Resale Market 494, DVC Shop 235, DVC Resale Experts 100, DVC Sales 75). No fixes made.
 
 **18:36 run (review-dispatched): all 10 sources ok**. No scheduled cron since 16:48. DVC Sales BW437 shows all-zero point availability on the broker page itself (not an adapter bug). No fixes made.
 
