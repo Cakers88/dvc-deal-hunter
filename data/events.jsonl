@@ -4239,3 +4239,4 @@
 {"t": "2026-11-05T11:36:40+00:00", "uid": "dvcsales:AK832", "event": "new"}
 {"t": "2026-11-05T11:36:40+00:00", "uid": "dvcsales:AU386", "event": "gone", "last": {"price": 9600.0, "price_per_point": 96.0, "availability": "available"}}
 {"t": "2026-11-05T11:36:40+00:00", "uid": "dvcsales:AU389", "event": "gone", "last": {"price": 28500.0, "price_per_point": 95.0, "availability": "available"}}
+{"t": "2026-11-05T12:36:30+00:00", "uid": "dvcresalemarket:BWB3428", "event": "price_change", "changes": {"price": [31250.0, 29750.0], "price_per_point": [125.0, 119.0], "status_raw": ["New", "Reduced"]}}
