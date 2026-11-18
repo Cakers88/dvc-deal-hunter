@@ -6009,3 +6009,43 @@
 {"t": "2026-11-17T17:42:20+00:00", "uid": "dvcstore:AR100-08-0720", "event": "gone", "last": {"price": 10200.0, "price_per_point": 102.0, "availability": "available"}}
 {"t": "2026-11-17T17:42:20+00:00", "uid": "dvcstore:SS160-12-1013-2", "event": "gone", "last": {"price": 16000.0, "price_per_point": 100.0, "availability": "available"}}
 {"t": "2026-11-17T17:42:20+00:00", "uid": "vacationclublife:4301740000134407021", "event": "gone", "last": {"price": 10000.0, "price_per_point": 50.0, "availability": "available"}}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcresalemarket:AU73542", "event": "status_change", "changes": {"availability": ["pending", "available"], "status_raw": ["Offer Accepted", "BONUS! FULL POINTS FOR 2026 WITH NO DUES!"]}}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcmarket:617104", "event": "new"}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcresalemarket:OKB5135", "event": "new"}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcresalemarket:OKB5127", "event": "new"}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcmarket:617103", "event": "new"}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcsales:SS1310", "event": "price_change", "changes": {"price": [19800.0, 19600.0], "price_per_point": [99.0, 98.0]}}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcstore:SS050-08-1103", "event": "status_change", "changes": {"availability": ["pending", "sold"], "status_raw": ["sale pending", "sold"]}}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcmarket:616791", "event": "price_change", "changes": {"price": [11000.0, 10500.0], "price_per_point": [110.0, 105.0]}}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcresalemarket:SSA8609", "event": "status_change", "changes": {"status_raw": ["Offer Accepted", "Sale Pending"]}}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcmarket:616214", "event": "new", "relisted": true, "gone_at": "2026-11-05T19:36:06+00:00", "changes": {}}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcresalemarket:OKB5130", "event": "new"}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcresalemarket:RR62365", "event": "status_change", "changes": {"status_raw": ["Offer Accepted", "Sale Pending"]}}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcresalemarket:AK96584", "event": "new"}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcresalemarket:BWB3495", "event": "status_change", "changes": {"status_raw": ["Offer Accepted", "Sale Pending"]}}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcresalemarket:BWE3460", "event": "status_change", "changes": {"status_raw": ["Offer Accepted", "Sale Pending"]}}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcbyresale:C702LA1", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["Available", "Sale Pending"]}}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcsales:CC283", "event": "new"}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcmarket:617106", "event": "new"}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcresalemarket:BWG3438", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["Small Contract", "Sale Pending"]}}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcresaleexperts:VGF03959", "event": "new"}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcshop:POLY519BM", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["New", "Sale Pending"]}}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcmarket:614702", "event": "new"}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcsales:PV413", "event": "new"}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcresalemarket:GFB3383", "event": "new"}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcresalemarket:PLB4692", "event": "price_change", "changes": {"price": [19000.0, 18500.0], "price_per_point": [190.0, 185.0], "status_raw": ["New", "Reduced"]}}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcshop:GC150LBF1", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["New", "Sale Pending"]}}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcmarket:613519", "event": "gone", "last": {"price": 10000.0, "price_per_point": 50.0, "availability": "available"}}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcresaleexperts:VGF92560", "event": "gone", "last": {"price": 51000.0, "price_per_point": 170.0, "availability": "available"}}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcresalemarket:AKB5625", "event": "gone", "last": {"price": 22800.0, "price_per_point": 114.0, "availability": "pending"}}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcresalemarket:AKE6562", "event": "gone", "last": {"price": 3810.0, "price_per_point": 127.0, "availability": "pending"}}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcresalemarket:BC22514", "event": "gone", "last": {"price": 32400.0, "price_per_point": 135.0, "availability": "pending"}}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcresalemarket:RR82279", "event": "gone", "last": {"price": 16750.0, "price_per_point": 134.0, "availability": "pending"}}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcsales:AK808", "event": "gone", "last": {"price": 17600.0, "price_per_point": 110.0, "availability": "available"}}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcsales:BR243", "event": "gone", "last": {"price": 26700.0, "price_per_point": 89.0, "availability": "available"}}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcstore:AK050-06-1103", "event": "gone", "last": {"price": 6250.0, "price_per_point": 125.0, "availability": "sold"}}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcstore:AK100-12-1021-2", "event": "gone", "last": {"price": 12400.0, "price_per_point": 124.0, "availability": "available"}}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcstore:BC160-02-0915", "event": "gone", "last": {"price": 24000.0, "price_per_point": 150.0, "availability": "sold"}}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcstore:OKW050-12-1012", "event": "gone", "last": {"price": 4600.0, "price_per_point": 92.0, "availability": "pending"}}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcstore:RV200-10-1112", "event": "gone", "last": {"price": 25200.0, "price_per_point": 126.0, "availability": "sold"}}
+{"t": "2026-11-18T00:03:48+00:00", "uid": "dvcstore:SS100-08-1103", "event": "gone", "last": {"price": 9800.0, "price_per_point": 98.0, "availability": "sold"}}
