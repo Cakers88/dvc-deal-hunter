@@ -6184,3 +6184,15 @@
 {"t": "2026-11-19T04:16:30+00:00", "uid": "dvcresalemarket:GFG3396", "event": "new"}
 {"t": "2026-11-19T04:16:30+00:00", "uid": "dvcresalemarket:GC31868", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["New", "Offer Accepted"]}}
 {"t": "2026-11-19T04:16:30+00:00", "uid": "dvcsales:SS1310", "event": "gone", "last": {"price": 19600.0, "price_per_point": 98.0, "availability": "available"}}
+{"t": "2026-11-19T13:35:46+00:00", "uid": "dvcmarket:617131", "event": "new"}
+{"t": "2026-11-19T13:35:46+00:00", "uid": "dvcresalemarket:AU73606", "event": "new"}
+{"t": "2026-11-19T13:35:46+00:00", "uid": "dvcshop:OKW265LBF1", "event": "status_change", "changes": {"status_raw": ["New", "Low But Firm"]}}
+{"t": "2026-11-19T13:35:46+00:00", "uid": "dvcresalemarket:AK76515", "event": "status_change", "changes": {"status_raw": ["Offer Accepted", "Sale Pending"]}}
+{"t": "2026-11-19T13:35:46+00:00", "uid": "dvcsales:RV354", "event": "price_change", "changes": {"price": [22000.0, 21600.0], "price_per_point": [110.0, 108.0]}}
+{"t": "2026-11-19T13:35:46+00:00", "uid": "dvcmarket:617132", "event": "new"}
+{"t": "2026-11-19T13:35:46+00:00", "uid": "dvcresalemarket:AK26522", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["BONUS! FULL POINTS FOR 2026 WITH NO DUES!", "Offer Accepted"]}}
+{"t": "2026-11-19T13:35:46+00:00", "uid": "dvcmarket:617139", "event": "new"}
+{"t": "2026-11-19T13:35:46+00:00", "uid": "dvcresalemarket:GC71872", "event": "new"}
+{"t": "2026-11-19T13:35:46+00:00", "uid": "dvcmarket:616054", "event": "gone", "last": {"price": 13390.0, "price_per_point": 103.0, "availability": "available"}}
+{"t": "2026-11-19T13:35:46+00:00", "uid": "dvcmarket:616751", "event": "gone", "last": {"price": 31020.0, "price_per_point": 141.0, "availability": "available"}}
+{"t": "2026-11-19T13:35:46+00:00", "uid": "dvcshop:SSR590SR", "event": "gone", "last": {"price": 19110.0, "price_per_point": 91.0, "availability": "pending"}}
