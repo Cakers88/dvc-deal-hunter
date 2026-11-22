@@ -6442,3 +6442,9 @@
 {"t": "2026-11-22T08:48:18+00:00", "uid": "dvcresalemarket:SS98673", "event": "gone", "last": {"price": 31320.0, "price_per_point": 116.0, "availability": "pending"}}
 {"t": "2026-11-22T08:48:18+00:00", "uid": "dvcresalemarket:SSE8715", "event": "gone", "last": {"price": 16830.0, "price_per_point": 99.0, "availability": "pending"}}
 {"t": "2026-11-22T08:48:18+00:00", "uid": "dvcresalemarket:VB72641", "event": "gone", "last": {"price": 4050.0, "price_per_point": 75.0, "availability": "pending"}}
+{"t": "2026-11-22T16:45:30+00:00", "uid": "dvcsales:AK837", "event": "new"}
+{"t": "2026-11-22T16:45:30+00:00", "uid": "dvcresalemarket:OKE5111", "event": "status_change", "changes": {"status_raw": ["Offer Accepted", "Sale Pending"]}}
+{"t": "2026-11-22T16:45:30+00:00", "uid": "dvcresalemarket:SS88781", "event": "new"}
+{"t": "2026-11-22T16:45:30+00:00", "uid": "dvcresalemarket:SS88780", "event": "new"}
+{"t": "2026-11-22T16:45:30+00:00", "uid": "dvcresalemarket:OK24974", "event": "status_change", "changes": {"availability": ["available", "pending"], "status_raw": ["Small Contract", "Offer Accepted"]}}
+{"t": "2026-11-22T16:45:30+00:00", "uid": "dvcsales:AK811", "event": "gone", "last": {"price": 38520.0, "price_per_point": 107.0, "availability": "available"}}
